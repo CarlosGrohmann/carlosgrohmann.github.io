@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Beautiful Jekyll | MIT license | Copyright Dean Attali 2016 -->
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, viewport-fit=cover">
+
+  <title>Blog</title>
+
+  <meta name="author" content="Carlos H. Grohmann" />
+
+  
+
+  <link rel="alternate" type="application/rss+xml" title="Prof. Carlos H. Grohmann - Personal website of Prof. Carlos H. Grohmann (IEE-USP, Brazil)" href="/feed.xml" />
+
+  
+
+  
+
+  
+
+
+  
+    
+      
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css" />
+
+
+    
+  
+
+  
+    
+      <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    
+      <link rel="stylesheet" href="/css/bootstrap-social.css" />
+    
+      <link rel="stylesheet" href="/css/main.css" />
+    
+  
+
+  
+    
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
+    
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
+    
+  
+
+  
+
+  
+
+  
+
+    <!-- Facebook OpenGraph tags -->
+  
+
+  
+  <meta property="og:title" content="Blog" />
+  
+
+   
+  <meta property="og:description" content="{% for post in paginator.posts %} {{ post.title }} {% if post.subtitle %} {{ post.subtitle }} {% endif %} Posted on {{ post.date | date: &quot;%B %-d, %Y&quot; }} {% if post.image %} {% endif %} {{ post.excerpt | strip_html | xml_escape | truncatewords: site.excerpt_length }} {% assign excerpt_word_count =...">
+  
+
+
+  <meta property="og:type" content="website" />
+
+  
+  <meta property="og:url" content="http://localhost:4000/blog/page2/" />
+  <link rel="canonical" href="http://localhost:4000/blog/page2/" />
+  
+
+  
+  <meta property="og:image" content="http://localhost:4000/img/doodle_crop.jpg" />
+  
+
+
+  <!-- Twitter summary cards -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@" />
+  <meta name="twitter:creator" content="@" />
+
+  
+  <meta name="twitter:title" content="Blog" />
+  
+
+  
+  <meta name="twitter:description" content="{% for post in paginator.posts %} {{ post.title }} {% if post.subtitle %} {{ post.subtitle }} {% endif %} Posted on {{ post.date | date: &quot;%B %-d, %Y&quot; }} {% if post.image %} {% endif %} {{ post.excerpt | strip_html | xml_escape | truncatewords: site.excerpt_length }} {% assign excerpt_word_count =...">
+  
+
+  
+  <meta name="twitter:image" content="http://localhost:4000/img/doodle_crop.jpg" />
+  
+
+  
+
+  
+
+</head>
+
+
+  <body>
+
+    
+
+  
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+        <a class="navbar-brand" href="http://localhost:4000">Prof. Carlos H. Grohmann</a>
+      
+    </div>
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+      
+        
+          <li>
+            
+
+
+
+
+
+  
+  <a href="/index">Home</a>
+
+
+
+
+          </li>
+        
+        
+        
+          <li class="navlinks-container">
+            <a class="navlinks-parent" href="javascript:void(0)">About Me</a>
+            <div class="navlinks-children">
+              
+                
+                  
+
+
+
+
+
+  
+  <a href="/aboutme">Bio|CV</a>
+
+
+
+
+                
+              
+                
+                  
+
+
+
+
+
+  
+  <a href="/photos">Photos</a>
+
+
+
+
+                
+              
+                
+                  
+
+
+
+
+
+  
+  <a href="/gmaps">Map</a>
+
+
+
+
+                
+              
+            </div>
+          </li>
+        
+        
+        
+          <li class="navlinks-container">
+            <a class="navlinks-parent" href="javascript:void(0)">Research</a>
+            <div class="navlinks-children">
+              
+                
+                  
+
+
+
+
+
+  
+  <a href="/grants">Projects</a>
+
+
+
+
+                
+              
+                
+                  
+
+
+
+
+
+  
+  <a href="/students">Students</a>
+
+
+
+
+                
+              
+                
+                  
+
+
+
+
+
+  
+  <a rel="noopener noreferrer" target="_blank" href="https://spamlab.github.io">SPAM!(Lab)</a>
+
+
+
+
+                
+              
+            </div>
+          </li>
+        
+        
+        
+          <li>
+            
+
+
+
+
+
+  
+  <a href="/publications">Publications</a>
+
+
+
+
+          </li>
+        
+        
+        
+          <li class="navlinks-container">
+            <a class="navlinks-parent" href="javascript:void(0)">Blog</a>
+            <div class="navlinks-children">
+              
+                
+                  
+
+
+
+
+
+  
+  <a href="/blog">Posts</a>
+
+
+
+
+                
+              
+                
+                  
+
+
+
+
+
+  
+  <a href="/tags">Tags</a>
+
+
+
+
+                
+              
+            </div>
+          </li>
+        
+        
+        
+          <li>
+            
+
+
+
+
+
+  
+  <a href="/search">?</a>
+
+
+
+
+          </li>
+        
+        
+      </ul>
+    </div>
+
+	
+	<div class="avatar-container">
+	  <div class="avatar-img-border">
+	    <a href="http://localhost:4000">
+	      <img class="avatar-img" src="/img/doodle_crop.jpg" />
+		</a>
+	  </div>
+	</div>
+	
+
+  </div>
+</nav>
+
+
+    <!-- TODO this file has become a mess, refactor it -->
+
+
+
+
+
+<header class="header-section ">
+
+<div class="intro-header no-img">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <div class="page-heading">
+          <h1>Blog</h1>
+		  
+		  
+		  
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</header>
+
+
+
+
+
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <div class="posts-list">
+  
+  <article class="post-preview">
+    <a href="/http:/carlosgrohmann.com/termos-academicos-portugues-ingles/">
+	  <h2 class="post-title">Termos acadêmicos (português-inglês)</h2>
+
+	  
+    </a>
+
+    <p class="post-meta">
+      Posted on January 5, 2016
+    </p>
+
+    <div class="post-entry-container">
+      
+      <div class="post-entry">
+        Hoje achei uma lista bem interessante de termos utilizados na Academia e suas traduções em inglês. O original está aqui. A lista é claramente voltada ao inglês dos EUA, e encontrei alguns termos traduzidos incorretamente. Por exemplo, enquanto que no Brasil defende-se uma Dissertação de Mestrado e uma Tese de...
+        
+        
+          <a href="/http:/carlosgrohmann.com/termos-academicos-portugues-ingles/" class="post-read-more">[Read&nbsp;More]</a>
+        
+      </div>
+    </div>
+
+    
+
+   </article>
+  
+  <article class="post-preview">
+    <a href="/http:/carlosgrohmann.com/grass-brew-python-osx/">
+	  <h2 class="post-title">Working with GRASS-7.0 and homebrew python on OS X</h2>
+
+	  
+    </a>
+
+    <p class="post-meta">
+      Posted on December 25, 2015
+    </p>
+
+    <div class="post-entry-container">
+      
+      <div class="post-entry">
+        Sometimes getting all the software you need for Scientific analysis updated and running smoothly in OS X can be a bit annoying. For most things, there’s Homebrew (a nice post on setting your Mac for Scientific analysis with Python and homebrew is this one.) And if you’re into GIS, you...
+        
+        
+          <a href="/http:/carlosgrohmann.com/grass-brew-python-osx/" class="post-read-more">[Read&nbsp;More]</a>
+        
+      </div>
+    </div>
+
+    
+
+   </article>
+  
+  <article class="post-preview">
+    <a href="/http:/carlosgrohmann.com/regional-scale-analysis-of-dems-resample-and-derive-or-derive-and-resample-paper-review/">
+	  <h2 class="post-title">resample and derive or derive and resample? [paper review]</h2>
+
+	  
+    </a>
+
+    <p class="post-meta">
+      Posted on December 15, 2015
+    </p>
+
+    <div class="post-entry-container">
+      
+      <div class="post-entry">
+        Working with Digital Elevation Models (DEMs) have became a standard practice in scientific disciplines related to the physical environment, from geomorphology, geology, to biogeography and climate modeling. The Shuttle Radar Topography Mission (SRTM - Farr et al., 2007) and ASTER GDEM (Tachikawa et al., 2011) provide a near-global to global...
+        
+        
+          <a href="/http:/carlosgrohmann.com/regional-scale-analysis-of-dems-resample-and-derive-or-derive-and-resample-paper-review/" class="post-read-more">[Read&nbsp;More]</a>
+        
+      </div>
+    </div>
+
+    
+
+   </article>
+  
+  <article class="post-preview">
+    <a href="/http:/carlosgrohmann.com/espeleo-resgate-mambai/">
+	  <h2 class="post-title">Curso de Espeleo Resgate - Mambaí, GO</h2>
+
+	  
+    </a>
+
+    <p class="post-meta">
+      Posted on September 28, 2015
+    </p>
+
+    <div class="post-entry-container">
+      
+      <div class="post-entry">
+        Entre 06 e 13 de setembro deste ano (2015, caso você esteja lendo do futuro) ocorreu mais uma edição do Curso de Formação em Espeleo Resgate, em parceira com o Espeleo Socorro Francês (SSF - Spéléo Secours Français). O curso foi organizado (e muito bem organizado) pelos nossos amigos do...
+        
+        
+          <a href="/http:/carlosgrohmann.com/espeleo-resgate-mambai/" class="post-read-more">[Read&nbsp;More]</a>
+        
+      </div>
+    </div>
+
+    
+
+   </article>
+  
+  <article class="post-preview">
+    <a href="/http:/carlosgrohmann.com/expedicao-serra-do-araca-2015/">
+	  <h2 class="post-title">Expedição Serra do Aracá 2015</h2>
+
+	  
+    </a>
+
+    <p class="post-meta">
+      Posted on July 21, 2015
+    </p>
+
+    <div class="post-entry-container">
+      
+      <div class="post-entry">
+        Durante 15 dias em julho/2015 o Grupo Bambuí de Pesquisas Espeleológicas (GBPE) em conjunto com o La Venta Esplorazioni Geografiche organizaram uma expedição de exploração espeleológica/geográfica na Serra do Aracá, norte do Estado do Amazonas. A equipe contou com cinco brasileiros e quatro italianos:
+
+
+        
+        
+          <a href="/http:/carlosgrohmann.com/expedicao-serra-do-araca-2015/" class="post-read-more">[Read&nbsp;More]</a>
+        
+      </div>
+    </div>
+
+    
+
+   </article>
+  
+  <article class="post-preview">
+    <a href="/http:/carlosgrohmann.com/making-a-where-ive-been-map-with-leaflet/">
+	  <h2 class="post-title">Making a "where I've been" map with Leaflet</h2>
+
+	  
+    </a>
+
+    <p class="post-meta">
+      Posted on May 27, 2014
+    </p>
+
+    <div class="post-entry-container">
+      
+      <div class="post-entry">
+        In my website I have a map of some (most? all?) of the places I’ve been (here). When I first started with this idea (in 2011, I guess), I used GoogleMaps API and all the points of the map had to be defined in the HTML file, which was very...
+        
+        
+          <a href="/http:/carlosgrohmann.com/making-a-where-ive-been-map-with-leaflet/" class="post-read-more">[Read&nbsp;More]</a>
+        
+      </div>
+    </div>
+
+    
+
+   </article>
+  
+  <article class="post-preview">
+    <a href="/http:/carlosgrohmann.com/gsa2014-call-for-abstracts-geological-and-geomorphological-applications-of-digital-terrain-analysis/">
+	  <h2 class="post-title">Gsa2014 Call For Abstracts Geological And Geomorphological Applications Of Digital Terrain Analysis</h2>
+
+	  
+    </a>
+
+    <p class="post-meta">
+      Posted on May 6, 2014
+    </p>
+
+    <div class="post-entry-container">
+      
+      <div class="post-entry">
+        Geological Society of America Annual Meeting  Vancouver, B.C, Canada, 19-22 October 2014
+
+
+        
+        
+          <a href="/http:/carlosgrohmann.com/gsa2014-call-for-abstracts-geological-and-geomorphological-applications-of-digital-terrain-analysis/" class="post-read-more">[Read&nbsp;More]</a>
+        
+      </div>
+    </div>
+
+    
+
+   </article>
+  
+  <article class="post-preview">
+    <a href="/http:/carlosgrohmann.com/lattes-batima/">
+	  <h2 class="post-title">E como coloca isso no Lattes, Bátima?</h2>
+
+	  
+    </a>
+
+    <p class="post-meta">
+      Posted on January 24, 2014
+    </p>
+
+    <div class="post-entry-container">
+      
+      <div class="post-entry">
+        Ah, o Lattes. Mais cedo ou mais tarde, todos aqueles que optam pelos caminhos acadêmicos descobrem a importância de manter um currículo Lattes atualizado. E não é pra menos, afinal o danado serve pra tudo. Vai pedir bolsa? Lattes. Vai prestar concurso? Lattes. Vai pedir projeto de pesquisa? Lattes. Recebeu um...
+        
+        
+          <a href="/http:/carlosgrohmann.com/lattes-batima/" class="post-read-more">[Read&nbsp;More]</a>
+        
+      </div>
+    </div>
+
+    
+
+   </article>
+  
+  <article class="post-preview">
+    <a href="/http:/carlosgrohmann.com/correio/">
+	  <h2 class="post-title">Correio!</h2>
+
+	  
+    </a>
+
+    <p class="post-meta">
+      Posted on January 22, 2014
+    </p>
+
+    <div class="post-entry-container">
+      
+      <div class="post-entry">
+        Hoje tinha uma surpresa na caixa de correio! Na verdade estava lá faz tempo, mas como eu quase nunca abro a tal caixinha, só hoje que fui ver o cartão de natal que o Iscoti mandou, junto com um chaveiro muito legal. Olha só:    Valeu Iscoti!
+
+        
+        
+          <a href="/http:/carlosgrohmann.com/correio/" class="post-read-more">[Read&nbsp;More]</a>
+        
+      </div>
+    </div>
+
+    
+
+   </article>
+  
+  <article class="post-preview">
+    <a href="/http:/carlosgrohmann.com/ossos2014/">
+	  <h2 class="post-title">Expedição Toca dos Ossos 2013-2014</h2>
+
+	  
+    </a>
+
+    <p class="post-meta">
+      Posted on January 10, 2014
+    </p>
+
+    <div class="post-entry-container">
+      
+      <div class="post-entry">
+        Mais um fim de ano, mais uma expedição. Desta vez a escolhida foi a Toca dos Ossos, no município de Ourolândia, Bahia. Por muitos anos o padrão fortemente labiríntico da caverna, aliado às grandes descobertas na Toca da boa Vista (entre outras), manteve as equipes de topografia distantes de Ourolândia....
+        
+        
+          <a href="/http:/carlosgrohmann.com/ossos2014/" class="post-read-more">[Read&nbsp;More]</a>
+        
+      </div>
+    </div>
+
+    
+
+   </article>
+  
+</div>
+
+
+<ul class="pager main-pager">
+  
+  <li class="previous">
+    <a href="/blog/">&larr; Newer Posts</a>
+  </li>
+  
+  
+  <li class="next">
+    <a href="/blog/page3/">Older Posts &rarr;</a>
+  </li>
+  
+</ul>
+
+
+	    
+    </div>
+  </div>
+</div>
+
+
+    <footer>
+  <div class="container beautiful-jekyll-footer">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center footer-links"><li><a href="/feed.xml" title="RSS"><span class="fa-stack fa-lg" aria-hidden="true">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+                </span>
+                <span class="sr-only">RSS</span>
+              </a>
+            </li><li><a href="https://github.com/CarlosGrohmann" title="GitHub"><span class="fa-stack fa-lg" aria-hidden="true">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                </span>
+                <span class="sr-only">GitHub</span>
+              </a>
+            </li><li><a href="https://twitter.com/CarlosGrohmann" title="Twitter"><span class="fa-stack fa-lg" aria-hidden="true">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                </span>
+                <span class="sr-only">Twitter</span>
+              </a>
+            </li><li><a href="https://www.instagram.com/CarlosGrohmann" title="Instagram"><span class="fa-stack fa-lg" aria-hidden="true">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+                </span>
+                <span class="sr-only">Instagram</span>
+              </a>
+            </li></ul>
+      <p class="copyright text-muted">
+      Carlos H. Grohmann
+      &nbsp;&bull;&nbsp;
+      2019
+
+      
+      &nbsp;&bull;&nbsp;
+      <a href="http://localhost:4000">carlosgrohmann.com</a>
+      
+
+      
+      </p>
+          <!-- Please don't remove this, keep my open source work credited :) -->
+    <p class="theme-by text-muted">
+      Theme by
+      <a href="https://deanattali.com/beautiful-jekyll/">beautiful-jekyll</a>
+    </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  
+    
+
+
+
+
+
+
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+      <script>
+      	if (typeof jQuery == 'undefined') {
+      	  document.write('<script src="/js/jquery-1.11.2.min.js"></scr' + 'ipt>');
+      	}
+      </script>
+    
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+	<script src="/js/bootstrap.min.js"></script>
+    
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+	<script src="/js/main.js"></script>
+    
+  
+
+
+  
+  </body>
+</html>

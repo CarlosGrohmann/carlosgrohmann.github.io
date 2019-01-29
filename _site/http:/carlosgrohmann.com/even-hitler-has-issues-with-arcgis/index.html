@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Beautiful Jekyll | MIT license | Copyright Dean Attali 2016 -->
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, viewport-fit=cover">
+
+  <title>Even Hitler has issues with ArcGIS</title>
+
+  <meta name="author" content="Carlos H. Grohmann" />
+
+  
+
+  <link rel="alternate" type="application/rss+xml" title="Prof. Carlos H. Grohmann - Personal website of Prof. Carlos H. Grohmann (IEE-USP, Brazil)" href="/feed.xml" />
+
+  
+
+  
+
+  
+
+
+  
+    
+      
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css" />
+
+
+    
+  
+
+  
+    
+      <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    
+      <link rel="stylesheet" href="/css/bootstrap-social.css" />
+    
+      <link rel="stylesheet" href="/css/main.css" />
+    
+  
+
+  
+    
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
+    
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
+    
+  
+
+  
+
+  
+
+  
+
+    <!-- Facebook OpenGraph tags -->
+  
+
+  
+  <meta property="og:title" content="Even Hitler has issues with ArcGIS" />
+  
+
+   
+  <meta property="og:description" content="After the video on Hitler’s issues with peer-review, this time we see him complaining about ArcGIS. Sounds so familiar… not sure why…
+
+Me? I’ll keep using GRASS, QGIS, R, and other FOSS-GIS.
+
+[youtube=http://www.youtube.com/watch?v=0b04pKO_698&amp;amp;hl=en_US&amp;amp;fs=1&amp;amp;]
+
+Comments
+
+開會討論: hello~~........................................
+
+lady: 謝謝你的分享，真的太用心了≧﹏≦........................................
+
+lesson: 這個讚唷!!值得佳賞與獎勵~~●ω●........................................
+
+">
+  
+
+
+  <meta property="og:type" content="website" />
+
+  
+  <meta property="og:url" content="http://localhost:4000/http:/carlosgrohmann.com/even-hitler-has-issues-with-arcgis/" />
+  <link rel="canonical" href="http://localhost:4000/http:/carlosgrohmann.com/even-hitler-has-issues-with-arcgis/" />
+  
+
+  
+  <meta property="og:image" content="http://localhost:4000/img/doodle_crop.jpg" />
+  
+
+
+  <!-- Twitter summary cards -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@" />
+  <meta name="twitter:creator" content="@" />
+
+  
+  <meta name="twitter:title" content="Even Hitler has issues with ArcGIS" />
+  
+
+  
+  <meta name="twitter:description" content="After the video on Hitler’s issues with peer-review, this time we see him complaining about ArcGIS. Sounds so familiar… not sure why…
+
+Me? I’ll keep using GRASS, QGIS, R, and other FOSS-GIS.
+
+[youtube=http://www.youtube.com/watch?v=0b04pKO_698&amp;amp;hl=en_US&amp;amp;fs=1&amp;amp;]
+
+Comments
+
+開會討論: hello~~........................................
+
+lady: 謝謝你的分享，真的太用心了≧﹏≦........................................
+
+lesson: 這個讚唷!!值得佳賞與獎勵~~●ω●........................................
+
+">
+  
+
+  
+  <meta name="twitter:image" content="http://localhost:4000/img/doodle_crop.jpg" />
+  
+
+  
+
+  
+
+</head>
+
+
+  <body>
+
+    
+
+  
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+        <a class="navbar-brand" href="http://localhost:4000">Prof. Carlos H. Grohmann</a>
+      
+    </div>
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+      
+        
+          <li>
+            
+
+
+
+
+
+  
+  <a href="/index">Home</a>
+
+
+
+
+          </li>
+        
+        
+        
+          <li class="navlinks-container">
+            <a class="navlinks-parent" href="javascript:void(0)">About Me</a>
+            <div class="navlinks-children">
+              
+                
+                  
+
+
+
+
+
+  
+  <a href="/aboutme">Bio|CV</a>
+
+
+
+
+                
+              
+                
+                  
+
+
+
+
+
+  
+  <a href="/photos">Photos</a>
+
+
+
+
+                
+              
+                
+                  
+
+
+
+
+
+  
+  <a href="/gmaps">Map</a>
+
+
+
+
+                
+              
+            </div>
+          </li>
+        
+        
+        
+          <li class="navlinks-container">
+            <a class="navlinks-parent" href="javascript:void(0)">Research</a>
+            <div class="navlinks-children">
+              
+                
+                  
+
+
+
+
+
+  
+  <a href="/grants">Projects</a>
+
+
+
+
+                
+              
+                
+                  
+
+
+
+
+
+  
+  <a href="/students">Students</a>
+
+
+
+
+                
+              
+                
+                  
+
+
+
+
+
+  
+  <a rel="noopener noreferrer" target="_blank" href="https://spamlab.github.io">SPAM!(Lab)</a>
+
+
+
+
+                
+              
+            </div>
+          </li>
+        
+        
+        
+          <li>
+            
+
+
+
+
+
+  
+  <a href="/publications">Publications</a>
+
+
+
+
+          </li>
+        
+        
+        
+          <li class="navlinks-container">
+            <a class="navlinks-parent" href="javascript:void(0)">Blog</a>
+            <div class="navlinks-children">
+              
+                
+                  
+
+
+
+
+
+  
+  <a href="/blog">Posts</a>
+
+
+
+
+                
+              
+                
+                  
+
+
+
+
+
+  
+  <a href="/tags">Tags</a>
+
+
+
+
+                
+              
+            </div>
+          </li>
+        
+        
+        
+          <li>
+            
+
+
+
+
+
+  
+  <a href="/search">?</a>
+
+
+
+
+          </li>
+        
+        
+      </ul>
+    </div>
+
+	
+	<div class="avatar-container">
+	  <div class="avatar-img-border">
+	    <a href="http://localhost:4000">
+	      <img class="avatar-img" src="/img/doodle_crop.jpg" />
+		</a>
+	  </div>
+	</div>
+	
+
+  </div>
+</nav>
+
+
+    <!-- TODO this file has become a mess, refactor it -->
+
+
+
+
+
+<header class="header-section ">
+
+<div class="intro-header no-img">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <div class="post-heading">
+          <h1>Even Hitler has issues with ArcGIS</h1>
+		  
+		  
+		  
+		  <span class="post-meta">Posted on February 24, 2010</span>
+		  
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</header>
+
+
+
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+
+      
+
+      <article role="main" class="blog-post">
+        <p>After the video on Hitler’s issues with <a rel="noopener noreferrer" target="_blank" href="http://digitalelevation.blogspot.com/2009/12/peer-review-process.html">peer-review</a>, this time we see him complaining about ArcGIS. Sounds so familiar… not sure why…</p>
+
+<p>Me? I’ll keep using <a rel="noopener noreferrer" target="_blank" href="http://grass.osgeo.org/">GRASS</a>, <a rel="noopener noreferrer" target="_blank" href="http://qgis.org/">QGIS</a>, <a rel="noopener noreferrer" target="_blank" href="http://www.r-project.org/">R</a>, and other <a rel="noopener noreferrer" target="_blank" href="http://www.osgeo.org/">FOSS-GIS</a>.</p>
+
+<p>[youtube=http://www.youtube.com/watch?v=0b04pKO_698&amp;hl=en_US&amp;fs=1&amp;]</p>
+
+<h2 id="comments">Comments</h2>
+
+<p><strong><a href="#9" title="2010-03-07 04:02:42">開會討論</a>:</strong> hello~~<a rel="noopener noreferrer" target="_blank" href="http://showmeme.com">.</a><a rel="noopener noreferrer" target="_blank" href="http://girl0204.com">.</a><a rel="noopener noreferrer" target="_blank" href="http://baby-1007.info">.</a><a rel="noopener noreferrer" target="_blank" href="http://www.meimeidx.com">.</a><a rel="noopener noreferrer" target="_blank" href="http://www.meimei-love.info">.</a><a rel="noopener noreferrer" target="_blank" href="http://www.girl0204.com">.</a><a rel="noopener noreferrer" target="_blank" href="http://www.talkdx.com">.</a><a rel="noopener noreferrer" target="_blank" href="http://meimei-1007.info">.</a><a rel="noopener noreferrer" target="_blank" href="http://www.girl-ez.info">.</a><a rel="noopener noreferrer" target="_blank" href="http://www.live-222.info">.</a><a rel="noopener noreferrer" target="_blank" href="http://www.live-baby.info">.</a><a rel="noopener noreferrer" target="_blank" href="http://meimeivideo.com">.</a><a rel="noopener noreferrer" target="_blank" href="http://live-69.info">.</a><a rel="noopener noreferrer" target="_blank" href="http://girl-ez.info">.</a><a rel="noopener noreferrer" target="_blank" href="http://www.girlhi.com">.</a><a rel="noopener noreferrer" target="_blank" href="http://www.girl-dx.info">.</a><a rel="noopener noreferrer" target="_blank" href="http://talkmiss.com">.</a><a rel="noopener noreferrer" target="_blank" href="http://sexy-5320.info">.</a><a rel="noopener noreferrer" target="_blank" href="http://meimei-mm.info">.</a><a rel="noopener noreferrer" target="_blank" href="http://www.meimei-080.info">.</a><a rel="noopener noreferrer" target="_blank" href="http://www.meimei-173.info">.</a><a rel="noopener noreferrer" target="_blank" href="http://www.baby-333.info">.</a><a rel="noopener noreferrer" target="_blank" href="http://baby-888.info">.</a><a rel="noopener noreferrer" target="_blank" href="http://www.girl-meimei.info">.</a><a rel="noopener noreferrer" target="_blank" href="http://meimei-miss.info">.</a><a rel="noopener noreferrer" target="_blank" href="http://baby-530.info">.</a><a rel="noopener noreferrer" target="_blank" href="http://www.meimei-1007.info">.</a><a rel="noopener noreferrer" target="_blank" href="http://www.girl-mm.info">.</a><a rel="noopener noreferrer" target="_blank" href="http://baby-333.info">.</a><a rel="noopener noreferrer" target="_blank" href="http://meimei-080.info">.</a><a rel="noopener noreferrer" target="_blank" href="http://memehi.com">.</a><a rel="noopener noreferrer" target="_blank" href="http://www.meimeigirl.com">.</a><a rel="noopener noreferrer" target="_blank" href="http://www.dx-video.info">.</a><a rel="noopener noreferrer" target="_blank" href="http://live-asia.info">.</a><a rel="noopener noreferrer" target="_blank" href="http://girl-free.info">.</a><a rel="noopener noreferrer" target="_blank" href="http://live-666.info">.</a><a rel="noopener noreferrer" target="_blank" href="http://girl-meme.info">.</a><a rel="noopener noreferrer" target="_blank" href="http://www.active%20meimei-758.info">.</a><a rel="noopener noreferrer" target="_blank" href="http://www.live-top.info">.</a><a rel="noopener noreferrer" target="_blank" href="http://www.baby-0401.info">.</a></p>
+
+<p><strong><a href="#10" title="2010-03-23 09:06:58">lady</a>:</strong> 謝謝你的分享，真的太用心了≧﹏≦<a rel="noopener noreferrer" target="_blank" href="http://888.hivideoez.info">.</a><a rel="noopener noreferrer" target="_blank" href="http://love1.twadultez.com">.</a><a rel="noopener noreferrer" target="_blank" href="http://sogo1.twadultez.com">.</a><a rel="noopener noreferrer" target="_blank" href="http://room.hilove758.info">.</a><a rel="noopener noreferrer" target="_blank" href="http://s59.twadulttube.com">.</a><a rel="noopener noreferrer" target="_blank" href="http://monkey.twlive0401.info">.</a><a rel="noopener noreferrer" target="_blank" href="http://orz2.jpbaby758.info">.</a><a rel="noopener noreferrer" target="_blank" href="http://playboy2.jpkisstube.info">.</a><a rel="noopener noreferrer" target="_blank" href="http://173show.hivideoez.info">.</a><a rel="noopener noreferrer" target="_blank" href="http://woman.twbaby5366.net">.</a><a rel="noopener noreferrer" target="_blank" href="http://love104.twkiss333.info">.</a><a rel="noopener noreferrer" target="_blank" href="http://666.twbaby555.net">.</a><a rel="noopener noreferrer" target="_blank" href="http://love2.jpkissgo.info">.</a><a rel="noopener noreferrer" target="_blank" href="http://play3.jpkissgo.info">.</a><a rel="noopener noreferrer" target="_blank" href="http://tw181.hivideolove.info">.</a><a rel="noopener noreferrer" target="_blank" href="http://0401.hivideomeimei.info">.</a><a rel="noopener noreferrer" target="_blank" href="http://room.hivideomeimei.info">.</a><a rel="noopener noreferrer" target="_blank" href="http://ut3.hivideolove.info">.</a><a rel="noopener noreferrer" target="_blank" href="http://gogo.twlive999.info">.</a><a rel="noopener noreferrer" target="_blank" href="http://girl5320.twgoodmm.com">.</a><a rel="noopener noreferrer" target="_blank" href="http://sex3.hivideoshow.info">.</a><a rel="noopener noreferrer" target="_blank" href="http://show.jpkisstw.info">.</a><a rel="noopener noreferrer" target="_blank" href="http://livesex.twlive0401.info">.</a><a rel="noopener noreferrer" target="_blank" href="http://69.hivideotalk.info">.</a><a rel="noopener noreferrer" target="_blank" href="http://show3.hivideoshow.info">.</a><a rel="noopener noreferrer" target="_blank" href="http://adult.twlive258.info">.</a><a rel="noopener noreferrer" target="_blank" href="http://tw183.jpkissgo.info">.</a><a rel="noopener noreferrer" target="_blank" href="http://sexy2.jpkissgo.info">.</a><a rel="noopener noreferrer" target="_blank" href="http://tw181.twadultez.com">.</a><a rel="noopener noreferrer" target="_blank" href="http://4w.twgoodmm.com">.</a><a rel="noopener noreferrer" target="_blank" href="http://loveu.hivideoshow.info">.</a><a rel="noopener noreferrer" target="_blank" href="http://520sex.twbaby555.net">.</a><a rel="noopener noreferrer" target="_blank" href="http://uthome2.jpkisstube.info">.</a><a rel="noopener noreferrer" target="_blank" href="http://18jack.hivideomeimei.info">.</a><a rel="noopener noreferrer" target="_blank" href="http://uthome3.twgoodmiss.com">.</a><a rel="noopener noreferrer" target="_blank" href="http://6k.jpkisstw.info">.</a><a rel="noopener noreferrer" target="_blank" href="http://sex3.jpkisstube.info">.</a><a rel="noopener noreferrer" target="_blank" href="http://e35.twgoodmm.com">.</a><a rel="noopener noreferrer" target="_blank" href="http://loveu.hivideolove.info">.</a><a rel="noopener noreferrer" target="_blank" href="http://shop.himoviehi.info">.</a></p>
+
+<p><strong><a href="#11" title="2010-03-23 09:09:52">lesson</a>:</strong> 這個讚唷!!值得佳賞與獎勵~~●ω●<a rel="noopener noreferrer" target="_blank" href="http://sogo.twkiss258.info">.</a><a rel="noopener noreferrer" target="_blank" href="http://showlive1.hivideolove.info">.</a><a rel="noopener noreferrer" target="_blank" href="http://tw1.hivideoshow.info">.</a><a rel="noopener noreferrer" target="_blank" href="http://18tw.twbaby555.net">.</a><a rel="noopener noreferrer" target="_blank" href="http://room.twadultez.com">.</a><a rel="noopener noreferrer" target="_blank" href="http://85.jpkiss222.info">.</a><a rel="noopener noreferrer" target="_blank" href="http://girl.twsexy66.info">.</a><a rel="noopener noreferrer" target="_blank" href="http://sogo.hivideoshow.info">.</a><a rel="noopener noreferrer" target="_blank" href="http://dvd.twlivemiss.info">.</a><a rel="noopener noreferrer" target="_blank" href="http://ss3691.twgoodmm.com">.</a><a rel="noopener noreferrer" target="_blank" href="http://gogo.twsexy66.info">.</a><a rel="noopener noreferrer" target="_blank" href="http://176.hivideoez.info">.</a><a rel="noopener noreferrer" target="_blank" href="http://s11.twgoodmm.com">.</a><a rel="noopener noreferrer" target="_blank" href="http://panda.twbaby555.net">.</a><a rel="noopener noreferrer" target="_blank" href="http://ut.twadulttop.com">.</a><a rel="noopener noreferrer" target="_blank" href="http://mm.twadultez.com">.</a><a rel="noopener noreferrer" target="_blank" href="http://twadultez.com">.</a><a rel="noopener noreferrer" target="_blank" href="http://play.twlive0401.info">.</a><a rel="noopener noreferrer" target="_blank" href="http://sex5203.jpkissgo.info">.</a><a rel="noopener noreferrer" target="_blank" href="http://utshow2.twgoodmiss.com">.</a><a rel="noopener noreferrer" target="_blank" href="http://play2.twadultez.com">.</a><a rel="noopener noreferrer" target="_blank" href="http://sex.twlivemiss.info">.</a><a rel="noopener noreferrer" target="_blank" href="http://sexy.jpbaby758.info">.</a><a rel="noopener noreferrer" target="_blank" href="http://love1043.twadulttop.com">.</a><a rel="noopener noreferrer" target="_blank" href="http://eut.twgoodmm.com">.</a><a rel="noopener noreferrer" target="_blank" href="http://sex5201.twbaby5366.net">.</a><a rel="noopener noreferrer" target="_blank" href="http://dudusex.himovieadult.info">.</a><a rel="noopener noreferrer" target="_blank" href="http://24h.twgoodmm.com">.</a><a rel="noopener noreferrer" target="_blank" href="http://adult.hivideotalk.info">.</a><a rel="noopener noreferrer" target="_blank" href="http://tw1.twadulttop.com">.</a><a rel="noopener noreferrer" target="_blank" href="http://jpkissgood.info">.</a><a rel="noopener noreferrer" target="_blank" href="http://shop.twkiss333.info">.</a><a rel="noopener noreferrer" target="_blank" href="http://nice2.jpbaby758.info">.</a><a rel="noopener noreferrer" target="_blank" href="http://ok7.twadultfree.com">.</a><a rel="noopener noreferrer" target="_blank" href="http://666.hivideomeimei.info">.</a><a rel="noopener noreferrer" target="_blank" href="http://uthome2.twadulttop.com">.</a><a rel="noopener noreferrer" target="_blank" href="http://h1.twadulttube.com">.</a><a rel="noopener noreferrer" target="_blank" href="http://play.twkiss5366.info">.</a><a rel="noopener noreferrer" target="_blank" href="http://chat.twlivemiss.info">.</a><a rel="noopener noreferrer" target="_blank" href="http://mm.twlivememe.info">.</a></p>
+
+
+      </article>
+
+      
+
+      
+        <!-- Check if any share-links are active -->
+
+
+
+
+<section id = "social-share-section">
+  <span class="sr-only">Share: </span>
+
+  
+  <!--- Share on Twitter -->
+    <a rel="noopener noreferrer" target="_blank" href="https://twitter.com/intent/tweet?text=Even+Hitler+has+issues+with+ArcGIS+http://localhost:4000/http:/carlosgrohmann.com/even-hitler-has-issues-with-arcgis/"
+      class="btn btn-social-icon btn-twitter" title="Share on Twitter">
+      <span class="fa fa-fw fa-twitter" aria-hidden="true"></span>
+      <span class="sr-only">Twitter</span>
+    </a>
+  
+
+  
+  <!--- Share on Facebook -->
+    <a rel="noopener noreferrer" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/http:/carlosgrohmann.com/even-hitler-has-issues-with-arcgis/"
+      class="btn btn-social-icon btn-facebook" title="Share on Facebook">
+      <span class="fa fa-fw fa-facebook" aria-hidden="true"></span>
+      <span class="sr-only">Facebook</span>
+    </a>
+  
+
+  
+  <!--- Share on Google Plus -->
+    <a rel="noopener noreferrer" target="_blank" href="https://plus.google.com/share?url=http://localhost:4000/http:/carlosgrohmann.com/even-hitler-has-issues-with-arcgis/"
+      class="btn btn-social-icon btn-google" title="Share on Google+">
+      <span class="fa fa-fw fa-google-plus" aria-hidden="true"></span>
+      <span class="sr-only">Google+</span>
+    </a>
+  
+
+  
+
+</section>
+
+
+
+      
+
+      <ul class="pager blog-pager">
+        
+        <li class="previous">
+          <a href="/http:/carlosgrohmann.com/the-scale-of-everything/" data-toggle="tooltip" data-placement="top" title="The scale of everything">&larr; Previous Post</a>
+        </li>
+        
+        
+        <li class="next">
+          <a href="/http:/carlosgrohmann.com/global-warming-proof/" data-toggle="tooltip" data-placement="top" title="Global Warming Proof">Next Post &rarr;</a>
+        </li>
+        
+      </ul>
+
+      
+        <div class="disqus-comments">
+          
+        </div>
+          
+        <div class="staticman-comments">
+          
+
+        </div>
+      
+    </div>
+  </div>
+</div>
+
+
+    <footer>
+  <div class="container beautiful-jekyll-footer">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center footer-links"><li><a href="/feed.xml" title="RSS"><span class="fa-stack fa-lg" aria-hidden="true">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+                </span>
+                <span class="sr-only">RSS</span>
+              </a>
+            </li><li><a href="https://github.com/CarlosGrohmann" title="GitHub"><span class="fa-stack fa-lg" aria-hidden="true">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                </span>
+                <span class="sr-only">GitHub</span>
+              </a>
+            </li><li><a href="https://twitter.com/CarlosGrohmann" title="Twitter"><span class="fa-stack fa-lg" aria-hidden="true">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                </span>
+                <span class="sr-only">Twitter</span>
+              </a>
+            </li><li><a href="https://www.instagram.com/CarlosGrohmann" title="Instagram"><span class="fa-stack fa-lg" aria-hidden="true">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+                </span>
+                <span class="sr-only">Instagram</span>
+              </a>
+            </li></ul>
+      <p class="copyright text-muted">
+      Carlos H. Grohmann
+      &nbsp;&bull;&nbsp;
+      2019
+
+      
+      &nbsp;&bull;&nbsp;
+      <a href="http://localhost:4000">carlosgrohmann.com</a>
+      
+
+      
+      </p>
+          <!-- Please don't remove this, keep my open source work credited :) -->
+    <p class="theme-by text-muted">
+      Theme by
+      <a href="https://deanattali.com/beautiful-jekyll/">beautiful-jekyll</a>
+    </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  
+    
+
+
+
+
+
+
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+      <script>
+      	if (typeof jQuery == 'undefined') {
+      	  document.write('<script src="/js/jquery-1.11.2.min.js"></scr' + 'ipt>');
+      	}
+      </script>
+    
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+	<script src="/js/bootstrap.min.js"></script>
+    
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+	<script src="/js/main.js"></script>
+    
+  
+
+
+  
+  </body>
+</html>

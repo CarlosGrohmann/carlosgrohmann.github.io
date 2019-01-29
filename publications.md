@@ -1,0 +1,394 @@
+---
+layout: page
+title: Publications
+subtitle: 
+published: true
+---
+<sup>[Journal Articles](#papers) · [Book Chapters](#chapters) · [Abstracts](#abstracts) · [Datasets](#datasets) · [GRASS-GIS](#grass) · [Magazine Articles](#magazine) · [Other Documents](#other)</sup>  
+
+Here you can find a list of the papers I published, as well as some selected conference abstracts.  
+
+I intend to keep an open access copy of my papers at at [EarthArXiv.org](https://osf.io/preprints/eartharxiv/), which means that you can read them even without a subscription to the publisher, but be warned that most of these are [postprints](http://www.sherpa.ac.uk/romeoinfo.html) created from the "accepted manuscript" (that is, they have the exact same content of the final published version, but lack the typesetting of the publisher). For a final version, please refer to the publisher's website (which may be behind a paywall).  
+
+And if you use reference managers (you should), you can get a file with all my publications: [BibTex](http://en.wikipedia.org/wiki/Bibtex) format: [here](../../downloads/CarlosGrohmann_papers.bib) (good for [JabRef](http://jabref.sourceforge.net/), [Zotero](http://www.zotero.org/) and a bazillion others) [RIS](http://en.wikipedia.org/wiki/RIS_\(file_format\)) format: [here](../../downloads/CarlosGrohmann_papers.ris) (good for [Mendeley](http://www.mendeley.com/) or [EndNote](http://endnote.com/)) (last update: 2017-05-30) 
+
+&nbsp;  
+&nbsp;  
+<a name="papers"></a>
+## Journal Articles  
+<!-- <a name="jsaes"></a>Garcia, G.P.B.; Grohmann, C.H., 2018. DEM-based Geomorphological Mapping and Landforms Characterization of a Tropical Karst Environment in Southeastern Brazil. _in review_  
+Preprint available at EarthArXiv: [https://doi.org/10.31223/osf.io/t6y2e](https://doi.org/10.31223/osf.io/t6y2e) (open access)
+ -->
+
+<a name="bjgeo"></a>
+33 - Viana, C.D.; Grohmann, C.H.; Busarello, M.T.S.; Garcia, G.P.B., 2019. Structural analysis of clastic dikes using Structure from Motion - Multi-View Stereo: a case-study in the Paraná Basin, southeastern Brazil.  
+_Brazilian Journal of Geology_, 48(4):839-852.  
+[https://doi.org/10.1590/2317-4889201800201898](https://doi.org/10.1590/2317-4889201800201898) (open access)  
+
+<a name="rse_tdx"></a>
+32 - Grohmann, C.H., 2018. Evaluation of TanDEM-X DEMs on selected Brazilian sites: comparison with SRTM, ASTER GDEM and ALOS AW3D30.  
+_Remote Sensing of Environment_, 212C:121-133.    
+[https://doi.org/10.1016/j.rse.2018.04.043](https://doi.org/10.1016/j.rse.2018.04.043)  
+Preprint available at [arXiv:1709.05016](https://arxiv.org/abs/1709.05016) [physics.geo-ph] (open access)  
+
+<a name="espl_fruta"></a>
+31 - Sawakuchi, A.O., Jain, M., Mineli, T.D., Nogueira, L., Bertassoli Jr., D.J., Häggi, C., Sawakuchi, H.O., Pupim, F.N., Grohmann, C.H., Chiessi, C.M., Zabel, M., Mulitza, S., Mazoca, C.E.M., 2018. Luminescence of quartz and feldspar fingerprints provenance and correlates with the source area denudation in the Amazon River basin.  
+_Earth and Planetary Science Letters_, 492:152-162.  
+[https://doi.org/10.1016/j.epsl.2018.04.006](https://doi.org/10.1016/j.epsl.2018.04.006)   
+
+<a name="bjgeo_editorial"></a>
+30 - Riccomini, C., Grohmann, C.H., 2017. Increasing the international visibility of the Brazilian Journal of Geology.  
+_Brazilian Journal of Geology_. 47:1  
+<http://dx.doi.org/10.1590/2317-4889201700000471> (open access)   
+
+<a name="rauen2016"></a>
+29 - Rauen, V.A.B., Grohmann, C.H., Goveia, S.S., Mioto, C.L., Marini, L.B., Paranhos Filho, A.C., Almeida, M.H.T., 2016. Geotecnologias na Determinação da Vulnerabilidade à Ocorrência de Vazamentos em Redes de Abastecimento de Água.  
+_Geociências (São Paulo)_. 35:414-425  
+[http://www.revistageociencias.com.br](http://www.revistageociencias.com.br/35/volume35_3.html) (open access)  
+
+<a name="gdem_isprs"></a>
+28 - Grohmann, C.H., 2016. Comparative Analysis of Global Digital Elevation Models and Ultra-Prominent Mountain Peaks.  
+_ISPRS Annals of Photogrammetry, Remote Sensing and Spatial Information Sciences_. III-4:17-23  
+[http://dx.doi.org/10.5194/isprs-annals-III-4-17-2016](http://dx.doi.org/10.5194/isprs-annals-III-4-17-2016) (open access)  
+python script available on [GitHub](https://github.com/CarlosGrohmann/scripts_papers)  
+
+<a name="viana2016"></a>
+27 - Viana, C.D., Endlein, A., Campanha, G.A.C., Grohmann, C.H., 2016. Algorithms for Extraction of Structural Attitudes from 3D Outcrop Models.  
+_Computers & Geosciences_. 90:112-122  
+[http://dx.doi.org/10.1016/j.cageo.2016.02.017](http://dx.doi.org/10.1016/j.cageo.2016.02.017)  
+
+<a name="sawakuchi_xingu"></a>
+26 - Sawakuchi, A.O., Hartmann, G.A., Sawakuchi, H.O., Pupim, F.N., Bertassoli, D.J., Parra, M., Antinao, J.L., Sousa, L.M., Sabaj Pérez, M.H., Oliveira, P.E., Santos, R.A., Savian, J.F., Grohmann, C.H., Medeiros, V.B., McGlue, M.M., Bicudo, D.C., and Faustino, S.B., 2015. The Volta Grande do Xingu: reconstruction of past environments and forecasting of future scenarios of a unique Amazonian fluvial landscape.  
+_Scientific Driling_: 20:21-32  
+<http://dx.doi.org/10.5194/sd-20-21-2015> (open access)  
+
+<a name="bjgeo_giannini"></a>
+25 - Giannini, P.C.F., Assine, M.L., Basilici, G., Grohmann, C.H., 2015. Excerpts from the 6th Latin American Congress of Sedimentology.  
+_Brazilian Journal of Geology_. 45:1-2  
+<http://dx.doi.org/10.1590/2317-4889201545000> (open access)  
+
+<a name="cageo_derivatives"></a>
+24 - Grohmann, C.H., 2015. Effects of spatial resolution on slope and aspect derivation for regional-scale analysis.  
+_Computers & Geosciences_. 77:111-117  
+[http://dx.doi.org/10.1016/j.cageo.2015.02.003](http://dx.doi.org/10.1016/j.cageo.2015.02.003)  
+python script available on [GitHub](https://github.com/CarlosGrohmann/scripts_papers)  
+Postprint available at [EarthArXiv.org](https://dx.doi.org/10.17605/OSF.IO/6XC29) (open access)  
+
+<a name="nascimento_sedgeo"></a>
+23 - Nascimento Jr., D.R., Sawakuchi, A.O., Guedes, C.C.F., Giannini, P.C.F., Grohmann, C.H., Ferreira, M.P., 2015. Provenance of sands from the confluence of the Amazon and Madeira rivers based on detrital heavy minerals and luminescence of quartz and feldspar.  
+_Sedimentary Geology_. 316:1-12.  
+<http://doi.org/10.1016/j.sedgeo.2014.11.002>  
+
+<a name="tennant"></a>
+22 – Tennant, J.P. et al., 2014. Open Letter to The American Association for the Advancement of Science.  
+_The Winnower_. 2:e140813.35294.  
+http://dx.doi.org/10.15200/winn.140813.35294 (open access)  
+
+<a name="quaglio"></a>
+21 – Quaglio, F., Grohmann, C.H., Fairchild, T.R., 2014. Como fazer relatórios em Geociências [How to Prepare Undergraduate Term Papers in Geosciences].  
+_Terrae Didatica_. 10:105-120.  
+http://www.ige.unicamp.br/terraedidatica (open access)  
+
+<a name="henriquepinto_jom"></a>
+20 – Henrique-Pinto, R., Janasi, V.A., Carvalho, B.B., Calado, B.O., Grohmann, C.H., 2014. Integrated geological map of the São Roque Domain, North of São Paulo City – Brazil.  
+_Journal of Maps_. 10:434-439.  
+http://dx.doi.org/10.1080/17445647.2014.883338  
+[Map](http://dx.doi.org/10.6084/m9.figshare.963467) (via figshare)  
+
+<a name="jacques"></a>
+19 – Jacques, P.D., Salvador, E.D., Machado, R., Grohmann, C.H., Nummer, A.R., 2014. Application of morphometry in neotectonic studies at the eastern edge of the Paraná Basin, Santa Catarina State, Brazil.  
+_Geomorphology_. 213:13-23.  
+http://dx.doi.org/10.1016/j.geomorph.2013.12.037  
+
+<a name="ijgis_editorial"></a>
+18 - Grohmann, C.H., Miliaresis, G., 2013. Geological applications of digital terrain analysis. (Editorial, Special Issue – Geological applications of digital terrain analysis).  
+_International Journal of Geographical Information Science_. 27:1403-1404  
+[http://dx.doi.org/10.1080/13658816.2013.772617](http://dx.doi.org/10.1080/13658816.2013.772617)  
+Postprint available at [EarthArXiv.org](https://dx.doi.org/10.17605/OSF.IO/HDM87) (open access)  
+
+<a name="geomorph_dunes"></a>
+17 - Grohmann, C.H., Sawakuchi, A.O., 2013. Influence of cell size on volume calculation using digital terrain models: a case of coastal dune fields.  
+_Geomorphology_. 180-181:130-136  
+[http://dx.doi.org/10.1016/j.geomorph.2012.09.012](http://dx.doi.org/10.1016/j.geomorph.2012.09.012)  
+Postprint available at [EarthArXiv.org](https://dx.doi.org/10.17605/OSF.IO/PR7UM) (open access)  
+
+<a name="geousp_doc"></a>
+16 - Grohmann, C.H., Riccomini, C., 2012. Análise digital de terreno e evolução de longo-termo de relevo do centro-leste brasileiro.  
+_Geologia USP, Série Científica_. 12:129-150  
+[http://dx.doi.org/10.5327/Z1519-874X2012000200009](http://dx.doi.org/10.5327/Z1519-874X2012000200009) (open access)  
+Also available at [EarthArXiv.org](https://dx.doi.org/10.17605/OSF.IO/EKB4N) (open access)  
+
+<a name="simoes"></a>
+15 – Simoes, M.G., Quaglio, F., Warren, L.V., Anelli, L.E., Stone, P., Riccomini, C., Grohmann, C.H., Chamani, M.A.C. 2012. Permian non-marine bivalves of the Falkland Islands and their palaeoenvironmental significance.  
+_Alcheringa: An Australasian Journal of Palaeontology_. 36:543-554  
+http://dx.doi.org/10.1080/03115518.2012.688682  
+
+<a name="hess_isobase"></a>
+14 - Grohmann, C.H., Riccomini, C., Chamani, M.A., 2011. Regional scale analysis of landform configuration with base-level (isobase) maps.  
+_Hydrology and Earth System Sciences_. 15:1493-1504   
+[http://dx.doi.org/10.5194/hess-15-1493-2011](http://dx.doi.org/10.5194/hess-15-1493-2011) (open access)  
+
+<a name="ieee_roughness"></a>
+13 - Grohmann, C.H., Smith, M.J., Riccomini, C., 2011. Multiscale Analysis of Topographic Surface Roughness in the Midland Valley, Scotland.  
+_Geoscience and Remote Sensing, IEEE Transactions on_. 49:1200-1213   
+[http://dx.doi.org/10.1109/TGRS.2010.2053546](http://dx.doi.org/10.1109/TGRS.2010.2053546)   
+Postprint available at [EarthArXiv.org](https://dx.doi.org/10.17605/OSF.IO/2DSJN) (open access)   
+
+<a name="hessd_isobase"></a>
+12 – Grohmann, C.H., Riccomini, C., Chamani, M.A., 2011. Regional scale analysis of landform configuration with base-level maps.  
+_Hydrology and Earth System Sciences Discussions_. 8:89-110  
+http://dx.doi.org/10.5194/hessd-8-89-2011 (open access)  
+
+<a name="rodrigues"></a>
+11 – Rodrigues, S.W.O., Archanjo, C.J., Grohmann, C.H., 2010. Quantificação da deformação finita nos metagranitóides Cariris Velhos na Região de Alagoa Grande (PB).  
+_Geologia USP_. Série Científica.10:57-78  
+http://dx.doi.org/10.5327/Z1519-874X2010000300005 (open access)  
+Also available at [EarthArXiv.org](https://dx.doi.org/10.17605/OSF.IO/2DSJN) (open access)  
+
+<a name="rodrigues"></a>
+10 – Campanha, G.A.C., Warren, L., Boggiani, P.C., Grohmann, C.H., Cáceres, A.A., 2010. Structural analysis of the Itapucumí Group in the Vallemí region, northern Paraguay: Evidence of a new Brasiliano/Pan-African mobile belt.  
+_Journal of South American Earth Sciences_. 30:1-11  
+http://dx.doi.org/10.1016/j.jsames.2010.04.001  
+
+<a name="cageo_mw"></a>
+09 - Grohmann, C.H., Riccomini,C., 2009. Comparison of roving-window and search-window techniques for characterising landscape morphometry.  
+_Computers & Geosciences_. 35:2164-2169   
+[http://dx.doi.org/10.1016/j.cageo.2008.12.014](http://dx.doi.org/10.1016/j.cageo.2008.12.014)   
+Postprint available at [EarthArXiv.org](https://dx.doi.org/10.17605/OSF.IO/X6BRZ) (open access)   
+
+<a name="rga_srtm"></a>
+08 - Grohmann, C.H., Riccomini, C., Steiner, S.S., 2008. Aplicações dos modelos de elevação SRTM em geomorfologia.  
+_Revista Geográfica Acadêmica_ 2:73-83   
+[https://revista.ufrr.br/rga](https://revista.ufrr.br/rga/issue/view/176) (open access)    
+Postprint available at [EarthArXiv.org](https://dx.doi.org/10.17605/OSF.IO/AMN2T) (open access)   
+
+<a name="ijgis_krig"></a>
+07 - Grohmann, C.H., Steiner, S.S., 2008. SRTM resample with Short Distance-Low Nugget Kriging.  
+_International Journal of Geographical Information Science_, 22 (8):895-906.   
+[http://dx.doi.org/10.1080/13658810701730152](http://dx.doi.org/10.1080/13658810701730152)   
+Postprint available at [EarthArXiv.org](https://dx.doi.org/10.17605/OSF.IO/BG8A7) (open access)   
+
+<a name="cageo_mapc"></a>
+06 - Grohmann, C.H., Riccomini, C., Alves, F.M., 2007. SRTM-based morphometric analysis of the Poços de Caldas Alkaline Massif, southeastern Brazil.  
+_Computers & Geosciences_, 33 (1):10-19.   
+[http://dx.doi.org/10.1016/j.cageo.2006.05.002](http://dx.doi.org/10.1016/j.cageo.2006.05.002)   
+Postprint available at [EarthArXiv.org](https://dx.doi.org/10.17605/OSF.IO/HZ4CT) (open access)   
+
+<a name="grass_krig"></a>
+05 - Grohmann,C.H., 2006. Resampling SRTM 03”-data with kriging.  
+_GRASS/OSGeo News_, 4:20-25.  
+[https://grass.osgeo.org/newsletter](http://grass.osgeo.org/newsletter/GRASS_OSGeo_News_vol4-roughness.pdf)  
+Available at [EarthArXiv.org](https://dx.doi.org/10.17605/OSF.IO/DBX3J) (open access)  
+
+<a name="grass_rough"></a>
+04 - Grohmann,C.H., 2006. r.roughness – a new tool for morphometric analysis in GRASS.  
+_GRASS/OSGeo News_, 4:17-19.  
+[https://grass.osgeo.org/newsletter](http://grass.osgeo.org/newsletter/GRASS_OSGeo_News_vol4-srtm.pdf)  
+Available at [EarthArXiv.org](https://dx.doi.org/10.17605/OSF.IO/FSVMW) (open access)  
+
+<a name="cageo_trend"></a>
+03 - Grohmann, C.H., 2005. Trend-surfaces analysis of morphometric parameters: A case study in southeastern Brazil.  
+_Computers & Geosciences_, 31 (8):1007-1014.   
+[http://dx.doi.org/10.1016/j.cageo.2005.02.011](http://dx.doi.org/10.1016/j.cageo.2005.02.011)   
+Postprint available at [EarthArXiv.org](https://dx.doi.org/10.17605/OSF.IO/9VU72) (open access)   
+
+<a name="cageo_morpho"></a>
+02 - Grohmann, C.H. 2004. Morphometric analysis in Geographic Information Systems: applications of free software GRASS and R.  
+_Computers & Geosciences_, 30 (9-10):1055-1067.   
+[http://dx.doi.org/10.1016/j.cageo.2004.08.002](http://dx.doi.org/10.1016/j.cageo.2004.08.002)   
+Postprint available at [EarthArXiv.org](https://dx.doi.org/10.17605/OSF.IO/6VX7C) (open access)   
+
+<a name="jsames_nappe"></a>
+01 – Santos, L.P., Campos Neto, M.C., Grohmann, C. H., 2004. Metamorphic path constrained by metapelitic rocks from the inner Aiuruoca-Andrelândia Nappe, south of the São Francisco Craton, SE Brazil.  
+_Journal of South American Earth Sciences_,16(8):725-741.  
+http://dx.doi.org/10.1016/j.jsames.2003.12.006  
+
+
+&nbsp;  
+&nbsp; 
+<a name="chapters"></a>
+## Book Chapters  
+Grohmann, C.H., Hargitai, H. 2015. Surface Roughness.  
+In: Hargitai, H., Kereszturi, A. (eds). Encyclopedia of Planetary Landforms.  
+Springer New York.  
+https://doi.org/10.1007/978-1-4614-9213-9_633-1  
+
+Riccomini C., Grohmann, C.H., Sant’Anna, L.G., Hiruma, S.T., 2008. A captura das cabeceiras do Rio Tietê pelo Rio Paraíba do Sul.  
+In: Modenesi-Gauttieri, M.C.; Bartorelli, A.; Lisboa, M.A.L.; Mantesso-Neto, V.(Org.). O geógrafo Aziz Nacib Ab’Sáber.  
+Beca.  
+
+
+&nbsp;  
+&nbsp; 
+<a name="chapters"></a>
+## Selected Abstracts  
+
+<a name="sbsr_litchi"></a>
+Grohmann, C.H.; Viana, C.D.; Garcia, G.P.B; Albuquerque, R.W.; Barale, F.; Ferretti, F.A., 2019. Semi-Automatic UAV-based SfM survey of vertical surfaces.  
+_XIX Brazilian Symposium on Remote Sensing_. Santos, SP.  
+
+<a name="sbsr_cunha"></a>
+Garcia, G.P.B; Gomes, E.B.; Viana, C.D.; Grohmann, C.H., 2019. Comparing Terrestrial Laser Scanner and UAV-based photogrammetry to generate a landslide DEM.  
+_XIX Brazilian Symposium on Remote Sensing_. Santos, SP.  
+
+<a name="sbsr_relogio"></a>
+Barale, F.; Grohmann, C.H., 2019. Photoscan x COLMAP: comparação entre DEMs gerados por Structure from Motion--Multi-View Stereo.  
+_XIX Brazilian Symposium on Remote Sensing_. Santos, SP.  
+
+<a name="sbsr_car"></a>
+Albuquerque, R.W.; Ferreira, M.E.; Girão, V.J.; Balieiro, C.P.; Mansur, H.; Costa, J.V.S.; Grohmann, C.H., 2019. Comparação de RPAS e TOPODATA no mapeamento de regiões declivosas previstas no Cadastro Ambiental Rural.  
+_XIX Brazilian Symposium on Remote Sensing_. Santos, SP.  
+
+<a name="sbsr_altura"></a>
+Santos, L.F.; Grohmann, C.H., 2019. Processamento fotogramétrico digital por Structure from Motion de imagens obtidas em voos de diferentes alturas sobre o solo.  
+_XIX Brazilian Symposium on Remote Sensing_. Santos, SP.  
+
+<a name="gmorph"></a>
+Grohmann, C.H.; Viana, C.D.; Busarello, M.T.S.; Garcia, G.P.B., 2018. Structural analysis of clastic dikes based on Structure from Motion/Multi-View Stereo.  
+_Geomorphometry 2018 Conference_. Boulder, CO.  
+Available at PeerJ Preprints  [https://doi.org/10.7287/peerj.preprints.27060v1](https://doi.org/10.7287/peerj.preprints.27060v1) (open access)  
+
+<a name="ram_poznam"></a>
+Grohmann, C.H., 2015. ‘Radiography of the Amazon’ DSM/DTM data: comparative analysis with SRTM, ASTER GDEM.  
+_Geomorphometry 2015_, Poznam, Poland. Proceedings.  
+[PDF](http://geomorphometry.org/system/files/Grohmann2015geomorphometry.pdf) (open access)  
+
+<a name="sbsr_kahwage"></a>
+Kahwage, R.S.N., Grohmann, C.H., 2013. Análise geomorfométrica da região da folha Capão Bonito (SG-22-X-B-III), SE do estado de São Paulo: Implicações neotectônicas na porção sul da Serra de Paranapiacaba e Gráben de Sete Barras.  
+_XVI Brazilian Symposium on Remote Sensing_, Foz do Iguaçu. Anais.  
+[http://dx.doi.org/10.6084/m9.figshare.1037677](http://dx.doi.org/10.6084/m9.figshare.1037677) (PDF via figshare)  
+
+<a name="gmorph_derivatives"></a>
+Grohmann, C.H., 2013. Effects of spatial resolution on slope and aspect derivation for regional-scale analysis.  
+_Geomorphometry 2013_, Nanjing, China. Proceedings.  
+[PDF](http://geomorphometry.org/system/files/Grohmann2013geomorphometry.pdf) (open access)  
+
+<a name="casiquiare_gsa"></a>
+Grohmann, C.H., Riccomini, C., Sawakuchi, A.O., 2012. Tectonic controls on the capture of the Orinoco river and formation of the Casiquiare canal, Venezuela.  
+_GSA Annual Meeting 2012_, Charlotte, North Carolina, USA.
+[PDF](http://carlosgrohmann.com/downloads/Grohmann_eatl_2012_GSA_Casiquiare.pdf)
+Presentation available at figshare: [http://dx.doi.org/10.6084/m9.figshare.4978019.v1](http://dx.doi.org/10.6084/m9.figshare.4978019.v1)
+
+<a name="openstereo_snet"></a>
+Grohmann, C.H., Campanha, G.A.C., Soares Junior, A.D., 2011. OpenStereo: um programa Livre e multiplataforma para análise de dados estruturais.   
+_XIII Simpósio Nacional de Estudos Tectônicos_, Campinas, SP. Anais.   
+[http://dx.doi.org/10.6084/m9.figshare.1037685](http://dx.doi.org/10.6084/m9.figshare.1037685) (PDF via figshare)  
+
+<a name="openstereo_gsa"></a>
+Grohmann, C.H., Campanha, G.A.C., 2010. OpenStereo: Open Source, Cross-Platform Software for Structural Geology Analysis.  
+_AGU Fall Meeting 2010_, San Francisco, California, USA.  
+[PDF](http://carlosgrohmann.com/downloads/Grohmann_Campanha_2010_AGU10_OpenStereo.pdf)  
+
+<a name="gmorph_saga_grass"></a>
+Hengl, T., Grohmann, C.H., Bivand, R.S., Conrad, O., Lobo, A., 2009. SAGA vs GRASS: A Comparative Analysis of the Two Open Source Desktop GIS for the Automated Analysis of Elevation Data.  
+_Geomorphometry 2009_, Zürich, Switzerland. Proceedings.  
+[PDF](http://geomorphometry.org/system/files/hengl2009geomorphometry.pdf) (open access)  
+
+<a name="nappe_abc"></a>
+Grohmann, C.H., Campos Neto, M.C., 2002. Extrusion-related extensional signatures under high-pressure nappe compressional regime.  
+_Anais da Academia Brasileira de Ciências_. 74(3):541-542.  
+[http://dx.doi.org/10.1590/S0001-37652002000300019](http://dx.doi.org/10.1590/S0001-37652002000300019) (open access)
+
+<a name="siicusp_tapagem"></a>
+Carvalho, C.H.G., Karmann, I., 1999. Caracterização Geomorfológica da Serra André Lopes.  
+_VII SIICUSP_, São Paulo, SP. Anais, p.274.  
+[http://dx.doi.org/10.6084/m9.figshare.1089657](http://dx.doi.org/10.6084/m9.figshare.1089657) (PDF via figshare)  
+
+
+&nbsp;  
+&nbsp; 
+<a name="datasets"></a>
+## Datasets
+Grohmann, C.H., 2010. Coastal Dune Fields of Garopaba and Vila Nova, Santa Catarina State, Brazil.  
+_OpenTopography.org_  
+Data provided by FAPESP grant [2009/17675-5](https://bv.fapesp.br/en/auxilios/26282/digital-terrain-analysis-and-remote-sensing-applied-to-geomorphometric-characterization-of-landforms/).  
+[http://dx.doi.org/10.5069/G9DN430Z](http://dx.doi.org/10.5069/G9DN430Z)  
+
+
+&nbsp;  
+&nbsp; 
+<a name="magazine"></a>
+## Magazine Articles
+Grohmann, C.H., 2006. r.roughness – a new tool for morphometric analysis in GRASS-GIS.
+PositionIT, March/April:31-32.
+
+
+&nbsp;  
+&nbsp; 
+<a name="grass"></a>
+## GRASS-GIS Tutorials and Add-ons  
+### Tutorials  
+Geoprocessamento com GRASS-GIS (2016)  
+[http://dx.doi.org/10.6084/m9.figshare.3502184](http://dx.doi.org/10.6084/m9.figshare.3502184) – (via figshare, 80 Mb, updated 26/Jul/2016)  
+Dados de exemplo: links disponíveis no texto.  
+
+Geoprocessamento com Software Livre: GRASS-GIS e QGIS (2012)  
+[http://dx.doi.org/10.6084/m9.figshare.1004165](http://dx.doi.org/10.6084/m9.figshare.1004165) – (via figshare, 21 Mb, updated 12/Oct/2012)  
+Dados de exemplo: links disponíveis no texto.  
+
+A very brief introduction to GRASS-GIS using the fishcamp dataset (2009)  
+[http://dx.doi.org/10.6084/m9.figshare.1004168](http://dx.doi.org/10.6084/m9.figshare.1004168) – (via figshare, 3 Mb, updated 30/Sep/2009)  
+Example data: follow links in text.  
+
+Introdução à Análise Digital de Terreno com GRASS-GIS (2008)  
+[http://dx.doi.org/10.6084/m9.figshare.1004167](http://dx.doi.org/10.6084/m9.figshare.1004167) – (via figshare, 11 Mb, updated 18/Jan/2008)  
+Dados de exemplo: SRTM (.bil) | SRTM (.tif) | SRTM (.hgt) | shapefile  
+
+
+### Add-ons  
+[r.denoise.py](https://github.com/CarlosGrohmann/grass_gis/tree/master/r_denoise_py) – is a port of [r.denoise](http://trac.osgeo.org/grass/browser/grass-addons/grass6/raster/r.denoise/description.html) from bash to python. Originally written by John Stevenson, its purpose is to remove noise (smooth/despeckle) from topographic data, particular DEMs derived from radar data (including SRTM), using Xianfang Sun’s [denoising algorithm](http://www.cs.cf.ac.uk/meshfiltering/index_files/Page342.htm). It is designed to preserve sharp edges and to denoise with minimal changes to the original data.  
+
+[r.roughness.vector.py](http://grasswiki.osgeo.org/wiki/AddOns/GRASS7/raster#r.roughness.vector) – is a python script to calculate the surface roughness of a DEM as vector dispersion, using a moving-window approach [Grohmann et al., 2011. IEEE Trans.Geos.Rem.Sens.](#ieee_roughness).  
+Resulting maps are: Vector Strength (R) and Inverted Fisher’s k parameter. This script is updated for GRASS-GIS version 7. Contributions to the code by Helmut Kudrnovsky.  
+
+(old) [r.roughness](https://github.com/CarlosGrohmann/grass_gis/blob/master/r_roughness_old/r.roughness) – is a GRASS-GIS (versions 6.1 or above) shell script to calculate the surface roughness of a DEM, using r.surf.area and v.surf.rst. (uses **sh** as shell. Use [r.roughness_bash](https://github.com/CarlosGrohmann/grass_gis/blob/master/r_roughness_old/r.roughness_bash), if you run **bash**).  
+
+(old) [r.roughness60](https://github.com/CarlosGrohmann/grass_gis/blob/master/r_roughness_old/r.roughness60) – for GRASS-GIS versions 6.0.x.  
+
+(old) [azimuth.c](http://carlosgrohmann.com/downloads/azimuth2.c) – is a small C program to calculate the azimuth and length of vector lines exported by GRASS-GIS as ASCII files. It is useful for create rose diagrams of lineament maps.
+Improvements on the original code after suggestions by Örs Téglásy, Hungary.  
+
+See all [GRASS AddOns](http://grass.osgeo.org/download/addons/)  
+
+You can also check the code for these AddOns at my [GitHub page](https://github.com/CarlosGrohmann/grass_gis).    
+
+
+
+&nbsp;  
+&nbsp; 
+<a name="other"></a>
+## Other Documents (Mixed Portuguese and English)
+Grohmann, C.H., 2008. Análise digital de terreno do centro-leste brasileiro.  
+Unpublished DSc (PhD) Thesis  
+Institute of Geosciences, University of São Paulo, Brazil. (Mixed Portuguese and English)  
+Available at the University of São Paulo Digital Library.  
+[http://dx.doi.org/10.11606/T.44.2008.tde-03022009-141229](http://dx.doi.org/10.11606/T.44.2008.tde-03022009-141229)
+
+Grohmann, C.H., 2004. Técnicas de geoprocessamento aplicadas a análise morfométrica.  
+Unpublished MSc Thesis  
+Institute of Geosciences, University of São Paulo, Brazil. (Mixed Portuguese and English)  
+Available at the University of São Paulo Digital Library.   
+[http://dx.doi.org/10.11606/D.44.2004.tde-10082006-155540](http://dx.doi.org/10.11606/D.44.2004.tde-10082006-155540)    
+
+Carvalho, C.H. Grohmann, 2001. Assinaturas extensionais relacionadas à extrusão sob regime compressional de nappe de alta pressão.  
+Unpublished undergrad monograph  
+Institute of Geosciences, University of São Paulo, Brazil. (In Portuguese)  
+[http://dx.doi.org/10.6084/m9.figshare.1089658](http://dx.doi.org/10.6084/m9.figshare.1089658) (PDF via figshare)  
+
+Carvalho, C.H.Grohmann, 1999. O carste da Serra André Lopes.  
+Relatório final de Iniciação Científica PIBIC/CNPq.  
+Unpublished undergrad monograph  
+Institute of Geosciences, University of São Paulo, Brazil. (In Portuguese)  
+[http://dx.doi.org/10.6084/m9.figshare.1089656](http://dx.doi.org/10.6084/m9.figshare.1089656) (PDF via figshare)  
+
+
+
+
+
+
+
+
+
+
+
+

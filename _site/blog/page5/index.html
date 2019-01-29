@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Beautiful Jekyll | MIT license | Copyright Dean Attali 2016 -->
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, viewport-fit=cover">
+
+  <title>Blog</title>
+
+  <meta name="author" content="Carlos H. Grohmann" />
+
+  
+
+  <link rel="alternate" type="application/rss+xml" title="Prof. Carlos H. Grohmann - Personal website of Prof. Carlos H. Grohmann (IEE-USP, Brazil)" href="/feed.xml" />
+
+  
+
+  
+
+  
+
+
+  
+    
+      
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css" />
+
+
+    
+  
+
+  
+    
+      <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    
+      <link rel="stylesheet" href="/css/bootstrap-social.css" />
+    
+      <link rel="stylesheet" href="/css/main.css" />
+    
+  
+
+  
+    
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
+    
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
+    
+  
+
+  
+
+  
+
+  
+
+    <!-- Facebook OpenGraph tags -->
+  
+
+  
+  <meta property="og:title" content="Blog" />
+  
+
+   
+  <meta property="og:description" content="{% for post in paginator.posts %} {{ post.title }} {% if post.subtitle %} {{ post.subtitle }} {% endif %} Posted on {{ post.date | date: &quot;%B %-d, %Y&quot; }} {% if post.image %} {% endif %} {{ post.excerpt | strip_html | xml_escape | truncatewords: site.excerpt_length }} {% assign excerpt_word_count =...">
+  
+
+
+  <meta property="og:type" content="website" />
+
+  
+  <meta property="og:url" content="http://localhost:4000/blog/page5/" />
+  <link rel="canonical" href="http://localhost:4000/blog/page5/" />
+  
+
+  
+  <meta property="og:image" content="http://localhost:4000/img/doodle_crop.jpg" />
+  
+
+
+  <!-- Twitter summary cards -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@" />
+  <meta name="twitter:creator" content="@" />
+
+  
+  <meta name="twitter:title" content="Blog" />
+  
+
+  
+  <meta name="twitter:description" content="{% for post in paginator.posts %} {{ post.title }} {% if post.subtitle %} {{ post.subtitle }} {% endif %} Posted on {{ post.date | date: &quot;%B %-d, %Y&quot; }} {% if post.image %} {% endif %} {{ post.excerpt | strip_html | xml_escape | truncatewords: site.excerpt_length }} {% assign excerpt_word_count =...">
+  
+
+  
+  <meta name="twitter:image" content="http://localhost:4000/img/doodle_crop.jpg" />
+  
+
+  
+
+  
+
+</head>
+
+
+  <body>
+
+    
+
+  
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+        <a class="navbar-brand" href="http://localhost:4000">Prof. Carlos H. Grohmann</a>
+      
+    </div>
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+      
+        
+          <li>
+            
+
+
+
+
+
+  
+  <a href="/index">Home</a>
+
+
+
+
+          </li>
+        
+        
+        
+          <li class="navlinks-container">
+            <a class="navlinks-parent" href="javascript:void(0)">About Me</a>
+            <div class="navlinks-children">
+              
+                
+                  
+
+
+
+
+
+  
+  <a href="/aboutme">Bio|CV</a>
+
+
+
+
+                
+              
+                
+                  
+
+
+
+
+
+  
+  <a href="/photos">Photos</a>
+
+
+
+
+                
+              
+                
+                  
+
+
+
+
+
+  
+  <a href="/gmaps">Map</a>
+
+
+
+
+                
+              
+            </div>
+          </li>
+        
+        
+        
+          <li class="navlinks-container">
+            <a class="navlinks-parent" href="javascript:void(0)">Research</a>
+            <div class="navlinks-children">
+              
+                
+                  
+
+
+
+
+
+  
+  <a href="/grants">Projects</a>
+
+
+
+
+                
+              
+                
+                  
+
+
+
+
+
+  
+  <a href="/students">Students</a>
+
+
+
+
+                
+              
+                
+                  
+
+
+
+
+
+  
+  <a rel="noopener noreferrer" target="_blank" href="https://spamlab.github.io">SPAM!(Lab)</a>
+
+
+
+
+                
+              
+            </div>
+          </li>
+        
+        
+        
+          <li>
+            
+
+
+
+
+
+  
+  <a href="/publications">Publications</a>
+
+
+
+
+          </li>
+        
+        
+        
+          <li class="navlinks-container">
+            <a class="navlinks-parent" href="javascript:void(0)">Blog</a>
+            <div class="navlinks-children">
+              
+                
+                  
+
+
+
+
+
+  
+  <a href="/blog">Posts</a>
+
+
+
+
+                
+              
+                
+                  
+
+
+
+
+
+  
+  <a href="/tags">Tags</a>
+
+
+
+
+                
+              
+            </div>
+          </li>
+        
+        
+        
+          <li>
+            
+
+
+
+
+
+  
+  <a href="/search">?</a>
+
+
+
+
+          </li>
+        
+        
+      </ul>
+    </div>
+
+	
+	<div class="avatar-container">
+	  <div class="avatar-img-border">
+	    <a href="http://localhost:4000">
+	      <img class="avatar-img" src="/img/doodle_crop.jpg" />
+		</a>
+	  </div>
+	</div>
+	
+
+  </div>
+</nav>
+
+
+    <!-- TODO this file has become a mess, refactor it -->
+
+
+
+
+
+<header class="header-section ">
+
+<div class="intro-header no-img">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <div class="page-heading">
+          <h1>Blog</h1>
+		  
+		  
+		  
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</header>
+
+
+
+
+
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <div class="posts-list">
+  
+  <article class="post-preview">
+    <a href="/http:/carlosgrohmann.com/nunca-mais-compro-nada-nas-lojas-americanas/">
+	  <h2 class="post-title">Nunca mais compro nada nas Lojas Americanas</h2>
+
+	  
+    </a>
+
+    <p class="post-meta">
+      Posted on July 18, 2010
+    </p>
+
+    <div class="post-entry-container">
+      
+      <div class="post-entry">
+        Essa bizarrice eu tinha que postar. Na primeira vez que comprei nas Lojas Americanas (LA) pela internet, foi um netbook para meu projeto FAPESP. Pesquisei e vi que a LA tinha uma promoção. Fui lá no site e fiz a compra com cartão de crédito. Pouco depois eu recebo um...
+        
+        
+          <a href="/http:/carlosgrohmann.com/nunca-mais-compro-nada-nas-lojas-americanas/" class="post-read-more">[Read&nbsp;More]</a>
+        
+      </div>
+    </div>
+
+    
+
+   </article>
+  
+  <article class="post-preview">
+    <a href="/http:/carlosgrohmann.com/geomorphometry-2011/">
+	  <h2 class="post-title">Geomorphometry 2011</h2>
+
+	  
+    </a>
+
+    <p class="post-meta">
+      Posted on June 6, 2010
+    </p>
+
+    <div class="post-entry-container">
+      
+      <div class="post-entry">
+        Geomorphometry 2011:  Five days of Digital Terrain Analysis (Conference + Workshops) August/September 2011 ESRI Campus Redlands, California, USA http://geomorphometry.org/2011 e-mail: 2011@geomorphometry.org PROGRAM CHAIRS
+
+
+        
+        
+          <a href="/http:/carlosgrohmann.com/geomorphometry-2011/" class="post-read-more">[Read&nbsp;More]</a>
+        
+      </div>
+    </div>
+
+    
+
+   </article>
+  
+  <article class="post-preview">
+    <a href="/http:/carlosgrohmann.com/bsod/">
+	  <h2 class="post-title">BSOD...</h2>
+
+	  
+    </a>
+
+    <p class="post-meta">
+      Posted on May 1, 2010
+    </p>
+
+    <div class="post-entry-container">
+      
+      <div class="post-entry">
+        
+
+
+        
+        
+          <a href="/http:/carlosgrohmann.com/bsod/" class="post-read-more">[Read&nbsp;More]</a>
+        
+      </div>
+    </div>
+
+    
+
+   </article>
+  
+  <article class="post-preview">
+    <a href="/http:/carlosgrohmann.com/the-matrix-xp/">
+	  <h2 class="post-title">The Matrix XP</h2>
+
+	  
+    </a>
+
+    <p class="post-meta">
+      Posted on April 19, 2010
+    </p>
+
+    <div class="post-entry-container">
+      
+      <div class="post-entry">
+        Not exactly new, but I loved it! The very end is FTW!
+
+
+        
+        
+          <a href="/http:/carlosgrohmann.com/the-matrix-xp/" class="post-read-more">[Read&nbsp;More]</a>
+        
+      </div>
+    </div>
+
+    
+
+   </article>
+  
+  <article class="post-preview">
+    <a href="/http:/carlosgrohmann.com/nerd-dork-and-geek-explained-by-a-venn-diagram/">
+	  <h2 class="post-title">Nerd, Dork, and Geek Explained by a Venn Diagram</h2>
+
+	  
+    </a>
+
+    <p class="post-meta">
+      Posted on March 26, 2010
+    </p>
+
+    <div class="post-entry-container">
+      
+      <div class="post-entry">
+        **By[ Great White Snark
+
+
+        
+        
+          <a href="/http:/carlosgrohmann.com/nerd-dork-and-geek-explained-by-a-venn-diagram/" class="post-read-more">[Read&nbsp;More]</a>
+        
+      </div>
+    </div>
+
+    
+
+   </article>
+  
+  <article class="post-preview">
+    <a href="/http:/carlosgrohmann.com/global-warming-proof/">
+	  <h2 class="post-title">Global Warming Proof</h2>
+
+	  
+    </a>
+
+    <p class="post-meta">
+      Posted on March 25, 2010
+    </p>
+
+    <div class="post-entry-container">
+      
+      <div class="post-entry">
+        I know this pic is a bit dated but.. it’s the truth!
+
+
+        
+        
+          <a href="/http:/carlosgrohmann.com/global-warming-proof/" class="post-read-more">[Read&nbsp;More]</a>
+        
+      </div>
+    </div>
+
+    
+
+   </article>
+  
+  <article class="post-preview">
+    <a href="/http:/carlosgrohmann.com/even-hitler-has-issues-with-arcgis/">
+	  <h2 class="post-title">Even Hitler has issues with ArcGIS</h2>
+
+	  
+    </a>
+
+    <p class="post-meta">
+      Posted on February 24, 2010
+    </p>
+
+    <div class="post-entry-container">
+      
+      <div class="post-entry">
+        After the video on Hitler’s issues with peer-review, this time we see him complaining about ArcGIS. Sounds so familiar… not sure why…
+
+
+        
+        
+          <a href="/http:/carlosgrohmann.com/even-hitler-has-issues-with-arcgis/" class="post-read-more">[Read&nbsp;More]</a>
+        
+      </div>
+    </div>
+
+    
+
+   </article>
+  
+  <article class="post-preview">
+    <a href="/http:/carlosgrohmann.com/the-scale-of-everything/">
+	  <h2 class="post-title">The scale of everything</h2>
+
+	  
+    </a>
+
+    <p class="post-meta">
+      Posted on January 29, 2010
+    </p>
+
+    <div class="post-entry-container">
+      
+      <div class="post-entry">
+        Now this is frakking awesome! Two cool animations that you can interact to see things all scales, from human to atom, from the atom to the whole universe!
+
+
+        
+        
+          <a href="/http:/carlosgrohmann.com/the-scale-of-everything/" class="post-read-more">[Read&nbsp;More]</a>
+        
+      </div>
+    </div>
+
+    
+
+   </article>
+  
+  <article class="post-preview">
+    <a href="/http:/carlosgrohmann.com/all-the-universe-in-one-plot/">
+	  <h2 class="post-title">All the universe in one plot</h2>
+
+	  
+    </a>
+
+    <p class="post-meta">
+      Posted on January 11, 2010
+    </p>
+
+    <div class="post-entry-container">
+      
+      <div class="post-entry">
+        Really nice. Astronomers at Princeton compile in one single plot all that we can see in the universe. Everything. The plot is in logarithm scale, of course. Click on the image to see a full-sized version. And while you are at it, go to xkcd and check what they did,...
+        
+        
+          <a href="/http:/carlosgrohmann.com/all-the-universe-in-one-plot/" class="post-read-more">[Read&nbsp;More]</a>
+        
+      </div>
+    </div>
+
+    
+
+   </article>
+  
+  <article class="post-preview">
+    <a href="/http:/carlosgrohmann.com/peer-review-process/">
+	  <h2 class="post-title">Peer-review process</h2>
+
+	  
+    </a>
+
+    <p class="post-meta">
+      Posted on December 1, 2009
+    </p>
+
+    <div class="post-entry-container">
+      
+      <div class="post-entry">
+        Any relation to real-life situations is NOT a mere coincidence.
+
+
+        
+        
+          <a href="/http:/carlosgrohmann.com/peer-review-process/" class="post-read-more">[Read&nbsp;More]</a>
+        
+      </div>
+    </div>
+
+    
+
+   </article>
+  
+</div>
+
+
+<ul class="pager main-pager">
+  
+  <li class="previous">
+    <a href="/blog/page4/">&larr; Newer Posts</a>
+  </li>
+  
+  
+  <li class="next">
+    <a href="/blog/page6/">Older Posts &rarr;</a>
+  </li>
+  
+</ul>
+
+
+	    
+    </div>
+  </div>
+</div>
+
+
+    <footer>
+  <div class="container beautiful-jekyll-footer">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center footer-links"><li><a href="/feed.xml" title="RSS"><span class="fa-stack fa-lg" aria-hidden="true">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+                </span>
+                <span class="sr-only">RSS</span>
+              </a>
+            </li><li><a href="https://github.com/CarlosGrohmann" title="GitHub"><span class="fa-stack fa-lg" aria-hidden="true">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                </span>
+                <span class="sr-only">GitHub</span>
+              </a>
+            </li><li><a href="https://twitter.com/CarlosGrohmann" title="Twitter"><span class="fa-stack fa-lg" aria-hidden="true">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                </span>
+                <span class="sr-only">Twitter</span>
+              </a>
+            </li><li><a href="https://www.instagram.com/CarlosGrohmann" title="Instagram"><span class="fa-stack fa-lg" aria-hidden="true">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+                </span>
+                <span class="sr-only">Instagram</span>
+              </a>
+            </li></ul>
+      <p class="copyright text-muted">
+      Carlos H. Grohmann
+      &nbsp;&bull;&nbsp;
+      2019
+
+      
+      &nbsp;&bull;&nbsp;
+      <a href="http://localhost:4000">carlosgrohmann.com</a>
+      
+
+      
+      </p>
+          <!-- Please don't remove this, keep my open source work credited :) -->
+    <p class="theme-by text-muted">
+      Theme by
+      <a href="https://deanattali.com/beautiful-jekyll/">beautiful-jekyll</a>
+    </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  
+    
+
+
+
+
+
+
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+      <script>
+      	if (typeof jQuery == 'undefined') {
+      	  document.write('<script src="/js/jquery-1.11.2.min.js"></scr' + 'ipt>');
+      	}
+      </script>
+    
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+	<script src="/js/bootstrap.min.js"></script>
+    
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+	<script src="/js/main.js"></script>
+    
+  
+
+
+  
+  </body>
+</html>

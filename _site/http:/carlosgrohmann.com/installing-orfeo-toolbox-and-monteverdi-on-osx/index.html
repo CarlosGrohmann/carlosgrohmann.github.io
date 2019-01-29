@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Beautiful Jekyll | MIT license | Copyright Dean Attali 2016 -->
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, viewport-fit=cover">
+
+  <title>Installing Orfeo Toolbox and Monteverdi on OSX</title>
+
+  <meta name="author" content="Carlos H. Grohmann" />
+
+  
+
+  <link rel="alternate" type="application/rss+xml" title="Prof. Carlos H. Grohmann - Personal website of Prof. Carlos H. Grohmann (IEE-USP, Brazil)" href="/feed.xml" />
+
+  
+
+  
+
+  
+
+
+  
+    
+      
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css" />
+
+
+    
+  
+
+  
+    
+      <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    
+      <link rel="stylesheet" href="/css/bootstrap-social.css" />
+    
+      <link rel="stylesheet" href="/css/main.css" />
+    
+  
+
+  
+    
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
+    
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
+    
+  
+
+  
+
+  
+
+  
+
+    <!-- Facebook OpenGraph tags -->
+  
+
+  
+  <meta property="og:title" content="Installing Orfeo Toolbox and Monteverdi on OSX" />
+  
+
+   
+  <meta property="og:description" content="The Orfeo ToolBox (OTB) is an open-source C++ library for processing of remote sensing image, and it is shipped with Monteverdi, an end-users oriented software for for classical remote sensing tasks. With the recent release of OTB version 5.4, I decided to make this brief post on how to get...">
+  
+
+
+  <meta property="og:type" content="website" />
+
+  
+  <meta property="og:url" content="http://localhost:4000/http:/carlosgrohmann.com/installing-orfeo-toolbox-and-monteverdi-on-osx/" />
+  <link rel="canonical" href="http://localhost:4000/http:/carlosgrohmann.com/installing-orfeo-toolbox-and-monteverdi-on-osx/" />
+  
+
+  
+  <meta property="og:image" content="http://localhost:4000/img/doodle_crop.jpg" />
+  
+
+
+  <!-- Twitter summary cards -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@" />
+  <meta name="twitter:creator" content="@" />
+
+  
+  <meta name="twitter:title" content="Installing Orfeo Toolbox and Monteverdi on OSX" />
+  
+
+  
+  <meta name="twitter:description" content="The Orfeo ToolBox (OTB) is an open-source C++ library for processing of remote sensing image, and it is shipped with Monteverdi, an end-users oriented software for for classical remote sensing tasks. With the recent release of OTB version 5.4, I decided to make this brief post on how to get...">
+  
+
+  
+  <meta name="twitter:image" content="http://localhost:4000/img/doodle_crop.jpg" />
+  
+
+  
+
+  
+
+</head>
+
+
+  <body>
+
+    
+
+  
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+        <a class="navbar-brand" href="http://localhost:4000">Prof. Carlos H. Grohmann</a>
+      
+    </div>
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+      
+        
+          <li>
+            
+
+
+
+
+
+  
+  <a href="/index">Home</a>
+
+
+
+
+          </li>
+        
+        
+        
+          <li class="navlinks-container">
+            <a class="navlinks-parent" href="javascript:void(0)">About Me</a>
+            <div class="navlinks-children">
+              
+                
+                  
+
+
+
+
+
+  
+  <a href="/aboutme">Bio|CV</a>
+
+
+
+
+                
+              
+                
+                  
+
+
+
+
+
+  
+  <a href="/photos">Photos</a>
+
+
+
+
+                
+              
+                
+                  
+
+
+
+
+
+  
+  <a href="/gmaps">Map</a>
+
+
+
+
+                
+              
+            </div>
+          </li>
+        
+        
+        
+          <li class="navlinks-container">
+            <a class="navlinks-parent" href="javascript:void(0)">Research</a>
+            <div class="navlinks-children">
+              
+                
+                  
+
+
+
+
+
+  
+  <a href="/grants">Projects</a>
+
+
+
+
+                
+              
+                
+                  
+
+
+
+
+
+  
+  <a href="/students">Students</a>
+
+
+
+
+                
+              
+                
+                  
+
+
+
+
+
+  
+  <a rel="noopener noreferrer" target="_blank" href="https://spamlab.github.io">SPAM!(Lab)</a>
+
+
+
+
+                
+              
+            </div>
+          </li>
+        
+        
+        
+          <li>
+            
+
+
+
+
+
+  
+  <a href="/publications">Publications</a>
+
+
+
+
+          </li>
+        
+        
+        
+          <li class="navlinks-container">
+            <a class="navlinks-parent" href="javascript:void(0)">Blog</a>
+            <div class="navlinks-children">
+              
+                
+                  
+
+
+
+
+
+  
+  <a href="/blog">Posts</a>
+
+
+
+
+                
+              
+                
+                  
+
+
+
+
+
+  
+  <a href="/tags">Tags</a>
+
+
+
+
+                
+              
+            </div>
+          </li>
+        
+        
+        
+          <li>
+            
+
+
+
+
+
+  
+  <a href="/search">?</a>
+
+
+
+
+          </li>
+        
+        
+      </ul>
+    </div>
+
+	
+	<div class="avatar-container">
+	  <div class="avatar-img-border">
+	    <a href="http://localhost:4000">
+	      <img class="avatar-img" src="/img/doodle_crop.jpg" />
+		</a>
+	  </div>
+	</div>
+	
+
+  </div>
+</nav>
+
+
+    <!-- TODO this file has become a mess, refactor it -->
+
+
+
+
+
+<header class="header-section ">
+
+<div class="intro-header no-img">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <div class="post-heading">
+          <h1>Installing Orfeo Toolbox and Monteverdi on OSX</h1>
+		  
+		  
+		  
+		  <span class="post-meta">Posted on May 13, 2016</span>
+		  
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</header>
+
+
+
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+
+      
+
+      <article role="main" class="blog-post">
+        <p>The Orfeo ToolBox (OTB) is an open-source C++ library for processing of remote sensing image, and it is shipped with Monteverdi, an end-users oriented software for for classical remote sensing tasks. With the recent release of OTB version 5.4, I decided to make this brief post on how to get it running on OSX. I’m running El Capitan (10.11), but it should be the same for other versions. First, go to <a rel="noopener noreferrer" target="_blank" href="https://www.orfeo-toolbox.org/download/">https://www.orfeo-toolbox.org/download/</a> and select “Mac OS X”. Right-click and select “Save link as”. I ended with a file named <strong>OTB-5.4.0-Darwin64.run.txt</strong>. Rename that file and remove the “.txt” extension (if you will get a warning from the system, just select “keep .run”). Now you must give this file <a rel="noopener noreferrer" target="_blank" href="https://en.wikipedia.org/wiki/File_system_permissions">execution permission</a>. You can’t do that with the Graphical Interface (GUI), so you must use the <a rel="noopener noreferrer" target="_blank" href="https://en.wikipedia.org/wiki/Command-line_interface">Command Line Interface</a>. Open the Terminal (it’s probably in Applications/Utilities) and navigate to the directory where you saved the file, or, in GUI terms, go to the Folder where the file is. So if your file is in Downloads: <code class="highlighter-rouge">Serenity:~ guano$ cd Downloads/</code> In this case, “Serenity” is the name of my computer, and “guano” is my username (yours will be different). the command <a rel="noopener noreferrer" target="_blank" href="http://ss64.com/osx/cd.html">cd</a> means <strong>c</strong>hange <strong>d</strong>irectory and there is a space between it and the name of the Directory (Folder) you want to go. Another way of doing this is to write cd (and a space) and drag the folder from a Finder window over the Terminal window. Hit return and you are inside the Downloads directory. Check to see if the file is there with the <a rel="noopener noreferrer" target="_blank" href="http://ss64.com/osx/ls.html">ls</a> command: <code class="highlighter-rouge">Serenity:Downloads guano$ ls OTB-5.4.0-Darwin64.run</code> Now give it execution permission with the <a rel="noopener noreferrer" target="_blank" href="http://ss64.com/osx/chmod.html">chmod</a> command: <code class="highlighter-rouge">Serenity:Downloads guano$ chmod +x OTB-5.4.0-Darwin64.run </code> Ok, now move (or copy) the file to a place where it will be installed. You can install it in the system-wide Applications folder (/Applications) or in your user’s Applications (/Users/your_user/Applications). You can drag the file to the folder or continue doing thing on the command line: <code class="highlighter-rouge">Serenity:Downloads guano$ mv OTB-5.4.0-Darwin64.run /Applications</code> This will move the file to the Applications folder that’s under the “<a rel="noopener noreferrer" target="_blank" href="http://www.linfo.org/root.html">root</a>” of the FileSystem (/Applications). Now navigate to that folder and run the installer (note the single dot before the slash when running the installer): <code class="highlighter-rouge">Serenity:Downloads guano$ cd ../Applications Serenity:Applications guano$ ./OTB-5.4.0-Darwin64.run Creating directory OTB-5.4.0-Darwin64 Verifying archive integrity... All good. Uncompressing OrfeoToolBox 5.4.0 100% Configuring... Serenity:Applications guano$ </code> The installer will deflate and create a directory called <strong>OTB-5.4.0-Darwin64</strong>, and inside it you will find two apps: <strong>Mapla.app</strong> and <strong>Monteverdi.app</strong>. If you like to use LaunchPad (like me), just hit F4 and they will be there.   <img src="/blog/wp-content/uploads/2016/05/Screen-Shot-2016-05-13-at-11.44.15.png" alt="Screen Shot 2016-05-13 at 11.44.15" /> Mapla window (Monteverdi Application Laucher)   <img src="http://carlosgrohmann.com/blog/wp-content/uploads/2016/05/Screen-Shot-2016-05-13-at-11.44.00.png" alt="Screen Shot 2016-05-13 at 11.44.00" /> Main Monteverdi window   That’s it. Happy Processing!</p>
+
+<h2 id="comments">Comments</h2>
+
+<p><strong><a href="#18926" title="2018-10-01 16:06:16">Juan Manuel Lopez</a>:</strong> Last login: Mon Oct 1 20:42:23 on ttys000 MacBook-Air-de-Juan:~ Juancho08$ cd Applications/OTB-6.6.0-Darwin64.run -bash: cd: Applications/OTB-6.6.0-Darwin64.run: No such file or directory MacBook-Air-de-Juan:~ Juancho08$ cd Applications/ MacBook-Air-de-Juan:Applications Juancho08$ ./OTB-6.6.0-Darwin64 -bash: ./OTB-6.6.0-Darwin64: No such file or directory MacBook-Air-de-Juan:Applications Juancho08$ ./OTB-6.6.0-Darwin64.run -bash: ./OTB-6.6.0-Darwin64.run: No such file or directory MacBook-Air-de-Juan:Applications Juancho08$ I appear this error knows what can it be? Thank you very much and greetings</p>
+
+<p><strong><a href="#18927" title="2018-10-01 16:15:06">Carlos Grohmann</a>:</strong> Hello Juan It can be a number of things. The error you are seeing means that your system couldn’t find the file, so you probably are trying to run it from the wring place. First, be sure of where you copied the OTB-6.6.0-Darwin64.run file, if it was to <code class="highlighter-rouge">/Applications</code> or if it was to <code class="highlighter-rouge">/Users/your_user/Applications</code>. Then navigate to that directory in the command line using cd (<code class="highlighter-rouge">cd /Applications</code> or cd <code class="highlighter-rouge">/Users/your_user/Applications</code>). From there try to execute the OTB-6.6.0-Darwin64.run file. Also remember to give it permission to be executed (the <code class="highlighter-rouge">chmod</code> part of the post). best Carlos</p>
+
+
+      </article>
+
+      
+
+      
+        <!-- Check if any share-links are active -->
+
+
+
+
+<section id = "social-share-section">
+  <span class="sr-only">Share: </span>
+
+  
+  <!--- Share on Twitter -->
+    <a rel="noopener noreferrer" target="_blank" href="https://twitter.com/intent/tweet?text=Installing+Orfeo+Toolbox+and+Monteverdi+on+OSX+http://localhost:4000/http:/carlosgrohmann.com/installing-orfeo-toolbox-and-monteverdi-on-osx/"
+      class="btn btn-social-icon btn-twitter" title="Share on Twitter">
+      <span class="fa fa-fw fa-twitter" aria-hidden="true"></span>
+      <span class="sr-only">Twitter</span>
+    </a>
+  
+
+  
+  <!--- Share on Facebook -->
+    <a rel="noopener noreferrer" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/http:/carlosgrohmann.com/installing-orfeo-toolbox-and-monteverdi-on-osx/"
+      class="btn btn-social-icon btn-facebook" title="Share on Facebook">
+      <span class="fa fa-fw fa-facebook" aria-hidden="true"></span>
+      <span class="sr-only">Facebook</span>
+    </a>
+  
+
+  
+  <!--- Share on Google Plus -->
+    <a rel="noopener noreferrer" target="_blank" href="https://plus.google.com/share?url=http://localhost:4000/http:/carlosgrohmann.com/installing-orfeo-toolbox-and-monteverdi-on-osx/"
+      class="btn btn-social-icon btn-google" title="Share on Google+">
+      <span class="fa fa-fw fa-google-plus" aria-hidden="true"></span>
+      <span class="sr-only">Google+</span>
+    </a>
+  
+
+  
+
+</section>
+
+
+
+      
+
+      <ul class="pager blog-pager">
+        
+        <li class="previous">
+          <a href="/http:/carlosgrohmann.com/o-uso-adequado-de-algumas-expressoes-de-tecnologia-em-ingles/" data-toggle="tooltip" data-placement="top" title="O uso adequado de algumas expressões de tecnologia em inglês">&larr; Previous Post</a>
+        </li>
+        
+        
+        <li class="next">
+          <a href="/http:/carlosgrohmann.com/curso-internacional-de-espeleoresgate-2016/" data-toggle="tooltip" data-placement="top" title="Curso Internacional de Espeleoresgate 2016">Next Post &rarr;</a>
+        </li>
+        
+      </ul>
+
+      
+        <div class="disqus-comments">
+          
+        </div>
+          
+        <div class="staticman-comments">
+          
+
+        </div>
+      
+    </div>
+  </div>
+</div>
+
+
+    <footer>
+  <div class="container beautiful-jekyll-footer">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center footer-links"><li><a href="/feed.xml" title="RSS"><span class="fa-stack fa-lg" aria-hidden="true">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+                </span>
+                <span class="sr-only">RSS</span>
+              </a>
+            </li><li><a href="https://github.com/CarlosGrohmann" title="GitHub"><span class="fa-stack fa-lg" aria-hidden="true">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                </span>
+                <span class="sr-only">GitHub</span>
+              </a>
+            </li><li><a href="https://twitter.com/CarlosGrohmann" title="Twitter"><span class="fa-stack fa-lg" aria-hidden="true">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                </span>
+                <span class="sr-only">Twitter</span>
+              </a>
+            </li><li><a href="https://www.instagram.com/CarlosGrohmann" title="Instagram"><span class="fa-stack fa-lg" aria-hidden="true">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+                </span>
+                <span class="sr-only">Instagram</span>
+              </a>
+            </li></ul>
+      <p class="copyright text-muted">
+      Carlos H. Grohmann
+      &nbsp;&bull;&nbsp;
+      2019
+
+      
+      &nbsp;&bull;&nbsp;
+      <a href="http://localhost:4000">carlosgrohmann.com</a>
+      
+
+      
+      </p>
+          <!-- Please don't remove this, keep my open source work credited :) -->
+    <p class="theme-by text-muted">
+      Theme by
+      <a href="https://deanattali.com/beautiful-jekyll/">beautiful-jekyll</a>
+    </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  
+    
+
+
+
+
+
+
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+      <script>
+      	if (typeof jQuery == 'undefined') {
+      	  document.write('<script src="/js/jquery-1.11.2.min.js"></scr' + 'ipt>');
+      	}
+      </script>
+    
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+	<script src="/js/bootstrap.min.js"></script>
+    
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+	<script src="/js/main.js"></script>
+    
+  
+
+
+  
+  </body>
+</html>

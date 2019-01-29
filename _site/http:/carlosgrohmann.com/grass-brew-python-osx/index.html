@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Beautiful Jekyll | MIT license | Copyright Dean Attali 2016 -->
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, viewport-fit=cover">
+
+  <title>Working with GRASS-7.0 and homebrew python on OS X</title>
+
+  <meta name="author" content="Carlos H. Grohmann" />
+
+  
+
+  <link rel="alternate" type="application/rss+xml" title="Prof. Carlos H. Grohmann - Personal website of Prof. Carlos H. Grohmann (IEE-USP, Brazil)" href="/feed.xml" />
+
+  
+
+  
+
+  
+
+
+  
+    
+      
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css" />
+
+
+    
+  
+
+  
+    
+      <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    
+      <link rel="stylesheet" href="/css/bootstrap-social.css" />
+    
+      <link rel="stylesheet" href="/css/main.css" />
+    
+  
+
+  
+    
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
+    
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
+    
+  
+
+  
+
+  
+
+  
+
+    <!-- Facebook OpenGraph tags -->
+  
+
+  
+  <meta property="og:title" content="Working with GRASS-7.0 and homebrew python on OS X" />
+  
+
+   
+  <meta property="og:description" content="Sometimes getting all the software you need for Scientific analysis updated and running smoothly in OS X can be a bit annoying. For most things, there’s Homebrew (a nice post on setting your Mac for Scientific analysis with Python and homebrew is this one.) And if you’re into GIS, you...">
+  
+
+
+  <meta property="og:type" content="website" />
+
+  
+  <meta property="og:url" content="http://localhost:4000/http:/carlosgrohmann.com/grass-brew-python-osx/" />
+  <link rel="canonical" href="http://localhost:4000/http:/carlosgrohmann.com/grass-brew-python-osx/" />
+  
+
+  
+  <meta property="og:image" content="http://localhost:4000/img/doodle_crop.jpg" />
+  
+
+
+  <!-- Twitter summary cards -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@" />
+  <meta name="twitter:creator" content="@" />
+
+  
+  <meta name="twitter:title" content="Working with GRASS-7.0 and homebrew python on OS X" />
+  
+
+  
+  <meta name="twitter:description" content="Sometimes getting all the software you need for Scientific analysis updated and running smoothly in OS X can be a bit annoying. For most things, there’s Homebrew (a nice post on setting your Mac for Scientific analysis with Python and homebrew is this one.) And if you’re into GIS, you...">
+  
+
+  
+  <meta name="twitter:image" content="http://localhost:4000/img/doodle_crop.jpg" />
+  
+
+  
+
+  
+
+</head>
+
+
+  <body>
+
+    
+
+  
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+        <a class="navbar-brand" href="http://localhost:4000">Prof. Carlos H. Grohmann</a>
+      
+    </div>
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+      
+        
+          <li>
+            
+
+
+
+
+
+  
+  <a href="/index">Home</a>
+
+
+
+
+          </li>
+        
+        
+        
+          <li class="navlinks-container">
+            <a class="navlinks-parent" href="javascript:void(0)">About Me</a>
+            <div class="navlinks-children">
+              
+                
+                  
+
+
+
+
+
+  
+  <a href="/aboutme">Bio|CV</a>
+
+
+
+
+                
+              
+                
+                  
+
+
+
+
+
+  
+  <a href="/photos">Photos</a>
+
+
+
+
+                
+              
+                
+                  
+
+
+
+
+
+  
+  <a href="/gmaps">Map</a>
+
+
+
+
+                
+              
+            </div>
+          </li>
+        
+        
+        
+          <li class="navlinks-container">
+            <a class="navlinks-parent" href="javascript:void(0)">Research</a>
+            <div class="navlinks-children">
+              
+                
+                  
+
+
+
+
+
+  
+  <a href="/grants">Projects</a>
+
+
+
+
+                
+              
+                
+                  
+
+
+
+
+
+  
+  <a href="/students">Students</a>
+
+
+
+
+                
+              
+                
+                  
+
+
+
+
+
+  
+  <a rel="noopener noreferrer" target="_blank" href="https://spamlab.github.io">SPAM!(Lab)</a>
+
+
+
+
+                
+              
+            </div>
+          </li>
+        
+        
+        
+          <li>
+            
+
+
+
+
+
+  
+  <a href="/publications">Publications</a>
+
+
+
+
+          </li>
+        
+        
+        
+          <li class="navlinks-container">
+            <a class="navlinks-parent" href="javascript:void(0)">Blog</a>
+            <div class="navlinks-children">
+              
+                
+                  
+
+
+
+
+
+  
+  <a href="/blog">Posts</a>
+
+
+
+
+                
+              
+                
+                  
+
+
+
+
+
+  
+  <a href="/tags">Tags</a>
+
+
+
+
+                
+              
+            </div>
+          </li>
+        
+        
+        
+          <li>
+            
+
+
+
+
+
+  
+  <a href="/search">?</a>
+
+
+
+
+          </li>
+        
+        
+      </ul>
+    </div>
+
+	
+	<div class="avatar-container">
+	  <div class="avatar-img-border">
+	    <a href="http://localhost:4000">
+	      <img class="avatar-img" src="/img/doodle_crop.jpg" />
+		</a>
+	  </div>
+	</div>
+	
+
+  </div>
+</nav>
+
+
+    <!-- TODO this file has become a mess, refactor it -->
+
+
+
+
+
+<header class="header-section ">
+
+<div class="intro-header no-img">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <div class="post-heading">
+          <h1>Working with GRASS-7.0 and homebrew python on OS X</h1>
+		  
+		  
+		  
+		  <span class="post-meta">Posted on December 25, 2015</span>
+		  
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</header>
+
+
+
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+
+      
+
+      <article role="main" class="blog-post">
+        <p>Sometimes getting all the software you need for Scientific analysis updated and running smoothly in OS X can be a bit annoying. For most things, there’s Homebrew (a nice post on setting your Mac for Scientific analysis with Python and homebrew is <a rel="noopener noreferrer" target="_blank" href="https://joernhees.de/blog/2014/02/25/scientific-python-on-mac-os-x-10-9-with-homebrew/">this one</a>.) And if you’re into GIS, you probably know William Kyngesburye’s <a rel="noopener noreferrer" target="_blank" href="http://www.kyngchaos.com/software/unixport">QGIS and GRASS packages</a>. Michael Barton also provides <a rel="noopener noreferrer" target="_blank" href="http://grassmac.wikidot.com">GRASS packages</a>, including the last stable version (7.0.2 at this moment). All seems good, but I started to have some problems because I wanted to have my Python stuff (Numpy, Scipy, Matplotlib, etc) updated via homebrew (to keep system python untouched) and then I tried to compile GRASS and QGIS with homebrew as well, but that didn’t worked out so well. The <a rel="noopener noreferrer" target="_blank" href="https://github.com/OSGeo/homebrew-osgeo4mac">osgeo4mac formulas</a> for ‘brewing’ QGIS are still for version 2.8 (the last stable is 2.12) and there is a <a rel="noopener noreferrer" target="_blank" href="https://github.com/rkrug/homebrew-head-only">‘tap’ for GRASS 7</a>, but despite compiling ok, I couldn’t get 3D viewing to work. Eventually I managed to get all working. This is how:</p>
+
+<ol>
+  <li>
+    <p>Install python, numpy, scipy, matplotlib via homebrew.</p>
+  </li>
+  <li>
+    <p>Install Michael Barton’s frameworks and GRASS 7.</p>
+  </li>
+  <li>
+    <p>Install QGIS from William Kyngesburye.</p>
+  </li>
+  <li>
+    <p>Edit your **<a rel="noopener noreferrer" target="_blank" href="http://osxdaily.com/2015/07/28/set-enviornment-variables-mac-os-x/">.bash_profile**</a>.</p>
+  </li>
+</ol>
+
+<p>The last part is the tricky one. Homebrew install everything under <strong>/usr/local</strong>, and this needs to be in your PATH. The usual approach is to add this line to <strong>.bash_profile</strong>:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>export PATH=/usr/local/bin:$PATH
+</code></pre></div></div>
+
+<p>Doing this will make homebrew’s python the one to be called if you type ‘python’ in a terminal window. But it will also change which python GRASS and QGIS will use. The thing is that both GRASS and QGIS packages are made to use OS X system python, not the one you installed with homebrew. The trick is to set a GRASS_PYTHON variable in <strong>.bash_profile</strong>, pointing to system python.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>export GRASS_PYTHON=/System/Library/Frameworks/Python.framework/Versions/Current/bin/pythonw
+</code></pre></div></div>
+
+<p>Now, the really tricky thing is that GRASS_PYTHON must be called <strong>before</strong> setting the path for homebrew. So when you start GRASS, it will find the right python. Like this:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>export GRASS_PYTHON=/System/Library/Frameworks/Python.framework/Versions/Current/bin/pythonw
+
+export PATH=/usr/local/bin:$PATH
+</code></pre></div></div>
+
+<p>This got my setup working fine, with 3D view and all. And if you want to use homebrew’s python for analysis inside GRASS (with pygrass) you just have to call <strong>/usr/local/bin/python</strong> from GRASS’ terminal.</p>
+
+      </article>
+
+      
+
+      
+        <!-- Check if any share-links are active -->
+
+
+
+
+<section id = "social-share-section">
+  <span class="sr-only">Share: </span>
+
+  
+  <!--- Share on Twitter -->
+    <a rel="noopener noreferrer" target="_blank" href="https://twitter.com/intent/tweet?text=Working+with+GRASS-7.0+and+homebrew+python+on+OS+X+http://localhost:4000/http:/carlosgrohmann.com/grass-brew-python-osx/"
+      class="btn btn-social-icon btn-twitter" title="Share on Twitter">
+      <span class="fa fa-fw fa-twitter" aria-hidden="true"></span>
+      <span class="sr-only">Twitter</span>
+    </a>
+  
+
+  
+  <!--- Share on Facebook -->
+    <a rel="noopener noreferrer" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/http:/carlosgrohmann.com/grass-brew-python-osx/"
+      class="btn btn-social-icon btn-facebook" title="Share on Facebook">
+      <span class="fa fa-fw fa-facebook" aria-hidden="true"></span>
+      <span class="sr-only">Facebook</span>
+    </a>
+  
+
+  
+  <!--- Share on Google Plus -->
+    <a rel="noopener noreferrer" target="_blank" href="https://plus.google.com/share?url=http://localhost:4000/http:/carlosgrohmann.com/grass-brew-python-osx/"
+      class="btn btn-social-icon btn-google" title="Share on Google+">
+      <span class="fa fa-fw fa-google-plus" aria-hidden="true"></span>
+      <span class="sr-only">Google+</span>
+    </a>
+  
+
+  
+
+</section>
+
+
+
+      
+
+      <ul class="pager blog-pager">
+        
+        <li class="previous">
+          <a href="/http:/carlosgrohmann.com/regional-scale-analysis-of-dems-resample-and-derive-or-derive-and-resample-paper-review/" data-toggle="tooltip" data-placement="top" title="resample and derive or derive and resample? [paper review]">&larr; Previous Post</a>
+        </li>
+        
+        
+        <li class="next">
+          <a href="/http:/carlosgrohmann.com/termos-academicos-portugues-ingles/" data-toggle="tooltip" data-placement="top" title="Termos acadêmicos (português-inglês)">Next Post &rarr;</a>
+        </li>
+        
+      </ul>
+
+      
+        <div class="disqus-comments">
+          
+        </div>
+          
+        <div class="staticman-comments">
+          
+
+        </div>
+      
+    </div>
+  </div>
+</div>
+
+
+    <footer>
+  <div class="container beautiful-jekyll-footer">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center footer-links"><li><a href="/feed.xml" title="RSS"><span class="fa-stack fa-lg" aria-hidden="true">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+                </span>
+                <span class="sr-only">RSS</span>
+              </a>
+            </li><li><a href="https://github.com/CarlosGrohmann" title="GitHub"><span class="fa-stack fa-lg" aria-hidden="true">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                </span>
+                <span class="sr-only">GitHub</span>
+              </a>
+            </li><li><a href="https://twitter.com/CarlosGrohmann" title="Twitter"><span class="fa-stack fa-lg" aria-hidden="true">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                </span>
+                <span class="sr-only">Twitter</span>
+              </a>
+            </li><li><a href="https://www.instagram.com/CarlosGrohmann" title="Instagram"><span class="fa-stack fa-lg" aria-hidden="true">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+                </span>
+                <span class="sr-only">Instagram</span>
+              </a>
+            </li></ul>
+      <p class="copyright text-muted">
+      Carlos H. Grohmann
+      &nbsp;&bull;&nbsp;
+      2019
+
+      
+      &nbsp;&bull;&nbsp;
+      <a href="http://localhost:4000">carlosgrohmann.com</a>
+      
+
+      
+      </p>
+          <!-- Please don't remove this, keep my open source work credited :) -->
+    <p class="theme-by text-muted">
+      Theme by
+      <a href="https://deanattali.com/beautiful-jekyll/">beautiful-jekyll</a>
+    </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  
+    
+
+
+
+
+
+
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+      <script>
+      	if (typeof jQuery == 'undefined') {
+      	  document.write('<script src="/js/jquery-1.11.2.min.js"></scr' + 'ipt>');
+      	}
+      </script>
+    
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+	<script src="/js/bootstrap.min.js"></script>
+    
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+	<script src="/js/main.js"></script>
+    
+  
+
+
+  
+  </body>
+</html>

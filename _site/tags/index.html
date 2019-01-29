@@ -1,0 +1,1261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Beautiful Jekyll | MIT license | Copyright Dean Attali 2016 -->
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, viewport-fit=cover">
+
+  <title>Tag Index</title>
+
+  <meta name="author" content="Carlos H. Grohmann" />
+
+  
+
+  <link rel="alternate" type="application/rss+xml" title="Prof. Carlos H. Grohmann - Personal website of Prof. Carlos H. Grohmann (IEE-USP, Brazil)" href="/feed.xml" />
+
+  
+
+  
+
+  
+
+
+  
+    
+      
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css" />
+
+
+    
+  
+
+  
+    
+      <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    
+      <link rel="stylesheet" href="/css/bootstrap-social.css" />
+    
+      <link rel="stylesheet" href="/css/main.css" />
+    
+  
+
+  
+    
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
+    
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
+    
+  
+
+  
+
+  
+
+  
+
+    <!-- Facebook OpenGraph tags -->
+  
+
+  
+  <meta property="og:title" content="Tag Index" />
+  
+
+   
+  <meta property="og:description" content="{%- capture site_tags -%} {%- for tag in site.tags -%} {{- tag | first -}}{%- unless forloop.last -%},{%- endunless -%} {%- endfor -%} {%- endcapture -%} {%- assign tags_list = site_tags | split:',' | sort -%} {%- for tag in tags_list -%} &amp;nbsp;{{- tag -}}&amp;nbsp;({{site.tags[tag].size}}) {%- endfor -%} {%- for...">
+  
+
+
+  <meta property="og:type" content="website" />
+
+  
+  <meta property="og:url" content="http://localhost:4000/tags/" />
+  <link rel="canonical" href="http://localhost:4000/tags/" />
+  
+
+  
+  <meta property="og:image" content="http://localhost:4000/img/doodle_crop.jpg" />
+  
+
+
+  <!-- Twitter summary cards -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@" />
+  <meta name="twitter:creator" content="@" />
+
+  
+  <meta name="twitter:title" content="Tag Index" />
+  
+
+  
+  <meta name="twitter:description" content="{%- capture site_tags -%} {%- for tag in site.tags -%} {{- tag | first -}}{%- unless forloop.last -%},{%- endunless -%} {%- endfor -%} {%- endcapture -%} {%- assign tags_list = site_tags | split:',' | sort -%} {%- for tag in tags_list -%} &amp;nbsp;{{- tag -}}&amp;nbsp;({{site.tags[tag].size}}) {%- endfor -%} {%- for...">
+  
+
+  
+  <meta name="twitter:image" content="http://localhost:4000/img/doodle_crop.jpg" />
+  
+
+  
+
+  
+
+</head>
+
+
+  <body>
+
+    
+
+  
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+        <a class="navbar-brand" href="http://localhost:4000">Prof. Carlos H. Grohmann</a>
+      
+    </div>
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+      
+        
+          <li>
+            
+
+
+
+
+
+  
+  <a href="/index">Home</a>
+
+
+
+
+          </li>
+        
+        
+        
+          <li class="navlinks-container">
+            <a class="navlinks-parent" href="javascript:void(0)">About Me</a>
+            <div class="navlinks-children">
+              
+                
+                  
+
+
+
+
+
+  
+  <a href="/aboutme">Bio|CV</a>
+
+
+
+
+                
+              
+                
+                  
+
+
+
+
+
+  
+  <a href="/photos">Photos</a>
+
+
+
+
+                
+              
+                
+                  
+
+
+
+
+
+  
+  <a href="/gmaps">Map</a>
+
+
+
+
+                
+              
+            </div>
+          </li>
+        
+        
+        
+          <li class="navlinks-container">
+            <a class="navlinks-parent" href="javascript:void(0)">Research</a>
+            <div class="navlinks-children">
+              
+                
+                  
+
+
+
+
+
+  
+  <a href="/grants">Projects</a>
+
+
+
+
+                
+              
+                
+                  
+
+
+
+
+
+  
+  <a href="/students">Students</a>
+
+
+
+
+                
+              
+                
+                  
+
+
+
+
+
+  
+  <a rel="noopener noreferrer" target="_blank" href="https://spamlab.github.io">SPAM!(Lab)</a>
+
+
+
+
+                
+              
+            </div>
+          </li>
+        
+        
+        
+          <li>
+            
+
+
+
+
+
+  
+  <a href="/publications">Publications</a>
+
+
+
+
+          </li>
+        
+        
+        
+          <li class="navlinks-container">
+            <a class="navlinks-parent" href="javascript:void(0)">Blog</a>
+            <div class="navlinks-children">
+              
+                
+                  
+
+
+
+
+
+  
+  <a href="/blog">Posts</a>
+
+
+
+
+                
+              
+                
+                  
+
+
+
+
+
+  
+  <a href="/tags">Tags</a>
+
+
+
+
+                
+              
+            </div>
+          </li>
+        
+        
+        
+          <li>
+            
+
+
+
+
+
+  
+  <a href="/search">?</a>
+
+
+
+
+          </li>
+        
+        
+      </ul>
+    </div>
+
+	
+	<div class="avatar-container">
+	  <div class="avatar-img-border">
+	    <a href="http://localhost:4000">
+	      <img class="avatar-img" src="/img/doodle_crop.jpg" />
+		</a>
+	  </div>
+	</div>
+	
+
+  </div>
+</nav>
+
+
+    <!-- TODO this file has become a mess, refactor it -->
+
+
+
+
+
+<header class="header-section ">
+
+<div class="intro-header no-img">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <div class="page-heading">
+          <h1>Tag Index</h1>
+		  
+		  
+		  
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</header>
+
+
+
+
+
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <a href="#alien" class="btn btn-primary tag-btn"><i class="fa fa-tag" aria-hidden="true"></i>&nbsp;alien&nbsp;(2)</a><a href="#aster" class="btn btn-primary tag-btn"><i class="fa fa-tag" aria-hidden="true"></i>&nbsp;aster&nbsp;(2)</a><a href="#asteroid" class="btn btn-primary tag-btn"><i class="fa fa-tag" aria-hidden="true"></i>&nbsp;asteroid&nbsp;(1)</a><a href="#austria" class="btn btn-primary tag-btn"><i class="fa fa-tag" aria-hidden="true"></i>&nbsp;austria&nbsp;(1)</a><a href="#beer" class="btn btn-primary tag-btn"><i class="fa fa-tag" aria-hidden="true"></i>&nbsp;beer&nbsp;(3)</a><a href="#cambridge" class="btn btn-primary tag-btn"><i class="fa fa-tag" aria-hidden="true"></i>&nbsp;cambridge&nbsp;(1)</a><a href="#camdem" class="btn btn-primary tag-btn"><i class="fa fa-tag" aria-hidden="true"></i>&nbsp;camdem&nbsp;(1)</a><a href="#camra" class="btn btn-primary tag-btn"><i class="fa fa-tag" aria-hidden="true"></i>&nbsp;camra&nbsp;(2)</a><a href="#cave" class="btn btn-primary tag-btn"><i class="fa fa-tag" aria-hidden="true"></i>&nbsp;cave&nbsp;(2)</a><a href="#color" class="btn btn-primary tag-btn"><i class="fa fa-tag" aria-hidden="true"></i>&nbsp;color&nbsp;(1)</a><a href="#conference" class="btn btn-primary tag-btn"><i class="fa fa-tag" aria-hidden="true"></i>&nbsp;conference&nbsp;(1)</a><a href="#consumerism" class="btn btn-primary tag-btn"><i class="fa fa-tag" aria-hidden="true"></i>&nbsp;consumerism&nbsp;(1)</a><a href="#cyborg" class="btn btn-primary tag-btn"><i class="fa fa-tag" aria-hidden="true"></i>&nbsp;cyborg&nbsp;(1)</a><a href="#dartmoor" class="btn btn-primary tag-btn"><i class="fa fa-tag" aria-hidden="true"></i>&nbsp;dartmoor&nbsp;(1)</a><a href="#dem" class="btn btn-primary tag-btn"><i class="fa fa-tag" aria-hidden="true"></i>&nbsp;dem&nbsp;(2)</a><a href="#encedalus" class="btn btn-primary tag-btn"><i class="fa fa-tag" aria-hidden="true"></i>&nbsp;encedalus&nbsp;(1)</a><a href="#family" class="btn btn-primary tag-btn"><i class="fa fa-tag" aria-hidden="true"></i>&nbsp;family&nbsp;(1)</a><a href="#field-trip" class="btn btn-primary tag-btn"><i class="fa fa-tag" aria-hidden="true"></i>&nbsp;field-trip&nbsp;(1)</a><a href="#footbal" class="btn btn-primary tag-btn"><i class="fa fa-tag" aria-hidden="true"></i>&nbsp;footbal&nbsp;(1)</a><a href="#gadget" class="btn btn-primary tag-btn"><i class="fa fa-tag" aria-hidden="true"></i>&nbsp;gadget&nbsp;(1)</a><a href="#gdem" class="btn btn-primary tag-btn"><i class="fa fa-tag" aria-hidden="true"></i>&nbsp;gdem&nbsp;(2)</a><a href="#humor" class="btn btn-primary tag-btn"><i class="fa fa-tag" aria-hidden="true"></i>&nbsp;humor&nbsp;(5)</a><a href="#jedi" class="btn btn-primary tag-btn"><i class="fa fa-tag" aria-hidden="true"></i>&nbsp;jedi&nbsp;(1)</a><a href="#kingston" class="btn btn-primary tag-btn"><i class="fa fa-tag" aria-hidden="true"></i>&nbsp;kingston&nbsp;(8)</a><a href="#kite" class="btn btn-primary tag-btn"><i class="fa fa-tag" aria-hidden="true"></i>&nbsp;kite&nbsp;(1)</a><a href="#london" class="btn btn-primary tag-btn"><i class="fa fa-tag" aria-hidden="true"></i>&nbsp;london&nbsp;(3)</a><a href="#meeting" class="btn btn-primary tag-btn"><i class="fa fa-tag" aria-hidden="true"></i>&nbsp;meeting&nbsp;(1)</a><a href="#moon" class="btn btn-primary tag-btn"><i class="fa fa-tag" aria-hidden="true"></i>&nbsp;moon&nbsp;(3)</a><a href="#nasa" class="btn btn-primary tag-btn"><i class="fa fa-tag" aria-hidden="true"></i>&nbsp;nasa&nbsp;(4)</a><a href="#nerd" class="btn btn-primary tag-btn"><i class="fa fa-tag" aria-hidden="true"></i>&nbsp;nerd&nbsp;(1)</a><a href="#ocean" class="btn btn-primary tag-btn"><i class="fa fa-tag" aria-hidden="true"></i>&nbsp;ocean&nbsp;(1)</a><a href="#phd" class="btn btn-primary tag-btn"><i class="fa fa-tag" aria-hidden="true"></i>&nbsp;phd&nbsp;(18)</a><a href="#photogrammetry" class="btn btn-primary tag-btn"><i class="fa fa-tag" aria-hidden="true"></i>&nbsp;photogrammetry&nbsp;(1)</a><a href="#pub" class="btn btn-primary tag-btn"><i class="fa fa-tag" aria-hidden="true"></i>&nbsp;pub&nbsp;(1)</a><a href="#remote-sensing" class="btn btn-primary tag-btn"><i class="fa fa-tag" aria-hidden="true"></i>&nbsp;remote-sensing&nbsp;(1)</a><a href="#science" class="btn btn-primary tag-btn"><i class="fa fa-tag" aria-hidden="true"></i>&nbsp;science&nbsp;(11)</a><a href="#speleo" class="btn btn-primary tag-btn"><i class="fa fa-tag" aria-hidden="true"></i>&nbsp;speleo&nbsp;(2)</a><a href="#starwars" class="btn btn-primary tag-btn"><i class="fa fa-tag" aria-hidden="true"></i>&nbsp;starwars&nbsp;(1)</a><a href="#stonehenge" class="btn btn-primary tag-btn"><i class="fa fa-tag" aria-hidden="true"></i>&nbsp;stonehenge&nbsp;(1)</a><a href="#teaching" class="btn btn-primary tag-btn"><i class="fa fa-tag" aria-hidden="true"></i>&nbsp;teaching&nbsp;(1)</a><a href="#technofile" class="btn btn-primary tag-btn"><i class="fa fa-tag" aria-hidden="true"></i>&nbsp;technofile&nbsp;(1)</a><a href="#technology" class="btn btn-primary tag-btn"><i class="fa fa-tag" aria-hidden="true"></i>&nbsp;technology&nbsp;(1)</a><a href="#tutorial" class="btn btn-primary tag-btn"><i class="fa fa-tag" aria-hidden="true"></i>&nbsp;tutorial&nbsp;(1)</a><a href="#twitter" class="btn btn-primary tag-btn"><i class="fa fa-tag" aria-hidden="true"></i>&nbsp;twitter&nbsp;(2)</a><a href="#tyvek" class="btn btn-primary tag-btn"><i class="fa fa-tag" aria-hidden="true"></i>&nbsp;tyvek&nbsp;(2)</a><a href="#uk" class="btn btn-primary tag-btn"><i class="fa fa-tag" aria-hidden="true"></i>&nbsp;uk&nbsp;(18)</a><a href="#wired" class="btn btn-primary tag-btn"><i class="fa fa-tag" aria-hidden="true"></i>&nbsp;wired&nbsp;(1)</a><a href="#zecom" class="btn btn-primary tag-btn"><i class="fa fa-tag" aria-hidden="true"></i>&nbsp;zecom&nbsp;(1)</a><div id="full-tags-list"><h2 id="alien" class="linked-section">
+        <i class="fa fa-tag" aria-hidden="true"></i>
+        &nbsp;alien&nbsp;(2)
+    </h2>
+    <div class="post-list"><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/what-are-the-aliens-wathing-in-tv/">What are the aliens wathing in TV?</a>
+                <div class="entry-date">
+                    <time datetime="2009-07-09T00:00:00+00:00">July 09, 2009</time>
+                </div>
+            </div><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/galactic-observer/">Galactic Observer</a>
+                <div class="entry-date">
+                    <time datetime="2009-07-06T00:00:00+00:00">July 06, 2009</time>
+                </div>
+            </div></div><h2 id="aster" class="linked-section">
+        <i class="fa fa-tag" aria-hidden="true"></i>
+        &nbsp;aster&nbsp;(2)
+    </h2>
+    <div class="post-list"><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/aster-gdem-download-tutorial/">ASTER GDEM download tutorial</a>
+                <div class="entry-date">
+                    <time datetime="2009-07-02T00:00:00+00:00">July 02, 2009</time>
+                </div>
+            </div><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/aster-global-dem-gdem-available/">ASTER Global DEM (GDEM) available!</a>
+                <div class="entry-date">
+                    <time datetime="2009-06-30T00:00:00+00:00">June 30, 2009</time>
+                </div>
+            </div></div><h2 id="asteroid" class="linked-section">
+        <i class="fa fa-tag" aria-hidden="true"></i>
+        &nbsp;asteroid&nbsp;(1)
+    </h2>
+    <div class="post-list"><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/asteroid-alerts-come-to-twitter/">Asteroid Alerts Come to Twitter</a>
+                <div class="entry-date">
+                    <time datetime="2009-07-29T00:00:00+00:00">July 29, 2009</time>
+                </div>
+            </div></div><h2 id="austria" class="linked-section">
+        <i class="fa fa-tag" aria-hidden="true"></i>
+        &nbsp;austria&nbsp;(1)
+    </h2>
+    <div class="post-list"><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/klagenfurt-austria/">Klagenfurt, Austria</a>
+                <div class="entry-date">
+                    <time datetime="2007-09-28T00:00:00+00:00">September 28, 2007</time>
+                </div>
+            </div></div><h2 id="beer" class="linked-section">
+        <i class="fa fa-tag" aria-hidden="true"></i>
+        &nbsp;beer&nbsp;(3)
+    </h2>
+    <div class="post-list"><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/gbbf/">GBBF</a>
+                <div class="entry-date">
+                    <time datetime="2007-09-02T00:00:00+00:00">September 02, 2007</time>
+                </div>
+            </div><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/kingston-beer-festival/">Kingston Beer Festival</a>
+                <div class="entry-date">
+                    <time datetime="2007-06-30T00:00:00+00:00">June 30, 2007</time>
+                </div>
+            </div><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/good-reading/">Good Reading</a>
+                <div class="entry-date">
+                    <time datetime="2007-06-11T00:00:00+00:00">June 11, 2007</time>
+                </div>
+            </div></div><h2 id="cambridge" class="linked-section">
+        <i class="fa fa-tag" aria-hidden="true"></i>
+        &nbsp;cambridge&nbsp;(1)
+    </h2>
+    <div class="post-list"><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/cambridge/">Cambridge</a>
+                <div class="entry-date">
+                    <time datetime="2007-09-02T00:00:00+00:00">September 02, 2007</time>
+                </div>
+            </div></div><h2 id="camdem" class="linked-section">
+        <i class="fa fa-tag" aria-hidden="true"></i>
+        &nbsp;camdem&nbsp;(1)
+    </h2>
+    <div class="post-list"><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/camdem-town/">Camdem Town</a>
+                <div class="entry-date">
+                    <time datetime="2007-06-02T00:00:00+00:00">June 02, 2007</time>
+                </div>
+            </div></div><h2 id="camra" class="linked-section">
+        <i class="fa fa-tag" aria-hidden="true"></i>
+        &nbsp;camra&nbsp;(2)
+    </h2>
+    <div class="post-list"><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/gbbf/">GBBF</a>
+                <div class="entry-date">
+                    <time datetime="2007-09-02T00:00:00+00:00">September 02, 2007</time>
+                </div>
+            </div><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/kingston-beer-festival/">Kingston Beer Festival</a>
+                <div class="entry-date">
+                    <time datetime="2007-06-30T00:00:00+00:00">June 30, 2007</time>
+                </div>
+            </div></div><h2 id="cave" class="linked-section">
+        <i class="fa fa-tag" aria-hidden="true"></i>
+        &nbsp;cave&nbsp;(2)
+    </h2>
+    <div class="post-list"><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/waterproof-paper-2/">WaterProof Paper 2</a>
+                <div class="entry-date">
+                    <time datetime="2007-05-30T00:00:00+00:00">May 30, 2007</time>
+                </div>
+            </div><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/tyvek-paper/">TYVEK Paper</a>
+                <div class="entry-date">
+                    <time datetime="2007-05-25T00:00:00+00:00">May 25, 2007</time>
+                </div>
+            </div></div><h2 id="color" class="linked-section">
+        <i class="fa fa-tag" aria-hidden="true"></i>
+        &nbsp;color&nbsp;(1)
+    </h2>
+    <div class="post-list"><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/amazing-optical-illusion/">Amazing Optical Illusion</a>
+                <div class="entry-date">
+                    <time datetime="2009-06-24T00:00:00+00:00">June 24, 2009</time>
+                </div>
+            </div></div><h2 id="conference" class="linked-section">
+        <i class="fa fa-tag" aria-hidden="true"></i>
+        &nbsp;conference&nbsp;(1)
+    </h2>
+    <div class="post-list"><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/klagenfurt-austria/">Klagenfurt, Austria</a>
+                <div class="entry-date">
+                    <time datetime="2007-09-28T00:00:00+00:00">September 28, 2007</time>
+                </div>
+            </div></div><h2 id="consumerism" class="linked-section">
+        <i class="fa fa-tag" aria-hidden="true"></i>
+        &nbsp;consumerism&nbsp;(1)
+    </h2>
+    <div class="post-list"><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/palm-tx/">Palm T|X</a>
+                <div class="entry-date">
+                    <time datetime="2007-05-30T00:00:00+00:00">May 30, 2007</time>
+                </div>
+            </div></div><h2 id="cyborg" class="linked-section">
+        <i class="fa fa-tag" aria-hidden="true"></i>
+        &nbsp;cyborg&nbsp;(1)
+    </h2>
+    <div class="post-list"><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/whats-your-cyborg-name/">What's YOUR cyborg name?</a>
+                <div class="entry-date">
+                    <time datetime="2009-08-05T00:00:00+00:00">August 05, 2009</time>
+                </div>
+            </div></div><h2 id="dartmoor" class="linked-section">
+        <i class="fa fa-tag" aria-hidden="true"></i>
+        &nbsp;dartmoor&nbsp;(1)
+    </h2>
+    <div class="post-list"><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/dartmoor/">Dartmoor</a>
+                <div class="entry-date">
+                    <time datetime="2007-08-03T00:00:00+00:00">August 03, 2007</time>
+                </div>
+            </div></div><h2 id="dem" class="linked-section">
+        <i class="fa fa-tag" aria-hidden="true"></i>
+        &nbsp;dem&nbsp;(2)
+    </h2>
+    <div class="post-list"><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/aster-gdem-download-tutorial/">ASTER GDEM download tutorial</a>
+                <div class="entry-date">
+                    <time datetime="2009-07-02T00:00:00+00:00">July 02, 2009</time>
+                </div>
+            </div><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/aster-global-dem-gdem-available/">ASTER Global DEM (GDEM) available!</a>
+                <div class="entry-date">
+                    <time datetime="2009-06-30T00:00:00+00:00">June 30, 2009</time>
+                </div>
+            </div></div><h2 id="encedalus" class="linked-section">
+        <i class="fa fa-tag" aria-hidden="true"></i>
+        &nbsp;encedalus&nbsp;(1)
+    </h2>
+    <div class="post-list"><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/encedalus-may-have-a-subsurface-ocean/">Enceladus may have a subsurface ocean</a>
+                <div class="entry-date">
+                    <time datetime="2009-06-24T00:00:00+00:00">June 24, 2009</time>
+                </div>
+            </div></div><h2 id="family" class="linked-section">
+        <i class="fa fa-tag" aria-hidden="true"></i>
+        &nbsp;family&nbsp;(1)
+    </h2>
+    <div class="post-list"><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/family/">Family</a>
+                <div class="entry-date">
+                    <time datetime="2007-10-15T00:00:00+00:00">October 15, 2007</time>
+                </div>
+            </div></div><h2 id="field-trip" class="linked-section">
+        <i class="fa fa-tag" aria-hidden="true"></i>
+        &nbsp;field-trip&nbsp;(1)
+    </h2>
+    <div class="post-list"><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/dartmoor/">Dartmoor</a>
+                <div class="entry-date">
+                    <time datetime="2007-08-03T00:00:00+00:00">August 03, 2007</time>
+                </div>
+            </div></div><h2 id="footbal" class="linked-section">
+        <i class="fa fa-tag" aria-hidden="true"></i>
+        &nbsp;footbal&nbsp;(1)
+    </h2>
+    <div class="post-list"><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/england-1-x-1-brazil/">England 1 x 1 Brazil</a>
+                <div class="entry-date">
+                    <time datetime="2007-06-01T00:00:00+00:00">June 01, 2007</time>
+                </div>
+            </div></div><h2 id="gadget" class="linked-section">
+        <i class="fa fa-tag" aria-hidden="true"></i>
+        &nbsp;gadget&nbsp;(1)
+    </h2>
+    <div class="post-list"><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/because-we-all-love-gadgets/">Because we all love gadgets</a>
+                <div class="entry-date">
+                    <time datetime="2009-08-26T00:00:00+00:00">August 26, 2009</time>
+                </div>
+            </div></div><h2 id="gdem" class="linked-section">
+        <i class="fa fa-tag" aria-hidden="true"></i>
+        &nbsp;gdem&nbsp;(2)
+    </h2>
+    <div class="post-list"><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/aster-gdem-download-tutorial/">ASTER GDEM download tutorial</a>
+                <div class="entry-date">
+                    <time datetime="2009-07-02T00:00:00+00:00">July 02, 2009</time>
+                </div>
+            </div><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/aster-global-dem-gdem-available/">ASTER Global DEM (GDEM) available!</a>
+                <div class="entry-date">
+                    <time datetime="2009-06-30T00:00:00+00:00">June 30, 2009</time>
+                </div>
+            </div></div><h2 id="humor" class="linked-section">
+        <i class="fa fa-tag" aria-hidden="true"></i>
+        &nbsp;humor&nbsp;(5)
+    </h2>
+    <div class="post-list"><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/because-we-all-love-gadgets/">Because we all love gadgets</a>
+                <div class="entry-date">
+                    <time datetime="2009-08-26T00:00:00+00:00">August 26, 2009</time>
+                </div>
+            </div><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/rock-star-science/">Rock Star Science</a>
+                <div class="entry-date">
+                    <time datetime="2009-08-25T00:00:00+00:00">August 25, 2009</time>
+                </div>
+            </div><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/whats-your-cyborg-name/">What's YOUR cyborg name?</a>
+                <div class="entry-date">
+                    <time datetime="2009-08-05T00:00:00+00:00">August 05, 2009</time>
+                </div>
+            </div><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/what-are-the-aliens-wathing-in-tv/">What are the aliens wathing in TV?</a>
+                <div class="entry-date">
+                    <time datetime="2009-07-09T00:00:00+00:00">July 09, 2009</time>
+                </div>
+            </div><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/galactic-observer/">Galactic Observer</a>
+                <div class="entry-date">
+                    <time datetime="2009-07-06T00:00:00+00:00">July 06, 2009</time>
+                </div>
+            </div></div><h2 id="jedi" class="linked-section">
+        <i class="fa fa-tag" aria-hidden="true"></i>
+        &nbsp;jedi&nbsp;(1)
+    </h2>
+    <div class="post-list"><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/may-the-force-be-with-you/">May the force be with you!</a>
+                <div class="entry-date">
+                    <time datetime="2007-07-13T00:00:00+00:00">July 13, 2007</time>
+                </div>
+            </div></div><h2 id="kingston" class="linked-section">
+        <i class="fa fa-tag" aria-hidden="true"></i>
+        &nbsp;kingston&nbsp;(8)
+    </h2>
+    <div class="post-list"><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/kingston-beer-festival/">Kingston Beer Festival</a>
+                <div class="entry-date">
+                    <time datetime="2007-06-30T00:00:00+00:00">June 30, 2007</time>
+                </div>
+            </div><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/england-1-x-1-brazil/">England 1 x 1 Brazil</a>
+                <div class="entry-date">
+                    <time datetime="2007-06-01T00:00:00+00:00">June 01, 2007</time>
+                </div>
+            </div><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/waterproof-paper-2/">WaterProof Paper 2</a>
+                <div class="entry-date">
+                    <time datetime="2007-05-30T00:00:00+00:00">May 30, 2007</time>
+                </div>
+            </div><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/palm-tx/">Palm T|X</a>
+                <div class="entry-date">
+                    <time datetime="2007-05-30T00:00:00+00:00">May 30, 2007</time>
+                </div>
+            </div><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/tyvek-paper/">TYVEK Paper</a>
+                <div class="entry-date">
+                    <time datetime="2007-05-25T00:00:00+00:00">May 25, 2007</time>
+                </div>
+            </div><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/this-is-kingston/">This is Kingston</a>
+                <div class="entry-date">
+                    <time datetime="2007-05-24T00:00:00+00:00">May 24, 2007</time>
+                </div>
+            </div><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/mind-the-gap/">Mind the gap</a>
+                <div class="entry-date">
+                    <time datetime="2007-05-21T00:00:00+00:00">May 21, 2007</time>
+                </div>
+            </div><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/id-please/">ID please?</a>
+                <div class="entry-date">
+                    <time datetime="2007-05-21T00:00:00+00:00">May 21, 2007</time>
+                </div>
+            </div></div><h2 id="kite" class="linked-section">
+        <i class="fa fa-tag" aria-hidden="true"></i>
+        &nbsp;kite&nbsp;(1)
+    </h2>
+    <div class="post-list"><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/kite-aerial-photography/">Kite Aerial Photography</a>
+                <div class="entry-date">
+                    <time datetime="2007-07-16T00:00:00+00:00">July 16, 2007</time>
+                </div>
+            </div></div><h2 id="london" class="linked-section">
+        <i class="fa fa-tag" aria-hidden="true"></i>
+        &nbsp;london&nbsp;(3)
+    </h2>
+    <div class="post-list"><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/family/">Family</a>
+                <div class="entry-date">
+                    <time datetime="2007-10-15T00:00:00+00:00">October 15, 2007</time>
+                </div>
+            </div><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/may-the-force-be-with-you/">May the force be with you!</a>
+                <div class="entry-date">
+                    <time datetime="2007-07-13T00:00:00+00:00">July 13, 2007</time>
+                </div>
+            </div><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/camdem-town/">Camdem Town</a>
+                <div class="entry-date">
+                    <time datetime="2007-06-02T00:00:00+00:00">June 02, 2007</time>
+                </div>
+            </div></div><h2 id="meeting" class="linked-section">
+        <i class="fa fa-tag" aria-hidden="true"></i>
+        &nbsp;meeting&nbsp;(1)
+    </h2>
+    <div class="post-list"><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/klagenfurt-austria/">Klagenfurt, Austria</a>
+                <div class="entry-date">
+                    <time datetime="2007-09-28T00:00:00+00:00">September 28, 2007</time>
+                </div>
+            </div></div><h2 id="moon" class="linked-section">
+        <i class="fa fa-tag" aria-hidden="true"></i>
+        &nbsp;moon&nbsp;(3)
+    </h2>
+    <div class="post-list"><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/nasas-lro-sees-apollo-landing-sites/">NASA's LRO sees Apollo landing sites!!!</a>
+                <div class="entry-date">
+                    <time datetime="2009-07-17T00:00:00+00:00">July 17, 2009</time>
+                </div>
+            </div><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/nasas-lro-spacecraft-sends-first-lunar-images-to-earth/">NASA's LRO Spacecraft Sends First Lunar Images to Earth</a>
+                <div class="entry-date">
+                    <time datetime="2009-07-02T00:00:00+00:00">July 02, 2009</time>
+                </div>
+            </div><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/nasa-lunar-mission-successfully-enters-moon-orbit/">NASA Lunar Mission Successfully Enters Moon Orbit</a>
+                <div class="entry-date">
+                    <time datetime="2009-06-24T00:00:00+00:00">June 24, 2009</time>
+                </div>
+            </div></div><h2 id="nasa" class="linked-section">
+        <i class="fa fa-tag" aria-hidden="true"></i>
+        &nbsp;nasa&nbsp;(4)
+    </h2>
+    <div class="post-list"><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/asteroid-alerts-come-to-twitter/">Asteroid Alerts Come to Twitter</a>
+                <div class="entry-date">
+                    <time datetime="2009-07-29T00:00:00+00:00">July 29, 2009</time>
+                </div>
+            </div><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/nasas-lro-sees-apollo-landing-sites/">NASA's LRO sees Apollo landing sites!!!</a>
+                <div class="entry-date">
+                    <time datetime="2009-07-17T00:00:00+00:00">July 17, 2009</time>
+                </div>
+            </div><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/nasas-lro-spacecraft-sends-first-lunar-images-to-earth/">NASA's LRO Spacecraft Sends First Lunar Images to Earth</a>
+                <div class="entry-date">
+                    <time datetime="2009-07-02T00:00:00+00:00">July 02, 2009</time>
+                </div>
+            </div><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/nasa-lunar-mission-successfully-enters-moon-orbit/">NASA Lunar Mission Successfully Enters Moon Orbit</a>
+                <div class="entry-date">
+                    <time datetime="2009-06-24T00:00:00+00:00">June 24, 2009</time>
+                </div>
+            </div></div><h2 id="nerd" class="linked-section">
+        <i class="fa fa-tag" aria-hidden="true"></i>
+        &nbsp;nerd&nbsp;(1)
+    </h2>
+    <div class="post-list"><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/may-the-force-be-with-you/">May the force be with you!</a>
+                <div class="entry-date">
+                    <time datetime="2007-07-13T00:00:00+00:00">July 13, 2007</time>
+                </div>
+            </div></div><h2 id="ocean" class="linked-section">
+        <i class="fa fa-tag" aria-hidden="true"></i>
+        &nbsp;ocean&nbsp;(1)
+    </h2>
+    <div class="post-list"><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/encedalus-may-have-a-subsurface-ocean/">Enceladus may have a subsurface ocean</a>
+                <div class="entry-date">
+                    <time datetime="2009-06-24T00:00:00+00:00">June 24, 2009</time>
+                </div>
+            </div></div><h2 id="phd" class="linked-section">
+        <i class="fa fa-tag" aria-hidden="true"></i>
+        &nbsp;phd&nbsp;(18)
+    </h2>
+    <div class="post-list"><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/family/">Family</a>
+                <div class="entry-date">
+                    <time datetime="2007-10-15T00:00:00+00:00">October 15, 2007</time>
+                </div>
+            </div><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/klagenfurt-austria/">Klagenfurt, Austria</a>
+                <div class="entry-date">
+                    <time datetime="2007-09-28T00:00:00+00:00">September 28, 2007</time>
+                </div>
+            </div><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/gbbf/">GBBF</a>
+                <div class="entry-date">
+                    <time datetime="2007-09-02T00:00:00+00:00">September 02, 2007</time>
+                </div>
+            </div><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/cambridge/">Cambridge</a>
+                <div class="entry-date">
+                    <time datetime="2007-09-02T00:00:00+00:00">September 02, 2007</time>
+                </div>
+            </div><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/dartmoor/">Dartmoor</a>
+                <div class="entry-date">
+                    <time datetime="2007-08-03T00:00:00+00:00">August 03, 2007</time>
+                </div>
+            </div><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/kite-aerial-photography/">Kite Aerial Photography</a>
+                <div class="entry-date">
+                    <time datetime="2007-07-16T00:00:00+00:00">July 16, 2007</time>
+                </div>
+            </div><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/may-the-force-be-with-you/">May the force be with you!</a>
+                <div class="entry-date">
+                    <time datetime="2007-07-13T00:00:00+00:00">July 13, 2007</time>
+                </div>
+            </div><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/kingston-beer-festival/">Kingston Beer Festival</a>
+                <div class="entry-date">
+                    <time datetime="2007-06-30T00:00:00+00:00">June 30, 2007</time>
+                </div>
+            </div><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/good-reading/">Good Reading</a>
+                <div class="entry-date">
+                    <time datetime="2007-06-11T00:00:00+00:00">June 11, 2007</time>
+                </div>
+            </div><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/stone-age/">Stone Age</a>
+                <div class="entry-date">
+                    <time datetime="2007-06-10T00:00:00+00:00">June 10, 2007</time>
+                </div>
+            </div><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/camdem-town/">Camdem Town</a>
+                <div class="entry-date">
+                    <time datetime="2007-06-02T00:00:00+00:00">June 02, 2007</time>
+                </div>
+            </div><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/england-1-x-1-brazil/">England 1 x 1 Brazil</a>
+                <div class="entry-date">
+                    <time datetime="2007-06-01T00:00:00+00:00">June 01, 2007</time>
+                </div>
+            </div><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/waterproof-paper-2/">WaterProof Paper 2</a>
+                <div class="entry-date">
+                    <time datetime="2007-05-30T00:00:00+00:00">May 30, 2007</time>
+                </div>
+            </div><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/palm-tx/">Palm T|X</a>
+                <div class="entry-date">
+                    <time datetime="2007-05-30T00:00:00+00:00">May 30, 2007</time>
+                </div>
+            </div><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/tyvek-paper/">TYVEK Paper</a>
+                <div class="entry-date">
+                    <time datetime="2007-05-25T00:00:00+00:00">May 25, 2007</time>
+                </div>
+            </div><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/this-is-kingston/">This is Kingston</a>
+                <div class="entry-date">
+                    <time datetime="2007-05-24T00:00:00+00:00">May 24, 2007</time>
+                </div>
+            </div><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/mind-the-gap/">Mind the gap</a>
+                <div class="entry-date">
+                    <time datetime="2007-05-21T00:00:00+00:00">May 21, 2007</time>
+                </div>
+            </div><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/id-please/">ID please?</a>
+                <div class="entry-date">
+                    <time datetime="2007-05-21T00:00:00+00:00">May 21, 2007</time>
+                </div>
+            </div></div><h2 id="photogrammetry" class="linked-section">
+        <i class="fa fa-tag" aria-hidden="true"></i>
+        &nbsp;photogrammetry&nbsp;(1)
+    </h2>
+    <div class="post-list"><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/kite-aerial-photography/">Kite Aerial Photography</a>
+                <div class="entry-date">
+                    <time datetime="2007-07-16T00:00:00+00:00">July 16, 2007</time>
+                </div>
+            </div></div><h2 id="pub" class="linked-section">
+        <i class="fa fa-tag" aria-hidden="true"></i>
+        &nbsp;pub&nbsp;(1)
+    </h2>
+    <div class="post-list"><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/england-1-x-1-brazil/">England 1 x 1 Brazil</a>
+                <div class="entry-date">
+                    <time datetime="2007-06-01T00:00:00+00:00">June 01, 2007</time>
+                </div>
+            </div></div><h2 id="remote-sensing" class="linked-section">
+        <i class="fa fa-tag" aria-hidden="true"></i>
+        &nbsp;remote-sensing&nbsp;(1)
+    </h2>
+    <div class="post-list"><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/amazing-optical-illusion/">Amazing Optical Illusion</a>
+                <div class="entry-date">
+                    <time datetime="2009-06-24T00:00:00+00:00">June 24, 2009</time>
+                </div>
+            </div></div><h2 id="science" class="linked-section">
+        <i class="fa fa-tag" aria-hidden="true"></i>
+        &nbsp;science&nbsp;(11)
+    </h2>
+    <div class="post-list"><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/because-we-all-love-gadgets/">Because we all love gadgets</a>
+                <div class="entry-date">
+                    <time datetime="2009-08-26T00:00:00+00:00">August 26, 2009</time>
+                </div>
+            </div><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/rock-star-science/">Rock Star Science</a>
+                <div class="entry-date">
+                    <time datetime="2009-08-25T00:00:00+00:00">August 25, 2009</time>
+                </div>
+            </div><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/volcanoes-from-space/">Volcanoes from space!</a>
+                <div class="entry-date">
+                    <time datetime="2009-08-24T00:00:00+00:00">August 24, 2009</time>
+                </div>
+            </div><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/asteroid-alerts-come-to-twitter/">Asteroid Alerts Come to Twitter</a>
+                <div class="entry-date">
+                    <time datetime="2009-07-29T00:00:00+00:00">July 29, 2009</time>
+                </div>
+            </div><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/nasas-lro-sees-apollo-landing-sites/">NASA's LRO sees Apollo landing sites!!!</a>
+                <div class="entry-date">
+                    <time datetime="2009-07-17T00:00:00+00:00">July 17, 2009</time>
+                </div>
+            </div><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/nasas-lro-spacecraft-sends-first-lunar-images-to-earth/">NASA's LRO Spacecraft Sends First Lunar Images to Earth</a>
+                <div class="entry-date">
+                    <time datetime="2009-07-02T00:00:00+00:00">July 02, 2009</time>
+                </div>
+            </div><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/aster-gdem-download-tutorial/">ASTER GDEM download tutorial</a>
+                <div class="entry-date">
+                    <time datetime="2009-07-02T00:00:00+00:00">July 02, 2009</time>
+                </div>
+            </div><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/aster-global-dem-gdem-available/">ASTER Global DEM (GDEM) available!</a>
+                <div class="entry-date">
+                    <time datetime="2009-06-30T00:00:00+00:00">June 30, 2009</time>
+                </div>
+            </div><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/nasa-lunar-mission-successfully-enters-moon-orbit/">NASA Lunar Mission Successfully Enters Moon Orbit</a>
+                <div class="entry-date">
+                    <time datetime="2009-06-24T00:00:00+00:00">June 24, 2009</time>
+                </div>
+            </div><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/encedalus-may-have-a-subsurface-ocean/">Enceladus may have a subsurface ocean</a>
+                <div class="entry-date">
+                    <time datetime="2009-06-24T00:00:00+00:00">June 24, 2009</time>
+                </div>
+            </div><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/amazing-optical-illusion/">Amazing Optical Illusion</a>
+                <div class="entry-date">
+                    <time datetime="2009-06-24T00:00:00+00:00">June 24, 2009</time>
+                </div>
+            </div></div><h2 id="speleo" class="linked-section">
+        <i class="fa fa-tag" aria-hidden="true"></i>
+        &nbsp;speleo&nbsp;(2)
+    </h2>
+    <div class="post-list"><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/waterproof-paper-2/">WaterProof Paper 2</a>
+                <div class="entry-date">
+                    <time datetime="2007-05-30T00:00:00+00:00">May 30, 2007</time>
+                </div>
+            </div><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/tyvek-paper/">TYVEK Paper</a>
+                <div class="entry-date">
+                    <time datetime="2007-05-25T00:00:00+00:00">May 25, 2007</time>
+                </div>
+            </div></div><h2 id="starwars" class="linked-section">
+        <i class="fa fa-tag" aria-hidden="true"></i>
+        &nbsp;starwars&nbsp;(1)
+    </h2>
+    <div class="post-list"><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/may-the-force-be-with-you/">May the force be with you!</a>
+                <div class="entry-date">
+                    <time datetime="2007-07-13T00:00:00+00:00">July 13, 2007</time>
+                </div>
+            </div></div><h2 id="stonehenge" class="linked-section">
+        <i class="fa fa-tag" aria-hidden="true"></i>
+        &nbsp;stonehenge&nbsp;(1)
+    </h2>
+    <div class="post-list"><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/stone-age/">Stone Age</a>
+                <div class="entry-date">
+                    <time datetime="2007-06-10T00:00:00+00:00">June 10, 2007</time>
+                </div>
+            </div></div><h2 id="teaching" class="linked-section">
+        <i class="fa fa-tag" aria-hidden="true"></i>
+        &nbsp;teaching&nbsp;(1)
+    </h2>
+    <div class="post-list"><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/amazing-optical-illusion/">Amazing Optical Illusion</a>
+                <div class="entry-date">
+                    <time datetime="2009-06-24T00:00:00+00:00">June 24, 2009</time>
+                </div>
+            </div></div><h2 id="technofile" class="linked-section">
+        <i class="fa fa-tag" aria-hidden="true"></i>
+        &nbsp;technofile&nbsp;(1)
+    </h2>
+    <div class="post-list"><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/palm-tx/">Palm T|X</a>
+                <div class="entry-date">
+                    <time datetime="2007-05-30T00:00:00+00:00">May 30, 2007</time>
+                </div>
+            </div></div><h2 id="technology" class="linked-section">
+        <i class="fa fa-tag" aria-hidden="true"></i>
+        &nbsp;technology&nbsp;(1)
+    </h2>
+    <div class="post-list"><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/because-we-all-love-gadgets/">Because we all love gadgets</a>
+                <div class="entry-date">
+                    <time datetime="2009-08-26T00:00:00+00:00">August 26, 2009</time>
+                </div>
+            </div></div><h2 id="tutorial" class="linked-section">
+        <i class="fa fa-tag" aria-hidden="true"></i>
+        &nbsp;tutorial&nbsp;(1)
+    </h2>
+    <div class="post-list"><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/aster-gdem-download-tutorial/">ASTER GDEM download tutorial</a>
+                <div class="entry-date">
+                    <time datetime="2009-07-02T00:00:00+00:00">July 02, 2009</time>
+                </div>
+            </div></div><h2 id="twitter" class="linked-section">
+        <i class="fa fa-tag" aria-hidden="true"></i>
+        &nbsp;twitter&nbsp;(2)
+    </h2>
+    <div class="post-list"><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/volcanoes-from-space/">Volcanoes from space!</a>
+                <div class="entry-date">
+                    <time datetime="2009-08-24T00:00:00+00:00">August 24, 2009</time>
+                </div>
+            </div><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/asteroid-alerts-come-to-twitter/">Asteroid Alerts Come to Twitter</a>
+                <div class="entry-date">
+                    <time datetime="2009-07-29T00:00:00+00:00">July 29, 2009</time>
+                </div>
+            </div></div><h2 id="tyvek" class="linked-section">
+        <i class="fa fa-tag" aria-hidden="true"></i>
+        &nbsp;tyvek&nbsp;(2)
+    </h2>
+    <div class="post-list"><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/waterproof-paper-2/">WaterProof Paper 2</a>
+                <div class="entry-date">
+                    <time datetime="2007-05-30T00:00:00+00:00">May 30, 2007</time>
+                </div>
+            </div><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/tyvek-paper/">TYVEK Paper</a>
+                <div class="entry-date">
+                    <time datetime="2007-05-25T00:00:00+00:00">May 25, 2007</time>
+                </div>
+            </div></div><h2 id="uk" class="linked-section">
+        <i class="fa fa-tag" aria-hidden="true"></i>
+        &nbsp;uk&nbsp;(18)
+    </h2>
+    <div class="post-list"><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/family/">Family</a>
+                <div class="entry-date">
+                    <time datetime="2007-10-15T00:00:00+00:00">October 15, 2007</time>
+                </div>
+            </div><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/klagenfurt-austria/">Klagenfurt, Austria</a>
+                <div class="entry-date">
+                    <time datetime="2007-09-28T00:00:00+00:00">September 28, 2007</time>
+                </div>
+            </div><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/gbbf/">GBBF</a>
+                <div class="entry-date">
+                    <time datetime="2007-09-02T00:00:00+00:00">September 02, 2007</time>
+                </div>
+            </div><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/cambridge/">Cambridge</a>
+                <div class="entry-date">
+                    <time datetime="2007-09-02T00:00:00+00:00">September 02, 2007</time>
+                </div>
+            </div><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/dartmoor/">Dartmoor</a>
+                <div class="entry-date">
+                    <time datetime="2007-08-03T00:00:00+00:00">August 03, 2007</time>
+                </div>
+            </div><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/kite-aerial-photography/">Kite Aerial Photography</a>
+                <div class="entry-date">
+                    <time datetime="2007-07-16T00:00:00+00:00">July 16, 2007</time>
+                </div>
+            </div><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/may-the-force-be-with-you/">May the force be with you!</a>
+                <div class="entry-date">
+                    <time datetime="2007-07-13T00:00:00+00:00">July 13, 2007</time>
+                </div>
+            </div><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/kingston-beer-festival/">Kingston Beer Festival</a>
+                <div class="entry-date">
+                    <time datetime="2007-06-30T00:00:00+00:00">June 30, 2007</time>
+                </div>
+            </div><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/good-reading/">Good Reading</a>
+                <div class="entry-date">
+                    <time datetime="2007-06-11T00:00:00+00:00">June 11, 2007</time>
+                </div>
+            </div><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/stone-age/">Stone Age</a>
+                <div class="entry-date">
+                    <time datetime="2007-06-10T00:00:00+00:00">June 10, 2007</time>
+                </div>
+            </div><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/camdem-town/">Camdem Town</a>
+                <div class="entry-date">
+                    <time datetime="2007-06-02T00:00:00+00:00">June 02, 2007</time>
+                </div>
+            </div><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/england-1-x-1-brazil/">England 1 x 1 Brazil</a>
+                <div class="entry-date">
+                    <time datetime="2007-06-01T00:00:00+00:00">June 01, 2007</time>
+                </div>
+            </div><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/waterproof-paper-2/">WaterProof Paper 2</a>
+                <div class="entry-date">
+                    <time datetime="2007-05-30T00:00:00+00:00">May 30, 2007</time>
+                </div>
+            </div><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/palm-tx/">Palm T|X</a>
+                <div class="entry-date">
+                    <time datetime="2007-05-30T00:00:00+00:00">May 30, 2007</time>
+                </div>
+            </div><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/tyvek-paper/">TYVEK Paper</a>
+                <div class="entry-date">
+                    <time datetime="2007-05-25T00:00:00+00:00">May 25, 2007</time>
+                </div>
+            </div><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/this-is-kingston/">This is Kingston</a>
+                <div class="entry-date">
+                    <time datetime="2007-05-24T00:00:00+00:00">May 24, 2007</time>
+                </div>
+            </div><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/mind-the-gap/">Mind the gap</a>
+                <div class="entry-date">
+                    <time datetime="2007-05-21T00:00:00+00:00">May 21, 2007</time>
+                </div>
+            </div><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/id-please/">ID please?</a>
+                <div class="entry-date">
+                    <time datetime="2007-05-21T00:00:00+00:00">May 21, 2007</time>
+                </div>
+            </div></div><h2 id="wired" class="linked-section">
+        <i class="fa fa-tag" aria-hidden="true"></i>
+        &nbsp;wired&nbsp;(1)
+    </h2>
+    <div class="post-list"><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/volcanoes-from-space/">Volcanoes from space!</a>
+                <div class="entry-date">
+                    <time datetime="2009-08-24T00:00:00+00:00">August 24, 2009</time>
+                </div>
+            </div></div><h2 id="zecom" class="linked-section">
+        <i class="fa fa-tag" aria-hidden="true"></i>
+        &nbsp;zecom&nbsp;(1)
+    </h2>
+    <div class="post-list"><div class="tag-entry">
+                <a rel="noopener noreferrer" target="_blank" href="http://localhost:4000/http:/carlosgrohmann.com/waterproof-paper-2/">WaterProof Paper 2</a>
+                <div class="entry-date">
+                    <time datetime="2007-05-30T00:00:00+00:00">May 30, 2007</time>
+                </div>
+            </div></div></div>
+
+	    
+    </div>
+  </div>
+</div>
+
+
+    <footer>
+  <div class="container beautiful-jekyll-footer">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center footer-links"><li><a href="/feed.xml" title="RSS"><span class="fa-stack fa-lg" aria-hidden="true">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+                </span>
+                <span class="sr-only">RSS</span>
+              </a>
+            </li><li><a href="https://github.com/CarlosGrohmann" title="GitHub"><span class="fa-stack fa-lg" aria-hidden="true">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                </span>
+                <span class="sr-only">GitHub</span>
+              </a>
+            </li><li><a href="https://twitter.com/CarlosGrohmann" title="Twitter"><span class="fa-stack fa-lg" aria-hidden="true">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                </span>
+                <span class="sr-only">Twitter</span>
+              </a>
+            </li><li><a href="https://www.instagram.com/CarlosGrohmann" title="Instagram"><span class="fa-stack fa-lg" aria-hidden="true">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+                </span>
+                <span class="sr-only">Instagram</span>
+              </a>
+            </li></ul>
+      <p class="copyright text-muted">
+      Carlos H. Grohmann
+      &nbsp;&bull;&nbsp;
+      2019
+
+      
+      &nbsp;&bull;&nbsp;
+      <a href="http://localhost:4000">carlosgrohmann.com</a>
+      
+
+      
+      </p>
+          <!-- Please don't remove this, keep my open source work credited :) -->
+    <p class="theme-by text-muted">
+      Theme by
+      <a href="https://deanattali.com/beautiful-jekyll/">beautiful-jekyll</a>
+    </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  
+    
+
+
+
+
+
+
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+      <script>
+      	if (typeof jQuery == 'undefined') {
+      	  document.write('<script src="/js/jquery-1.11.2.min.js"></scr' + 'ipt>');
+      	}
+      </script>
+    
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+	<script src="/js/bootstrap.min.js"></script>
+    
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+	<script src="/js/main.js"></script>
+    
+  
+
+
+  
+  </body>
+</html>

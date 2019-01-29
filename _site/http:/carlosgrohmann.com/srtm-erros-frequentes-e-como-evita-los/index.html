@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Beautiful Jekyll | MIT license | Copyright Dean Attali 2016 -->
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, viewport-fit=cover">
+
+  <title>SRTM - erros frequentes e como evitá-los</title>
+
+  <meta name="author" content="Carlos H. Grohmann" />
+
+  
+
+  <link rel="alternate" type="application/rss+xml" title="Prof. Carlos H. Grohmann - Personal website of Prof. Carlos H. Grohmann (IEE-USP, Brazil)" href="/feed.xml" />
+
+  
+
+  
+
+  
+
+
+  
+    
+      
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css" />
+
+
+    
+  
+
+  
+    
+      <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    
+      <link rel="stylesheet" href="/css/bootstrap-social.css" />
+    
+      <link rel="stylesheet" href="/css/main.css" />
+    
+  
+
+  
+    
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
+    
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
+    
+  
+
+  
+
+  
+
+  
+
+    <!-- Facebook OpenGraph tags -->
+  
+
+  
+  <meta property="og:title" content="SRTM - erros frequentes e como evitá-los" />
+  
+
+   
+  <meta property="og:description" content="O modelos de elevação SRTM são muito utilizados aqui no Brasil, já que não temos uma cobertura de mapas topográficos em escala decente (1:50.000 ou melhor) da maior parte de nosso território. Porém, tenho notado quatro erros muito frequentes nos artigos e monografias (TCCs, dissertações e teses) que vou comentar...">
+  
+
+
+  <meta property="og:type" content="website" />
+
+  
+  <meta property="og:url" content="http://localhost:4000/http:/carlosgrohmann.com/srtm-erros-frequentes-e-como-evita-los/" />
+  <link rel="canonical" href="http://localhost:4000/http:/carlosgrohmann.com/srtm-erros-frequentes-e-como-evita-los/" />
+  
+
+  
+  <meta property="og:image" content="http://localhost:4000/img/doodle_crop.jpg" />
+  
+
+
+  <!-- Twitter summary cards -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@" />
+  <meta name="twitter:creator" content="@" />
+
+  
+  <meta name="twitter:title" content="SRTM - erros frequentes e como evitá-los" />
+  
+
+  
+  <meta name="twitter:description" content="O modelos de elevação SRTM são muito utilizados aqui no Brasil, já que não temos uma cobertura de mapas topográficos em escala decente (1:50.000 ou melhor) da maior parte de nosso território. Porém, tenho notado quatro erros muito frequentes nos artigos e monografias (TCCs, dissertações e teses) que vou comentar...">
+  
+
+  
+  <meta name="twitter:image" content="http://localhost:4000/img/doodle_crop.jpg" />
+  
+
+  
+
+  
+
+</head>
+
+
+  <body>
+
+    
+
+  
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+        <a class="navbar-brand" href="http://localhost:4000">Prof. Carlos H. Grohmann</a>
+      
+    </div>
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+      
+        
+          <li>
+            
+
+
+
+
+
+  
+  <a href="/index">Home</a>
+
+
+
+
+          </li>
+        
+        
+        
+          <li class="navlinks-container">
+            <a class="navlinks-parent" href="javascript:void(0)">About Me</a>
+            <div class="navlinks-children">
+              
+                
+                  
+
+
+
+
+
+  
+  <a href="/aboutme">Bio|CV</a>
+
+
+
+
+                
+              
+                
+                  
+
+
+
+
+
+  
+  <a href="/photos">Photos</a>
+
+
+
+
+                
+              
+                
+                  
+
+
+
+
+
+  
+  <a href="/gmaps">Map</a>
+
+
+
+
+                
+              
+            </div>
+          </li>
+        
+        
+        
+          <li class="navlinks-container">
+            <a class="navlinks-parent" href="javascript:void(0)">Research</a>
+            <div class="navlinks-children">
+              
+                
+                  
+
+
+
+
+
+  
+  <a href="/grants">Projects</a>
+
+
+
+
+                
+              
+                
+                  
+
+
+
+
+
+  
+  <a href="/students">Students</a>
+
+
+
+
+                
+              
+                
+                  
+
+
+
+
+
+  
+  <a rel="noopener noreferrer" target="_blank" href="https://spamlab.github.io">SPAM!(Lab)</a>
+
+
+
+
+                
+              
+            </div>
+          </li>
+        
+        
+        
+          <li>
+            
+
+
+
+
+
+  
+  <a href="/publications">Publications</a>
+
+
+
+
+          </li>
+        
+        
+        
+          <li class="navlinks-container">
+            <a class="navlinks-parent" href="javascript:void(0)">Blog</a>
+            <div class="navlinks-children">
+              
+                
+                  
+
+
+
+
+
+  
+  <a href="/blog">Posts</a>
+
+
+
+
+                
+              
+                
+                  
+
+
+
+
+
+  
+  <a href="/tags">Tags</a>
+
+
+
+
+                
+              
+            </div>
+          </li>
+        
+        
+        
+          <li>
+            
+
+
+
+
+
+  
+  <a href="/search">?</a>
+
+
+
+
+          </li>
+        
+        
+      </ul>
+    </div>
+
+	
+	<div class="avatar-container">
+	  <div class="avatar-img-border">
+	    <a href="http://localhost:4000">
+	      <img class="avatar-img" src="/img/doodle_crop.jpg" />
+		</a>
+	  </div>
+	</div>
+	
+
+  </div>
+</nav>
+
+
+    <!-- TODO this file has become a mess, refactor it -->
+
+
+
+
+
+<header class="header-section ">
+
+<div class="intro-header no-img">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <div class="post-heading">
+          <h1>SRTM - erros frequentes e como evitá-los</h1>
+		  
+		  
+		  
+		  <span class="post-meta">Posted on May 1, 2016</span>
+		  
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</header>
+
+
+
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+
+      
+
+      <article role="main" class="blog-post">
+        <p>O modelos de elevação SRTM são muito utilizados aqui no Brasil, já que não temos uma cobertura de mapas topográficos em escala decente (1:50.000 ou melhor) da maior parte de nosso território. Porém, tenho notado quatro erros muito frequentes nos artigos e monografias (TCCs, dissertações e teses) que vou comentar a seguir. O primeiro é com relação à citação do SRTM. Com tantos artigos que falam sobre o SRTM, é compreensível que surja uma dúvida sobre qual usar para citar os dados. A melhor citação para o SRTM é esta aqui: Farr, T.G., Rosen, P.A., Caro, E., Crippen, R., Duren, R., Hensley, S., Kobrick, M., Paller, M., Rodriguez, E., Roth, L., Seal, D., Shaffer, S., Shimada, J., Umland, J., Werner, M., Oskin, M., Burbank, D., &amp; Alsdorf, D., 2007. The Shuttle Radar Topography Mission. <em>Review of Geophysics</em>, 45:RG2004. DOI: <a rel="noopener noreferrer" target="_blank" href="https://dx.doi.org/10.1029%2F2005RG000183">https://dx.doi.org/10.1029%2F2005RG000183</a> Esse artigo traz uma descrição bastante completa da missão SRTM, dos sistemas de radar, etc. O segundo ponto é sobre o acrônimo SRTM, que significa <strong>S</strong>huttle <strong>R</strong>adar <strong>T</strong>opography <strong>M</strong>ission. Notem que o “T” é de Topograph<strong>y</strong> e não de Topogra<strong>phic</strong>, como tenho visto em muitos artigos e teses. O terceiro ponto é um pouco mais conceitual. Vejo muitos textos dizendo que “os modelos de elevação foram construídos com dados SRTM”, ou algo nessa linha. O problema aqui é que os dados SRTM <strong>já são</strong> modelos de elevação. Para construir os modelos de elevação com dados SRTM, seria necessário ter acesso aos dados brutos de radar, fazer o processamento da interferometria, etc. Então é melhor dizer que “foram utilizados dados de elevação SRTM (Farr et al., 2007)”. O último ponto é sobre o que os dados SRTM representam. Por terem sido gerados com interferometria de radar das bandas C e X (vejam lá os detalhes no artigo do Tom Farr), os valores de elevação só representam o terreno em espaços abertos. Em áreas com vegetação, as ondas de radar (nesses comprimentos de onda) não penetram no dossel das árvores, então a elevação do SRTM é a de uma superfície que passa perto do topo do dossel. Desse modo, não é correto dizer que o SRTM seja um Modelo Digital de Terreno (MDT), mas sim um Modelo Digital de <strong>Elevação</strong> (MDE) ou de <strong>Superfície</strong> (MDS). A figura abaixo mostra a relação entre Modelos Digitais de Superfície e de Terreno para uma área no norte da Amazônia e deve ilustrar bem a diferença entre os dois. [caption id=”attachment_1322” align=”alignnone” width=”600”]<img src="/blog/wp-content/uploads/2016/05/profiles_600dpi-1024x438.png" alt="profiles_600dpi" /> Perfis topográficos de dados SRTM, ASTER GDEM e Radiografia da Amazônia (Grohmann, 2015).[/caption]   É isso. Espero que este post ajude um pouco a sanar essas dúvidas comuns. <strong>Referência</strong> Grohmann, C.H., 2015. ‘Radiography of the Amazon’ DSM/DTM data: comparative analysis with SRTM, ASTER GDEM. Geomorphometry 2015, Poznam, Poland. Proceedings. <a rel="noopener noreferrer" target="_blank" href="http://carlosgrohmann.com/downloads/Grohmann_2015_geomorphometry_RAM_DTM_DSM.pdf">PDF disponível aqui</a></p>
+
+      </article>
+
+      
+
+      
+        <!-- Check if any share-links are active -->
+
+
+
+
+<section id = "social-share-section">
+  <span class="sr-only">Share: </span>
+
+  
+  <!--- Share on Twitter -->
+    <a rel="noopener noreferrer" target="_blank" href="https://twitter.com/intent/tweet?text=SRTM+-+erros+frequentes+e+como+evit%C3%A1-los+http://localhost:4000/http:/carlosgrohmann.com/srtm-erros-frequentes-e-como-evita-los/"
+      class="btn btn-social-icon btn-twitter" title="Share on Twitter">
+      <span class="fa fa-fw fa-twitter" aria-hidden="true"></span>
+      <span class="sr-only">Twitter</span>
+    </a>
+  
+
+  
+  <!--- Share on Facebook -->
+    <a rel="noopener noreferrer" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/http:/carlosgrohmann.com/srtm-erros-frequentes-e-como-evita-los/"
+      class="btn btn-social-icon btn-facebook" title="Share on Facebook">
+      <span class="fa fa-fw fa-facebook" aria-hidden="true"></span>
+      <span class="sr-only">Facebook</span>
+    </a>
+  
+
+  
+  <!--- Share on Google Plus -->
+    <a rel="noopener noreferrer" target="_blank" href="https://plus.google.com/share?url=http://localhost:4000/http:/carlosgrohmann.com/srtm-erros-frequentes-e-como-evita-los/"
+      class="btn btn-social-icon btn-google" title="Share on Google+">
+      <span class="fa fa-fw fa-google-plus" aria-hidden="true"></span>
+      <span class="sr-only">Google+</span>
+    </a>
+  
+
+  
+
+</section>
+
+
+
+      
+
+      <ul class="pager blog-pager">
+        
+        <li class="previous">
+          <a href="/http:/carlosgrohmann.com/acidente-ezio/" data-toggle="tooltip" data-placement="top" title="Relato de acidente e resgate - Lapa da Deuza (Vazante, MG)">&larr; Previous Post</a>
+        </li>
+        
+        
+        <li class="next">
+          <a href="/http:/carlosgrohmann.com/o-uso-adequado-de-algumas-expressoes-de-tecnologia-em-ingles/" data-toggle="tooltip" data-placement="top" title="O uso adequado de algumas expressões de tecnologia em inglês">Next Post &rarr;</a>
+        </li>
+        
+      </ul>
+
+      
+        <div class="disqus-comments">
+          
+        </div>
+          
+        <div class="staticman-comments">
+          
+
+        </div>
+      
+    </div>
+  </div>
+</div>
+
+
+    <footer>
+  <div class="container beautiful-jekyll-footer">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center footer-links"><li><a href="/feed.xml" title="RSS"><span class="fa-stack fa-lg" aria-hidden="true">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+                </span>
+                <span class="sr-only">RSS</span>
+              </a>
+            </li><li><a href="https://github.com/CarlosGrohmann" title="GitHub"><span class="fa-stack fa-lg" aria-hidden="true">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                </span>
+                <span class="sr-only">GitHub</span>
+              </a>
+            </li><li><a href="https://twitter.com/CarlosGrohmann" title="Twitter"><span class="fa-stack fa-lg" aria-hidden="true">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                </span>
+                <span class="sr-only">Twitter</span>
+              </a>
+            </li><li><a href="https://www.instagram.com/CarlosGrohmann" title="Instagram"><span class="fa-stack fa-lg" aria-hidden="true">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+                </span>
+                <span class="sr-only">Instagram</span>
+              </a>
+            </li></ul>
+      <p class="copyright text-muted">
+      Carlos H. Grohmann
+      &nbsp;&bull;&nbsp;
+      2019
+
+      
+      &nbsp;&bull;&nbsp;
+      <a href="http://localhost:4000">carlosgrohmann.com</a>
+      
+
+      
+      </p>
+          <!-- Please don't remove this, keep my open source work credited :) -->
+    <p class="theme-by text-muted">
+      Theme by
+      <a href="https://deanattali.com/beautiful-jekyll/">beautiful-jekyll</a>
+    </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  
+    
+
+
+
+
+
+
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+      <script>
+      	if (typeof jQuery == 'undefined') {
+      	  document.write('<script src="/js/jquery-1.11.2.min.js"></scr' + 'ipt>');
+      	}
+      </script>
+    
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+	<script src="/js/bootstrap.min.js"></script>
+    
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+	<script src="/js/main.js"></script>
+    
+  
+
+
+  
+  </body>
+</html>

@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Beautiful Jekyll | MIT license | Copyright Dean Attali 2016 -->
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, viewport-fit=cover">
+
+  <title>ASTER GDEM download tutorial</title>
+
+  <meta name="author" content="Carlos H. Grohmann" />
+
+  
+
+  <link rel="alternate" type="application/rss+xml" title="Prof. Carlos H. Grohmann - Personal website of Prof. Carlos H. Grohmann (IEE-USP, Brazil)" href="/feed.xml" />
+
+  
+
+  
+
+  
+
+
+  
+    
+      
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css" />
+
+
+    
+  
+
+  
+    
+      <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    
+      <link rel="stylesheet" href="/css/bootstrap-social.css" />
+    
+      <link rel="stylesheet" href="/css/main.css" />
+    
+  
+
+  
+    
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
+    
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
+    
+  
+
+  
+
+  
+
+  
+
+    <!-- Facebook OpenGraph tags -->
+  
+
+  
+  <meta property="og:title" content="ASTER GDEM download tutorial" />
+  
+
+   
+  <meta property="og:description" content="Agustin Castillo has a nice short tutorial on how to download ASTER GDEM tiles. Since it is in Spanish, I’m reproducing it in English. original post: El mundo a tu alcance ASTER GDEM 30m en Mac This works with Firefox, in Safari (Mac users), I couldn’t see the selection map....">
+  
+
+
+  <meta property="og:type" content="website" />
+
+  
+  <meta property="og:url" content="http://localhost:4000/http:/carlosgrohmann.com/aster-gdem-download-tutorial/" />
+  <link rel="canonical" href="http://localhost:4000/http:/carlosgrohmann.com/aster-gdem-download-tutorial/" />
+  
+
+  
+  <meta property="og:image" content="http://localhost:4000/img/doodle_crop.jpg" />
+  
+
+
+  <!-- Twitter summary cards -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@" />
+  <meta name="twitter:creator" content="@" />
+
+  
+  <meta name="twitter:title" content="ASTER GDEM download tutorial" />
+  
+
+  
+  <meta name="twitter:description" content="Agustin Castillo has a nice short tutorial on how to download ASTER GDEM tiles. Since it is in Spanish, I’m reproducing it in English. original post: El mundo a tu alcance ASTER GDEM 30m en Mac This works with Firefox, in Safari (Mac users), I couldn’t see the selection map....">
+  
+
+  
+  <meta name="twitter:image" content="http://localhost:4000/img/doodle_crop.jpg" />
+  
+
+  
+
+  
+
+</head>
+
+
+  <body>
+
+    
+
+  
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+        <a class="navbar-brand" href="http://localhost:4000">Prof. Carlos H. Grohmann</a>
+      
+    </div>
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+      
+        
+          <li>
+            
+
+
+
+
+
+  
+  <a href="/index">Home</a>
+
+
+
+
+          </li>
+        
+        
+        
+          <li class="navlinks-container">
+            <a class="navlinks-parent" href="javascript:void(0)">About Me</a>
+            <div class="navlinks-children">
+              
+                
+                  
+
+
+
+
+
+  
+  <a href="/aboutme">Bio|CV</a>
+
+
+
+
+                
+              
+                
+                  
+
+
+
+
+
+  
+  <a href="/photos">Photos</a>
+
+
+
+
+                
+              
+                
+                  
+
+
+
+
+
+  
+  <a href="/gmaps">Map</a>
+
+
+
+
+                
+              
+            </div>
+          </li>
+        
+        
+        
+          <li class="navlinks-container">
+            <a class="navlinks-parent" href="javascript:void(0)">Research</a>
+            <div class="navlinks-children">
+              
+                
+                  
+
+
+
+
+
+  
+  <a href="/grants">Projects</a>
+
+
+
+
+                
+              
+                
+                  
+
+
+
+
+
+  
+  <a href="/students">Students</a>
+
+
+
+
+                
+              
+                
+                  
+
+
+
+
+
+  
+  <a rel="noopener noreferrer" target="_blank" href="https://spamlab.github.io">SPAM!(Lab)</a>
+
+
+
+
+                
+              
+            </div>
+          </li>
+        
+        
+        
+          <li>
+            
+
+
+
+
+
+  
+  <a href="/publications">Publications</a>
+
+
+
+
+          </li>
+        
+        
+        
+          <li class="navlinks-container">
+            <a class="navlinks-parent" href="javascript:void(0)">Blog</a>
+            <div class="navlinks-children">
+              
+                
+                  
+
+
+
+
+
+  
+  <a href="/blog">Posts</a>
+
+
+
+
+                
+              
+                
+                  
+
+
+
+
+
+  
+  <a href="/tags">Tags</a>
+
+
+
+
+                
+              
+            </div>
+          </li>
+        
+        
+        
+          <li>
+            
+
+
+
+
+
+  
+  <a href="/search">?</a>
+
+
+
+
+          </li>
+        
+        
+      </ul>
+    </div>
+
+	
+	<div class="avatar-container">
+	  <div class="avatar-img-border">
+	    <a href="http://localhost:4000">
+	      <img class="avatar-img" src="/img/doodle_crop.jpg" />
+		</a>
+	  </div>
+	</div>
+	
+
+  </div>
+</nav>
+
+
+    <!-- TODO this file has become a mess, refactor it -->
+
+
+
+
+
+<header class="header-section ">
+
+<div class="intro-header no-img">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <div class="post-heading">
+          <h1>ASTER GDEM download tutorial</h1>
+		  
+		  
+		  
+		  <span class="post-meta">Posted on July 2, 2009</span>
+		  
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</header>
+
+
+
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+
+      
+
+      <article role="main" class="blog-post">
+        <p>Agustin Castillo has a nice short tutorial on how to download ASTER GDEM tiles. Since it is in Spanish, I’m reproducing it in English.</p>
+
+<p>original post: <a rel="noopener noreferrer" target="_blank" href="http://gvsigmac.blogspot.com/2009/07/el-mundo-tu-alcance-aster-gdem-30m-en.html">El mundo a tu alcance ASTER GDEM 30m en Mac</a></p>
+
+<p>This works with Firefox, in Safari (Mac users), I couldn’t see the selection map.</p>
+
+<p>Since last Monday, METI and NASA made available a Digital Terrain Model with 30x30 resolution (ASTER GDEM). This means that since this day, thanks to them, to gvSIG and Sextante, we can perform analysis of the physical environment of the whole world with first-class data. I will show a step-by-step with an example of an area in Ethiopia.</p>
+
+<p><img src="/img/picture801.png?w=300" alt="" /></p>
+
+<p>Map of southwest Musilandia (south Ethiopia)</p>
+
+<p>First we go to the <a rel="noopener noreferrer" target="_blank" href="http://gcmd.nasa.gov/KeywordSearch/Metadata.do?Portal=GCMD&amp;KeywordPath=%5BSource_Name%3A+Short_Name%3D%27TERRA%27%5D&amp;OrigMetadataNode=GCMD&amp;EntryId=ASTGTM1&amp;MetadataView=Full&amp;MetadataType=0&amp;lbnode=mdlb2">metada</a> page:</p>
+
+<p><img src="/img/picture631.png?w=300" alt="" /></p>
+
+<p>Then we click on the get data link, which will take us to the <a rel="noopener noreferrer" target="_blank" href="https://wist.echo.nasa.gov/%7Ewist/api/imswelcome/">Welcome to WIST</a> page:</p>
+
+<p><img src="/img/picture641.png?w=300" alt="" /></p>
+
+<p>In the top of the page click on <a rel="noopener noreferrer" target="_blank" href="https://wist.echo.nasa.gov/wist-bin/api/ims.cgi?mode=MAINSRCH&amp;JS=1">ENTER WIST</a>, and go to the data selection page.</p>
+
+<p><img src="/img/picture651.png?w=300" alt="" /></p>
+
+<p>In order to download the data, we need to be logged in the system. We choose ASTER and digital elevation model. The system has a tutorial. Here you see an example of the area 5E-6E and 35N-36N.</p>
+
+<p><img src="/img/picture661.png?w=300" alt="" /></p>
+
+<p>Now just hit Start Search:</p>
+
+<p><img src="/img/picture671.png?w=300" alt="" /></p>
+
+<p>We get some info:</p>
+
+<p><img src="/img/picture681.png?w=300" alt="" /></p>
+
+<p>And the search results:</p>
+
+<p><img src="/img/picture691.png?w=300" alt="" /></p>
+
+<p>Now find the one you want and select it (in this case, 35N 5E):</p>
+
+<p><img src="/img/picture701.png?w=300" alt="" /></p>
+
+<p>Now we can “buy” the image (you must “buy” it, although the cost will be zero), so add it to the cart:</p>
+
+<p><img src="/img/picture711.png?w=300" alt="" /></p>
+
+<p>Mark the required options :</p>
+
+<p><img src="/img/picture721.png?w=300" alt="" /></p>
+
+<p>In the next step, just confirm your personal data. Since it costs nothing, the billing address is not so important, but carefully check the email address.</p>
+
+<p><img src="/img/picture731.png?w=300" alt="" /></p>
+
+<p>Revise your order and submit it:</p>
+
+<p><img src="/img/picture7411.png?w=300" alt="" /></p>
+
+<p>You get a summary of the order</p>
+
+<p><img src="/img/picture751.png?w=300" alt="" /></p>
+
+<p>We got two confirmation emails:</p>
+
+<p><img src="/img/picture761.png?w=300" alt="" /></p>
+
+<p>This is the second email:</p>
+
+<p><img src="/img/picture771.png?w=300" alt="" /></p>
+
+<p>After half hour we got an email with the ftp link to download the data:</p>
+
+<p><img src="/img/picture781.png?w=300" alt="" /></p>
+
+<p><img src="/img/picture791.png?w=300" alt="" /></p>
+
+<p>That’s it!</p>
+
+<h4 id="comments">Comments</h4>
+
+<p><strong><a href="#2" title="2009-07-03 17:21:17">Agustin</a>:</strong> Obrigado, Agustin</p>
+
+<p><strong><a href="#3" title="2009-07-14 19:28:33">Cezar</a>:</strong> Thank you for this tutorial.</p>
+
+<p><strong><a href="#4" title="2009-07-16 10:19:08">maelle.decherf</a>:</strong> Thank you very much … well done !</p>
+
+<p><strong><a href="#5" title="2010-03-16 13:05:10">philip nik</a>:</strong> nice and well explained.I wonder if I can use that data (DEM) in curious software “vizrt”?</p>
+
+
+      </article>
+
+      
+        <div class="blog-tags">
+          Tags:
+          
+          
+            <a href="/tags#science">science</a>
+          
+            <a href="/tags#dem">dem</a>
+          
+            <a href="/tags#aster">aster</a>
+          
+            <a href="/tags#gdem">gdem</a>
+          
+            <a href="/tags#tutorial">tutorial</a>
+          
+          
+        </div>
+      
+
+      
+        <!-- Check if any share-links are active -->
+
+
+
+
+<section id = "social-share-section">
+  <span class="sr-only">Share: </span>
+
+  
+  <!--- Share on Twitter -->
+    <a rel="noopener noreferrer" target="_blank" href="https://twitter.com/intent/tweet?text=ASTER+GDEM+download+tutorial+http://localhost:4000/http:/carlosgrohmann.com/aster-gdem-download-tutorial/"
+      class="btn btn-social-icon btn-twitter" title="Share on Twitter">
+      <span class="fa fa-fw fa-twitter" aria-hidden="true"></span>
+      <span class="sr-only">Twitter</span>
+    </a>
+  
+
+  
+  <!--- Share on Facebook -->
+    <a rel="noopener noreferrer" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/http:/carlosgrohmann.com/aster-gdem-download-tutorial/"
+      class="btn btn-social-icon btn-facebook" title="Share on Facebook">
+      <span class="fa fa-fw fa-facebook" aria-hidden="true"></span>
+      <span class="sr-only">Facebook</span>
+    </a>
+  
+
+  
+  <!--- Share on Google Plus -->
+    <a rel="noopener noreferrer" target="_blank" href="https://plus.google.com/share?url=http://localhost:4000/http:/carlosgrohmann.com/aster-gdem-download-tutorial/"
+      class="btn btn-social-icon btn-google" title="Share on Google+">
+      <span class="fa fa-fw fa-google-plus" aria-hidden="true"></span>
+      <span class="sr-only">Google+</span>
+    </a>
+  
+
+  
+
+</section>
+
+
+
+      
+
+      <ul class="pager blog-pager">
+        
+        <li class="previous">
+          <a href="/http:/carlosgrohmann.com/aster-global-dem-gdem-available/" data-toggle="tooltip" data-placement="top" title="ASTER Global DEM (GDEM) available!">&larr; Previous Post</a>
+        </li>
+        
+        
+        <li class="next">
+          <a href="/http:/carlosgrohmann.com/nasas-lro-spacecraft-sends-first-lunar-images-to-earth/" data-toggle="tooltip" data-placement="top" title="NASA's LRO Spacecraft Sends First Lunar Images to Earth">Next Post &rarr;</a>
+        </li>
+        
+      </ul>
+
+      
+        <div class="disqus-comments">
+          
+        </div>
+          
+        <div class="staticman-comments">
+          
+
+        </div>
+      
+    </div>
+  </div>
+</div>
+
+
+    <footer>
+  <div class="container beautiful-jekyll-footer">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center footer-links"><li><a href="/feed.xml" title="RSS"><span class="fa-stack fa-lg" aria-hidden="true">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+                </span>
+                <span class="sr-only">RSS</span>
+              </a>
+            </li><li><a href="https://github.com/CarlosGrohmann" title="GitHub"><span class="fa-stack fa-lg" aria-hidden="true">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                </span>
+                <span class="sr-only">GitHub</span>
+              </a>
+            </li><li><a href="https://twitter.com/CarlosGrohmann" title="Twitter"><span class="fa-stack fa-lg" aria-hidden="true">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                </span>
+                <span class="sr-only">Twitter</span>
+              </a>
+            </li><li><a href="https://www.instagram.com/CarlosGrohmann" title="Instagram"><span class="fa-stack fa-lg" aria-hidden="true">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+                </span>
+                <span class="sr-only">Instagram</span>
+              </a>
+            </li></ul>
+      <p class="copyright text-muted">
+      Carlos H. Grohmann
+      &nbsp;&bull;&nbsp;
+      2019
+
+      
+      &nbsp;&bull;&nbsp;
+      <a href="http://localhost:4000">carlosgrohmann.com</a>
+      
+
+      
+      </p>
+          <!-- Please don't remove this, keep my open source work credited :) -->
+    <p class="theme-by text-muted">
+      Theme by
+      <a href="https://deanattali.com/beautiful-jekyll/">beautiful-jekyll</a>
+    </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  
+    
+
+
+
+
+
+
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+      <script>
+      	if (typeof jQuery == 'undefined') {
+      	  document.write('<script src="/js/jquery-1.11.2.min.js"></scr' + 'ipt>');
+      	}
+      </script>
+    
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+	<script src="/js/bootstrap.min.js"></script>
+    
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+	<script src="/js/main.js"></script>
+    
+  
+
+
+  
+  </body>
+</html>

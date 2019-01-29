@@ -1,0 +1,905 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Beautiful Jekyll | MIT license | Copyright Dean Attali 2016 -->
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, viewport-fit=cover">
+
+  <title>Blog</title>
+
+  <meta name="author" content="Carlos H. Grohmann" />
+
+  
+
+  <link rel="alternate" type="application/rss+xml" title="Prof. Carlos H. Grohmann - Personal website of Prof. Carlos H. Grohmann (IEE-USP, Brazil)" href="/feed.xml" />
+
+  
+
+  
+
+  
+
+
+  
+    
+      
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css" />
+
+
+    
+  
+
+  
+    
+      <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    
+      <link rel="stylesheet" href="/css/bootstrap-social.css" />
+    
+      <link rel="stylesheet" href="/css/main.css" />
+    
+  
+
+  
+    
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
+    
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
+    
+  
+
+  
+
+  
+
+  
+
+    <!-- Facebook OpenGraph tags -->
+  
+
+  
+  <meta property="og:title" content="Blog" />
+  
+
+   
+  <meta property="og:description" content="{% for post in paginator.posts %} {{ post.title }} {% if post.subtitle %} {{ post.subtitle }} {% endif %} Posted on {{ post.date | date: &quot;%B %-d, %Y&quot; }} {% if post.image %} {% endif %} {{ post.excerpt | strip_html | xml_escape | truncatewords: site.excerpt_length }} {% assign excerpt_word_count =...">
+  
+
+
+  <meta property="og:type" content="website" />
+
+  
+  <meta property="og:url" content="http://localhost:4000/blog/page8/" />
+  <link rel="canonical" href="http://localhost:4000/blog/page8/" />
+  
+
+  
+  <meta property="og:image" content="http://localhost:4000/img/doodle_crop.jpg" />
+  
+
+
+  <!-- Twitter summary cards -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@" />
+  <meta name="twitter:creator" content="@" />
+
+  
+  <meta name="twitter:title" content="Blog" />
+  
+
+  
+  <meta name="twitter:description" content="{% for post in paginator.posts %} {{ post.title }} {% if post.subtitle %} {{ post.subtitle }} {% endif %} Posted on {{ post.date | date: &quot;%B %-d, %Y&quot; }} {% if post.image %} {% endif %} {{ post.excerpt | strip_html | xml_escape | truncatewords: site.excerpt_length }} {% assign excerpt_word_count =...">
+  
+
+  
+  <meta name="twitter:image" content="http://localhost:4000/img/doodle_crop.jpg" />
+  
+
+  
+
+  
+
+</head>
+
+
+  <body>
+
+    
+
+  
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+        <a class="navbar-brand" href="http://localhost:4000">Prof. Carlos H. Grohmann</a>
+      
+    </div>
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+      
+        
+          <li>
+            
+
+
+
+
+
+  
+  <a href="/index">Home</a>
+
+
+
+
+          </li>
+        
+        
+        
+          <li class="navlinks-container">
+            <a class="navlinks-parent" href="javascript:void(0)">About Me</a>
+            <div class="navlinks-children">
+              
+                
+                  
+
+
+
+
+
+  
+  <a href="/aboutme">Bio|CV</a>
+
+
+
+
+                
+              
+                
+                  
+
+
+
+
+
+  
+  <a href="/photos">Photos</a>
+
+
+
+
+                
+              
+                
+                  
+
+
+
+
+
+  
+  <a href="/gmaps">Map</a>
+
+
+
+
+                
+              
+            </div>
+          </li>
+        
+        
+        
+          <li class="navlinks-container">
+            <a class="navlinks-parent" href="javascript:void(0)">Research</a>
+            <div class="navlinks-children">
+              
+                
+                  
+
+
+
+
+
+  
+  <a href="/grants">Projects</a>
+
+
+
+
+                
+              
+                
+                  
+
+
+
+
+
+  
+  <a href="/students">Students</a>
+
+
+
+
+                
+              
+                
+                  
+
+
+
+
+
+  
+  <a rel="noopener noreferrer" target="_blank" href="https://spamlab.github.io">SPAM!(Lab)</a>
+
+
+
+
+                
+              
+            </div>
+          </li>
+        
+        
+        
+          <li>
+            
+
+
+
+
+
+  
+  <a href="/publications">Publications</a>
+
+
+
+
+          </li>
+        
+        
+        
+          <li class="navlinks-container">
+            <a class="navlinks-parent" href="javascript:void(0)">Blog</a>
+            <div class="navlinks-children">
+              
+                
+                  
+
+
+
+
+
+  
+  <a href="/blog">Posts</a>
+
+
+
+
+                
+              
+                
+                  
+
+
+
+
+
+  
+  <a href="/tags">Tags</a>
+
+
+
+
+                
+              
+            </div>
+          </li>
+        
+        
+        
+          <li>
+            
+
+
+
+
+
+  
+  <a href="/search">?</a>
+
+
+
+
+          </li>
+        
+        
+      </ul>
+    </div>
+
+	
+	<div class="avatar-container">
+	  <div class="avatar-img-border">
+	    <a href="http://localhost:4000">
+	      <img class="avatar-img" src="/img/doodle_crop.jpg" />
+		</a>
+	  </div>
+	</div>
+	
+
+  </div>
+</nav>
+
+
+    <!-- TODO this file has become a mess, refactor it -->
+
+
+
+
+
+<header class="header-section ">
+
+<div class="intro-header no-img">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <div class="page-heading">
+          <h1>Blog</h1>
+		  
+		  
+		  
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</header>
+
+
+
+
+
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <div class="posts-list">
+  
+  <article class="post-preview">
+    <a href="/http:/carlosgrohmann.com/family/">
+	  <h2 class="post-title">Family</h2>
+
+	  
+    </a>
+
+    <p class="post-meta">
+      Posted on October 15, 2007
+    </p>
+
+    <div class="post-entry-container">
+      
+      <div class="post-entry">
+        Este é o post que deveria ter sido escrito antes do post sobre a conferência na Austria. Na semana anterior à conferência, meu irmão e sua esposa (minha cunhada favorita) estiveram passeando aqui em terras britânicas. Aproveitei a oportunidade para passar uns dias com eles e também para conhecer os...
+        
+        
+          <a href="/http:/carlosgrohmann.com/family/" class="post-read-more">[Read&nbsp;More]</a>
+        
+      </div>
+    </div>
+
+    
+    <div class="blog-tags">
+      Tags:
+      
+      
+      <a href="/tags#uk">uk</a>
+      
+      <a href="/tags#phd">phd</a>
+      
+      <a href="/tags#london">london</a>
+      
+      <a href="/tags#family">family</a>
+      
+      
+    </div>
+    
+
+   </article>
+  
+  <article class="post-preview">
+    <a href="/http:/carlosgrohmann.com/klagenfurt-austria/">
+	  <h2 class="post-title">Klagenfurt, Austria</h2>
+
+	  
+    </a>
+
+    <p class="post-meta">
+      Posted on September 28, 2007
+    </p>
+
+    <div class="post-entry-container">
+      
+      <div class="post-entry">
+        Bom, depois de um tempo sem escrever, nada mais justo que um post meio (bastante) longo.
+
+
+        
+        
+          <a href="/http:/carlosgrohmann.com/klagenfurt-austria/" class="post-read-more">[Read&nbsp;More]</a>
+        
+      </div>
+    </div>
+
+    
+    <div class="blog-tags">
+      Tags:
+      
+      
+      <a href="/tags#uk">uk</a>
+      
+      <a href="/tags#phd">phd</a>
+      
+      <a href="/tags#austria">austria</a>
+      
+      <a href="/tags#conference">conference</a>
+      
+      <a href="/tags#meeting">meeting</a>
+      
+      
+    </div>
+    
+
+   </article>
+  
+  <article class="post-preview">
+    <a href="/http:/carlosgrohmann.com/gbbf/">
+	  <h2 class="post-title">GBBF</h2>
+
+	  
+    </a>
+
+    <p class="post-meta">
+      Posted on September 2, 2007
+    </p>
+
+    <div class="post-entry-container">
+      
+      <div class="post-entry">
+        Apesar de agosto ter sido um período de inatividade blogística (santo neologismo, Batman), isso não significa que nada aconteceu. Para que não passe em branco, relatarei brevemente os fatos principais.
+
+
+        
+        
+          <a href="/http:/carlosgrohmann.com/gbbf/" class="post-read-more">[Read&nbsp;More]</a>
+        
+      </div>
+    </div>
+
+    
+    <div class="blog-tags">
+      Tags:
+      
+      
+      <a href="/tags#uk">uk</a>
+      
+      <a href="/tags#phd">phd</a>
+      
+      <a href="/tags#beer">beer</a>
+      
+      <a href="/tags#camra">camra</a>
+      
+      
+    </div>
+    
+
+   </article>
+  
+  <article class="post-preview">
+    <a href="/http:/carlosgrohmann.com/cambridge/">
+	  <h2 class="post-title">Cambridge</h2>
+
+	  
+    </a>
+
+    <p class="post-meta">
+      Posted on September 2, 2007
+    </p>
+
+    <div class="post-entry-container">
+      
+      <div class="post-entry">
+        No meio de agosto, resolvi ir a Cambridge. Apesar de minha cunhada favorita ter me passado intruções detalhadas de como ir e do que fazer em Oxford, Cambridge sempre me chamou mais a atenção. O trem Cambridge Express sai de Kings Cross, de onde também se pode tentar embarcar no...
+        
+        
+          <a href="/http:/carlosgrohmann.com/cambridge/" class="post-read-more">[Read&nbsp;More]</a>
+        
+      </div>
+    </div>
+
+    
+    <div class="blog-tags">
+      Tags:
+      
+      
+      <a href="/tags#uk">uk</a>
+      
+      <a href="/tags#phd">phd</a>
+      
+      <a href="/tags#cambridge">cambridge</a>
+      
+      
+    </div>
+    
+
+   </article>
+  
+  <article class="post-preview">
+    <a href="/http:/carlosgrohmann.com/dartmoor/">
+	  <h2 class="post-title">Dartmoor</h2>
+
+	  
+    </a>
+
+    <p class="post-meta">
+      Posted on August 3, 2007
+    </p>
+
+    <div class="post-entry-container">
+      
+      <div class="post-entry">
+        Depois de duas etapas de testes com as pipas e as câmeras, esta semana fomos ao Parque Nacional Dartmoor, para um levantamento fotográfico de verdade. Marcamos de nos encontrar na universidade, para pegar o equipamento de topografia, e de lá seguimos (Mike, seu filho Ian e eu) para sudoeste, em...
+        
+        
+          <a href="/http:/carlosgrohmann.com/dartmoor/" class="post-read-more">[Read&nbsp;More]</a>
+        
+      </div>
+    </div>
+
+    
+    <div class="blog-tags">
+      Tags:
+      
+      
+      <a href="/tags#uk">uk</a>
+      
+      <a href="/tags#phd">phd</a>
+      
+      <a href="/tags#dartmoor">dartmoor</a>
+      
+      <a href="/tags#field-trip">field-trip</a>
+      
+      
+    </div>
+    
+
+   </article>
+  
+  <article class="post-preview">
+    <a href="/http:/carlosgrohmann.com/kite-aerial-photography/">
+	  <h2 class="post-title">Kite Aerial Photography</h2>
+
+	  
+    </a>
+
+    <p class="post-meta">
+      Posted on July 16, 2007
+    </p>
+
+    <div class="post-entry-container">
+      
+      <div class="post-entry">
+        Hoje foi dia de empinar pipa. Sério.
+
+
+        
+        
+          <a href="/http:/carlosgrohmann.com/kite-aerial-photography/" class="post-read-more">[Read&nbsp;More]</a>
+        
+      </div>
+    </div>
+
+    
+    <div class="blog-tags">
+      Tags:
+      
+      
+      <a href="/tags#uk">uk</a>
+      
+      <a href="/tags#phd">phd</a>
+      
+      <a href="/tags#photogrammetry">photogrammetry</a>
+      
+      <a href="/tags#kite">kite</a>
+      
+      
+    </div>
+    
+
+   </article>
+  
+  <article class="post-preview">
+    <a href="/http:/carlosgrohmann.com/may-the-force-be-with-you/">
+	  <h2 class="post-title">May the force be with you!</h2>
+
+	  
+    </a>
+
+    <p class="post-meta">
+      Posted on July 13, 2007
+    </p>
+
+    <div class="post-entry-container">
+      
+      <div class="post-entry">
+        Sexta-feira 13. Dia de fazer a coisa mais nerd da minha vida… ir a uma convenção do Star Wars.
+
+
+        
+        
+          <a href="/http:/carlosgrohmann.com/may-the-force-be-with-you/" class="post-read-more">[Read&nbsp;More]</a>
+        
+      </div>
+    </div>
+
+    
+    <div class="blog-tags">
+      Tags:
+      
+      
+      <a href="/tags#uk">uk</a>
+      
+      <a href="/tags#phd">phd</a>
+      
+      <a href="/tags#london">london</a>
+      
+      <a href="/tags#starwars">starwars</a>
+      
+      <a href="/tags#jedi">jedi</a>
+      
+      <a href="/tags#nerd">nerd</a>
+      
+      
+    </div>
+    
+
+   </article>
+  
+  <article class="post-preview">
+    <a href="/http:/carlosgrohmann.com/kingston-beer-festival/">
+	  <h2 class="post-title">Kingston Beer Festival</h2>
+
+	  
+    </a>
+
+    <p class="post-meta">
+      Posted on June 30, 2007
+    </p>
+
+    <div class="post-entry-container">
+      
+      <div class="post-entry">
+        
+
+
+        
+        
+          <a href="/http:/carlosgrohmann.com/kingston-beer-festival/" class="post-read-more">[Read&nbsp;More]</a>
+        
+      </div>
+    </div>
+
+    
+    <div class="blog-tags">
+      Tags:
+      
+      
+      <a href="/tags#uk">uk</a>
+      
+      <a href="/tags#phd">phd</a>
+      
+      <a href="/tags#beer">beer</a>
+      
+      <a href="/tags#camra">camra</a>
+      
+      <a href="/tags#kingston">kingston</a>
+      
+      
+    </div>
+    
+
+   </article>
+  
+  <article class="post-preview">
+    <a href="/http:/carlosgrohmann.com/good-reading/">
+	  <h2 class="post-title">Good Reading</h2>
+
+	  
+    </a>
+
+    <p class="post-meta">
+      Posted on June 11, 2007
+    </p>
+
+    <div class="post-entry-container">
+      
+      <div class="post-entry">
+        Isso é que leitura de qualidade! E tenho dito.
+
+
+        
+        
+          <a href="/http:/carlosgrohmann.com/good-reading/" class="post-read-more">[Read&nbsp;More]</a>
+        
+      </div>
+    </div>
+
+    
+    <div class="blog-tags">
+      Tags:
+      
+      
+      <a href="/tags#uk">uk</a>
+      
+      <a href="/tags#phd">phd</a>
+      
+      <a href="/tags#beer">beer</a>
+      
+      
+    </div>
+    
+
+   </article>
+  
+  <article class="post-preview">
+    <a href="/http:/carlosgrohmann.com/stone-age/">
+	  <h2 class="post-title">Stone Age</h2>
+
+	  
+    </a>
+
+    <p class="post-meta">
+      Posted on June 10, 2007
+    </p>
+
+    <div class="post-entry-container">
+      
+      <div class="post-entry">
+        Ontem resolvi fugir um pouco do circuito turístico londrino e fui fazer turismo um pouco mais longe. Em Stonehenge. O mais famoso círculo de pedra de todo o mundo fica em Salisbury. Com a tradicional preguiça da manhã, fui de ônibus até Surbiton, nossa cidade vizinha ao sul, para dali...
+        
+        
+          <a href="/http:/carlosgrohmann.com/stone-age/" class="post-read-more">[Read&nbsp;More]</a>
+        
+      </div>
+    </div>
+
+    
+    <div class="blog-tags">
+      Tags:
+      
+      
+      <a href="/tags#uk">uk</a>
+      
+      <a href="/tags#phd">phd</a>
+      
+      <a href="/tags#stonehenge">stonehenge</a>
+      
+      
+    </div>
+    
+
+   </article>
+  
+</div>
+
+
+<ul class="pager main-pager">
+  
+  <li class="previous">
+    <a href="/blog/page7/">&larr; Newer Posts</a>
+  </li>
+  
+  
+  <li class="next">
+    <a href="/blog/page9/">Older Posts &rarr;</a>
+  </li>
+  
+</ul>
+
+
+	    
+    </div>
+  </div>
+</div>
+
+
+    <footer>
+  <div class="container beautiful-jekyll-footer">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center footer-links"><li><a href="/feed.xml" title="RSS"><span class="fa-stack fa-lg" aria-hidden="true">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+                </span>
+                <span class="sr-only">RSS</span>
+              </a>
+            </li><li><a href="https://github.com/CarlosGrohmann" title="GitHub"><span class="fa-stack fa-lg" aria-hidden="true">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                </span>
+                <span class="sr-only">GitHub</span>
+              </a>
+            </li><li><a href="https://twitter.com/CarlosGrohmann" title="Twitter"><span class="fa-stack fa-lg" aria-hidden="true">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                </span>
+                <span class="sr-only">Twitter</span>
+              </a>
+            </li><li><a href="https://www.instagram.com/CarlosGrohmann" title="Instagram"><span class="fa-stack fa-lg" aria-hidden="true">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+                </span>
+                <span class="sr-only">Instagram</span>
+              </a>
+            </li></ul>
+      <p class="copyright text-muted">
+      Carlos H. Grohmann
+      &nbsp;&bull;&nbsp;
+      2019
+
+      
+      &nbsp;&bull;&nbsp;
+      <a href="http://localhost:4000">carlosgrohmann.com</a>
+      
+
+      
+      </p>
+          <!-- Please don't remove this, keep my open source work credited :) -->
+    <p class="theme-by text-muted">
+      Theme by
+      <a href="https://deanattali.com/beautiful-jekyll/">beautiful-jekyll</a>
+    </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  
+    
+
+
+
+
+
+
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+      <script>
+      	if (typeof jQuery == 'undefined') {
+      	  document.write('<script src="/js/jquery-1.11.2.min.js"></scr' + 'ipt>');
+      	}
+      </script>
+    
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+	<script src="/js/bootstrap.min.js"></script>
+    
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+	<script src="/js/main.js"></script>
+    
+  
+
+
+  
+  </body>
+</html>

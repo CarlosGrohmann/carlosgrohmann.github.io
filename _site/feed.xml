@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Prof. Carlos H. Grohmann</title>
+    <description>Personal website of Prof. Carlos H. Grohmann (IEE-USP, Brazil)</description>
+    <link>http://localhost:4000</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>The SPAMLab has a website (and a blog)</title>
+        <description>
+          
+          Yes, that’s right. I finally managed to get the SPAMLab website up and running. It’s hosted on Github Pages: SPAMLab.github.io I’ll try to keep it updated with our research projects and activities. Stay tuned, and follow us on Twitter (@spamlab.iee) and Instagram (@spamlab.iee).
+
+        </description>
+        <pubDate>Fri, 27 Apr 2018 00:00:00 +0000</pubDate>
+        <link>http://localhost:4000/http:/carlosgrohmann.com/the-spamlab-has-a-website-and-a-blog/</link>
+        <guid isPermaLink="true">http://localhost:4000/http:/carlosgrohmann.com/the-spamlab-has-a-website-and-a-blog/</guid>
+      </item>
+    
+      <item>
+        <title>Publish anything with us (just need to pay 1200 Euros)</title>
+        <description>
+          
+          So I just got this email: Dear Dr. Grohmann, This is a follow up email regarding your invitation to write a chapter for a new Open Access book on “Multidimensional Flow Cytometry Techniques for Novel Highly Informative Assays,” edited by Dr. Marica Gemei. With over 2,800 titles published and a...
+        </description>
+        <pubDate>Wed, 24 May 2017 00:00:00 +0000</pubDate>
+        <link>http://localhost:4000/http:/carlosgrohmann.com/publish-anything-with-us-just-need-to-pay-1200-euros/</link>
+        <guid isPermaLink="true">http://localhost:4000/http:/carlosgrohmann.com/publish-anything-with-us-just-need-to-pay-1200-euros/</guid>
+      </item>
+    
+      <item>
+        <title>I deleted my account at Academia.edu</title>
+        <description>
+          
+          I decided to delete my account at Academia.edu after reading Sarah Bond’s article in Forbes and Ethan Gruber’s post. I’m thinking about hosting the PDFs of my papers and other documents with Zenodo or figshare (I already have some docs there). 
+
+        </description>
+        <pubDate>Wed, 25 Jan 2017 00:00:00 +0000</pubDate>
+        <link>http://localhost:4000/http:/carlosgrohmann.com/i-deleted-my-account-at-academia-edu/</link>
+        <guid isPermaLink="true">http://localhost:4000/http:/carlosgrohmann.com/i-deleted-my-account-at-academia-edu/</guid>
+      </item>
+    
+      <item>
+        <title>Denoising SRTM with GRASS-GIS</title>
+        <description>
+          
+          Digital elevation data usually has some noise in it, but removing that noise may not be as easy as a simple filtering procedure. Using raster filters (mean, mode etc) in moving-windows operations will smooth the original topography. One solution is to perform the filtering with the XYZ information of each...
+        </description>
+        <pubDate>Tue, 06 Dec 2016 00:00:00 +0000</pubDate>
+        <link>http://localhost:4000/http:/carlosgrohmann.com/denoise-srtm-grass/</link>
+        <guid isPermaLink="true">http://localhost:4000/http:/carlosgrohmann.com/denoise-srtm-grass/</guid>
+      </item>
+    
+      <item>
+        <title>Curso Internacional de Espeleoresgate 2016</title>
+        <description>
+          
+          Estão abertas as inscrições para o Curso Internacional de Espeleoresgate 2016. O curso é organizado pelo Grupo Bambuí de Pesquisas Espeleológicas em conjunto com a Federação Francesa de Espeleologia (FFS) e o Espeleo Socorro da França (SSF), com apoio do Espeleo Grupo de Brasília (EBG) e Meandros Espeleo Clube. O curso será...
+        </description>
+        <pubDate>Mon, 23 May 2016 00:00:00 +0000</pubDate>
+        <link>http://localhost:4000/http:/carlosgrohmann.com/curso-internacional-de-espeleoresgate-2016/</link>
+        <guid isPermaLink="true">http://localhost:4000/http:/carlosgrohmann.com/curso-internacional-de-espeleoresgate-2016/</guid>
+      </item>
+    
+      <item>
+        <title>Installing Orfeo Toolbox and Monteverdi on OSX</title>
+        <description>
+          
+          The Orfeo ToolBox (OTB) is an open-source C++ library for processing of remote sensing image, and it is shipped with Monteverdi, an end-users oriented software for for classical remote sensing tasks. With the recent release of OTB version 5.4, I decided to make this brief post on how to get...
+        </description>
+        <pubDate>Fri, 13 May 2016 00:00:00 +0000</pubDate>
+        <link>http://localhost:4000/http:/carlosgrohmann.com/installing-orfeo-toolbox-and-monteverdi-on-osx/</link>
+        <guid isPermaLink="true">http://localhost:4000/http:/carlosgrohmann.com/installing-orfeo-toolbox-and-monteverdi-on-osx/</guid>
+      </item>
+    
+      <item>
+        <title>O uso adequado de algumas expressões de tecnologia em inglês</title>
+        <description>
+          
+          Reproduzo aqui um infográfico produzido pela iinterativa e publicado em followthecolours.com.br. Descobri graças ao Twitter do SIBI-USP. O infográfico é muito útil pois traz o uso correto de alguns termos em inglês ligados à tecnologia, como “on-line”, “e-mail” e o bem brasileiro “pen drive” (raramente usado pelos que falam inglês...
+        </description>
+        <pubDate>Tue, 10 May 2016 00:00:00 +0000</pubDate>
+        <link>http://localhost:4000/http:/carlosgrohmann.com/o-uso-adequado-de-algumas-expressoes-de-tecnologia-em-ingles/</link>
+        <guid isPermaLink="true">http://localhost:4000/http:/carlosgrohmann.com/o-uso-adequado-de-algumas-expressoes-de-tecnologia-em-ingles/</guid>
+      </item>
+    
+      <item>
+        <title>SRTM - erros frequentes e como evitá-los</title>
+        <description>
+          
+          O modelos de elevação SRTM são muito utilizados aqui no Brasil, já que não temos uma cobertura de mapas topográficos em escala decente (1:50.000 ou melhor) da maior parte de nosso território. Porém, tenho notado quatro erros muito frequentes nos artigos e monografias (TCCs, dissertações e teses) que vou comentar...
+        </description>
+        <pubDate>Sun, 01 May 2016 00:00:00 +0000</pubDate>
+        <link>http://localhost:4000/http:/carlosgrohmann.com/srtm-erros-frequentes-e-como-evita-los/</link>
+        <guid isPermaLink="true">http://localhost:4000/http:/carlosgrohmann.com/srtm-erros-frequentes-e-como-evita-los/</guid>
+      </item>
+    
+      <item>
+        <title>Relato de acidente e resgate - Lapa da Deuza (Vazante, MG)</title>
+        <description>
+          
+          Em setembro de 2015, durante as atividades do curso de espeleo resgate em Mambaí (GO), recebemos a notícia que nosso amigo Ezio Rubbioli havia sofrido um acidente durante uma exploração na Lapa da Deuza (Vazante - MG). Felizmente tudo acabou bem e o resgate foi efetuado rapidamente. A seguir, reproduzo...
+        </description>
+        <pubDate>Fri, 05 Feb 2016 00:00:00 +0000</pubDate>
+        <link>http://localhost:4000/http:/carlosgrohmann.com/acidente-ezio/</link>
+        <guid isPermaLink="true">http://localhost:4000/http:/carlosgrohmann.com/acidente-ezio/</guid>
+      </item>
+    
+      <item>
+        <title>Prof. Carlos Grohmann, mas pode chamar de 0000-0001-5073-5572</title>
+        <description>
+          
+          Demorou mas finalmente está-se falando do ORCID aqui no Brasil. OR-quem? Calma que eu explico. ORCID é a sigla para Open Researcher and Contributor ID. A ideia é que cada pesquisador que se cadastra recebe um número de identificação (o meu é 0000-0001-5073-5572) e esse número é eterno. A pessoa...
+        </description>
+        <pubDate>Thu, 14 Jan 2016 00:00:00 +0000</pubDate>
+        <link>http://localhost:4000/http:/carlosgrohmann.com/post_orcid/</link>
+        <guid isPermaLink="true">http://localhost:4000/http:/carlosgrohmann.com/post_orcid/</guid>
+      </item>
+    
+      <item>
+        <title>Termos acadêmicos (português-inglês)</title>
+        <description>
+          
+          Hoje achei uma lista bem interessante de termos utilizados na Academia e suas traduções em inglês. O original está aqui. A lista é claramente voltada ao inglês dos EUA, e encontrei alguns termos traduzidos incorretamente. Por exemplo, enquanto que no Brasil defende-se uma Dissertação de Mestrado e uma Tese de...
+        </description>
+        <pubDate>Tue, 05 Jan 2016 00:00:00 +0000</pubDate>
+        <link>http://localhost:4000/http:/carlosgrohmann.com/termos-academicos-portugues-ingles/</link>
+        <guid isPermaLink="true">http://localhost:4000/http:/carlosgrohmann.com/termos-academicos-portugues-ingles/</guid>
+      </item>
+    
+      <item>
+        <title>Working with GRASS-7.0 and homebrew python on OS X</title>
+        <description>
+          
+          Sometimes getting all the software you need for Scientific analysis updated and running smoothly in OS X can be a bit annoying. For most things, there’s Homebrew (a nice post on setting your Mac for Scientific analysis with Python and homebrew is this one.) And if you’re into GIS, you...
+        </description>
+        <pubDate>Fri, 25 Dec 2015 00:00:00 +0000</pubDate>
+        <link>http://localhost:4000/http:/carlosgrohmann.com/grass-brew-python-osx/</link>
+        <guid isPermaLink="true">http://localhost:4000/http:/carlosgrohmann.com/grass-brew-python-osx/</guid>
+      </item>
+    
+      <item>
+        <title>resample and derive or derive and resample? [paper review]</title>
+        <description>
+          
+          Working with Digital Elevation Models (DEMs) have became a standard practice in scientific disciplines related to the physical environment, from geomorphology, geology, to biogeography and climate modeling. The Shuttle Radar Topography Mission (SRTM - Farr et al., 2007) and ASTER GDEM (Tachikawa et al., 2011) provide a near-global to global...
+        </description>
+        <pubDate>Tue, 15 Dec 2015 00:00:00 +0000</pubDate>
+        <link>http://localhost:4000/http:/carlosgrohmann.com/regional-scale-analysis-of-dems-resample-and-derive-or-derive-and-resample-paper-review/</link>
+        <guid isPermaLink="true">http://localhost:4000/http:/carlosgrohmann.com/regional-scale-analysis-of-dems-resample-and-derive-or-derive-and-resample-paper-review/</guid>
+      </item>
+    
+      <item>
+        <title>Curso de Espeleo Resgate - Mambaí, GO</title>
+        <description>
+          
+          Entre 06 e 13 de setembro deste ano (2015, caso você esteja lendo do futuro) ocorreu mais uma edição do Curso de Formação em Espeleo Resgate, em parceira com o Espeleo Socorro Francês (SSF - Spéléo Secours Français). O curso foi organizado (e muito bem organizado) pelos nossos amigos do...
+        </description>
+        <pubDate>Mon, 28 Sep 2015 00:00:00 +0000</pubDate>
+        <link>http://localhost:4000/http:/carlosgrohmann.com/espeleo-resgate-mambai/</link>
+        <guid isPermaLink="true">http://localhost:4000/http:/carlosgrohmann.com/espeleo-resgate-mambai/</guid>
+      </item>
+    
+      <item>
+        <title>Expedição Serra do Aracá 2015</title>
+        <description>
+          
+          Durante 15 dias em julho/2015 o Grupo Bambuí de Pesquisas Espeleológicas (GBPE) em conjunto com o La Venta Esplorazioni Geografiche organizaram uma expedição de exploração espeleológica/geográfica na Serra do Aracá, norte do Estado do Amazonas. A equipe contou com cinco brasileiros e quatro italianos: Ezio Rubbioli (Bambuí) Alexandre Lobo (Bambuí) Daniel...
+        </description>
+        <pubDate>Tue, 21 Jul 2015 00:00:00 +0000</pubDate>
+        <link>http://localhost:4000/http:/carlosgrohmann.com/expedicao-serra-do-araca-2015/</link>
+        <guid isPermaLink="true">http://localhost:4000/http:/carlosgrohmann.com/expedicao-serra-do-araca-2015/</guid>
+      </item>
+    
+      <item>
+        <title>Making a &quot;where I've been&quot; map with Leaflet</title>
+        <description>
+          
+          In my website I have a map of some (most? all?) of the places I’ve been (here). When I first started with this idea (in 2011, I guess), I used GoogleMaps API and all the points of the map had to be defined in the HTML file, which was very...
+        </description>
+        <pubDate>Tue, 27 May 2014 00:00:00 +0000</pubDate>
+        <link>http://localhost:4000/http:/carlosgrohmann.com/making-a-where-ive-been-map-with-leaflet/</link>
+        <guid isPermaLink="true">http://localhost:4000/http:/carlosgrohmann.com/making-a-where-ive-been-map-with-leaflet/</guid>
+      </item>
+    
+      <item>
+        <title>Gsa2014 Call For Abstracts Geological And Geomorphological Applications Of Digital Terrain Analysis</title>
+        <description>
+          
+          Geological Society of America Annual Meeting  Vancouver, B.C, Canada, 19-22 October 2014 http://community.geosociety.org/gsa2014/home/   Topical Session T128. Geological and Geomorphological Applications of Digital Terrain Analysis Carlos Henrique Grohmann, Christopher J. Crosby, Edwin Nissen Abstracts submission deadline: 29 July  http://www.geosociety.org/meetings/2014/sessions/topical.asp Monitoring and quantification of rates of geomorphic processes requires repeated acquisition...
+        </description>
+        <pubDate>Tue, 06 May 2014 00:00:00 +0000</pubDate>
+        <link>http://localhost:4000/http:/carlosgrohmann.com/gsa2014-call-for-abstracts-geological-and-geomorphological-applications-of-digital-terrain-analysis/</link>
+        <guid isPermaLink="true">http://localhost:4000/http:/carlosgrohmann.com/gsa2014-call-for-abstracts-geological-and-geomorphological-applications-of-digital-terrain-analysis/</guid>
+      </item>
+    
+      <item>
+        <title>E como coloca isso no Lattes, Bátima?</title>
+        <description>
+          
+          Ah, o Lattes. Mais cedo ou mais tarde, todos aqueles que optam pelos caminhos acadêmicos descobrem a importância de manter um currículo Lattes atualizado. E não é pra menos, afinal o danado serve pra tudo. Vai pedir bolsa? Lattes. Vai prestar concurso? Lattes. Vai pedir projeto de pesquisa? Lattes. Recebeu um...
+        </description>
+        <pubDate>Fri, 24 Jan 2014 00:00:00 +0000</pubDate>
+        <link>http://localhost:4000/http:/carlosgrohmann.com/lattes-batima/</link>
+        <guid isPermaLink="true">http://localhost:4000/http:/carlosgrohmann.com/lattes-batima/</guid>
+      </item>
+    
+      <item>
+        <title>Correio!</title>
+        <description>
+          
+          Hoje tinha uma surpresa na caixa de correio! Na verdade estava lá faz tempo, mas como eu quase nunca abro a tal caixinha, só hoje que fui ver o cartão de natal que o Iscoti mandou, junto com um chaveiro muito legal. Olha só:    Valeu Iscoti!
+
+        </description>
+        <pubDate>Wed, 22 Jan 2014 00:00:00 +0000</pubDate>
+        <link>http://localhost:4000/http:/carlosgrohmann.com/correio/</link>
+        <guid isPermaLink="true">http://localhost:4000/http:/carlosgrohmann.com/correio/</guid>
+      </item>
+    
+      <item>
+        <title>Expedição Toca dos Ossos 2013-2014</title>
+        <description>
+          
+          Mais um fim de ano, mais uma expedição. Desta vez a escolhida foi a Toca dos Ossos, no município de Ourolândia, Bahia. Por muitos anos o padrão fortemente labiríntico da caverna, aliado às grandes descobertas na Toca da boa Vista (entre outras), manteve as equipes de topografia distantes de Ourolândia....
+        </description>
+        <pubDate>Fri, 10 Jan 2014 00:00:00 +0000</pubDate>
+        <link>http://localhost:4000/http:/carlosgrohmann.com/ossos2014/</link>
+        <guid isPermaLink="true">http://localhost:4000/http:/carlosgrohmann.com/ossos2014/</guid>
+      </item>
+    
+  </channel>
+</rss>
