@@ -18,76 +18,76 @@ This works with Firefox, in Safari (Mac users), I couldn't see the selection map
 
 Since last Monday, METI and NASA made available a Digital Terrain Model with 30x30 resolution (ASTER GDEM). This means that since this day, thanks to them, to gvSIG and Sextante, we can perform analysis of the physical environment of the whole world with first-class data. I will show a step-by-step with an example of an area in Ethiopia.  
 
-![](/img/picture801.png?w=300)  
+![](/img/picture801.png){:width="70%"}   
 
 Map of southwest Musilandia (south Ethiopia)  
 
 First we go to the [metada](http://gcmd.nasa.gov/KeywordSearch/Metadata.do?Portal=GCMD&KeywordPath=%5BSource_Name%3A+Short_Name%3D%27TERRA%27%5D&OrigMetadataNode=GCMD&EntryId=ASTGTM1&MetadataView=Full&MetadataType=0&lbnode=mdlb2) page:    
 
-![](/img/picture631.png?w=300)  
+![](/img/picture631.png){:width="70%"}   
 
 Then we click on the get data link, which will take us to the [Welcome to WIST](https://wist.echo.nasa.gov/%7Ewist/api/imswelcome/) page:    
 
-![](/img/picture641.png?w=300)  
+![](/img/picture641.png){:width="70%"}   
 
 In the top of the page click on [ENTER WIST](https://wist.echo.nasa.gov/wist-bin/api/ims.cgi?mode=MAINSRCH&JS=1), and go to the data selection page.  
 
-![](/img/picture651.png?w=300)    
+![](/img/picture651.png){:width="70%"}     
 
 In order to download the data, we need to be logged in the system. We choose ASTER and digital elevation model. The system has a tutorial. Here you see an example of the area 5E-6E and 35N-36N.  
 
-![](/img/picture661.png?w=300)  
+![](/img/picture661.png){:width="70%"}   
 
 Now just hit Start Search:    
 
-![](/img/picture671.png?w=300)  
+![](/img/picture671.png){:width="70%"}   
 
 We get some info:  
 
-![](/img/picture681.png?w=300)  
+![](/img/picture681.png){:width="70%"}   
 
 And the search results:  
 
-![](/img/picture691.png?w=300)  
+![](/img/picture691.png){:width="70%"}   
 
 Now find the one you want and select it (in this case, 35N 5E):  
 
-![](/img/picture701.png?w=300)  
+![](/img/picture701.png){:width="70%"}   
 
 Now we can "buy" the image (you must "buy" it, although the cost will be zero), so add it to the cart:    
 
-![](/img/picture711.png?w=300)  
+![](/img/picture711.png){:width="70%"}   
 
 Mark the required options :    
 
-![](/img/picture721.png?w=300)  
+![](/img/picture721.png){:width="70%"}   
 
 In the next step, just confirm your personal data. Since it costs nothing, the billing address is not so important, but carefully check the email address.  
 
 
-![](/img/picture731.png?w=300)  
+![](/img/picture731.png){:width="70%"}   
 
 Revise your order and submit it:  
 
-![](/img/picture7411.png?w=300)  
+![](/img/picture7411.png){:width="70%"}   
 
 You get a summary of the order  
 
-![](/img/picture751.png?w=300)  
+![](/img/picture751.png){:width="70%"}   
 
 We got two confirmation emails:  
 
-![](/img/picture761.png?w=300)  
+![](/img/picture761.png){:width="70%"}   
 
 This is the second email:  
 
-![](/img/picture771.png?w=300)  
+![](/img/picture771.png){:width="70%"}   
 
 After half hour we got an email with the ftp link to download the data:  
 
-![](/img/picture781.png?w=300)  
+![](/img/picture781.png){:width="70%"}   
 
-![](/img/picture791.png?w=300)  
+![](/img/picture791.png){:width="70%"}   
 
 That's it!
 

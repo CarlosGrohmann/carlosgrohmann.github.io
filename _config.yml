@@ -35,6 +35,7 @@ navbar-links:
   Publications: "publications"
   Blog:
     - Posts: "blog"
+    - Archive: "archive"
     - Tags: "tags"
   ?: "search"
 
@@ -93,7 +94,7 @@ social-network-links:
   instagram: CarlosGrohmann
 #  youtube: user/deanat78
 #  spotify: yourname
-#  telephone: +14159998888
+  # telephone: 
 #  steam: deanat78
 #  twitch: yourname
 #  yelp: yourname
@@ -115,7 +116,7 @@ url-pretty: "carlosgrohmann.com"  # eg. "deanattali.com/beautiful-jekyll"
 #gtag: ""
 
 # Fill in your Google Analytics ID to track your website using GA
-#google_analytics: ""
+google_analytics: "UA-39493509-1"
 
 # Google Tag Manager ID
 #gtm: ""
@@ -132,7 +133,7 @@ url-pretty: "carlosgrohmann.com"  # eg. "deanattali.com/beautiful-jekyll"
 # --- Comments --- #
 
 # Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
-# disqus: ""
+disqus: "CarlosGrohmann"
 
 # To use Facebook Comments, fill in a Facebook App ID
 # fb_comment_id: ""

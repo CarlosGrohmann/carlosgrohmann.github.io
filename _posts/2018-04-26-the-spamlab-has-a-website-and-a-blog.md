@@ -4,7 +4,7 @@ title: The SPAMLab has a website (and a blog)
 author: CarlosGrohmann
 date: 2018-04-27
 categories: 
-tags: 
+tags: science spamlab site lab 
 permalink: http://carlosgrohmann.com/the-spamlab-has-a-website-and-a-blog/
 published: true
 ---

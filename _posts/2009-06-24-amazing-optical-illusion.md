@@ -13,13 +13,13 @@ Just the other day I was going through some Remote Sensing books, preparing a cl
 
 Another really cool illusion happens with colors. See this image:  
 
-![](http://blogs.discovermagazine.com/badastronomy/files/2009/06/colors.gif)  
+![](http://blogs.discovermagazine.com/badastronomy/files/2009/06/colors.gif){:width="70%"}   
 
 What do you see? Spirals of green, pinkish-orange, and blue? NO! The 'green' and the 'blue' spirals are of the same color!!!   
 
 In this one, Dr. Phil Plait ([Bad Astronomy](http://blogs.discovermagazine.com/badastronomy)) show us a zoom, where you can see that the stripes are not continuous:  
 
-![](http://blogs.discovermagazine.com/badastronomy/files/2009/06/bluegreenzoom.gif)  
+![](http://blogs.discovermagazine.com/badastronomy/files/2009/06/bluegreenzoom.gif){:width="70%"}   
 
 And in this other one, [Richard Wiseman](http://richardwiseman.wordpress.com/) used photoshop to change the colors outside the spirals into black:  
 

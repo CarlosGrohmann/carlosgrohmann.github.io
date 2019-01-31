@@ -19,6 +19,19 @@
   
 
   
+<!-- Google Analytics -->
+<script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-39493509-1', 'auto');
+    ga('send', 'pageview');
+</script>
+<!-- End Google Analytics -->
+
 
 
   
@@ -294,6 +307,21 @@
 
 
   
+  <a href="/archive">Archive</a>
+
+
+
+
+                
+              
+                
+                  
+
+
+
+
+
+  
   <a href="/tags">Tags</a>
 
 
@@ -376,10 +404,49 @@
       
 
       <article role="main" class="blog-post">
-        <p>So, QGIS 1.8 ‘Lisboa’ is out! Lots of cool new features, and lots of fixes. Check out the oficial release <a rel="noopener noreferrer" target="_blank" href="http://qgis.org/index.php?option=com_content&amp;view=article&amp;id=149">here</a>. And since <a rel="noopener noreferrer" target="_blank" href="http://www.kyngchaos.com/software/qgis">Kyngchaos</a> updated his Mac OSX packages, I went for an upgrade. After a clean removal of version 1.7 (using the awesome <a rel="noopener noreferrer" target="_blank" href="http://www.freemacsoft.net/appcleaner/">AppCleaner</a>), I upgraded both the complete GDAL and QGIS. After installing, time to set things right. Type this in a terminal: <strong>$ export DYLD_LIBRARY_PATH=/Applications/QGIS.app/Contents/MacOS/lib/:/Applications/QGIS.app/Contents/Frameworks/</strong> <strong>** ** $ export PYTHONPATH=/Applications/QGIS.app/Contents/Resources/python/</strong> Now test it: <strong>$ python</strong> ** Python 2.7.1 (r271:86832, Jun 16 2011, 16:59:05)** ** [GCC 4.2.1 (Based on Apple Inc. build 5658) (LLVM build 2335.15.00)] on darwin** ** Type “help”, “copyright”, “credits” or “license” for more information.** ** »&gt; import qgis.core** ** »&gt; import qgis.gui** ** »&gt; import PyQt4.QtCore** ** »&gt; import PyQt4.QtGui** ** »&gt;** Nice! While you’re at it, set the path for you command-line GDAL programs: <strong>export PATH=/Library/Frameworks/GDAL.framework/Programs:$PATH</strong> Now, this will only work in the current terminal session. To make it permanent, add these lines to your <strong>.bash_profile</strong></p>
+        <p>So, QGIS 1.8 ‘Lisboa’ is out! Lots of cool new features, and lots of fixes. Check out the oficial release <a rel="noopener noreferrer" target="_blank" href="http://qgis.org/index.php?option=com_content&amp;view=article&amp;id=149">here</a>.</p>
+
+<p>And since <a rel="noopener noreferrer" target="_blank" href="http://www.kyngchaos.com/software/qgis">Kyngchaos</a> updated his Mac OSX packages, I went for an upgrade. After a clean removal of version 1.7 (using the awesome <a rel="noopener noreferrer" target="_blank" href="http://www.freemacsoft.net/appcleaner/">AppCleaner</a>), I upgraded both the complete GDAL and QGIS.</p>
+
+<p>After installing, time to set things right. Type this in a terminal:<br />
+<code class="highlighter-rouge">$ export DYLD_LIBRARY_PATH=/Applications/QGIS.app/Contents/MacOS/lib/:/Applications/QGIS.app/Contents/Frameworks/</code><br />
+<code class="highlighter-rouge">$ export PYTHONPATH=/Applications/QGIS.app/Contents/Resources/python/</code></p>
+
+<p>Now test it:</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ python  
+Python 2.7.1 (r271:86832, Jun 16 2011, 16:59:05)  
+[GCC 4.2.1 (Based on Apple Inc. build 5658) (LLVM build 2335.15.00)] on darwin  
+Type "help", "copyright", "credits" or "license" for more information.  
+&gt;&gt;&gt; import qgis.core  
+&gt;&gt;&gt; import qgis.gui  
+&gt;&gt;&gt; import PyQt4.QtCore  
+&gt;&gt;&gt; import PyQt4.QtGui
+</code></pre></div></div>
+
+<p>Nice! While you’re at it, set the path for you command-line GDAL programs:<br />
+<code class="highlighter-rouge">export PATH=/Library/Frameworks/GDAL.framework/Programs:$PATH</code></p>
+
+<p>Now, this will only work in the current terminal session. To make it permanent, add these lines to your <code class="highlighter-rouge">.bash_profile</code></p>
 
       </article>
 
+      
+        <div class="blog-tags">
+          Tags:
+          
+          
+            <a href="/tags#QGIS">QGIS</a>
+          
+            <a href="/tags#install">install</a>
+          
+            <a href="/tags#mac">mac</a>
+          
+            <a href="/tags#osx">osx</a>
+          
+            <a href="/tags#python">python</a>
+          
+          
+        </div>
       
 
       
@@ -441,7 +508,21 @@
 
       
         <div class="disqus-comments">
-          
+          <div class="comments">
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        var disqus_shortname = 'CarlosGrohmann';
+        /* ensure that pages with query string get the same discussion */
+            var url_parts = window.location.href.split("?");
+            var disqus_url = url_parts[0];
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a rel="noopener noreferrer" target="_blank" href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
         </div>
           
         <div class="staticman-comments">

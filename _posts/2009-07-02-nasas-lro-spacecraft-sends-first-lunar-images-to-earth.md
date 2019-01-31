@@ -15,6 +15,6 @@ GREENBELT, Md. -- NASA's Lunar Reconnaissance Orbiter, or LRO, has transmitted i
 
 As the moon rotates beneath LRO, LROC gradually will build up photographic maps of the lunar surface. To view these first calibration images, visit:  <http://www.nasa.gov/lro>  
 
-![](http://lroc.sese.asu.edu/news/uploads/nacl000000fd_top_detail.serendipityThumb.png)  
+![](http://lroc.sese.asu.edu/news/uploads/nacl000000fd_top_detail.serendipityThumb.png){:width="70%"}   
 
 Full resolution detail from one of the first LROC NAC images (credit: NASA/GSFC/Arizona State University)

@@ -9,7 +9,7 @@ permalink: http://carlosgrohmann.com/volcanoes-from-space/
 published: true
 ---
 
-![](http://www.wired.com/images_blogs/wiredscience/2009/08/volcano_sarychev1a.jpg)  
+![](http://www.wired.com/images_blogs/wiredscience/2009/08/volcano_sarychev1a.jpg){:width="70%"}   
 
 Wired Science has a nice post with pictures of erupting volcanoes, captured from space, either from satellites of by astronauts.   
 

@@ -11,18 +11,20 @@ published: true
 
 
 Quanta boiolagem. Um blog pessoal, fala sério. Pois é, essa deve ser a maneira mais fácil de meio mundo ficar sabendo tudo (ou quase tudo) que acontece e deixa de acontecer comigo, Carlos Grohmann, vulgo Guâno, em uma temporada de seis meses (maio-outubro de 2007) para uma bolsa de doutorado-sanduíche na Kingston University, Iglaterra.  
-![](/img/big_ben.jpg)  
+
+![](/img/big_ben.jpg){:width="70%"}   
 The Big F****** Ben  
 
 Domingo, 6 de maio: chegada no aeroporto de Heatrow Londres: Muito frio, cerca de 10 graus no domingo de manhã. Metrô até o albergue, uma voltinha pela vizinhança e cama, que um voô de 10 horas sem dormir e 4 horas de fuso horário cansam.  
 
 Segunda-feira, feriado bancário: sem muitas opções, já que a universidade estaria fechada, fui fazer um passeio turístico junto com outro brasileiro que estava no albergue. Palácio de Buckingham (chuva), troca da guarda (chuva, com direito à banda da guarda tocar o tema de indiana Jones! ridículo!), casas do parlamento+abadia de Westminser+Big Ben (chuva), uma passada pelo museu de arte moderna (Modern Tate) e pela torre de londres (sem chuva).  
 
-Terça-feira: Como a reunião com o orientador daqui estava marcada para quarta, vim até Kingston upon Thames (a cidade onde fica a universidade) para procurar um lugar para morar. Na universidade me disseram que a melhor opção seria um esquema de Landlord (ou Landlady), que basicamente é uma pessoa que te aluga um quarto na casa dele, assim fica mais fácil acertar um contrato temporário, já que as outras opções sempre pedem contratos de 12 meses. Consegui um quarto bem localizado, perto da universidade (se bem que tudo é perto aqui, a cidade é minúscula), por 375 libras por mês, com direito a internet. Não é o mais barato, mas pelo menos não preciso me preocupar com roupas de cama, toalhas, e nem com transporte. Além disso, como sou brasileiro e minha Landlady morou no Brasil uns 30 anos atrás, ela não me cobrou um depósito que normalmente é cobrado, de cerca de 100-200 libras. As fotos dão uma idéia do lugar, da rua onde fica a casa (uma das fotos está escura porque era umas 20:30, anoitece tarde por aqui).    
-![](/img/elm_road.jpg)  
+Terça-feira: Como a reunião com o orientador daqui estava marcada para quarta, vim até Kingston upon Thames (a cidade onde fica a universidade) para procurar um lugar para morar. Na universidade me disseram que a melhor opção seria um esquema de Landlord (ou Landlady), que basicamente é uma pessoa que te aluga um quarto na casa dele, assim fica mais fácil acertar um contrato temporário, já que as outras opções sempre pedem contratos de 12 meses. Consegui um quarto bem localizado, perto da universidade (se bem que tudo é perto aqui, a cidade é minúscula), por 375 libras por mês, com direito a internet. Não é o mais barato, mas pelo menos não preciso me preocupar com roupas de cama, toalhas, e nem com transporte. Além disso, como sou brasileiro e minha Landlady morou no Brasil uns 30 anos atrás, ela não me cobrou um depósito que normalmente é cobrado, de cerca de 100-200 libras. As fotos dão uma idéia do lugar, da rua onde fica a casa (uma das fotos está escura porque era umas 20:30, anoitece tarde por aqui).   
+ 
+![](/img/elm_road.jpg){:width="70%"}   
 Elm Road, Kingston-upon-Thames   
 
-![](/img/quarto_pub.jpg)  
+![](/img/quarto_pub.jpg){:width="70%"}   
 Localização privilegiada  
 
 

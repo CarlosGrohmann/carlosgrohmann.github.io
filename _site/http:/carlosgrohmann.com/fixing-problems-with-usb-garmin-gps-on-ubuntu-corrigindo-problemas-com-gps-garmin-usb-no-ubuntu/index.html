@@ -19,6 +19,19 @@
   
 
   
+<!-- Google Analytics -->
+<script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-39493509-1', 'auto');
+    ga('send', 'pageview');
+</script>
+<!-- End Google Analytics -->
+
 
 
   
@@ -294,6 +307,21 @@
 
 
   
+  <a href="/archive">Archive</a>
+
+
+
+
+                
+              
+                
+                  
+
+
+
+
+
+  
   <a href="/tags">Tags</a>
 
 
@@ -376,15 +404,71 @@
       
 
       <article role="main" class="blog-post">
-        <p>[EN] After my last caving expedition, I had some problems to download my GPS data with QGIS/Gpsbabel. I found out that it was a problem with Ubuntu udev rules. Here’s how to fix that. [PT-BR] Após a última expedição de exploração espeleológica, tive problemas para baixar os dados do meu GPS Garmin usando QGIS/Gpsbabel. Decobri se tratar de um problema com o Ubuntu, que não me dava o devido acesso ao dispositivo. VEja como corrigir esse problema. <strong>1 - Determine if this is your problem. / Determine se este é mesmo o seu problema.</strong> [EN] Open up a terminal window (Accessories -&gt; Terminal) and type: [PT] Abra uma janela de terminal (Acessórios -&gt; Terminal) e digite: ` gpsbabel -i garmin -f usb:-1 ` [EN] If you got something like this, this post is for you: [PT] Se você receber uma mensagem de erro como esta, continue lendo: ` Claim interface failed: could not claim interface 0: Operation not permitted. ` <strong>2 - Solution: change the udev rules. / A solução: alterar as regras do udev.</strong> [EN] Relax, this is easy. All we need is to create a text file with the new rules. You must do this with administrator (root) privileges. So, in that terminal window (you didn’t closed it, did you?) start you favorite text editor (gedit, kedit, mousepad, etc) as root: ` sudo gedit ` Create a new file and paste this in it: ` SYSFS{idVendor}==”091e”, SYSFS{idProduct}==”0003”, MODE=”666” ` Save the file as <strong>51-garmin.rules</strong> under <strong>/etc/udev/rules.d ** Now restart the udev rules: ` sudo udevadm control –reload-rules ` And try again to see if you were successful: ` gpsbabel -i garmin -f usb:-1 0 3724240363 292 GPSMap60CSX Software Version 4.10 ` That’s it! Now you’re good to go! [PT] Fique tranquilo que a coisa é simples. Tudo o que precisamos é criar um arquivo de texto com novas regras para o udev. Isso tem que ser feito com privilégios de administrador (root). Então, naquela janela de terminal (você não a fechou, né?) inicie seu editor de textos favorito (gedit, kedit, mousepad, etc) como root: ` sudo gedit ` Crie um arquivo novo e cole o seguinte nele: ` SYSFS{idVendor}==”091e”, SYSFS{idProduct}==”0003”, MODE=”666” ` Salve o arquivo como **51-garmin.rules</strong> no diretório **/etc/udev/rules.d ** Agora reinicie as regras do udev: ` sudo udevadm control –reload-rules ` Tente de novo com o gpsbabel para ver se deu certo: ` gpsbabel -i garmin -f usb:-1 0 3724240363 292 GPSMap60CSX Software Version 4.10 ` Pronto! Agora você pode baixar seus dados tranquilamente.</p>
+        <p>[EN] After my last caving expedition, I had some problems to download my GPS data with QGIS/Gpsbabel. I found out that it was a problem with Ubuntu udev rules. Here’s how to fix that.</p>
 
-<h2 id="comments">Comments</h2>
+<p>[PT-BR] Após a última expedição de exploração espeleológica, tive problemas para baixar os dados do meu GPS Garmin usando QGIS/Gpsbabel. Decobri se tratar de um problema com o Ubuntu, que não me dava o devido acesso ao dispositivo. Veja como corrigir esse problema.</p>
 
-<p><strong><a href="#22" title="2011-01-14 03:02:24">Robert Lipe</a>:</strong> Described in the GPSBabel doc at http://www.gpsbabel.org/os/Linux_Hotplug.html The OS vendors really should fix this….</p>
+<p><strong>1 - Determine if this is your problem. / Determine se este é mesmo o seu problema.</strong></p>
+
+<p>[EN] Open up a terminal window (Accessories -&gt; Terminal) and type:<br />
+[PT] Abra uma janela de terminal (Acessórios -&gt; Terminal) e digite:<br />
+<code class="highlighter-rouge">gpsbabel -i garmin -f usb:-1</code></p>
+
+<p>[EN] If you got something like this, this post is for you:<br />
+[PT] Se você receber uma mensagem de erro como esta, continue lendo:<br />
+<code class="highlighter-rouge">Claim interface failed: could not claim interface 0: Operation not permitted.</code></p>
+
+<p><strong>2 - Solution: change the udev rules. / A solução: alterar as regras do udev.</strong></p>
+
+<p>[EN] Relax, this is easy. All we need is to create a text file with the new rules.<br />
+You must do this with administrator (root) privileges. So, in that terminal window (you didn’t closed it, did you?) start you favorite text editor (gedit, kedit, mousepad, etc) as root:<br />
+<code class="highlighter-rouge">sudo gedit</code></p>
+
+<p>Create a new file and paste this in it:</p>
+
+<p><code class="highlighter-rouge">SYSFS{idVendor}=="091e", SYSFS{idProduct}=="0003", MODE="666"</code></p>
+
+<p>Save the file as  <strong>51-garmin.rules</strong> under <strong>/etc/udev/rules.d</strong></p>
+
+<p>Now restart the udev rules: <code class="highlighter-rouge">sudo udevadm control --reload-rules</code></p>
+
+<p>And try again to see if you were successful:<br />
+<code class="highlighter-rouge">gpsbabel -i garmin -f usb:-1 0 3724240363 292 GPSMap60CSX Software Version 4.10</code><br />
+That’s it! Now you’re good to go!</p>
+
+<p>[PT] Fique tranquilo que a coisa é simples.<br />
+Tudo o que precisamos é criar um arquivo de texto com novas regras para o udev. Isso tem que ser feito com privilégios de administrador (root).<br />
+Então, naquela janela de terminal (você não a fechou, né?) inicie seu editor de textos favorito (gedit, kedit, mousepad, etc) como root:<br />
+<code class="highlighter-rouge">sudo gedit</code><br />
+Crie um arquivo novo e cole o seguinte nele:</p>
+
+<p><code class="highlighter-rouge">SYSFS{idVendor}=="091e", SYSFS{idProduct}=="0003", MODE="666"</code></p>
+
+<p>Salve o arquivo como <strong>51-garmin.rules</strong> no diretório <strong>/etc/udev/rules.d</strong></p>
+
+<p>Agora reinicie as regras do udev: <code class="highlighter-rouge">sudo udevadm control --reload-rules</code><br />
+Tente de novo com o gpsbabel para ver se deu certo:<br />
+<code class="highlighter-rouge">gpsbabel -i garmin -f usb:-1 0 3724240363 292 GPSMap60CSX Software Version 4.10</code><br />
+Pronto! Agora você pode baixar seus dados tranquilamente.</p>
+
+<h4 id="comments">Comments</h4>
+
+<p><strong><a href="#22" title="2011-01-14 03:02:24">Robert Lipe</a>:</strong> Described in the GPSBabel doc at <a rel="noopener noreferrer" target="_blank" href="http://www.gpsbabel.org/os/Linux_Hotplug.html">http://www.gpsbabel.org/os/Linux_Hotplug.html</a> The OS vendors really should fix this….</p>
 
 
       </article>
 
+      
+        <div class="blog-tags">
+          Tags:
+          
+          
+            <a href="/tags#linux">linux</a>
+          
+            <a href="/tags#garmin">garmin</a>
+          
+          
+        </div>
       
 
       
@@ -434,7 +518,7 @@
       <ul class="pager blog-pager">
         
         <li class="previous">
-          <a href="/http:/carlosgrohmann.com/agu-2010-fall-meeting-wrapping-up/" data-toggle="tooltip" data-placement="top" title="wrapping up">&larr; Previous Post</a>
+          <a href="/http:/carlosgrohmann.com/agu-2010-fall-meeting-wrapping-up/" data-toggle="tooltip" data-placement="top" title="AGU Fall Meeting - wrapping up">&larr; Previous Post</a>
         </li>
         
         
@@ -446,7 +530,21 @@
 
       
         <div class="disqus-comments">
-          
+          <div class="comments">
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        var disqus_shortname = 'CarlosGrohmann';
+        /* ensure that pages with query string get the same discussion */
+            var url_parts = window.location.href.split("?");
+            var disqus_url = url_parts[0];
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a rel="noopener noreferrer" target="_blank" href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
         </div>
           
         <div class="staticman-comments">

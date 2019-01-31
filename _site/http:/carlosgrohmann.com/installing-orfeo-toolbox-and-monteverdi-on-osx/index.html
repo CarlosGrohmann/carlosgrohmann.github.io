@@ -19,6 +19,19 @@
   
 
   
+<!-- Google Analytics -->
+<script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-39493509-1', 'auto');
+    ga('send', 'pageview');
+</script>
+<!-- End Google Analytics -->
+
 
 
   
@@ -294,6 +307,21 @@
 
 
   
+  <a href="/archive">Archive</a>
+
+
+
+
+                
+              
+                
+                  
+
+
+
+
+
+  
   <a href="/tags">Tags</a>
 
 
@@ -376,9 +404,59 @@
       
 
       <article role="main" class="blog-post">
-        <p>The Orfeo ToolBox (OTB) is an open-source C++ library for processing of remote sensing image, and it is shipped with Monteverdi, an end-users oriented software for for classical remote sensing tasks. With the recent release of OTB version 5.4, I decided to make this brief post on how to get it running on OSX. I’m running El Capitan (10.11), but it should be the same for other versions. First, go to <a rel="noopener noreferrer" target="_blank" href="https://www.orfeo-toolbox.org/download/">https://www.orfeo-toolbox.org/download/</a> and select “Mac OS X”. Right-click and select “Save link as”. I ended with a file named <strong>OTB-5.4.0-Darwin64.run.txt</strong>. Rename that file and remove the “.txt” extension (if you will get a warning from the system, just select “keep .run”). Now you must give this file <a rel="noopener noreferrer" target="_blank" href="https://en.wikipedia.org/wiki/File_system_permissions">execution permission</a>. You can’t do that with the Graphical Interface (GUI), so you must use the <a rel="noopener noreferrer" target="_blank" href="https://en.wikipedia.org/wiki/Command-line_interface">Command Line Interface</a>. Open the Terminal (it’s probably in Applications/Utilities) and navigate to the directory where you saved the file, or, in GUI terms, go to the Folder where the file is. So if your file is in Downloads: <code class="highlighter-rouge">Serenity:~ guano$ cd Downloads/</code> In this case, “Serenity” is the name of my computer, and “guano” is my username (yours will be different). the command <a rel="noopener noreferrer" target="_blank" href="http://ss64.com/osx/cd.html">cd</a> means <strong>c</strong>hange <strong>d</strong>irectory and there is a space between it and the name of the Directory (Folder) you want to go. Another way of doing this is to write cd (and a space) and drag the folder from a Finder window over the Terminal window. Hit return and you are inside the Downloads directory. Check to see if the file is there with the <a rel="noopener noreferrer" target="_blank" href="http://ss64.com/osx/ls.html">ls</a> command: <code class="highlighter-rouge">Serenity:Downloads guano$ ls OTB-5.4.0-Darwin64.run</code> Now give it execution permission with the <a rel="noopener noreferrer" target="_blank" href="http://ss64.com/osx/chmod.html">chmod</a> command: <code class="highlighter-rouge">Serenity:Downloads guano$ chmod +x OTB-5.4.0-Darwin64.run </code> Ok, now move (or copy) the file to a place where it will be installed. You can install it in the system-wide Applications folder (/Applications) or in your user’s Applications (/Users/your_user/Applications). You can drag the file to the folder or continue doing thing on the command line: <code class="highlighter-rouge">Serenity:Downloads guano$ mv OTB-5.4.0-Darwin64.run /Applications</code> This will move the file to the Applications folder that’s under the “<a rel="noopener noreferrer" target="_blank" href="http://www.linfo.org/root.html">root</a>” of the FileSystem (/Applications). Now navigate to that folder and run the installer (note the single dot before the slash when running the installer): <code class="highlighter-rouge">Serenity:Downloads guano$ cd ../Applications Serenity:Applications guano$ ./OTB-5.4.0-Darwin64.run Creating directory OTB-5.4.0-Darwin64 Verifying archive integrity... All good. Uncompressing OrfeoToolBox 5.4.0 100% Configuring... Serenity:Applications guano$ </code> The installer will deflate and create a directory called <strong>OTB-5.4.0-Darwin64</strong>, and inside it you will find two apps: <strong>Mapla.app</strong> and <strong>Monteverdi.app</strong>. If you like to use LaunchPad (like me), just hit F4 and they will be there.   <img src="/blog/wp-content/uploads/2016/05/Screen-Shot-2016-05-13-at-11.44.15.png" alt="Screen Shot 2016-05-13 at 11.44.15" /> Mapla window (Monteverdi Application Laucher)   <img src="http://carlosgrohmann.com/blog/wp-content/uploads/2016/05/Screen-Shot-2016-05-13-at-11.44.00.png" alt="Screen Shot 2016-05-13 at 11.44.00" /> Main Monteverdi window   That’s it. Happy Processing!</p>
+        <p>The Orfeo ToolBox (OTB) is an open-source C++ library for processing of remote sensing image, and it is shipped with Monteverdi, an end-users oriented software for for classical remote sensing tasks. With the recent release of OTB version 5.4, I decided to make this brief post on how to get it running on OSX. I’m running El Capitan (10.11), but it should be the same for other versions.</p>
 
-<h2 id="comments">Comments</h2>
+<p>First, go to <a rel="noopener noreferrer" target="_blank" href="https://www.orfeo-toolbox.org/download/">https://www.orfeo-toolbox.org/download/</a> and select “Mac OS X”. Right-click and select “Save link as”. I ended with a file named <code class="highlighter-rouge">OTB-5.4.0-Darwin64.run.txt</code>. Rename that file and remove the “.txt” extension (if you will get a warning from the system, just select “keep .run”).</p>
+
+<p>Now you must give this file <a rel="noopener noreferrer" target="_blank" href="https://en.wikipedia.org/wiki/File_system_permissions">execution permission</a>. You can’t do that with the Graphical Interface (GUI), so you must use the <a rel="noopener noreferrer" target="_blank" href="https://en.wikipedia.org/wiki/Command-line_interface">Command Line Interface</a>. Open the Terminal (it’s probably in Applications/Utilities) and navigate to the directory where you saved the file, or, in GUI terms, go to the Folder where the file is. So if your file is in Downloads:</p>
+
+<p><code class="highlighter-rouge">Serenity:~ guano$ cd Downloads/</code></p>
+
+<p>In this case, “Serenity” is the name of my computer, and “guano” is my username (yours will be different). the command <a rel="noopener noreferrer" target="_blank" href="http://ss64.com/osx/cd.html">cd</a> means <code class="highlighter-rouge">c</code>hange <code class="highlighter-rouge">d</code>irectory and there is a space between it and the name of the Directory (Folder) you want to go. Another way of doing this is to write cd (and a space) and drag the folder from a Finder window over the Terminal window. Hit return and you are inside the Downloads directory.</p>
+
+<p>Check to see if the file is there with the <a rel="noopener noreferrer" target="_blank" href="http://ss64.com/osx/ls.html">ls</a> command:</p>
+
+<p><code class="highlighter-rouge">Serenity:Downloads guano$ ls
+OTB-5.4.0-Darwin64.run</code></p>
+
+<p>Now give it execution permission with the <a rel="noopener noreferrer" target="_blank" href="http://ss64.com/osx/chmod.html">chmod</a> command:</p>
+
+<p><code class="highlighter-rouge">Serenity:Downloads guano$ chmod +x OTB-5.4.0-Darwin64.run </code></p>
+
+<p>Ok, now move (or copy) the file to a place where it will be installed. You can install it in the system-wide Applications folder (/Applications) or in your user’s Applications (/Users/your_user/Applications). You can drag the file to the folder or continue doing thing on the command line:</p>
+
+<p><code class="highlighter-rouge">Serenity:Downloads guano$ mv OTB-5.4.0-Darwin64.run /Applications</code></p>
+
+<p>This will move the file to the Applications folder that’s under the <a rel="noopener noreferrer" target="_blank" href="http://www.linfo.org/root.html">root</a> of the FileSystem (/Applications).</p>
+
+<p>Now navigate to that folder and run the installer (note the single dot before the slash when running the installer):</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Serenity:Downloads guano$ cd ../Applications
+Serenity:Applications guano$ ./OTB-5.4.0-Darwin64.run
+Creating directory OTB-5.4.0-Darwin64
+Verifying archive integrity... All good.
+Uncompressing OrfeoToolBox 5.4.0 100%
+Configuring...
+Serenity:Applications guano$
+</code></pre></div></div>
+
+<p>The installer will deflate and create a directory called <code class="highlighter-rouge">OTB-5.4.0-Darwin64</code>, and inside it you will find two apps: <code class="highlighter-rouge">Mapla.app</code> and <code class="highlighter-rouge">Monteverdi.app</code>. If you like to use LaunchPad (like me), just hit F4 and they will be there.</p>
+
+<p> </p>
+
+<p><img src="/img/Screen-Shot-2016-05-13-at-11.44.15.png" alt="" width="20%" /><br />
+Mapla window (Monteverdi Application Laucher)</p>
+
+<p> </p>
+
+<p><img src="/img/Screen-Shot-2016-05-13-at-11.44.00.png" alt="" width="60%" /><br />
+Main Monteverdi window</p>
+
+<p> </p>
+
+<p>That’s it. Happy Processing!</p>
+
+<h4 id="comments">Comments</h4>
 
 <p><strong><a href="#18926" title="2018-10-01 16:06:16">Juan Manuel Lopez</a>:</strong> Last login: Mon Oct 1 20:42:23 on ttys000 MacBook-Air-de-Juan:~ Juancho08$ cd Applications/OTB-6.6.0-Darwin64.run -bash: cd: Applications/OTB-6.6.0-Darwin64.run: No such file or directory MacBook-Air-de-Juan:~ Juancho08$ cd Applications/ MacBook-Air-de-Juan:Applications Juancho08$ ./OTB-6.6.0-Darwin64 -bash: ./OTB-6.6.0-Darwin64: No such file or directory MacBook-Air-de-Juan:Applications Juancho08$ ./OTB-6.6.0-Darwin64.run -bash: ./OTB-6.6.0-Darwin64.run: No such file or directory MacBook-Air-de-Juan:Applications Juancho08$ I appear this error knows what can it be? Thank you very much and greetings</p>
 
@@ -387,6 +465,21 @@
 
       </article>
 
+      
+        <div class="blog-tags">
+          Tags:
+          
+          
+            <a href="/tags#osx">osx</a>
+          
+            <a href="/tags#mac">mac</a>
+          
+            <a href="/tags#install">install</a>
+          
+            <a href="/tags#remote-sensing">remote-sensing</a>
+          
+          
+        </div>
       
 
       
@@ -448,7 +541,21 @@
 
       
         <div class="disqus-comments">
-          
+          <div class="comments">
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        var disqus_shortname = 'CarlosGrohmann';
+        /* ensure that pages with query string get the same discussion */
+            var url_parts = window.location.href.split("?");
+            var disqus_url = url_parts[0];
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a rel="noopener noreferrer" target="_blank" href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
         </div>
           
         <div class="staticman-comments">

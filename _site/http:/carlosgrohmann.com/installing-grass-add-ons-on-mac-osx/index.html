@@ -19,6 +19,19 @@
   
 
   
+<!-- Google Analytics -->
+<script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-39493509-1', 'auto');
+    ga('send', 'pageview');
+</script>
+<!-- End Google Analytics -->
+
 
 
   
@@ -294,6 +307,21 @@
 
 
   
+  <a href="/archive">Archive</a>
+
+
+
+
+                
+              
+                
+                  
+
+
+
+
+
+  
   <a href="/tags">Tags</a>
 
 
@@ -382,15 +410,35 @@
   <p><strong>Addon Modules</strong> Included is a build template similar to the GEM system for modules. But it doesn’t require the module source to be configured for GEM (I haven’t seen any that are yet). It’s a bit rough. See the included readme for details.</p>
 </blockquote>
 
-<p>But there’s not much more. There is a nice <a rel="noopener noreferrer" target="_blank" href="http://www.forumsig.org/showthread.php?t=33173">topic</a> in the french forumSIG, but you need to be registered in order to see the pictures. So I decided to post the instructions here. First you need to install XCode from the AppleStore and the CLI (command line interface) tools. (the CLI tools can be installed from XCode preferences). Next, fix the SDKs path: findo the Xcode.app, right-click over it and choose <strong>Show package contents</strong>. Now go to <strong>Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs</strong> and copy <strong>MacOSX10.7.sdk</strong> to <strong>/Developer/SDKs</strong> (you might need to create this folder). Then, download and install KyngChaos’ <a rel="noopener noreferrer" target="_blank" href="http://www.kyngchaos.com/files/software/grass/GRASS-6.4.2-3-Snow.dmg">package</a>. It will create a directory for your GRASS version under <strong>/Library</strong>. Since the directory is read-only, we need to copy the <strong>modbuild</strong> sub-directory to another place. In my case, I copied it to <strong>/Users/guano/Documents/installs/grass/modbuild</strong> <img src="/blog/wp-content/uploads/2012/06/addons1.png?w=300" alt="" /> Now we put the directory of the module we want to compile under the <strong>module</strong> subdir of our new modbuild directory (I’m using <strong>r.stream.order</strong> here). <img src="http://carlosgrohmann.com/blog/wp-content/uploads/2012/06/addons2.png?w=300" alt="" /> Open the Terminal and go to the module’s directory, in my case <strong>/Users/guano/Documents/installs/grass/modbuild/module/r.stream.order</strong>, and run this (it’s a single line command):</p>
+<p>But there’s not much more. There is a nice <a rel="noopener noreferrer" target="_blank" href="http://www.forumsig.org/showthread.php?t=33173">topic</a> in the french forumSIG, but you need to be registered in order to see the pictures. So I decided to post the instructions here.</p>
 
-<blockquote>
-  <p>make GRASS_HOME=’/Users/guano/Documents/installs/grass/modbuild/module/r.stream.order’ GRASS_APP=’/Applications/GRASS-6.4.app’</p>
-</blockquote>
+<p>First you need to install XCode from the AppleStore and the CLI (command line interface) tools. (the CLI tools can be installed from XCode preferences). Next, fix the SDKs path: findo the Xcode.app, right-click over it and choose <strong>Show package contents</strong>. Now go to <strong>Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs</strong> and copy <strong>MacOSX10.7.sdk</strong> to <strong>/Developer/SDKs</strong> (you might need to create this folder).</p>
 
-<p><img src="/blog/wp-content/uploads/2012/06/addons3.png?w=300" alt="" /> just make sure that GRASS_HOME points to your module’s directory (you can drag the folder from Finder in the Terminal and it will give you the full path to it). After the compilation ends, you should have a directory named <strong>dist.i386-apple-darwin10.7.0</strong> under your module’s directory (if you are on Lion. If you run an older version of OSX, the “10.X” part will reflect your system’s version). Now you just copy the relevant files to <strong>/Library/GRASS/6.4/Modules/</strong>: copy the executable under <strong>bin</strong> to <strong>/Library/GRASS/6.4/Modules/bin</strong> and the files under <strong>html</strong> to <strong>/Library/GRASS/6.4/Modules/doc/html</strong>. <img src="http://carlosgrohmann.com/blog/wp-content/uploads/2012/06/addons4.png?w=300" alt="" /> Now you should be able to run the add-on via the GRASS terminal: <img src="http://carlosgrohmann.com/blog/wp-content/uploads/2012/06/addons5.png?w=298" alt="" /> Nice, huh?</p>
+<p>Then, download and install KyngChaos’ <a rel="noopener noreferrer" target="_blank" href="http://www.kyngchaos.com/files/software/grass/GRASS-6.4.2-3-Snow.dmg">package</a>. It will create a directory for your GRASS version under <strong>/Library</strong>. Since the directory is read-only, we need to copy the <strong>modbuild</strong> sub-directory to another place. In my case, I copied it to <strong>/Users/guano/Documents/installs/grass/modbuild</strong></p>
 
-<h2 id="comments">Comments</h2>
+<p><img src="/img/addons1.png" alt="" width="70%" /></p>
+
+<p>Now we put the directory of the module we want to compile under the <strong>module</strong> subdir of our new modbuild directory (I’m using <strong>r.stream.order</strong> here).</p>
+
+<p><img src="/img/addons2.png" alt="" width="70%" /></p>
+
+<p>Open the Terminal and go to the module’s directory, in my case <strong>/Users/guano/Documents/installs/grass/modbuild/module/r.stream.order</strong>, and run this (it’s a single line command):</p>
+
+<p><code class="highlighter-rouge">&gt; make GRASS_HOME='/Users/guano/Documents/installs/grass/modbuild/module/r.stream.order' GRASS_APP='/Applications/GRASS-6.4.app'</code></p>
+
+<p><img src="/img/addons3.png" alt="" width="70%" /></p>
+
+<p>just make sure that GRASS_HOME points to your module’s directory (you can drag the folder from Finder in the Terminal and it will give you the full path to it). After the compilation ends, you should have a directory named <strong>dist.i386-apple-darwin10.7.0</strong> under your module’s directory (if you are on Lion. If you run an older version of OSX, the “10.X” part will reflect your system’s version). Now you just copy the relevant files to <strong>/Library/GRASS/6.4/Modules/</strong>: copy the executable under <strong>bin</strong> to <strong>/Library/GRASS/6.4/Modules/bin</strong> and the files under <strong>html</strong> to <strong>/Library/GRASS/6.4/Modules/doc/html</strong>.</p>
+
+<p><img src="/img/addons4.png" alt="" width="70%" /></p>
+
+<p>Now you should be able to run the add-on via the GRASS terminal:</p>
+
+<p><img src="/img/addons5.png" alt="" width="70%" /></p>
+
+<p>Nice, huh?</p>
+
+<h4 id="comments">Comments</h4>
 
 <p><strong><a href="#24" title="2012-06-23 12:53:25">Manuel</a>:</strong> Nice indeed. However I am getting trouble compiling because it complains on some dependencies while compiling your very same module. The error is the following: ld: warning: directory not found for option ‘-L/Users/Shared/unix/pgsql-pq-snow/usr/local/pgsql-9.1/lib’ ld: duplicate symbol _main in OBJ.i386-apple-darwin11.3.0/prueba.o and OBJ.i386-apple-darwin11.3.0/main.o for architecture i386 collect2: ld returned 1 exit status ld: warning: directory not found for option ‘-L/Users/Shared/unix/pgsql-pq-snow/usr/local/pgsql-9.1/lib’ ld: duplicate symbol _main in OBJ.i386-apple-darwin11.3.0/prueba.o and OBJ.i386-apple-darwin11.3.0/main.o for architecture x86_64 collect2: ld returned 1 exit status Have you had this problem also? Any idea on how to overcome it? Thank you a lot for your post</p>
 
@@ -405,6 +453,19 @@
 
       </article>
 
+      
+        <div class="blog-tags">
+          Tags:
+          
+          
+            <a href="/tags#GRASS">GRASS</a>
+          
+            <a href="/tags#install">install</a>
+          
+            <a href="/tags#mac">mac</a>
+          
+          
+        </div>
       
 
       
@@ -466,7 +527,21 @@
 
       
         <div class="disqus-comments">
-          
+          <div class="comments">
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        var disqus_shortname = 'CarlosGrohmann';
+        /* ensure that pages with query string get the same discussion */
+            var url_parts = window.location.href.split("?");
+            var disqus_url = url_parts[0];
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a rel="noopener noreferrer" target="_blank" href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
         </div>
           
         <div class="staticman-comments">

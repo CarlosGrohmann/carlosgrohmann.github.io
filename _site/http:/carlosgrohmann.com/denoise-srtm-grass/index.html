@@ -19,6 +19,19 @@
   
 
   
+<!-- Google Analytics -->
+<script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-39493509-1', 'auto');
+    ga('send', 'pageview');
+</script>
+<!-- End Google Analytics -->
+
 
 
   
@@ -294,6 +307,21 @@
 
 
   
+  <a href="/archive">Archive</a>
+
+
+
+
+                
+              
+                
+                  
+
+
+
+
+
+  
   <a href="/tags">Tags</a>
 
 
@@ -376,188 +404,211 @@
       
 
       <article role="main" class="blog-post">
-        <p>Digital elevation data usually has some noise in it, but removing that noise may not be as easy as a simple filtering procedure. Using raster filters (mean, mode etc) in moving-windows operations will smooth the original topography. One solution is to perform the filtering with the XYZ information of each pixel (that is, treating the DEM as a point cloud and filtering the vector points). In GRASS-GIS, we can use the <strong>r.denoise</strong> add-on to do this. The module was originally a bash script that I ported to python (because I needed to call it from a python script, and the bash version wasn’t working this way). The module itself is just a wrapper to the <strong>mdenoise</strong> (Sun et al., 2007; Stevenson et al., 20109) executable, which needs to be installed and in the system PATH. To do that, download the source code of mdenoise and compile it:</p>
+        <p>Digital elevation data usually has some noise in it, but removing that noise may not be as easy as a simple filtering procedure. Using raster filters (mean, mode etc) in moving-windows operations will smooth the original topography. One solution is to perform the filtering with the XYZ information of each pixel (that is, treating the DEM as a point cloud and filtering the vector points).</p>
+
+<p>In GRASS-GIS, we can use the <code class="highlighter-rouge">r.denoise</code> add-on to do this. The module was originally a bash script that I ported to python (because I needed to call it from a python script, and the bash version wasn’t working this way). The module itself is just a wrapper to the <code class="highlighter-rouge">mdenoise</code> (Sun et al., 2007; Stevenson et al., 20109) executable, which needs to be installed and in the system PATH.</p>
+
+<p>To do that, download the source code of mdenoise and compile it:</p>
 
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wget http://www.cs.cf.ac.uk/meshfiltering/index_files/Doc/mdsource.zip
-
 unzip mdsource.zip
-
 cd mdenoise
-
 g++ -o mdenoise mdenoise.cpp triangle.c
-
 ln -s `pwd`/mdenoise /some/directory/on/the/$PATH
 </code></pre></div></div>
 
-<p>  Once <strong>mdenoise</strong> is installed, start a GRASS session and install the add-on with <a rel="noopener noreferrer" target="_blank" href="https://grass.osgeo.org/grass72/manuals/g.extension.html">g.extension</a>:</p>
+<p> 
+Once <code class="highlighter-rouge">mdenoise</code> is installed, start a GRASS session and install the add-on with <a rel="noopener noreferrer" target="_blank" href="https://grass.osgeo.org/grass72/manuals/g.extension.html">g.extension</a>:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>g.extension r.denoise
-</code></pre></div></div>
+<p><code class="highlighter-rouge">g.extension r.denoise</code></p>
 
-<p>  In this post, I’ll show an example with 1-arcsec SRTM data for an area in the Amazon region, just north of the Barcelos city.   [caption id=”attachment_1455” align=”alignnone” width=”300”]<img src="/blog/wp-content/uploads/2016/12/map-300x191.png" alt="location map" /> Location of the test area, in the Brazilian Amazon[/caption] Let’s check the original SRTM data.</p>
+<p>In this post, I’ll show an example with 1-arcsec SRTM data for an area in the Amazon region, just north of the Barcelos city.</p>
 
-<p>In the image below, I used d.shade to drape the SRTM raster over a shaded relief image.</p>
+<p><img src="/img/map.png" alt="" width="70%" /><br />
+Location of the test area, in the Brazilian Amazon</p>
 
+<p>Let’s check the original SRTM data.<br />
+In the image below, I used d.shade to drape the SRTM raster over a shaded relief image.</p>
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>r.relief --overwrite input=srtm30m_north output=srtm30m_north_dnoise_shade_25_315_z5 altitude=25 azimuth=315 zscale=5
-
-
 
 d.shade shade=srtm30m_north_shade_25_315_z5 color=srtm30m_north
 </code></pre></div></div>
+<p> </p>
 
-<p>  [caption id=”attachment_1454” align=”alignnone” width=”600”]<img src="/blog/wp-content/uploads/2016/12/Screen-Shot-2016-12-06-at-11.35.23-1024x784.jpg" alt="screen-shot-2016-12-06-at-11-35-23" /> Original 1-arcsec SRTM data[/caption] We can see the noise in the image. Of course, some of it is probably due the forest canopy structure, but certainly not all. Let’s run the <strong>r.denoise</strong> module and see the results. First, check the region settings:</p>
+<p><img src="/img/Screen-Shot-2016-12-06-at-11.35.23.jpg" alt="" width="70%" /><br />
+Original 1-arcsec SRTM data</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>GRASS 7.2.0svn (latlong):~&gt; g.region -p raster=srtm30m_north
+<p>We can see the noise in the image. Of course, some of it is probably due the forest canopy structure, but certainly not all.</p>
 
+<p>Let’s run the <code class="highlighter-rouge">r.denoise</code> module and see the results. First, check the region settings:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>GRASS 7.2.0svn (latlong):~&amp;gt; g.region -p raster=srtm30m_north
 projection: 3 (Latitude-Longitude)
-
 zone: 0
-
 datum: wgs84
-
 ellipsoid: wgs84
-
 north: 0:05:53S
-
 south: 0:13:58S
-
 west: 62:50:42W
-
 east: 62:38:53W
-
 nsres: 0:00:01
-
 ewres: 0:00:01
-
 rows: 485
-
 cols: 709
-
 cells: 343865
 </code></pre></div></div>
 
-<p>  Now run the module. The <strong>mdenoise</strong> executable does not work with geographic coordinates, and since I am working on a latitude-longitude location, I need to supply an EPSG code of a projected coordinate system, which will be used for reprojecting the data to a temporary file. In this case I used EPSG=32720, the code for UTM 20S WGS84. We need to define two parameters, <strong>iterations</strong> and <strong>threshold</strong>. From the help page:</p>
+<p> 
+Now run the module. The <code class="highlighter-rouge">mdenoise</code> executable does not work with geographic coordinates, and since I am working on a latitude-longitude location, I need to supply an EPSG code of a projected coordinate system, which will be used for reprojecting the data to a temporary file. In this case I used EPSG=32720, the code for UTM 20S WGS84.</p>
+
+<p>We need to define two parameters, <code class="highlighter-rouge">iterations</code> and <code class="highlighter-rouge">threshold</code>. From the help page:</p>
 
 <blockquote>
-  <p>The amount of smoothing is controlled by the <em>threshold</em> and <em>iterations</em> parameters. Increasing the <em>threshold</em> decreases how sharp a feature needs to be to be preserved e.g. decreases the smoothing. To preserve ridge crests in mountain areas, T &gt; 0.9 is recommended. Setting T too high results in the preservation of noise. For SRTM data, which is already partly smoothed by NASA, T = 0.99 can be used. Increasing the number of <em>iterations</em> increases the smoothing and the range of spatial correlation of the output dataset. A small number, e.g. 5 or fewer, typically gives the best results.</p>
-</blockquote>
+The amount of smoothing is controlled by the _threshold_ and _iterations_ parameters.  Increasing the _threshold_ decreases how sharp a feature needs to be to be preserved e.g. decreases the smoothing.  To preserve ridge crests in mountain areas, T &gt; 0.9 is recommended. Setting T too high results in the preservation of noise.  For SRTM data, which is already partly smoothed by NASA, T = 0.99 can be used.  Increasing the number of _iterations_ increases the smoothing and the range of spatial correlation of the output dataset.  A small number, e.g. 5 or fewer, typically gives the best results.</blockquote>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>r.denoise --overwrite input=srtm30m_north output=srtm30m_north_dnoise iterations=5 threshold=0.9 epsg=32720
-</code></pre></div></div>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>r.denoise --overwrite input=srtm30m_north output=srtm30m_north_dnoise iterations=5 threshold=0.9 epsg=32720&lt;/pre&gt;
+&amp;nbsp;
+Here's the output of the command. For this test area, it took less than 5 seconds to denoise (10 seconds total) on my iMac (4 GHz, 32 GB RAM).
 
-<p>  Here’s the output of the command. For this test area, it took less than 5 seconds to denoise (10 seconds total) on my iMac (4 GHz, 32 GB RAM).</p>
-
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Exporting points...
-
+Exporting points...
 Projecting...
-
 Denoising...
-
 Input File: tmp_xyz_proj_16395.xyz
-
 Neighbourhood: Common Vertex
-
 Threshold: 0.900000
-
 n1: 5
-
 n2: 50
-
 Read Model...
-
 Triangulation...
-
 0.932 seconds
-
 Denoising Model... 5.151 seconds
-
 Saving Model... 0.186 seconds
-
 Reloading data...
-
 Reading input data...
-
 Writing to output raster map...
-
 r.in.xyz complete. 343865 points found in region.
-
 Removing temporary files...
-
 Removing temporary files...
-
 (Tue Dec 6 11:26:10 2016) Command finished (10 sec)
 </code></pre></div></div>
 
-<p>  To check the results visually, we can make the same color-shaded composition that we used for the original data:</p>
+<p>To check the results visually, we can make the same color-shaded composition that we used for the original data:</p>
 
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>r.colors map=srtm30m_north_dnoise@RAM raster=srtm30m_north@RAM
 
-
-
 r.relief --overwrite input=srtm30m_north_dnoise output=srtm30m_north_dnoise_shade_25_315_z5 altitude=25 azimuth=315 zscale=5
-
-
 
 d.shade shade=srtm30m_north_dnoise_shade_25_315_z5 color=srtm30m_north_dnoise
 </code></pre></div></div>
 
-<p>  [caption id=”attachment_1453” align=”alignnone” width=”600”]<img src="/blog/wp-content/uploads/2016/12/Screen-Shot-2016-12-06-at-11.34.36-1024x784.jpg" alt="screen-shot-2016-12-06-at-11-34-36" /> SRTM after denoising[/caption]   In GRASS we can use the <a rel="noopener noreferrer" target="_blank" href="https://grass.osgeo.org/grass70/manuals/g.gui.mapswipe.html">g.gui.mapswipe</a> module to interactively compares two maps by swiping a visibility bar. For this blog post, I used the <a rel="noopener noreferrer" target="_blank" href="https://wordpress.org/plugins/twenty20/">Twenty20</a> plugin to get the same effect: [twenty20 img1=”1454” img2=”1453” offset=”0.5”]   Some quick stats from <a rel="noopener noreferrer" target="_blank" href="https://grass.osgeo.org/grass70/manuals/r.info">r.info</a> will show us that the range of elevation values changed a bit:</p>
+<p><img src="/img/Screen-Shot-2016-12-06-at-11.34.36.jpg" alt="" width="70%" /><br />
+SRTM after denoising</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>GRASS 7.2.0svn (latlong):~ &gt; r.info srtm30m_north
+<p> 
+In GRASS we can use the <a rel="noopener noreferrer" target="_blank" href="https://grass.osgeo.org/grass70/manuals/g.gui.mapswipe.html">g.gui.mapswipe</a> module to interactively compares two maps by swiping a visibility bar.</p>
 
+<p>Some quick stats from <a rel="noopener noreferrer" target="_blank" href="https://grass.osgeo.org/grass70/manuals/r.info" target="_blank">r.info</a> will show us that the range of elevation values changed a bit:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>GRASS 7.2.0svn (latlong):~ &amp;gt; r.info srtm30m_north
+ +----------------------------------------------------------------------------+
+ | Map:      srtm30m_north                  Date: Wed Jan 14 14:32:07 2015    |
+ | Mapset:   RAM                            Login of Creator: guano           |
+ | Location: latlong                                                          |
+ | DataBase: /Volumes/MacintoshHD2/grassdata                                  |
+ | Title:    S01W063.SRTMGL1                                                  |
+ | Timestamp: none                                                            |
+ |----------------------------------------------------------------------------|
+ |                                                                            |
+ |   Type of Map:  raster               Number of Categories: 0               |
+ |   Data Type:    CELL                                                       |
+ |   Rows:         485                                                        |
+ |   Columns:      709                                                        |
+ |   Total Cells:  343865                                                     |
+ |        Projection: Latitude-Longitude                                      |
+ |            N:   0:05:53S    S:   0:13:58S   Res: 0:00:01                   |
+ |            E:  62:38:53W    W:  62:50:42W   Res: 0:00:01                   |
+ |   Range of data:    min = 8  max = 76                                      |
+ |                                                                            |
+ |   Data Description:                                                        |
+ |    generated by r.in.gdal                                                  |
+ |                                                                            |
+ |   Comments:                                                                |
+ |    r.in.gdal input="S01W063.SRTMGL1.bil" output="S01W063.SRTMGL1"          |
+ |    r.in.srtm "-1" "input=/Users/guano/Desktop/S01W063.SRTMGL1"             |
+ |                                                                            |
  +----------------------------------------------------------------------------+
 
- | Map:      srtm30m_north                  Date: Wed Jan 14 14:32:07 2015    |
-
+GRASS 7.2.0svn (latlong):~ &amp;gt; r.info srtm30m_north_dnoise
+ +----------------------------------------------------------------------------+
+ | Map:      srtm30m_north_dnoise           Date: Tue Dec  6 11:26:09 2016    |
  | Mapset:   RAM                            Login of Creator: guano           |
-
  | Location: latlong                                                          |
-
  | DataBase: /Volumes/MacintoshHD2/grassdata                                  |
-
- | Title:    S01W063.SRTMGL1                                                  |
-
+ | Title:    A denoised version of &lt;srtm30m_north@ram&gt;                        |
  | Timestamp: none                                                            |
-
  |----------------------------------------------------------------------------|
-
  |                                                                            |
-
  |   Type of Map:  raster               Number of Categories: 0               |
-
- |   Data Type:    CELL                                                       |
-
+ |   Data Type:    FCELL                                                      |
  |   Rows:         485                                                        |
-
  |   Columns:      709                                                        |
-
  |   Total Cells:  343865                                                     |
-
  |        Projection: Latitude-Longitude                                      |
-
  |            N:   0:05:53S    S:   0:13:58S   Res: 0:00:01                   |
-
  |            E:  62:38:53W    W:  62:50:42W   Res: 0:00:01                   |
-
- |   Range of data:    min = 8  max = 76                                      |
-
+ |   Range of data:    min = 20.5162  max = 73.88921                          |
  |                                                                            |
-
+ |   Data Source:                                                             |
+ |    tmp_xyz_merge_16395.xyz                                                 |
+ |                                                                            |
+ |                                                                            |
  |   Data Description:                                                        |
-
- |    generated by r.in.gdal                                                  |
-
+ |    generated by r.in.xyz                                                   |
  |                                                                            |
-
  |   Comments:                                                                |
-
- |    r.in.gdal input="S01W063.SRTMGL1.bil" output="S01W063.SRTMGL1"          |
-
- |    r.in.srtm "-1" "input=/Users/guano/Desktop/S01W063.SRTMGL1"             |
+ |    r.in.xyz --overwrite -i input="tmp_xyz_merge_16395.xyz" output="srtm\   |
+ |    30m_north_dnoise" method="min" type="FCELL" separator="space" x=1 y=\   |
+ |    2 z=3 skip=0 zscale=1.0 value_column=0 vscale=1.0 percent=100           |
+ |    Generated by: r.denoise srtm30m_north@RAM iterations=0.9 threshold=5    |
+ |                                                                            |
+ +----------------------------------------------------------------------------+
+&lt;/srtm30m_north@ram&gt;
 </code></pre></div></div>
+
+<p>We can also see those changes in the histograms. The curves have the same general shape, but the original data has wider range and larger cell count for the same elevations in the denoised raster.</p>
+
+<p><img src="/img/hist_srtm_orig.bmp" alt="" width="50%" /></p>
+
+<p><img src="/img/hist_srtm_dnoise.jpg" alt="" width="50%" /></p>
+
+<p> 
+<strong>References</strong></p>
+
+<p>Sun X, Rosin PL, Martin RR, Langbein FC (2007) Fast and Effective Feature-Preserving Mesh Denoising. IEEE Transactions on Visualisation and Computer Graphics, 13(5):925-938 <a rel="noopener noreferrer" target="_blank" href="http://dx.doi.org/10.1109/TVCG.2007.1065">http://dx.doi.org/10.1109/TVCG.2007.1065</a></p>
+
+<p>Stevenson JA, Sun X, Mitchell NC. (2009) Despeckling SRTM and other topographic data with a denoising algorithm. Geomorphology, 144:238-252. <a rel="noopener noreferrer" target="_blank" href="http://dx.doi.org/10.1016/j.geomorph.2009.07.006">http://dx.doi.org/10.1016/j.geomorph.2009.07.006</a></p>
+
+<p> 
+For further information on denoising DEMs, see: <a rel="noopener noreferrer" target="_blank" href="http://personalpages.manchester.ac.uk/staff/neil.mitchell/mdenoise/">Using Sun’s denoising algorithm on topographic data</a>.</p>
+
 
       </article>
 
+      
+        <div class="blog-tags">
+          Tags:
+          
+          
+            <a href="/tags#GIS">GIS</a>
+          
+            <a href="/tags#grass">grass</a>
+          
+            <a href="/tags#srtm">srtm</a>
+          
+            <a href="/tags#denoise">denoise</a>
+          
+          
+        </div>
       
 
       
@@ -619,7 +670,21 @@ d.shade shade=srtm30m_north_dnoise_shade_25_315_z5 color=srtm30m_north_dnoise
 
       
         <div class="disqus-comments">
-          
+          <div class="comments">
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        var disqus_shortname = 'CarlosGrohmann';
+        /* ensure that pages with query string get the same discussion */
+            var url_parts = window.location.href.split("?");
+            var disqus_url = url_parts[0];
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a rel="noopener noreferrer" target="_blank" href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
         </div>
           
         <div class="staticman-comments">

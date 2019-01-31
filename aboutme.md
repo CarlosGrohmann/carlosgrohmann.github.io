@@ -42,7 +42,7 @@ You can find me at:
 &nbsp;  
 &nbsp; 
 I deleted my account at Academia.edu  
-(why? see [here)
+(why? see [here](/2017-01-24-i-deleted-my-account-at-academia-edu/))
 
 
 

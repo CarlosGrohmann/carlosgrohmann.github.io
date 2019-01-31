@@ -19,6 +19,19 @@
   
 
   
+<!-- Google Analytics -->
+<script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-39493509-1', 'auto');
+    ga('send', 'pageview');
+</script>
+<!-- End Google Analytics -->
+
 
 
   
@@ -294,6 +307,21 @@
 
 
   
+  <a href="/archive">Archive</a>
+
+
+
+
+                
+              
+                
+                  
+
+
+
+
+
+  
   <a href="/tags">Tags</a>
 
 
@@ -387,7 +415,7 @@ Preprint available at EarthArXiv: [https://doi.org/10.31223/osf.io/t6y2e](https:
  -->
 
 <p><a name="bjgeo"></a>
-33 - Viana, C.D.; Grohmann, C.H.; Busarello, M.T.S.; Garcia, G.P.B., 2019. Structural analysis of clastic dikes using Structure from Motion - Multi-View Stereo: a case-study in the Paraná Basin, southeastern Brazil.<br />
+33 - Viana, C.D.; Grohmann, C.H.; Busarello, M.T.S.; Garcia, G.P.B., 2018. Structural analysis of clastic dikes using Structure from Motion - Multi-View Stereo: a case-study in the Paraná Basin, southeastern Brazil.<br />
 <em>Brazilian Journal of Geology</em>, 48(4):839-852.<br />
 <a rel="noopener noreferrer" target="_blank" href="https://doi.org/10.1590/2317-4889201800201898">https://doi.org/10.1590/2317-4889201800201898</a> (open access)</p>
 
@@ -693,7 +721,7 @@ Example data: follow links in text.</p>
 
 <p>Introdução à Análise Digital de Terreno com GRASS-GIS (2008)<br />
 <a rel="noopener noreferrer" target="_blank" href="http://dx.doi.org/10.6084/m9.figshare.1004167">http://dx.doi.org/10.6084/m9.figshare.1004167</a> – (via figshare, 11 Mb, updated 18/Jan/2008)<br />
-Dados de exemplo: SRTM (.bil) | SRTM (.tif) | SRTM (.hgt) | shapefile</p>
+Dados de exemplo: <a href="/downloads/srtm/srtm_tutorial_bil.zip">SRTM (.bil)</a> | <a href="/downloads/srtm/srtm_tutorial_tif.zip">SRTM (.tif)</a> | <a href="/downloads/srtm/S21W044.hgt.zip">SRTM (.hgt)</a> | <a href="/downloads/srtm/srtm_tutorial_shape.zip">shapefile</a></p>
 
 <h3 id="add-ons">Add-ons</h3>
 <p><a rel="noopener noreferrer" target="_blank" href="https://github.com/CarlosGrohmann/grass_gis/tree/master/r_denoise_py">r.denoise.py</a> – is a port of <a rel="noopener noreferrer" target="_blank" href="http://trac.osgeo.org/grass/browser/grass-addons/grass6/raster/r.denoise/description.html">r.denoise</a> from bash to python. Originally written by John Stevenson, its purpose is to remove noise (smooth/despeckle) from topographic data, particular DEMs derived from radar data (including SRTM), using Xianfang Sun’s <a rel="noopener noreferrer" target="_blank" href="http://www.cs.cf.ac.uk/meshfiltering/index_files/Page342.htm">denoising algorithm</a>. It is designed to preserve sharp edges and to denoise with minimal changes to the original data.</p>
@@ -705,7 +733,7 @@ Resulting maps are: Vector Strength (R) and Inverted Fisher’s k parameter. Thi
 
 <p>(old) <a rel="noopener noreferrer" target="_blank" href="https://github.com/CarlosGrohmann/grass_gis/blob/master/r_roughness_old/r.roughness60">r.roughness60</a> – for GRASS-GIS versions 6.0.x.</p>
 
-<p>(old) <a rel="noopener noreferrer" target="_blank" href="http://carlosgrohmann.com/downloads/azimuth2.c">azimuth.c</a> – is a small C program to calculate the azimuth and length of vector lines exported by GRASS-GIS as ASCII files. It is useful for create rose diagrams of lineament maps.
+<p>(old) <a href="/downloads/azimuth2.c">azimuth.c</a> – is a small C program to calculate the azimuth and length of vector lines exported by GRASS-GIS as ASCII files. It is useful for create rose diagrams of lineament maps.
 Improvements on the original code after suggestions by Örs Téglásy, Hungary.</p>
 
 <p>See all <a rel="noopener noreferrer" target="_blank" href="http://grass.osgeo.org/download/addons/">GRASS AddOns</a></p>

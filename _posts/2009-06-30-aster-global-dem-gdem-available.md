@@ -19,5 +19,5 @@ see <http://www.gdem.aster.ersdac.or.jp/>  or LP DAAC [https://wist.echo.nasa.go
 
 Since a large traffic is expected in the first days, restrictions of 100 tiles apply and only 16 connections at the same time are allowed.  
 
-![](http://www.ersdac.or.jp/GDEM/E/image/5.jpg)  
+![](http://www.ersdac.or.jp/GDEM/E/image/5.jpg){:width="70%"}   
 Concept of ASTER G-DEM development (credit: METI/NASA)

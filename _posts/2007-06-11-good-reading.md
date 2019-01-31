@@ -11,7 +11,7 @@ published: true
 
 Isso é que leitura de qualidade! E tenho dito.  
 
-![](/img/london_drinker.jpg)
+![](/img/london_drinker.jpg){:width="70%"} 
 
 
 

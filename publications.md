@@ -21,7 +21,7 @@ Preprint available at EarthArXiv: [https://doi.org/10.31223/osf.io/t6y2e](https:
  -->
 
 <a name="bjgeo"></a>
-33 - Viana, C.D.; Grohmann, C.H.; Busarello, M.T.S.; Garcia, G.P.B., 2019. Structural analysis of clastic dikes using Structure from Motion - Multi-View Stereo: a case-study in the Paraná Basin, southeastern Brazil.  
+33 - Viana, C.D.; Grohmann, C.H.; Busarello, M.T.S.; Garcia, G.P.B., 2018. Structural analysis of clastic dikes using Structure from Motion - Multi-View Stereo: a case-study in the Paraná Basin, southeastern Brazil.  
 _Brazilian Journal of Geology_, 48(4):839-852.  
 [https://doi.org/10.1590/2317-4889201800201898](https://doi.org/10.1590/2317-4889201800201898) (open access)  
 
@@ -332,7 +332,7 @@ Example data: follow links in text.
 
 Introdução à Análise Digital de Terreno com GRASS-GIS (2008)  
 [http://dx.doi.org/10.6084/m9.figshare.1004167](http://dx.doi.org/10.6084/m9.figshare.1004167) – (via figshare, 11 Mb, updated 18/Jan/2008)  
-Dados de exemplo: SRTM (.bil) | SRTM (.tif) | SRTM (.hgt) | shapefile  
+Dados de exemplo: [SRTM (.bil)](/downloads/srtm/srtm_tutorial_bil.zip) \| [SRTM (.tif)](/downloads/srtm/srtm_tutorial_tif.zip) \| [SRTM (.hgt)](/downloads/srtm/S21W044.hgt.zip) \| [shapefile](/downloads/srtm/srtm_tutorial_shape.zip)    
 
 
 ### Add-ons  
@@ -345,7 +345,7 @@ Resulting maps are: Vector Strength (R) and Inverted Fisher’s k parameter. Thi
 
 (old) [r.roughness60](https://github.com/CarlosGrohmann/grass_gis/blob/master/r_roughness_old/r.roughness60) – for GRASS-GIS versions 6.0.x.  
 
-(old) [azimuth.c](http://carlosgrohmann.com/downloads/azimuth2.c) – is a small C program to calculate the azimuth and length of vector lines exported by GRASS-GIS as ASCII files. It is useful for create rose diagrams of lineament maps.
+(old) [azimuth.c](/downloads/azimuth2.c) – is a small C program to calculate the azimuth and length of vector lines exported by GRASS-GIS as ASCII files. It is useful for create rose diagrams of lineament maps.
 Improvements on the original code after suggestions by Örs Téglásy, Hungary.  
 
 See all [GRASS AddOns](http://grass.osgeo.org/download/addons/)  

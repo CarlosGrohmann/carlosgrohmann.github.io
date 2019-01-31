@@ -20,20 +20,20 @@ A minha intenção é testar o material para ser usado em mapeamentos de caverna
 
 3 - Testes O primeiro teste que fiz foi com o material seco, usando caneta esferográfica e lapiseiras 0.5mm e 0.7mm, com grafite HB e B:  
 
-![](/img/teste1.jpg)  
+![](/img/teste1.jpg){:width="70%"}   
 Dá pra ver que é melhor escrever com grafite macio, de preferência B ou 2B.  
 
 Depois eu coloquei a folha dentro d'água:  
 
-![](/img/teste2.jpg)  
+![](/img/teste2.jpg){:width="70%"}   
 
 Vejam que a caneta não borra (talvez um pouco, mas nem dá pra notar), o material não fica transparente (como acontece com o poliéster) e também não há marcas de infiltração nas bordas do papel (como com o Rite in the Rain) Depois de retirado da água, o TYVEK seca absurdamente rápido, se você passar um pano por cima, é praticamente instantâneo. Lavou, tá novo. O material também não muda depois de molhado, ou seja, não fica ensopado, não muda de textura, nada, fica igual antes de molhar.  
 
 Um último teste, apagar o que foi escrito. Na minha opinião, apesar do papel da Rite in the Rain ser bom e muito conhecido, o grande problema é apagar alguma coisa que você escreveu com lápis. Simplesmente fica uma desgraça, tudo borrado, se estiver molhado então... Vejamos o que aconteceu:  
 
-![](/img/teste3.jpg)  
+![](/img/teste3.jpg){:width="70%"}   
 
-![](/img/teste4.jpg)  
+![](/img/teste4.jpg){:width="70%"}   
 
 Pois é, o trem é bão mesmo. Dá pra apagar numa boa, inclusive de baixo d'água. Não borra, não deixa marca. Em resumo: VALE A PENA! Claro que tudo tem seus prós e contras: As folhas (pelo menos as de 100gsm) não podem ser usadas em impressoras Laser (em jato de tinta deve funcionar, mas acho que a tinta deve borrar quando molhada) e a folha vem em branco, sem linhas ou quadriculado que tanto nos ajudam na hora de desenhar os mapas das cavernas. Talvez uma gramatura maior já possa ser impressa, aí fica fácil.
 

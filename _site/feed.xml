@@ -33,7 +33,9 @@
         <title>I deleted my account at Academia.edu</title>
         <description>
           
-          I decided to delete my account at Academia.edu after reading Sarah Bond’s article in Forbes and Ethan Gruber’s post. I’m thinking about hosting the PDFs of my papers and other documents with Zenodo or figshare (I already have some docs there). 
+          I decided to delete my account at Academia.edu after reading Sarah Bond’s article in Forbes and Ethan Gruber’s post.
+
+I’m thinking about hosting the PDFs of my papers and other documents with Zenodo or figshare (I already have some docs there). 
 
         </description>
         <pubDate>Wed, 25 Jan 2017 00:00:00 +0000</pubDate>
@@ -89,7 +91,7 @@
         <title>SRTM - erros frequentes e como evitá-los</title>
         <description>
           
-          O modelos de elevação SRTM são muito utilizados aqui no Brasil, já que não temos uma cobertura de mapas topográficos em escala decente (1:50.000 ou melhor) da maior parte de nosso território. Porém, tenho notado quatro erros muito frequentes nos artigos e monografias (TCCs, dissertações e teses) que vou comentar...
+          Os modelos de elevação SRTM são muito utilizados aqui no Brasil, já que não temos uma cobertura de mapas topográficos em escala decente (1:50.000 ou melhor) da maior parte de nosso território. Porém, tenho notado quatro erros muito frequentes nos artigos e monografias (TCCs, dissertações e teses) que vou comentar...
         </description>
         <pubDate>Sun, 01 May 2016 00:00:00 +0000</pubDate>
         <link>http://localhost:4000/http:/carlosgrohmann.com/srtm-erros-frequentes-e-como-evita-los/</link>
@@ -155,7 +157,7 @@
         <title>Curso de Espeleo Resgate - Mambaí, GO</title>
         <description>
           
-          Entre 06 e 13 de setembro deste ano (2015, caso você esteja lendo do futuro) ocorreu mais uma edição do Curso de Formação em Espeleo Resgate, em parceira com o Espeleo Socorro Francês (SSF - Spéléo Secours Français). O curso foi organizado (e muito bem organizado) pelos nossos amigos do...
+          Entre 06 e 13 de setembro deste ano (2015, caso você esteja lendo do futuro) ocorreu mais uma edição do Curso de Formação em Espeleo Resgate, em parceira com o Espeleo Socorro Francês SSF - Spéléo Secours Français. O curso foi organizado (e muito bem organizado) pelos nossos amigos do...
         </description>
         <pubDate>Mon, 28 Sep 2015 00:00:00 +0000</pubDate>
         <link>http://localhost:4000/http:/carlosgrohmann.com/espeleo-resgate-mambai/</link>
@@ -177,7 +179,7 @@
         <title>Making a &quot;where I've been&quot; map with Leaflet</title>
         <description>
           
-          In my website I have a map of some (most? all?) of the places I’ve been (here). When I first started with this idea (in 2011, I guess), I used GoogleMaps API and all the points of the map had to be defined in the HTML file, which was very...
+          In my website I have a map of some (most? all?) of the places I’ve been here. When I first started with this idea (in 2011, I guess), I used GoogleMaps API and all the points of the map had to be defined in the HTML file, which was very...
         </description>
         <pubDate>Tue, 27 May 2014 00:00:00 +0000</pubDate>
         <link>http://localhost:4000/http:/carlosgrohmann.com/making-a-where-ive-been-map-with-leaflet/</link>
@@ -188,7 +190,7 @@
         <title>Gsa2014 Call For Abstracts Geological And Geomorphological Applications Of Digital Terrain Analysis</title>
         <description>
           
-          Geological Society of America Annual Meeting  Vancouver, B.C, Canada, 19-22 October 2014 http://community.geosociety.org/gsa2014/home/   Topical Session T128. Geological and Geomorphological Applications of Digital Terrain Analysis Carlos Henrique Grohmann, Christopher J. Crosby, Edwin Nissen Abstracts submission deadline: 29 July  http://www.geosociety.org/meetings/2014/sessions/topical.asp Monitoring and quantification of rates of geomorphic processes requires repeated acquisition...
+          Geological Society of America Annual Meeting  Vancouver, B.C, Canada, 19-22 October 2014 http://community.geosociety.org/gsa2014/home/   Topical Session T128. Geological and Geomorphological Applications of Digital Terrain Analysis Carlos Henrique Grohmann, Christopher J. Crosby, Edwin Nissen Abstracts submission deadline: 29 July  Monitoring and quantification of rates of geomorphic processes requires repeated acquisition of...
         </description>
         <pubDate>Tue, 06 May 2014 00:00:00 +0000</pubDate>
         <link>http://localhost:4000/http:/carlosgrohmann.com/gsa2014-call-for-abstracts-geological-and-geomorphological-applications-of-digital-terrain-analysis/</link>
@@ -210,7 +212,11 @@
         <title>Correio!</title>
         <description>
           
-          Hoje tinha uma surpresa na caixa de correio! Na verdade estava lá faz tempo, mas como eu quase nunca abro a tal caixinha, só hoje que fui ver o cartão de natal que o Iscoti mandou, junto com um chaveiro muito legal. Olha só:    Valeu Iscoti!
+          Hoje tinha uma surpresa na caixa de correio! Na verdade estava lá faz tempo, mas como eu quase nunca abro a tal caixinha, só hoje que fui ver o cartão de natal que o Iscoti mandou, junto com um chaveiro muito legal. Olha só:  
+
+
+
+Valeu Iscoti!
 
         </description>
         <pubDate>Wed, 22 Jan 2014 00:00:00 +0000</pubDate>

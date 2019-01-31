@@ -3,6 +3,18 @@ layout: page
 title: Welcome
 subtitle: 
 published: true
+bigimg:
+  - "/img/bigimg/amazon1.jpg" : "Amazon River"
+  - "/img/bigimg/bergen.jpg" : "Bergen, Norway"
+  - "/img/bigimg/dartmoor.jpg" : "Dartmoor National Park, England"
+  - "/img/bigimg/diabo_captura_nuvem_super.jpg" : "Devil's Cave (Brazil), LiDAR point cloud"
+  - "/img/bigimg/folds1.jpg" : "Falkland Islands"
+  - "/img/bigimg/IMG_1969_small.jpg" : "Aracá Range, Amazonia, Brazil"
+  - "/img/bigimg/jalapao.jpg" : "Jalapão National Park, Brazil"
+  - "/img/bigimg/klagenfurt.jpg" : "Klagenfurt, Austria"
+  - "/img/bigimg/IMG_2133_small.jpg" : "Aracá Range, Amazonia, Brazil"
+  - "/img/bigimg/quarry.jpg" : "Falkland Islands"
+  - "/img/bigimg/wall.jpg" : "Great Wall, China"
 ---
 
 <!-- ### Welcome -->

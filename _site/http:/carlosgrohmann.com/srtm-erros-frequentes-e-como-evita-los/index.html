@@ -19,6 +19,19 @@
   
 
   
+<!-- Google Analytics -->
+<script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-39493509-1', 'auto');
+    ga('send', 'pageview');
+</script>
+<!-- End Google Analytics -->
+
 
 
   
@@ -62,7 +75,7 @@
   
 
    
-  <meta property="og:description" content="O modelos de elevação SRTM são muito utilizados aqui no Brasil, já que não temos uma cobertura de mapas topográficos em escala decente (1:50.000 ou melhor) da maior parte de nosso território. Porém, tenho notado quatro erros muito frequentes nos artigos e monografias (TCCs, dissertações e teses) que vou comentar...">
+  <meta property="og:description" content="Os modelos de elevação SRTM são muito utilizados aqui no Brasil, já que não temos uma cobertura de mapas topográficos em escala decente (1:50.000 ou melhor) da maior parte de nosso território. Porém, tenho notado quatro erros muito frequentes nos artigos e monografias (TCCs, dissertações e teses) que vou comentar...">
   
 
 
@@ -88,7 +101,7 @@
   
 
   
-  <meta name="twitter:description" content="O modelos de elevação SRTM são muito utilizados aqui no Brasil, já que não temos uma cobertura de mapas topográficos em escala decente (1:50.000 ou melhor) da maior parte de nosso território. Porém, tenho notado quatro erros muito frequentes nos artigos e monografias (TCCs, dissertações e teses) que vou comentar...">
+  <meta name="twitter:description" content="Os modelos de elevação SRTM são muito utilizados aqui no Brasil, já que não temos uma cobertura de mapas topográficos em escala decente (1:50.000 ou melhor) da maior parte de nosso território. Porém, tenho notado quatro erros muito frequentes nos artigos e monografias (TCCs, dissertações e teses) que vou comentar...">
   
 
   
@@ -294,6 +307,21 @@
 
 
   
+  <a href="/archive">Archive</a>
+
+
+
+
+                
+              
+                
+                  
+
+
+
+
+
+  
   <a href="/tags">Tags</a>
 
 
@@ -376,10 +404,59 @@
       
 
       <article role="main" class="blog-post">
-        <p>O modelos de elevação SRTM são muito utilizados aqui no Brasil, já que não temos uma cobertura de mapas topográficos em escala decente (1:50.000 ou melhor) da maior parte de nosso território. Porém, tenho notado quatro erros muito frequentes nos artigos e monografias (TCCs, dissertações e teses) que vou comentar a seguir. O primeiro é com relação à citação do SRTM. Com tantos artigos que falam sobre o SRTM, é compreensível que surja uma dúvida sobre qual usar para citar os dados. A melhor citação para o SRTM é esta aqui: Farr, T.G., Rosen, P.A., Caro, E., Crippen, R., Duren, R., Hensley, S., Kobrick, M., Paller, M., Rodriguez, E., Roth, L., Seal, D., Shaffer, S., Shimada, J., Umland, J., Werner, M., Oskin, M., Burbank, D., &amp; Alsdorf, D., 2007. The Shuttle Radar Topography Mission. <em>Review of Geophysics</em>, 45:RG2004. DOI: <a rel="noopener noreferrer" target="_blank" href="https://dx.doi.org/10.1029%2F2005RG000183">https://dx.doi.org/10.1029%2F2005RG000183</a> Esse artigo traz uma descrição bastante completa da missão SRTM, dos sistemas de radar, etc. O segundo ponto é sobre o acrônimo SRTM, que significa <strong>S</strong>huttle <strong>R</strong>adar <strong>T</strong>opography <strong>M</strong>ission. Notem que o “T” é de Topograph<strong>y</strong> e não de Topogra<strong>phic</strong>, como tenho visto em muitos artigos e teses. O terceiro ponto é um pouco mais conceitual. Vejo muitos textos dizendo que “os modelos de elevação foram construídos com dados SRTM”, ou algo nessa linha. O problema aqui é que os dados SRTM <strong>já são</strong> modelos de elevação. Para construir os modelos de elevação com dados SRTM, seria necessário ter acesso aos dados brutos de radar, fazer o processamento da interferometria, etc. Então é melhor dizer que “foram utilizados dados de elevação SRTM (Farr et al., 2007)”. O último ponto é sobre o que os dados SRTM representam. Por terem sido gerados com interferometria de radar das bandas C e X (vejam lá os detalhes no artigo do Tom Farr), os valores de elevação só representam o terreno em espaços abertos. Em áreas com vegetação, as ondas de radar (nesses comprimentos de onda) não penetram no dossel das árvores, então a elevação do SRTM é a de uma superfície que passa perto do topo do dossel. Desse modo, não é correto dizer que o SRTM seja um Modelo Digital de Terreno (MDT), mas sim um Modelo Digital de <strong>Elevação</strong> (MDE) ou de <strong>Superfície</strong> (MDS). A figura abaixo mostra a relação entre Modelos Digitais de Superfície e de Terreno para uma área no norte da Amazônia e deve ilustrar bem a diferença entre os dois. [caption id=”attachment_1322” align=”alignnone” width=”600”]<img src="/blog/wp-content/uploads/2016/05/profiles_600dpi-1024x438.png" alt="profiles_600dpi" /> Perfis topográficos de dados SRTM, ASTER GDEM e Radiografia da Amazônia (Grohmann, 2015).[/caption]   É isso. Espero que este post ajude um pouco a sanar essas dúvidas comuns. <strong>Referência</strong> Grohmann, C.H., 2015. ‘Radiography of the Amazon’ DSM/DTM data: comparative analysis with SRTM, ASTER GDEM. Geomorphometry 2015, Poznam, Poland. Proceedings. <a rel="noopener noreferrer" target="_blank" href="http://carlosgrohmann.com/downloads/Grohmann_2015_geomorphometry_RAM_DTM_DSM.pdf">PDF disponível aqui</a></p>
+        <p>Os modelos de elevação SRTM são muito utilizados aqui no Brasil, já que não temos uma cobertura de mapas topográficos em escala decente (1:50.000 ou melhor) da maior parte de nosso território.</p>
+
+<p>Porém, tenho notado quatro erros muito frequentes nos artigos e monografias (TCCs, dissertações e teses) que vou comentar a seguir.</p>
+
+<p>O primeiro é com relação à citação do SRTM. Com tantos artigos que falam sobre o SRTM, é compreensível que surja uma dúvida sobre qual usar para citar os dados.</p>
+
+<p>A melhor citação para o SRTM é esta aqui:</p>
+
+<p>Farr, T.G., Rosen, P.A., Caro, E., Crippen, R., Duren, R., Hensley, S., Kobrick, M., Paller, M., Rodriguez, E., Roth, L., Seal, D., Shaffer, S., Shimada, J., Umland, J., Werner, M., Oskin, M., Burbank, D., &amp; Alsdorf, D., 2007. The Shuttle Radar Topography Mission. <em>Review of Geophysics</em>, 45:RG2004. DOI: <a rel="noopener noreferrer" target="_blank" href="https://dx.doi.org/10.1029%2F2005RG000183">https://dx.doi.org/10.1029%2F2005RG000183</a></p>
+
+<p>Esse artigo traz uma descrição bastante completa da missão SRTM, dos sistemas de radar, etc.</p>
+
+<p>O segundo ponto é sobre o acrônimo SRTM, que significa <strong>S</strong>huttle <strong>R</strong>adar <strong>T</strong>opography <strong>M</strong>ission. Notem que o “T” é de Topograph<strong>y</strong> e não de Topogra<strong>phic</strong>, como tenho visto em muitos artigos e teses.</p>
+
+<p>O terceiro ponto é um pouco mais conceitual. Vejo muitos textos dizendo que “os modelos de elevação foram construídos com dados SRTM”, ou algo nessa linha. O problema aqui é que os dados SRTM <strong>já são</strong> modelos de elevação. Para construir os modelos de elevação com dados SRTM, seria necessário ter acesso aos dados brutos de radar, fazer o processamento da interferometria, etc. Então é melhor dizer que “foram utilizados dados de elevação SRTM (Farr et al., 2007)”.</p>
+
+<p>O último ponto é sobre o que os dados SRTM representam. Por terem sido gerados com interferometria de radar das bandas C e X (vejam lá os detalhes no artigo do Tom Farr), os valores de elevação só representam o terreno em espaços abertos. Em áreas com vegetação, as ondas de radar (nesses comprimentos de onda) não penetram no dossel das árvores, então a elevação do SRTM é a de uma superfície que passa perto do topo do dossel. Desse modo, não é correto dizer que o SRTM seja um Modelo Digital de Terreno (MDT), mas sim um Modelo Digital de <strong>Elevação</strong> (MDE) ou de <strong>Superfície</strong> (MDS).</p>
+
+<p>A figura abaixo mostra a relação entre Modelos Digitais de Superfície e de Terreno para uma área no norte da Amazônia e deve ilustrar bem a diferença entre os dois.</p>
+
+<p><img src="/img/profiles_600dpi.png" alt="" />   <br />
+Perfis topográficos de dados SRTM, ASTER GDEM e Radiografia da Amazônia (Grohmann, 2015).</p>
+
+<p> </p>
+
+<p>É isso. Espero que este post ajude um pouco a sanar essas dúvidas comuns.</p>
+
+<p><strong>Referência</strong>
+Grohmann, C.H., 2015. ‘Radiography of the Amazon’ DSM/DTM data: comparative analysis with SRTM, ASTER GDEM.
+Geomorphometry 2015, Poznam, Poland. Proceedings. <a rel="noopener noreferrer" target="_blank" href="http://geomorphometry.org/system/files/Grohmann2015geomorphometry.pdf">PDF disponível aqui</a></p>
+
 
       </article>
 
+      
+        <div class="blog-tags">
+          Tags:
+          
+          
+            <a href="/tags#dem">dem</a>
+          
+            <a href="/tags#amazonia">amazonia</a>
+          
+            <a href="/tags#army">army</a>
+          
+            <a href="/tags#ram">ram</a>
+          
+            <a href="/tags#insar">insar</a>
+          
+            <a href="/tags#srtm">srtm</a>
+          
+          
+        </div>
       
 
       
@@ -441,7 +518,21 @@
 
       
         <div class="disqus-comments">
-          
+          <div class="comments">
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        var disqus_shortname = 'CarlosGrohmann';
+        /* ensure that pages with query string get the same discussion */
+            var url_parts = window.location.href.split("?");
+            var disqus_url = url_parts[0];
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a rel="noopener noreferrer" target="_blank" href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
         </div>
           
         <div class="staticman-comments">
