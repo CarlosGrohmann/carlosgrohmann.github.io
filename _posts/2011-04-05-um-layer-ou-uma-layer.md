@@ -5,7 +5,7 @@ author: CarlosGrohmann
 date: 2011-04-05
 categories: 
 tags: GIS twitter
-permalink: http://carlosgrohmann.com/um-layer-ou-uma-layer/
+permalink: /blog/um-layer-ou-uma-layer/
 published: true
 ---
 

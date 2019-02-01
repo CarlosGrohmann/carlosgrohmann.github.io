@@ -5,7 +5,7 @@ author: CarlosGrohmann
 date: 2011-01-12
 categories: 
 tags: linux garmin
-permalink: http://carlosgrohmann.com/fixing-problems-with-usb-garmin-gps-on-ubuntu-corrigindo-problemas-com-gps-garmin-usb-no-ubuntu/
+permalink: /blog/fixing-problems-with-usb-garmin-gps-on-ubuntu-corrigindo-problemas-com-gps-garmin-usb-no-ubuntu/
 published: true
 ---
 

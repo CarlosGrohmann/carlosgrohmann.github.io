@@ -5,7 +5,7 @@ author: CarlosGrohmann
 date: 2016-05-13
 categories: 
 tags: osx mac install remote-sensing
-permalink: http://carlosgrohmann.com/installing-orfeo-toolbox-and-monteverdi-on-osx/
+permalink: /blog/installing-orfeo-toolbox-and-monteverdi-on-osx/
 published: true
 ---
 

@@ -5,7 +5,7 @@ author: CarlosGrohmann
 date: 2009-09-05
 categories: 
 tags: geomorphometry conference meeting switzerland
-permalink: http://carlosgrohmann.com/geomorphometry-2009/
+permalink: /blog/geomorphometry-2009/
 published: true
 ---
 

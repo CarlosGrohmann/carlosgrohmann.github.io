@@ -5,7 +5,7 @@ author: CarlosGrohmann
 date: 2007-06-01
 categories: uk phd kingston
 tags: uk phd kingston pub footbal
-permalink: http://carlosgrohmann.com/england-1-x-1-brazil/
+permalink: /blog/england-1-x-1-brazil/
 published: true
 ---
 

@@ -5,7 +5,7 @@ author: CarlosGrohmann
 date: 2012-07-10
 categories: 
 tags: photo remote-sensing teaching 
-permalink: http://carlosgrohmann.com/satelite-faz-foto/
+permalink: /blog/satelite-faz-foto/
 published: true
 ---
 

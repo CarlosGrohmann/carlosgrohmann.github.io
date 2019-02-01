@@ -5,7 +5,7 @@ author: CarlosGrohmann
 date: 2014-05-27
 categories: 
 tags: map javascript html json mapbox 
-permalink: http://carlosgrohmann.com/making-a-where-ive-been-map-with-leaflet/
+permalink: /blog/making-a-where-ive-been-map-with-leaflet/
 published: true
 ---
 

@@ -5,7 +5,7 @@ author: CarlosGrohmann
 date: 2016-02-05
 categories: 
 tags: speleo rescue secours acidente bambui
-permalink: http://carlosgrohmann.com/acidente-ezio/
+permalink: /blog/acidente-ezio/
 published: true
 ---
 

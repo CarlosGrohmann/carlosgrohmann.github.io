@@ -5,7 +5,7 @@ author: CarlosGrohmann
 date: 2009-06-24
 categories: 
 tags: science nasa moon 
-permalink: http://carlosgrohmann.com/nasa-lunar-mission-successfully-enters-moon-orbit/
+permalink: /blog/nasa-lunar-mission-successfully-enters-moon-orbit/
 published: true
 ---
 

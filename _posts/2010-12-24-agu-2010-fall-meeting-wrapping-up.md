@@ -5,7 +5,7 @@ author: CarlosGrohmann
 date: 2010-12-24
 categories: 
 tags: conference meeting agu san-francisco USA
-permalink: http://carlosgrohmann.com/agu-2010-fall-meeting-wrapping-up/
+permalink: /blog/agu-2010-fall-meeting-wrapping-up/
 published: true
 ---
 

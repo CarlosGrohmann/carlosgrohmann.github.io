@@ -5,7 +5,7 @@ author: CarlosGrohmann
 date: 2016-05-01
 categories: 
 tags: dem amazonia army ram insar srtm 
-permalink: http://carlosgrohmann.com/srtm-erros-frequentes-e-como-evita-los/
+permalink: /blog/srtm-erros-frequentes-e-como-evita-los/
 published: true
 ---
 

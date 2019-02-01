@@ -5,7 +5,7 @@ author: CarlosGrohmann
 date: 2010-01-29
 categories: 
 tags: scale universe science cell
-permalink: http://carlosgrohmann.com/the-scale-of-everything/
+permalink: /blog/the-scale-of-everything/
 published: true
 ---
 

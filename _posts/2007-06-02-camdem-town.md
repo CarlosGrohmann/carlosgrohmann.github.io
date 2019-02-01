@@ -5,7 +5,7 @@ author: CarlosGrohmann
 date: 2007-06-02
 categories: uk phd london
 tags: uk phd london camdem
-permalink: http://carlosgrohmann.com/camdem-town/
+permalink: /blog/camdem-town/
 published: true
 ---
 

@@ -5,7 +5,7 @@ author: CarlosGrohmann
 date: 2009-12-01
 categories: 
 tags: humor peer-review downfall
-permalink: http://carlosgrohmann.com/peer-review-process/
+permalink: /blog/peer-review-process/
 published: true
 ---
 

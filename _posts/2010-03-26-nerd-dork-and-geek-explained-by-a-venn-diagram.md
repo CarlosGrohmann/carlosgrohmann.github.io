@@ -5,7 +5,7 @@ author: CarlosGrohmann
 date: 2010-03-26
 categories: 
 tags: humor nerd geek dork
-permalink: http://carlosgrohmann.com/nerd-dork-and-geek-explained-by-a-venn-diagram/
+permalink: /blog/nerd-dork-and-geek-explained-by-a-venn-diagram/
 published: true
 ---
 

@@ -5,7 +5,7 @@ author: CarlosGrohmann
 date: 2009-07-06
 categories: 
 tags: alien humor
-permalink: http://carlosgrohmann.com/galactic-observer/
+permalink: /blog/galactic-observer/
 published: true
 ---
 

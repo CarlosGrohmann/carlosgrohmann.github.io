@@ -5,7 +5,7 @@ author: CarlosGrohmann
 date: 2009-06-30
 categories: 
 tags: science dem aster gdem 
-permalink: http://carlosgrohmann.com/aster-global-dem-gdem-available/
+permalink: /blog/aster-global-dem-gdem-available/
 published: true
 ---
 

@@ -5,7 +5,7 @@ author: CarlosGrohmann
 date: 2009-09-19
 categories: 
 tags: humor starwars deathstar conspiracy stormtrooper
-permalink: http://carlosgrohmann.com/remembering-the-death-star/
+permalink: /blog/remembering-the-death-star/
 published: true
 ---
 

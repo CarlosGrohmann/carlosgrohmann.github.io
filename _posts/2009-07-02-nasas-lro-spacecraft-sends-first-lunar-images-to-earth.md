@@ -5,7 +5,7 @@ author: CarlosGrohmann
 date: 2009-07-02
 categories: 
 tags: science nasa moon 
-permalink: http://carlosgrohmann.com/nasas-lro-spacecraft-sends-first-lunar-images-to-earth/
+permalink: /blog/nasas-lro-spacecraft-sends-first-lunar-images-to-earth/
 published: true
 ---
 

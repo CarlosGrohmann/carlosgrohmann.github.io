@@ -5,7 +5,7 @@ author: CarlosGrohmann
 date: 2009-09-10
 categories: 
 tags: moon baloon science
-permalink: http://carlosgrohmann.com/balloon-to-the-moon/
+permalink: /blog/balloon-to-the-moon/
 published: true
 ---
 

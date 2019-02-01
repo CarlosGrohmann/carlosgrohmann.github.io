@@ -5,7 +5,7 @@ author: CarlosGrohmann
 date: 2007-07-13
 categories: uk phd london starwars
 tags: uk phd london starwars jedi nerd
-permalink: http://carlosgrohmann.com/may-the-force-be-with-you/
+permalink: /blog/may-the-force-be-with-you/
 published: true
 ---
 

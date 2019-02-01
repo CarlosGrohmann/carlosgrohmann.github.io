@@ -5,7 +5,7 @@ author: CarlosGrohmann
 date: 2009-07-02
 categories: 
 tags: science dem aster gdem tutorial
-permalink: http://carlosgrohmann.com/aster-gdem-download-tutorial/
+permalink: /blog/aster-gdem-download-tutorial/
 published: true
 ---
 

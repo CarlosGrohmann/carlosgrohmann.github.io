@@ -5,7 +5,7 @@ author: CarlosGrohmann
 date: 2009-08-26
 categories: 
 tags: science humor technology gadget
-permalink: http://carlosgrohmann.com/because-we-all-love-gadgets/
+permalink: /blog/because-we-all-love-gadgets/
 published: true
 ---
 

@@ -5,7 +5,7 @@ author: CarlosGrohmann
 date: 2015-12-25
 categories: 
 tags: SIG grass osx mac python homebrew install 
-permalink: http://carlosgrohmann.com/grass-brew-python-osx/
+permalink: /blog/grass-brew-python-osx/
 published: true
 ---
 

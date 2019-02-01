@@ -5,7 +5,7 @@ author: CarlosGrohmann
 date: 2009-08-05
 categories: 
 tags: cyborg humor
-permalink: http://carlosgrohmann.com/whats-your-cyborg-name/
+permalink: /blog/whats-your-cyborg-name/
 published: true
 ---
 

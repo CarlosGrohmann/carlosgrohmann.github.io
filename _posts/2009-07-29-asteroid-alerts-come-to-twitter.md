@@ -5,7 +5,7 @@ author: CarlosGrohmann
 date: 2009-07-29
 categories: 
 tags: nasa science asteroid twitter
-permalink: http://carlosgrohmann.com/asteroid-alerts-come-to-twitter/
+permalink: /blog/asteroid-alerts-come-to-twitter/
 published: true
 ---
 

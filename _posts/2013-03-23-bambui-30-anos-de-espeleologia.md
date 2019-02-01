@@ -5,7 +5,7 @@ author: CarlosGrohmann
 date: 2013-03-23
 categories: 
 tags: speleo bambui
-permalink: http://carlosgrohmann.com/bambui-30-anos-de-espeleologia/
+permalink: /blog/bambui-30-anos-de-espeleologia/
 published: true
 ---
 

@@ -5,7 +5,7 @@ author: CarlosGrohmann
 date: 2014-05-06
 categories: 
 tags: science meeting conference canada
-permalink: http://carlosgrohmann.com/gsa2014-call-for-abstracts-geological-and-geomorphological-applications-of-digital-terrain-analysis/
+permalink: /blog/gsa2014-call-for-abstracts-geological-and-geomorphological-applications-of-digital-terrain-analysis/
 published: true
 ---
 

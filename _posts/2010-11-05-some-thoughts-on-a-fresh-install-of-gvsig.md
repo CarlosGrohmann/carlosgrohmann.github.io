@@ -5,7 +5,7 @@ author: CarlosGrohmann
 date: 2010-11-05
 categories: 
 tags: SIG gvsig install
-permalink: http://carlosgrohmann.com/some-thoughts-on-a-fresh-install-of-gvsig/
+permalink: /blog/some-thoughts-on-a-fresh-install-of-gvsig/
 published: true
 ---
 

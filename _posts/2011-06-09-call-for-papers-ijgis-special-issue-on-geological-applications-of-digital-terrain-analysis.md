@@ -5,7 +5,7 @@ author: CarlosGrohmann
 date: 2011-06-09
 categories: 
 tags: IJGIS science journal geomorphometry
-permalink: http://carlosgrohmann.com/call-for-papers-ijgis-special-issue-on-geological-applications-of-digital-terrain-analysis/
+permalink: /blog/call-for-papers-ijgis-special-issue-on-geological-applications-of-digital-terrain-analysis/
 published: true
 ---
 

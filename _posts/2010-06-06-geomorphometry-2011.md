@@ -5,7 +5,7 @@ author: CarlosGrohmann
 date: 2010-06-06
 categories: 
 tags: geomorphometry conference meeting USA ESRI
-permalink: http://carlosgrohmann.com/geomorphometry-2011/
+permalink: /blog/geomorphometry-2011/
 published: true
 ---
 

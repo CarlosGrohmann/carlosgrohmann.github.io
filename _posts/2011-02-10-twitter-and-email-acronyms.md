@@ -5,7 +5,7 @@ author: CarlosGrohmann
 date: 2011-02-10
 categories: 
 tags: twitter acronym internet
-permalink: http://carlosgrohmann.com/twitter-and-email-acronyms/
+permalink: /blog/twitter-and-email-acronyms/
 published: true
 ---
 

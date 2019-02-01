@@ -5,7 +5,7 @@ author: CarlosGrohmann
 date: 2016-05-10
 categories: 
 tags: technology english portuguese lingo
-permalink: http://carlosgrohmann.com/o-uso-adequado-de-algumas-expressoes-de-tecnologia-em-ingles/
+permalink: /blog/o-uso-adequado-de-algumas-expressoes-de-tecnologia-em-ingles/
 published: true
 ---
 

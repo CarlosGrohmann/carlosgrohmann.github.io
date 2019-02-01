@@ -5,7 +5,7 @@ author: CarlosGrohmann
 date: 2007-09-28
 categories: uk phd austria conference meeting
 tags: uk phd austria conference meeting
-permalink: http://carlosgrohmann.com/klagenfurt-austria/
+permalink: /blog/klagenfurt-austria/
 published: true
 ---
 

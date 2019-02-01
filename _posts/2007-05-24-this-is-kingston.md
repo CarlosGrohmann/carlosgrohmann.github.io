@@ -5,7 +5,7 @@ author: CarlosGrohmann
 date: 2007-05-24
 categories: uk phd kingston
 tags: uk phd kingston
-permalink: http://carlosgrohmann.com/this-is-kingston/
+permalink: /blog/this-is-kingston/
 published: true
 ---
 

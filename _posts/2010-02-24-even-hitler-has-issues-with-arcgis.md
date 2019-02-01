@@ -5,7 +5,7 @@ author: CarlosGrohmann
 date: 2010-02-24
 categories: 
 tags: 
-permalink: http://carlosgrohmann.com/even-hitler-has-issues-with-arcgis/
+permalink: /blog/even-hitler-has-issues-with-arcgis/
 published: true
 ---
 

@@ -5,7 +5,7 @@ author: CarlosGrohmann
 date: 2017-01-25
 categories: 
 tags: academia social delete
-permalink: http://carlosgrohmann.com/i-deleted-my-account-at-academia-edu/
+permalink: /blog/i-deleted-my-account-at-academia-edu/
 published: true
 ---
 

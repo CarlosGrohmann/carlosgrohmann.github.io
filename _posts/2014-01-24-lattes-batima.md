@@ -5,7 +5,7 @@ author: CarlosGrohmann
 date: 2014-01-24
 categories: 
 tags: lattes cnpq batman batima
-permalink: http://carlosgrohmann.com/lattes-batima/
+permalink: /blog/lattes-batima/
 published: true
 ---
 

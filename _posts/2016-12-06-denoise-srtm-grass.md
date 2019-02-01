@@ -5,7 +5,7 @@ author: CarlosGrohmann
 date: 2016-12-06
 categories: 
 tags: GIS grass srtm denoise 
-permalink: http://carlosgrohmann.com/denoise-srtm-grass/
+permalink: /blog/denoise-srtm-grass/
 published: true
 ---
 

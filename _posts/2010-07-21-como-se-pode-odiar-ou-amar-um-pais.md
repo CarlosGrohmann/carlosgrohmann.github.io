@@ -5,7 +5,7 @@ author: CarlosGrohmann
 date: 2010-07-21
 categories: 
 tags: poesia
-permalink: http://carlosgrohmann.com/como-se-pode-odiar-ou-amar-um-pais/
+permalink: /blog/como-se-pode-odiar-ou-amar-um-pais/
 published: true
 ---
 

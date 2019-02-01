@@ -5,7 +5,7 @@ author: CarlosGrohmann
 date: 2010-09-20
 categories: 
 tags: academia office
-permalink: http://carlosgrohmann.com/googledocs-presentation-primeiras-impressoes/
+permalink: /blog/googledocs-presentation-primeiras-impressoes/
 published: true
 ---
 

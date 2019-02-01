@@ -5,7 +5,7 @@ author: CarlosGrohmann
 date: 2016-01-14
 categories: 
 tags: academia science orcid lattes
-permalink: http://carlosgrohmann.com/post_orcid/
+permalink: /blog/post_orcid/
 published: true
 ---
 
@@ -20,7 +20,7 @@ Cada vez mais, as revistas estão pedindo que os autores incluam o número do OR
 
 Mas há mais do que um simples identificador no ORCID. Cada pessoa cadastrada tem um perfil que pode servir como um currículo on-line, com informação de instituições às quais essa pessoa esteve/é ligada, financiamentos obtidos e, claro, uma lista das publicações. Nem é preciso digitar os dados dos artigos, pode-se buscar os dados através de conexões do ORCID com o [Scopus](http://www.scopus.com) ou [ResearcherID](http://www.researcherid.com/). Mas aí você pode dizer que já tem o [Lattes](http://lattes.cnpq.br).   
 
-Pra quê fazer outro currículo on-line? E aí eu vou te lembrar que o Lattes não é algo universal. Nós ficamos acostumados a ter acesso ao currículo de todos os pesquisadores brasileiros, mas essa situação é bem fora do comum. Tente buscar uma lista de publicações de pesquisadores estrangeiros. Alguns tem isso em um website pessoal ou institucional, mas a maioria não. Eu já passei por situações onde precisava dessas informações mas não conseguia de jeito nenhum. Me lembro de ficar pensando como seria bom se o Lattes fosse realmente universal... Claro que o Lattes não é perfeito. Vira e mexe aparece uma [dúvida](/2014-01-24-lattes-batima/) de como incluir alguma informação por lá, mas se você pensar bem, é uma base de dados impressionante. Outro ponto interessante da questão Lattes x ORCID é que o ORCID certamente tem mais visibilidade que o Lattes, se pensarmos em um contexto internacional. O que ainda falta para nós, brasileiros, é uma integração do Lattes ao ORCID, de modo que possamos importar as produções de uma base de dados para a outra. Então não fique aí parado, vai lá em <http://orcid.org/> e faça seu cadastro. Agora!       
+Pra quê fazer outro currículo on-line? E aí eu vou te lembrar que o Lattes não é algo universal. Nós ficamos acostumados a ter acesso ao currículo de todos os pesquisadores brasileiros, mas essa situação é bem fora do comum. Tente buscar uma lista de publicações de pesquisadores estrangeiros. Alguns tem isso em um website pessoal ou institucional, mas a maioria não. Eu já passei por situações onde precisava dessas informações mas não conseguia de jeito nenhum. Me lembro de ficar pensando como seria bom se o Lattes fosse realmente universal... Claro que o Lattes não é perfeito. Vira e mexe aparece uma [dúvida](/blog/lattes-batima/) de como incluir alguma informação por lá, mas se você pensar bem, é uma base de dados impressionante. Outro ponto interessante da questão Lattes x ORCID é que o ORCID certamente tem mais visibilidade que o Lattes, se pensarmos em um contexto internacional. O que ainda falta para nós, brasileiros, é uma integração do Lattes ao ORCID, de modo que possamos importar as produções de uma base de dados para a outra. Então não fique aí parado, vai lá em <http://orcid.org/> e faça seu cadastro. Agora!       
 
 Nota: o título deste post foi descaradamente inspirado [neste post aqui](http://dataabinitio.com/?p=615).    
 

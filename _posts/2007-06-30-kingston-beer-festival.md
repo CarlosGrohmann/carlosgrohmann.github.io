@@ -5,7 +5,7 @@ author: CarlosGrohmann
 date: 2007-06-30
 categories: uk phd beer kingston
 tags: uk phd beer camra kingston
-permalink: http://carlosgrohmann.com/kingston-beer-festival/
+permalink: /blog/kingston-beer-festival/
 published: true
 ---
 

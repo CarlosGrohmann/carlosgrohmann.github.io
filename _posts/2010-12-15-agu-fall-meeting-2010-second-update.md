@@ -5,7 +5,7 @@ author: CarlosGrohmann
 date: 2010-12-15
 categories: 
 tags: conference meeting agu san-francisco USA
-permalink: http://carlosgrohmann.com/agu-fall-meeting-2010-second-update/
+permalink: /blog/agu-fall-meeting-2010-second-update/
 published: true
 ---
 

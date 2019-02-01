@@ -5,7 +5,7 @@ author: CarlosGrohmann
 date: 2007-06-11
 categories: uk phd beer
 tags: uk phd beer
-permalink: http://carlosgrohmann.com/good-reading/
+permalink: /blog/good-reading/
 published: true
 ---
 

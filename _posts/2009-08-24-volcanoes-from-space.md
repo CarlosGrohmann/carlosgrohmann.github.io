@@ -5,7 +5,7 @@ author: CarlosGrohmann
 date: 2009-08-24
 categories: 
 tags: science wired twitter
-permalink: http://carlosgrohmann.com/volcanoes-from-space/
+permalink: /blog/volcanoes-from-space/
 published: true
 ---
 

@@ -5,7 +5,7 @@ author: CarlosGrohmann
 date: 2016-01-05
 categories: 
 tags: academia portuguese english lingo
-permalink: http://carlosgrohmann.com/termos-academicos-portugues-ingles/
+permalink: /blog/termos-academicos-portugues-ingles/
 published: true
 ---
 

@@ -5,7 +5,7 @@ author: CarlosGrohmann
 date: 2013-03-22
 categories: 
 tags: QGIS install mac osx python
-permalink: http://carlosgrohmann.com/fixing-python-path-for-qgis-scripting-on-mac-osx/
+permalink: /blog/fixing-python-path-for-qgis-scripting-on-mac-osx/
 published: true
 ---
 

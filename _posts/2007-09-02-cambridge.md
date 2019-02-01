@@ -5,7 +5,7 @@ author: CarlosGrohmann
 date: 2007-09-02
 categories: uk phd cambridge
 tags: uk phd cambridge
-permalink: http://carlosgrohmann.com/cambridge/
+permalink: /blog/cambridge/
 published: true
 ---
 

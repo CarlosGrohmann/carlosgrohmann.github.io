@@ -5,7 +5,7 @@ author: CarlosGrohmann
 date: 2012-06-07
 categories: 
 tags: GRASS install mac
-permalink: http://carlosgrohmann.com/installing-grass-add-ons-on-mac-osx/
+permalink: /blog/installing-grass-add-ons-on-mac-osx/
 published: true
 ---
 

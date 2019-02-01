@@ -5,7 +5,7 @@ author: CarlosGrohmann
 date: 2010-08-09
 categories: 
 tags: alien
-permalink: http://carlosgrohmann.com/o-que-fazer-em-caso-de-contato-extraterrestre/
+permalink: /blog/o-que-fazer-em-caso-de-contato-extraterrestre/
 published: true
 ---
 

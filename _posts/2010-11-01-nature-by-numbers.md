@@ -5,7 +5,7 @@ author: CarlosGrohmann
 date: 2010-11-01
 categories: 
 tags: 
-permalink: http://carlosgrohmann.com/nature-by-numbers/
+permalink: /blog/nature-by-numbers/
 published: true
 ---
 

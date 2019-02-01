@@ -5,7 +5,7 @@ author: CarlosGrohmann
 date: 2010-10-30
 categories: 
 tags: capslocks
-permalink: http://carlosgrohmann.com/caps-locks/
+permalink: /blog/caps-locks/
 published: true
 ---
 

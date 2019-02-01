@@ -5,7 +5,7 @@ author: CarlosGrohmann
 date: 2015-07-21
 categories: 
 tags: speleo araca amazon
-permalink: http://carlosgrohmann.com/expedicao-serra-do-araca-2015/
+permalink: /blog/expedicao-serra-do-araca-2015/
 published: true
 ---
 Durante 15 dias em julho/2015 o [Grupo Bambuí de Pesquisas Espeleológicas](http://www.bambui.org.br) (GBPE) em conjunto com o [La Venta Esplorazioni Geografiche](http://www.laventa.it) organizaram uma expedição de exploração espeleológica/geográfica na Serra do Aracá, norte do Estado do Amazonas. A equipe contou com cinco brasileiros e quatro italianos:   

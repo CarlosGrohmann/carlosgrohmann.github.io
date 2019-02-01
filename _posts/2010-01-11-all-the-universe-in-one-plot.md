@@ -5,7 +5,7 @@ author: CarlosGrohmann
 date: 2010-01-11
 categories: 
 tags: science astronomy logplot
-permalink: http://carlosgrohmann.com/all-the-universe-in-one-plot/
+permalink: /blog/all-the-universe-in-one-plot/
 published: true
 ---
 

@@ -5,7 +5,7 @@ author: CarlosGrohmann
 date: 2009-09-10
 categories: 
 tags: science music
-permalink: http://carlosgrohmann.com/they-might-be-giants-science-is-real/
+permalink: /blog/they-might-be-giants-science-is-real/
 published: true
 ---
 

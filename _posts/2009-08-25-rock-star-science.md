@@ -5,7 +5,7 @@ author: CarlosGrohmann
 date: 2009-08-25
 categories: 
 tags: science humor 
-permalink: http://carlosgrohmann.com/rock-star-science/
+permalink: /blog/rock-star-science/
 published: true
 ---
 Beacause Science changes your life.  

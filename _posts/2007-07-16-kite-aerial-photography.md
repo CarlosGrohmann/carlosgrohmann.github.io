@@ -5,7 +5,7 @@ author: CarlosGrohmann
 date: 2007-07-16
 categories: uk phd photogrammetry
 tags: uk phd photogrammetry kite 
-permalink: http://carlosgrohmann.com/kite-aerial-photography/
+permalink: /blog/kite-aerial-photography/
 published: true
 ---
 

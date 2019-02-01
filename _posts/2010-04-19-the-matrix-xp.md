@@ -5,7 +5,7 @@ author: CarlosGrohmann
 date: 2010-04-19
 categories: 
 tags: humor matrix
-permalink: http://carlosgrohmann.com/the-matrix-xp/
+permalink: /blog/the-matrix-xp/
 published: true
 ---
 

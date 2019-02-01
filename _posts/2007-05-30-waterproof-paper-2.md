@@ -5,7 +5,7 @@ author: CarlosGrohmann
 date: 2007-05-30
 categories: uk phd kingston 
 tags: uk phd kingston tyvek zecom cave speleo
-permalink: http://carlosgrohmann.com/waterproof-paper-2/
+permalink: /blog/waterproof-paper-2/
 published: true
 ---
 

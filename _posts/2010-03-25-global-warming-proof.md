@@ -5,7 +5,7 @@ author: CarlosGrohmann
 date: 2010-03-25
 categories: 
 tags: humor climate
-permalink: http://carlosgrohmann.com/global-warming-proof/
+permalink: /blog/global-warming-proof/
 published: true
 ---
 I know this pic is a bit dated but.. it's the truth!  

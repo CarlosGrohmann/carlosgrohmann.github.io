@@ -5,7 +5,7 @@ author: CarlosGrohmann
 date: 2016-05-23
 categories: 
 tags: secours ssf resgate bambui 
-permalink: http://carlosgrohmann.com/curso-internacional-de-espeleoresgate-2016/
+permalink: /blog/curso-internacional-de-espeleoresgate-2016/
 published: true
 ---
 

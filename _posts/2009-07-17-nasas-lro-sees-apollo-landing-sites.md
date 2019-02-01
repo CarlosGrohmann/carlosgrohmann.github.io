@@ -5,7 +5,7 @@ author: CarlosGrohmann
 date: 2009-07-17
 categories: 
 tags: nasa science moon
-permalink: http://carlosgrohmann.com/nasas-lro-sees-apollo-landing-sites/
+permalink: /blog/nasas-lro-sees-apollo-landing-sites/
 published: true
 ---
 

@@ -5,7 +5,7 @@ author: CarlosGrohmann
 date: 2009-06-24
 categories: 
 tags: science encedalus ocean
-permalink: http://carlosgrohmann.com/encedalus-may-have-a-subsurface-ocean/
+permalink: /blog/encedalus-may-have-a-subsurface-ocean/
 published: true
 ---
 

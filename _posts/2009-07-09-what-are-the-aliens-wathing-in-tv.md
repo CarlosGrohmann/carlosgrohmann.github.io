@@ -5,7 +5,7 @@ author: CarlosGrohmann
 date: 2009-07-09
 categories: 
 tags: alien humor
-permalink: http://carlosgrohmann.com/what-are-the-aliens-wathing-in-tv/
+permalink: /blog/what-are-the-aliens-wathing-in-tv/
 published: true
 ---
 

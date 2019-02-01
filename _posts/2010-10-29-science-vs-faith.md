@@ -5,7 +5,7 @@ author: CarlosGrohmann
 date: 2010-10-29
 categories: 
 tags: science faith
-permalink: http://carlosgrohmann.com/science-vs-faith/
+permalink: /blog/science-vs-faith/
 published: true
 ---
 

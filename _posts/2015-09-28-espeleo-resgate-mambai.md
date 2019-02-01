@@ -5,7 +5,7 @@ author: CarlosGrohmann
 date: 2015-09-28
 categories: 
 tags: speleo rescue secours resgate ssf 
-permalink: http://carlosgrohmann.com/espeleo-resgate-mambai/
+permalink: /blog/espeleo-resgate-mambai/
 published: true
 ---
 Entre 06 e 13 de setembro deste ano (2015, caso você esteja lendo do futuro) ocorreu mais uma edição do Curso de Formação em Espeleo Resgate, em parceira com o Espeleo Socorro Francês [SSF - _Spéléo Secours Français_](http://ssf.ffspeleo.fr/fr/). O curso foi organizado (e muito bem organizado) pelos nossos amigos do EGB [Espeleo Grupo de Brasília](https://www.facebook.com/egbespeleo).

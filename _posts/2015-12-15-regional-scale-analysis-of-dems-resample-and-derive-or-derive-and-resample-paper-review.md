@@ -5,7 +5,7 @@ author: CarlosGrohmann
 date: 2015-12-15
 categories: 
 tags: science paper cageo geomorphometry
-permalink: http://carlosgrohmann.com/regional-scale-analysis-of-dems-resample-and-derive-or-derive-and-resample-paper-review/
+permalink: /blog/regional-scale-analysis-of-dems-resample-and-derive-or-derive-and-resample-paper-review/
 published: true
 ---
 

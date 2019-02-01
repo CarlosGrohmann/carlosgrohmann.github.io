@@ -5,7 +5,7 @@ author: CarlosGrohmann
 date: 2017-05-24
 categories: 
 tags: academia science scam predatory 
-permalink: http://carlosgrohmann.com/publish-anything-with-us-just-need-to-pay-1200-euros/
+permalink: /blog/publish-anything-with-us-just-need-to-pay-1200-euros/
 published: true
 ---
 So I just got this email: 

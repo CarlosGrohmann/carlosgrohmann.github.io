@@ -5,7 +5,7 @@ author: CarlosGrohmann
 date: 2010-07-22
 categories: 
 tags: tools foolprof
-permalink: http://carlosgrohmann.com/o-uso-correto-das-coisas/
+permalink: /blog/o-uso-correto-das-coisas/
 published: true
 ---
 

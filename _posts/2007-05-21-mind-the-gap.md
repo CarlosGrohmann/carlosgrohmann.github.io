@@ -5,7 +5,7 @@ author: CarlosGrohmann
 date: 2007-05-21
 categories: uk phd kingston
 tags: uk phd kingston
-permalink: http://carlosgrohmann.com/mind-the-gap/
+permalink: /blog/mind-the-gap/
 published: true
 ---
 

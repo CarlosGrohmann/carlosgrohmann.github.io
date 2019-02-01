@@ -5,7 +5,7 @@ author: CarlosGrohmann
 date: 2010-07-18
 categories: 
 tags: compras
-permalink: http://carlosgrohmann.com/nunca-mais-compro-nada-nas-lojas-americanas/
+permalink: /blog/nunca-mais-compro-nada-nas-lojas-americanas/
 published: true
 ---
 

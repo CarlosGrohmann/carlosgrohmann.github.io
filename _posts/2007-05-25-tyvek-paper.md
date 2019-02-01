@@ -5,7 +5,7 @@ author: CarlosGrohmann
 date: 2007-05-25
 categories: uk phd kingston
 tags: uk phd kingston tyvek cave speleo
-permalink: http://carlosgrohmann.com/tyvek-paper/
+permalink: /blog/tyvek-paper/
 published: true
 ---
 
