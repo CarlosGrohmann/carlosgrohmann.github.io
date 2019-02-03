@@ -7,6 +7,17 @@
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>New site layout</title>
+        <description>
+          
+          If you are reading this it means my website is… alive and well! Ans you can see that this website has changed a bit. It loads faster, the visual is different (cleaner, I hope) and it works on all screen sizes (well, maybe not on a Nokia 3310). The reason...
+        </description>
+        <pubDate>Sun, 03 Feb 2019 00:00:00 +0000</pubDate>
+        <link>http://localhost:4000/blog/new-layout/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/new-layout/</guid>
+      </item>
+    
+      <item>
         <title>The SPAMLab has a website (and a blog)</title>
         <description>
           
@@ -222,17 +233,6 @@ Valeu Iscoti!
         <pubDate>Wed, 22 Jan 2014 00:00:00 +0000</pubDate>
         <link>http://localhost:4000/blog/correio/</link>
         <guid isPermaLink="true">http://localhost:4000/blog/correio/</guid>
-      </item>
-    
-      <item>
-        <title>Expedição Toca dos Ossos 2013-2014</title>
-        <description>
-          
-          Mais um fim de ano, mais uma expedição. Desta vez a escolhida foi a Toca dos Ossos, no município de Ourolândia, Bahia. Por muitos anos o padrão fortemente labiríntico da caverna, aliado às grandes descobertas na Toca da boa Vista (entre outras), manteve as equipes de topografia distantes de Ourolândia....
-        </description>
-        <pubDate>Fri, 10 Jan 2014 00:00:00 +0000</pubDate>
-        <link>http://localhost:4000/blog/ossos2014/</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/ossos2014/</guid>
       </item>
     
   </channel>
