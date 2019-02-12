@@ -44,7 +44,7 @@ d.shade shade=srtm30m_north_shade_25_315_z5 color=srtm30m_north
 ```
 &nbsp;
 
-![](/img/Screen-Shot-2016-12-06-at-11.35.23.jpg){:width="70%"}  
+![](/img/srtm_no_denoise.jpg){:width="70%"}  
 Original 1-arcsec SRTM data  
 
 We can see the noise in the image. Of course, some of it is probably due the forest canopy structure, but certainly not all.  
@@ -115,13 +115,33 @@ r.relief --overwrite input=srtm30m_north_dnoise output=srtm30m_north_dnoise_shad
 d.shade shade=srtm30m_north_dnoise_shade_25_315_z5 color=srtm30m_north_dnoise
 ```
 
-![](/img/Screen-Shot-2016-12-06-at-11.34.36.jpg){:width="70%"}  
+![](/img/srtm_with_denoise.jpg){:width="70%"}  
 SRTM after denoising  
 
 &nbsp;
 In GRASS we can use the [g.gui.mapswipe](https://grass.osgeo.org/grass70/manuals/g.gui.mapswipe.html) module to interactively compares two maps by swiping a visibility bar.   
  
+<!-- slider -->
+<head>
+  <link rel="stylesheet" href="{{site.baseurl}}/vue/vue-twentytwenty.css" />
+</head>
 
+<div id="app">
+<TwentyTwenty
+  before="{{site.baseurl}}/img/srtm_no_denoise_700.jpg"
+  beforeLabel="No denoise"
+  after="{{site.baseurl}}/img/srtm_with_denoise_700.jpg"
+  afterLabel="With denoise" />
+</div>
+<script src="{{site.baseurl}}/vue/vue.js"></script>
+<script src="{{site.baseurl}}/vue/vue-twentytwenty.js"></script>
+<script>
+new Vue({
+el: '#app'
+})
+</script>
+&nbsp;
+&nbsp;
 Some quick stats from <a href="https://grass.osgeo.org/grass70/manuals/r.info" target="_blank">r.info</a> will show us that the range of elevation values changed a bit:  
 
 

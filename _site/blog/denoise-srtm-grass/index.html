@@ -418,7 +418,7 @@ d.shade shade=srtm30m_north_shade_25_315_z5 color=srtm30m_north
 </code></pre></div></div>
 <p> </p>
 
-<p><img src="/img/Screen-Shot-2016-12-06-at-11.35.23.jpg" alt="" width="70%" /><br />
+<p><img src="/img/srtm_no_denoise.jpg" alt="" width="70%" /><br />
 Original 1-arcsec SRTM data</p>
 
 <p>We can see the noise in the image. Of course, some of it is probably due the forest canopy structure, but certainly not all.</p>
@@ -484,13 +484,33 @@ r.relief --overwrite input=srtm30m_north_dnoise output=srtm30m_north_dnoise_shad
 d.shade shade=srtm30m_north_dnoise_shade_25_315_z5 color=srtm30m_north_dnoise
 </code></pre></div></div>
 
-<p><img src="/img/Screen-Shot-2016-12-06-at-11.34.36.jpg" alt="" width="70%" /><br />
+<p><img src="/img/srtm_with_denoise.jpg" alt="" width="70%" /><br />
 SRTM after denoising</p>
 
 <p> 
 In GRASS we can use the <a rel="noopener noreferrer" target="_blank" href="https://grass.osgeo.org/grass70/manuals/g.gui.mapswipe.html">g.gui.mapswipe</a> module to interactively compares two maps by swiping a visibility bar.</p>
 
-<p>Some quick stats from <a rel="noopener noreferrer" target="_blank" href="https://grass.osgeo.org/grass70/manuals/r.info" target="_blank">r.info</a> will show us that the range of elevation values changed a bit:</p>
+<!-- slider -->
+<head>
+  <link rel="stylesheet" href="/vue/vue-twentytwenty.css" />
+</head>
+
+<div id="app">
+<TwentyTwenty before="/img/srtm_no_denoise_700.jpg" beforeLabel="No denoise" after="/img/srtm_with_denoise_700.jpg" afterLabel="With denoise" />
+</div>
+<script src="/vue/vue.js"></script>
+
+<script src="/vue/vue-twentytwenty.js"></script>
+
+<script>
+new Vue({
+el: '#app'
+})
+</script>
+
+<p> 
+ 
+Some quick stats from <a rel="noopener noreferrer" target="_blank" href="https://grass.osgeo.org/grass70/manuals/r.info" target="_blank">r.info</a> will show us that the range of elevation values changed a bit:</p>
 
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>GRASS 7.2.0svn (latlong):~ &amp;gt; r.info srtm30m_north
  +----------------------------------------------------------------------------+
