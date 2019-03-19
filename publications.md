@@ -20,8 +20,13 @@ And if you use reference managers (you should), you can get a file with all my p
 Preprint available at EarthArXiv: [https://doi.org/10.31223/osf.io/t6y2e](https://doi.org/10.31223/osf.io/t6y2e) (open access)
  -->
 
-<a name="bjgeo"></a>
-33 - Viana, C.D.; Grohmann, C.H.; Busarello, M.T.S.; Garcia, G.P.B., 2018. Structural analysis of clastic dikes using Structure from Motion - Multi-View Stereo: a case-study in the Paraná Basin, southeastern Brazil.  
+<a name="qsr_pupim"></a>
+34 - Pupim, F.N., Kern, A.K., Sawakuchi, A.O., Stern, A., Ribas, C.C., Grohmann C.H., C.C.M., Bertassoli Jr.D., J., Cruz, F., Hartmann, G., Savian, J., Cracraft, J., Tamura, L., Almeida, R.P., Mineli, T., 2019. Chronology of Terra Firme formation in Amazonian lowlands reveals a dynamic Quaternary landscape.  
+_Quaternary Science Reviews_, 210:154-163.  
+[https://doi.org/10.1016/j.quascirev.2019.03.008](https://doi.org/10.1016/j.quascirev.2019.03.008)  
+
+<a name="viana_bjgeo"></a>
+33 - Viana, C.D., Grohmann, C.H., Busarello, M.T.S., Garcia, G.P.B., 2018. Structural analysis of clastic dikes using Structure from Motion - Multi-View Stereo: a case-study in the Paraná Basin, southeastern Brazil.  
 _Brazilian Journal of Geology_, 48(4):839-852.  
 [https://doi.org/10.1590/2317-4889201800201898](https://doi.org/10.1590/2317-4889201800201898) (open access)  
 
@@ -52,7 +57,7 @@ _ISPRS Annals of Photogrammetry, Remote Sensing and Spatial Information Sciences
 [http://dx.doi.org/10.5194/isprs-annals-III-4-17-2016](http://dx.doi.org/10.5194/isprs-annals-III-4-17-2016) (open access)  
 python script available on [GitHub](https://github.com/CarlosGrohmann/scripts_papers)  
 
-<a name="viana2016"></a>
+<a name="viana_cageo"></a>
 27 - Viana, C.D., Endlein, A., Campanha, G.A.C., Grohmann, C.H., 2016. Algorithms for Extraction of Structural Attitudes from 3D Outcrop Models.  
 _Computers & Geosciences_. 90:112-122  
 [http://dx.doi.org/10.1016/j.cageo.2016.02.017](http://dx.doi.org/10.1016/j.cageo.2016.02.017)  
