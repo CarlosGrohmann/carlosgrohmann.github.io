@@ -20,6 +20,11 @@ And if you use reference managers (you should), you can get a file with all my p
 Preprint available at EarthArXiv: [https://doi.org/10.31223/osf.io/t6y2e](https://doi.org/10.31223/osf.io/t6y2e) (open access)
  -->
 
+<a name="jsames_karst"></a>
+35 - Garcia. G.P.B., Grohmann C.H., 2019. DEM-based geomorphological mapping and landforms characterization of a tropical karst environment in southeastern Brazil.  
+_Journal of South American Earth Sciences_, 93:14-22.  
+[https://doi.org/10.1016/j.jsames.2019.04.013](https://doi.org/10.1016/j.jsames.2019.04.013)  
+
 <a name="qsr_pupim"></a>
 34 - Pupim, F.N., Kern, A.K., Sawakuchi, A.O., Stern, A., Ribas, C.C., Grohmann C.H., C.C.M., Bertassoli Jr.D., J., Cruz, F., Hartmann, G., Savian, J., Cracraft, J., Tamura, L., Almeida, R.P., Mineli, T., 2019. Chronology of Terra Firme formation in Amazonian lowlands reveals a dynamic Quaternary landscape.  
 _Quaternary Science Reviews_, 210:154-163.  
