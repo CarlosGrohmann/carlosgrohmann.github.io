@@ -9,7 +9,7 @@ Prospective Students can contact me at: ![](/img/mail.png) Students are expected
 
 I am currently associated with two Graduate Programs at the University of São Paulo:   
 
-**Mineral Resources and Hydrogeology** ([RMH - Recursos Minerais e Hidrogeologia](http://www.igc.usp.br/index.php?id=rmh)).  
+**Mineral Resources and Hydrogeology** ([RMH - Recursos Minerais e Hidrogeologia](http://sites.igc.usp.br/posgraduacao/rmh/)).  
 This program is characterised by Applied Geosciences studies. My line of work focus on Geotechnologies.  
 
 **Environmental Sciences** ([PROCAM - Programa de Pós-Graduação em Ciências Ambientais](http://www.iee.usp.br/pos/?q=procam)).  
@@ -38,7 +38,7 @@ period: 2017-? | program: RMH
 Detection and monitoring of landslides on natural slopes from integrated application of multispectral images and high-resolution elevation models  
 period: 2017-? | program: RMH  
 
-**Helen Cristina Dias<**  
+**Helen Cristina Dias**  
 Analysis of manual and semi-automatic shallow landslides inventories and its suitability in predictive models  
 period: 2019-? | program: PROCAM  
 
