@@ -23,6 +23,8 @@ This program has a strong socio-environmental focus, leaning towards the Humanit
 **Anderson Targino da Silva Ferreira**  
 Monitoring of microplastic (pellets) density of a sandy beach by coring, 3D modelling and meteoceanographic parameters  
 period: 2019 
+&nbsp;  
+&nbsp;  
 
 
 ### PhD Students
