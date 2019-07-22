@@ -53,6 +53,10 @@ period: 2018-? | program: PROCAM
 &nbsp;  
 
 ### Master's Students
+**Amanda Mendes de Sousa**  
+Monitoring landslide susceptibility: using UAVs to generate 3D models for slope stability analysis in urban areas  
+period: 2019-? | program: RMH  
+
 **Lucas Pedrosa Soares**  
 Automatic segmentation of landslide scars in remote sensing imagery with deep learning  
 period: 2019-? | program: RMH  
