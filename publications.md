@@ -16,12 +16,13 @@ And if you use reference managers (you should), you can get a file with all my p
 &nbsp;  
 <a name="papers"></a>
 ## Journal Articles  
+\* Denotes student co-author.
 <!-- <a name="jsaes"></a>Garcia, G.P.B.; Grohmann, C.H., 2018. DEM-based Geomorphological Mapping and Landforms Characterization of a Tropical Karst Environment in Southeastern Brazil. _in review_  
 Preprint available at EarthArXiv: [https://doi.org/10.31223/osf.io/t6y2e](https://doi.org/10.31223/osf.io/t6y2e) (open access)
  -->
 
 <a name="jsames_karst"></a>
-35 - Garcia. G.P.B., Grohmann C.H., 2019. DEM-based geomorphological mapping and landforms characterization of a tropical karst environment in southeastern Brazil.  
+35 - Garcia\*. G.P.B., Grohmann C.H., 2019. DEM-based geomorphological mapping and landforms characterization of a tropical karst environment in southeastern Brazil.  
 _Journal of South American Earth Sciences_, 93:14-22.  
 [https://doi.org/10.1016/j.jsames.2019.04.013](https://doi.org/10.1016/j.jsames.2019.04.013)  
 
@@ -31,7 +32,7 @@ _Quaternary Science Reviews_, 210:154-163.
 [https://doi.org/10.1016/j.quascirev.2019.03.008](https://doi.org/10.1016/j.quascirev.2019.03.008)  
 
 <a name="viana_bjgeo"></a>
-33 - Viana, C.D., Grohmann, C.H., Busarello, M.T.S., Garcia, G.P.B., 2018. Structural analysis of clastic dikes using Structure from Motion - Multi-View Stereo: a case-study in the Paraná Basin, southeastern Brazil.  
+33 - Viana\*, C.D., Grohmann, C.H., Busarello\*, M.T.S., Garcia\*, G.P.B., 2018. Structural analysis of clastic dikes using Structure from Motion - Multi-View Stereo: a case-study in the Paraná Basin, southeastern Brazil.  
 _Brazilian Journal of Geology_, 48(4):839-852.  
 [https://doi.org/10.1590/2317-4889201800201898](https://doi.org/10.1590/2317-4889201800201898) (open access)  
 
@@ -52,7 +53,7 @@ _Brazilian Journal of Geology_. 47:1
 <http://dx.doi.org/10.1590/2317-4889201700000471> (open access)   
 
 <a name="rauen2016"></a>
-29 - Rauen, V.A.B., Grohmann, C.H., Goveia, S.S., Mioto, C.L., Marini, L.B., Paranhos Filho, A.C., Almeida, M.H.T., 2016. Geotecnologias na Determinação da Vulnerabilidade à Ocorrência de Vazamentos em Redes de Abastecimento de Água.  
+29 - Rauen\*, V.A.B., Grohmann, C.H., Goveia, S.S., Mioto, C.L., Marini, L.B., Paranhos Filho, A.C., Almeida, M.H.T., 2016. Geotecnologias na Determinação da Vulnerabilidade à Ocorrência de Vazamentos em Redes de Abastecimento de Água.  
 _Geociências (São Paulo)_. 35:414-425  
 [http://www.revistageociencias.com.br](http://www.revistageociencias.com.br/35/volume35_3.html) (open access)  
 
@@ -63,7 +64,7 @@ _ISPRS Annals of Photogrammetry, Remote Sensing and Spatial Information Sciences
 python script available on [GitHub](https://github.com/CarlosGrohmann/scripts_papers)  
 
 <a name="viana_cageo"></a>
-27 - Viana, C.D., Endlein, A., Campanha, G.A.C., Grohmann, C.H., 2016. Algorithms for Extraction of Structural Attitudes from 3D Outcrop Models.  
+27 - Viana\*, C.D., Endlein\*, A., Campanha, G.A.C., Grohmann, C.H., 2016. Algorithms for Extraction of Structural Attitudes from 3D Outcrop Models.  
 _Computers & Geosciences_. 90:112-122  
 [http://dx.doi.org/10.1016/j.cageo.2016.02.017](http://dx.doi.org/10.1016/j.cageo.2016.02.017)  
 
@@ -234,27 +235,27 @@ Beca.
 ## Selected Abstracts  
 
 <a name="sbsr_litchi"></a>
-Grohmann, C.H.; Viana, C.D.; Garcia, G.P.B; Albuquerque, R.W.; Barale, F.; Ferretti, F.A., 2019. Semi-Automatic UAV-based SfM survey of vertical surfaces.  
+Grohmann, C.H.; Viana\*, C.D.; Garcia\*, G.P.B; Albuquerque\*, R.W.; Barale\*, F.; Ferretti\*, F.A., 2019. Semi-Automatic UAV-based SfM survey of vertical surfaces.  
 _XIX Brazilian Symposium on Remote Sensing_. Santos, SP.  
 
 <a name="sbsr_cunha"></a>
-Garcia, G.P.B; Gomes, E.B.; Viana, C.D.; Grohmann, C.H., 2019. Comparing Terrestrial Laser Scanner and UAV-based photogrammetry to generate a landslide DEM.  
+Garcia\*, G.P.B; Gomes\*, E.B.; Viana\*, C.D.; Grohmann, C.H., 2019. Comparing Terrestrial Laser Scanner and UAV-based photogrammetry to generate a landslide DEM.  
 _XIX Brazilian Symposium on Remote Sensing_. Santos, SP.  
 
 <a name="sbsr_relogio"></a>
-Barale, F.; Grohmann, C.H., 2019. Photoscan x COLMAP: comparação entre DEMs gerados por Structure from Motion--Multi-View Stereo.  
+Barale\*, F.; Grohmann, C.H., 2019. Photoscan x COLMAP: comparação entre DEMs gerados por Structure from Motion--Multi-View Stereo.  
 _XIX Brazilian Symposium on Remote Sensing_. Santos, SP.  
 
 <a name="sbsr_car"></a>
-Albuquerque, R.W.; Ferreira, M.E.; Girão, V.J.; Balieiro, C.P.; Mansur, H.; Costa, J.V.S.; Grohmann, C.H., 2019. Comparação de RPAS e TOPODATA no mapeamento de regiões declivosas previstas no Cadastro Ambiental Rural.  
+Albuquerque\*, R.W.; Ferreira, M.E.; Girão, V.J.; Balieiro, C.P.; Mansur, H.; Costa, J.V.S.; Grohmann, C.H., 2019. Comparação de RPAS e TOPODATA no mapeamento de regiões declivosas previstas no Cadastro Ambiental Rural.  
 _XIX Brazilian Symposium on Remote Sensing_. Santos, SP.  
 
 <a name="sbsr_altura"></a>
-Santos, L.F.; Grohmann, C.H., 2019. Processamento fotogramétrico digital por Structure from Motion de imagens obtidas em voos de diferentes alturas sobre o solo.  
+Santos\*, L.F.; Grohmann, C.H., 2019. Processamento fotogramétrico digital por Structure from Motion de imagens obtidas em voos de diferentes alturas sobre o solo.  
 _XIX Brazilian Symposium on Remote Sensing_. Santos, SP.  
 
 <a name="gmorph"></a>
-Grohmann, C.H.; Viana, C.D.; Busarello, M.T.S.; Garcia, G.P.B., 2018. Structural analysis of clastic dikes based on Structure from Motion/Multi-View Stereo.  
+Grohmann, C.H.; Viana\*, C.D.; Busarello\*, M.T.S.; Garcia\*, G.P.B., 2018. Structural analysis of clastic dikes based on Structure from Motion/Multi-View Stereo.  
 _Geomorphometry 2018 Conference_. Boulder, CO.  
 Available at PeerJ Preprints  [https://doi.org/10.7287/peerj.preprints.27060v1](https://doi.org/10.7287/peerj.preprints.27060v1) (open access)  
 
@@ -264,7 +265,7 @@ _Geomorphometry 2015_, Poznam, Poland. Proceedings.
 [PDF](http://geomorphometry.org/system/files/Grohmann2015geomorphometry.pdf) (open access)  
 
 <a name="sbsr_kahwage"></a>
-Kahwage, R.S.N., Grohmann, C.H., 2013. Análise geomorfométrica da região da folha Capão Bonito (SG-22-X-B-III), SE do estado de São Paulo: Implicações neotectônicas na porção sul da Serra de Paranapiacaba e Gráben de Sete Barras.  
+Kahwage\*, R.S.N., Grohmann, C.H., 2013. Análise geomorfométrica da região da folha Capão Bonito (SG-22-X-B-III), SE do estado de São Paulo: Implicações neotectônicas na porção sul da Serra de Paranapiacaba e Gráben de Sete Barras.  
 _XVI Brazilian Symposium on Remote Sensing_, Foz do Iguaçu. Anais.  
 [http://dx.doi.org/10.6084/m9.figshare.1037677](http://dx.doi.org/10.6084/m9.figshare.1037677) (PDF via figshare)  
 
