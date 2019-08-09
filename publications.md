@@ -232,7 +232,7 @@ Beca.
 &nbsp;  
 &nbsp; 
 <a name="chapters"></a>
-## Selected Abstracts  
+## Recent Abstracts  
 
 <a name="sbsr_litchi"></a>
 Grohmann, C.H.; Viana\*, C.D.; Garcia\*, G.P.B; Albuquerque\*, R.W.; Barale\*, F.; Ferretti\*, F.A., 2019. Semi-Automatic UAV-based SfM survey of vertical surfaces.  
@@ -254,7 +254,7 @@ _XIX Brazilian Symposium on Remote Sensing_. Santos, SP.
 Santos\*, L.F.; Grohmann, C.H., 2019. Processamento fotogramétrico digital por Structure from Motion de imagens obtidas em voos de diferentes alturas sobre o solo.  
 _XIX Brazilian Symposium on Remote Sensing_. Santos, SP.  
 
-<a name="gmorph"></a>
+<!-- <a name="gmorph"></a>
 Grohmann, C.H.; Viana\*, C.D.; Busarello\*, M.T.S.; Garcia\*, G.P.B., 2018. Structural analysis of clastic dikes based on Structure from Motion/Multi-View Stereo.  
 _Geomorphometry 2018 Conference_. Boulder, CO.  
 Available at PeerJ Preprints  [https://doi.org/10.7287/peerj.preprints.27060v1](https://doi.org/10.7287/peerj.preprints.27060v1) (open access)  
@@ -303,7 +303,7 @@ _Anais da Academia Brasileira de Ciências_. 74(3):541-542.
 <a name="siicusp_tapagem"></a>
 Carvalho, C.H.G., Karmann, I., 1999. Caracterização Geomorfológica da Serra André Lopes.  
 _VII SIICUSP_, São Paulo, SP. Anais, p.274.  
-[http://dx.doi.org/10.6084/m9.figshare.1089657](http://dx.doi.org/10.6084/m9.figshare.1089657) (PDF via figshare)  
+[http://dx.doi.org/10.6084/m9.figshare.1089657](http://dx.doi.org/10.6084/m9.figshare.1089657) (PDF via figshare)   -->
 
 
 &nbsp;  
