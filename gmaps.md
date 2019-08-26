@@ -31,18 +31,26 @@ For a more immersive experience, there's a full-screen version <a href="/gmaps_f
 <div id="map"></div>
 <!-- places.geojson -->
 <link rel="points" type="application/json" href='/places.geojson'>
-<!-- <script src='places.geojson' type="text/javascript"></script> -->
+<!-- <script src='places.geojson' type="text/javascript"></script> http://{s}.tiles.mapbox.com/v4/mapbox.natural-earth-2/{z}/{x}/{y}.png-->
+
+<!--  -->
+<!-- https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png -->
+<!-- https://{s}.tiles.mapbox.com/v4/mapbox.satellite/${z}/${x}/${y}.png -->
+
+
 
 <script>
     // create map
     var map = L.map('map').setView([15, 0], 1);
-    // Natural Earth - zooms 0-6
-    naturalEarth = L.tileLayer('http://{s}.tiles.mapbox.com/v3/mapbox.natural-earth-2/{z}/{x}/{y}.png', {
+    // Basic MBox map - zooms 0-4
+    mapbox_simple = L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
             maxZoom: 4,
             minZoom: 0,
+            id: 'mapbox.streets',
+            accessToken: 'pk.eyJ1IjoiY2FybG9zZ3JvaG1hbm4iLCJhIjoiOGNmS3ptYyJ9.WzKUdXGmEgbl4C5EdQMhMw',
             attribution: '&copy; Tiles Courtesy of <a href="https://www.mapbox.com" title="MapBox" target="_blank">MapBox</a>',
             }).addTo(map);
-    // MapBox Terrain - zooms 7-18
+    // MapBox Terrain - zooms 5-18
     MBTerrain = L.tileLayer('http://{s}.tiles.mapbox.com/v3/carlosgrohmann.ibb4756i/{z}/{x}/{y}.png', {
             maxZoom: 18,
             minZoom: 5,

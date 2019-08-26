@@ -26,7 +26,7 @@ navbar-links:
   About Me: 
     - Bio|CV: "aboutme"
     - Photos: "photos"
-    # - Map: "gmaps"
+    - Map: "gmaps"
   Research:
     - Projects: "grants"
     - Students: "students"
