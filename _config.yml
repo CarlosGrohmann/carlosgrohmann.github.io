@@ -30,7 +30,7 @@ navbar-links:
   Research:
     - Projects: "grants"
     - Students: "students"
-    - SPAM!(Lab): "https://spamlab.github.io"
+    - SPAMLab: "https://spamlab.github.io"
   Publications: "publications"
   Blog:
     - Posts: "blog"

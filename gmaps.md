@@ -12,15 +12,15 @@ For a more immersive experience, there's a full-screen version <a href="/gmaps_f
 <h4>Some interesting places I've been</h4>
 
 <!-- JQuery -->
-<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="{{site.baseurl}}/js/jquery-1.10.2.min.js"></script>
 
 <!-- Leaflet stuff -->
-<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
-<script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+<link rel="stylesheet" href="{{site.baseurl}}/js/leaflet.css" />
+<script src="{{site.baseurl}}/js/leaflet.js"></script>
 
 <!-- Leaflet Label plugin -->
-<script src='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-label/v0.2.1/leaflet.label.js'></script>
-<link href='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-label/v0.2.1/leaflet.label.css' rel='stylesheet' />
+<script src='{{site.baseurl}}/js/leaflet.label.js'></script>
+<link href='{{site.baseurl}}/js/leaflet.label.css' rel='stylesheet' />
 
 <!-- /* LeafLet map props*/ -->
 <style type="text/css">
