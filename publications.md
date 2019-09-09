@@ -387,6 +387,13 @@ You can also check the code for these AddOns at my [GitHub page](https://github.
 &nbsp; 
 <a name="other"></a>
 ## Other Documents (Mixed Portuguese and English)
+
+Grohmann, C.H., 2015. Análise Digital de Terreno : aplicações em Geologia e Geomorfologia.  
+Unpublished Habilitation Thesis (Livre-Docência)  
+Institute of Geosciences, University of São Paulo, Brazil. (Mixed Portuguese and English)  
+Available at the University of São Paulo Digital Library.  
+[http://www.teses.usp.br/teses/disponiveis/livredocencia/106/tde-30072019-161617/](http://www.teses.usp.br/teses/disponiveis/livredocencia/106/tde-30072019-161617/)
+
 Grohmann, C.H., 2008. Análise digital de terreno do centro-leste brasileiro.  
 Unpublished DSc (PhD) Thesis  
 Institute of Geosciences, University of São Paulo, Brazil. (Mixed Portuguese and English)  
