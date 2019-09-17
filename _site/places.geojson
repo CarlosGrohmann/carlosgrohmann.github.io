@@ -1,7 +1,7 @@
 {
 "type": "FeatureCollection",
 "name": "places",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::32722" } },
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::4326" } },
 "features": [
 { "type": "Feature", "properties": { "latitude": -3.251233, "longitude": -52.251747, "category": "airport", "Title": "Altamira airport (ATM)" }, "geometry": { "type": "Point", "coordinates": [ -52.251747, -3.251233 ] } },
 { "type": "Feature", "properties": { "latitude": -10.987023, "longitude": -37.072501, "category": "airport", "Title": "Aracaju airport (AJU)" }, "geometry": { "type": "Point", "coordinates": [ -37.072501, -10.987023 ] } },
@@ -304,6 +304,25 @@
 { "type": "Feature", "properties": { "latitude": -10.919618, "longitude": -37.062378, "category": "place", "Title": "Aracaju - SE - 43rd Brazilian Geological Congress (2006)" }, "geometry": { "type": "Point", "coordinates": [ -37.062378, -10.919618 ] } },
 { "type": "Feature", "properties": { "latitude": -1.46171, "longitude": -48.503094, "category": "place", "Title": "Bel&eacute;m - PA - 45th Brazilian Geological Congress (2010)" }, "geometry": { "type": "Point", "coordinates": [ -48.503094, -1.46171 ] } },
 { "type": "Feature", "properties": { "latitude": -23.959187, "longitude": -46.335037, "category": "place", "Title": "Santos - SP - 46th Brazilian Geological Congress (2012)" }, "geometry": { "type": "Point", "coordinates": [ -46.335037, -23.959187 ] } },
-{ "type": "Feature", "properties": { "latitude": -12.98397, "longitude": -38.440526, "category": "place", "Title": "Salvador - BA - 47th Brazilian Geological Congress (2014)" }, "geometry": { "type": "Point", "coordinates": [ -38.440526, -12.98397 ] } }
+{ "type": "Feature", "properties": { "latitude": -12.98397, "longitude": -38.440526, "category": "place", "Title": "Salvador - BA - 47th Brazilian Geological Congress (2014)" }, "geometry": { "type": "Point", "coordinates": [ -38.440526, -12.98397 ] } },
+
+
+{ "type": "Feature", "properties": { "latitude": -44.623299, "longitude": -23.191779, "category": "dive", "Title": "Paraty - Ilha Comprida" }, "geometry": { "type": "Point", "coordinates": [ -44.623299, -23.191779 ] } },
+{ "type": "Feature", "properties": { "latitude": -46.669992, "longitude": -24.483342, "category": "dive", "Title": "Santos - Ilha Queimada Grande" }, "geometry": { "type": "Point", "coordinates": [ -46.669992, -24.483342 ] } },
+{ "type": "Feature", "properties": { "latitude": -47.521356, "longitude": -23.647931, "category": "dive", "Title": "Salto de Pirapora - Pedreira Salto de Pirapora" }, "geometry": { "type": "Point", "coordinates": [ -47.521356, -23.647931 ] } },
+{ "type": "Feature", "properties": { "latitude": -44.574677, "longitude": -23.186619, "category": "dive", "Title": "Paraty - Ilha dos Meros" }, "geometry": { "type": "Point", "coordinates": [ -44.574677, -23.186619 ] } },
+{ "type": "Feature", "properties": { "latitude": -44.623299, "longitude": -23.191779, "category": "dive", "Title": "Paraty - Ilha Comprida" }, "geometry": { "type": "Point", "coordinates": [ -44.623299, -23.191779 ] } },
+{ "type": "Feature", "properties": { "latitude": -44.57777, "longitude": -23.18705, "category": "dive", "Title": "Paraty - Ilha dos Meros - ponta sul" }, "geometry": { "type": "Point", "coordinates": [ -44.57777, -23.18705 ] } },
+{ "type": "Feature", "properties": { "latitude": -44.60878, "longitude": -23.19464, "category": "dive", "Title": "Paraty - Ilha dos Ratos" }, "geometry": { "type": "Point", "coordinates": [ -44.60878, -23.19464 ] } },
+{ "type": "Feature", "properties": { "latitude": -44.2835, "longitude": -23.11797, "category": "dive", "Title": "Ilha Grande - Pinguino" }, "geometry": { "type": "Point", "coordinates": [ -44.2835, -23.11797 ] } },
+{ "type": "Feature", "properties": { "latitude": -44.27416, "longitude": -23.11639, "category": "dive", "Title": "Ilha Grande - Aripeba" }, "geometry": { "type": "Point", "coordinates": [ -44.27416, -23.11639 ] } },
+{ "type": "Feature", "properties": { "latitude": -44.34943, "longitude": -23.16144, "category": "dive", "Title": "Ilha Grande - Praia Vermelha" }, "geometry": { "type": "Point", "coordinates": [ -44.34943, -23.16144 ] } },
+{ "type": "Feature", "properties": { "latitude": -44.34684, "longitude": -23.13713, "category": "dive", "Title": "Ilha Grande - Lage Branca" }, "geometry": { "type": "Point", "coordinates": [ -44.34684, -23.13713 ] } },
+{ "type": "Feature", "properties": { "latitude": -45.392058, "longitude": -23.829773, "category": "dive", "Title": "Ilhabela - Ilha das Cabras" }, "geometry": { "type": "Point", "coordinates": [ -45.392058, -23.829773 ] } },
+{ "type": "Feature", "properties": { "latitude": -38.927427, "longitude": -13.936087, "category": "dive", "Title": "Maraú - Taipu de Fora" }, "geometry": { "type": "Point", "coordinates": [ -38.927427, -13.936087 ] } },
+{ "type": "Feature", "properties": { "latitude": -44.858255, "longitude": -23.423037, "category": "dive", "Title": "Ubatuba - Ilha das Couves" }, "geometry": { "type": "Point", "coordinates": [ -44.858255, -23.423037 ] } },
+{ "type": "Feature", "properties": { "latitude": -44.859518, "longitude": -23.422262, "category": "dive", "Title": "Ubatuba - Ilhote das Couves" }, "geometry": { "type": "Point", "coordinates": [ -44.859518, -23.422262 ] } },
+{ "type": "Feature", "properties": { "latitude": -45.147387, "longitude": -23.790766, "category": "dive", "Title": "Ilhabela - Ilha de Búzios - Aquario" }, "geometry": { "type": "Point", "coordinates": [ -45.147387, -23.790766 ] } },
+{ "type": "Feature", "properties": { "latitude": -45.153347, "longitude": -23.794559, "category": "dive", "Title": "Ilhabela - Ilha de Búzios – Cercos" }, "geometry": { "type": "Point", "coordinates": [ -45.153347, -23.794559 ] } }
 ]
 }

@@ -60,6 +60,7 @@ For a more immersive experience, there's a full-screen version <a href="/gmaps_f
     function getColor(category) {
         return category == "airport"  ?   '#002E63' : 
                category == "place"    ?   '#FF7E00' :
+               category == "dive"     ?   '#FF0000' :
                                          '#000';
     }
     // Attaching a GeoJSON file with relative link: (from: http://lyzidiamond.com/posts/osgeo-august-meeting/)
