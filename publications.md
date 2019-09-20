@@ -232,7 +232,7 @@ Beca.
 &nbsp;  
 &nbsp; 
 <a name="chapters"></a>
-## Recent Abstracts  
+## Selected Abstracts  
 
 <a name="sbsr_litchi"></a>
 Grohmann, C.H.; Viana\*, C.D.; Garcia\*, G.P.B; Albuquerque\*, R.W.; Barale\*, F.; Ferretti\*, F.A., 2019. Semi-Automatic UAV-based SfM survey of vertical surfaces.  
@@ -253,6 +253,18 @@ _XIX Brazilian Symposium on Remote Sensing_. Santos, SP.
 <a name="sbsr_altura"></a>
 Santos\*, L.F.; Grohmann, C.H., 2019. Processamento fotogramétrico digital por Structure from Motion de imagens obtidas em voos de diferentes alturas sobre o solo.  
 _XIX Brazilian Symposium on Remote Sensing_. Santos, SP.  
+
+
+<a name="openstereo_snet"></a>
+Grohmann, C.H., Campanha, G.A.C., Soares Junior, A.D., 2011. OpenStereo: um programa Livre e multiplataforma para análise de dados estruturais.   
+_XIII Simpósio Nacional de Estudos Tectônicos_, Campinas, SP. Anais.   
+[http://dx.doi.org/10.6084/m9.figshare.1037685](http://dx.doi.org/10.6084/m9.figshare.1037685) (PDF via figshare)  
+
+<a name="openstereo_agu"></a>
+Grohmann, C.H., Campanha, G.A.C., 2010. OpenStereo: Open Source, Cross-Platform Software for Structural Geology Analysis.  
+_AGU Fall Meeting 2010_, San Francisco, California, USA.  
+[PDF](http://carlosgrohmann.com/downloads/Grohmann_Campanha_2010_AGU10_OpenStereo.pdf) 
+
 
 <!-- <a name="gmorph"></a>
 Grohmann, C.H.; Viana\*, C.D.; Busarello\*, M.T.S.; Garcia\*, G.P.B., 2018. Structural analysis of clastic dikes based on Structure from Motion/Multi-View Stereo.  
@@ -285,7 +297,7 @@ Grohmann, C.H., Campanha, G.A.C., Soares Junior, A.D., 2011. OpenStereo: um prog
 _XIII Simpósio Nacional de Estudos Tectônicos_, Campinas, SP. Anais.   
 [http://dx.doi.org/10.6084/m9.figshare.1037685](http://dx.doi.org/10.6084/m9.figshare.1037685) (PDF via figshare)  
 
-<a name="openstereo_gsa"></a>
+<a name="openstereo_agu"></a>
 Grohmann, C.H., Campanha, G.A.C., 2010. OpenStereo: Open Source, Cross-Platform Software for Structural Geology Analysis.  
 _AGU Fall Meeting 2010_, San Francisco, California, USA.  
 [PDF](http://carlosgrohmann.com/downloads/Grohmann_Campanha_2010_AGU10_OpenStereo.pdf)  
