@@ -37,6 +37,20 @@ Thesis available at the [University of São Paulo Digital Library](http://www.te
 &nbsp;  
 
 
+#### Academic Activities
+I am/was:   
+
+- Deputy Editor of the [Brazilian Journal of Geology](http://www.scielo.br/bjgeo) (2017-??)  
+
+- Associate Editor of [Computers & Geosciences](https://www.journals.elsevier.com/computers-and-geosciences/editorial-board) (2019-??)  
+
+- Vice-chair of the [International Society for Geomorphometry](http://geomorphometry.org/content/scientific-committee) (2015-??)  
+
+- Finance Director of the [Brazilian Geological Society](http://www.sbgeo.org.br/) (2014-2019)  
+&nbsp;  
+
+
+
 #### Social
 You can find me at:   
 
