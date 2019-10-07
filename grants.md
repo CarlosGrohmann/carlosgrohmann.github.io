@@ -25,13 +25,13 @@ PI: Mauricio Parra Amézquita, IEE-USP
 
 <a name="fapesp_pire"></a>**PIRE: climate research education in the Americas using tree-ring speleothem examples (PIRE-CREATE).**  
 period: 2017-2022  
-funding: FAPESP ([2017/50085-3 ](http://www.bv.fapesp.br/en/auxilios/82209/dimensions-us-biota-sao-paulo-a-multidisciplinary-framework-for-biodiversity-prediction-in-the-braz/))  
+funding: FAPESP ([2017/50085-3](http://www.bv.fapesp.br/en/auxilios/82209/dimensions-us-biota-sao-paulo-a-multidisciplinary-framework-for-biodiversity-prediction-in-the-braz/))  
 PIs: Francisco William da Cruz Junior, IGc-USP + Mathias Vuille, UAlbany  
 
-<a name="fapesp_afbiota"></a>**Dimensions US-BIOTA São Paulo: a multidisciplinary framework for biodiversity prediction in the Brazilian Atlantic forest hotspot.**  
-period: 2017-2019  
-funding: FAPESP ([2013/50297-0](http://www.bv.fapesp.br/en/auxilios/82209/dimensions-us-biota-sao-paulo-a-multidisciplinary-framework-for-biodiversity-prediction-in-the-braz/))  
-PIs: Cristina Miyaky, IB-USP + Ana Carolina Carnaval, CUNY  
+<a name="fapesp_core"></a>**Sea-level changes and global monsoon system: clues from marine cores in Brazil.**  
+period: 2019-2024  
+funding: FAPESP ([2016/24946-9](https://bv.fapesp.br/en/auxilios/104457/sea-level-changes-and-global-monsoon-system-clues-from-marine-cores-in-brazil/))  
+PI: Luigi Jovane, IO-USP   
 
 &nbsp;
 
@@ -62,6 +62,11 @@ PI: Carlos H. Grohmann
 period: 2017-2018  
 funding: DLR DEM_GEOL1066  
 PI: Carlos H. Grohmann  
+
+<a name="fapesp_afbiota"></a>**Dimensions US-BIOTA São Paulo: a multidisciplinary framework for biodiversity prediction in the Brazilian Atlantic forest hotspot.**  
+period: 2017-2019  
+funding: FAPESP ([2013/50297-0](http://www.bv.fapesp.br/en/auxilios/82209/dimensions-us-biota-sao-paulo-a-multidisciplinary-framework-for-biodiversity-prediction-in-the-braz/))  
+PIs: Cristina Miyaky, IB-USP + Ana Carolina Carnaval, CUNY  
 
 <a name="fapesp_ambiota"></a>**Dimensions US-BIOTA-Sao Paulo: Structure and evolution of the Amazonian biota and its environment: an integrative approach.**  
 period: 2012-2018  
