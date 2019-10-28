@@ -20,13 +20,16 @@ And if you use reference managers (you should), you can get a file with all my p
 <!-- <a name="jsaes"></a>Garcia, G.P.B.; Grohmann, C.H., 2018. DEM-based Geomorphological Mapping and Landforms Characterization of a Tropical Karst Environment in Southeastern Brazil. _in review_  
 Preprint available at EarthArXiv: [https://doi.org/10.31223/osf.io/t6y2e](https://doi.org/10.31223/osf.io/t6y2e) (open access)
  -->
+<!-- <a name="srep_pinaya"></a>
+Pinaya, J., Cruz, F., Ceccantini, G., Corrêa, P., Pitman, N., Vemado, F., Lopez, M., Pereira Filho, A., Grohmann, C., Chiessi, C., Strikis, N., Horák-Terra, I., Pinaya, W., Medeiros, V., Santos, R., Akabane, T., Silva, M., Cheddadi, R., Bush, M., Henrot, A-J., François, L., Hambuckers, A., Boyer, F., Carré, M., Coissac, E., Ficetola, F., Huang, K., Lézine, A-M., Nourelbait, M., Rhoujjati, A., Taberlet, P., Sarmiento, F., Abel-Schaad, D., Alba-Sánchez, F., Zheng, Z., de Oliveira, P., 2020 - Brazilian montane rainforests expansion induced by Heinrich Stadial 1 event.  
+_Scientific Reports_   -->
 
-<a name="jsames_karst"></a>
-
+<a name="garopaba_sfm"></a>
 36 - Grohmann C.H., Garcia\*. G.P.B., Affonso, A.A.\*, Albuquerque, R.W.\*, 2020(?) - Dune migration and volume change from airborne LiDAR, terrestrial LiDAR and Structure from Motion-Multi View Stereo.  
 _Submitted for revision_  
 Preprint available at [arXiv:1910.06186](https://arxiv.org/abs/1910.06186) [physics.geo-ph] (open access)  
 
+<a name="jsames_karst"></a>
 35 - Garcia\*. G.P.B., Grohmann C.H., 2019. DEM-based geomorphological mapping and landforms characterization of a tropical karst environment in southeastern Brazil.  
 _Journal of South American Earth Sciences_, 93:14-22.  
 [https://doi.org/10.1016/j.jsames.2019.04.013](https://doi.org/10.1016/j.jsames.2019.04.013)  
@@ -227,7 +230,7 @@ http://dx.doi.org/10.1016/j.jsames.2003.12.006
 Grohmann, C.H., Hargitai, H. 2015. Surface Roughness.  
 In: Hargitai, H., Kereszturi, A. (eds). Encyclopedia of Planetary Landforms.  
 Springer New York.  
-https://doi.org/10.1007/978-1-4614-9213-9_633-1  
+[https://doi.org/10.1007/978-1-4614-9213-9_633-1](https://doi.org/10.1007/978-1-4614-9213-9_633-1)  
 
 Riccomini C., Grohmann, C.H., Sant’Anna, L.G., Hiruma, S.T., 2008. A captura das cabeceiras do Rio Tietê pelo Rio Paraíba do Sul.  
 In: Modenesi-Gauttieri, M.C.; Bartorelli, A.; Lisboa, M.A.L.; Mantesso-Neto, V.(Org.). O geógrafo Aziz Nacib Ab’Sáber.  
@@ -237,7 +240,13 @@ Beca.
 &nbsp;  
 &nbsp; 
 <a name="chapters"></a>
-## Selected Abstracts  
+## Selected Abstracts/Conference Papers  
+
+<a name="isl_helen"></a>Dias, H.C., H&ouml;lbling, D., Grohmann C.H., 2020. Landslide inventory mapping in Brazil: Status and challenges. In: XIII International Symposium on Landslides, Cartagena, Colombia.  
+
+<a name="isrm_rough"></a>Viana C.D., Endlein A., Grohmann, C.H., Monticelli J.P., Campanha, G.A.C., 2019. SfM-MVS digital models applied to rock surface roughness. In: Fontoura, Rocca & Pavón Mendoza (Eds) _Rock Mechanics for Natural Resources and Infrastructure Development - Full Papers: Proceedings of the 14th International Congress on Rock Mechanics and Rock Engineering (ISRM 2019)_, September 13-18, 2019, Foz do Iguassu, Brazil. p.:560-566. ISBN 978-0-367-42284-4. Book available from [CRC Press](https://www.crcpress.com/Rock-Mechanics-for-Natural-Resources-and-Infrastructure-Development---Full/Fontoura-Rocca-Mendoza/p/book/9780367422844)  
+
+<a name="isrm_slope"></a>Viana C.D., Grohmann, C.H., Monticelli J.P., Garcia, G.P.B., Albuquerque. R.W., Cacciari, P.P., Futai, M.M., 2019. Slope stability assessment based on a digital outcrop model: A case-study at Jardim Garcia quarry. In: Fontoura, Rocca & Pavón Mendoza (Eds) _Rock Mechanics for Natural Resources and Infrastructure Development - Full Papers: Proceedings of the 14th International Congress on Rock Mechanics and Rock Engineering (ISRM 2019)_, September 13-18, 2019, Foz do Iguassu, Brazil. p.:3604-3611. ISBN 978-0-367-42284-4. Book available from [CRC Press](https://www.crcpress.com/Rock-Mechanics-for-Natural-Resources-and-Infrastructure-Development---Full/Fontoura-Rocca-Mendoza/p/book/9780367422844)  
 
 <a name="sbsr_litchi"></a>
 Grohmann, C.H.; Viana\*, C.D.; Garcia\*, G.P.B; Albuquerque\*, R.W.; Barale\*, F.; Ferretti\*, F.A., 2019. Semi-Automatic UAV-based SfM survey of vertical surfaces.  

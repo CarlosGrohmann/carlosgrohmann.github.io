@@ -27,12 +27,14 @@ navbar-links:
     - Bio|CV: "aboutme"
     - Photos: "photos"
     - Map: "gmaps"
+  Publications: "publications"
+  Outreach: "outreach"
   Research:
     - Projects: "grants"
     - Students: "students"
     - SPAMLab: "https://spamlab.github.io"
     - OpenStereo: "openstereo_chg"
-  Publications: "publications"
+
   Blog:
     - Posts: "blog"
     - Archive: "archive"
