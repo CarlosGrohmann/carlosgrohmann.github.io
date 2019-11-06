@@ -61,7 +61,7 @@ period: 2019-? | program: RMH
 
 **Lucas Pedrosa Soares**  
 Automatic segmentation of landslide scars in remote sensing imagery with deep learning  
-period: 2019-? | program: RMH  
+period: 2019-? | program: RMH | scholarship: FAPESP [grant #2019/17555-1]()  
 
 **Luiz Fernando dos Santos**  
 Application of High-resolution Digital Terrain Models in slope stability and mass movement analysis  
