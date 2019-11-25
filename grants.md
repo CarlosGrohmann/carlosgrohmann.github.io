@@ -25,7 +25,7 @@ PI: Mauricio Parra Amézquita, IEE-USP
 
 <a name="fapesp_pire"></a>**PIRE: climate research education in the Americas using tree-ring speleothem examples (PIRE-CREATE).**  
 period: 2017-2022  
-funding: FAPESP ([2017/50085-3](http://www.bv.fapesp.br/en/auxilios/82209/dimensions-us-biota-sao-paulo-a-multidisciplinary-framework-for-biodiversity-prediction-in-the-braz/))  
+funding: FAPESP ([2017/50085-3](https://bv.fapesp.br/en/auxilios/98958/pire-climate-research-education-in-the-americas-using-tree-ring-speleothem-examples-pire-create/))  
 PIs: Francisco William da Cruz Junior, IGc-USP + Mathias Vuille, UAlbany  
 
 <a name="fapesp_core"></a>**Sea-level changes and global monsoon system: clues from marine cores in Brazil.**  
