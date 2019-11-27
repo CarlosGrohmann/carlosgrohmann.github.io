@@ -9,7 +9,7 @@ permalink: /blog/new-layout/
 published: true
 ---
 
-If you are reading this it means my website is... alive and well! Ans you can see that this website has changed a bit. It loads faster, the visual is different (cleaner, I hope) and it works on all screen sizes (well, maybe not on a [Nokia 3310](https://en.wikipedia.org/wiki/Nokia_3310)).  
+If you are reading this it means my website is... alive and well! And you can see that this website has changed a bit. It loads faster, the visual is different (cleaner, I hope) and it works on all screen sizes (well, maybe not on a [Nokia 3310](https://en.wikipedia.org/wiki/Nokia_3310)).  
 
 The reason for all these wonderful features? [Jekyll](https://jekyllrb.com).  
 
