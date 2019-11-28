@@ -50,6 +50,10 @@ I am/was:
 &nbsp;  
 
 
+#### Research Group
+I'm the head of the CNPq Research Group on [Geomorphometry, Remote Sensing and Spatial Analysis](http://dgp.cnpq.br/dgp/espelhogrupo/3669868695434986) (description in Portuguese only).    
+
+
 
 #### Social
 You can find me at:   
