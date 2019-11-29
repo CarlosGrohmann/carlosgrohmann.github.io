@@ -7,10 +7,21 @@
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Tutorial - São Paulo City LiDAR</title>
+        <description>
+          
+          The São Paulo City Hall has just released free LiDAR data covering the city on their digital mapping platform, GeoSampa. Since the GeoSampa site is in Portuguese, I posted a short tutorial on how to access the data in the SPAMLab blog: https://spamlab.github.io/2019-11-25-pmsp_laz/. Also, just a few hours after the...
+        </description>
+        <pubDate>Mon, 25 Nov 2019 00:00:00 +0000</pubDate>
+        <link>http://localhost:4000/2019-11-25-pmsp_laz/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019-11-25-pmsp_laz/</guid>
+      </item>
+    
+      <item>
         <title>New site layout</title>
         <description>
           
-          If you are reading this it means my website is… alive and well! Ans you can see that this website has changed a bit. It loads faster, the visual is different (cleaner, I hope) and it works on all screen sizes (well, maybe not on a Nokia 3310). The reason...
+          If you are reading this it means my website is… alive and well! And you can see that this website has changed a bit. It loads faster, the visual is different (cleaner, I hope) and it works on all screen sizes (well, maybe not on a Nokia 3310). The reason...
         </description>
         <pubDate>Sun, 03 Feb 2019 00:00:00 +0000</pubDate>
         <link>http://localhost:4000/blog/new-layout/</link>
@@ -217,22 +228,6 @@ I’m thinking about hosting the PDFs of my papers and other documents with Zeno
         <pubDate>Fri, 24 Jan 2014 00:00:00 +0000</pubDate>
         <link>http://localhost:4000/blog/lattes-batima/</link>
         <guid isPermaLink="true">http://localhost:4000/blog/lattes-batima/</guid>
-      </item>
-    
-      <item>
-        <title>Correio!</title>
-        <description>
-          
-          Hoje tinha uma surpresa na caixa de correio! Na verdade estava lá faz tempo, mas como eu quase nunca abro a tal caixinha, só hoje que fui ver o cartão de natal que o Iscoti mandou, junto com um chaveiro muito legal. Olha só:  
-
-
-
-Valeu Iscoti!
-
-        </description>
-        <pubDate>Wed, 22 Jan 2014 00:00:00 +0000</pubDate>
-        <link>http://localhost:4000/blog/correio/</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/correio/</guid>
       </item>
     
   </channel>

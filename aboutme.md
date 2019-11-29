@@ -11,8 +11,27 @@ You can see my Lattes CV in [Portuguese](http://lattes.cnpq.br/5846052449613692)
 My ORCiD is [0000-0001-5073-5572](http://orcid.org/0000-0001-5073-5572)
 &nbsp;  
 &nbsp;  
-#### Quick bio
+#### Academic Activities
+I am/was:   
 
+- Head of the CNPq Research Group on [Geomorphometry, Remote Sensing and Spatial Analysis](http://dgp.cnpq.br/dgp/espelhogrupo/3669868695434986) (description in Portuguese only).   
+
+- Head of Department - [Division of Oil, Natural Gas and Bioenergy](http://iee.usp.br/?q=pt-br/divisao-cientifica/tecnologia-petroleo) - IEE-USP (2016-??)  
+
+- Deputy Editor of the [Brazilian Journal of Geology](http://www.scielo.br/bjgeo) (2017-??)  
+
+- Associate Editor of [Computers & Geosciences](https://www.journals.elsevier.com/computers-and-geosciences/editorial-board) (2019-??)  
+
+- Head of the Research Committee - IEE-USP (2015-2019)  
+
+- Vice-chair of the [International Society for Geomorphometry](http://geomorphometry.org/content/scientific-committee) (2015-??)  
+
+- Finance Director of the [Brazilian Geological Society](http://www.sbgeo.org.br/) (2014-2019)  
+&nbsp;  
+
+
+
+#### Quick bio
 - 2015-?? - Associate Professor of Geotechnologies  
 Institute of Energy and Environment ([IEE-USP](http://www.iee.usp.br)) - Brazil.  
 
@@ -35,24 +54,6 @@ Thesis available at the [University of São Paulo Digital Library](http://www.te
 
 - 1977 - Origin of species  
 &nbsp;  
-
-
-#### Academic Activities
-I am/was:   
-
-- Deputy Editor of the [Brazilian Journal of Geology](http://www.scielo.br/bjgeo) (2017-??)  
-
-- Associate Editor of [Computers & Geosciences](https://www.journals.elsevier.com/computers-and-geosciences/editorial-board) (2019-??)  
-
-- Vice-chair of the [International Society for Geomorphometry](http://geomorphometry.org/content/scientific-committee) (2015-??)  
-
-- Finance Director of the [Brazilian Geological Society](http://www.sbgeo.org.br/) (2014-2019)  
-&nbsp;  
-
-
-#### Research Group
-I'm the head of the CNPq Research Group on [Geomorphometry, Remote Sensing and Spatial Analysis](http://dgp.cnpq.br/dgp/espelhogrupo/3669868695434986) (description in Portuguese only).    
-
 
 
 #### Social
