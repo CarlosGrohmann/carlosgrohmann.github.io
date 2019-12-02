@@ -21,7 +21,7 @@ And if you use reference managers (you should), you can get a file with all my p
 
 <!-- <a name="pellets_anderson"></a>Ferreira, A.T.S., Ribeiro, M.C.H, Grohmann, C.H., 2020. Plastic pellets in sandy beaches: mechanisms and deposition indicators. _in review_ -->
 
-<!-- <a name="landslides_guilherme"></a>Garcia, G.P.B., Grohmann, C.H., Martinioni, T.H., Bortolucci, L. 2020. Automatic landslide identification based on vegetation indices and terrain attributes: a case study in Southeastern Brazil. _in review_  
+<!-- <a name="landslides_guilherme"></a>Garcia, G.P.B., Grohmann, C.H., Martinioni, T.H., Bortolucci, L. 2020. Automatic landslide identification based on vegetation indices and terrain attributes: a case study in Southeastern Brazil. _in review_
 Preprint available at EarthArXiv: [https://doi.org/10.31223/osf.io/t6y2e](https://doi.org/10.31223/osf.io/t6y2e) (open access)
  -->
 
@@ -30,14 +30,15 @@ Ciotta, M., Peyerl, D., Barrozo, L., Sant'Anna, L.G., Santos, E., Bermann, C., G
 
 
 <a name="garopaba_sfm"></a>
-37 - Grohmann C.H., Garcia\*. G.P.B., Affonso, A.A.\*, Albuquerque, R.W.\*, 2020(?) - Dune migration and volume change from airborne LiDAR, terrestrial LiDAR and Structure from Motion-Multi View Stereo.  
+37 - Grohmann C.H., Garcia\*. G.tP.B., Affonso, A.A.\*, Albuquerque, R.W.\*, 2020(?) - Dune migration and volume change from airborne LiDAR, terrestrial LiDAR and Structure from Motion-Multi View Stereo.  
 _Submitted for revision_  
 Preprint available at [arXiv:1910.06186](https://arxiv.org/abs/1910.06186) [physics.geo-ph] (open access)  
 
 <a name="srep_pinaya"></a>
-36 - Pinaya, J., Cruz, F., Ceccantini, G., Corrêa, P., Pitman, N., Vemado, F., Lopez, M., Pereira Filho, A., Grohmann, C., Chiessi, C., Strikis, N., Horák-Terra, I., Pinaya, W., Medeiros, V., Santos, R., Akabane, T., Silva, M., Cheddadi, R., Bush, M., Henrot, A-J., François, L., Hambuckers, A., Boyer, F., Carré, M., Coissac, E., Ficetola, F., Huang, K., Lézine, A-M., Nourelbait, M., Rhoujjati, A., Taberlet, P., Sarmiento, F., Abel-Schaad, D., Alba-Sánchez, F., Zheng, Z., de Oliveira, P., 2019 - Brazilian montane rainforests expansion induced by Heinrich Stadial 1 event.  
+<!-- 36 - Pinaya, J., Cruz, F., Ceccantini, G., Corrêa, P., Pitman, N., Vemado, F., Lopez, M., Pereira Filho, A., Grohmann, C., Chiessi, C., Strikis, N., Horák-Terra, I., Pinaya, W., Medeiros, V., Santos, R., Akabane, T., Silva, M., Cheddadi, R., Bush, M., Henrot, A-J., François, L., Hambuckers, A., Boyer, F., Carré, M., Coissac, E., Ficetola, F., Huang, K., Lézine, A-M., Nourelbait, M., Rhoujjati, A., Taberlet, P., Sarmiento, F., Abel-Schaad, D., Alba-Sánchez, F., Zheng, Z., de Oliveira, P., 2019 - Brazilian montane rainforests expansion induced by Heinrich Stadial 1 event.   -->
+36 - Pinaya, J., et al. 2019 - Brazilian montane rainforests expansion induced by Heinrich Stadial 1 event.  
 _Scientific Reports_, 9, Article number: 17912  
-[https://doi.org/10.1038/s41598-019-53036-1](https://doi.org/10.1038/s41598-019-53036-1)  
+[https://doi.org/10.1038/s41598-019-53036-1](https://doi.org/10.1038/s41598-019-53036-1) (open acess)  
 
 <a name="jsames_karst"></a>
 35 - Garcia\*. G.P.B., Grohmann C.H., 2019. DEM-based geomorphological mapping and landforms characterization of a tropical karst environment in southeastern Brazil.  
@@ -56,7 +57,7 @@ _Brazilian Journal of Geology_, 48(4):839-852.
 
 <a name="rse_tdx"></a>
 32 - Grohmann, C.H., 2018. Evaluation of TanDEM-X DEMs on selected Brazilian sites: comparison with SRTM, ASTER GDEM and ALOS AW3D30.  
-_Remote Sensing of Environment_, 212C:121-133.    
+_Remote Sensing of Environment_, 212C:121-133.  
 [https://doi.org/10.1016/j.rse.2018.04.043](https://doi.org/10.1016/j.rse.2018.04.043)  
 Preprint available at [arXiv:1709.05016](https://arxiv.org/abs/1709.05016) [physics.geo-ph] (open access)  
 
@@ -94,7 +95,7 @@ _Scientific Driling_: 20:21-32
 <a name="bjgeo_giannini"></a>
 25 - Giannini, P.C.F., Assine, M.L., Basilici, G., Grohmann, C.H., 2015. Excerpts from the 6th Latin American Congress of Sedimentology.  
 _Brazilian Journal of Geology_. 45:1-2  
-<http://dx.doi.org/10.1590/2317-4889201545000> (open access)  
+[http://dx.doi.org/10.1590/2317-4889201545000](http://dx.doi.org/10.1590/2317-4889201545000) (open access)  
 
 <a name="cageo_derivatives"></a>
 24 - Grohmann, C.H., 2015. Effects of spatial resolution on slope and aspect derivation for regional-scale analysis.  
@@ -106,28 +107,28 @@ Postprint available at [EarthArXiv.org](https://dx.doi.org/10.17605/OSF.IO/6XC29
 <a name="nascimento_sedgeo"></a>
 23 - Nascimento Jr., D.R., Sawakuchi, A.O., Guedes, C.C.F., Giannini, P.C.F., Grohmann, C.H., Ferreira, M.P., 2015. Provenance of sands from the confluence of the Amazon and Madeira rivers based on detrital heavy minerals and luminescence of quartz and feldspar.  
 _Sedimentary Geology_. 316:1-12.  
-<http://doi.org/10.1016/j.sedgeo.2014.11.002>  
+[http://doi.org/10.1016/j.sedgeo.2014.11.002](http://doi.org/10.1016/j.sedgeo.2014.11.002)  
 
 <a name="tennant"></a>
 22 – Tennant, J.P. et al., 2014. Open Letter to The American Association for the Advancement of Science.  
 _The Winnower_. 2:e140813.35294.  
-http://dx.doi.org/10.15200/winn.140813.35294 (open access)  
+[http://dx.doi.org/10.15200/winn.140813.35294](http://dx.doi.org/10.15200/winn.140813.35294) (open access)  
 
 <a name="quaglio"></a>
 21 – Quaglio, F., Grohmann, C.H., Fairchild, T.R., 2014. Como fazer relatórios em Geociências [How to Prepare Undergraduate Term Papers in Geosciences].  
 _Terrae Didatica_. 10:105-120.  
-http://www.ige.unicamp.br/terraedidatica (open access)  
+[http://www.ige.unicamp.br/terraedidatica](http://www.ige.unicamp.br/terraedidatica) (open access)  
 
 <a name="henriquepinto_jom"></a>
 20 – Henrique-Pinto, R., Janasi, V.A., Carvalho, B.B., Calado, B.O., Grohmann, C.H., 2014. Integrated geological map of the São Roque Domain, North of São Paulo City – Brazil.  
 _Journal of Maps_. 10:434-439.  
-http://dx.doi.org/10.1080/17445647.2014.883338  
+[http://dx.doi.org/10.1080/17445647.2014.883338](http://dx.doi.org/10.1080/17445647.2014.883338)  
 [Map](http://dx.doi.org/10.6084/m9.figshare.963467) (via figshare)  
 
 <a name="jacques"></a>
 19 – Jacques, P.D., Salvador, E.D., Machado, R., Grohmann, C.H., Nummer, A.R., 2014. Application of morphometry in neotectonic studies at the eastern edge of the Paraná Basin, Santa Catarina State, Brazil.  
 _Geomorphology_. 213:13-23.  
-http://dx.doi.org/10.1016/j.geomorph.2013.12.037  
+[http://dx.doi.org/10.1016/j.geomorph.2013.12.037](http://dx.doi.org/10.1016/j.geomorph.2013.12.037)  
 
 <a name="ijgis_editorial"></a>
 18 - Grohmann, C.H., Miliaresis, G., 2013. Geological applications of digital terrain analysis. (Editorial, Special Issue – Geological applications of digital terrain analysis).  
@@ -166,12 +167,12 @@ Postprint available at [EarthArXiv.org](https://dx.doi.org/10.17605/OSF.IO/2DSJN
 <a name="hessd_isobase"></a>
 12 – Grohmann, C.H., Riccomini, C., Chamani, M.A., 2011. Regional scale analysis of landform configuration with base-level maps.  
 _Hydrology and Earth System Sciences Discussions_. 8:89-110  
-http://dx.doi.org/10.5194/hessd-8-89-2011 (open access)  
+[http://dx.doi.org/10.5194/hessd-8-89-2011](http://dx.doi.org/10.5194/hessd-8-89-2011) (open access)  
 
 <a name="rodrigues"></a>
 11 – Rodrigues, S.W.O., Archanjo, C.J., Grohmann, C.H., 2010. Quantificação da deformação finita nos metagranitóides Cariris Velhos na Região de Alagoa Grande (PB).  
 _Geologia USP_. Série Científica.10:57-78  
-http://dx.doi.org/10.5327/Z1519-874X2010000300005 (open access)  
+[http://dx.doi.org/10.5327/Z1519-874X2010000300005](http://dx.doi.org/10.5327/Z1519-874X2010000300005) (open access)  
 Also available at [EarthArXiv.org](https://dx.doi.org/10.17605/OSF.IO/2DSJN) (open access)  
 
 <a name="rodrigues"></a>
