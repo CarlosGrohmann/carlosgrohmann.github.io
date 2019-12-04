@@ -30,7 +30,7 @@ period: 2019
 ### PhD Students
 **Alynne Almeida Affonso**  
 High-resolution remote sensing of *igapó* forests in the Xingu River, eastern Amazonia - analysis of sedimentation patterns  
-period: 2018-? | program: PROCAM  
+period: 2018-? | program: PROCAM | scholarship: CAPES PROEX  
 
 **Camila Duelis Viana** ([github](https://github.com/cdviana))  
 Application of multi-scale photogrammetry in structural data collection  
@@ -38,11 +38,11 @@ period: 2017-? | program: RMH
 
 **Guilherme Pereira Bento Garcia**  
 Detection and monitoring of landslides on natural slopes from integrated application of multispectral images and high-resolution elevation models  
-period: 2017-? | program: RMH  
+period: 2017-? | program: RMH | scholarship: CAPES PROAP  
 
 **Helen Cristina Dias**  
 Analysis of manual and semi-automatic shallow landslides inventories and its suitability in predictive models  
-period: 2019-? | program: PROCAM  
+period: 2019-? | program: PROCAM | scholarship: FAPESP grant #2019/17261-8  
 
 **Márcia Valadares dos Santos**  
 Environmental diagnostic and recovering evaluation of mining-degraded areas in the Itajaí region, Santa Catarina  
@@ -50,7 +50,7 @@ period: 2019-? | program: RMH
 
 **Rafael Walter de Albuquerque**  
 Remotely Piloted Aircrafts in assessment and monitoring of areas in environmental recovery process  
-period: 2018-? | program: PROCAM  
+period: 2018-? | program: PROCAM | scholarship: CAPES PROEX  
 &nbsp;  
 &nbsp;  
 
@@ -61,7 +61,7 @@ period: 2019-? | program: RMH
 
 **Lucas Pedrosa Soares**  
 Automatic segmentation of landslide scars in remote sensing imagery with deep learning  
-period: 2019-? | program: RMH | scholarship: FAPESP [grant #2019/17555-1]()  
+period: 2019-? | program: RMH | scholarship: FAPESP grant #2019/17555-1  
 
 **Luiz Fernando dos Santos**  
 Application of High-resolution Digital Terrain Models in slope stability and mass movement analysis  
