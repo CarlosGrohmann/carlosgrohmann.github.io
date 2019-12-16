@@ -21,7 +21,8 @@ This program has a strong socio-environmental focus, leaning towards the Humanit
 
 ### Post-Doc
 **Anderson Targino da Silva Ferreira**  
-Monitoring of microplastic (pellets) density of a sandy beach by coring, 3D modelling and meteoceanographic parameters  
+<a href="http://orcid.org/0000-0002-0440-6273">ORCiD</a> | <a href="http://lattes.cnpq.br/2987031006640819">Lattes CV</a>  
+Monitoring of microplastic (pellets) density of a sandy beach by coring, 3D modelling and meteoceanographic parameters.
 period: 2019 
 &nbsp;  
 &nbsp;  
@@ -29,41 +30,50 @@ period: 2019
 
 ### PhD Students
 **Alynne Almeida Affonso**  
+<a href="http://orcid.org/0000-0002-2646-3922">ORCiD</a> | <a href="http://lattes.cnpq.br/3330746311709629">Lattes CV</a>  
 High-resolution remote sensing of *igapó* forests in the Xingu River, eastern Amazonia - analysis of sedimentation patterns  
-period: 2018-? | program: PROCAM  
+period: 2018-? | program: PROCAM | scholarship: CAPES PROEX  
 
-**Camila Duelis Viana** ([github](https://github.com/cdviana))  
+**Camila Duelis Viana**  
+<a href="http://orcid.org/0000-0001-7093-0244">ORCiD</a> | <a href="http://lattes.cnpq.br/8408152690266564">Lattes CV</a> | <a href="https://cdviana.github.io/">site/blog</a>  
 Application of multi-scale photogrammetry in structural data collection  
 period: 2017-? | program: RMH  
 
 **Guilherme Pereira Bento Garcia**  
+<a href="http://orcid.org/0000-0003-1209-7842">ORCiD</a> | <a href="http://lattes.cnpq.br/8143036335035110">Lattes CV</a>  
 Detection and monitoring of landslides on natural slopes from integrated application of multispectral images and high-resolution elevation models  
-period: 2017-? | program: RMH  
+period: 2017-? | program: RMH | scholarship: CAPES PROAP  
 
 **Helen Cristina Dias**  
+<a href="http://orcid.org/0000-0002-5006-7006">ORCiD</a> | <a href="http://lattes.cnpq.br/6662222026617086">Lattes CV</a>  
 Analysis of manual and semi-automatic shallow landslides inventories and its suitability in predictive models  
-period: 2019-? | program: PROCAM  
+period: 2019-? | program: PROCAM | scholarship: FAPESP grant #2019/17261-8  
 
 **Márcia Valadares dos Santos**  
+<a href="http://lattes.cnpq.br/4630051898845467">Lattes CV</a>  
 Environmental diagnostic and recovering evaluation of mining-degraded areas in the Itajaí region, Santa Catarina  
 period: 2019-? | program: RMH  
 
 **Rafael Walter de Albuquerque**  
+<a href="http://orcid.org/0000-0002-4294-5876">ORCiD</a> | <a href="http://lattes.cnpq.br/1122324819287451">Lattes CV</a>  
 Remotely Piloted Aircrafts in assessment and monitoring of areas in environmental recovery process  
-period: 2018-? | program: PROCAM  
+period: 2018-? | program: PROCAM | scholarship: CAPES PROEX  
 &nbsp;  
 &nbsp;  
 
 ### Master's Students
 **Amanda Mendes de Sousa**  
+<a href="http://orcid.org/0000-0003-2264-5531">ORCiD</a> | <a href="http://lattes.cnpq.br/1341083329457480">Lattes CV</a>  
 Monitoring landslide susceptibility: using UAVs to generate 3D models for slope stability analysis in urban areas  
 period: 2019-? | program: RMH  
 
 **Lucas Pedrosa Soares**  
+<a href="http://orcid.org/0000-0002-6980-597X">ORCiD</a> | <a href="http://lattes.cnpq.br/0242746303744589">Lattes CV</a> | <a href="https://lpsmlgeo.github.io/">site/blog</a>  
 Automatic segmentation of landslide scars in remote sensing imagery with deep learning  
-period: 2019-? | program: RMH | scholarship: FAPESP [grant #2019/17555-1]()  
+period: 2019-? | program: RMH | scholarship: FAPESP grant [#2019/17555-1](https://bv.fapesp.br/49430)  
 
 **Luiz Fernando dos Santos**  
+<a href="http://orcid.org/0000-0003-2165-8058">ORCiD</a> | <a href="http://lattes.cnpq.br/9493267099200912">Lattes CV</a>  
 Application of High-resolution Digital Terrain Models in slope stability and mass movement analysis  
 period: 2016-? | program: RMH  
 &nbsp;  
@@ -71,10 +81,12 @@ period: 2016-? | program: RMH
 
 ### Undergrad Students
 **Francesco Barale**  
+<a href="http://orcid.org/0000-0002-2527-3617">ORCiD</a> | <a href="http://lattes.cnpq.br/0059823974469880">Lattes CV</a>  
 Generation of high-resolution Digital Elevation Models based on UAV imagery    
 level: Undergraduate research | funding: CNPq  
 
-**Mariana B.B. da Silva**
+**Mariana B.B. da Silva**  
+<a href="http://lattes.cnpq.br/6596101972048688">Lattes CV</a>  
 Analisis and Modelling of a smal landslide with SfM and TLS  
 level: Undergraduate research | funding: USP  
 &nbsp;  
