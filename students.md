@@ -72,6 +72,7 @@ period: 2019-? | program: RMH
 Automatic segmentation of landslide scars in remote sensing imagery with deep learning  
 period: 2019-? | program: RMH | scholarship: FAPESP grant [#2019/17555-1](https://bv.fapesp.br/49430)  
 
+
 **Luiz Fernando dos Santos**  
 <a href="http://orcid.org/0000-0003-2165-8058">ORCiD</a> | <a href="http://lattes.cnpq.br/9493267099200912">Lattes CV</a>  
 Application of High-resolution Digital Terrain Models in slope stability and mass movement analysis  
