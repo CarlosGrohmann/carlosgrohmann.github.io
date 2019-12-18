@@ -19,20 +19,22 @@ And if you use reference managers (you should), you can get a file with all my p
 \* Denotes student co-author.
 
 
-<!-- <a name="pellets_anderson"></a>Ferreira, A.T.S., Ribeiro, M.C.H, Grohmann, C.H., 2020. Plastic pellets in sandy beaches: mechanisms and deposition indicators. _in review_ -->
+<a name="pellets_anderson"></a>
+Ferreira, A.T.S., Ribeiro, M.C.H, Grohmann, C.H., 2020(?) - Plastic pellets in sandy beaches: mechanisms and deposition indicators.  
+_Submitted for revision_  
 
-<!-- <a name="landslides_guilherme"></a>Garcia, G.P.B., Grohmann, C.H., Martinioni, T.H., Bortolucci, L. 2020. Automatic landslide identification based on vegetation indices and terrain attributes: a case study in Southeastern Brazil. _in review_
-Preprint available at EarthArXiv: [https://doi.org/10.31223/osf.io/t6y2e](https://doi.org/10.31223/osf.io/t6y2e) (open access)
- -->
-
-<!-- <a name="aapg_ciotta"></a>
-Ciotta, M., Peyerl, D., Barrozo, L., Sant'Anna, L.G., Santos, E., Bermann, C., Grohmann, C., Moretto, E., Tassinari, C., 2020. An Analytical Overview of the Carbon Capture and Storage Atlases Around the World. _Environmental Geosciences_ -->
-
+<a name="landslides_guilherme"></a>
+Garcia, G.P.B.\*, Grohmann, C.H., Martinioni, T.H., Bortolucci, L. 2020(?) - Automatic landslide identification based on vegetation indices and terrain attributes: a case study in Southeastern Brazil.  
+_Submitted for revision_  
 
 <a name="garopaba_sfm"></a>
-37 - Grohmann C.H., Garcia\*. G.tP.B., Affonso, A.A.\*, Albuquerque, R.W.\*, 2020(?) - Dune migration and volume change from airborne LiDAR, terrestrial LiDAR and Structure from Motion-Multi View Stereo.  
+Grohmann C.H., Garcia\*. G.P.B., Affonso, A.A.\*, Albuquerque, R.W.\*, 2020(?) - Dune migration and volume change from airborne LiDAR, terrestrial LiDAR and Structure from Motion-Multi View Stereo.  
 _Submitted for revision_  
 Preprint available at [arXiv:1910.06186](https://arxiv.org/abs/1910.06186) [physics.geo-ph] (open access)  
+
+<a name="aapg_ciotta"></a>
+37 - Ciotta, M., Peyerl, D., Barrozo, L., Sant'Anna, L.G., Santos, E., Bermann, C., Grohmann, C., Moretto, E., Tassinari, C., 2020 - An Analytical Overview of the Carbon Capture and Storage Atlases Around the World.  
+_Environmental Geosciences_ (_accepted_)  
 
 <a name="srep_pinaya"></a>
 <!-- 36 - Pinaya, J., Cruz, F., Ceccantini, G., Corrêa, P., Pitman, N., Vemado, F., Lopez, M., Pereira Filho, A., Grohmann, C., Chiessi, C., Strikis, N., Horák-Terra, I., Pinaya, W., Medeiros, V., Santos, R., Akabane, T., Silva, M., Cheddadi, R., Bush, M., Henrot, A-J., François, L., Hambuckers, A., Boyer, F., Carré, M., Coissac, E., Ficetola, F., Huang, K., Lézine, A-M., Nourelbait, M., Rhoujjati, A., Taberlet, P., Sarmiento, F., Abel-Schaad, D., Alba-Sánchez, F., Zheng, Z., de Oliveira, P., 2019 - Brazilian montane rainforests expansion induced by Heinrich Stadial 1 event.   -->
@@ -44,6 +46,7 @@ _Scientific Reports_, 9, Article number: 17912
 35 - Garcia\*. G.P.B., Grohmann C.H., 2019. DEM-based geomorphological mapping and landforms characterization of a tropical karst environment in southeastern Brazil.  
 _Journal of South American Earth Sciences_, 93:14-22.  
 [https://doi.org/10.1016/j.jsames.2019.04.013](https://doi.org/10.1016/j.jsames.2019.04.013)  
+Preprint available at EarthArXiv: [https://doi.org/10.31223/osf.io/t6y2e](https://doi.org/10.31223/osf.io/t6y2e) (open access)  
 
 <a name="qsr_pupim"></a>
 34 - Pupim, F.N., Kern, A.K., Sawakuchi, A.O., Stern, A., Ribas, C.C., Grohmann C.H., C.C.M., Bertassoli Jr.D., J., Cruz, F., Hartmann, G., Savian, J., Cracraft, J., Tamura, L., Almeida, R.P., Mineli, T., 2019. Chronology of Terra Firme formation in Amazonian lowlands reveals a dynamic Quaternary landscape.  
