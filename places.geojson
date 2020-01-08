@@ -322,6 +322,7 @@
 { "type": "Feature", "properties": { "latitude": -38.927427, "longitude": -13.936087, "category": "dive", "Title": "Maraú - Taipu de Fora" }, "geometry": { "type": "Point", "coordinates": [ -38.927427, -13.936087 ] } },
 { "type": "Feature", "properties": { "latitude": -44.858255, "longitude": -23.423037, "category": "dive", "Title": "Ubatuba - Ilha das Couves" }, "geometry": { "type": "Point", "coordinates": [ -44.858255, -23.423037 ] } },
 { "type": "Feature", "properties": { "latitude": -44.859518, "longitude": -23.422262, "category": "dive", "Title": "Ubatuba - Ilhote das Couves" }, "geometry": { "type": "Point", "coordinates": [ -44.859518, -23.422262 ] } },
+{ "type": "Feature", "properties": { "latitude": -44.904581, "longitude": -23.425218, "category": "dive", "Title": "Ubatuba - Ilha da Rapada" }, "geometry": { "type": "Point", "coordinates": [ -44.858255, -23.423037 ] } },
 { "type": "Feature", "properties": { "latitude": -45.147387, "longitude": -23.790766, "category": "dive", "Title": "Ilhabela - Ilha de Búzios - Aquario" }, "geometry": { "type": "Point", "coordinates": [ -45.147387, -23.790766 ] } },
 { "type": "Feature", "properties": { "latitude": -45.153347, "longitude": -23.794559, "category": "dive", "Title": "Ilhabela - Ilha de Búzios – Cercos" }, "geometry": { "type": "Point", "coordinates": [ -45.153347, -23.794559 ] } }
 ]
