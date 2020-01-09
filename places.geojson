@@ -116,6 +116,7 @@
 { "type": "Feature", "properties": { "latitude": -6.774345, "longitude": -43.009533, "category": "place", "Title": "Floriano - PI" }, "geometry": { "type": "Point", "coordinates": [ -43.009533, -6.774345 ] } },
 { "type": "Feature", "properties": { "latitude": -25.509415, "longitude": -54.549002, "category": "place", "Title": "Foz do Igua&ccedil;u - PR" }, "geometry": { "type": "Point", "coordinates": [ -54.549002, -25.509415 ] } },
 { "type": "Feature", "properties": { "latitude": -28.00427, "longitude": -48.636, "category": "place", "Title": "Garopaba dune field - SC - Research" }, "geometry": { "type": "Point", "coordinates": [ -48.636, -28.00427 ] } },
+{ "type": "Feature", "properties": { "latitude": -28.132617, "longitude": -48.642887, "category": "place", "Title": "Praia do Rosa - Imbituba - SC" }, "geometry": { "type": "Point", "coordinates": [ -48.642887, -28.132617 ] } },
 { "type": "Feature", "properties": { "latitude": -12.243034, "longitude": -41.616069, "category": "place", "Title": "Iraquara - BA" }, "geometry": { "type": "Point", "coordinates": [ -41.616069, -12.243034 ] } },
 { "type": "Feature", "properties": { "latitude": -3.78112, "longitude": -40.496839, "category": "place", "Title": "Jaibaras - CE" }, "geometry": { "type": "Point", "coordinates": [ -40.496839, -3.78112 ] } },
 { "type": "Feature", "properties": { "latitude": -15.225694, "longitude": -56.498884, "category": "place", "Title": "Jangada - MT" }, "geometry": { "type": "Point", "coordinates": [ -56.498884, -15.225694 ] } },
