@@ -47,7 +47,7 @@ period: 2017-? | program: RMH | scholarship: CAPES PROAP
 **Helen Cristina Dias**  
 <a href="http://orcid.org/0000-0002-5006-7006">ORCiD</a> | <a href="http://lattes.cnpq.br/6662222026617086">Lattes CV</a>  
 Analysis of manual and semi-automatic shallow landslides inventories and its suitability in predictive models  
-period: 2019-? | program: PROCAM | scholarship: FAPESP grant #2019/17261-8  
+period: 2019-? | program: PROCAM | scholarship: FAPESP grant [#2019/17261-8](https://bv.fapesp.br/49547)  
 
 **Márcia Valadares dos Santos**  
 <a href="http://lattes.cnpq.br/4630051898845467">Lattes CV</a>  
