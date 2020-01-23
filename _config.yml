@@ -28,13 +28,13 @@ navbar-links:
     - Photos: "photos"
     - Map: "gmaps"
   Publications: "publications"
-  Outreach: "outreach"
   Research:
     - Projects: "grants"
     - Students: "students"
     - SPAMLab: "https://spamlab.github.io"
     - OpenStereo: "openstereo_chg"
-
+  Outreach: "outreach"
+  BJGEO: "bjgeo"
   Blog:
     - Posts: "blog"
     - Archive: "archive"

@@ -15,7 +15,7 @@ This program is characterised by Applied Geosciences studies. My line of work fo
 **Environmental Sciences** ([PROCAM - Programa de Pós-Graduação em Ciências Ambientais](http://www.iee.usp.br/pos/?q=procam)).  
 This program has a strong socio-environmental focus, leaning towards the Humanities and multidisciplinarity.  
 
-**Note:** Prospective students are advised to read the program's pages (links above) and be aware that internal norms/regulations and deadlines for subscriptions are different for these two programs. I will try to keep and updated scheduled of deadlines in the right sidebar, but I can't promise anything. Check constantly the program's pages for official, updated information. Also, it is wise to think ahead. Sending me an email with a project proposal only one month before the subscription deadline is not the best way to start. We need at least 3-4 months to work on a good proposal.  
+**Note:** Prospective students are advised to read the program's pages (links above) and be aware that internal norms/regulations and deadlines for subscriptions are different for these two programs. Check constantly the program's pages for official, updated information. Also, it is wise to think ahead. Sending me an email with a project proposal only one month before the subscription deadline is not the best way to start. We need at least 3-4 months to work on a good proposal.  
 &nbsp;  
 &nbsp;  
 
