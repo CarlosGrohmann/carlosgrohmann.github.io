@@ -15,26 +15,25 @@ Metrics:
 
 <br>
 
-#### FAQ about publishing:
+#### FAQ about BJGEO:
 
 **Are there any charges for publishing (APCs, color figures...)?**  
 No. We don't charge anything for publishing your paper. There are no Article Processing Charges (APCs) or costs for color figures. The journal in online-only so we don't have costs for printing.
 
 All the costs of the BJGEO are covered by the [Brazilian Geological Society](http://www.sbgeo.org.br/) (through a sponsorship from Petrobras) and by Scientific Publishing Grants from CNPq and CAPES (Federal agencies for Science and Higher Level Education). We are continuously looking for funding opportunities to keep the BJGEO free and open for everyone.
-<br>
 
+<br>
 **Where is the submission link?**   
-Right [here](https://mc04.manuscriptcentral.com/bjgeo-scielo). The submission system we use is ScholarOne.
-
-
-<br>
-**I've never submitted a paper before. How does it work?** 
-Here you will fin a simple guide about the whole process of publishing your article, from the submission to the final celebration (in Portuguese):
-
-- *Da submissão à comemoração, ou como funciona o processo de avaliação de um artigo científico, e qual sua parte nisso* - [https://doi.org/10.6084/m9.figshare.7701479.v1](https://doi.org/10.6084/m9.figshare.7701479.v1)   
+[Right here](https://mc04.manuscriptcentral.com/bjgeo-scielo). The submission system we use is ScholarOne.
 
 <br>
-**How long does it take from submission to first response?** 
+**I've never submitted a paper before. How does it work?**  
+Here you will find a simple guide about the whole process of publishing your article, from the submission to the final celebration (in Portuguese):
+
+- *Da submissão à comemoração, ou como funciona o processo de avaliação de um artigo científico, e qual sua parte nisso* - [https://doi.org/10.6084/m9.figshare.7701479.v1](https://doi.org/10.6084/m9.figshare.7701479.v1)
+
+<br>
+**How long does it take from submission to first response?**   
 This is a common question, and we try to give an answer to the author within 2 months since submission, but maybe the best answer is: it depends. Depends on what? A lot, actually. 
 
 First you submit you paper, then it goes to the Editor-in-Chief (EIC), who will screen it to see if it's a good fit for the journal, if it's an interesting topic, etc. If the paper is considered within our standards, it will be assigned to an Associate Editor (AE). The AE usually handles papers related to his/hers area of specialty (tectonics, petrology, etc) and will invite two or three reviewers to, well, review the paper. Each reviewer has 30 days to return the evaluation and from those recommendations, the AE can make an initial decision (reject/revise). 
