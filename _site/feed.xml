@@ -7,6 +7,17 @@
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>FAQ about BJGEO</title>
+        <description>
+          
+          The Brazilian Journal of Geology is the official publication of the Brazilian Geological Society. As the Deputy Editor, I receive emails with common questions about the journal. So I decided to crate a page with some useful information for potential authors. Click here to go to the BJGEO FAQ page...
+        </description>
+        <pubDate>Mon, 27 Jan 2020 00:00:00 +0000</pubDate>
+        <link>http://localhost:4000/2020-01-27-faq_bjgeo/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020-01-27-faq_bjgeo/</guid>
+      </item>
+    
+      <item>
         <title>Tutorial - São Paulo City LiDAR</title>
         <description>
           
@@ -217,17 +228,6 @@ I’m thinking about hosting the PDFs of my papers and other documents with Zeno
         <pubDate>Tue, 06 May 2014 00:00:00 +0000</pubDate>
         <link>http://localhost:4000/blog/gsa2014-call-for-abstracts-geological-and-geomorphological-applications-of-digital-terrain-analysis/</link>
         <guid isPermaLink="true">http://localhost:4000/blog/gsa2014-call-for-abstracts-geological-and-geomorphological-applications-of-digital-terrain-analysis/</guid>
-      </item>
-    
-      <item>
-        <title>E como coloca isso no Lattes, Bátima?</title>
-        <description>
-          
-          Ah, o Lattes. Mais cedo ou mais tarde, todos aqueles que optam pelos caminhos acadêmicos descobrem a importância de manter um currículo Lattes atualizado. E não é pra menos, afinal o danado serve pra tudo. Vai pedir bolsa? Lattes. Vai prestar concurso? Lattes. Vai pedir projeto de pesquisa? Lattes. Recebeu um...
-        </description>
-        <pubDate>Fri, 24 Jan 2014 00:00:00 +0000</pubDate>
-        <link>http://localhost:4000/blog/lattes-batima/</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/lattes-batima/</guid>
       </item>
     
   </channel>

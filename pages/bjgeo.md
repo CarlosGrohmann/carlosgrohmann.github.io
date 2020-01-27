@@ -4,7 +4,7 @@ title: BJGEO
 subtitle: Some resources for authors
 ---
 
-The [Brazilian Journal of Geology](www.scielo.br/bjgeo/) is published by the Brazilian Geological Society since 1971 (with a previous title of *Revista Brasileira de Geociencias*) and has been re-structured in 2013 aiming to be the leading journal for Geosciences in Latin America. The journal is indexed by Web of Science, Scopus, GeoRef and is hosted by [SciELO](www.scielo.br/), the largest electronic library of open-access scientific journals.  
+The [Brazilian Journal of Geology](http://www.scielo.br/bjgeo/) is published by the Brazilian Geological Society since 1971 (with a previous title of *Revista Brasileira de Geociencias*) and has been re-structured in 2013 aiming to be the leading journal for Geosciences in Latin America. The journal is indexed by Web of Science, Scopus, GeoRef and is hosted by [SciELO](http://www.scielo.br/), the largest electronic library of open-access scientific journals.  
 
 In this page I'll post some useful tips and resources for authors interested in submitting their articles to BJGEO.  
 
@@ -20,7 +20,7 @@ Metrics:
 **Are there any charges for publishing (APCs, color figures...)?**  
 No. We don't charge anything for publishing your paper. There are no Article Processing Charges (APCs) or costs for color figures. The journal in online-only so we don't have costs for printing.
 
-All the costs of the BJGEO are covered by the Brazilian Geological Society (through a sponsorship from Petrobras) and by Scientific Publishing Grants from CNPq and CAPES (Federal agencies for Science and Higher Level Education). We are continuously looking for funding opportunities to keep the BJGEO free and open for everyone.
+All the costs of the BJGEO are covered by the [Brazilian Geological Society](http://www.sbgeo.org.br/) (through a sponsorship from Petrobras) and by Scientific Publishing Grants from CNPq and CAPES (Federal agencies for Science and Higher Level Education). We are continuously looking for funding opportunities to keep the BJGEO free and open for everyone.
 <br>
 
 **Where is the submission link?**   

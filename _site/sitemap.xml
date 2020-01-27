@@ -361,6 +361,10 @@
 <lastmod>2019-11-25T00:00:00+00:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/2020-01-27-faq_bjgeo/</loc>
+<lastmod>2020-01-27T00:00:00+00:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/pages/aboutme/</loc>
 </url>
 <url>
@@ -428,6 +432,9 @@
 </url>
 <url>
 <loc>http://localhost:4000/blog/page9/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/blog/page10/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/downloads/Grohmann_Campanha_2010_AGU10_OpenStereo.pdf</loc>
