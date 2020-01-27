@@ -1,41 +1,47 @@
+---
+layout: page
+title: Map
+subtitle: 
+published: true
+---
+Map created with <a href="http://leafletjs.com" target="_blank">Leaflet</a>, using base layer data from <a href="https://www.mapbox.com" target="_blank">MapBox</a>.
+There's a <a href="https://carlosgrohmann.com/blog/making-a-where-ive-been-map-with-leaflet/" target="_blank">post on my blog</a> explaining how to make this map.
+
+For a more immersive experience, there's a full-screen version <a href="{{site.baseurl}}/pages/gmaps_full.html" target="_blank">here</a> (opens in a new tab/window).
+<div>
+<h4>Some interesting places I've been</h4>
 
 <!-- JQuery -->
-<script src="js/jquery-1.10.2.min.js"></script>
+<script src="{{site.baseurl}}/js/jquery-1.10.2.min.js"></script>
 
 <!-- Leaflet stuff -->
-<link rel="stylesheet" href="js/leaflet.css" />
-<script src="js/leaflet.js"></script>
+<link rel="stylesheet" href="{{site.baseurl}}/js/leaflet.css" />
+<script src="{{site.baseurl}}/js/leaflet.js"></script>
+
 <!-- Leaflet Label plugin -->
-<script src='js/leaflet.label.js'></script>
-<link href='js/leaflet.label.css' rel='stylesheet' />
+<script src='{{site.baseurl}}/js/leaflet.label.js'></script>
+<link href='{{site.baseurl}}/js/leaflet.label.css' rel='stylesheet' />
 
-<!--settings for full-screen map, from: http://bl.ocks.org/d3noob/7654694 -->
-<style>
-body {
-    padding: 0;
-    margin: 0;
-}
-html, body, #map {
-    height: 100%;
-    width: 100%;
-}
-</style>
-
-
-<!-- LeafLet map props
+<!-- /* LeafLet map props*/ -->
 <style type="text/css">
-#map { height: 100%; width: 100%;}
-</style>-->
+#map { height: 450px; width: 650px;}
+</style>
 
 <!-- LeafLet map  - relative link -->
 <div id="map"></div>
 <!-- places.geojson -->
-<link rel="points" type="application/json" href='places.geojson'>
-<!-- <script src='places.geojson' type="text/javascript"></script> -->
+<link rel="points" type="application/json" href='{{site.baseurl}}/pages/places.geojson'>
+<!-- <script src='places.geojson' type="text/javascript"></script> http://{s}.tiles.mapbox.com/v4/mapbox.natural-earth-2/{z}/{x}/{y}.png-->
+
+<!--  -->
+<!-- https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png -->
+<!-- https://{s}.tiles.mapbox.com/v4/mapbox.satellite/${z}/${x}/${y}.png -->
+
+
 
 <script>
     // create map
-    var map = L.map('map').setView([15, 0], 2);
+    var map = L.map('map').setView([15, 0], 1);
     // Basic MBox map - zooms 0-4
     mapbox_simple = L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
             maxZoom: 4,
@@ -50,7 +56,6 @@ html, body, #map {
             minZoom: 5,
             attribution: '&copy; Tiles Courtesy of <a href="https://www.mapbox.com" title="MapBox" target="_blank">MapBox</a>',
             }).addTo(map);                
-
     // color itens coording to properties
     function getColor(category) {
         return category == "airport"  ?   '#002E63' : 
@@ -58,13 +63,11 @@ html, body, #map {
                category == "dive"     ?   '#FF0000' :
                                          '#000';
     }
-    // Attaching a GeoJSON file with relative link from: http://lyzidiamond.com/posts/osgeo-august-meeting/
+    // Attaching a GeoJSON file with relative link: (from: http://lyzidiamond.com/posts/osgeo-august-meeting/)
       $.getJSON($('link[rel="points"]').attr("href"), function(data) {
         var geoJsonLayer = L.geoJson(data, {
             onEachFeature: function (feature, layer) {
-                // var content = '<b>' + feature.properties.Title + '<\/b>';
                 var desc = feature.properties.Title
-                // layer.bindPopup(content)
                 layer.bindLabel(desc)
             },
             pointToLayer: function (feature, latlng) {
@@ -72,9 +75,6 @@ html, body, #map {
                 radius: 3,
                 Label: getColor(feature.properties.Title), 
                 fillColor: getColor(feature.properties.category), 
-                // alternative one-liner from: 
-                // http://blog.thematicmapping.org/2012/10/mapping-new-zealand-where-are-hot-and.html
-                //fillColor: (feature.properties.category === 'place') ? '#FF7E00' : '#002E63',
                 color: "#000",
                 weight: 0.5,
                 opacity: 0.8,
@@ -84,3 +84,7 @@ html, body, #map {
         geoJsonLayer.addTo(map);
       });
 </script>
+
+&nbsp;
+&nbsp;
+&nbsp;

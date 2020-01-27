@@ -24,17 +24,17 @@ description: Personal website of Prof. Carlos H. Grohmann (IEE-USP, Brazil)
 # List of links in the navigation bar
 navbar-links:
   About Me: 
-    - Bio|CV: "aboutme"
-    - Photos: "photos"
-    - Map: "gmaps"
+    - Bio|CV: "pages/aboutme"
+    - Photos: "pages/photos"
+    - Map: "pages/gmaps"
   Research:
-    - Publications: "publications"
-    - Projects: "grants"
-    - Students: "students"
+    - Publications: "pages/publications"
+    - Projects: "pages/grants"
+    - Students: "pages/students"
     - SPAMLab: "https://spamlab.github.io"
-    - OpenStereo: "openstereo_chg"
-  Outreach: "outreach"
-  BJGEO: "bjgeo"
+    - OpenStereo: "pages/openstereo_chg"
+  Outreach: "pages/outreach"
+  BJGEO: "pages/bjgeo"
   Blog:
     - Posts: "blog"
     - Archive: "archive"
