@@ -27,8 +27,8 @@ navbar-links:
     - Bio|CV: "aboutme"
     - Photos: "photos"
     - Map: "gmaps"
-  Publications: "publications"
   Research:
+    - Publications: "publications"
     - Projects: "grants"
     - Students: "students"
     - SPAMLab: "https://spamlab.github.io"

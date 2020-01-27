@@ -24,7 +24,7 @@ All the costs of the BJGEO are covered by the Brazilian Geological Society (thro
 <br>
 
 **Where is the submission link?**   
-Right [here](). The submission system we use is ScholarOne
+Right [here](https://mc04.manuscriptcentral.com/bjgeo-scielo). The submission system we use is ScholarOne.
 
 
 <br>
