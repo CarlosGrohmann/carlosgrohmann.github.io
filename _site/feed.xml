@@ -7,6 +7,17 @@
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>UTM 23S??</title>
+        <description>
+          A common cartographical mistake in articles - 
+          If there’s one thing that I see all the time as a reviewer, is a map of some study area in Brazil with a caption like “UTM coordinates zone 23S”. That is wrong. Why? I’ll tell you. The UTM system divides the Earth into 60 zones (or fuses) of 6°...
+        </description>
+        <pubDate>Tue, 28 Jan 2020 00:00:00 +0000</pubDate>
+        <link>http://localhost:4000/2020-01-28-utm_south/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020-01-28-utm_south/</guid>
+      </item>
+    
+      <item>
         <title>FAQ about BJGEO</title>
         <description>
           
@@ -217,17 +228,6 @@ I’m thinking about hosting the PDFs of my papers and other documents with Zeno
         <pubDate>Tue, 27 May 2014 00:00:00 +0000</pubDate>
         <link>http://localhost:4000/blog/making-a-where-ive-been-map-with-leaflet/</link>
         <guid isPermaLink="true">http://localhost:4000/blog/making-a-where-ive-been-map-with-leaflet/</guid>
-      </item>
-    
-      <item>
-        <title>Gsa2014 Call For Abstracts Geological And Geomorphological Applications Of Digital Terrain Analysis</title>
-        <description>
-          
-          Geological Society of America Annual Meeting  Vancouver, B.C, Canada, 19-22 October 2014 http://community.geosociety.org/gsa2014/home/   Topical Session T128. Geological and Geomorphological Applications of Digital Terrain Analysis Carlos Henrique Grohmann, Christopher J. Crosby, Edwin Nissen Abstracts submission deadline: 29 July  Monitoring and quantification of rates of geomorphic processes requires repeated acquisition of...
-        </description>
-        <pubDate>Tue, 06 May 2014 00:00:00 +0000</pubDate>
-        <link>http://localhost:4000/blog/gsa2014-call-for-abstracts-geological-and-geomorphological-applications-of-digital-terrain-analysis/</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/gsa2014-call-for-abstracts-geological-and-geomorphological-applications-of-digital-terrain-analysis/</guid>
       </item>
     
   </channel>
