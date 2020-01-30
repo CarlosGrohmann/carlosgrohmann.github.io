@@ -24,7 +24,9 @@ All the costs of the BJGEO are covered by the [Brazilian Geological Society](htt
 
 <br>
 **Where is the submission link?**   
-[Right here](https://mc04.manuscriptcentral.com/bjgeo-scielo). The submission system we use is ScholarOne.
+[Right here](https://mc04.manuscriptcentral.com/bjgeo-scielo). The submission system we use is ScholarOne.  
+
+The full link is this: [https://mc04.manuscriptcentral.com/bjgeo-scielo](https://mc04.manuscriptcentral.com/bjgeo-scielo)  
 
 <br>
 **I've never submitted a paper before. How does it work?**  
@@ -46,9 +48,11 @@ In the end, if the paper is well-written, if the reviewers accept the invitation
 
 Since 2019 we adopted a 'continuous flow' of publication. This means that once a paper is accepted, it goes to production (typesetting) and its uploaded to the journal with a final DOI and page numbering (in about 2 weeks).
 
+<br>
+**Any tips about maps?**  
+Yes. Be careful with the UTM zone of your study area. For example, an area in southeastern Brazil will not be in zone UTM "23S", but "23K" or "23L".  
 
-
-
+There's a blog post about this. [Read it here.](/2020-01-28-utm_south/)
 
 
 
