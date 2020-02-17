@@ -6,12 +6,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, viewport-fit=cover">
 
-  <title>UTM 23S??</title>
+  <title>FAQ about BJGEO</title>
 
   <meta name="author" content="Carlos H. Grohmann" />
 
-  
-  <meta name="description" content="A common cartographical mistake in articles">
   
 
   <link rel="alternate" type="application/rss+xml" title="Prof. Carlos H. Grohmann - Personal website of Prof. Carlos H. Grohmann (IEE-USP, Brazil)" href="/feed.xml" />
@@ -73,19 +71,19 @@
   
 
   
-  <meta property="og:title" content="UTM 23S??" />
+  <meta property="og:title" content="FAQ about BJGEO" />
   
 
    
-  <meta property="og:description" content="A common cartographical mistake in articles">
+  <meta property="og:description" content="The Brazilian Journal of Geology is the official publication of the Brazilian Geological Society. As the Deputy Editor, I receive emails with common questions about the journal. So I decided to crate a page with some useful information for potential authors. Click here to go to the BJGEO FAQ page...">
   
 
 
   <meta property="og:type" content="website" />
 
   
-  <meta property="og:url" content="http://localhost:4000/2020-01-28-utm_south/" />
-  <link rel="canonical" href="http://localhost:4000/2020-01-28-utm_south/" />
+  <meta property="og:url" content="http://localhost:4000/blog/faq_bjgeo/" />
+  <link rel="canonical" href="http://localhost:4000/blog/faq_bjgeo/" />
   
 
   
@@ -99,11 +97,11 @@
   <meta name="twitter:creator" content="@" />
 
   
-  <meta name="twitter:title" content="UTM 23S??" />
+  <meta name="twitter:title" content="FAQ about BJGEO" />
   
 
   
-  <meta name="twitter:description" content="A common cartographical mistake in articles">
+  <meta name="twitter:description" content="The Brazilian Journal of Geology is the official publication of the Brazilian Geological Society. As the Deputy Editor, I receive emails with common questions about the journal. So I decided to crate a page with some useful information for potential authors. Click here to go to the BJGEO FAQ page...">
   
 
   
@@ -412,15 +410,11 @@
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
         <div class="post-heading">
-          <h1>UTM 23S??</h1>
-		  
-		    
-			<h2 class="post-subheading">A common cartographical mistake in articles</h2>
-			
+          <h1>FAQ about BJGEO</h1>
 		  
 		  
 		  
-		  <span class="post-meta">Posted on January 28, 2020</span>
+		  <span class="post-meta">Posted on January 27, 2020</span>
 		  
         </div>
       </div>
@@ -440,68 +434,11 @@
       
 
       <article role="main" class="blog-post">
-        <p>If there’s one thing that I see all the time as a reviewer, is a map of some study area in Brazil with a caption like “UTM coordinates zone 23S”.</p>
+        <p>The <a rel="noopener noreferrer" target="_blank" href="http://www.scielo.br/bjgeo/">Brazilian Journal of Geology</a> is the official publication of the <a rel="noopener noreferrer" target="_blank" href="http://www.sbgeo.org.br/">Brazilian Geological Society</a>. As the Deputy Editor, I receive emails with common questions about the journal. So I decided to crate a page with some useful information for potential authors.</p>
 
-<p>That is wrong.</p>
+<p><a href="/pages/bjgeo">Click here to go to the BJGEO FAQ page</a></p>
 
-<p>Why? I’ll tell you.<br />
-The <a rel="noopener noreferrer" target="_blank" href="https://en.wikipedia.org/wiki/Universal_Transverse_Mercator_coordinate_system">UTM system</a> divides the Earth into 60 zones (or fuses) of 6° longitude (plus some special zones at high latitudes). Zone 1 starts at 180° and zone numbering increases eastwards.</p>
-
-<p>Then each zone is divided into 8° latitude bands, which are labeled by letters, starting with “C” at 80°S and going trhough the English alphabet until “X” (“I” and “O” are excluded because they are too similar to numbers 1 and zero).</p>
-
-<p>See how the whole thing looks (click to enlarge):</p>
-
-<table class="table-borderless">
-  <thead>
-    <tr>
-      <th style="text-align: center"><a href="/img/utm/2000px-Universal_Transverse_Mercator_zones.svg.png"><img src="/img/utm/500px-Universal_Transverse_Mercator_zones.svg.png" alt="utm_zones" title="Click to see larger image" width="500px" /></a></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align: center"><em>UTM zones (<a rel="noopener noreferrer" target="_blank" href="https://en.wikipedia.org/wiki/Universal_Transverse_Mercator_coordinate_system">Wikipedia</a>)</em></td>
-    </tr>
-  </tbody>
-</table>
-<p><br /></p>
-
-<p>From that image we can see that a study area located in southeastern Brazil, like the city of <a rel="noopener noreferrer" target="_blank" href="https://en.wikipedia.org/wiki/S%C3%A3o_Paulo">São Paulo</a>, will be in UTM zone 23K or 23J, but not 23S. Zone 23S is in the North Atlantic Ocean!</p>
-
-<p>So why this happens at all? Simple, GIS software just don’t care! For a computer, all that matters is if your area is north or south of the Equator line. So a map projected in UTM, zone 23, southern hemisphere is just “23S”. And the same zone in the northern hemisphere is “23N”.</p>
-
-<p>And what should I use in my maps?, you might ask. The right zone. Use “23K” or “23 south” but if you’re not studying the <a rel="noopener noreferrer" target="_blank" href="http://www.marineregions.org/gazetteer.php?p=details&amp;id=34297">Yakutat Seamount</a>, please don’t use “23S”.</p>
-
-<p>And how can I find the right zone?, you might also ask? One simple trick is to use Google Earth. Just go to the software’s Preferences and in the coordinate system (in mine it says “Show Lat/Long”) you choose “Universal Tranverse Mercator”. Now the status bar at the bottom of the window will show you the coordinate and the UTM zone.</p>
-
-<p><br /></p>
-
-<table class="table-borderless">
-  <thead>
-    <tr>
-      <th style="text-align: left"><img src="/img/utm/gearth_sp.png" alt="" width="500px" /></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align: left"><em>A little bit of São Paulo city, UTM zone 23K (screen capture from Google Earth)</em></td>
-    </tr>
-  </tbody>
-</table>
-<p><br /></p>
-
-<table class="table-borderless">
-  <thead>
-    <tr>
-      <th style="text-align: left"><img src="/img/utm/gearth_na.png" alt="" width="500px" /></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align: left"><em>Not São Paulo city, UTM zone 23S (screen capture from Google Earth)</em></td>
-    </tr>
-  </tbody>
-</table>
-<p><br /></p>
+<p>Did your questions were answered in the FAQ? If not, leave a comment below.</p>
 
 <p><br /> 
 <em>post by Carlos H. Grohmann</em></p>
@@ -522,10 +459,6 @@ The <a rel="noopener noreferrer" target="_blank" href="https://en.wikipedia.org/
           
             <a href="/tags#faq">faq</a>
           
-            <a href="/tags#utm">utm</a>
-          
-            <a href="/tags#carto">carto</a>
-          
           
         </div>
       
@@ -541,7 +474,7 @@ The <a rel="noopener noreferrer" target="_blank" href="https://en.wikipedia.org/
 
   
   <!--- Share on Twitter -->
-    <a rel="noopener noreferrer" target="_blank" href="https://twitter.com/intent/tweet?text=UTM+23S%3F%3F+http://localhost:4000/2020-01-28-utm_south/"
+    <a rel="noopener noreferrer" target="_blank" href="https://twitter.com/intent/tweet?text=FAQ+about+BJGEO+http://localhost:4000/blog/faq_bjgeo/"
       class="btn btn-social-icon btn-twitter" title="Share on Twitter">
       <span class="fa fa-fw fa-twitter" aria-hidden="true"></span>
       <span class="sr-only">Twitter</span>
@@ -550,7 +483,7 @@ The <a rel="noopener noreferrer" target="_blank" href="https://en.wikipedia.org/
 
   
   <!--- Share on Facebook -->
-    <a rel="noopener noreferrer" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/2020-01-28-utm_south/"
+    <a rel="noopener noreferrer" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/blog/faq_bjgeo/"
       class="btn btn-social-icon btn-facebook" title="Share on Facebook">
       <span class="fa fa-fw fa-facebook" aria-hidden="true"></span>
       <span class="sr-only">Facebook</span>
@@ -559,7 +492,7 @@ The <a rel="noopener noreferrer" target="_blank" href="https://en.wikipedia.org/
 
   
   <!--- Share on Google Plus -->
-    <a rel="noopener noreferrer" target="_blank" href="https://plus.google.com/share?url=http://localhost:4000/2020-01-28-utm_south/"
+    <a rel="noopener noreferrer" target="_blank" href="https://plus.google.com/share?url=http://localhost:4000/blog/faq_bjgeo/"
       class="btn btn-social-icon btn-google" title="Share on Google+">
       <span class="fa fa-fw fa-google-plus" aria-hidden="true"></span>
       <span class="sr-only">Google+</span>
@@ -577,9 +510,13 @@ The <a rel="noopener noreferrer" target="_blank" href="https://en.wikipedia.org/
       <ul class="pager blog-pager">
         
         <li class="previous">
-          <a href="/2020-01-27-faq_bjgeo/" data-toggle="tooltip" data-placement="top" title="FAQ about BJGEO">&larr; Previous Post</a>
+          <a href="/blog/pmsp_laz/" data-toggle="tooltip" data-placement="top" title="Tutorial - São Paulo City LiDAR">&larr; Previous Post</a>
         </li>
         
+        
+        <li class="next">
+          <a href="/blog/utm_23s/" data-toggle="tooltip" data-placement="top" title="UTM 23S??">Next Post &rarr;</a>
+        </li>
         
       </ul>
 

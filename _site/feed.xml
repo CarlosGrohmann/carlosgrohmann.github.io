@@ -13,8 +13,8 @@
           If there’s one thing that I see all the time as a reviewer, is a map of some study area in Brazil with a caption like “UTM coordinates zone 23S”. That is wrong. Why? I’ll tell you. The UTM system divides the Earth into 60 zones (or fuses) of 6°...
         </description>
         <pubDate>Tue, 28 Jan 2020 00:00:00 +0000</pubDate>
-        <link>http://localhost:4000/2020-01-28-utm_south/</link>
-        <guid isPermaLink="true">http://localhost:4000/2020-01-28-utm_south/</guid>
+        <link>http://localhost:4000/blog/utm_23s/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/utm_23s/</guid>
       </item>
     
       <item>
@@ -24,8 +24,8 @@
           The Brazilian Journal of Geology is the official publication of the Brazilian Geological Society. As the Deputy Editor, I receive emails with common questions about the journal. So I decided to crate a page with some useful information for potential authors. Click here to go to the BJGEO FAQ page...
         </description>
         <pubDate>Mon, 27 Jan 2020 00:00:00 +0000</pubDate>
-        <link>http://localhost:4000/2020-01-27-faq_bjgeo/</link>
-        <guid isPermaLink="true">http://localhost:4000/2020-01-27-faq_bjgeo/</guid>
+        <link>http://localhost:4000/blog/faq_bjgeo/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/faq_bjgeo/</guid>
       </item>
     
       <item>
@@ -35,8 +35,8 @@
           The São Paulo City Hall has just released free LiDAR data covering the city on their digital mapping platform, GeoSampa. Since the GeoSampa site is in Portuguese, I posted a short tutorial on how to access the data in the SPAMLab blog: https://spamlab.github.io/2019-11-25-pmsp_laz/. Also, just a few hours after the...
         </description>
         <pubDate>Mon, 25 Nov 2019 00:00:00 +0000</pubDate>
-        <link>http://localhost:4000/2019-11-25-pmsp_laz/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019-11-25-pmsp_laz/</guid>
+        <link>http://localhost:4000/blog/pmsp_laz/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/pmsp_laz/</guid>
       </item>
     
       <item>
