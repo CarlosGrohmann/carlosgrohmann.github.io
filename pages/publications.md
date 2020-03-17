@@ -23,9 +23,9 @@ And if you use reference managers (you should), you can get a file with all my p
 Ferreira, A.T.S., Ribeiro, M.C.H, Grohmann, C.H., 2020(?) - Plastic pellets in sandy beaches: mechanisms and deposition indicators.  
 _Submitted for revision_  
 
-<a name="landslides_guilherme"></a>
+<!-- <a name="landslides_guilherme"></a>
 Garcia, G.P.B.\*, Grohmann, C.H., Martinioni, T.H., Bortolucci, L. 2020(?) - Automatic landslide identification based on vegetation indices and terrain attributes: a case study in Southeastern Brazil.  
-_Submitted for revision_  
+_Submitted for revision_   -->
 
 <a name="garopaba_sfm"></a>
 Grohmann C.H., Garcia\*. G.P.B., Affonso, A.A.\*, Albuquerque, R.W.\*, 2020(?) - Dune migration and volume change from airborne LiDAR, terrestrial LiDAR and Structure from Motion-Multi View Stereo.  
@@ -34,7 +34,8 @@ Preprint available at [arXiv:1910.06186](https://arxiv.org/abs/1910.06186) [phys
 
 <a name="aapg_ciotta"></a>
 37 - Ciotta, M., Peyerl, D., Barrozo, L., Sant'Anna, L.G., Santos, E., Bermann, C., Grohmann, C., Moretto, E., Tassinari, C., 2020 - An Analytical Overview of the Carbon Capture and Storage Atlases Around the World.  
-_Environmental Geosciences_ (_accepted_)  
+_Environmental Geosciences_, 23:1-8.  
+[http://dx.doi.org/10.1306/eg.10221919015](http://dx.doi.org/10.1306/eg.10221919015)  
 
 <a name="srep_pinaya"></a>
 <!-- 36 - Pinaya, J., Cruz, F., Ceccantini, G., Corrêa, P., Pitman, N., Vemado, F., Lopez, M., Pereira Filho, A., Grohmann, C., Chiessi, C., Strikis, N., Horák-Terra, I., Pinaya, W., Medeiros, V., Santos, R., Akabane, T., Silva, M., Cheddadi, R., Bush, M., Henrot, A-J., François, L., Hambuckers, A., Boyer, F., Carré, M., Coissac, E., Ficetola, F., Huang, K., Lézine, A-M., Nourelbait, M., Rhoujjati, A., Taberlet, P., Sarmiento, F., Abel-Schaad, D., Alba-Sánchez, F., Zheng, Z., de Oliveira, P., 2019 - Brazilian montane rainforests expansion induced by Heinrich Stadial 1 event.   -->
