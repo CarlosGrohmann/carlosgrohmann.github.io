@@ -28,9 +28,14 @@ Garcia, G.P.B.\*, Grohmann, C.H., Martinioni, T.H., Bortolucci, L. 2020(?) - Aut
 _Submitted for revision_   -->
 
 <a name="garopaba_sfm"></a>
-Grohmann C.H., Garcia\*. G.P.B., Affonso, A.A.\*, Albuquerque, R.W.\*, 2020(?) - Dune migration and volume change from airborne LiDAR, terrestrial LiDAR and Structure from Motion-Multi View Stereo.  
+Grohmann C.H., Garcia\*. G.P.B., Affonso, A.A.\*, Albuquerque, R.W.\*, 2020(?) - Aeolian dune modelling from airborne LiDAR, terrestrial LiDAR and Structure from Motion--Multi View Stereo.  
 _Submitted for revision_  
 Preprint available at [arXiv:1910.06186](https://arxiv.org/abs/1910.06186) [physics.geo-ph] (open access)  
+
+<a name="colonia_quatgeo"></a>
+38 - Simon, Q., Ledru, M.P., Sawakuchi, A.O., Favier, C., Mineli, T.D., Grohmann, C.H., Guedes, M., Bard, E., Thouveny, N., Garcia, M., Tachikawa, K., Rodríguez-Zorro, P.A., ASTER Team, 2020 - Chronostratigraphy of a 1.5±0.1 Ma composite sedimentary record from Colônia basin (SE Brazil): Bayesian modeling based on paleomagnetic, authigenic 10Be/9Be, radiocarbon and luminescence dating  
+_Quaternary Geochronology_, 101081  
+[https://doi.org/10.1016/j.quageo.2020.101081](https://doi.org/10.1016/j.quageo.2020.101081)  
 
 <a name="aapg_ciotta"></a>
 37 - Ciotta, M., Peyerl, D., Barrozo, L., Sant'Anna, L.G., Santos, E., Bermann, C., Grohmann, C., Moretto, E., Tassinari, C., 2020 - An Analytical Overview of the Carbon Capture and Storage Atlases Around the World.  
@@ -238,10 +243,13 @@ _Journal of South American Earth Sciences_,16(8):725-741.
 http://dx.doi.org/10.1016/j.jsames.2003.12.006  
 
 
-&nbsp;  
+&nbsp;;  
 &nbsp; 
 <a name="chapters"></a>
 ## Book Chapters  
+<a name="ambiota_origin"></a>Cracraft, J.; Camila Ribas, C.; d'Horta, F.M.; Bates, J.; Almeida, R.P.; Aleixo, A.; Boubli, J.P.; Campbell, K.E.; Cruz, F.W.; Ferreira, M.; Fritz, S.C.; Grohmann, C.H.; Latrubesse, E.M.; Lohmann, L.G.; Musher, L.J.; Nogueira, A.; Sawakuchi, A.O.; Baker, P., 2020. The Origin and Evolution of Amazonian Species Diversity. In: Rull, V. and Carnaval, A.C. (Eds) _Neotropical Diversification: Patterns and Processes_. p.:225-244. ISBN 978-3-030-31167-4. Springer International Publishing.  
+[https://doi.org/10.1007/978-3-030-31167-4_10](https://doi.org/10.1007/978-3-030-31167-4_10)  
+
 <a name="isrm_rough"></a>Viana C.D., Endlein A., Grohmann, C.H., Monticelli J.P., Campanha, G.A.C., 2019. SfM-MVS digital models applied to rock surface roughness. In: Fontoura, Rocca & Pavón Mendoza (Eds) _Rock Mechanics for Natural Resources and Infrastructure Development - Full Papers: Proceedings of the 14th International Congress on Rock Mechanics and Rock Engineering (ISRM 2019)_, September 13-18, 2019, Foz do Iguassu, Brazil. p.:560-566. ISBN 978-0-367-42284-4. Book available from [CRC Press](https://www.crcpress.com/Rock-Mechanics-for-Natural-Resources-and-Infrastructure-Development---Full/Fontoura-Rocca-Mendoza/p/book/9780367422844)  
 
 <a name="isrm_slope"></a>Viana C.D., Grohmann, C.H., Monticelli J.P., Garcia, G.P.B., Albuquerque. R.W., Cacciari, P.P., Futai, M.M., 2019. Slope stability assessment based on a digital outcrop model: A case-study at Jardim Garcia quarry. In: Fontoura, Rocca & Pavón Mendoza (Eds) _Rock Mechanics for Natural Resources and Infrastructure Development - Full Papers: Proceedings of the 14th International Congress on Rock Mechanics and Rock Engineering (ISRM 2019)_, September 13-18, 2019, Foz do Iguassu, Brazil. p.:3604-3611. ISBN 978-0-367-42284-4. Book available from [CRC Press](https://www.crcpress.com/Rock-Mechanics-for-Natural-Resources-and-Infrastructure-Development---Full/Fontoura-Rocca-Mendoza/p/book/9780367422844)  
