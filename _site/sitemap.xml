@@ -381,6 +381,9 @@
 <loc>http://localhost:4000/pages/gmaps/</loc>
 </url>
 <url>
+<loc>http://localhost:4000/gmaps/</loc>
+</url>
+<url>
 <loc>http://localhost:4000/pages/grants/</loc>
 </url>
 <url>
@@ -451,6 +454,10 @@
 <url>
 <loc>http://localhost:4000/downloads/Grohmann_openstereo_AGU10.pdf</loc>
 <lastmod>2019-10-11T12:42:00+00:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/gmaps_full.html</loc>
+<lastmod>2019-09-16T18:56:17+00:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/pages/gmaps_full.html</loc>
