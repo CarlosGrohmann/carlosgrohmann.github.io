@@ -1,10 +1,12 @@
 
 <!-- JQuery -->
-<script src="/js/jquery-1.10.2.min.js"></script>
+<script src="/js/jquery-3.4.1.min.js"></script>
 
 <!-- Leaflet stuff -->
 <link rel="stylesheet" href="/js/leaflet.css" />
 <script src="/js/leaflet.js"></script>
+<script src="/js/leaflet-providers.js"></script>
+
 <!-- Leaflet Label plugin -->
 <script src='/js/leaflet.label.js'></script>
 <link href='/js/leaflet.label.css' rel='stylesheet' />
@@ -34,47 +36,55 @@ html, body, #map {
 <!-- <script src='places.geojson' type="text/javascript"></script> -->
 
 <script>
-    // create map
-    var map = L.map('map').setView([15, 0], 2);
-    // Basic MBox map - zooms 0-4
-    mapbox_simple = L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
-            maxZoom: 4,
-            minZoom: 0,
-            id: 'mapbox.streets',
-            accessToken: 'pk.eyJ1IjoiY2FybG9zZ3JvaG1hbm4iLCJhIjoiOGNmS3ptYyJ9.WzKUdXGmEgbl4C5EdQMhMw',
-            attribution: '&copy; Tiles Courtesy of <a href="https://www.mapbox.com" title="MapBox" target="_blank">MapBox</a>',
-            }).addTo(map);
-    // MapBox Terrain - zooms 5-18
-    MBTerrain = L.tileLayer('http://{s}.tiles.mapbox.com/v3/carlosgrohmann.ibb4756i/{z}/{x}/{y}.png', {
-            maxZoom: 18,
-            minZoom: 5,
-            attribution: '&copy; Tiles Courtesy of <a href="https://www.mapbox.com" title="MapBox" target="_blank">MapBox</a>',
-            }).addTo(map);                
+
+    var OpenTopoMap = L.tileLayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png', {
+        maxZoom: 17,
+        attribution: 'Map data: &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, <a href="http://viewfinderpanoramas.org">SRTM</a> | Map style: &copy; <a href="https://opentopomap.org">OpenTopoMap</a> (<a href="https://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>)'
+    });
+
+    var OpenStreetMap_Mapnik = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        maxZoom: 19,
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    });
+
+    var Esri_WorldStreetMap = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}', {
+        attribution: 'Tiles &copy; Esri &mdash; Source: Esri, DeLorme, NAVTEQ, USGS, Intermap, iPC, NRCAN, Esri Japan, METI, Esri China (Hong Kong), Esri (Thailand), TomTom, 2012'
+    });
+
+    var Esri_WorldTopoMap = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}', {
+        attribution: 'Tiles &copy; Esri &mdash; Esri, DeLorme, NAVTEQ, TomTom, Intermap, iPC, USGS, FAO, NPS, NRCAN, GeoBase, Kadaster NL, Ordnance Survey, Esri Japan, METI, Esri China (Hong Kong), and the GIS User Community'
+    });
+
+    var Esri_WorldImagery = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+        attribution: 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community'
+    });
+
+    var Esri_WorldShadedRelief = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Shaded_Relief/MapServer/tile/{z}/{y}/{x}', {
+        attribution: 'Tiles &copy; Esri &mdash; Source: Esri',
+        maxZoom: 13
+    });
 
     // color itens coording to properties
     function getColor(category) {
         return category == "airport"  ?   '#002E63' : 
                category == "place"    ?   '#FF7E00' :
                category == "dive"     ?   '#FF0000' :
-                                         '#000';
+                                          '#000';
     }
-    // Attaching a GeoJSON file with relative link from: http://lyzidiamond.com/posts/osgeo-august-meeting/
+
+    // Attaching a GeoJSON file with relative link: (from: http://lyzidiamond.com/posts/osgeo-august-meeting/)
+    // var places = L.layerGroup();
       $.getJSON($('link[rel="points"]').attr("href"), function(data) {
         var geoJsonLayer = L.geoJson(data, {
             onEachFeature: function (feature, layer) {
-                // var content = '<b>' + feature.properties.Title + '<\/b>';
                 var desc = feature.properties.Title
-                // layer.bindPopup(content)
-                layer.bindLabel(desc)
+                layer.bindTooltip(desc)
             },
             pointToLayer: function (feature, latlng) {
                 return L.circleMarker(latlng, {
                 radius: 3,
                 Label: getColor(feature.properties.Title), 
                 fillColor: getColor(feature.properties.category), 
-                // alternative one-liner from: 
-                // http://blog.thematicmapping.org/2012/10/mapping-new-zealand-where-are-hot-and.html
-                //fillColor: (feature.properties.category === 'place') ? '#FF7E00' : '#002E63',
                 color: "#000",
                 weight: 0.5,
                 opacity: 0.8,
@@ -83,4 +93,35 @@ html, body, #map {
         });
         geoJsonLayer.addTo(map);
       });
+
+    //vars for the layer control
+        var otm = OpenTopoMap,
+            osm  =  OpenStreetMap_Mapnik,
+            ewsm = Esri_WorldStreetMap,
+            ewtm = Esri_WorldTopoMap,
+            ewim = Esri_WorldImagery,
+            ewsr = Esri_WorldShadedRelief;
+
+
+        var map = L.map('map', {
+            center: [15,0],
+            zoom: 2,
+            layers: [ewsm]
+        });
+
+        var baseLayers = {
+            "Esri WorldStreetMap": ewsm,
+            "Esri WorldTopoMap": ewtm,
+            "Esri WorldImagery": ewim,
+            "Esri WorldShadedRelief": ewsr,
+            "OpenTopo Map": otm, 
+            "OpenStreetMap Mapnik": osm
+        };
+
+        // var overlays = {
+        //     "Places": places
+        // };
+
+        // L.control.layers(baseLayers, overlays).addTo(map);
+        L.control.layers(baseLayers).addTo(map);
 </script>
