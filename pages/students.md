@@ -73,10 +73,6 @@ Automatic segmentation of landslide scars in remote sensing imagery with deep le
 period: 2019-? | program: RMH | scholarship: FAPESP grant [#2019/17555-1](https://bv.fapesp.br/49430)  
 
 
-**Luiz Fernando dos Santos**  
-<a href="http://orcid.org/0000-0003-2165-8058">ORCiD</a> | <a href="http://lattes.cnpq.br/9493267099200912">Lattes CV</a>  
-Application of High-resolution Digital Terrain Models in slope stability and mass movement analysis  
-period: 2016-? | program: RMH  
 &nbsp;  
 &nbsp;  
 
@@ -100,11 +96,11 @@ level: Undergraduate research | funding: USP
 period: 2010-2012 | program: co-Advisor, Unesp)  
 PDF available at the [Repositório Institucional UNESP](http://repositorio.unesp.br/handle/11449/123944) 
 
-**Carlos Eduardo Manjon Mazoca** Evaluation of structural and fluvial processes in the geomorphological evolution of Central Amazonia  
+**Carlos Eduardo Manjon Mazoca** (<a href="http://lattes.cnpq.br/2312235807552728">Lattes CV</a>) Evaluation of structural and fluvial processes in the geomorphological evolution of Central Amazonia  
 period: 2014-2016 | program: RMH  
 PDF available at the [USP Digital Library of Theses and Dissertations](http://www.teses.usp.br/teses/disponiveis/44/44137/tde-30032017-150615/pt-br.php) 
 
-**Guilherme Pereira Bento Garcia** Elaboration of geomorphological maps from Digital Elevation Models  
+**Guilherme Pereira Bento Garcia** (<a href="http://orcid.org/0000-0003-1209-7842">ORCiD</a> | <a href="http://lattes.cnpq.br/8143036335035110">Lattes CV</a>) Elaboration of geomorphological maps from Digital Elevation Models  
 period: 2013-2015 | program: RMH  
 PDF available at the [USP Digital Library of Theses and Dissertations](http://www.teses.usp.br/teses/disponiveis/44/44137/tde-17112015-150344/)  
 
@@ -113,6 +109,9 @@ period: 2016-2019 | program: RMH
 
 **Karyna D'Onofre Neves** Diagnostic analysis of areas degraded by erosive processes at the Córrego do Tucum sub-basin, São Pedro-SP  
 period: 2015-2017 | program: RMH  
+
+**Luiz Fernando dos Santos** (<a href="http://orcid.org/0000-0003-2165-8058">ORCiD</a> | <a href="http://lattes.cnpq.br/9493267099200912">Lattes CV</a>) Application of High-resolution Digital Terrain Models in slope stability and mass movement analysis  
+period: 2016-2020 | program: RMH  
 
 **Renato dos Santos Neves Kahwage** Geological study of the Capão Bonito quadrangle - remote sensing  
 period: 2009-2011 | program: RMH | funding: CNPq  

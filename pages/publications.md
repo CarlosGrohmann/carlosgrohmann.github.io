@@ -10,7 +10,7 @@ Here you can find a list of the papers I published, as well as some selected con
 
 I intend to keep an open access copy of my papers at at [EarthArXiv.org](https://osf.io/preprints/eartharxiv/), which means that you can read them even without a subscription to the publisher, but be warned that most of these are [postprints](http://www.sherpa.ac.uk/romeoinfo.html) created from the "accepted manuscript" (that is, they have the exact same content of the final published version, but lack the typesetting of the publisher). For a final version, please refer to the publisher's website (which may be behind a paywall).  
 
-And if you use reference managers (you should), you can get a file with all my publications: [BibTex](http://en.wikipedia.org/wiki/Bibtex) format: [here](../../downloads/CarlosGrohmann_papers.bib) (good for [JabRef](http://jabref.sourceforge.net/), [Zotero](http://www.zotero.org/) and a bazillion others) [RIS](http://en.wikipedia.org/wiki/RIS_\(file_format\)) format: [here](../../downloads/CarlosGrohmann_papers.ris) (good for [Mendeley](http://www.mendeley.com/) or [EndNote](http://endnote.com/)) (last update: 2017-05-30) 
+And if you use reference managers (you should), you can get a file with all my publications: [BibTex](http://en.wikipedia.org/wiki/Bibtex) format: [here](../../downloads/CarlosGrohmann_papers.bib) (good for [JabRef](http://jabref.sourceforge.net/), [Zotero](http://www.zotero.org/) and a bazillion others) [RIS](http://en.wikipedia.org/wiki/RIS_\(file_format\)) format: [here](../../downloads/CarlosGrohmann_papers.ris) (good for [Mendeley](http://www.mendeley.com/) or [EndNote](http://endnote.com/)) (last update: 2020-05) 
 
 &nbsp;  
 &nbsp;  
@@ -243,7 +243,7 @@ _Journal of South American Earth Sciences_,16(8):725-741.
 http://dx.doi.org/10.1016/j.jsames.2003.12.006  
 
 
-&nbsp;;  
+&nbsp;  
 &nbsp; 
 <a name="chapters"></a>
 ## Book Chapters  

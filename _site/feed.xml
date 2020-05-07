@@ -10,7 +10,7 @@
         <title>UTM 23S??</title>
         <description>
           A common cartographical mistake in articles - 
-          If there’s one thing that I see all the time as a reviewer, is a map of some study area in Brazil with a caption like “UTM coordinates zone 23S”. That is wrong. Why? I’ll tell you. The UTM system divides the Earth into 60 zones (or fuses) of 6°...
+          If there’s one thing that I see all the time as a reviewer, is a map of some study area in Brazil with a caption like “UTM coordinates zone 23S”. Don’t do that. Why? I’ll tell you. The UTM system divides the Earth into 60 zones (or fuses) of 6°...
         </description>
         <pubDate>Tue, 28 Jan 2020 00:00:00 +0000</pubDate>
         <link>http://localhost:4000/blog/utm_23s/</link>
