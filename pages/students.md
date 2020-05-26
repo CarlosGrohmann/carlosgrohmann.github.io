@@ -67,6 +67,10 @@ period: 2018-? | program: PROCAM | scholarship: CAPES PROEX
 Monitoring landslide susceptibility: using UAVs to generate 3D models for slope stability analysis in urban areas  
 period: 2019-? | program: RMH  
 
+**Denilson de Jesus**  
+Application of Free and Open-Source GIS tools in the Gelogical Survey of Brazil: improving quality, reducing costs and timeframes  
+period: 2020-? | program: RMH  
+
 **Lucas Pedrosa Soares**  
 <a href="http://orcid.org/0000-0002-6980-597X">ORCiD</a> | <a href="http://lattes.cnpq.br/0242746303744589">Lattes CV</a> | <a href="https://lpsmlgeo.github.io/">site/blog</a>  
 Automatic segmentation of landslide scars in remote sensing imagery with deep learning  
@@ -104,7 +108,7 @@ PDF available at the [USP Digital Library of Theses and Dissertations](http://ww
 period: 2013-2015 | program: RMH  
 PDF available at the [USP Digital Library of Theses and Dissertations](http://www.teses.usp.br/teses/disponiveis/44/44137/tde-17112015-150344/)  
 
-**Guilherme Iolino Troncon Guerra** Spectroradiometric analysis applied to gold and base-metals mineralizations characterization in the Nova Brasilândia D’Oeste (Rondônia) region  
+**Guilherme Iolino Troncon Guerra** (<a href="http://lattes.cnpq.br/7286539851867175">Lattes CV</a>) Spectroradiometric analysis applied to gold and base-metals mineralizations characterization in the Nova Brasilândia D’Oeste (Rondônia) region  
 period: 2016-2019 | program: RMH  
 
 **Karyna D'Onofre Neves** Diagnostic analysis of areas degraded by erosive processes at the Córrego do Tucum sub-basin, São Pedro-SP  
