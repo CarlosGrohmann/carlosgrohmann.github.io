@@ -81,11 +81,6 @@ period: 2019-? | program: RMH | scholarship: FAPESP grant [#2019/17555-1](https:
 &nbsp;  
 
 ### Undergrad Students
-**Francesco Barale**  
-<a href="http://orcid.org/0000-0002-2527-3617">ORCiD</a> | <a href="http://lattes.cnpq.br/0059823974469880">Lattes CV</a>  
-Generation of high-resolution Digital Elevation Models based on UAV imagery    
-level: Undergraduate research | funding: CNPq  
-
 **Mariana B.B. da Silva**  
 <a href="http://lattes.cnpq.br/6596101972048688">Lattes CV</a>  
 Analisis and Modelling of a smal landslide with SfM and TLS  
@@ -96,50 +91,63 @@ level: Undergraduate research | funding: USP
 
 ### Former Students
 #### MSc
-**Andréa Simone Venancio Machado** Geomorphological aspects of the extrusive and intrusive terrains of the Fartura (SP) region  
+**Andréa Simone Venancio Machado**  
+Geomorphological aspects of the extrusive and intrusive terrains of the Fartura (SP) region  
 period: 2010-2012 | program: co-Advisor, Unesp)  
 PDF available at the [Repositório Institucional UNESP](http://repositorio.unesp.br/handle/11449/123944) 
 
-**Carlos Eduardo Manjon Mazoca** (<a href="http://lattes.cnpq.br/2312235807552728">Lattes CV</a>) Evaluation of structural and fluvial processes in the geomorphological evolution of Central Amazonia  
+**Carlos Eduardo Manjon Mazoca** (<a href="http://lattes.cnpq.br/2312235807552728">Lattes CV</a>)  
+Evaluation of structural and fluvial processes in the geomorphological evolution of Central Amazonia  
 period: 2014-2016 | program: RMH  
 PDF available at the [USP Digital Library of Theses and Dissertations](http://www.teses.usp.br/teses/disponiveis/44/44137/tde-30032017-150615/pt-br.php) 
 
-**Guilherme Pereira Bento Garcia** (<a href="http://orcid.org/0000-0003-1209-7842">ORCiD</a> | <a href="http://lattes.cnpq.br/8143036335035110">Lattes CV</a>) Elaboration of geomorphological maps from Digital Elevation Models  
+**Guilherme Pereira Bento Garcia** (<a href="http://orcid.org/0000-0003-1209-7842">ORCiD</a> | <a href="http://lattes.cnpq.br/8143036335035110">Lattes CV</a>)  
+Elaboration of geomorphological maps from Digital Elevation Models  
 period: 2013-2015 | program: RMH  
 PDF available at the [USP Digital Library of Theses and Dissertations](http://www.teses.usp.br/teses/disponiveis/44/44137/tde-17112015-150344/)  
 
-**Guilherme Iolino Troncon Guerra** (<a href="http://lattes.cnpq.br/7286539851867175">Lattes CV</a>) Spectroradiometric analysis applied to gold and base-metals mineralizations characterization in the Nova Brasilândia D’Oeste (Rondônia) region  
+**Guilherme Iolino Troncon Guerra** (<a href="http://lattes.cnpq.br/7286539851867175">Lattes CV</a>)  
+Spectroradiometric analysis applied to gold and base-metals mineralizations characterization in the Nova Brasilândia D’Oeste (Rondônia) region  
 period: 2016-2019 | program: RMH  
 
-**Karyna D'Onofre Neves** Diagnostic analysis of areas degraded by erosive processes at the Córrego do Tucum sub-basin, São Pedro-SP  
+**Karyna D'Onofre Neves**  
+Diagnostic analysis of areas degraded by erosive processes at the Córrego do Tucum sub-basin, São Pedro-SP  
 period: 2015-2017 | program: RMH  
 
-**Luiz Fernando dos Santos** (<a href="http://orcid.org/0000-0003-2165-8058">ORCiD</a> | <a href="http://lattes.cnpq.br/9493267099200912">Lattes CV</a>) Application of High-resolution Digital Terrain Models in slope stability and mass movement analysis  
+**Luiz Fernando dos Santos** (<a href="http://orcid.org/0000-0003-2165-8058">ORCiD</a> | <a href="http://lattes.cnpq.br/9493267099200912">Lattes CV</a>)  
+Application of High-resolution Digital Terrain Models in slope stability and mass movement analysis  
 period: 2016-2020 | program: RMH  
 
-**Renato dos Santos Neves Kahwage** Geological study of the Capão Bonito quadrangle - remote sensing  
+**Renato dos Santos Neves Kahwage**  
+Geological study of the Capão Bonito quadrangle - remote sensing  
 period: 2009-2011 | program: RMH | funding: CNPq  
 
-**Vanessa Amadi Barros Rauen** Spatial Analysis of leakage vulnerability in water supply network  
+**Vanessa Amadi Barros Rauen**  
+Spatial Analysis of leakage vulnerability in water supply network  
 period: 2012-2014 | program: RMH  
 PDF available at the [USP Digital Library of Theses and Dissertations](http://www.teses.usp.br/teses/disponiveis/44/44137/tde-06022015-085830/)  
 &nbsp;
 &nbsp;
 
 #### Undergrad
-**Ana Laura Person** Detailed speleological mapping of the turistic sector of Tapagem Cave (Devil's Cave)  
+**Ana Laura Person**  
+Detailed speleological mapping of the turistic sector of Tapagem Cave (Devil's Cave)  
 period: 2013 | kind: Undergraduate monograph (final paper)  
 
-**André Polistchuck** Morphometric characterization of the André Lopes karstic region, Ribeira River Valley, SP  
+**André Polistchuck**  
+Morphometric characterization of the André Lopes karstic region, Ribeira River Valley, SP  
 period: 2011 | kind: Undergraduate monograph (final paper)  
 
-**Arthur Endlein Correia** Assembling of Digital Elevation Models by orbital imagery photogrammetry  
+**Arthur Endlein Correia**  
+Assembling of Digital Elevation Models by orbital imagery photogrammetry  
 period: 2010-10/2011-09 | kind: Undergraduate research | funding: FAPESP  
 
-**Camila Duelis Viana** Geological, geomorphological and structural constraints of the geotechnical instabilities at Cunha, SP  
+**Camila Duelis Viana**  
+Geological, geomorphological and structural constraints of the geotechnical instabilities at Cunha, SP  
 period: 2012 | kind: Undergraduate monograph (final paper)  
 
-**Camila Duelis Viana** Thermal remote sensing applied to the characterization of karstic features of Iraquara, BA  
+**Camila Duelis Viana**  
+Thermal remote sensing applied to the characterization of karstic features of Iraquara, BA  
 period: 2010 | kind: Undergraduate research | funding: CNPq  
 
 **Elton Barbosa Gomes**  
@@ -153,15 +161,20 @@ period: 2011 | kind: Undergraduate monograph (final paper)
 Analysis of fractures systems in a 3D model generated by Structure-from-Motion  
 period: 2018 | kind: Undergraduate monograph (final paper)  
 
-**Francesco Barale**  
+**Francesco Barale**  (<a href="http://orcid.org/0000-0002-2527-3617">ORCiD</a> | <a href="http://lattes.cnpq.br/0059823974469880">Lattes CV</a>)  
 Comparative analysis of Digital Elevation Models generated by Structure-from-Motion 
 period: 2017-08/2018-07 | kind: Undergraduate research | funding: USP  
+
+**Francesco Barale** 
+Generation of high-resolution Digital Elevation Models based on UAV imagery  
+period: 2019-02/2020-01 | kind: Undergraduate research | funding: CNPq  
 
 **Gabriel Zacharias**  
 3D modelling of the tourist sector of Tapagem Cave with Terrestrial Laser Scanner  
 period: 2018 | kind: Undergraduate monograph (final paper)  
 
-**Guilherme Pereira Bento Garcia** Development of a geological-geotechnical map of the Cunha (SP) region, with different methodologies  
+**Guilherme Pereira Bento Garcia**  
+Development of a geological-geotechnical map of the Cunha (SP) region, with different methodologies  
 period: 2012 | kind: Undergraduate monograph (final paper)  
 
 **Jhesika Pena Gomes de Souza Silva**
@@ -175,7 +188,8 @@ period: 2012-08/2013-07 | kind: Undergraduate research | funding: CNPq
 Structure-from-Motion based structural analysis of clastic dikes of the Corumbataí Formation   
 period: 2017 | kind: Undergraduate monograph (final paper)  
 
-**Thomas Kenji Akabane** Digital Terrain Analysis selected sectors of the Falklands Islands based on X-SAR SRTM  
+**Thomas Kenji Akabane**  
+Digital Terrain Analysis selected sectors of the Falklands Islands based on X-SAR SRTM  
 period: 2013-02/2014-01 | kind: Undergraduate research | funding: FAPESP  
 
 **Vitor Batista dos Santos**  
