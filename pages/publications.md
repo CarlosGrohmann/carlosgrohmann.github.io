@@ -32,6 +32,9 @@ Grohmann C.H., Garcia\*. G.P.B., Affonso, A.A.\*, Albuquerque, R.W.\*, 2020(?) -
 _Submitted for revision_  
 Preprint available at [arXiv:1910.06186](https://arxiv.org/abs/1910.06186) [physics.geo-ph] (open access)  
 
+<a name="treecount_rafael"></a>Albuquerque, R.W, Costa, M.O., Ferreira, M.E, Carrero, G.C., Grohmann, C.H., 2020 - Remotely Piloted Aircrafts Imagery for Automatic Tree Counting in Forest Restoration Areas: a Case Study in the Amazon. _Journal of Unmanned Vehicle Systems_  
+[https://doi.org/10.1139/juvs-2019-0024](https://doi.org/10.1139/juvs-2019-0024)  
+
 <a name="colonia_quatgeo"></a>
 38 - Simon, Q., Ledru, M.P., Sawakuchi, A.O., Favier, C., Mineli, T.D., Grohmann, C.H., Guedes, M., Bard, E., Thouveny, N., Garcia, M., Tachikawa, K., Rodríguez-Zorro, P.A., ASTER Team, 2020 - Chronostratigraphy of a 1.5±0.1 Ma composite sedimentary record from Colônia basin (SE Brazil): Bayesian modeling based on paleomagnetic, authigenic 10Be/9Be, radiocarbon and luminescence dating  
 _Quaternary Geochronology_, 101081  
