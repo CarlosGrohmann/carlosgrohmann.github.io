@@ -8,10 +8,20 @@ The [Brazilian Journal of Geology](http://www.scielo.br/bjgeo/) is published by 
 
 In this page I'll post some useful tips and resources for authors interested in submitting their articles to BJGEO.  
 
-Metrics:
-- Impact Factor (JCR): 1.590 (2018)  
-- Scimago (SJR): [0.58 (Q2)](https://www.scimagojr.com/journalsearch.php?q=21100266566&tip=sid&clean=0)  
-- Google Scholar: [h5-index:15 / h5-median:25](https://scholar.google.com/citations?view_op=list_hcore&venue=CtCVPrZkjikJ.2019&hl=en)  
+
+| **[Metrics][Metrics]**         | **2019**    | **2018**    | **2017** | **2016** | **2015** |
+| Impact Factor (JCR)            | 1.046       | 1.590       | 1.250    |  0.798   |  0.598   |
+| Impact Factor (5-year)         | 1.570       | 1.440       | 1.165    |  0.797   |  0.598   |
+| [Scimago (SJR)][Scimago_BJG]   | 0.647 (Q1)  | 0.584 (Q2)  | 0.608    |  0.427   |  0.361   |
+| [CiteScore][Citescore_BJG]     | 2.6         | 2.0         | 1.8      |  1.2     |  0.7     |
+
+
+
+
+<!-- jcr 2016 0.798 -->
+<!-- | [Google Scholar][GScholar_BJG] |  | h5-index:15 | h5-median:25 | -->
+<!-- | [SNIP][Citescore_BJG]          | 1.087       | 0.968       |          |          | -->
+
 
 <br>
 
@@ -72,8 +82,7 @@ There's a blog post about this. [Read it here.](/2020-01-28-utm_south/)
 
 
 
-
-
-
-
-
+[Metrics]:https://www.elsevier.com/authors/journal-authors/measuring-a-journals-impact
+[Scimago_BJG]:https://www.scimagojr.com/journalsearch.php?q=21100266566&tip=sid&clean=0
+[Citescore_BJG]:https://www.scopus.com/sourceid/21100266566
+[GScholar_BJG]:https://scholar.google.com/citations?view_op=list_hcore&venue=CtCVPrZkjikJ.2019&hl=en
