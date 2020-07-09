@@ -442,43 +442,43 @@
 
 <p>[EN] Open up a terminal window (Accessories -&gt; Terminal) and type:<br />
 [PT] Abra uma janela de terminal (Acessórios -&gt; Terminal) e digite:<br />
-<code class="highlighter-rouge">gpsbabel -i garmin -f usb:-1</code></p>
+<code class="language-plaintext highlighter-rouge">gpsbabel -i garmin -f usb:-1</code></p>
 
 <p>[EN] If you got something like this, this post is for you:<br />
 [PT] Se você receber uma mensagem de erro como esta, continue lendo:<br />
-<code class="highlighter-rouge">Claim interface failed: could not claim interface 0: Operation not permitted.</code></p>
+<code class="language-plaintext highlighter-rouge">Claim interface failed: could not claim interface 0: Operation not permitted.</code></p>
 
 <p><strong>2 - Solution: change the udev rules. / A solução: alterar as regras do udev.</strong></p>
 
 <p>[EN] Relax, this is easy. All we need is to create a text file with the new rules.<br />
 You must do this with administrator (root) privileges. So, in that terminal window (you didn’t closed it, did you?) start you favorite text editor (gedit, kedit, mousepad, etc) as root:<br />
-<code class="highlighter-rouge">sudo gedit</code></p>
+<code class="language-plaintext highlighter-rouge">sudo gedit</code></p>
 
 <p>Create a new file and paste this in it:</p>
 
-<p><code class="highlighter-rouge">SYSFS{idVendor}=="091e", SYSFS{idProduct}=="0003", MODE="666"</code></p>
+<p><code class="language-plaintext highlighter-rouge">SYSFS{idVendor}=="091e", SYSFS{idProduct}=="0003", MODE="666"</code></p>
 
 <p>Save the file as  <strong>51-garmin.rules</strong> under <strong>/etc/udev/rules.d</strong></p>
 
-<p>Now restart the udev rules: <code class="highlighter-rouge">sudo udevadm control --reload-rules</code></p>
+<p>Now restart the udev rules: <code class="language-plaintext highlighter-rouge">sudo udevadm control --reload-rules</code></p>
 
 <p>And try again to see if you were successful:<br />
-<code class="highlighter-rouge">gpsbabel -i garmin -f usb:-1 0 3724240363 292 GPSMap60CSX Software Version 4.10</code><br />
+<code class="language-plaintext highlighter-rouge">gpsbabel -i garmin -f usb:-1 0 3724240363 292 GPSMap60CSX Software Version 4.10</code><br />
 That’s it! Now you’re good to go!</p>
 
 <p>[PT] Fique tranquilo que a coisa é simples.<br />
 Tudo o que precisamos é criar um arquivo de texto com novas regras para o udev. Isso tem que ser feito com privilégios de administrador (root).<br />
 Então, naquela janela de terminal (você não a fechou, né?) inicie seu editor de textos favorito (gedit, kedit, mousepad, etc) como root:<br />
-<code class="highlighter-rouge">sudo gedit</code><br />
+<code class="language-plaintext highlighter-rouge">sudo gedit</code><br />
 Crie um arquivo novo e cole o seguinte nele:</p>
 
-<p><code class="highlighter-rouge">SYSFS{idVendor}=="091e", SYSFS{idProduct}=="0003", MODE="666"</code></p>
+<p><code class="language-plaintext highlighter-rouge">SYSFS{idVendor}=="091e", SYSFS{idProduct}=="0003", MODE="666"</code></p>
 
 <p>Salve o arquivo como <strong>51-garmin.rules</strong> no diretório <strong>/etc/udev/rules.d</strong></p>
 
-<p>Agora reinicie as regras do udev: <code class="highlighter-rouge">sudo udevadm control --reload-rules</code><br />
+<p>Agora reinicie as regras do udev: <code class="language-plaintext highlighter-rouge">sudo udevadm control --reload-rules</code><br />
 Tente de novo com o gpsbabel para ver se deu certo:<br />
-<code class="highlighter-rouge">gpsbabel -i garmin -f usb:-1 0 3724240363 292 GPSMap60CSX Software Version 4.10</code><br />
+<code class="language-plaintext highlighter-rouge">gpsbabel -i garmin -f usb:-1 0 3724240363 292 GPSMap60CSX Software Version 4.10</code><br />
 Pronto! Agora você pode baixar seus dados tranquilamente.</p>
 
 <h4 id="comments">Comments</h4>

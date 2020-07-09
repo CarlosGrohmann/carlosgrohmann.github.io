@@ -447,26 +447,26 @@
     <p>Install QGIS from William Kyngesburye.</p>
   </li>
   <li>
-    <p>Edit your <a rel="noopener noreferrer" target="_blank" href="http://osxdaily.com/2015/07/28/set-enviornment-variables-mac-os-x/"><code class="highlighter-rouge">.bash_profile</code></a>.</p>
+    <p>Edit your <a rel="noopener noreferrer" target="_blank" href="http://osxdaily.com/2015/07/28/set-enviornment-variables-mac-os-x/"><code class="language-plaintext highlighter-rouge">.bash_profile</code></a>.</p>
   </li>
 </ol>
 
-<p>The last part is the tricky one. Homebrew install everything under <strong>/usr/local</strong>, and this needs to be in your PATH. The usual approach is to add this line to <code class="highlighter-rouge">.bash_profile</code>:</p>
+<p>The last part is the tricky one. Homebrew install everything under <strong>/usr/local</strong>, and this needs to be in your PATH. The usual approach is to add this line to <code class="language-plaintext highlighter-rouge">.bash_profile</code>:</p>
 
-<p><code class="highlighter-rouge">export PATH=/usr/local/bin:$PATH</code></p>
+<p><code class="language-plaintext highlighter-rouge">export PATH=/usr/local/bin:$PATH</code></p>
 
 <p>Doing this will make homebrew’s python the one to be called if you type ‘python’ in a terminal window. But it will also change which python GRASS and QGIS will use. The thing is that both GRASS and QGIS packages are made to use OS X system python, not the one you installed with homebrew. The trick is to set a GRASS_PYTHON variable in <strong>.bash_profile</strong>, pointing to system python.</p>
 
-<p><code class="highlighter-rouge">export GRASS_PYTHON=/System/Library/Frameworks/Python.framework/Versions/Current/bin/pythonw</code></p>
+<p><code class="language-plaintext highlighter-rouge">export GRASS_PYTHON=/System/Library/Frameworks/Python.framework/Versions/Current/bin/pythonw</code></p>
 
 <p>Now, the really tricky thing is that GRASS_PYTHON must be called <strong>before</strong> setting the path for homebrew. So when you start GRASS, it will find the right python. Like this:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>export GRASS_PYTHON=/System/Library/Frameworks/Python.framework/Versions/Current/bin/pythonw
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>export GRASS_PYTHON=/System/Library/Frameworks/Python.framework/Versions/Current/bin/pythonw
 
 export PATH=/usr/local/bin:$PATH
 </code></pre></div></div>
 
-<p>This got my setup working fine, with 3D view and all. And if you want to use homebrew’s python for analysis inside GRASS (with pygrass) you just have to call <code class="highlighter-rouge">/usr/local/bin/python</code> from GRASS’ terminal.</p>
+<p>This got my setup working fine, with 3D view and all. And if you want to use homebrew’s python for analysis inside GRASS (with pygrass) you just have to call <code class="language-plaintext highlighter-rouge">/usr/local/bin/python</code> from GRASS’ terminal.</p>
 
 
       </article>

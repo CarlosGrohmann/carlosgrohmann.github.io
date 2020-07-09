@@ -436,11 +436,11 @@
       <article role="main" class="blog-post">
         <p>Digital elevation data usually has some noise in it, but removing that noise may not be as easy as a simple filtering procedure. Using raster filters (mean, mode etc) in moving-windows operations will smooth the original topography. One solution is to perform the filtering with the XYZ information of each pixel (that is, treating the DEM as a point cloud and filtering the vector points).</p>
 
-<p>In GRASS-GIS, we can use the <code class="highlighter-rouge">r.denoise</code> add-on to do this. The module was originally a bash script that I ported to python (because I needed to call it from a python script, and the bash version wasn’t working this way). The module itself is just a wrapper to the <code class="highlighter-rouge">mdenoise</code> (Sun et al., 2007; Stevenson et al., 20109) executable, which needs to be installed and in the system PATH.</p>
+<p>In GRASS-GIS, we can use the <code class="language-plaintext highlighter-rouge">r.denoise</code> add-on to do this. The module was originally a bash script that I ported to python (because I needed to call it from a python script, and the bash version wasn’t working this way). The module itself is just a wrapper to the <code class="language-plaintext highlighter-rouge">mdenoise</code> (Sun et al., 2007; Stevenson et al., 20109) executable, which needs to be installed and in the system PATH.</p>
 
 <p>To do that, download the source code of mdenoise and compile it:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wget http://www.cs.cf.ac.uk/meshfiltering/index_files/Doc/mdsource.zip
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wget http://www.cs.cf.ac.uk/meshfiltering/index_files/Doc/mdsource.zip
 unzip mdsource.zip
 cd mdenoise
 g++ -o mdenoise mdenoise.cpp triangle.c
@@ -448,9 +448,9 @@ ln -s `pwd`/mdenoise /some/directory/on/the/$PATH
 </code></pre></div></div>
 
 <p> 
-Once <code class="highlighter-rouge">mdenoise</code> is installed, start a GRASS session and install the add-on with <a rel="noopener noreferrer" target="_blank" href="https://grass.osgeo.org/grass72/manuals/g.extension.html">g.extension</a>:</p>
+Once <code class="language-plaintext highlighter-rouge">mdenoise</code> is installed, start a GRASS session and install the add-on with <a rel="noopener noreferrer" target="_blank" href="https://grass.osgeo.org/grass72/manuals/g.extension.html">g.extension</a>:</p>
 
-<p><code class="highlighter-rouge">g.extension r.denoise</code></p>
+<p><code class="language-plaintext highlighter-rouge">g.extension r.denoise</code></p>
 
 <p>In this post, I’ll show an example with 1-arcsec SRTM data for an area in the Amazon region, just north of the Barcelos city.</p>
 
@@ -459,7 +459,7 @@ Location of the test area, in the Brazilian Amazon</p>
 
 <p>Let’s check the original SRTM data.<br />
 In the image below, I used d.shade to drape the SRTM raster over a shaded relief image.</p>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>r.relief --overwrite input=srtm30m_north output=srtm30m_north_dnoise_shade_25_315_z5 altitude=25 azimuth=315 zscale=5
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>r.relief --overwrite input=srtm30m_north output=srtm30m_north_dnoise_shade_25_315_z5 altitude=25 azimuth=315 zscale=5
 
 d.shade shade=srtm30m_north_shade_25_315_z5 color=srtm30m_north
 </code></pre></div></div>
@@ -470,9 +470,9 @@ Original 1-arcsec SRTM data</p>
 
 <p>We can see the noise in the image. Of course, some of it is probably due the forest canopy structure, but certainly not all.</p>
 
-<p>Let’s run the <code class="highlighter-rouge">r.denoise</code> module and see the results. First, check the region settings:</p>
+<p>Let’s run the <code class="language-plaintext highlighter-rouge">r.denoise</code> module and see the results. First, check the region settings:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>GRASS 7.2.0svn (latlong):~&amp;gt; g.region -p raster=srtm30m_north
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>GRASS 7.2.0svn (latlong):~&amp;gt; g.region -p raster=srtm30m_north
 projection: 3 (Latitude-Longitude)
 zone: 0
 datum: wgs84
@@ -489,14 +489,14 @@ cells: 343865
 </code></pre></div></div>
 
 <p> 
-Now run the module. The <code class="highlighter-rouge">mdenoise</code> executable does not work with geographic coordinates, and since I am working on a latitude-longitude location, I need to supply an EPSG code of a projected coordinate system, which will be used for reprojecting the data to a temporary file. In this case I used EPSG=32720, the code for UTM 20S WGS84.</p>
+Now run the module. The <code class="language-plaintext highlighter-rouge">mdenoise</code> executable does not work with geographic coordinates, and since I am working on a latitude-longitude location, I need to supply an EPSG code of a projected coordinate system, which will be used for reprojecting the data to a temporary file. In this case I used EPSG=32720, the code for UTM 20S WGS84.</p>
 
-<p>We need to define two parameters, <code class="highlighter-rouge">iterations</code> and <code class="highlighter-rouge">threshold</code>. From the help page:</p>
+<p>We need to define two parameters, <code class="language-plaintext highlighter-rouge">iterations</code> and <code class="language-plaintext highlighter-rouge">threshold</code>. From the help page:</p>
 
 <blockquote>
 The amount of smoothing is controlled by the _threshold_ and _iterations_ parameters.  Increasing the _threshold_ decreases how sharp a feature needs to be to be preserved e.g. decreases the smoothing.  To preserve ridge crests in mountain areas, T &gt; 0.9 is recommended. Setting T too high results in the preservation of noise.  For SRTM data, which is already partly smoothed by NASA, T = 0.99 can be used.  Increasing the number of _iterations_ increases the smoothing and the range of spatial correlation of the output dataset.  A small number, e.g. 5 or fewer, typically gives the best results.</blockquote>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>r.denoise --overwrite input=srtm30m_north output=srtm30m_north_dnoise iterations=5 threshold=0.9 epsg=32720&lt;/pre&gt;
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>r.denoise --overwrite input=srtm30m_north output=srtm30m_north_dnoise iterations=5 threshold=0.9 epsg=32720&lt;/pre&gt;
 &amp;nbsp;
 Here's the output of the command. For this test area, it took less than 5 seconds to denoise (10 seconds total) on my iMac (4 GHz, 32 GB RAM).
 
@@ -524,7 +524,7 @@ Removing temporary files...
 
 <p>To check the results visually, we can make the same color-shaded composition that we used for the original data:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>r.colors map=srtm30m_north_dnoise@RAM raster=srtm30m_north@RAM
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>r.colors map=srtm30m_north_dnoise@RAM raster=srtm30m_north@RAM
 
 r.relief --overwrite input=srtm30m_north_dnoise output=srtm30m_north_dnoise_shade_25_315_z5 altitude=25 azimuth=315 zscale=5
 
@@ -559,7 +559,7 @@ el: '#app'
  
 Some quick stats from <a rel="noopener noreferrer" target="_blank" href="https://grass.osgeo.org/grass70/manuals/r.info" target="_blank">r.info</a> will show us that the range of elevation values changed a bit:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>GRASS 7.2.0svn (latlong):~ &amp;gt; r.info srtm30m_north
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>GRASS 7.2.0svn (latlong):~ &amp;gt; r.info srtm30m_north
  +----------------------------------------------------------------------------+
  | Map:      srtm30m_north                  Date: Wed Jan 14 14:32:07 2015    |
  | Mapset:   RAM                            Login of Creator: guano           |

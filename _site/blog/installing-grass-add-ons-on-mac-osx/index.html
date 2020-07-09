@@ -454,7 +454,7 @@
 
 <p>Open the Terminal and go to the module’s directory, in my case <strong>/Users/guano/Documents/installs/grass/modbuild/module/r.stream.order</strong>, and run this (it’s a single line command):</p>
 
-<p><code class="highlighter-rouge">&gt; make GRASS_HOME='/Users/guano/Documents/installs/grass/modbuild/module/r.stream.order' GRASS_APP='/Applications/GRASS-6.4.app'</code></p>
+<p><code class="language-plaintext highlighter-rouge">&gt; make GRASS_HOME='/Users/guano/Documents/installs/grass/modbuild/module/r.stream.order' GRASS_APP='/Applications/GRASS-6.4.app'</code></p>
 
 <p><img src="/img/addons3.png" alt="" width="70%" /></p>
 
@@ -476,7 +476,7 @@
 
 <p><strong><a href="#26" title="2012-09-13 20:46:16">Marcello</a>:</strong> Caro professor Carlos, faz apenas alguns dias que eu comprei meu MacBook. Gostaria de saber como é o procedimento para baixar as dependências através do MacPorts (é similar ao home brew?), você teria algum passo a passo referente ao GRASS para isso? outra dúvida, caso haja algum problema na instalação, como eu verifico? estou habituado a compilar o GRASS no Ubuntu, mas no Mountain Lion eu estou completamente perdido! (e quase jogando ele no chão, rs). Um abraço e parabéns pelo seu excelente Post!</p>
 
-<p><strong><a href="#27" title="2012-09-14 21:01:49">carlosgrohmann</a>:</strong> Caro Marcello, O Mac Ports é bem legal e cuida de todas as dependências pra você. Um simples <code class="highlighter-rouge">sudo port install grass</code> dever ser suficiente. Quando eu compilei o GRASS 7 no meu Mac, o processo de instalar as dependências foi um pouco manual. Eu rodava meu ./configure e a cada erro, instalava a dependência até não ter mais erros. Ultimamente tenho preferido usar o pacote pronto do William Kyngesburye. Ele tem pacotes do GRASS 6.4, QGIS 1.8 e das dependências (GDAL, FreeType etc). Funciona perfeitamente. http://www.kyngchaos.com/software/grass abraços Carlos</p>
+<p><strong><a href="#27" title="2012-09-14 21:01:49">carlosgrohmann</a>:</strong> Caro Marcello, O Mac Ports é bem legal e cuida de todas as dependências pra você. Um simples <code class="language-plaintext highlighter-rouge">sudo port install grass</code> dever ser suficiente. Quando eu compilei o GRASS 7 no meu Mac, o processo de instalar as dependências foi um pouco manual. Eu rodava meu ./configure e a cada erro, instalava a dependência até não ter mais erros. Ultimamente tenho preferido usar o pacote pronto do William Kyngesburye. Ele tem pacotes do GRASS 6.4, QGIS 1.8 e das dependências (GDAL, FreeType etc). Funciona perfeitamente. http://www.kyngchaos.com/software/grass abraços Carlos</p>
 
 <p><strong><a href="#28" title="2013-02-01 16:26:23">Brian Miles</a>:</strong> Thanks so much for putting this together. I can’t tell you how much time I wasted before finding this. Thank you!!! I made the following makefile to make it easy to copy the executable and HTML into the correct place (see the “deploy” target): MODULE_TOPDIR = ../.. GRASS_VERSION_STR = 6.4 PGM = r.findtheriver LIBES = $(GISLIB) DEPENDENCIES = $(GISDEP) include $(MODULE_TOPDIR)/include/Make/Module.make default: cmd deploy: cp dist.<em>/bin/$(PGM) /Library/GRASS/$(GRASS_VERSION_STR)/Modules/bin cp dist.</em>/docs/html/* /Library/GRASS/$(GRASS_VERSION_STR)/Modules/docs/html</p>
 

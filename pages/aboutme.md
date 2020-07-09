@@ -60,9 +60,9 @@ Thesis available at the [University of São Paulo Digital Library](http://www.te
 You can find me at:   
 
 | [ORCID][ORCID]                | [Scopus][Scopus]              | [Google Scholar][Google Scholar]  |
-| [ResearcherID][ResearcherID]  | [ResearchGate][ResearchGate]  | [figshare][figshare]              |
+| [Publons/WoS][Publons]        | [ResearchGate][ResearchGate]  | [Mendeley][Mendeley]              |
 | [Twitter][Twitter]            | [Instagram][Instagram]        | [github][github]                  |
-| [Mendeley][Mendeley]          | [Flickr][Flickr]              | [Publons][Publons]                |
+| [figshare][figshare]          | [Flickr][Flickr]              | [Publons][Publons]                |
 
 
 <!-- | [ORCID][ORCID]                    | [ScienceOpen][ScienceOpen]    | [Twitter][Twitter]     |
@@ -89,7 +89,7 @@ I deleted my account at Academia.edu
 [Impactstory]:https://impactstory.org/u/0000-0001-5073-5572  
 [Publons]:https://publons.com/author/233408/carlos-grohmann  
 [ResearchGate]:https://www.researchgate.net/profile/Carlos_Grohmann/  
-[Mendeley]:http://www.mendeley.com/profiles/carlos-grohmann/  
+[Mendeley]:http://www.mendeley.com/profiles/carlos-grohmann2/  
 [figshare]:http://figshare.com/authors/Carlos_Grohmann/554217  
 [github]:https://github.com/CarlosGrohmann  
   
