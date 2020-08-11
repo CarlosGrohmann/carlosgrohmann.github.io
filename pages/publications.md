@@ -18,21 +18,41 @@ And if you use reference managers (you should), you can get a file with all my p
 ## Journal Articles  
 \* Denotes student co-author.
 
+<!-- <a name="biogeography"></a>
+Paz, Carnaval... Grohmann, C.H., 2021 - Environmental correlates of taxonomic and phylogenetic diversity in the Atlantic Forest.  
+_Journal of Biogeography_   -->
 
-<a name="pellets_anderson"></a>
+<!-- <a name="pellets_anderson"></a>
 Ferreira, A.T.S., Ribeiro, M.C.H, Grohmann, C.H., 2020(?) - Plastic pellets in sandy beaches: mechanisms and deposition indicators.  
-_Submitted for revision_  
+_Submitted for revision_   -->
 
 <!-- <a name="landslides_guilherme"></a>
 Garcia, G.P.B.\*, Grohmann, C.H., Martinioni, T.H., Bortolucci, L. 2020(?) - Automatic landslide identification based on vegetation indices and terrain attributes: a case study in Southeastern Brazil.  
 _Submitted for revision_   -->
 
-<a name="garopaba_sfm"></a>
-Grohmann C.H., Garcia\*. G.P.B., Affonso, A.A.\*, Albuquerque, R.W.\*, 2020(?) - Aeolian dune modelling from airborne LiDAR, terrestrial LiDAR and Structure from Motion--Multi View Stereo.  
+
+<a name="landslides_helen_msc"></a>
+Dias\*, H.C., Gramani, M.F., Grohmann, C.H., Bateira, C., Vieira, B.C. - Statistical-based shallow landslide susceptibility assessment for a tropical environment: a case study in the southeastern coast of Brazil. _Submitted for revision_  
+
+<a name="lucas_unet"></a>
+Soares\*, L.P., Dias\*, H.C., Grohmann, C.H. - Landslide Segmentation with U-Net: Evaluating Different Sampling Methods and Patch Sizes  
 _Submitted for revision_  
+Preprint available at [arXiv:2007.06672](https://arxiv.org/abs/2007.06672) [eess.IV] (open access)  
+
+
+<a name="decio_microplastics"></a>
+41 - Gerolin, C.R., Pupim, F.N., Sawakuchi, A.O., Grohmann, C.H., Labuto, G., Semensatto, D., 2020 - Microplastics in sediments from Amazon rivers, Brazil.  
+_Science of the Total Environment_  
+[http://doi.org/10.1016/j.scitotenv.2020.141604](http://doi.org/10.1016/j.scitotenv.2020.141604)  
+
+<a name="garopaba_sfm"></a>
+40 - Grohmann C.H., Garcia\*. G.P.B., Affonso, A.A.\*, Albuquerque, R.W.\*, 2020 - Aeolian dune modelling from airborne LiDAR, terrestrial LiDAR and Structure from Motion--Multi View Stereo.  
+_Computers & Geosciences_  
+[http://doi.org/10.1016/j.cageo.2020.104569](http://doi.org/10.1016/j.cageo.2020.104569)  
 Preprint available at [arXiv:1910.06186](https://arxiv.org/abs/1910.06186) [physics.geo-ph] (open access)  
 
-<a name="treecount_rafael"></a>Albuquerque, R.W, Costa, M.O., Ferreira, M.E, Carrero, G.C., Grohmann, C.H., 2020 - Remotely Piloted Aircrafts Imagery for Automatic Tree Counting in Forest Restoration Areas: a Case Study in the Amazon. _Journal of Unmanned Vehicle Systems_  
+<a name="treecount_rafael"></a>
+39 - Albuquerque, R.W, Costa, M.O., Ferreira, M.E, Carrero, G.C., Grohmann, C.H., 2020 - Remotely Piloted Aircrafts Imagery for Automatic Tree Counting in Forest Restoration Areas: a Case Study in the Amazon. _Journal of Unmanned Vehicle Systems_  
 [https://doi.org/10.1139/juvs-2019-0024](https://doi.org/10.1139/juvs-2019-0024)  
 
 <a name="colonia_quatgeo"></a>
@@ -272,7 +292,13 @@ Beca.
 <a name="chapters"></a>
 ## Selected Abstracts/Conference Papers  
 
-<a name="isl_helen"></a>Dias, H.C., H&ouml;lbling, D., Grohmann C.H., 2020. Landslide inventory mapping in Brazil: Status and challenges. In: _XIII International Symposium on Landslides_, Cartagena, Colombia.  
+<a name="isl_helen"></a>Dias, H.C., H&ouml;lbling, D., Grohmann C.H., 2021. Landslide inventory mapping in Brazil: Status and challenges. In: _XIII International Symposium on Landslides_, Cartagena, Colombia.  
+
+<a name="garopaba_gmorph"></a>
+Grohmann C.H., Garcia. G.P.B., Affonso, A.A., Albuquerque, R.W., 2020 - Coastal dune modelling from airborne LiDAR, terrestrial LiDAR and Structure from Motion-Multi View Stereo.  
+_Proceedings of the Geomorphometry 2020 conference_  
+[http://doi.org/10.30437/Geomorphometry2020](http://doi.org/10.30437/Geomorphometry2020)  
+*download:* [paper](http://doi.org/10.30437/Geomorphometry2020_30)  
 
 <a name="cbe_tapagem"></a>Grohmann, C.H., Zacharias, G.S., Garcia, G.P.B, Barale, F., Almeida, F.V., Arnone, I.S., 2019. Mapeamento e modelagem 3D do setor turístico da Caverna do Diabo (SP) com Laser Scanner: resultados preliminares. In:_35 Congresso Brasileiro de Espeleologia_, Bonito,MS.
 *download:* [paper](http://www.cavernas.org.br/anais35cbe/35cbe_201-206.pdf)  
@@ -280,27 +306,32 @@ Beca.
 <a name="sbsr_litchi"></a>
 Grohmann, C.H.; Viana\*, C.D.; Garcia\*, G.P.B; Albuquerque\*, R.W.; Barale\*, F.; Ferretti\*, F.A., 2019. Semi-Automatic UAV-based SfM survey of vertical surfaces.  
 _XIX Brazilian Symposium on Remote Sensing_. Santos, SP.  
+*download:* [paper](https://proceedings.science/sbsr-2019/papers/semi-automatic-uav-based-sfm-survey-of-vertical-surfaces)  
 
 <a name="sbsr_cunha"></a>
 Garcia\*, G.P.B; Gomes\*, E.B.; Viana\*, C.D.; Grohmann, C.H., 2019. Comparing Terrestrial Laser Scanner and UAV-based photogrammetry to generate a landslide DEM.  
 _XIX Brazilian Symposium on Remote Sensing_. Santos, SP.  
+*download:* [paper](https://proceedings.science/sbsr-2019/papers/comparing-terrestrial-laser-scanner-and-uav-based-photogrammetry-to-generate-a-landslide-dem)  
 
 <a name="sbsr_relogio"></a>
 Barale\*, F.; Grohmann, C.H., 2019. Photoscan x COLMAP: comparação entre DEMs gerados por Structure from Motion--Multi-View Stereo.  
 _XIX Brazilian Symposium on Remote Sensing_. Santos, SP.  
+*download:* [paper](https://proceedings.science/sbsr-2019/papers/photoscan-x-colmap--comparacao-entre-dems-gerados-por-structure-from-motion--multi-view-stereo)  
 
 <a name="sbsr_car"></a>
 Albuquerque\*, R.W.; Ferreira, M.E.; Girão, V.J.; Balieiro, C.P.; Mansur, H.; Costa, J.V.S.; Grohmann, C.H., 2019. Comparação de RPAS e TOPODATA no mapeamento de regiões declivosas previstas no Cadastro Ambiental Rural.  
 _XIX Brazilian Symposium on Remote Sensing_. Santos, SP.  
+*download:* [paper](https://proceedings.science/sbsr-2019/papers/comparacao-de-rpas-e-topodata-no-mapeamento-de-regioes-declivosas-previstas-no-cadastro-ambiental-rural)  
 
 <a name="sbsr_altura"></a>
 Santos\*, L.F.; Grohmann, C.H., 2019. Processamento fotogramétrico digital por Structure from Motion de imagens obtidas em voos de diferentes alturas sobre o solo.  
 _XIX Brazilian Symposium on Remote Sensing_. Santos, SP.  
+*download:* [paper](https://proceedings.science/sbsr-2019/papers/processamento-fotogrametrico-digital-por-structure-from-motion-de-imagens-obtidas-em-voos-de-diferentes-alturas-sobre-o-)  
 
-<a name="openstereo_snet"></a>
+<!-- <a name="openstereo_snet"></a>
 Grohmann, C.H., Campanha, G.A.C., Soares Junior, A.D., 2011. OpenStereo: um programa Livre e multiplataforma para análise de dados estruturais.   
 _XIII Simpósio Nacional de Estudos Tectônicos_, Campinas, SP. Anais.   
-[http://dx.doi.org/10.6084/m9.figshare.1037685](http://dx.doi.org/10.6084/m9.figshare.1037685) (PDF via figshare)  
+[http://dx.doi.org/10.6084/m9.figshare.1037685](http://dx.doi.org/10.6084/m9.figshare.1037685) (PDF via figshare)   -->
 
 <a name="openstereo_agu"></a>
 Grohmann, C.H., Campanha, G.A.C., 2010. OpenStereo: Open Source, Cross-Platform Software for Structural Geology Analysis.  
