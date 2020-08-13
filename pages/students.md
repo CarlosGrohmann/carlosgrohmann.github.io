@@ -109,6 +109,8 @@ PDF available at the [USP Digital Library of Theses and Dissertations](http://ww
 **Guilherme Iolino Troncon Guerra** (<a href="http://lattes.cnpq.br/7286539851867175">Lattes CV</a>)  
 Spectroradiometric analysis applied to gold and base-metals mineralizations characterization in the Nova Brasilândia D’Oeste (Rondônia) region  
 period: 2016-2019 | program: RMH  
+PDF available at the [USP Digital Library of Theses and Dissertations](https://www.teses.usp.br/teses/disponiveis/44/44137/tde-03082020-100748/pt-br.php)  
+https://doi.org/10.11606/D.44.2019.tde-03082020-100748
 
 **Karyna D'Onofre Neves**  
 Diagnostic analysis of areas degraded by erosive processes at the Córrego do Tucum sub-basin, São Pedro-SP  

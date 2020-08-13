@@ -46,13 +46,13 @@ _Science of the Total Environment_
 [http://doi.org/10.1016/j.scitotenv.2020.141604](http://doi.org/10.1016/j.scitotenv.2020.141604)  
 
 <a name="garopaba_sfm"></a>
-40 - Grohmann C.H., Garcia\*. G.P.B., Affonso, A.A.\*, Albuquerque, R.W.\*, 2020 - Aeolian dune modelling from airborne LiDAR, terrestrial LiDAR and Structure from Motion--Multi View Stereo.  
+40 - Grohmann C.H., Garcia\*. G.P.B., Affonso\*, A.A., Albuquerque\*, R.W., 2020 - Aeolian dune modelling from airborne LiDAR, terrestrial LiDAR and Structure from Motion--Multi View Stereo.  
 _Computers & Geosciences_, 143:104569  
 [http://doi.org/10.1016/j.cageo.2020.104569](http://doi.org/10.1016/j.cageo.2020.104569)  
 Preprint available at [arXiv:1910.06186](https://arxiv.org/abs/1910.06186) [physics.geo-ph] (open access)  
 
 <a name="treecount_rafael"></a>
-39 - Albuquerque, R.W, Costa, M.O., Ferreira, M.E, Carrero, G.C., Grohmann, C.H., 2020 - Remotely Piloted Aircrafts Imagery for Automatic Tree Counting in Forest Restoration Areas: a Case Study in the Amazon. _Journal of Unmanned Vehicle Systems_  
+39 - Albuquerque\*, R.W, Costa, M.O., Ferreira, M.E, Carrero, G.C., Grohmann, C.H., 2020 - Remotely Piloted Aircrafts Imagery for Automatic Tree Counting in Forest Restoration Areas: a Case Study in the Amazon. _Journal of Unmanned Vehicle Systems_  
 [https://doi.org/10.1139/juvs-2019-0024](https://doi.org/10.1139/juvs-2019-0024)  
 
 <a name="colonia_quatgeo"></a>
