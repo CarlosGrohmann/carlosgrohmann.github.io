@@ -8,9 +8,9 @@ published: true
 
 Here you can find a list of the papers I published, as well as some selected conference abstracts.  
 
-I intend to keep an open access copy of my papers at at [EarthArXiv.org](https://osf.io/preprints/eartharxiv/), which means that you can read them even without a subscription to the publisher, but be warned that most of these are [postprints](http://www.sherpa.ac.uk/romeoinfo.html) created from the "accepted manuscript" (that is, they have the exact same content of the final published version, but lack the typesetting of the publisher). For a final version, please refer to the publisher's website (which may be behind a paywall).  
+I intend to keep an open access copy of my papers at at [EarthArXiv.org](https://osf.io/preprints/eartharxiv/), which means that you can read them even without a subscription to the publisher, but be warned that most of these are [postprints](http://www.sherpa.ac.uk/romeoinfo.html) created from the "accepted manuscript" (that is, they have the exact same content of the final published version, except for the publisher's typesetting). For a final version, please refer to the publisher's website (which may be behind a paywall).  
 
-And if you use reference managers (you should), you can get a file with all my publications: [BibTex](http://en.wikipedia.org/wiki/Bibtex) format: [here](../../downloads/CarlosGrohmann_papers.bib) (good for [JabRef](http://jabref.sourceforge.net/), [Zotero](http://www.zotero.org/) and a bazillion others) [RIS](http://en.wikipedia.org/wiki/RIS_\(file_format\)) format: [here](../../downloads/CarlosGrohmann_papers.ris) (good for [Mendeley](http://www.mendeley.com/) or [EndNote](http://endnote.com/)) (last update: 2020-05) 
+And if you use reference managers (you should), you can get a file with all my publications: [BibTex](http://en.wikipedia.org/wiki/Bibtex) format: [here](../../downloads/CarlosGrohmann_papers.bib) (good for [JabRef](http://jabref.sourceforge.net/), [Zotero](http://www.zotero.org/) and a bazillion others) [RIS](http://en.wikipedia.org/wiki/RIS_\(file_format\)) format: [here](../../downloads/CarlosGrohmann_papers.ris) (good for [Mendeley](http://www.mendeley.com/) or [EndNote](http://endnote.com/)) (last update: 2020-08) 
 
 &nbsp;  
 &nbsp;  
@@ -22,9 +22,9 @@ And if you use reference managers (you should), you can get a file with all my p
 Paz, Carnaval... Grohmann, C.H., 2021 - Environmental correlates of taxonomic and phylogenetic diversity in the Atlantic Forest.  
 _Journal of Biogeography_   -->
 
-<!-- <a name="pellets_anderson"></a>
-Ferreira, A.T.S., Ribeiro, M.C.H, Grohmann, C.H., 2020(?) - Plastic pellets in sandy beaches: mechanisms and deposition indicators.  
-_Submitted for revision_   -->
+<a name="pellets_anderson"></a>
+Ferreira, A.T.S., Ribeiro, M.C.H, Grohmann, C.H. - Plastic pellets in sandy beaches: mechanisms and deposition indicators.  
+_Submitted for revision_  
 
 <!-- <a name="landslides_guilherme"></a>
 Garcia, G.P.B.\*, Grohmann, C.H., Martinioni, T.H., Bortolucci, L. 2020(?) - Automatic landslide identification based on vegetation indices and terrain attributes: a case study in Southeastern Brazil.  
@@ -32,7 +32,8 @@ _Submitted for revision_   -->
 
 
 <a name="landslides_helen_msc"></a>
-Dias\*, H.C., Gramani, M.F., Grohmann, C.H., Bateira, C., Vieira, B.C. - Statistical-based shallow landslide susceptibility assessment for a tropical environment: a case study in the southeastern coast of Brazil. _Submitted for revision_  
+Dias\*, H.C., Gramani, M.F., Grohmann, C.H., Bateira, C., Vieira, B.C. - Statistical-based shallow landslide susceptibility assessment for a tropical environment: a case study in the southeastern coast of Brazil.  
+_Submitted for revision_  
 
 <a name="lucas_unet"></a>
 Soares\*, L.P., Dias\*, H.C., Grohmann, C.H. - Landslide Segmentation with U-Net: Evaluating Different Sampling Methods and Patch Sizes  
@@ -42,7 +43,7 @@ Preprint available at [arXiv:2007.06672](https://arxiv.org/abs/2007.06672) [eess
 
 <a name="decio_microplastics"></a>
 41 - Gerolin, C.R., Pupim, F.N., Sawakuchi, A.O., Grohmann, C.H., Labuto, G., Semensatto, D., 2020 - Microplastics in sediments from Amazon rivers, Brazil.  
-_Science of the Total Environment_  
+_Science of the Total Environment_, 749:141604  
 [http://doi.org/10.1016/j.scitotenv.2020.141604](http://doi.org/10.1016/j.scitotenv.2020.141604)  
 
 <a name="garopaba_sfm"></a>
@@ -52,7 +53,7 @@ _Computers & Geosciences_, 143:104569
 Preprint available at [arXiv:1910.06186](https://arxiv.org/abs/1910.06186) [physics.geo-ph] (open access)  
 
 <a name="treecount_rafael"></a>
-39 - Albuquerque\*, R.W, Costa, M.O., Ferreira, M.E, Carrero, G.C., Grohmann, C.H., 2020 - Remotely Piloted Aircrafts Imagery for Automatic Tree Counting in Forest Restoration Areas: a Case Study in the Amazon. _Journal of Unmanned Vehicle Systems_  
+39 - Albuquerque\*, R.W, Costa, M.O., Ferreira, M.E, Carrero, G.C., Grohmann, C.H., 2020 - Remotely Piloted Aircrafts Imagery for Automatic Tree Counting in Forest Restoration Areas: a Case Study in the Amazon. _Journal of Unmanned Vehicle Systems_, 8:207-223  
 [https://doi.org/10.1139/juvs-2019-0024](https://doi.org/10.1139/juvs-2019-0024)  
 
 <a name="colonia_quatgeo"></a>
