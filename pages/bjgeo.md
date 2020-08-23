@@ -59,10 +59,17 @@ In the end, if the paper is well-written, if the reviewers accept the invitation
 Since 2019 we adopted a 'continuous flow' of publication. This means that once a paper is accepted, it goes to production (typesetting) and its uploaded to the journal with a final DOI and page numbering (in about 2 weeks).
 
 <br>
+**Can I publish my thesis' biliographic review as an "Invited Review"?**  
+In short, no. An "Invited Review" should cover a subject with a broad international interest, and we expect the authors to have previous experience on the subject, so they can offer their own knowledge and critique point of view in the article.  
+
+There's a blog post (in Portuguese) about this [here.](/blog/bjgeo_rev_papers/)  
+
+
+<br>
 **Any tips about maps?**  
 Yes. Be careful with the UTM zone of your study area. For example, an area in southeastern Brazil will not be in zone UTM "23S", but "23K" or "23L".  
 
-There's a blog post about this. [Read it here.](/2020-01-28-utm_south/)
+There's a blog post about this. [Read it here.](/blog/utm_23s/)  
 
 
 

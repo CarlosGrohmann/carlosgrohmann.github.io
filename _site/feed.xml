@@ -7,6 +7,17 @@
     <atom:link href="http://carlosgrohmann.com/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>O que é um Invited Review?</title>
+        <description>
+          
+          Ultimamente recebemos no Brazilian Journal of Geology (BJGEO) alguns pedidos de autores interessados em enviar artigos de revisão, os “Invited Reviews”. Mas o que é esse tipo de artigo? Uma revisão bibliográfica de tese pode ser publicada dessa maneira? Vamos ver: O BJGEO prevê, em seu escopo, a publicação de...
+        </description>
+        <pubDate>Sun, 23 Aug 2020 00:00:00 +0000</pubDate>
+        <link>http://carlosgrohmann.com/blog/bjgeo_rev_papers/</link>
+        <guid isPermaLink="true">http://carlosgrohmann.com/blog/bjgeo_rev_papers/</guid>
+      </item>
+    
+      <item>
         <title>UTM 23S??</title>
         <description>
           A common cartographical mistake in articles - 
@@ -217,17 +228,6 @@ I’m thinking about hosting the PDFs of my papers and other documents with Zeno
         <pubDate>Tue, 21 Jul 2015 00:00:00 +0000</pubDate>
         <link>http://carlosgrohmann.com/blog/expedicao-serra-do-araca-2015/</link>
         <guid isPermaLink="true">http://carlosgrohmann.com/blog/expedicao-serra-do-araca-2015/</guid>
-      </item>
-    
-      <item>
-        <title>Making a &quot;where I've been&quot; map with Leaflet</title>
-        <description>
-          
-          In my website I have a map of some (most? all?) of the places I’ve been here. When I first started with this idea (in 2011, I guess), I used GoogleMaps API and all the points of the map had to be defined in the HTML file, which was very...
-        </description>
-        <pubDate>Tue, 27 May 2014 00:00:00 +0000</pubDate>
-        <link>http://carlosgrohmann.com/blog/making-a-where-ive-been-map-with-leaflet/</link>
-        <guid isPermaLink="true">http://carlosgrohmann.com/blog/making-a-where-ive-been-map-with-leaflet/</guid>
       </item>
     
   </channel>
