@@ -16,19 +16,31 @@ And if you use reference managers (you should), you can get a file with all my p
 &nbsp;  
 <a name="papers"></a>
 ## Journal Articles  
-\* Denotes student co-author.
+\* Denotes student co-author.  
+&dagger; Denotes post-doc co-author.  
 
-<!-- <a name="biogeography"></a>
+
+<!-- <a name="landslides_lucas_meena"></a>
+Meena, S.R., Soares, L.P., Grohmann, C.H., - Landslide Detection with Small Datasets: Evaluation of Machine and Deep Learning Algorithms.   -->
+
+
+<!-- <a name="crateras_caio"></a>
+Villaça, C.V.N., Crósta, A.P., Grohmann, C.H., - Morphometric analysis of Pluto’s impact craters.   -->
+
+<!-- <a name="peruacu_milena"></a>
+Godoy-Veiga, M., Cintra, B.B.L., Strikis, N.M., Cruz, F.W., Grohmann, C.H., Regev, L., Boaretto, E., Ceccantini, G.C.T., Locosselli, G.M. - Enclaves of climate-change refugia for Amburana cearensis (Fabaceae) do not prevent climate extremes effects on trees growth in a Seasonally Dry Tropical Forest.   -->
+
+<!-- <a name="cuny_biogeography"></a>
 Paz, Carnaval... Grohmann, C.H., 2021 - Environmental correlates of taxonomic and phylogenetic diversity in the Atlantic Forest.  
 _Journal of Biogeography_   -->
 
-<a name="pellets_anderson"></a>
-Ferreira, A.T.S., Ribeiro, M.C.H, Grohmann, C.H. - Plastic pellets in sandy beaches: mechanisms and deposition indicators.  
-_Submitted for revision_  
+<!-- <a name="fruta_floodplains"></a>
+Sawakuchi, A.O., Schultz, E., Pupim, F.N., Ribas, C.C., Bertassoli Jr., D.J., Souza, D.F., Cunha, D.F., Mazoca, C.E., Ferreira, M.P., Grohmann, C.H., Wanhfried, I.D., Chiessi, C.M., Cruz, F.W., Almeida, R.P. - Congruent expansion of Amazonian riverine environments and populations of birds specialized on seasonally flooded habitats -->
 
-<!-- <a name="landslides_guilherme"></a>
-Garcia, G.P.B.\*, Grohmann, C.H., Martinioni, T.H., Bortolucci, L. 2020(?) - Automatic landslide identification based on vegetation indices and terrain attributes: a case study in Southeastern Brazil.  
-_Submitted for revision_   -->
+
+<a name="landslides_helen_pca5017"></a>
+Dias\*, H.C., Sandre, L.H., Alarcón, D.A.S., Grohmann, C.H., Quintanilha, J.A. - Landslides recognition using SVM, Random Forest and Maximum Likelihood on high-resolution satellite images: case study in Itaóca, southeastern Brazil.  
+_Submitted for revision_  
 
 
 <a name="landslides_helen_msc"></a>
@@ -40,6 +52,12 @@ Soares\*, L.P., Dias\*, H.C., Grohmann, C.H. - Landslide Segmentation with U-Net
 _Submitted for revision_  
 Preprint available at [arXiv:2007.06672](https://arxiv.org/abs/2007.06672) [eess.IV] (open access)  
 
+
+
+<a name="pellets_anderson"></a>
+42 - Ferreira&dagger;, A.T.S., Siegle, E., Ribeiro, M.C.H, Grohmann, C.H. - The dynamics of plastic pellets on sandy beaches: a new methodological approach.  
+_Marine Environmental Research_, in press.  
+[https://doi.org/10.1016/j.marenvres.2020.105219](https://doi.org/10.1016/j.marenvres.2020.105219)  
 
 <a name="decio_microplastics"></a>
 41 - Gerolin, C.R., Pupim, F.N., Sawakuchi, A.O., Grohmann, C.H., Labuto, G., Semensatto, D., 2020 - Microplastics in sediments from Amazon rivers, Brazil.  
@@ -512,7 +530,9 @@ Institute of Geosciences, University of São Paulo, Brazil. (In Portuguese)
 
 
 
-
+<!-- <a name="landslides_guilherme"></a>
+Garcia, G.P.B.\*, Grohmann, C.H., Martinioni, T.H., Bortolucci, L. 2020(?) - Automatic landslide identification based on vegetation indices and terrain attributes: a case study in Southeastern Brazil.  
+_Submitted for revision_   -->
 
 
 
