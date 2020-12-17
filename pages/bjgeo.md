@@ -4,7 +4,7 @@ title: BJGEO
 subtitle: Some resources for authors
 ---
 
-The [Brazilian Journal of Geology](http://www.scielo.br/bjgeo/) is published by the Brazilian Geological Society since 1971 (with a previous title of *Revista Brasileira de Geociencias*) and has been re-structured in 2013 aiming to be the leading journal for Geosciences in Latin America. The journal is indexed by Web of Science, Scopus, GeoRef and is hosted by [SciELO](http://www.scielo.br/), the largest electronic library of open-access scientific journals.  
+The [Brazilian Journal of Geology](http://www.scielo.br/bjgeo/) is published by the Brazilian Geological Society (SBG, in the Portuguese acronym) since 1971 (with a previous title of *Revista Brasileira de Geociencias*) and has been re-structured in 2013 aiming to be the leading journal for Geosciences in Latin America. The journal is indexed by Web of Science, Scopus, GeoRef and is hosted by [SciELO](http://www.scielo.br/), the largest electronic library of open-access scientific journals.  
 
 In this page I'll post some useful tips and resources for authors interested in submitting their articles to BJGEO.  
 
@@ -27,10 +27,26 @@ In this page I'll post some useful tips and resources for authors interested in 
 
 #### FAQ about BJGEO:
 
-**Are there any charges for publishing (APCs, color figures...)?**  
-No. We don't charge anything for publishing your paper. There are no Article Processing Charges (APCs) or costs for color figures. The journal in online-only so we don't have costs for printing.
+**Are there any charges for publishing (APCs)?**  
+Yes. Starting January 1st 2021, [Brazilian Geological Society (SBG)](http://www.sbgeo.org.br/) will charge an Article Processing Charge (APC) for all articles that are accepted for publication.  
 
-All the costs of the BJGEO are covered by the [Brazilian Geological Society](http://www.sbgeo.org.br/) (through a sponsorship from Petrobras) and by Scientific Publishing Grants from CNPq and CAPES (Federal agencies for Science and Higher Level Education). We are continuously looking for funding opportunities to keep the BJGEO free and open for everyone.
+This was not an easy decision, but with the severe cuts in Science funding from federal agencies and the end of a sponsorship from Petrobras, there was no other way to mantain the publication without the APCs. Still, the values are considerably lower than most APCs, whith cost starting at R$ 5,000.00 (USD 1,000.00). 
+
+Note that the APC doesn't cover all the publication costs, which means that the SBG still needs to look for funding and that your membership is key to keep both the society and the journal alive.  
+
+The values are progressive, depending on the status of the first author as a member of SBG:  
+
+First author is a member of SBG (professional or student) with annual fees paid for the last 3 years in a row: **R$ 750.00**  
+
+First author is a member of SBG (professional or student) with annual fees paid for the current year: **R$ 1000.00**  
+
+Authors are not members of SBG: **R$ 1,500.00**  
+
+
+
+<!-- No. We don't charge anything for publishing your paper. There are no Article Processing Charges (APCs) or costs for color figures. The journal in online-only so we don't have costs for printing.
+
+All the costs of the BJGEO are covered by the [Brazilian Geological Society](http://www.sbgeo.org.br/) (through a sponsorship from Petrobras) and by Scientific Publishing Grants from CNPq and CAPES (Federal agencies for Science and Higher Level Education). We are continuously looking for funding opportunities to keep the BJGEO free and open for everyone. -->
 
 <br>
 **Where is the submission link?**   
