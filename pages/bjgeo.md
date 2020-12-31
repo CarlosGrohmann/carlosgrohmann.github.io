@@ -36,9 +36,9 @@ Note that the APC doesn't cover all the publication costs, which means that the 
 
 The values are progressive, depending on the status of the first author as a member of SBG:  
 
-First author is a member of SBG (professional or student) with annual fees paid for the last 3 years in a row: **R$ 750.00**  
+First author is a member of SBG (professional or student) with annual fees paid for the last 3 (three) years in a row: **R$ 750.00**  
 
-First author is a member of SBG (professional or student) with annual fees paid for the current year: **R$ 1000.00**  
+First author is a member of SBG (professional or student) with annual fees paid for the last 2 (two) years in a row: **R$ 1000.00**  
 
 Authors are not members of SBG: **R$ 1,500.00**  
 

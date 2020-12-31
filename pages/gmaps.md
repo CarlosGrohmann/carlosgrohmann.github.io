@@ -12,16 +12,16 @@ For a more immersive experience, there's a full-screen version <a href="/pages/g
 <h4>Some interesting places I've been</h4>
 
 <!-- JQuery -->
-<script src="{{site.baseurl}}/js/jquery-3.4.1.min.js"></script>
+<script src="{{site.baseurl}}/assets/js/jquery-3.4.1.min.js"></script>
 
 <!-- Leaflet stuff -->
-<link rel="stylesheet" href="{{site.baseurl}}/js/leaflet.css" />
-<script src="{{site.baseurl}}/js/leaflet.js"></script>
-<script src="{{site.baseurl}}/js/leaflet-providers.js"></script>
+<link rel="stylesheet" href="{{site.baseurl}}/assets/js/leaflet.css" />
+<script src="{{site.baseurl}}/assets/js/leaflet.js"></script>
+<script src="{{site.baseurl}}/assets/js/leaflet-providers.js"></script>
 
 <!-- Leaflet Label plugin -->
-<script src='{{site.baseurl}}/js/leaflet.label.js'></script>
-<link href='{{site.baseurl}}/js/leaflet.label.css' rel='stylesheet' />
+<script src='{{site.baseurl}}/assets/js/leaflet.label.js'></script>
+<link href='{{site.baseurl}}/assets/js/leaflet.label.css' rel='stylesheet' />
 
 <!-- /* LeafLet map props*/ -->
 <style type="text/css">

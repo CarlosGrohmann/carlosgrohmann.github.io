@@ -28,8 +28,7 @@ I am/was:
 
 - Finance Director of the [Brazilian Geological Society](http://www.sbgeo.org.br/) (2014-2019)  
 &nbsp;  
-
-
+&nbsp;  
 
 #### Quick bio
 - 2015-?? - Associate Professor of Geotechnologies  
@@ -54,7 +53,7 @@ Thesis available at the [University of São Paulo Digital Library](http://www.te
 
 - 1977 - Origin of species  
 &nbsp;  
-
+&nbsp;  
 
 #### Social
 You can find me at:   
@@ -72,11 +71,18 @@ You can find me at:
 | [figshare][figshare]              | [Mendeley][Mendeley]          |                        |
  -->
 &nbsp;  
-&nbsp; 
 I deleted my account at Academia.edu  
 (why? see [here](/2017-01-24-i-deleted-my-account-at-academia-edu/))
+&nbsp;  
+&nbsp;  
 
-
+#### Instagram
+Check the full feed [@carlosgrohmann](https://www.instagram.com/carlosgrohmann/)
+<!-- SnapWidget -->
+<script src="https://snapwidget.com/js/snapwidget.js"></script>
+<!-- SnapWidget -->
+<iframe src="https://snapwidget.com/embed/652797" class="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:650px; height:450px"></iframe>
+<div style="font:10px/14px 'Roboto','Helvetica Neue',Arial,Helvetica,sans-serif;font-weight:400;width:495px;text-align:right"><a href="https://snapwidget.com" style="color:#777;text-decoration:none;">SnapWidget · Instagram Widget</a></div>
 
 
 

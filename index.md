@@ -1,20 +1,21 @@
 ---
 layout: page
-title: Welcome
-subtitle: 
+title: Hello, world
+subtitle: Prof. Carlos H. Grohmann
 published: true
-bigimg:
-  - "/img/bigimg/amazon1.jpg" : "Amazon River"
-  - "/img/bigimg/bergen.jpg" : "Bergen, Norway"
-  - "/img/bigimg/dartmoor.jpg" : "Dartmoor National Park, England"
-  - "/img/bigimg/diabo_captura_nuvem_super.jpg" : "Devil's Cave (Brazil), LiDAR point cloud"
-  - "/img/bigimg/folds1.jpg" : "Falkland Islands"
-  - "/img/bigimg/IMG_1969_small.jpg" : "Aracá Range, Amazonia, Brazil"
-  - "/img/bigimg/jalapao.jpg" : "Jalapão National Park, Brazil"
-  - "/img/bigimg/klagenfurt.jpg" : "Klagenfurt, Austria"
-  - "/img/bigimg/IMG_2133_small.jpg" : "Aracá Range, Amazonia, Brazil"
-  - "/img/bigimg/quarry.jpg" : "Falkland Islands"
-  - "/img/bigimg/wall.jpg" : "Great Wall, China"
+cover-img: ["/img/bigimg/amazon1.jpg" : "Amazon River",
+"/img/bigimg/bergen.jpg" : "Bergen, Norway",
+"/img/bigimg/dartmoor.jpg" : "Dartmoor National Park, England",
+"/img/bigimg/diabo_captura_nuvem_super.jpg" : "Devil's Cave (Brazil), LiDAR point cloud",
+"/img/bigimg/folds1.jpg" : "Falkland Islands",
+"/img/bigimg/IMG_1969_small.jpg" : "Aracá Range, Amazonia, Brazil",
+"/img/bigimg/jalapao.jpg" : "Jalapão National Park, Brazil",
+"/img/bigimg/klagenfurt.jpg" : "Klagenfurt, Austria",
+"/img/bigimg/IMG_2133_small.jpg" : "Aracá Range, Amazonia, Brazil",
+"/img/bigimg/quarry.jpg" : "Falkland Islands",
+"/img/bigimg/wall.jpg" : "Great Wall, China"]
+share-title: Prof. Carlos H. Grohmann
+share-description: Personal website of Prof. Carlos H. Grohmann (IEE-USP, Brazil)
 ---
 
 <!-- ### Welcome -->
@@ -29,7 +30,7 @@ My research interests include Digital Terrain Analysis (Geomorphometry), DEMs, G
 
 &nbsp;
 &nbsp;  
-#### Address
+### Address
 [Division of Oil, Natural Gas and Bioenergy](http://www.usp.br/iee/?q=divisao/petroleo)  
 [Institute of Energy and Environment](http://www.iee.usp.br/)  
 [University of São Paulo](http://www.usp.br/) – [Brazil](https://en.wikipedia.org/wiki/Brazil)    

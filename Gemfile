@@ -1,13 +1,7 @@
-source 'https://rubygems.org'
+# frozen_string_literal: true
 
-gem "github-pages", group: :jekyll_plugins
+source "https://rubygems.org"
 
-# enable tzinfo-data for local build
-# gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
-gem 'jekyll-paginate'
+gemspec
 
-gem 'jekyll-twitter-plugin', group: :jekyll_plugins
-
-# gem 'jekyll-target-blank'
-
-gem "jekyll", ">= 3.7.4"
+gem 'jekyll-scholar', group: :jekyll_plugins

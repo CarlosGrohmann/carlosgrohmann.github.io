@@ -8,7 +8,7 @@ published: true
 
 Here you can find a list of the papers I published, as well as some selected conference abstracts.  
 
-I intend to keep an open access copy of my papers at at [EarthArXiv.org](https://osf.io/preprints/eartharxiv/), which means that you can read them even without a subscription to the publisher, but be warned that most of these are [postprints](http://www.sherpa.ac.uk/romeoinfo.html) created from the "accepted manuscript" (that is, they have the exact same content of the final published version, except for the publisher's typesetting). For a final version, please refer to the publisher's website (which may be behind a paywall).  
+I intend to keep an open access copy of my papers at [EarthArXiv.org](https://osf.io/preprints/eartharxiv/) and [ArXiv.org](https://arxiv.org/), which means that you can read them even without a subscription to the publisher, but be warned that most of these are [postprints](http://www.sherpa.ac.uk/romeoinfo.html) created from the "accepted manuscript" (that is, they have the exact same content of the final published version, except for the publisher's typesetting). For a final version, please refer to the publisher's website (which may be behind a paywall).  
 
 And if you use reference managers (you should), you can get a file with all my publications: [BibTex](http://en.wikipedia.org/wiki/Bibtex) format: [here](../../downloads/CarlosGrohmann_papers.bib) (good for [JabRef](http://jabref.sourceforge.net/), [Zotero](http://www.zotero.org/) and a bazillion others) [RIS](http://en.wikipedia.org/wiki/RIS_\(file_format\)) format: [here](../../downloads/CarlosGrohmann_papers.ris) (good for [Mendeley](http://www.mendeley.com/) or [EndNote](http://endnote.com/)) (last update: 2020-08) 
 
@@ -23,25 +23,32 @@ And if you use reference managers (you should), you can get a file with all my p
 <!-- <a name="landslides_lucas_meena"></a>
 Meena, S.R., Soares, L.P., Grohmann, C.H., - Landslide Detection with Small Datasets: Evaluation of Machine and Deep Learning Algorithms.   -->
 
-
-<!-- <a name="crateras_caio"></a>
-Villaça, C.V.N., Crósta, A.P., Grohmann, C.H., - Morphometric analysis of Pluto’s impact craters.   -->
-
 <!-- <a name="peruacu_milena"></a>
 Godoy-Veiga, M., Cintra, B.B.L., Strikis, N.M., Cruz, F.W., Grohmann, C.H., Regev, L., Boaretto, E., Ceccantini, G.C.T., Locosselli, G.M. - Enclaves of climate-change refugia for Amburana cearensis (Fabaceae) do not prevent climate extremes effects on trees growth in a Seasonally Dry Tropical Forest.   -->
 
 <!-- <a name="cuny_biogeography"></a>
-Paz, Carnaval... Grohmann, C.H., 2021 - Environmental correlates of taxonomic and phylogenetic diversity in the Atlantic Forest.  
+Paz, Carnaval... Grohmann, C.H., 2021 - Environmental correlates of taxonomic and phylogenetic diversity in the Atlantic Forest.
 _Journal of Biogeography_   -->
 
 <!-- <a name="fruta_floodplains"></a>
 Sawakuchi, A.O., Schultz, E., Pupim, F.N., Ribas, C.C., Bertassoli Jr., D.J., Souza, D.F., Cunha, D.F., Mazoca, C.E., Ferreira, M.P., Grohmann, C.H., Wanhfried, I.D., Chiessi, C.M., Cruz, F.W., Almeida, R.P. - Congruent expansion of Amazonian riverine environments and populations of birds specialized on seasonally flooded habitats -->
 
 
+<a name="crateras_caio"></a>
+Villaça, C.V.N., Crósta, A.P., Grohmann, C.H., - Morphometric analysis of Pluto’s impact craters.  
+_Submitted for revision_  
+
+<a name="praias_natal_pca5017"></a>
+Silva, B.B.S., Sergipe, P.P., Silva, R.S., Quintanilha, J.A., Grohmann, C.H. - Classificação supervisionada de imagens de satélite como ferramenta para análise temporal da morfodinâmica costeira entre as praias de Areia Preta e do Forte, Natal (RN).  
+_Submitted for revision_  
+
+<a name="alynne_pca5017"></a>
+Affonso\*, A.A., Mandai, S.S., Portella, T.P., Grohmann, C.H., Quintanilha, J.A. - Assessing land use and land cover change in the Volta Grande do Xingu (Pará - Brazil) between 2000 and 2017.  
+_Submitted for revision_  
+
 <a name="landslides_helen_pca5017"></a>
 Dias\*, H.C., Sandre, L.H., Alarcón, D.A.S., Grohmann, C.H., Quintanilha, J.A. - Landslides recognition using SVM, Random Forest and Maximum Likelihood on high-resolution satellite images: case study in Itaóca, southeastern Brazil.  
 _Submitted for revision_  
-
 
 <a name="landslides_helen_msc"></a>
 Dias\*, H.C., Gramani, M.F., Grohmann, C.H., Bateira, C., Vieira, B.C. - Statistical-based shallow landslide susceptibility assessment for a tropical environment: a case study in the southeastern coast of Brazil.  
@@ -53,10 +60,9 @@ _Submitted for revision_
 Preprint available at [arXiv:2007.06672](https://arxiv.org/abs/2007.06672) [eess.IV] (open access)  
 
 
-
 <a name="pellets_anderson"></a>
 42 - Ferreira&dagger;, A.T.S., Siegle, E., Ribeiro, M.C.H, Grohmann, C.H. - The dynamics of plastic pellets on sandy beaches: a new methodological approach.  
-_Marine Environmental Research_, in press.  
+_Marine Environmental Research_, accepted (in press).  
 [https://doi.org/10.1016/j.marenvres.2020.105219](https://doi.org/10.1016/j.marenvres.2020.105219)  
 
 <a name="decio_microplastics"></a>
@@ -319,7 +325,7 @@ _Proceedings of the Geomorphometry 2020 conference_
 [http://doi.org/10.30437/Geomorphometry2020](http://doi.org/10.30437/Geomorphometry2020)  
 *download:* [paper](http://doi.org/10.30437/Geomorphometry2020_30)  
 
-<a name="cbe_tapagem"></a>Grohmann, C.H., Zacharias, G.S., Garcia, G.P.B, Barale, F., Almeida, F.V., Arnone, I.S., 2019. Mapeamento e modelagem 3D do setor turístico da Caverna do Diabo (SP) com Laser Scanner: resultados preliminares. In:_35 Congresso Brasileiro de Espeleologia_, Bonito,MS.
+<a name="cbe_tapagem"></a>Grohmann, C.H., Zacharias, G.S., Garcia, G.P.B, Barale, F., Almeida, F.V., Arnone, I.S., 2019. Mapeamento e modelagem 3D do setor turístico da Caverna do Diabo (SP) com Laser Scanner: resultados preliminares. In:_35 Congresso Brasileiro de Espeleologia_, Bonito,MS.  
 *download:* [paper](http://www.cavernas.org.br/anais35cbe/35cbe_201-206.pdf)  
 
 <a name="sbsr_litchi"></a>
@@ -355,7 +361,7 @@ _XIII Simpósio Nacional de Estudos Tectônicos_, Campinas, SP. Anais.
 <a name="openstereo_agu"></a>
 Grohmann, C.H., Campanha, G.A.C., 2010. OpenStereo: Open Source, Cross-Platform Software for Structural Geology Analysis.  
 _AGU Fall Meeting 2010_, San Francisco, California, USA.  
-[PDF](http://carlosgrohmann.com/downloads/Grohmann_Campanha_2010_AGU10_OpenStereo.pdf) 
+*download:* [paper](http://carlosgrohmann.com/downloads/Grohmann_Campanha_2010_AGU10_OpenStereo.pdf) 
 
 
 <!-- <a name="gmorph"></a>

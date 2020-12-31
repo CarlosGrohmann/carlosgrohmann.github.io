@@ -90,7 +90,7 @@ level: Undergraduate research | funding: USP
 &nbsp;  
 
 ### Former Students
-#### MSc
+### MSc
 **Andréa Simone Venancio Machado**  
 Geomorphological aspects of the extrusive and intrusive terrains of the Fartura (SP) region  
 period: 2010-2012 | program: co-Advisor, Unesp)  
@@ -133,7 +133,7 @@ PDF available at the [USP Digital Library of Theses and Dissertations](http://ww
 &nbsp;
 &nbsp;
 
-#### Undergrad
+### Undergrad
 **Ana Laura Person**  
 Detailed speleological mapping of the turistic sector of Tapagem Cave (Devil's Cave)  
 period: 2013 | kind: Undergraduate monograph (final paper)  
