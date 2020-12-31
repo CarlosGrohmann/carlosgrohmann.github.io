@@ -1,29 +1,237 @@
----
-layout: null
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    {% if site.title %}
-    <title>{{ site.title | xml_escape }}</title>
-    {% endif %}
-    {% if site.rss-description %}
-    <description>{{ site.rss-description | xml_escape }}</description>
-    {% endif %}
-    <link>{{ '' | absolute_url }}</link>
-    <atom:link href="{{ 'feed.xml' | absolute_url }}" rel="self" type="application/rss+xml" />
-    {% assign excerpt_length = site.excerpt_length | default: 50 %}
-    {% for post in site.posts limit:20 %}
+    
+    <title>Home</title>
+    
+    
+    <link></link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+    
+    
       <item>
-        <title>{{ post.title | xml_escape }}</title>
+        <title>O que é um Invited Review?</title>
         <description>
-          {% if post.subtitle %}{{ post.subtitle | xml_escape }} - {% endif %}
-          {{ post.content | strip_html | xml_escape | truncatewords: excerpt_length }}
+          
+          Ultimamente recebemos no Brazilian Journal of Geology (BJGEO) alguns pedidos de autores interessados em enviar artigos de revisão, os “Invited Reviews”. Mas o que é esse tipo de artigo? Uma revisão bibliográfica de tese pode ser publicada dessa maneira? Vamos ver: O BJGEO prevê, em seu escopo, a publicação de...
         </description>
-        <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
-        <link>{{ post.url | absolute_url }}</link>
-        <guid isPermaLink="true">{{ post.url | absolute_url }}</guid>
+        <pubDate>Sun, 23 Aug 2020 00:00:00 +0000</pubDate>
+        <link>/blog/bjgeo_rev_papers/</link>
+        <guid isPermaLink="true">/blog/bjgeo_rev_papers/</guid>
       </item>
-    {% endfor %}
+    
+      <item>
+        <title>UTM 23S??</title>
+        <description>
+          A common cartographical mistake in articles - 
+          If there’s one thing that I see all the time as a reviewer, is a map of some study area in Brazil with a caption like “UTM coordinates zone 23S”. Don’t do that. Why? I’ll tell you. The UTM system divides the Earth into 60 zones (or fuses) of 6°...
+        </description>
+        <pubDate>Tue, 28 Jan 2020 00:00:00 +0000</pubDate>
+        <link>/blog/utm_23s/</link>
+        <guid isPermaLink="true">/blog/utm_23s/</guid>
+      </item>
+    
+      <item>
+        <title>FAQ about BJGEO</title>
+        <description>
+          
+          The Brazilian Journal of Geology is the official publication of the Brazilian Geological Society. As the Deputy Editor, I receive emails with common questions about the journal. So I decided to crate a page with some useful information for potential authors. Click here to go to the BJGEO FAQ page...
+        </description>
+        <pubDate>Mon, 27 Jan 2020 00:00:00 +0000</pubDate>
+        <link>/blog/faq_bjgeo/</link>
+        <guid isPermaLink="true">/blog/faq_bjgeo/</guid>
+      </item>
+    
+      <item>
+        <title>Tutorial - São Paulo City LiDAR</title>
+        <description>
+          
+          The São Paulo City Hall has just released free LiDAR data covering the city on their digital mapping platform, GeoSampa. Since the GeoSampa site is in Portuguese, I posted a short tutorial on how to access the data in the SPAMLab blog: https://spamlab.github.io/2019-11-25-pmsp_laz/. Also, just a few hours after the...
+        </description>
+        <pubDate>Mon, 25 Nov 2019 00:00:00 +0000</pubDate>
+        <link>/blog/pmsp_laz/</link>
+        <guid isPermaLink="true">/blog/pmsp_laz/</guid>
+      </item>
+    
+      <item>
+        <title>New site layout</title>
+        <description>
+          
+          If you are reading this it means my website is… alive and well! And you can see that this website has changed a bit. It loads faster, the visual is different (cleaner, I hope) and it works on all screen sizes (well, maybe not on a Nokia 3310). The reason...
+        </description>
+        <pubDate>Sun, 03 Feb 2019 00:00:00 +0000</pubDate>
+        <link>/blog/new-layout/</link>
+        <guid isPermaLink="true">/blog/new-layout/</guid>
+      </item>
+    
+      <item>
+        <title>The SPAMLab has a website (and a blog)</title>
+        <description>
+          
+          Yes, that’s right. I finally managed to get the SPAMLab website up and running. It’s hosted on Github Pages: SPAMLab.github.io I’ll try to keep it updated with our research projects and activities. Stay tuned, and follow us on Twitter (@spamlab.iee) and Instagram (@spamlab.iee).
+
+        </description>
+        <pubDate>Fri, 27 Apr 2018 00:00:00 +0000</pubDate>
+        <link>/blog/the-spamlab-has-a-website-and-a-blog/</link>
+        <guid isPermaLink="true">/blog/the-spamlab-has-a-website-and-a-blog/</guid>
+      </item>
+    
+      <item>
+        <title>Publish anything with us (just need to pay 1200 Euros)</title>
+        <description>
+          
+          So I just got this email: Dear Dr. Grohmann, This is a follow up email regarding your invitation to write a chapter for a new Open Access book on “Multidimensional Flow Cytometry Techniques for Novel Highly Informative Assays,” edited by Dr. Marica Gemei. With over 2,800 titles published and a...
+        </description>
+        <pubDate>Wed, 24 May 2017 00:00:00 +0000</pubDate>
+        <link>/blog/publish-anything-with-us-just-need-to-pay-1200-euros/</link>
+        <guid isPermaLink="true">/blog/publish-anything-with-us-just-need-to-pay-1200-euros/</guid>
+      </item>
+    
+      <item>
+        <title>I deleted my account at Academia.edu</title>
+        <description>
+          
+          I decided to delete my account at Academia.edu after reading Sarah Bond’s article in Forbes and Ethan Gruber’s post.
+
+I’m thinking about hosting the PDFs of my papers and other documents with Zenodo or figshare (I already have some docs there). 
+
+        </description>
+        <pubDate>Wed, 25 Jan 2017 00:00:00 +0000</pubDate>
+        <link>/blog/i-deleted-my-account-at-academia-edu/</link>
+        <guid isPermaLink="true">/blog/i-deleted-my-account-at-academia-edu/</guid>
+      </item>
+    
+      <item>
+        <title>Denoising SRTM with GRASS-GIS</title>
+        <description>
+          
+          Digital elevation data usually has some noise in it, but removing that noise may not be as easy as a simple filtering procedure. Using raster filters (mean, mode etc) in moving-windows operations will smooth the original topography. One solution is to perform the filtering with the XYZ information of each...
+        </description>
+        <pubDate>Tue, 06 Dec 2016 00:00:00 +0000</pubDate>
+        <link>/blog/denoise-srtm-grass/</link>
+        <guid isPermaLink="true">/blog/denoise-srtm-grass/</guid>
+      </item>
+    
+      <item>
+        <title>Curso Internacional de Espeleoresgate 2016</title>
+        <description>
+          
+          Estão abertas as inscrições para o Curso Internacional de Espeleoresgate 2016. O curso é organizado pelo Grupo Bambuí de Pesquisas Espeleológicas em conjunto com a Federação Francesa de Espeleologia (FFS) e o Espeleo Socorro da França (SSF), com apoio do Espeleo Grupo de Brasília (EBG) e Meandros Espeleo Clube. O curso será...
+        </description>
+        <pubDate>Mon, 23 May 2016 00:00:00 +0000</pubDate>
+        <link>/blog/curso-internacional-de-espeleoresgate-2016/</link>
+        <guid isPermaLink="true">/blog/curso-internacional-de-espeleoresgate-2016/</guid>
+      </item>
+    
+      <item>
+        <title>Installing Orfeo Toolbox and Monteverdi on OSX</title>
+        <description>
+          
+          The Orfeo ToolBox (OTB) is an open-source C++ library for processing of remote sensing image, and it is shipped with Monteverdi, an end-users oriented software for for classical remote sensing tasks. With the recent release of OTB version 5.4, I decided to make this brief post on how to get...
+        </description>
+        <pubDate>Fri, 13 May 2016 00:00:00 +0000</pubDate>
+        <link>/blog/installing-orfeo-toolbox-and-monteverdi-on-osx/</link>
+        <guid isPermaLink="true">/blog/installing-orfeo-toolbox-and-monteverdi-on-osx/</guid>
+      </item>
+    
+      <item>
+        <title>O uso adequado de algumas expressões de tecnologia em inglês</title>
+        <description>
+          
+          Reproduzo aqui um infográfico produzido pela iinterativa e publicado em followthecolours.com.br. Descobri graças ao Twitter do SIBI-USP. O infográfico é muito útil pois traz o uso correto de alguns termos em inglês ligados à tecnologia, como “on-line”, “e-mail” e o bem brasileiro “pen drive” (raramente usado pelos que falam inglês...
+        </description>
+        <pubDate>Tue, 10 May 2016 00:00:00 +0000</pubDate>
+        <link>/blog/o-uso-adequado-de-algumas-expressoes-de-tecnologia-em-ingles/</link>
+        <guid isPermaLink="true">/blog/o-uso-adequado-de-algumas-expressoes-de-tecnologia-em-ingles/</guid>
+      </item>
+    
+      <item>
+        <title>SRTM - erros frequentes e como evitá-los</title>
+        <description>
+          
+          Os modelos de elevação SRTM são muito utilizados aqui no Brasil, já que não temos uma cobertura de mapas topográficos em escala decente (1:50.000 ou melhor) da maior parte de nosso território. Porém, tenho notado quatro erros muito frequentes nos artigos e monografias (TCCs, dissertações e teses) que vou comentar...
+        </description>
+        <pubDate>Sun, 01 May 2016 00:00:00 +0000</pubDate>
+        <link>/blog/srtm-erros-frequentes-e-como-evita-los/</link>
+        <guid isPermaLink="true">/blog/srtm-erros-frequentes-e-como-evita-los/</guid>
+      </item>
+    
+      <item>
+        <title>Relato de acidente e resgate - Lapa da Deuza (Vazante, MG)</title>
+        <description>
+          
+          Em setembro de 2015, durante as atividades do curso de espeleo resgate em Mambaí (GO), recebemos a notícia que nosso amigo Ezio Rubbioli havia sofrido um acidente durante uma exploração na Lapa da Deuza (Vazante - MG). Felizmente tudo acabou bem e o resgate foi efetuado rapidamente. A seguir, reproduzo...
+        </description>
+        <pubDate>Fri, 05 Feb 2016 00:00:00 +0000</pubDate>
+        <link>/blog/acidente-ezio/</link>
+        <guid isPermaLink="true">/blog/acidente-ezio/</guid>
+      </item>
+    
+      <item>
+        <title>Prof. Carlos Grohmann, mas pode chamar de 0000-0001-5073-5572</title>
+        <description>
+          
+          Demorou mas finalmente está-se falando do ORCID aqui no Brasil. OR-quem? Calma que eu explico. ORCID é a sigla para Open Researcher and Contributor ID. A ideia é que cada pesquisador que se cadastra recebe um número de identificação (o meu é 0000-0001-5073-5572) e esse número é eterno. A pessoa...
+        </description>
+        <pubDate>Thu, 14 Jan 2016 00:00:00 +0000</pubDate>
+        <link>/blog/post_orcid/</link>
+        <guid isPermaLink="true">/blog/post_orcid/</guid>
+      </item>
+    
+      <item>
+        <title>Termos acadêmicos (português-inglês)</title>
+        <description>
+          
+          Hoje achei uma lista bem interessante de termos utilizados na Academia e suas traduções em inglês. O original está aqui. A lista é claramente voltada ao inglês dos EUA, e encontrei alguns termos traduzidos incorretamente. Por exemplo, enquanto que no Brasil defende-se uma Dissertação de Mestrado e uma Tese de...
+        </description>
+        <pubDate>Tue, 05 Jan 2016 00:00:00 +0000</pubDate>
+        <link>/blog/termos-academicos-portugues-ingles/</link>
+        <guid isPermaLink="true">/blog/termos-academicos-portugues-ingles/</guid>
+      </item>
+    
+      <item>
+        <title>Working with GRASS-7.0 and homebrew python on OS X</title>
+        <description>
+          
+          Sometimes getting all the software you need for Scientific analysis updated and running smoothly in OS X can be a bit annoying. For most things, there’s Homebrew (a nice post on setting your Mac for Scientific analysis with Python and homebrew is this one.) And if you’re into GIS, you...
+        </description>
+        <pubDate>Fri, 25 Dec 2015 00:00:00 +0000</pubDate>
+        <link>/blog/grass-brew-python-osx/</link>
+        <guid isPermaLink="true">/blog/grass-brew-python-osx/</guid>
+      </item>
+    
+      <item>
+        <title>resample and derive or derive and resample? [paper review]</title>
+        <description>
+          
+          Working with Digital Elevation Models (DEMs) have became a standard practice in scientific disciplines related to the physical environment, from geomorphology, geology, to biogeography and climate modeling. The Shuttle Radar Topography Mission (SRTM - Farr et al., 2007) and ASTER GDEM (Tachikawa et al., 2011) provide a near-global to global...
+        </description>
+        <pubDate>Tue, 15 Dec 2015 00:00:00 +0000</pubDate>
+        <link>/blog/regional-scale-analysis-of-dems-resample-and-derive-or-derive-and-resample-paper-review/</link>
+        <guid isPermaLink="true">/blog/regional-scale-analysis-of-dems-resample-and-derive-or-derive-and-resample-paper-review/</guid>
+      </item>
+    
+      <item>
+        <title>Curso de Espeleo Resgate - Mambaí, GO</title>
+        <description>
+          
+          Entre 06 e 13 de setembro deste ano (2015, caso você esteja lendo do futuro) ocorreu mais uma edição do Curso de Formação em Espeleo Resgate, em parceira com o Espeleo Socorro Francês SSF - Spéléo Secours Français. O curso foi organizado (e muito bem organizado) pelos nossos amigos do...
+        </description>
+        <pubDate>Mon, 28 Sep 2015 00:00:00 +0000</pubDate>
+        <link>/blog/espeleo-resgate-mambai/</link>
+        <guid isPermaLink="true">/blog/espeleo-resgate-mambai/</guid>
+      </item>
+    
+      <item>
+        <title>Expedição Serra do Aracá 2015</title>
+        <description>
+          
+          Durante 15 dias em julho/2015 o Grupo Bambuí de Pesquisas Espeleológicas (GBPE) em conjunto com o La Venta Esplorazioni Geografiche organizaram uma expedição de exploração espeleológica/geográfica na Serra do Aracá, norte do Estado do Amazonas. A equipe contou com cinco brasileiros e quatro italianos: Ezio Rubbioli (Bambuí) Alexandre Lobo (Bambuí) Daniel...
+        </description>
+        <pubDate>Tue, 21 Jul 2015 00:00:00 +0000</pubDate>
+        <link>/blog/expedicao-serra-do-araca-2015/</link>
+        <guid isPermaLink="true">/blog/expedicao-serra-do-araca-2015/</guid>
+      </item>
+    
   </channel>
 </rss>
