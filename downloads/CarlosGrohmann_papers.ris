@@ -2,653 +2,48 @@ TY  - JOUR
 AU  - Giannini, Paulo C. Fonseca
 AU  - Assine, Mario Luis
 AU  - Basilici, Giorgio
-AU  - Grohmann, Carlos Henrique
+AU  - Grohmann, C. H.
 T1  - Excerpts from the 6th Latin American Congress of Sedimentology
 JO  - Brazilian Journal of Geology
 Y1  - 2015/08
 VL  - 45
-
 SP  - 1
 EP  -  2
-UR  - https://doi.org/10.1590/2317-4889201545000
-M3  - http://doi.org/10.1590/2317-4889201545000
-
-
+M3  - https://doi.org/10.1590/2317-4889201545000
 U1  - 2317-4889
-
-
-
-N1  - Added to JabRef: 2020-12-30-12-38
-N2  - The 6 th Latin American Congress of Sedimentology (VI LACS) was held at the Universidade de São Paulo main campus, in the city of São Paulo, 14-17 July 2013. This is the main scientific event focused on the Latin American community of sedimentologists and stratigraphers, promoted under the seal of IAS, the International Association of Sedimentologists, since 1997. The VI LACS had 380 registrations: 251 from Brazil and 129 from 17 other countries, mainly of South America. There were 121 presented works, which integrated the abstracts book. After the event, the authors were invited to submit a full paper version of theirs abstracts to the Annals of the Congress , which is being published now as this special supplement of the Brazilian Journal of Geology , with financial support from the Brazilian National Council for Scientific and Technological Development - CNPq (Grant 452723/2013-2).
-ER  -
-TY  - CONF
-AU  - Albuquerque*, R. W.
-AU  - Ferreira, M. E.
-AU  - Girão, V. J.
-AU  - Balieiro, C. P.
-AU  - Mansur, H.
-AU  - Costa, J. V. S.
-AU  - Grohmann, C. H.
-
-T1  - Comparação de RPAS e TOPODATA no mapeamento de regiões declivosas previstas no Cadastro Ambiental Rural
-T2  - XIX Brazilian Symposium on Remote Sensing
-PB  - Galoa
-AD  - Santos, SP.
-Y1  - 2019
-VL  - 17
-
-SP  - 96426
-EP  - 96426
-
-
-
-
-
-
-
-
-N1  - Added to JabRef: 2020-08-04
-
 ER  -
 TY  - JOUR
-AU  - Albuquerque*, Rafael Walter
-AU  - Costa, Marcelo Oliveira
-AU  - Ferreira, Manuel Eduardo
-AU  - Carrero, Gabriel Cardoso
-AU  - Grohmann, Carlos Henrique
-T1  - Remotely piloted aircraft imagery for automatic tree counting in forest restoration areas: a case study in the Amazon
-JO  - Journal of Unmanned Vehicle Systems
-Y1  - 2020
-VL  - 8
-IS  - 3
-SP  - 207
-EP  - 223
-UR  - https://doi.org/10.1139/juvs-2019-0024
-M3  - http://doi.org/10.1139/juvs-2019-0024
-
-
-
-
-
-N1  - Owner: guano
-N1  - Added to JabRef: 2020-12-30-13-56
-N2  - Throughout the world, restoration of degraded areas (RDA) is not only a global but also a local challenge. In this context, the Brazilian government committed itself to restore 12 million hectares of forests by 2030. RDA monitoring customarily depends on extensive fieldwork to collect data on all individuals planted. As remotely piloted aircrafts (RPAs) can reduce costs and time of fieldwork activities, studying this technology is therefore timely given. A crucial metric for RDA is the number of trees established in the area. Methods using RPAs on automatic tree counting showed good accuracy using algorithms based on the canopy height model (CHM), which is the difference between a digital surface model (DSM) and a digital terrain model (DTM). However, obtaining a DTM demands an extra computational processing step and may require field control points or manually delimiting objects on the surface. The study presented here proposes and evaluates a semi-automated methodology for counting trees directly on DSM in RDAs in the Amazon using RPA coupled with a red–green–blue standard photographic sensor. The DSM method obtained good overall accuracy and F-score indexes, superior to the CHM method for all study areas even when overall accuracy was low for both methods.
-ER  -
-TY  - JOUR
-AU  - Albuquerque*, R. W.
-AU  - Ferreira, M. E.
-AU  - Olsen, S. I.
-AU  - Tymus, J. R. C.
-AU  - Balieiro, C. P.
-AU  - Mansur, H.
-AU  - Moura, C. J. R.
-AU  - Costa, J. V. S.
-AU  - Branco, Ma. R. C.
+AU  - Viana, C. D.
 AU  - Grohmann, C. H.
-T1  - Forest Restoration Monitoring Protocol with a Low-Cost Remotely Piloted Aircraft: Lessons Learned from a Case Study in the Brazilian Atlantic Forest
-JO  - Remote Sensing
-Y1  - 2021
-VL  - 13
-IS  - 12
-
-
-M3  - http://doi.org/10.3390/rs13122401
-
-
-U1  - 2072-4292
-
-
-
-
-
-ER  -
-TY  - JOUR
-AU  - Albuquerque*, Rafael Walter
-AU  - Vieira, Daniel Luis Mascia
-AU  - Ferreira, Manuel Eduardo
-AU  - Soares, Lucas Pedrosa
-AU  - Olsen, Søren Ingvor
-AU  - Araujo, Luciana Spinelli
-AU  - Vicente, Luiz Eduardo
-AU  - Tymus, Julio Ricardo Caetano
-AU  - Balieiro, Cintia Palheta
-AU  - Matsumoto, Marcelo Hiromiti
-AU  - Grohmann, Carlos Henrique
-T1  - Mapping Key Indicators of Forest Restoration in the Amazon Using a Low-Cost Drone and Artificial Intelligence
-JO  - Remote Sensing
-Y1  - 2022
-VL  - 14
-IS  - 4
-
-UR  - https://www.mdpi.com/2072-4292/14/4/830
-M3  - http://doi.org/10.3390/rs14040830
-
-
-U1  - 2072-4292
-
-
-
-N1  - Added to JabRef: 2022-02-13-22-06
-
-ER  -
-TY  - CONF
-AU  - Barale*, F.
-AU  - Grohmann, C. H.
-
-T1  - Photoscan x COLMAP: comparação entre DEMs gerados por Structure from Motion–Multi-View Stereo
-T2  - XIX Brazilian Symposium on Remote Sensing
-PB  - Galoa
-AD  - Santos, SP.
-Y1  - 2019
-VL  - 17
-
-SP  - 95942
-EP  - 95942
-
-
-
-
-
-
-
-
-N1  - Added to JabRef: 2020-08-04
-
-ER  -
-TY  - CONF
-AU  - Campanha, G. A. C.
-AU  - Boggiani, P. C.
-AU  - Warren, L. V.
-AU  - Grohmann, C. H.
-AU  - Cáceres, A. A.
-
-T1  - Possibilidade de uma nova faixa móvel Brasiliana no norte do Paraguai
-T2  - Anais do XLIV Congresso Brasileiro de Geologia
-
-
-Y1  - 2008
-
-
-
-
-
-
-
-
-
-
-N1  - Owner: guano
-N1  - Added to JabRef: 2009.09.19
-
-ER  -
-TY  - JOUR
-AU  - Campanha, G. A. C.
-AU  - Warren, L. V.
-AU  - Boggiani, P. C.
-AU  - Grohmann, C. H.
-AU  - Cáceres, A. A.
-T1  - Structural Analysis of the Itapucumí Group in the Vallemí Region, Northern Paraguay: Evidence of a New Brasiliano/Pan-African Mobile Belt
-JO  - Journal of South American Earth Sciences
-Y1  - 2010
-VL  - 30
-
-SP  - 1
-EP  - 11
-UR  - http://dx.doi.org/10.1016/j.jsames.2010.04.001
-M3  - http://doi.org/10.1016/j.jsames.2010.04.001
-
-
-
-
-
-N1  - Owner: guano
-N1  - Added to JabRef: 2020-12-30-12-47
-N2  - The Neoproterozoic (Ediacaran) Itapucumí Group in northern Paraguay is composed of carbonate and siliciclastic rocks, including ooid grainstones, marls, shales and sandstones, containing Cloudina fossils in the eastern region. It is almost undeformed over the Rio Apa Cratonic Block but shows a strong deformational pattern at its western edge. A detailed structural analysis of the Itapucumí Group was conducted in the Vallemí Mine, along with a regional survey in other outcrops downstream in the Paraguay River and in the San Alfredo, Cerro Paiva and Sargento José E. López regions. In the main Vallemí quarry, the structural style is characterized by an axial-plane slaty cleavage in open to isoclinal folds, sometimes overturned, associated with N–S trending thrust faults and shear zones of E-vergence and with a low-grade chlorite zone metamorphism. The structural data presented here are compatible with the hypothesis of a newly recognized mobile belt on the western side of the Rio Apa Cratonic Block, with opposite vergence to that of the Paraguay Mobile Belt in Brazil. Both belts are related to the Late Brasiliano/Pan-African tectonic cycle with a Lower Cambrian deformation and metamorphism age. The deformation could be due to the late collision of the Amazonian Craton with the remainder of Western Gondwana or to the western active plate boundary related to the Pampean Belt. The structural and lithologic differences between the western Itapucumí Group in the Vallemí and Paraguay River region and the eastern region, near San Alfredo and Cerro Paiva, suggest that this group could be divided into two lithostratigraphic units, but more stratigraphic and geochronological analyses are required to confirm this possibility.
-ER  -
-TY  - CONF
-AU  - Chamani, M. A. C.
-AU  - Riccomini, C.
-AU  - Grohmann, C. H.
-
-T1  - Evidências de tectônica sinsedimentar no Devoniano da Bacia do Parnaíba, Estado do Tocantins
-T2  - XII Simpósio Nacional de Estudos Tectônicos / VI International Symposium on Tectonics, Ouro Preto, MG
-
-
-Y1  - 2009
-
-
-SP  - 81
-EP  - 81
-
-
-
-
-
-
-
-N1  - Owner: guano
-N1  - Added to JabRef: 2009.09.19
-
-ER  -
-TY  - CONF
-AU  - Chiessi, C.
-AU  - Tassinari, C. C. G.
-AU  - Lantzsch, H.
-AU  - Hanebuth, T.
-AU  - Grohmann, C. H.
-AU  - Schwenk, T.
-
-T1  - Abrupt sea level rise and terrigenous sedimentation off southeastern South America since the LGM
-T2  - 18th International Sedimentological Congress
-
-AD  - Mendoza (Arg)
-Y1  - 2010
-
-
-
-
-
-
-
-
-
-
-N1  - Owner: guano
-N1  - Added to JabRef: 2011.01.06
-
-ER  -
-TY  - JOUR
-AU  - Ciotta, Mariana
-AU  - Peyerl, Drielli
-AU  - Barrozo, Ligia
-AU  - Anna, Lucy Sant
-AU  - dos Santos, Edmilson Moutinho
-AU  - Bermann, Célio
-AU  - Grohmann, Carlos
-AU  - Moretto, Evandro Mateus
-AU  - Tassinari, Colombo
-T1  - An overview of carbon capture and storage atlases around the world
-JO  - Environmental Geosciences
-Y1  - 2020/march
-VL  - 27
-IS  - 1
-SP  - 1
-EP  - 8
-
-M3  - http://doi.org/10.1306/eg.10221919015
-
-
-
-
-
-
-N1  - Added to JabRef: 2021-12-20-21-13
-
-ER  -
-TY  - GEN
-AU  - Cracraft, J.
-AU  - Camila Ribas, C.
-AU  - dH́orta, F. M.
-AU  - Bates, J.
-AU  - Almeida, R. P.
-AU  - Aleixo, A.
-AU  - Boubli, J. P.
-AU  - Campbell, K. E.
-AU  - Cruz, F. W.
-AU  - Ferreira, M.
-AU  - Fritz, S. C.
-AU  - Grohmann, C. H.
-AU  - Latrubesse, E. M.
-AU  - Lohmann, L. G.
-AU  - Musher, L. J.
-AU  - Nogueira, A.
-AU  - Sawakuchi, A. O.
-AU  - Baker, P.
-A2  - Rull, Valentí
-A2  - Carnaval, Ana Carolina
-T1  - Neotropical Diversification: Patterns and Processes
-
-PB  - Springer International Publishing
-AD  - Cham
-Y1  - 2020
-
-
-SP  - 225
-EP  - 244
-UR  - https://doi.org/10.1007/978-3-030-31167-4_10
-M3  - http://doi.org/10.1007/978-3-030-31167-4_10
-
-
-
-
-
-N1  - Added to JabRef: 2021-07-12
-
-ER  -
-TY  - JOUR
-AU  - Dias*, H. C.
-AU  - Gramani, M. F.
-AU  - Grohmann, C. H.
-AU  - Bateira, C.
-AU  - Vieira, B. C.
-T1  - Statistical-based shallow landslide susceptibility assessment for a tropical environment: a case study in the southeastern Brazilian coast
-JO  - Natural Hazards
-Y1  - 2021
-
-
-
-
-M3  - http://doi.org/10.1007/s11069-021-04676-y
-
-
-
-
-
-N1  - Owner: guano
-N1  - Added to JabRef: 2021-05-06-11-29
-
-ER  -
-TY  - JOUR
-AU  - Dias*, H. C.
-AU  - Sandre, L. H.
-AU  - Alarcón, D. A. S.
-AU  - Grohmann, C. H.
-AU  - Quintanilha, J. A.
-T1  - Landslide recognition using SVM, Random Forest, and Maximum Likelihood classifiers on high-resolution satellite images: A case study of Itaóca, southeastern Brazil
+AU  - Busarello, M.
+AU  - Garcia, G. P. B.
+T1  - Structural analysis of clastic dikes using Structure from Motion - Multi-View Stereo: a case-study in the Paraná Basin, southeastern Brazil
 JO  - Brazilian Journal of Geology
-Y1  - 2021
-VL  - 51
-IS  - 4
-SP  - e20200105
-EP  - e20200105
-
-M3  - http://doi.org/10.1590/2317-4889202120200105
-
-
-
-
-
-N1  - Owner: guano
-N1  - Added to JabRef: 2022-03-23-22-20
-
-ER  -
-TY  - JOUR
-AU  - Dias*, H. C.
-AU  - Hölbling, D.
-AU  - Grohmann, C. H.
-T1  - Landslide Susceptibility Mapping in Brazil: A Review
-JO  - Geosciences
-Y1  - 2021
-VL  - 11
-IS  - 10
-SP  - 425
-EP  - 425
-
-M3  - http://doi.org/10.3390/geosciences11100425
-
-
-
-
-
-
-N1  - Added to JabRef: 2022-03-23-22-20
-
-ER  -
-TY  - CONF
-AU  - Dias*, H. C.
-AU  - Hölbling, D.
-AU  - Grohmann, C. H.
-
-T1  - Landslide inventory mapping in Brazil: Status and challenges
-T2  - SCG-XIII International Symposium on Landslides
-
-AD  - Cartagena, Colombia
-Y1  - 2021
-
-
-
-
-
-
-
-
-
-
-
-N1  - Added to JabRef: 2020-08-04
-
-ER  -
-TY  - JOUR
-AU  - Ferreira&dagger
-AU  - , A. T. S.
-AU  - Siegle, Eduardo
-AU  - Ribeiro, Maria Carolina Hernandez
-AU  - Santos, Marcelo Soares Teles
-AU  - Grohmann, Carlos H.
-T1  - The dynamics of plastic pellets on sandy beaches: a new methodological approach
-JO  - Marine Environmental Research
-Y1  - 2021
-VL  - 163
-
-SP  - 105219
-EP  - 105219
-
-M3  - http://doi.org/10.1016/j.marenvres.2020.105219
-KW  - Nurdles
-KW  - GNSS
-KW  - Strandline altitude
-KW  - Extreme events
-KW  - Storm surge
-KW  - DEM
-
-U1  - 0141-1136
-
-
-N1  - Owner: guano
-N1  - Added to JabRef: 2021-05-06-11-26
-
-ER  -
-TY  - JOUR
-AU  - Garcia, Guilherme P. B.
-AU  - Grohmann, Carlos H.
-T1  - DEM-based geomorphological mapping and landforms characterization of a tropical karst environment in southeastern Brazil
-JO  - Journal of South American Earth Sciences
-Y1  - 2019
-VL  - 93
-
-SP  - 14
-EP  -  22
-UR  - https://doi.org/10.1016/j.jsames.2019.04.013
-M3  - http://doi.org/10.1016/j.jsames.2019.04.013
-KW  - Geomorphology
-KW  - Geomorphometry
-KW  - Karst
-KW  - Digital Elevation Model
-KW  - Land systems
-KW  - Ribeira river
-
-U1  - 0895-9811
-
-
-
-N1  - Added to JabRef: 2020-12-30-12-34
-N2  - This work presents a 1:10,000 geomorphological mapping of an area in southeastern Brazil, based on morphometric analysis of Digital Elevation Models (DEMs), while classical methods focus on photo interpretation. Data derived from the DEM include elevation, slope gradient, slope aspect, vertical and horizontal curvatures, amplitude, elongation and wavelength of landforms. These parameters were used along with slope shape and drainage patterns to classify the landforms according to the Land Systems method, in which portions of the landscape that presents similar terrains attributes are grouped from regional (low detail) to local (high detail) scales, respectively, Land Systems, Land Units and Land Elements. The São Paulo State geomorphological map at 1:1,000,000 scale is considered the best reference source, and was compared with the results obtained in this project. Two Land Systems, four Land Units and twelve Land Elements were identified in the study area. In this area, karst terrains are common and easily identified due their characteristics drainage patterns, amplitude and slope gradient. Karst terrain boundaries defined in this study do overlap with those defined in the state map, however the morphometric analysis allowed a better description of the terrain attributes used to define them. The terrain attributes derived automatically from the DEM enabled an accurate geomorphological classification of the study area. The methodology presented in this paper is considered effective for mapping landforms at a detailed scale and can be employed in regional scale mapping using coarser resolution DEMs.
-ER  -
-TY  - CONF
-AU  - Garcia*, G. P. B.
-AU  - Gomes*, E. B.
-AU  - Viana*, C. D.
-AU  - Grohmann, C. H.
-
-T1  - Comparing Terrestrial Laser Scanner and UAV-based photogrammetry to generate a landslide DEM
-T2  - XIX Brazilian Symposium on Remote Sensing
-PB  - Galoa
-AD  - Santos, SP.
-Y1  - 2019
-VL  - 17
-
-SP  - 95863
-EP  - 95863
-
-
-
-
-
-
-
-
-N1  - Added to JabRef: 2020-08-04
-
-ER  -
-TY  - JOUR
-AU  - Gerolin, Cristiano Rezende
-AU  - Pupim, Fabiano Nascimento
-AU  - Sawakuchi, André Oliveira
-AU  - Grohmann, Carlos Henrique
-AU  - Labuto, Geórgia
-AU  - Semensatto, Décio
-T1  - Microplastics in sediments from Amazon rivers, Brazil
-JO  - Science of The Total Environment
-Y1  - 2020
-VL  - 749
-
-SP  - 141604
-EP  - 141604
-UR  - https://doi.org/10.1016/j.scitotenv.2020.141604
-M3  - http://doi.org/10.1016/j.scitotenv.2020.141604
-KW  - Microplastics pollution
-KW  - River sediment
-KW  - Amazon
-
-U1  - 0048-9697
-
-
-
-N1  - Added to JabRef: 2020-12-30-12-31
-N2  - We assessed the concentrations of microplastics in sediment samples collected in seven sites from Solimões, Negro and Amazon rivers, upstream and downstream the metropolitan region of Manaus. Concentrations ranged from 417 to 8178 particles/kg of dried sediment (microplastics: 0.063–5 mm), and from 0 to 5725 particles/kg of dried sediment (microplastics: 0.063–1 mm). The highest microplastics concentrations were observed in samples from shallow water (water depth of 5–7 m) sites with lower water velocity of the Negro river surrounding Manaus, and the lowest concentration in farthest sample collected in deeper zone (water depth of 34 m) of the Amazon river around 110 km downstream Manaus. The variation of microplastics concentrations within the studied area can be related to hydraulic characteristics defining the erosive-depositional behavior of the sampling sites and their proximity to Manaus. Our results represent the first report to show the ubiquitous presence and widespread distribution of microplastics in sediments from the lower Solimões, lower Negro and upper Amazon rivers.
-Keywords: Microplastics pollution; River sediment; Amazon
-ER  -
-TY  - JOUR
-AU  - Godoy-Veiga, Milena
-AU  - Cintra, Bruno Barçante Ladvocat
-AU  - Stríkis, Nicolás Misailidis
-AU  - Cruz, Francisco Willian
-AU  - Grohmann, Carlos Henrique
-AU  - Santos, Matheus Simões
-AU  - Regev, Lior
-AU  - Boaretto, Elisabetta
-AU  - Ceccantini, Gregório
-AU  - Locosselli, Giuliano Maselli
-T1  - The value of climate responses of individual trees to detect areas of climate-change refugia, a tree-ring study in the Brazilian seasonally dry tropical forests
-JO  - Forest Ecology and Management
-Y1  - 2021
-VL  - 488
-
-SP  - 118971
-EP  - 118971
-
-M3  - http://doi.org/10.1016/j.foreco.2021.118971
-KW  - Climate change
-KW  - Dendrochronology
-KW  - Karst
-KW  - Microenvironment
-KW  - Radiocarbon (C)
-KW  - Tropics
-
-U1  - 0378-1127
-
-
-N1  - Owner: guano
-N1  - Added to JabRef: 2021-03-02-14-23
-
-ER  -
-TY  - CONF
-AU  - Grohmann, C. H.
-AU  - Steiner, S. S.
-
-T1  - SRTM resample with Short Distance-Low Nugget Kriging
-T2  - International Symposium on Terrain Analysis and Digital Terrain Modelling
-
-
-Y1  - 2006
-
-
-
-
-
-KW  - grass
-KW  - kriging
-KW  - srtm
-
-
-
-
-
-
-
-ER  -
-TY  - JOUR
-AU  - Grohmann, C. H.
-AU  - Steiner, S. S.
-T1  - SRTM resample with Short Distance-Low Nugget Kriging
-JO  - International Journal of Geographical Information Science
-Y1  - 2008
-VL  - 22
-IS  - 8
-SP  - 895
-EP  - 906
-UR  - http://dx.doi.org/10.1080/13658810701730152
-M3  - http://doi.org/10.1080/13658810701730152
-KW  - grass
-KW  - kriging
-KW  - srtm
-
-
-
-
-
-N1  - Added to JabRef: 2020-12-30-12-48
-
+Y1  - 2018/12
+VL  - 48
+SP  - 839
+EP  -  852
+M3  - https://doi.org/10.1590/2317-4889201800201898
+U1  - 2317-4889
+N1  - Added to JabRef: 2019-01-31
 ER  -
 TY  - THES
 AU  - Grohmann, C. H.
 T1  - Assinaturas extensionais relacionadas à extrusão sob regime compressional de nappe de alta pressão
 Y1  - 2001
 PB  - Instituto de Geociências, Universidade de São Paulo, São Paulo, Monografia de Trabalho de Formatura
-
-
-M3  - 10084/m9.figshare.1089658
-KW  - structuralgeology
-
-
-
-
-N1  - Added to JabRef: 2020-08-04
-
+M3  - http://dx.doi.org/10084/m9.figshare.1089658
+KW  - structural\_{g}{e}{o}logy
 ER  -
 TY  - CONF
 AU  - Grohmann, C. H.
-
-T1  - Análise morfométrica em Sistemas de Informa¸ cao Geografica: aplica¸ cão dos softwares livres GRASS e R
+T1  - Análise morfométrica em Sistemas de Informaçao Geografica: aplicação dos softwares livres GRASS e R
 T2  - VIII Simposio de Geologia do Sudeste, São Pedro, SP
-
-
 Y1  - 2003
-
-
 SP  - 154
 EP  - 154
-
-
 KW  - grass
 KW  - geomorphometry
-
-
-
-
-
-
-
 ER  -
 TY  - JOUR
 AU  - Grohmann, C. H.
@@ -656,20 +51,11 @@ T1  - Morphometric analysis in Geographic Information Systems: applications of f
 JO  - Computers & Geosciences
 Y1  - 2004
 VL  - 30
-
-SP  - 1055
-EP  - 1067
-UR  - http://dx.doi.org/10.1016/j.cageo.2004.08.002
-M3  - http://doi.org/10.1016/j.cageo.2004.08.002
+SP  - 1055–1067
+EP  - 1055–1067
+M3  - https://doi.org/10.1016/j.cageo.2004.08.002
 KW  - grass
 KW  - geomorphometry
-
-
-
-
-
-N1  - Added to JabRef: 2020-12-30-12-46
-
 ER  -
 TY  - JOUR
 AU  - Grohmann, C. H.
@@ -679,63 +65,23 @@ T1  - Topografia da Lapa do Didi, Chapada Diamantina, BA
 JO  - O Carste
 Y1  - 2004
 VL  - 16
-
-SP  - 124
-EP  - 125
-
-
+SP  - 124–125
+EP  - 124–125
 KW  - speleology
-
-
-
-
-
-
-
 ER  -
 TY  - CONF
 AU  - Grohmann, C. H.
-
-T1  - Análise morfométrica em Sistemas de Informa¸ cão Geográfica
+T1  - Análise morfométrica em Sistemas de Informação Geográfica
 T2  - XLII Congresso Brasileiro de Geologia, Araxá
-
-
 Y1  - 2004
-
-
-
-
-
 KW  - grass
-
-
-
-
-
-
-
 ER  -
 TY  - CONF
 AU  - Grohmann, C. H.
-
 T1  - Análise de superfícies de tendência de parâmetros morfométricos
 T2  - XLII Congresso Brasileiro de Geologia, Araxá
-
-
 Y1  - 2004
-
-
-
-
-
 KW  - grass
-
-
-
-
-
-
-
 ER  -
 TY  - THES
 AU  - Grohmann, C. H.
@@ -744,17 +90,22 @@ Y1  - 2004
 PB  - Instituto de Geociências, Universidade de São Paulo, São Paulo.
 SP  - 70
 EP  - 70
-
-M3  - http://doi.org/10.11606/d.44.2004.tde-10082006-155540
+M3  - https://doi.org/10.11606/d.44.2004.tde-10082006-155540
 KW  - grass
 KW  - gis
 KW  - geomorphometry
-
-
-
-
-N1  - Added to JabRef: 2020-08-04
-
+ER  -
+TY  - JOUR
+AU  - Santos, L. P.
+AU  - Campos Neto, M. C.
+AU  - Grohmann, C. H.
+T1  - Metamorphic path constrained by metapelitic rocks from the inner Aiuruoca-Andrelândia nappe, south of the São Francisco Craton, SE Brazil
+JO  - Journal of South American Earth Sciences
+Y1  - 2004
+VL  - 16
+SP  - 725–741
+EP  - 725–741
+M3  - https://doi.org/10.1016/j.jsames.2003.12.006
 ER  -
 TY  - JOUR
 AU  - Grohmann, C. H.
@@ -762,20 +113,11 @@ T1  - Trend-surfaces analysis of morphometric parameters: A case study in southe
 JO  - Computers & Geosciences
 Y1  - 2005
 VL  - 31
-
-SP  - 1005
-EP  - 1014
-UR  - http://dx.doi.org/10.1016/j.cageo.2005.02.011
-M3  - http://doi.org/10.1016/j.cageo.2005.02.011
+SP  - 1005–1014
+EP  - 1005–1014
+M3  - https://doi.org/10.1016/j.cageo.2005.02.011
 KW  - grass
 KW  - geomathematics
-
-
-
-
-
-N1  - Added to JabRef: 2020-12-30-12-46
-
 ER  -
 TY  - JOUR
 AU  - Grohmann, C. H.
@@ -784,124 +126,68 @@ T1  - Geomorfologia de terrenos cársticos
 JO  - Quebra-Corpo
 Y1  - 2005
 VL  - 12
-
-SP  - 2
-EP  - 3
-
-
+SP  - 2–3
+EP  - 2–3
 KW  - karst
 KW  - speleology
 KW  - geomorphology
-
-
-
-
-N1  - Owner: guano
-N1  - Added to JabRef: 2020-12-30
-
 ER  -
 TY  - CONF
 AU  - Grohmann, C. H.
 AU  - Riccomini, C.
 AU  - Paula
 AU  - Chang, H. K.
-
-T1  - Compartimenta¸ cão tectônica da Bacia Bauru no centro-oeste do Estado de São Paulo
+T1  - Compartimentação tectônica da Bacia Bauru no centro-oeste do Estado de São Paulo
 T2  - X Simpósio Nacional de Estudos Tectônicos / IV International Symposium on Tectonics, Curitiba
-
-
 Y1  - 2005
-
-
-SP  - 25
-EP  - 27
-
-
+SP  - 25–27
+EP  - 25–27
 KW  - grass
 KW  - tectonics
-
-
-
-
-
-
-
 ER  -
 TY  - CONF
 AU  - Grohmann, C. H.
-
-T1  - Visualiza¸ cão de superfície topográfica no Survex a partir de Modelos Digitais de Terreno
+T1  - Visualização de superfície topográfica no Survex a partir de Modelos Digitais de Terreno
 T2  - Workshop Cadastro e Mapeamento de Cavernas, Belo Horizonte
-
-
 Y1  - 2005
-
-
 SP  - 12
 EP  - 12
-
-
 KW  - speleology
-
-
-
-
-
-
-
 ER  -
 TY  - CONF
 AU  - Grohmann, C. H.
 AU  - Riccomini, C.
 AU  - Alves, F. M.
-
-T1  - SRTM-based morphometric analysis of the Po¸ cos de Caldas Alkaline Massif, southeastern Brazil
+T1  - SRTM-based morphometric analysis of the Poços de Caldas Alkaline Massif, southeastern Brazil
 T2  - The Shuttle Radar Topography Mission Data Validation and Applications Workshop, Reston VA
-
-
 Y1  - 2005
-
-
 SP  - 43
 EP  - 43
-
-
 KW  - grass
 KW  - geomorphometry
 KW  - isobase
 KW  - srtm
-
-
-
-
-
-
-
+ER  -
+TY  - CONF
+AU  - Grohmann, C. H.
+AU  - Steiner, S. S.
+T1  - SRTM resample with Short Distance-Low Nugget Kriging
+T2  - International Symposium on Terrain Analysis and Digital Terrain Modelling
+Y1  - 2006
+KW  - grass
+KW  - kriging
+KW  - srtm
 ER  -
 TY  - CONF
 AU  - Grohmann, C. H.
 AU  - Riccomini, C.
-
 T1  - Análise regional de rugosidade de relevo
 T2  - XLIII Congresso Brasileiro de Geologia, Aracaju-SE
-
-
 Y1  - 2006
-
-
 SP  - 97
 EP  - 97
-
-
 KW  - grass
 KW  - geomorphometry
-
-
-
-
-
-
-
 ER  -
 TY  - JOUR
 AU  - Grohmann, C. H.
@@ -909,273 +195,238 @@ T1  - r.roughness - a new tool for morphometric analysis in GRASS
 JO  - GRASS/OSGeo News
 Y1  - 2006
 VL  - 4
-
-SP  - 17
-EP  - 19
-
-
+SP  - 17–19
+EP  - 17–19
+UR  - http://grass.osgeo.org/newsletter/GRASS_OSGeo_News_vol4-roughness.pdf
 KW  - grass
 KW  - roughness
-
-
-
-
-N1  - Owner: guano
-N1  - Added to JabRef: 2020-12-30-12-51
-N2  - This article briefly describes r.roughness, a shell script written to calculate the surface roughness of raster surfaces.
 ER  -
 TY  - JOUR
 AU  - Grohmann, C. H.
-T1  - Resampling SRTM 03-data with kriging
+T1  - Resampling SRTM 03''-data with kriging
 JO  - GRASS/OSGeo News
 Y1  - 2006
 VL  - 4
-
-SP  - 20
-EP  - 25
-
-
+SP  - 20–25
+EP  - 20–25
+UR  - http://grass.osgeo.org/newsletter/GRASS_OSGeo_News_vol4-srtm.pdf
 KW  - grass
 KW  - kriging
 KW  - geostatistics
-
-
-
-
-N1  - Owner: guano
-N1  - Added to JabRef: 2020-12-30-12-51
-N2  - The purpose of this article is to present the steps necessary to improve the resolution of a DEM using variogram modelling and kriging, as well as a brief comparison of the results with those obtained with interpolation by Regularised Splines with Tension (RST).
+ER  -
+TY  - CONF
+AU  - Roldan, L. F.
+AU  - Steiner, S. S.
+AU  - Grohmann, C. H.
+AU  - Machado, R.
+T1  - Análise morfométrica da região do Domo de Lages, SC
+T2  - XLIII Congresso Brasileiro de Geologia, Aracaju-SE
+Y1  - 2006
+SP  - 266
+EP  - 266
+ER  -
+TY  - CONF
+AU  - Steiner, S. S.
+AU  - Machado, R.
+AU  - Grohmann, C. H.
+T1  - Análise morfométrica da estrutura divergente na região do Rio Paraíba do Sul, Rio de Janeiro
+T2  - XLIII Congresso Brasileiro de Geologia, Aracaju-SE
+Y1  - 2006
+SP  - 97
+EP  - 97
 ER  -
 TY  - JOUR
 AU  - Grohmann, C. H.
 AU  - Riccomini, C.
 AU  - Alves, F. M.
-T1  - SRTM-based morphotectonic analysis of the Po¸ cos de Caldas Alkaline Massif, southeastern Brazil
+T1  - SRTM-based morphotectonic analysis of the Poços de Caldas Alkaline Massif, southeastern Brazil
 JO  - Computers & Geosciences
 Y1  - 2007
 VL  - 33
-
-SP  - 10
-EP  - 19
-UR  - http://dx.doi.org/10.1016/j.cageo.2006.05.002
-M3  - http://doi.org/10.1016/j.cageo.2006.05.002
+SP  - 10–19
+EP  - 10–19
+M3  - https://doi.org/10.1016/j.cageo.2006.05.002
 KW  - grass
 KW  - geomorphometry
 KW  - isobase
 KW  - srtm
-
-
-
-
-
-N1  - Added to JabRef: 2020-12-30-12-46
-N2  - An evaluation of SRTM 03″ data applicability in geomorphology and morphotectonic analysis is proposed, considering the morphometric parameters slope, aspect, surface roughness and isobase surface. The study area, in southeastern Brazil, comprises the Poços de Caldas Alkaline Massif, a 33km-diameter Late Cretaceous collapsed volcanic caldera. Morphometric indices evaluated showed the correlation of landscape within the massif with NE–SW and NW–SE structures, as well as landforms related with recent tectonic influence. DEM-derived drainage presented satisfactory results when compared to a 1:50,000 topographic map. SRTM 03″ proved to be a good resource for geomorphological analysis, up to the semi-detail scale.
 ER  -
 TY  - CONF
 AU  - Grohmann, C. H.
 AU  - Riccomini, C.
 AU  - Alves, F. M.
-
 T1  - Análise morfométrica do Maciço Alcalino de Poços de Caldas (MG), baseada em dados SRTM
 T2  - Simpósio do Sudeste
-
-
 Y1  - 2007
-
-
-
-
-
 KW  - grass
 KW  - geomorphometry
 KW  - isobase
 KW  - srtm
-
-
-
-
-
-
-
 ER  -
 TY  - JOUR
 AU  - Grohmann, C. H.
-T1  - r.roughness - a new tool for morphometric analysis in GRASS
+T1  - 𝚛.𝚛𝚘𝚞𝚐𝚑𝚗𝚎𝚜𝚜 - a new tool for morphometric analysis in GRASS
 JO  - Position IT
 Y1  - 2007
 VL  - March/April
-
-SP  - 31
-EP  - 32
-
-
+SP  - 31–32
+EP  - 31–32
 KW  - grass
 KW  - roughness
-
-
-
-
-
-N1  - Added to JabRef: 2020-12-30
-
 ER  -
 TY  - CONF
 AU  - Grohmann, C. H.
 AU  - Steiner, S. S.
-
 T1  - Reamostragem do modelo SRTM com krigagem de curta distância e baixo efeito pepita (SDLN, Short distance-low nugget kriging)
 T2  - Simposio do Sudeste
-
-
 Y1  - 2007
-
-
-
-
-
 KW  - grass
 KW  - kriging
 KW  - srtm
-
-
-
-
-
-
-
 ER  -
 TY  - CONF
 AU  - Grohmann, C. H.
 AU  - Steiner, S. S.
-
-T1  - Resampling SRTM 3 data with kriging
+T1  - Resampling SRTM 3'' data with kriging
 T2  - statGIS Conference 2007
-
-
 Y1  - 2007
-
-
-
-
-
 KW  - grass
 KW  - kriging
 KW  - srtm
-
-
-
-
-
-
-
+ER  -
+TY  - CONF
+AU  - Riccomini, C.
+AU  - Grohmann, C. H.
+AU  - Sant'Anna, L. G.
+AU  - Hiruma, S. T.
+T1  - A captura das cabeceiras do Rio Tietê pelo Rio Paraíba do Sul
+T2  - Simposio do Sudeste
+Y1  - 2007
+ER  -
+TY  - CONF
+AU  - Smith, M.
+AU  - Grohmann, C. H.
+AU  - Riccomini, C.
+T1  - Comparative assessment of measures of surface roughness
+T2  - Geological Remote Sensing Group
+AD  - London
+Y1  - 2007
+ER  -
+TY  - CONF
+AU  - Steiner, S. S.
+AU  - Grohmann, C. H.
+T1  - Comparação entre o ArcGIS e o GRASS-GIS na elaboração e aquisição de dados morfométricos
+T2  - Simposio do Sudeste
+Y1  - 2007
+ER  -
+TY  - CONF
+AU  - Campanha, G. A. C.
+AU  - Boggiani, P. C.
+AU  - Warren, L. V.
+AU  - Grohmann, C. H.
+AU  - Cáceres, A. A.
+T1  - Possibilidade de uma nova faixa móvel Brasiliana no norte do Paraguai
+T2  - Anais do XLIV Congresso Brasileiro de Geologia
+Y1  - 2008
+N1  - Owner: guano
+N1  - Added to JabRef: 2009.09.19
+ER  -
+TY  - JOUR
+AU  - Grohmann, C. H.
+AU  - Steiner, S. S.
+T1  - SRTM resample with Short Distance-Low Nugget Kriging
+JO  - International Journal of Geographical Information Science
+Y1  - 2008
+VL  - 22
+IS  - 8
+SP  - 895–906
+EP  - 895–906
+M3  - https://doi.org/10.1080/13658810701730152
+KW  - grass
+KW  - kriging
+KW  - srtm
 ER  -
 TY  - CONF
 AU  - Grohmann, C. H.
 AU  - Riccomini, C.
-
 T1  - Análise morfométrica regional do centro-leste brasileiro
 T2  - Anais do XLIV Congresso Brasileiro de Geologia
-
 AD  - Curitiba - PR
 Y1  - 2008
-
-
-
-
-
-
-
-
-
-
 N1  - Owner: guano
 N1  - Added to JabRef: 2009.09.19
-
 ER  -
-TY  - RPRT
+TY  - BOOK
 AU  - Grohmann, C. H.
-
-T1  - Introdu¸ cão ao geoprocessamento e à análise digital de terreno com software livre
-
+T1  - Introdução à Análise Digital de Terreno com GRASS-GIS
+PB  - Instituto de Geociências, Universidade de São Paulo, São Paulo
 Y1  - 2008
-
-
-
-
-
-
-
-
-
-
+M3  - https://doi.org/10.6084/m9.figshare.1004165.v1
 N1  - Owner: guano
 N1  - Added to JabRef: 2009.09.19
-
 ER  -
 TY  - CONF
 AU  - Grohmann, C. H.
 AU  - Riccomini, C.
 AU  - Smith, M. J.
-
 T1  - Multi-scale analysis of surface roughness
 T2  - 33rd International Geological Congress, Abstracts
-
-
 Y1  - 2008
-
-
-
-
-
 KW  - grass
 KW  - geomorphometry
 KW  - roughness
-
-
-
-
-
-
-
 ER  -
 TY  - THES
 AU  - Grohmann, C. H.
 T1  - Análise digital de terreno do centro-leste brasileiro
 Y1  - 2008
 PB  - Instituto de Geociências, Universidade de São Paulo, São Paulo.
-
-
-M3  - http://doi.org/10.11606/t.44.2008.tde-03022009-141229
-
-
-
-
+M3  - https://doi.org/10.11606/t.44.2008.tde-03022009-141229
 N1  - Owner: guano
-N1  - Added to JabRef: 2020-08-04
-
+N1  - Added to JabRef: 2009.09.16
 ER  -
 TY  - JOUR
 AU  - Grohmann, C. H.
 AU  - Riccomini, C.
 AU  - Steiner, S. S.
-T1  - Aplica¸ cões dos modelo de eleva¸ cão SRTM em geomorfologia
+T1  - Aplicações dos modelo de elevação SRTM em geomorfologia
 JO  - Revista Geográfica Acadêmica
 Y1  - 2008
 VL  - 2
-
-SP  - 73
-EP  - 83
-
-
+SP  - 73–83
+EP  - 73–83
+UR  - https://revista.ufrr.br/rga/issue/view/176/3
 KW  - srtm
 KW  - geomorphology
-
-
-
-
-
-N1  - Added to JabRef: 2020-12-30-12-52
-N2  - A missão Shuttle Radar Topography Mission (SRTM) foi realizada para mapear o relevo da área continental da Terra com interferometria de radar entre 60o de latitude norte e 54o de latitude sul. A utilização de Modelos Digitais de Elevação (MDEs) em geomorfologia permite o cálculo de variáveis associadas ao relevo com rapidez e precisão. Neste artigo, apresenta-se uma visão geral de aplicações dos modelos de elevação SRTM em análises geomorfológicas realizadas em território brasileiro, bem como uma apreciação das limitações existentes e de perspectivas futuras.
+ER  -
+TY  - GEN
+AU  - Riccomini, C.
+AU  - Grohmann, C. H.
+AU  - Sant'Anna, L. G.
+AU  - Hiruma, S. T.
+A2  - Modenesi-Gauttieri, M. C.
+A2  - Bartorelli, A.
+A2  - Lisboa, M. A. L.
+A2  - Mantesso Neto, V.
+T1  - A captura das cabeceiras do Rio Tietê pelo Rio Paraíba do Sul
+PB  - Becca
+Y1  - 2008
+SP  - 157–169
+EP  - 157–169
+N1  - Owner: guano
+N1  - Added to JabRef: 2020-12-30-20-23
+ER  -
+TY  - CONF
+AU  - Chamani, M. A. C.
+AU  - Riccomini, C.
+AU  - Grohmann, C. H.
+T1  - Evidências de tectônica sinsedimentar no Devoniano da Bacia do Parnaíba, Estado do Tocantins
+T2  - XII Simpósio Nacional de Estudos Tectônicos / VI International Symposium on Tectonics, Ouro Preto, MG
+Y1  - 2009
+SP  - 81
+EP  - 81
+N1  - Owner: guano
+N1  - Added to JabRef: 2009.09.19
 ER  -
 TY  - JOUR
 AU  - Grohmann, C. H.
@@ -1184,19 +435,11 @@ T1  - Comparison of roving-window and search-window techniques for characterisin
 JO  - Computers & Geosciences
 Y1  - 2009
 VL  - 35
-
 SP  - 2164
 EP  - 2169
-UR  - http://dx.doi.org/10.1016/j.cageo.2008.12.014
-M3  - http://doi.org/10.1016/j.cageo.2008.12.014
-
-
-
-
-
+M3  - https://doi.org/10.1016/j.cageo.2008.12.014
 N1  - Owner: guano
-N1  - Added to JabRef: 2020-12-30-12-50
-N2  - The intent of this paper is to compare both techniques in a multi-scale study of geomorphometry, in central-eastern Brazil. The study area is limited by coordinates 0 and 26S latitude and 34W and 56W longitude, with approximately 4:900:000 km .
+N1  - Added to JabRef: 2009.05.15
 ER  -
 TY  - CONF
 AU  - Grohmann, C. H.
@@ -1208,860 +451,22 @@ A2  - Hengl, T.
 A2  - Straumann, R.
 T1  - Surface Roughness of Topography: A Multi-Scale Analysis of Landform Elements in Midland Valley, Scotland
 T2  - Proceedings of Geomorphometry2009
-
 AD  - Zurich, Switzerland
 Y1  - 2009
-
-
 SP  - 140
 EP  - 148
 UR  - http://www.geomorphometry.org/Grohmann2009
-
-
-
-
-
-
 N1  - Owner: guano
 N1  - Added to JabRef: 2009.09.16
-
 ER  -
-TY  - RPRT
+TY  - BOOK
 AU  - Grohmann, C. H.
-
 T1  - A very brief introduction to GRASS-GIS using the fishcamp dataset
-
+PB  - Instituto de Geociências, Universidade de São Paulo, São Paulo
 Y1  - 2009
-
-
-
-
-
-
-
-
-
-
+M3  - https://doi.org/10.6084/m9.figshare.1004168
 N1  - Owner: guano
-N1  - Added to JabRef: 2009.09.19
-
-ER  -
-TY  - CONF
-AU  - Grohmann, C. H.
-AU  - Campanha, G. A. C.
-
-T1  - OpenStereo: Open Source, Cross-Platform Software for Structural Geology Analysis
-T2  - Abstract IN31C-06 presented at 2010 Fall Meeting
-PB  - American Geophysical Union
-AD  - San Francisco, California
-Y1  - 2010
-
-
-
-
-
-
-
-
-
-
-N1  - Owner: guano
-N1  - Added to JabRef: 2011.01.06
-
-ER  -
-TY  - CONF
-AU  - Grohmann, C. H.
-AU  - Riccomini, C.
-
-T1  - Análise morfotectônica em escala regional pelo método das isobases
-T2  - Anais do 45^circ Congresso Brasileiro de Geologia
-PB  - Sociedade Brasileira de Geologia
-AD  - Belém (PA)
-Y1  - 2010
-
-
-
-
-
-
-
-
-
-
-N1  - Owner: guano
-N1  - Added to JabRef: 2011.01.06
-
-ER  -
-TY  - GEN
-AU  - Grohmann, C. H.
-
-T1  - Coastal Dune Fields of Garopaba and Vila Nova, Santa Catarina State, Brazil. Airborne LiDAR
-
-
-
-Y1  - 2010
-
-
-
-UR  - http://dx.doi.org/10.5069/G9DN430Z
-M3  - http://doi.org/10.5069/G9DN430Z
-
-
-
-
-
-N1  - Added to JabRef: 2020-08-04
-
-ER  -
-TY  - CONF
-AU  - Grohmann, C.
-AU  - Sawakuchi, A.
-AU  - Mendes, V. R.
-A2  - Hengl, T.
-A2  - Evans, I. S.
-A2  - Wilson, J. P.
-A2  - Gould, M.
-T1  - Cell size influence on DEM volume calculation
-T2  - Geomorphometry 2011
-
-AD  - Redlands, CA
-Y1  - 2011
-
-
-SP  - 63
-EP  - 66
-UR  - http://www.geomorphometry.org/Grohmann2011
-
-
-
-
-
-
-
-
-
-ER  -
-TY  - JOUR
-AU  - Grohmann, C. H.
-AU  - Riccomini, C.
-AU  - Chamani, M. A. C.
-T1  - Regional scale analysis of landform configuration with base-level (isobase) maps
-JO  - Hydrology and Earth System Sciences
-Y1  - 2011
-VL  - 15
-IS  - 5
-SP  - 1493
-EP  - 1504
-UR  - http://dx.doi.org/10.5194/hess-15-1493-2011
-M3  - http://doi.org/10.5194/hess-15-1493-2011
-
-
-
-
-
-N1  - Owner: guano
-N1  - Added to JabRef: 2020-12-30-12-42
-N2  - Base-level maps (or "isobase maps", as originally defined by Filosofov, 1960), express a relationship between valley order and topography. The base-level map can be seen as a "simplified" version of the original topographic surface, from which the "noise" of the low-order stream erosion was removed. This method is able to identify areas with possible tectonic influence even within lithologically uniform domains. Base-level maps have been recently applied in semi-detail scale (e.g., 1:50 000 or larger) morphotectonic analysis. In this paper, we present an evaluation of the methodś applicability in regional-scale analysis (e.g., 1:250 000 or smaller). A test area was selected in northern Brazil, at the lower course of the Araguaia and Tocantins rivers. The drainage network extracted from SRTM30_PLUS DEMs with spatial resolution of approximately 900 m was visually compared with available topographic maps and considered to be compatible with a 1:1,000 000 scale. Regarding the interpretation of regional-scale morphostructures, the map constructed with 2nd and 3rd-order valleys was considered to present the best results. Some of the interpreted base-level anomalies correspond to important shear zones and geological contacts present in the 1:5 000 000 Geological Map of South America. Others have no correspondence with mapped Precambrian structures and are considered to represent younger, probably neotectonic, features. A strong E-W orientation of the base-level lines over the inflexion of the Araguaia and Tocantins rivers, suggest a major drainage capture. A N-S topographic swath profile over the Tocantins and Araguaia rivers reveals a topographic pattern which, allied with seismic data showing a roughly N-S direction of extension in the area, lead us to interpret this lineament as an E-W, southward-dipping normal fault. There is also a good visual correspondence between the base-level lineaments and geophysical anomalies. A NW-SE lineament in the southeast of the study area partially corresponds to the northern border of the Mosquito lava field, of Jurassic age, and a NW-SE lineament traced in the northeastern sector of the study area can be interpreted as the Picos-Santa Inês lineament, identifiable in geophysical maps but with little expression in hypsometric or topographic maps.
-ER  -
-TY  - JOUR
-AU  - Grohmann, C. H.
-AU  - Smith, M. J.
-AU  - Riccomini, C.
-T1  - Multiscale Analysis of Topographic Surface Roughness in the Midland Valley, Scotland
-JO  - Geoscience and Remote Sensing, IEEE Transactions on
-Y1  - 2011
-VL  - 49
-IS  - 4
-SP  - 1200
-EP  - 1213
-UR  - http://dx.doi.org/10.1109/TGRS.2010.2053546
-M3  - http://doi.org/10.1109/TGRS.2010.2053546
-
-
-
-
-
-N1  - Owner: guano
-N1  - Added to JabRef: 2020-12-30-12-45
-N2  - Surface roughness is an important geomorphological variable which has been used in the Earth and planetary sciences to infer material properties, current/past processes, and the time elapsed since formation. No single definition exists; however, within the context of geomorphometry, we use surface roughness as an expression of the variability of a topographic surface at a given scale, where the scale of analysis is determined by the size of the landforms or geomorphic features of interest. Six techniques for the calculation of surface roughness were selected for an assessment of the parameterś behavior at different spatial scales and data-set resolutions. Area ratio operated independently of scale, providing consistent results across spatial resolutions. Vector dispersion produced results with increasing roughness and homogenization of terrain at coarser resolutions and larger window sizes. Standard deviation of residual topography highlighted local features and did not detect regional relief. Standard deviation of elevation correctly identified breaks of slope and was good at detecting regional relief. Standard deviation of slope (SDslope) also correctly identified smooth sloping areas and breaks of slope, providing the best results for geomorphological analysis. Standard deviation of profile curvature identified the breaks of slope, although not as strongly as SDslope, and it is sensitive to noise and spurious data. In general, SDslope offered good performance at a variety of scales, while the simplicity of calculation is perhaps its single greatest benefit.
-ER  -
-TY  - CONF
-AU  - Grohmann, C. H.
-AU  - Riccomini, C.
-AU  - Sawakuchi, A. O.
-
-T1  - Tectonic controls on the capture of the Orinoco river and formation of the Casiquiare canal, Venezuela
-T2  - The Geological Society of America 2012 Annual Meeting
-
-AD  - Charlotte, NC
-Y1  - 2012
-
-
-
-UR  - https://gsa.confex.com/gsa/2012AM/finalprogram/abstract_205702.htm
-
-
-
-
-
-
-
-N1  - Added to JabRef: 2016.03.02
-
-ER  -
-TY  - JOUR
-AU  - Grohmann, Carlos Henrique
-AU  - Riccomini, Claudio
-T1  - Análise digital de terreno e evolu¸ cão de longo-termo de relevo do centro-leste brasileiro
-JO  - Geologia USP. Série Científica
-Y1  - 2012/08
-VL  - 12
-
-SP  - 129
-EP  -  150
-UR  - http://dx.doi.org/10.5327/Z1519-874X2012000200009
-M3  - http://doi.org/10.5327/Z1519-874X2012000200009
-
-
-U1  - 1519-874X
-
-
-N1  - Owner: guano
-N1  - Added to JabRef: 2020-12-30-12-42
-N2  - As diversas teorias geomorfológicas para evolução do relevo em longo-termo (da ordem de dezenas de milhões de anos) contemplam a existência de superfícies de aplainamento, formadas pela ação contínua dos agentes erosivos/deposicionais em períodos de quiescência tectônica e reconhecíveis como extensas áreas de relevo muito suave perturbadas localmente por elevações residuais, ou pela aparente concordância altimétrica dos divisores de águas de uma região. Apesar de passadas várias décadas desde a publicação das principais teorias sobre evolução das formas de relevo, a validade desses modelos ainda é palco de discussão. Neste trabalho são apresentados estudos relativos à compartimentação do relevo, em escala regional, da região centro-leste brasileira. As análises foram focadas em análise digital de terreno, com processamento e integração de dados em Sistema de Informações Geográficas, visando a extração e caracterização de variáveis relativas à superfície topográfica e a compilação e tratamento matemático de dados termocronológicos e geofísicos. Os resultados obtidos foram interpretados tendo em vista o contexto geológico e as teorias de evolução do relevo em longo-termo. A integração entre dados morfométricos, termocronológicos e geofísicos não suporta a validade do uso de superfícies aplainadas em correlações estratigráficas de âmbito regional.
-ER  -
-TY  - RPRT
-AU  - Grohmann, C. H.
-
-T1  - Geoprocessamento com Software Livre: GRASS-GIS e QGIS
-
-Y1  - 2012
-
-
-
-
-
-
-
-
-
-
-N1  - Owner: guano
-N1  - Added to JabRef: 2009.09.19
-
-ER  -
-TY  - JOUR
-AU  - Grohmann, C. H.
-AU  - Sawakuchi, A. O
-T1  - Influence of cell size on volume calculation using digital terrain models: A case of coastal dune fields
-JO  - Geomorphology
-Y1  - 2013
-VL  - 180-181
-IS  - 1
-SP  - 130
-EP  - 136
-UR  - http://dx.doi.org/10.1016/j.geomorph.2012.09.012
-M3  - http://doi.org/10.1016/j.geomorph.2012.09.012
-KW  - Coastal dune field
-KW  - Quaternary
-KW  - LiDAR
-KW  - X-SAR SRTM
-KW  - SIR-C SRTM
-KW  - ASTER GDEM
-
-U1  - 0169-555X
-
-
-N1  - Owner: guano
-N1  - Added to JabRef: 2020-12-30-12-47
-N2  - In this work, we analyze how variation in cell size influences the volume calculated from digital terrain models (DTMs) derived from a LiDAR (light detection and ranging) survey in two coastal Late Holocene dune fields in southern Brazil. Cell size varied from 1 to 100m. RMSE (root mean square error) of the resampled DTMs from the original LiDAR (with 0.5m resolution) increases linearly with cell size, while R2 (coefficient of determination) decreases following a second-order trend. The volume does not show simple linear or exponential behavior, but fluctuates with positive and negative deviations from the original DTM. This can be explained by a random factor in the position of the cell with regard to landforms and a relationship between cell and landform size, wherein a small change in cell size can lead to an under- or overestimation of volume. The ASTER GDEM (global digital elevation model) and X-SAR SRTM (Shuttle Radar Topography Mission) 1″ digital elevation models (DEMs) were not considered viable volume sources due to large deviations from the reference data, either as a consequence of noise in the SRTM X-SAR data or lack of bias elevation correction to a common reference base in the GDEM processing chain. Volumes from a 3-arcsec SIR-C SRTM deviated around ±5% from the reference data and are considered suitable input for numerical simulations of Quaternary dune field evolution models because these values should be within the expected range of sediment volume changes over hundreds to millions of years.
-ER  -
-TY  - JOUR
-AU  - Grohmann, C. H.
-AU  - Miliaresis, G. C.
-T1  - Geological applications of digital terrain analysis
-JO  - International Journal of Geographical Information Science
-Y1  - 2013
-VL  - 27
-IS  - 7
-SP  - 1403
-EP  - 1404
-UR  - http://dx.doi.org/10.1080/13658816.2013.772617
-M3  - http://doi.org/10.1080/13658816.2013.772617
-
-
-
-
-
-N1  - Owner: guano
-N1  - Added to JabRef: 2020-12-30-13-55
-N2  - Geologic terrain analysis includes, among others, the recognition and monitoring of landslide prone areas, evaluation of tectonic and fluvial processes in an attempt to estimate natural hazards, and evaluation of terrain suitability for engineering project design. Geologic terrain analysis is benefited from modern digital elevation models, landcover and multi-temporal biophysical data availability, while a variety of quantitative techniques have been developed to automate its processing. In this volume, the modern advances in the
-field of geological terrain analysis are presented, while emphasis is given to the quantitative analysis of modern datasets. Five case studies are presented
-ER  -
-TY  - CONF
-AU  - Grohmann, C. H.
-
-T1  - Effects of spatial resolution on slope and aspect derivation for regional-scale analysis
-T2  - Geomorphometry 2013
-
-AD  - Nanjing, China
-Y1  - 2013/2013
-
-
-
-UR  - http://geomorphometry.org/Grohmann2013
-
-
-
-
-
-
-N1  - Owner: guano
-N1  - Added to JabRef: 2013.10.07
-
-ER  -
-TY  - GEN
-AU  - Grohmann, C. H.
-AU  - Hargitai, Henrik
-
-T1  - Surface Roughness
-
-PB  - Springer New York
-
-Y1  - 2014
-
-
-SP  - 1
-EP  - 4
-UR  - http://dx.doi.org/10.1007/978-1-4614-9213-9_633-1
-M3  - http://doi.org/10.1007/978-1-4614-9213-9_633-1
-
-
-
-
-
-N1  - Added to JabRef: 2020-08-04
-
-ER  -
-TY  - JOUR
-AU  - Grohmann, C. H.
-T1  - Effects of spatial resolution on slope and aspect derivation for regional-scale analysis
-JO  - Computers & Geosciences
-Y1  - 2015
-VL  - 77
-
-SP  - 111
-EP  - 117
-UR  - http://dx.doi.org/10.1016/j.cageo.2015.02.003
-M3  - http://doi.org/10.1016/j.cageo.2015.02.003
-
-
-
-
-
-N1  - Owner: guano
-N1  - Added to JabRef: 2020-12-30-12-40
-
-ER  -
-TY  - THES
-AU  - Grohmann, C. H.
-T1  - Análise Digital de Terreno: Aplicações em Geologia e Geomorfologia
-Y1  - 2015/agosto
-PB  - Instituto de Geociências, Universidade de São Paulo, São Paulo.
-
-
-M3  - http://doi.org/10.11606/T.106.2019.tde-30072019-161617
-
-
-
-
-
-N1  - Added to JabRef: 2020-12-30
-
-ER  -
-TY  - CONF
-AU  - Grohmann, C. H.
-
-T1  - Radiography of the Amazon DSM/DTM data: comparative analysis with SRTM, ASTER GDEM
-T2  - Geomorphometry 2015
-
-AD  - Poznam, Poland
-Y1  - 2015
-
-
-
-UR  - http://www.geomorphometry.org/Grohmann2015
-
-
-
-
-
-
-N1  - Owner: guano
-N1  - Added to JabRef: 2015.07.28
-
-ER  -
-TY  - CONF
-AU  - Grohmann, C. H.
-
-T1  - Análise comparativa preliminar entre dados SRTM, Topodata, ASTER GDEM e Modelos de Superfície/Terreno do Projeto Radiografia da Amazônia
-T2  - Anais XVII Simpósio Brasileiro de Sensoriamento Remoto
-
-AD  - João Pessoa, PB
-Y1  - 2015
-
-
-SP  - 5726
-EP  - 5732
-
-
-
-
-
-
-
-N1  - Owner: guano
-N1  - Added to JabRef: 2015.07.28
-
-ER  -
-TY  - RPRT
-AU  - Grohmann, C. H.
-
-T1  - Geoprocessamento com GRASS-GIS
-
-Y1  - 2016
-
-
-
-
-
-
-
-
-
-
-N1  - Owner: guano
-N1  - Added to JabRef: 2009.09.19
-
-ER  -
-TY  - JOUR
-AU  - Grohmann, C. H.
-T1  - Comparative Analysis of Global Digital Elevation Models and Ultra-Prominent Mountain Peaks
-JO  - ISPRS Annals of Photogrammetry, Remote Sensing and Spatial Information Sciences
-Y1  - 2016
-VL  - III-4
-
-SP  - 17
-EP  - 23
-UR  - https://doi.org/10.5194/isprs-annals-III-4-17-2016
-M3  - http://doi.org/10.5194/isprs-annals-III-4-17-2016
-
-
-
-
-
-
-N1  - Added to JabRef: 2020-12-30-12-35
-
-ER  -
-TY  - CONF
-AU  - Grohmann, C. H.
-AU  - Viana*, C. D.
-AU  - Busarello*, M.
-AU  - Garcia*, G. P. B.
-
-T1  - Structural analysis of clastic dikes based on Structure from Motion/Multi-View Stereo
-T2  - Geomorphometry 2018
-
-AD  - Boulder, CO, USA
-Y1  - 2018/august
-
-
-
-UR  - http://2018.geomorphometry.org/Grohmann_others_2018_geomorphometry.pdf
-
-
-
-
-
-
-N1  - Owner: guano
-N1  - Added to JabRef: 2020-08-04
-
-ER  -
-TY  - JOUR
-AU  - Grohmann, C. H.
-T1  - Evaluation of TanDEM-X DEMs on selected Brazilian sites: Comparison with SRTM, ASTER GDEM and ALOS AW3D30
-JO  - Remote Sensing of Environment
-Y1  - 2018
-VL  - 212
-
-SP  - 121
-EP  -  133
-UR  - https://doi.org/10.1016/j.rse.2018.04.043
-M3  - http://doi.org/10.1016/j.rse.2018.04.043
-
-
-U1  - 0034-4257
-
-
-
-N1  - Added to JabRef: 2020-12-30-12-36
-N2  - A first assessment of the TanDEM-X DEMs over Brazilian territory is presented through a comparison with SRTM, ASTER GDEM and ALOS AW3D30 DEMs in seven study areas with distinct geomorphological contexts, vegetation coverage, and land use. Visual analysis and elevation histograms point to a finer effective spatial (i.e., horizontal) resolution of TanDEM-X compared to SRTM and ASTER GDEM. In areas of open vegetation, TanDEM-X lower elevations indicate a deeper penetration of the radar signal. DEMs of differences (DoDs) allowed the identification of issues inherent to the production methods of the analyzed DEMs, such as mast oscillations in SRTM data and mismatch between adjacent scenes in ASTER GDEM and ALOS AW3D30. A systematic difference in elevations between TanDEM-X 12 m, TanDEM-X 30 m, and SRTM was observed in the steep slopes of the coastal ranges, related to the moving-window process used to resample the 12 m data to a 30 m pixel size. It is strongly recommended to produce a DoD with SRTM before using ASTER GDEM or ALOS AW3D30 in any analysis, to evaluate if the area of interest is affected by these problems. The DoDs also highlighted changes in land use in the time span between the acquisition of SRTM (2000) and TanDEM-X (2013) data, whether by natural causes or by human interference in the environment. The results show a high level of detail and consistency for TanDEM-X data, indicate that the effective horizontal resolution of SRTM is coarser than the nominal 30 m, and highlight the errors in ASTER GDEM and ALOS AW3D30 due to mismatch between adjacent scenes in the photogrammetric process.
-ER  -
-TY  - CONF
-AU  - Grohmann, C. H.
-AU  - Zacharias, G. S.
-AU  - Garcia, G. P. B.
-AU  - Barale, F.
-AU  - Almeida, F. V.
-AU  - Arnone, I. S.
-
-T1  - Mapeamento e modelagem 3D do setor turístico da Caverna do Diabo (SP) com Laser Scanner: resultados preliminares
-T2  - 35 Congresso Brasileiro de Espeleologia
-PB  - SBE
-AD  - Bonito, MS
-Y1  - 2019
-
-
-
-
-
-
-
-
-
-
-
-N1  - Added to JabRef: 2020-08-04
-
-ER  -
-TY  - GEN
-AU  - Grohmann, C. H.
-
-T1  - Lagoinha Landslide, São Paulo State, Brazil. SfM-MVS point cloud
-
-
-
-Y1  - 2019
-
-
-
-UR  - https://doi.org/10.5069/G94F1NWJ
-M3  - http://doi.org/10.5069/G94F1NWJ
-
-
-
-
-
-N1  - Added to JabRef: 2020-08-04
-
-ER  -
-TY  - GEN
-AU  - Grohmann, C. H.
-
-T1  - Lagoinha Landslide, São Paulo State, Brazil. TLS point cloud
-
-
-
-Y1  - 2019
-
-
-
-UR  - https://doi.org/10.5069/G90P0X57
-M3  - http://doi.org/10.5069/G90P0X57
-
-
-
-
-
-N1  - Added to JabRef: 2020-08-04
-
-ER  -
-TY  - GEN
-AU  - Grohmann, C. H.
-
-T1  - Garopaba Dune Field, Santa Catarina State, Brazil. SfM-MVS point cloud
-
-
-
-Y1  - 2019
-
-
-
-UR  - https://doi.org/10.5069/G9DV1H19
-M3  - http://doi.org/10.5069/G9DV1H19
-
-
-
-
-
-N1  - Added to JabRef: 2020-08-04
-
-ER  -
-TY  - GEN
-AU  - Grohmann, C. H.
-AU  - Garcia, G. P. B.
-AU  - Affonso, A. A.
-AU  - Albuquerque, R. W.
-
-T1  - Garopaba Dune Field, Santa Catarina State, Brazil. TLS point cloud
-
-
-
-Y1  - 2019
-
-
-
-UR  - https://doi.org/10.5069/G9CN7228
-M3  - http://doi.org/10.5069/G9CN7228
-
-
-
-
-
-N1  - Added to JabRef: 2020-08-04
-
-ER  -
-TY  - CONF
-AU  - Grohmann, C. H.
-AU  - Viana*, C. D.
-AU  - Garcia*, G. P. B.
-AU  - Albuquerque*, R. W.
-AU  - Barale*, F.
-AU  - Ferretti*, F. A.
-
-T1  - Semi-Automatic UAV-based SfM survey of vertical surfaces
-T2  - XIX Brazilian Symposium on Remote Sensing
-PB  - Galoa
-AD  - Santos, SP.
-Y1  - 2019
-VL  - 17
-
-SP  - 95586
-EP  - 95586
-
-
-
-
-
-
-
-
-N1  - Added to JabRef: 2020-08-04
-
-ER  -
-TY  - GEN
-AU  - Grohmann, C. H.
-
-T1  - Garopaba Dune Field, Brazil, Santa Catarina State, Brazil. UAV Image Collection.
-
-
-
-Y1  - 2020
-
-
-
-UR  - https://data.geonadir.com/project-details/334
-
-
-
-
-
-
-
-
-ER  -
-TY  - JOUR
-AU  - Grohmann, C. H.
-AU  - Garcia*, G. P. B.
-AU  - Affonso*, A. A.
-AU  - Albuquerque*, R. W.
-T1  - Aeolian dune modelling from airborne LiDAR, terrestrial LiDAR and Structure from Motion-Multi View Stereo
-JO  - Computers & Geosciences
-Y1  - 2020
-VL  - 143
-
-SP  - 104569
-EP  - 104569
-UR  - http://doi.org/10.1016/j.cageo.2020.104569
-M3  - http://doi.org/10.1016/j.cageo.2020.104569
-
-
-
-
-
-N1  - Owner: guano
-N1  - Added to JabRef: 2020-12-30-13-55
-N2  - Sand dunes are commonly regarded as a challenge to traditional photogrammetry due their homogeneous texture and spectral response. In this work we present an evaluation of Structure from Motion-Multi View Stereo (SfM-MVS) to obtain high-resolution elevation data of coastal sand dunes based on images acquired by Remotely Piloted Aircraft (RPA). A Digital Elevation Model (DEM) of a dunefield in Southern Brazil was generated from 810 photos captured by an RPA at 100 m above the takeoff point in February 2019. Image matching was successful in all areas of the survey due the presence of superficial features (footprints and sandboard tracks) and visibility of the sedimentary stratification, highlighted by heavy minerals. Altimetric accuracy of the SfM-MVS DEM was validated by comparison with Terrestrial LiDAR (TLS) data collected during the same fieldwork campaign of the RPA flights. The SfM-MVS DEM was then compared to an Airborne LiDAR (ALS) DEM from October 2010. While the SfM-MVS and TLS DEMs are very similar, without any major difference in elevation or in the reconstruction of topographic features, the SfM-MVS DEM presents a small scale surface roughness not visible in the TLS DEM. The Feature Preserving DEM Smoothing (FPD) algorithm was applied to the SfM-MVS DEM with good results in terms of surface smoothing, but without any significant changes in descriptive statistics and error metrics, with an RMSE of 0.08 m and MAE of 0.06 m for both the original and the FPD-filtered DEM. Displacement of dune crest lines from the ALS and SfM-MVS DEMs resulted in a migration rate of ≈5 m/year between 2010 and 2019, in good agreement with rates derived from satellite images and historical aerial photographs of the same area. Sand volume change in the same period showed a decrease of only 0.2%, which can be related to the installation of sand fences to promote dune stabilization and sand removal from the front of the dune field to keep a road open to vehicles. ALS can cover large areas in little time but its high cost still remains a barrier to wider usage, especially by researchers in developing countries. TLS has an intermediate cost but demands more fieldwork and more processing time. In our case we needed three days for the TLS survey and around three weeks to produce a DEM of ≈80 400m2. On the other hand, we were able to cover ≈740 900m2 with six flight missions in under three hours, with ≈13 h processing time in a medium-range workstation. This makes SfM-MVS a low-cost solution with fast and reliable results for 3D modelling and continuous monitoring of coastal dunes.
-ER  -
-TY  - CONF
-AU  - Grohmann, C. H.
-AU  - Garcia*, G. P. B.
-AU  - Affonso*, A. A.
-AU  - Albuquerque*, R. W.
-A2  - Alvioli, Massimiliano
-A2  - Marchesini, Ivan
-A2  - Melelli, Laura
-A2  - Guth, Peter
-T1  - Coastal dune modelling from airborne LiDAR, terrestrial LiDAR and Structure from Motion-Multi View Stereo
-T2  - Proceedings of the Geomorphometry 2020 conference
-
-AD  - Perugia, Italy
-Y1  - 2020
-
-
-SP  - 99
-EP  - 102
-UR  - http://doi.org/10.30437/Geomorphometry2020
-M3  - http://doi.org/10.30437/Geomorphometry2020
-
-
-
-
-
-
-N1  - Added to JabRef: 2020-08-05
-
-ER  -
-TY  - GEN
-AU  - Grohmann, C. H.
-
-T1  - Lagoinha Landslide, São Paulo State, Brazil. UAV Image Collection.
-
-
-
-Y1  - 2019
-
-
-
-UR  - https://data.geonadir.com/project-details/339
-
-
-
-
-
-
-
-
-ER  -
-TY  - GEN
-AU  - Grohmann, C. H.
-
-T1  - Toque-Toque Grande Landslide, São Paulo State, Brazil. UAV Image Collection.
-
-
-
-Y1  - 2021
-
-
-
-UR  - https://data.geonadir.com/project-details/537
-
-
-
-
-
-
-
-
-ER  -
-TY  - GEN
-AU  - Grohmann, C. H.
-AU  - Gomes, F.
-
-T1  - Digital Terrain and Surface Models of São Paulo
-
-
-
-Y1  - 2022
-
-
-
-UR  - https://doi.org/10.34740/KAGGLE/DS/1915612
-M3  - http://doi.org/10.34740/KAGGLE/DS/1915612
-
-
-
-
-
-N1  - Added to JabRef: 2022-02-15
-
-ER  -
-TY  - GEN
-AU  - Grohmann, C. H.
-
-T1  - CEU Paz, São Paulo State, Brazil. UAV Image Collection.
-
-
-
-Y1  - 2022
-
-
-
-UR  - https://data.geonadir.com/project-details/797
-
-
-
-
-
-
-
-
-ER  -
-TY  - GEN
-AU  - Grohmann, C. H.
-
-T1  - Santa Madalena I (Jardim Elba), São Paulo State, Brazil. UAV Image Collection.
-
-
-
-Y1  - 2022
-
-
-
-UR  - https://data.geonadir.com/project-details/798
-
-
-
-
-
-
-
-
-ER  -
-TY  - JOUR
-AU  - Guth, P. L.
-AU  - Van Niekerk, A.
-AU  - Grohmann, C. H.
-AU  - Muller, J.-P.
-AU  - Hawker, L.
-AU  - Florinsky, I. V.
-AU  - Gesch, D.
-AU  - Reuter, H. I.
-AU  - Herrera-Cruz, V.
-AU  - Riazanoff, S.
-AU  - López-Vázquez, C.
-AU  - Carabajal, C. C.
-AU  - Albinet, C.
-AU  - Strobl, P.
-T1  - Digital Elevation Models: Terminology and Definitions
-JO  - Remote Sensing.
-Y1  - 2021
-VL  - 13
-IS  - 18
-SP  - 3581
-EP  - 3581
-
-M3  - http://doi.org/10.3390/rs13183581
-
-
-
-
-
-
-N1  - Added to JabRef: 2022-03-23-22-20
-
+N1  - Added to JabRef: 2020-12-30-20-23
 ER  -
 TY  - CONF
 AU  - Hengl, T.
@@ -2075,30 +480,302 @@ A2  - Hengl, T.
 A2  - Straumann, R.
 T1  - SAGA vs GRASS: A Comparative Analysis of the Two Open Source Desktop GIS for the Automated Analysis of Elevation Data
 T2  - Proceedings of Geomorphometry2009
-
 AD  - Zurich, Switzerland
 Y1  - 2009
-
-
 SP  - 22
 EP  - 27
 UR  - http://www.geomorphometry.org/Hengl2009
-
-
-
-
-
-
 N1  - Owner: guano
 N1  - Added to JabRef: 2009.09.16
-
+ER  -
+TY  - JOUR
+AU  - Campanha, G. A. C.
+AU  - Warren, L. V.
+AU  - Boggiani, P. C.
+AU  - Grohmann, C. H.
+AU  - Cáceres, A. A.
+T1  - Structural Analysis of the Itapucumí Group in the Vallemí Region, Northern Paraguay: Evidence of a New Brasiliano/Pan-African Mobile Belt
+JO  - Journal of South American Earth Sciences
+Y1  - 2010
+VL  - 30
+SP  - 1
+EP  - 11
+M3  - https://doi.org/10.1016/j.jsames.2010.04.001
+N1  - Owner: guano
+N1  - Added to JabRef: 2011.01.06
+ER  -
+TY  - CONF
+AU  - Chiessi, C.
+AU  - Tassinari, C. C. G.
+AU  - Lantzsch, H.
+AU  - Hanebuth, T.
+AU  - Grohmann, C. H.
+AU  - Schwenk, T.
+T1  - Abrupt sea level rise and terrigenous sedimentation off southeastern South America since the LGM
+T2  - 18th International Sedimentological Congress
+AD  - Mendoza (Arg)
+Y1  - 2010
+N1  - Owner: guano
+N1  - Added to JabRef: 2011.01.06
+ER  -
+TY  - CONF
+AU  - Grohmann, C. H.
+AU  - Campanha, G. A. C.
+T1  - OpenStereo: Open Source, Cross-Platform Software for Structural Geology Analysis
+T2  - Abstract IN31C-06 presented at 2010 Fall Meeting
+PB  - American Geophysical Union
+AD  - San Francisco, California
+Y1  - 2010
+UR  - http://abstractsearch.agu.org/meetings/2010/FM/IN31C-06.html
+N1  - Owner: guano
+N1  - Added to JabRef: 2011.01.06
+ER  -
+TY  - CONF
+AU  - Grohmann, C. H.
+AU  - Riccomini, C.
+T1  - Análise morfotectônica em escala regional pelo método das isobases
+T2  - Anais do 45° Congresso Brasileiro de Geologia
+PB  - Sociedade Brasileira de Geologia
+AD  - Belém (PA)
+Y1  - 2010
+N1  - Owner: guano
+N1  - Added to JabRef: 2011.01.06
+ER  -
+TY  - GEN
+AU  - Grohmann, C. H.
+T1  - Coastal Dune Fields of Garopaba and Vila Nova, Santa Catarina State, Brazil. Airborne LiDAR
+Y1  - 2010
+M3  - https://doi.org/10.5069/G9DN430Z
+N1  - Added to JabRef: 2019-10-09
+ER  -
+TY  - CONF
+AU  - Rodrigues, S. W. O.
+AU  - Archanjo, C. J.
+AU  - Grohmann, C. H.
+T1  - Quantificação da deformac cão finita nos metagranitóides Cariris Velhos na Região de Alagoa Grande (PB)
+T2  - Anais do 45° Congresso Brasileiro de Geologia
+PB  - Sociedade Brasileira de Geologia
+AD  - Belém (PA)
+Y1  - 2010
+N1  - Owner: guano
+N1  - Added to JabRef: 2011.01.06
+ER  -
+TY  - JOUR
+AU  - Rodrigues, S. W. O.
+AU  - Archanjo, C. J.
+AU  - Grohmann, C. H.
+T1  - Quantificação da deformac cão finita nos metagranitóides Cariris Velhos na Região de Alagoa Grande (PB)
+JO  - Geologia USP. Série Científica
+Y1  - 2010
+VL  - 10
+SP  - 57
+EP  - 78
+M3  - https://doi.org/10.5327/Z1519-874X2010000300005
+N1  - Owner: guano
+N1  - Added to JabRef: 2011.01.06
+ER  -
+TY  - CONF
+AU  - Grohmann, C. H.
+AU  - Sawakuchi, A.
+AU  - Mendes, V. R.
+A2  - Hengl, T.
+A2  - Evans, I. S.
+A2  - Wilson, J. P.
+A2  - Gould, M.
+T1  - Cell size influence on DEM volume calculation
+T2  - Geomorphometry 2011
+AD  - Redlands, CA
+Y1  - 2011
+SP  - 63
+EP  - 66
+UR  - http://www.geomorphometry.org/Grohmann2011
+ER  -
+TY  - JOUR
+AU  - Grohmann, C. H.
+AU  - Riccomini, C.
+AU  - Chamani, M. A. C.
+T1  - Regional scale analysis of landform configuration with base-level (isobase) maps
+JO  - Hydrology and Earth System Sciences
+Y1  - 2011
+VL  - 15
+IS  - 5
+SP  - 1493–1504
+EP  - 1493–1504
+M3  - https://doi.org/10.5194/hess-15-1493-2011
+N1  - Owner: guano
+N1  - Added to JabRef: 2011.05.18
+ER  -
+TY  - JOUR
+AU  - Grohmann, C. H.
+AU  - Riccomini, C.
+AU  - Chamani, M. A. C.
+T1  - Regional scale analysis of landform configuration with base-level maps
+JO  - Hydrology and Earth System Sciences Discussions
+Y1  - 2011
+VL  - 8
+IS  - 1
+SP  - 89–110
+EP  - 89–110
+M3  - https://doi.org/10.5194/hessd-8-89-2011
+N1  - Owner: guano
+N1  - Added to JabRef: 2011.01.12
+ER  -
+TY  - JOUR
+AU  - Grohmann, C. H.
+AU  - Smith, M. J.
+AU  - Riccomini, C.
+T1  - Multiscale Analysis of Topographic Surface Roughness in the Midland Valley, Scotland
+JO  - Geoscience and Remote Sensing, IEEE Transactions on
+Y1  - 2011
+VL  - 49
+IS  - 4
+SP  - 1200–1213
+EP  - 1200–1213
+M3  - https://doi.org/10.1109/TGRS.2010.2053546
+N1  - Owner: guano
+N1  - Added to JabRef: 2011.01.06
+ER  -
+TY  - CONF
+AU  - Grohmann, C. H.
+AU  - Campanha, G. A. C.
+AU  - Soares Junior, A. V.
+T1  - OpenStereo: Um Programa Livre e Multiplataforma para Análise de Dados Estruturais
+T2  - XIII Simpósio Nacional de Estudos Tectônicos / VI International Symposium on Tectonics, Ouro Preto, MG
+Y1  - 2011
+SP  - 26–28
+EP  - 26–28
+N1  - Owner: guano
+N1  - Added to JabRef: 2009.09.19
+ER  -
+TY  - CONF
+AU  - Grohmann, C. H.
+AU  - Riccomini, C.
+AU  - Sawakuchi, A. O.
+T1  - Tectonic controls on the capture of the Orinoco river and formation of the Casiquiare canal, Venezuela
+T2  - The Geological Society of America 2012 Annual Meeting
+AD  - Charlotte, NC
+Y1  - 2012
+UR  - https://gsa.confex.com/gsa/2012AM/finalprogram/abstract_205702.htm
+N1  - Added to JabRef: 2016.03.02
+ER  -
+TY  - JOUR
+AU  - Grohmann, C. H.
+AU  - Riccomini, Claudio
+T1  - Análise digital de terreno e evolução de longo-termo de relevo do centro-leste brasileiro
+JO  - Geologia USP. Série Científica
+Y1  - 2012/08
+VL  - 12
+SP  - 129
+EP  -  150
+M3  - https://doi.org/10.5327/Z1519-874X2012000200009
+U1  - 1519-874X
+N1  - Owner: guano
+N1  - Added to JabRef: 2012.08.20
+ER  -
+TY  - BOOK
+AU  - Grohmann, C. H.
+T1  - Geoprocessamento com Software Livre: GRASS-GIS e QGIS
+PB  - Instituto de Geociências, Universidade de São Paulo, São Paulo
+Y1  - 2012
+M3  - https://doi.org/10.6084/m9.figshare.1004165
+N1  - Owner: guano
+N1  - Added to JabRef: 2020-12-30-20-23
+ER  -
+TY  - JOUR
+AU  - Simões, Marcello G.
+AU  - Quaglio, Fernanda
+AU  - Warren, Lucas V.
+AU  - Anelli, Luiz E.
+AU  - Stone, Philip
+AU  - Riccomini, Claudio
+AU  - Grohmann, C. H.
+AU  - Chamani, Marlei A. C.
+T1  - Permian non-marine bivalves of the Falkland Islands and their palaeoenvironmental significance
+JO  - Alcheringa: An Australasian Journal of Palaeontology
+Y1  - 2012
+VL  - 36
+IS  - 4
+SP  - 543
+EP  - 554
+M3  - https://doi.org/10.1080/03115518.2012.688682
+N1  - Owner: guano
+N1  - Added to JabRef: 2013.03.11
+ER  -
+TY  - JOUR
+AU  - Grohmann, C. H.
+AU  - Sawakuchi, André O.
+T1  - Influence of cell size on volume calculation using digital terrain models: A case of coastal dune fields
+JO  - Geomorphology
+Y1  - 2013
+VL  - 180-181
+IS  - 1
+SP  - 130
+EP  - 136
+M3  - https://doi.org/10.1016/j.geomorph.2012.09.012
+KW  - Coastal dune field
+KW  - Quaternary
+KW  - LiDAR
+KW  - X-SAR SRTM
+KW  - SIR-C SRTM
+KW  - ASTER GDEM
+U1  - 0169-555X
+N1  - Owner: guano
+N1  - Added to JabRef: 2012.10.08
+ER  -
+TY  - JOUR
+AU  - Grohmann, C. H.
+AU  - Miliaresis, G. C.
+T1  - Geological applications of digital terrain analysis
+JO  - International Journal of Geographical Information Science
+Y1  - 2013
+VL  - 27
+IS  - 7
+SP  - 1403
+EP  - 1404
+M3  - https://doi.org/10.1080/13658816.2013.772617
+N1  - Owner: guano
+N1  - Added to JabRef: 2013.07.27
+ER  -
+TY  - CONF
+AU  - Grohmann, C. H.
+T1  - Effects of spatial resolution on slope and aspect derivation for regional-scale analysis
+T2  - Geomorphometry 2013
+AD  - Nanjing, China
+Y1  - 2013/2013
+UR  - http://geomorphometry.org/Grohmann2013
+N1  - Owner: guano
+N1  - Added to JabRef: 2013.10.07
+ER  -
+TY  - CONF
+AU  - Kahwage, R. S. N.
+AU  - Grohmann, C. H.
+T1  - Análise geomorfométrica da região da folha Capão Bonito (SG-22-X-B-II), SE do Estado de São Paulo: Implicações neotectônicas na porção sul da Serra de Paranapiacaba e Gráben de Sete Barras
+T2  - XVI Brazilian Symposium on Remote Sensing
+AD  - Foz do Iguaçu, PR.
+Y1  - 2013
+VL  - 17
+SP  - 5047–5054
+EP  - 5047–5054
+N1  - Added to JabRef: 2019-08-06
+ER  -
+TY  - GEN
+AU  - Grohmann, C. H.
+AU  - Hargitai, Henrik
+T1  - Surface Roughness
+PB  - Springer New York
+AD  - New York, NY
+Y1  - 2014
+SP  - 1–4
+EP  - 1–4
+UR  - https://doi.org/10.1007/978-1-4614-9213-9_633-1
+M3  - https://doi.org/10.1007/978-1-4614-9213-9_633-1
 ER  -
 TY  - JOUR
 AU  - Henrique-Pinto, Renato
 AU  - Janasi, Valdecir de Assis
 AU  - Carvalho, Bruna Borges
 AU  - Calado, Bruno de Oliveira
-AU  - Grohmann, Carlos Henrique
+AU  - Grohmann, C. H.
 T1  - Integrated geological map of the São Roque Domain, North of São Paulo City – Brazil
 JO  - Journal of Maps
 Y1  - 2014
@@ -2106,22 +783,15 @@ VL  - 10
 IS  - 3
 SP  - 434
 EP  - 439
-UR  - http://dx.doi.org/10.1080/17445647.2014.883338
-M3  - http://doi.org/10.1080/17445647.2014.883338
-
-
-
-
-
+M3  - https://doi.org/10.1080/17445647.2014.883338
 N1  - Owner: guano
-N1  - Added to JabRef: 2020-12-30-12-38
-
+N1  - Added to JabRef: 2014.01.30
 ER  -
 TY  - JOUR
 AU  - Jacques, Patricia D.
 AU  - Salvador, Elizete D.
 AU  - Machado, Rômulo
-AU  - Grohmann, Carlos H.
+AU  - Grohmann, C. H.
 AU  - Nummer, Alexis R.
 T1  - Application of morphometry in neotectonic studies at the eastern edge of the Paraná Basin, Santa Catarina State, Brazil
 JO  - Geomorphology
@@ -2130,49 +800,217 @@ VL  - 213
 IS  - 0
 SP  - 13
 EP  - 23
-UR  - http://dx.doi.org/10.1016/j.geomorph.2013.12.037
-M3  - http://doi.org/10.1016/j.geomorph.2013.12.037
-
-
+M3  - https://doi.org/10.1016/j.geomorph.2013.12.037
 U1  - 0169-555X
-
-
 N1  - Owner: guano
-N1  - Added to JabRef: 2020-12-30-12-40
-
+N1  - Added to JabRef: 2014.01.29
 ER  -
 TY  - JOUR
-AU  - Meena, Sansar Raj
-AU  - Soares, Lucas Pedrosa
-AU  - Grohmann, Carlos H.
-AU  - van Westen, Cees
-AU  - Bhuyan, Kushanav
-AU  - Singh, Ramesh P.
-AU  - Floris, Mario
-AU  - Catani, Filippo
-T1  - Landslide detection in the Himalayas using machine learning algorithms and U-Net
-JO  - Landslides
-Y1  - 2022/february
-VL  - 19
-
-
-UR  - https://doi.org/10.1007/s10346-022-01861-3
-M3  - http://doi.org/10.1007/s10346-022-01861-3
-
-
-U1  - 1612-5118
-
-
-
-N1  - Added to JabRef: 2022-02-27-11-33
-
+AU  - Quaglio, F.
+AU  - Grohmann, C. H.
+AU  - Fairchild, T.
+T1  - Como fazer relatórios em Geociências
+JO  - Terrae Didática
+Y1  - 2014
+VL  - 10
+IS  - 2
+SP  - 105–120
+EP  - 105–120
+UR  - https://ppegeo.igc.usp.br/index.php/TED/article/view/8454/7725
+ER  -
+TY  - JOUR
+AU  - Tennant, Jonathan P.
+AU  - Poisot, Timothée
+AU  - Kubke, M. Fabiana
+AU  - Michonneau, François
+AU  - Taylor, Michael P.
+AU  - Steel, Graham
+AU  - Anquetin, Jérémy
+AU  - Coyte, Emily
+AU  - Schwessinger, Benjamin
+AU  - McKiernan, Erin C.
+AU  - Pollard, Tom
+AU  - Eckert, Aimee
+AU  - Allen, Liz
+AU  - Chawla, Dalmeet Singh
+AU  - Silva, Elizabeth
+AU  - Gardner, Nicholas
+AU  - Cantley, Nathan
+AU  - Dupuis, John
+AU  - Pikas, Christina
+AU  - Buckland, Amy
+AU  - Teytelman, Lenny
+AU  - Faulkes, Zen
+AU  - Gay, Robert J.
+AU  - Brett, Peter T. B.
+AU  - Eklund, Anders
+AU  - Björk, Johannes
+AU  - Gunn, William
+AU  - Desjardins-Proulx, Philippe
+AU  - Nicholson, Joshua M.
+AU  - Edmunds, Scott
+AU  - Wilson, Steven Ray
+AU  - Buck, Stuart
+AU  - Aksoy, B. Arman
+AU  - Fatima, Nazeefa
+AU  - Mounce, Ross
+AU  - Piwowar, Heather
+AU  - Thirumalai, Avinash
+AU  - Priem, Jason
+AU  - Aldern, Clayton
+AU  - Hanwell, Marcus D.
+AU  - Marhaver, Kristen L.
+AU  - Roberts, David Michael
+AU  - Hole, Brian
+AU  - Grossmann, Alexander
+AU  - Vaux, David L.
+AU  - Murtagh, John
+AU  - Carter, Alecia
+AU  - Holcombe, Alex O.
+AU  - Aleman, Ignacio Torres
+AU  - Molloy, Sarah
+AU  - Lamp, John
+AU  - Todd, Matthew
+AU  - Seneviratne, Anusha
+AU  - Guidotti, Guido
+AU  - McArthur, Joseph
+AU  - Grohmann, C. H.
+AU  - de Leeuw, Jan
+AU  - Choi, Jung H.
+AU  - Priego, Ernesto
+AU  - Pasley, Brian
+AU  - Konkiel, Stacy
+AU  - Hellen, Elizabeth H. B.
+AU  - Levy, Raphael
+AU  - Coxon, Paul
+AU  - Pai, Nitika Pant
+AU  - Carroll, David
+AU  - Dávila, Jacinto
+AU  - Herrera-Valdez, Marco Arieli
+AU  - Alperin, Juan Pablo
+AU  - de Ruiter, Jan P.
+AU  - Chen, Xianwen
+AU  - Hatherill, Jeanette
+AU  - Mullen, Katharine
+AU  - Bekinschtein, Pedro
+AU  - Groom, Quentin
+AU  - Meijer-Kline, Karen
+AU  - Gatti-Lafranconi, Pietro
+AU  - Hollister, Jeffrey
+AU  - Coin, Lachlan
+AU  - Choi, MooYoung
+AU  - Patterson-Lomba, Oscar
+AU  - Ball, Rowena
+AU  - Swan, Daniel
+AU  - Curry, Stephen
+AU  - Noyce, Abigail
+AU  - Ward, Jordan
+AU  - Meghreblian, Ben
+AU  - White, Ethan P.
+AU  - Mulcahy, Sean R.
+AU  - Fausto, Sibele
+AU  - Barba, Lorena A.
+AU  - Trollope, Ed
+AU  - Beckett, Stephen
+AU  - Steen, Andrew D.
+AU  - Sarv, Mari
+AU  - Ross, Noam
+AU  - Amir, Erika
+AU  - Eve, Martin Paul
+AU  - Cecchi, Franco
+AU  - Colditz, Jason B.
+AU  - Spear, Philip
+AU  - Menon, Mythili
+AU  - Clapham, Matthew
+AU  - Broman, Karl W.
+AU  - Triggs, Graham
+AU  - Crick, Tom
+AU  - Marrone, Diano F.
+AU  - Kraus, Joseph
+AU  - Buyske, Steven
+AU  - Simpson, Gavin
+AU  - Morgan, Colleen
+AU  - Woo, Kara
+T1  - Open Letter to The American Association for the Advancement of Science
+JO  - The Winnower
+Y1  - 2014
+VL  - 2
+SP  - e140813.35294
+EP  - e140813.35294
+UR  - http://dx.doi.org/10.15200/winn.140813.35294
+M3  - https://doi.org/10.15200/winn.140813.35294
+N1  - Added to JabRef: 2016.08.26
+ER  -
+TY  - CONF
+AU  - Viana, C. D.
+AU  - Roldan, L. F.
+AU  - Grohmann, C. H.
+T1  - Descrição e avaliação dos condicionantes geológicos, geomorfológicos e estruturais das instabilidades geotécnicas observadas em trecho da SP-171, município de Cunha - SP
+T2  - XVII Congresso Brasileirode Mecânica dos Solos e Engenharia Geotécnica
+AD  - Goiânia, GO
+Y1  - 2014
+N1  - Added to JabRef: 2019-08-06
+ER  -
+TY  - JOUR
+AU  - Grohmann, C. H.
+T1  - Effects of spatial resolution on slope and aspect derivation for regional-scale analysis
+JO  - Computers & Geosciences
+Y1  - 2015
+VL  - 77
+SP  - 111
+EP  - 117
+M3  - https://doi.org/10.1016/j.cageo.2015.02.003
+N1  - Owner: guano
+N1  - Added to JabRef: 2014.06.24
+ER  -
+TY  - GEN
+AU  - Grohmann, C. H.
+AU  - Hargitai, Henrik
+A2  - Hargitai, Henrik
+A2  - Kereszturi, Ákos
+T1  - Surface Roughness
+PB  - Springer New York
+AD  - New York, NY
+Y1  - 2015
+SP  - 2100–2103
+EP  - 2100–2103
+UR  - https://doi.org/10.1007/978-1-4614-3134-3_633
+M3  - https://doi.org/10.1007/978-1-4614-3134-3_633
+ER  -
+TY  - THES
+AU  - Grohmann, C. H.
+T1  - Análise Digital de Terreno: Aplicações em Geologia e Geomorfologia
+Y1  - 2015/agosto
+PB  - Instituto de Geociências, Universidade de São Paulo, São Paulo.
+N1  - Added to JabRef: 2016.05.12
+ER  -
+TY  - CONF
+AU  - Grohmann, C. H.
+T1  - Radiography of the Amazon DSM/DTM data: comparative analysis with SRTM, ASTER GDEM
+T2  - Geomorphometry 2015
+AD  - Poznam, Poland
+Y1  - 2015
+UR  - http://www.geomorphometry.org/Grohmann2015
+N1  - Owner: guano
+N1  - Added to JabRef: 2015.07.28
+ER  -
+TY  - CONF
+AU  - Grohmann, C. H.
+T1  - Análise comparativa preliminar entre dados SRTM, Topodata, ASTER GDEM e Modelos de Superfície/Terreno do Projeto Radiografia da Amazônia
+T2  - Anais XVII Simpósio Brasileiro de Sensoriamento Remoto
+AD  - João Pessoa, PB
+Y1  - 2015
+SP  - 5726
+EP  - 5732
+N1  - Owner: guano
+N1  - Added to JabRef: 2015.07.28
 ER  -
 TY  - JOUR
 AU  - Jr., Daniel R. Nascimento
-AU  - Sawakuchi, Andr/é O.
+AU  - Sawakuchi, Andr/'e O.
 AU  - Guedes, Carlos C. F.
 AU  - Giannini, Paulo C. F.
-AU  - Grohmann, Carlos H.
+AU  - Grohmann, C. H.
 AU  - Ferreira, Manuela P.
 T1  - Provenance of sands from the confluence of the Amazon and Madeira rivers based on detrital heavy minerals and luminescence of quartz and feldspar
 JO  - Sedimentary Geology
@@ -2181,401 +1019,11 @@ VL  - 316
 IS  - 0
 SP  - 1
 EP  -  12
-UR  - http://dx.doi.org/10.1016/j.sedgeo.2014.11.002
-M3  - http://doi.org/10.1016/j.sedgeo.2014.11.002
+M3  - https://doi.org/10.1016/j.sedgeo.2014.11.002
 KW  - Provenance
-
 U1  - 0037-0738
-
-
 N1  - Owner: guano
-N1  - Added to JabRef: 2020-12-30-12-40
-
-ER  -
-TY  - CONF
-AU  - Niemann, R. S.
-AU  - Silva, T. S. F.
-AU  - Cancian, L. F.
-AU  - Grohmann, C. H.
-AU  - Morellato, L. P. C.
-AU  - Longhitano, G. A.
-
-T1  - Extração de Modelo Digital de Terreno a partir de nuvem de pontos obtida por Veículo Aéreo Não-Tripulado
-T2  - Simpósio Nacional de Geomorfologia
-
-AD  - Maringá, PR
-Y1  - 2016
-
-
-
-
-
-
-
-
-
-
-
-N1  - Added to JabRef: 2017.02.07
-
-ER  -
-TY  - JOUR
-AU  - Paz, Andrea
-AU  - Brown, Jason L.
-AU  - Cordeiro, Carlos L. O.
-AU  - Aguirre-Santoro, Julian
-AU  - Assis, Claydson
-AU  - Amaro, Renata Cecilia
-AU  - Raposo do Amaral, Fabio
-AU  - Bochorny, Thuane
-AU  - Bacci, Lucas F.
-AU  - Caddah, Mayara K.
-AU  - d’Horta, Fernando
-AU  - Kaehler, Miriam
-AU  - Lyra, Mariana
-AU  - Grohmann, Carlos Henrique
-AU  - Reginato, Marcelo
-AU  - Silva-Brandão, Karina Lucas
-AU  - Freitas, André Victor Lucci
-AU  - Goldenberg, Renato
-AU  - Lohmann, Lúcia G.
-AU  - Michelangeli, Fabián A.
-AU  - Miyaki, Cristina
-AU  - Rodrigues, Miguel T.
-AU  - Silva, Thiago S.
-AU  - Carnaval, Ana C.
-T1  - Environmental correlates of taxonomic and phylogenetic diversity in the Atlantic Forest
-JO  - Journal of Biogeography
-Y1  - 2021
-
-
-
-
-M3  - http://doi.org/10.1111/jbi.14083
-
-
-
-
-
-
-N1  - Added to JabRef: 2021-05-12
-
-ER  -
-TY  - JOUR
-AU  - Pinaya, Jorge L. D.
-AU  - Cruz, Francisco W.
-AU  - Ceccantini, Gregório C. T.
-AU  - et al.
-T1  - Brazilian montane rainforest expansion induced by Heinrich Stadial 1 event
-JO  - Scientific Reports
-Y1  - 2019/november
-VL  - 9
-IS  - 1
-SP  - 17912
-EP  - 17912
-UR  - https://doi.org/10.1038/s41598-019-53036-1
-M3  - http://doi.org/10.1038/s41598-019-53036-1
-
-
-U1  - 2045-2322
-
-
-
-N1  - Added to JabRef: 2020-12-30-12-34
-N2  - The origin of modern disjunct plant distributions in the Brazilian Highlands with strong floristic affinities to distant montane rainforests of isolated mountaintops in the northeast and northern Amazonia and the Guyana Shield remains unknown. We tested the hypothesis that these unexplained biogeographical patterns reflect former ecosystem rearrangements sustained by widespread plant migrations possibly due to climatic patterns that are very dissimilar from present-day conditions. To address this issue, we mapped the presence of the montane arboreal taxa Araucaria, Podocarpus, Drimys, Hedyosmum, Ilex, Myrsine, Symplocos, and Weinmannia, and cool-adapted plants in the families Myrtaceae, Ericaceae, and Arecaceae (palms) in 29 palynological records during Heinrich Stadial 1 Event, encompassing a latitudinal range of 30°S to 0°S. In addition, Principal Component Analysis and Species Distribution Modelling were used to represent past and modern habitat suitability for Podocarpus and Araucaria. The data reveals two long-distance patterns of plant migration connecting south/southeast to northeastern Brazil and Amazonia with a third short route extending from one of them. Their paleofloristic compositions suggest a climatic scenario of abundant rainfall and relative lower continental surface temperatures, possibly intensified by the effects of polar air incursions forming cold fronts into the Brazilian Highlands. Although these taxa are sensitive to changes in temperature, the combined pollen and speleothems proxy data indicate that this montane rainforest expansion during Heinrich Stadial 1 Event was triggered mainly by a less seasonal rainfall regime from the subtropics to the equatorial region.
-ER  -
-TY  - CONF
-AU  - Pupim, F. N.
-AU  - Sawakushi, A. O.
-AU  - Hartmann, G. A.
-AU  - Savian, J. F.
-AU  - Kern, A. K.
-AU  - Mineli, T. D.
-AU  - Cruz, F. W.
-AU  - Almeida R., P.
-AU  - Grohmann, C. H.
-AU  - Ribas, C. C.
-AU  - d’Horta, F. M.
-AU  - Bertassoli, D. J.
-AU  - Marconato, A.
-AU  - Nogueira, L.
-AU  - Lohmann, L. G.
-
-T1  - Chronology of Terra Firme formation in western Amazonia and implications for the diversification of Amazonian biota
-T2  - EGU General Assembly 2017
-PB  - EGU
-
-Y1  - 2017
-VL  - 19
-
-SP  - EGU2017
-EP  - 9451
-
-
-
-
-
-
-
-
-N1  - Added to JabRef: 2019-03-12
-
-ER  -
-TY  - JOUR
-AU  - Pupim, F. N.
-AU  - Kern, A. K.
-AU  - Sawakuchi, A. O.
-AU  - Stern, A.
-AU  - Ribas, C. C.
-AU  - Grohmann, C. H.
-AU  - Chiessi, C. M.
-AU  - Bertassoli Jr. D., J.
-AU  - Cruz, F.
-AU  - Hartmann, G.
-AU  - Savian, J.
-AU  - Cracraft, J.
-AU  - Tamura, L.
-AU  - Almeida, R. P.
-AU  - Mineli, T.
-T1  - Chronology of Terra Firme formation in Amazonian lowlands reveals a dynamic Quaternary landscape
-JO  - Quaternary Science Reviews
-Y1  - 2019
-VL  - 210
-
-SP  - 154
-EP  -  163
-UR  - https://doi.org/10.1016/j.quascirev.2019.03.008
-M3  - http://doi.org/10.1016/j.quascirev.2019.03.008
-KW  - Amazonia
-KW  - Amazon river
-KW  - Paleogeography
-KW  - Fluvial evolution
-KW  - Quaternary geochronology
-
-U1  - 0277-3791
-
-
-
-N1  - Added to JabRef: 2020-12-30-12-33
-N2  - In the Amazonian lowlands, the shift from a large wetland dominated by flooded forests (Várzea) to the modern incised valleys bounded by extensive areas of non-flooded forests (Terra Firme) is considered a key driver of the Amazonian mega-biodiversity. Dating the sedimentary beds covered by Terra Firme forest is crucial to constrain the timing of such landscape change. Here we determined the formation ages of widespread regions of Terra Firme substrates in central Amazonian lowlands combining optically stimulated luminescence (OSL) dating, magnetostratigraphy and palinostratigraphy. Our data suggest a very dynamic fluvial system leading to a recent expansion of Terra Firme forests and retraction of Várzea forests during the late Pleistocene. The shift from an extensively flooded to non-flooded surface resulted from river incision around 45-35 ka, which potentially influenced the distribution of taxa by expanding available habitat, creating new barriers to dispersal, or changing the permeability of previous barriers. Transitions between flooded and non-flooded landscapes may have driven diversification and caused changes to species distributions, contributing to the high species diversity and biogeographic patterns currently found in the region. The late Quaternary evolution of Terra Firme substrates reveals that physical landscape changes play a major role in shaping biotic habitats even in the 104–105 years time-scales.
-ER  -
-TY  - JOUR
-AU  - Rauen, V. A. B.
-AU  - Grohmann, C. H.
-AU  - Goveia, S. S.
-AU  - Mioto, C. L.
-AU  - Marini, L. B.
-AU  - Paranhos Filho, A. C.
-AU  - Almeida, M. H. T.
-T1  - Geotecnologias na Determinação da Vulnerabilidade à Ocorrência de Vazamentos em Redes de Abastecimento de Água
-JO  - Geociências (São Paulo)
-Y1  - 2016
-VL  - 35
-IS  - 3
-SP  - 414
-EP  - 425
-
-
-
-
-
-
-
-
-N1  - Added to JabRef: 2020-12-30-12-53
-
-ER  -
-TY  - CONF
-AU  - Riccomini, C.
-AU  - Grohmann, C. H.
-AU  - SantÁnna, L. G.
-AU  - Hiruma, S. T.
-
-T1  - A captura das cabeceiras do Rio Tietê pelo Rio Paraíba do Sul
-T2  - Simposio do Sudeste
-
-
-Y1  - 2007
-
-
-
-
-
-
-
-
-
-
-
-
-
-ER  -
-TY  - GEN
-AU  - Riccomini, C.
-AU  - Grohmann, C. H.
-AU  - SantÁnna, L. G.
-AU  - Hiruma, S. T.
-A2  - Modenesi-Gauttieri, M. C.
-A2  - Bartorelli, A.
-A2  - Lisboa, M. A. L.
-A2  - Mantesso Neto, V.
-T1  - O geógrafo Aziz Nacib AbŚáber
-
-PB  - Becca
-
-Y1  - 2008
-
-
-SP  - 157
-EP  - 169
-
-
-
-
-
-
-
-N1  - Added to JabRef: 2020-12-30
-
-ER  -
-TY  - JOUR
-AU  - Riccomini, Claudio
-AU  - Grohmann, Carlos Henrique
-T1  - Increasing the international visibility of the Brazilian Journal of Geology
-JO  - Brazilian Journal of Geology
-Y1  - 2017/01
-VL  - 47
-IS  - 1
-SP  - 1
-EP  - 1
-UR  - https://doi.org/10.1590/2317-4889201700000471
-M3  - http://doi.org/10.1590/2317-4889201700000471
-
-
-
-
-
-
-N1  - Added to JabRef: 2020-12-30-12-35
-N2  - Since January 1st, 2017, the Board of Directors of the Brazilian Geological Society has honored the signatories to assume the editorial activities of the Brazilian Journal of Geology (BJG). Our responsibility is tremendous in the face of the hard work and efforts made by the previous Editor-in-Chief, Prof. Umberto G. Cordani, who was in charge of the journal for a little more than five years and, in this short term, gave it a new format, increased the publication of articles in English, and attained indexation in the best international databases such as Scopus and Web of Science. In 2015, the BJG received its first Impact Factor of 0.6, twice as expected.
-ER  -
-TY  - CONF
-AU  - Rodrigues, S. W. O.
-AU  - Archanjo, C. J.
-AU  - Grohmann, C. H.
-
-T1  - Quantifica¸ cão da deformac cão finita nos metagranitóides Cariris Velhos na Região de Alagoa Grande (PB)
-T2  - Anais do 45^circ Congresso Brasileiro de Geologia
-PB  - Sociedade Brasileira de Geologia
-AD  - Belém (PA)
-Y1  - 2010
-
-
-
-
-
-
-
-
-
-
-N1  - Owner: guano
-N1  - Added to JabRef: 2011.01.06
-
-ER  -
-TY  - JOUR
-AU  - Rodrigues, S. W. O.
-AU  - Archanjo, C. J.
-AU  - Grohmann, C. H.
-T1  - Quantifica¸ cão da deformac cão finita nos metagranitóides Cariris Velhos na Região de Alagoa Grande (PB)
-JO  - Geologia USP. Série Científica
-Y1  - 2010
-VL  - 10
-
-SP  - 57
-EP  - 78
-UR  - http://dx.doi.org/10.5327/Z1519-874X2010000300005
-M3  - http://doi.org/10.5327/Z1519-874X2010000300005
-
-
-
-
-
-N1  - Owner: guano
-N1  - Added to JabRef: 2020-12-30-12-44
-N2  - Os Metagranitoides Cariris Velhos são considerados como uma das principais associações litológicas da Zona Transversal (Província Borborema - NE do Brasil). A utilização de imagens brutas e tratadas digitalmente de afloramentos dos Metagranitoides Cariris Velhos na obtenção do elipsoide de deformação foi avaliada com o emprego dos métodos do tensor de inércia e interceptos. Os resultados obtidos nas diferentes técnicas utilizadas apresentam elipsoides com geometria e parâmetros de forma semelhantes entre si, mas com grau de anisotropias diferentes. As orientações dos eixos dos elipsoides obtidos são condizentes com as estruturas geológicas observadas em campo, como a foliação principal e a lineação mineral. Entre as características observadas nos elipsoides de deformação obtidos nesse trabalho, destacam-se a forte orientação do eixo C (associado ao polo da foliação) e o predomínio de elipsoides associados a tramas planares e plano-lineares (predomínio de achatamento na deformação). A deformação observada nos Metagranitoides Cariris Velhos é associada ao desenvolvimento das zonas de cisalhamento brasilianas regionais desenvolvidas sob esforços transpressivos.
-ER  -
-TY  - CONF
-AU  - Roldan, L. F.
-AU  - Steiner, S. S.
-AU  - Grohmann, C. H.
-AU  - Machado, R.
-
-T1  - Análise morfométrica da região do Domo de Lages, SC
-T2  - XLIII Congresso Brasileiro de Geologia, Aracaju-SE
-
-
-Y1  - 2006
-
-
-SP  - 266
-EP  - 266
-
-
-
-
-
-
-
-
-
-
-ER  -
-TY  - JOUR
-AU  - Santos, L. P.
-AU  - Campos Neto, M. C.
-AU  - Grohmann, C. H.
-T1  - Metamorphic path constrained by metapelitic rocks from the inner Aiuruoca-Andrelândia nappe, south of the São Francisco Craton, SE Brazil
-JO  - Journal of South American Earth Sciences
-Y1  - 2004
-VL  - 16
-
-SP  - 725
-EP  - 741
-
-M3  - http://doi.org/10.1016/j.jsames.2003.12.006
-
-
-
-
-
-
-N1  - Added to JabRef: 2020-12-30-12-46
-
-ER  -
-TY  - CONF
-AU  - Santos*, L. F.
-AU  - Grohmann, C. H.
-
-T1  - Processamento fotogramétrico digital por Structure from Motion de imagens obtidas em voos de diferentes alturas sobre o solo
-T2  - XIX Brazilian Symposium on Remote Sensing
-PB  - Galoa
-AD  - Santos, SP.
-Y1  - 2019
-VL  - 17
-
-SP  - 97009
-EP  - 97009
-
-
-
-
-
-
-
-
-N1  - Added to JabRef: 2020-08-04
-
+N1  - Added to JabRef: 2015.01.26
 ER  -
 TY  - JOUR
 AU  - Sawakuchi, A. O.
@@ -2599,46 +1047,611 @@ T1  - The Volta Grande do Xingu: reconstruction of past environments and forecas
 JO  - Scientific Drilling
 Y1  - 2015
 VL  - 20
-
-SP  - 21
-EP  - 32
-UR  - 10.5194/sd-20-21-2015
-M3  - http://doi.org/10.5194/sd-20-21-2015
-
-
-
-
-
-
-N1  - Added to JabRef: 2020-12-30-12-40
-
+SP  - 21–32
+EP  - 21–32
+M3  - https://doi.org/10.5194/sd-20-21-2015
+ER  -
+TY  - BOOK
+AU  - Grohmann, C. H.
+T1  - Geoprocessamento com GRASS-GIS
+PB  - Instituto de Energia e Ambiente, Universidade de São Paulo, São Paulo
+Y1  - 2016
+M3  - https://doi.org/10.6084/m9.figshare.3502184
+N1  - Owner: guano
+N1  - Added to JabRef: 2020-12-30-20-23
 ER  -
 TY  - JOUR
-AU  - Simões, Marcello G.
-AU  - Quaglio, Fernanda
-AU  - Warren, Lucas V.
-AU  - Anelli, Luiz E.
-AU  - Stone, Philip
+AU  - Grohmann, C. H.
+T1  - Comparative Analysis of Global Digital Elevation Models and Ultra-Prominent Mountain Peaks
+JO  - ISPRS Annals of Photogrammetry, Remote Sensing and Spatial Information Sciences
+Y1  - 2016
+VL  - III-4
+SP  - 17–23
+EP  - 17–23
+M3  - https://doi.org/10.5194/isprs-annals-III-4-17-2016
+N1  - Added to JabRef: 2016.07.02
+ER  -
+TY  - CONF
+AU  - Niemann, R. S.
+AU  - Silva, T. S. F.
+AU  - Cancian, L. F.
+AU  - Grohmann, C. H.
+AU  - Morellato, L. P. C.
+AU  - Longhitano, G. A.
+T1  - Extração de Modelo Digital de Terreno a partir de nuvem de pontos obtida por Veículo Aéreo Não-Tripulado
+T2  - Simpósio Nacional de Geomorfologia
+AD  - Maringá, PR
+Y1  - 2016
+N1  - Added to JabRef: 2017.02.07
+ER  -
+TY  - JOUR
+AU  - Rauen, V. A. B.
+AU  - Grohmann, C. H.
+AU  - Goveia, S. S.
+AU  - Mioto, C. L.
+AU  - Marini, L. B.
+AU  - Paranhos Filho, A. C.
+AU  - Almeida, M. H. T.
+T1  - Geotecnologias na Determinação da Vulnerabilidade à Ocorrência de Vazamentos em Redes de Abastecimento de Água
+JO  - Geociências (São Paulo)
+Y1  - 2016
+VL  - 35
+IS  - 3
+SP  - 414
+EP  - 425
+UR  - http://www.revistageociencias.com.br/35/volume35_3_files/35-3-artigo-07.pdf
+N1  - Added to JabRef: 2016.08.26
+ER  -
+TY  - JOUR
+AU  - Viana, C. D.
+AU  - Endlein, A.
+AU  - Campanha, G. A. C.
+AU  - Grohmann, C. H.
+T1  - Algorithms for Extraction of Structural Attitudes from 3D Outcrop Models
+JO  - Computers & Geosciences
+Y1  - 2016
+VL  - 90
+SP  - 112
+EP  - 122
+M3  - https://doi.org/10.1016/j.cageo.2016.02.017
+N1  - Added to JabRef: 2016.03.11
+ER  -
+TY  - CONF
+AU  - Pupim, F. N.
+AU  - Sawakushi, A. O.
+AU  - Hartmann, G. A.
+AU  - Savian, J. F.
+AU  - Kern, A. K.
+AU  - Mineli, T. D.
+AU  - Cruz, F. W.
+AU  - Almeida R., P.
+AU  - Grohmann, C. H.
+AU  - Ribas, C. C.
+AU  - d’Horta, F. M.
+AU  - Bertassoli, D. J.
+AU  - Marconato, A.
+AU  - Nogueira, L.
+AU  - Lohmann, L. G.
+T1  - Chronology of Terra Firme formation in western Amazonia and implications for the diversification of Amazonian biota
+T2  - EGU General Assembly 2017
+PB  - EGU
+Y1  - 2017
+VL  - 19
+SP  - EGU2017
+EP  - 9451
+N1  - Added to JabRef: 2019-03-12
+ER  -
+TY  - JOUR
 AU  - Riccomini, Claudio
-AU  - Grohmann, Carlos H.
-AU  - Chamani, Marlei A. C.
-T1  - Permian non-marine bivalves of the Falkland Islands and their palaeoenvironmental significance
-JO  - Alcheringa: An Australasian Journal of Palaeontology
-Y1  - 2012
-VL  - 36
-IS  - 4
-SP  - 543
-EP  - 554
-UR  - http://dx.doi.org/10.1080/03115518.2012.688682
-M3  - http://doi.org/10.1080/03115518.2012.688682
-
-
-
-
-
+AU  - Grohmann, C. H.
+T1  - Increasing the international visibility of the Brazilian Journal of Geology
+JO  - Brazilian Journal of Geology
+Y1  - 2017/01
+VL  - 47
+IS  - 1
+SP  - 1–1
+EP  - 1–1
+UR  - 10.1590/2317-4889201700000471
+M3  - https://doi.org/10.1590/2317-4889201700000471
+N1  - Added to JabRef: 2017.05.30
+ER  -
+TY  - CONF
+AU  - Grohmann, C. H.
+AU  - Viana, C. D.
+AU  - Busarello, M.
+AU  - Garcia, G. P. B.
+T1  - Structural analysis of clastic dikes based on Structure from Motion/Multi-View Stereo
+T2  - Geomorphometry 2018
+AD  - Boulder, CO, USA
+Y1  - 2018/august
+UR  - http://2018.geomorphometry.org/Grohmann_others_2018_geomorphometry.pdf
 N1  - Owner: guano
-N1  - Added to JabRef: 2020-12-30-12-47
-N2  - We describe the occurrence of non-marine bivalves in exposures of the Middle Permian (Capitanian) Brenton Loch Formation on the southern shore of Choiseul Sound, East Falklands. The bivalves are associated with ichnofossils and were collected from a bed in the upper part of the formation, within a 25 cm thick interval of dark siltstones and mudstones with planar lamination, overlain by massive sandstones. The shells are articulated, with the valves either splayed open or closed. At the top of the succession, mudstone beds nearly 1.5 m above the bivalve-bearing layers yielded well-preserved Glossopteris sp. cf. G. communis leaf fossils. The closed articulated condition of some shells indicates preservation under high sedimentation rates with low residence time of bioclasts at the sediment/water interface. However, the presence of specimens with splayed shells is usually correlated to the slow decay of the shell ligament in oxygen-deficient bottom waters. The presence of complete carbonized leaves of Glossopteris associated with the bivalve-bearing levels also suggests a possibly dysoxic-anoxic bottom environment. Overall, our data suggest that the bivalves were preserved by abrupt burial, possibly by distal sediment flows into a Brenton Loch lake, and may represent autochthonous to parautochthonous fossil accumulations. The shells resemble those of anthracosiids and are herein assigned to Palaeanodonta sp. aff. P. dubia, a species also found in the Permian succession of the Karoo Basin, South Africa. Our results confirm that (a) the true distributions in space and time of all Permian non-marine (freshwater) bivalves are not yet well known, and (b) there is no evidence for marine conditions in the upper part of the Brenton Loch Formation.
+N1  - Added to JabRef: 2019-01-31
+ER  -
+TY  - JOUR
+AU  - Grohmann, C. H.
+T1  - Evaluation of TanDEM-X DEMs on selected Brazilian sites: Comparison with SRTM, ASTER GDEM and ALOS AW3D30
+JO  - Remote Sensing of Environment
+Y1  - 2018
+VL  - 212
+SP  - 121
+EP  -  133
+M3  - https://doi.org/10.1016/j.rse.2018.04.043
+U1  - 0034-4257
+N1  - Added to JabRef: 2019-01-31
+ER  -
+TY  - JOUR
+AU  - Sawakuchi, A. O.
+AU  - Jain, M.
+AU  - Mineli, T. D.
+AU  - Nogueira, L.
+AU  - Bertassoli, D. J.
+AU  - Häggi, C.
+AU  - Sawakuchi, H. O.
+AU  - Pupim, F. N.
+AU  - Grohmann, C. H.
+AU  - Chiessi, C. M.
+AU  - Zabel, M.
+AU  - Mulitza, S.
+AU  - Mazoca, C. E. M.
+AU  - Cunha, D. F.
+T1  - Luminescence of quartz and feldspar fingerprints provenance and correlates with the source area denudation in the Amazon River basin
+JO  - Earth and Planetary Science Letters
+Y1  - 2018
+VL  - 492
+SP  - 152
+EP  - 162
+M3  - https://doi.org/10.1016/j.epsl.2018.04.006
+KW  - sediment provenance
+KW  - luminescence
+KW  - denudation
+KW  - tropical rivers
+KW  - Amazon
+U1  - 0012-821X
+N1  - Added to JabRef: 2021-07-13-22-10
+ER  -
+TY  - CONF
+AU  - Albuquerque, R. W.
+AU  - Ferreira, M. E.
+AU  - Girão, V. J.
+AU  - Balieiro, C. P.
+AU  - Mansur, H.
+AU  - Costa, J. V. S.
+AU  - Grohmann, C. H.
+T1  - Comparação de RPAS e TOPODATA no mapeamento de regiões declivosas previstas no Cadastro Ambiental Rural
+T2  - XIX Brazilian Symposium on Remote Sensing
+PB  - Galoa
+AD  - Santos, SP.
+Y1  - 2019
+VL  - 17
+SP  - 96426
+EP  - 96426
+UR  - https://proceedings.science/sbsr-2019/papers/comparacao-de-rpas-e-topodata-no-mapeamento-de-regioes-declivosas-previstas-no-cadastro-ambiental-rural
+N1  - Added to JabRef: 2019-08-06
+ER  -
+TY  - CONF
+AU  - Barale, F.
+AU  - Grohmann, C. H.
+T1  - Photoscan x COLMAP: comparação entre DEMs gerados por Structure from Motion–Multi-View Stereo
+T2  - XIX Brazilian Symposium on Remote Sensing
+PB  - Galoa
+AD  - Santos, SP.
+Y1  - 2019
+VL  - 17
+SP  - 95942
+EP  - 95942
+UR  - https://proceedings.science/sbsr-2019/papers/photoscan-x-colmap--comparacao-entre-dems-gerados-por-structure-from-motion--multi-view-stereo
+N1  - Added to JabRef: 2019-08-06
+ER  -
+TY  - CONF
+AU  - Garcia, G. P. B.
+AU  - Gomes, E. B.
+AU  - Viana, C. D.
+AU  - Grohmann, C. H.
+T1  - Comparing Terrestrial Laser Scanner and UAV-based photogrammetry to generate a landslide DEM
+T2  - XIX Brazilian Symposium on Remote Sensing
+PB  - Galoa
+AD  - Santos, SP.
+Y1  - 2019
+VL  - 17
+SP  - 95863
+EP  - 95863
+UR  - https://proceedings.science/sbsr-2019/papers/comparing-terrestrial-laser-scanner-and-uav-based-photogrammetry-to-generate-a-landslide-dem
+N1  - Added to JabRef: 2019-08-06
+ER  -
+TY  - JOUR
+AU  - Garcia, Guilherme P. B.
+AU  - Grohmann, C. H.
+T1  - DEM-based geomorphological mapping and landforms characterization of a tropical karst environment in southeastern Brazil
+JO  - Journal of South American Earth Sciences
+Y1  - 2019
+VL  - 93
+SP  - 14
+EP  -  22
+UR  - http://www.sciencedirect.com/science/article/pii/S0895981118303560
+M3  - https://doi.org/10.1016/j.jsames.2019.04.013
+KW  - Geomorphology
+KW  - Geomorphometry
+KW  - Karst
+KW  - Digital Elevation Model
+KW  - Land systems
+KW  - Ribeira river
+U1  - 0895-9811
+N1  - Added to JabRef: 2019-11-29
+ER  -
+TY  - CONF
+AU  - Grohmann, C. H.
+AU  - Viana, C. D.
+AU  - Garcia, G. P. B.
+AU  - Albuquerque, R. W.
+AU  - Barale, F.
+AU  - Ferretti, F. A.
+T1  - Semi-Automatic UAV-based SfM survey of vertical surfaces
+T2  - XIX Brazilian Symposium on Remote Sensing
+PB  - Galoa
+AD  - Santos, SP.
+Y1  - 2019
+VL  - 17
+SP  - 95586
+EP  - 95586
+UR  - https://proceedings.science/sbsr-2019/papers/semi-automatic-uav-based-sfm-survey-of-vertical-surfaces
+N1  - Added to JabRef: 2019-08-06
+ER  -
+TY  - CONF
+AU  - Grohmann, C. H.
+AU  - Zacharias, G.
+AU  - Garcia, G. P. B.
+AU  - Barale, F.
+AU  - Almeida Filho, F. G. V.
+AU  - Arnone, I. S.
+T1  - Mapeamento e modelagem 3D do setor turístico da Caverna do Diabo (SP) com Laser Scanner: resultados preliminares
+T2  - Anais 35 Congresso Brasileiro de Espeleologia
+AD  - Bonito, MS
+Y1  - 2019
+SP  - 201
+EP  - 206
+UR  - http://www.cavernas.org.br/anais35cbe/35cbe_201-206.pdf
+N1  - Owner: guano
+N1  - Added to JabRef: 2015.07.28
+ER  -
+TY  - GEN
+AU  - Grohmann, C. H.
+T1  - Lagoinha Landslide, São Paulo State, Brazil. SfM-MVS point cloud
+Y1  - 2019
+M3  - https://doi.org/10.5069/G94F1NWJ
+N1  - Added to JabRef: 2019-10-09
+ER  -
+TY  - GEN
+AU  - Grohmann, C. H.
+T1  - Lagoinha Landslide, São Paulo State, Brazil. TLS point cloud
+Y1  - 2019
+M3  - https://doi.org/10.5069/G90P0X57
+N1  - Added to JabRef: 2019-10-09
+ER  -
+TY  - GEN
+AU  - Grohmann, C. H.
+T1  - Garopaba Dune Field, Santa Catarina State, Brazil. SfM-MVS point cloud
+Y1  - 2019
+M3  - https://doi.org/10.5069/G9DV1H19
+N1  - Added to JabRef: 2019-10-09
+ER  -
+TY  - GEN
+AU  - Grohmann, C. H.
+AU  - Garcia, G. P. B.
+AU  - Affonso, A. A.
+AU  - Albuquerque, R. W.
+T1  - Garopaba Dune Field, Santa Catarina State, Brazil. TLS point cloud
+Y1  - 2019
+M3  - https://doi.org/10.5069/G9CN7228
+N1  - Added to JabRef: 2019-10-09
+ER  -
+TY  - BOOK
+AU  - Grohmann, C. H.
+T1  - Da submissão à comemoração, ou como funciona o processo de avaliação de um artigo científico, e qual sua parte nisso
+PB  - Instituto de Energia e Ambiente, Universidade de São Paulo, São Paulo
+Y1  - 2019
+M3  - https://doi.org/10.6084/m9.figshare.7701479.v1
+N1  - Owner: guano
+ER  -
+TY  - JOUR
+AU  - Pinaya, Jorge L. D.
+AU  - Cruz, Francisco W.
+AU  - Ceccantini, Gregório C. T.
+AU  - Corrêa, Pedro L. P.
+AU  - Pitman, Nigel
+AU  - Vemado, Felipe
+AU  - Lopez, Maria del Carmen S.
+AU  - Pereira Filho, Augusto J.
+AU  - Grohmann, C. H.
+AU  - Chiessi, Cristiano M.
+AU  - Stríkis, Nicolás M.
+AU  - Horák-Terra, Ingrid
+AU  - Pinaya, Walter H. L.
+AU  - de Medeiros, Vanda B.
+AU  - Santos, Rudney de A.
+AU  - Akabane, Thomas K.
+AU  - Silva, Maicon A.
+AU  - Cheddadi, Rachid
+AU  - Bush, Mark
+AU  - Henrot, Alexandra-Jane
+AU  - François, Louis
+AU  - Hambuckers, Alain
+AU  - Boyer, Frédéric
+AU  - Carré, Matthieu
+AU  - Coissac, Eric
+AU  - Ficetola, Francesco
+AU  - Huang, Kangyou
+AU  - Lézine, Anne-Marie
+AU  - Nourelbait, Majda
+AU  - Rhoujjati, Ali
+AU  - Taberlet, Pierre
+AU  - Sarmiento, Fausto
+AU  - Abel-Schaad, Daniel
+AU  - Alba-Sánchez, Francisca
+AU  - Zheng, Zhuo
+AU  - De Oliveira, Paulo E.
+T1  - Brazilian montane rainforest expansion induced by Heinrich Stadial 1 event
+JO  - Scientific Reports
+Y1  - 2019/november
+VL  - 9
+IS  - 1
+SP  - 17912
+EP  - 17912
+UR  - 10.1038/s41598-019-53036-1
+U1  - 2045-2322
+N1  - Added to JabRef: 2019-11-29
+ER  -
+TY  - JOUR
+AU  - Pupim, F. N.
+AU  - Kern, A. K.
+AU  - Sawakuchi, A. O.
+AU  - Stern, A.
+AU  - Ribas, C. C.
+AU  - Grohmann, C. H.
+AU  - Chiessi, C. M.
+AU  - Bertassoli Jr. D., J.
+AU  - Cruz, F.
+AU  - Hartmann, G.
+AU  - Savian, J.
+AU  - Cracraft, J.
+AU  - Tamura, L.
+AU  - Almeida, R. P.
+AU  - Mineli, T.
+T1  - Chronology of Terra Firme formation in Amazonian lowlands reveals a dynamic Quaternary landscape
+JO  - Quaternary Science Reviews
+Y1  - 2019
+VL  - 210
+SP  - 154
+EP  -  163
+M3  - https://doi.org/10.1016/j.quascirev.2019.03.008
+KW  - Amazonia
+KW  - Amazon river
+KW  - Paleogeography
+KW  - Fluvial evolution
+KW  - Quaternary geochronology
+U1  - 0277-3791
+N1  - Added to JabRef: 2019-03-12
+ER  -
+TY  - CONF
+AU  - Santos, L. F.
+AU  - Grohmann, C. H.
+T1  - Processamento fotogramétrico digital por Structure from Motion de imagens obtidas em voos de diferentes alturas sobre o solo
+T2  - XIX Brazilian Symposium on Remote Sensing
+PB  - Galoa
+AD  - Santos, SP.
+Y1  - 2019
+VL  - 17
+SP  - 97009
+EP  - 97009
+UR  - https://proceedings.science/sbsr-2019/papers/processamento-fotogrametrico-digital-por-structure-from-motion-de-imagens-obtidas-em-voos-de-diferentes-alturas-sobre-o-
+N1  - Added to JabRef: 2019-08-06
+ER  -
+TY  - GEN
+AU  - Viana, C. D.
+AU  - Endlein, A.
+AU  - Grohmann, C. H.
+AU  - Monticelli J., P.
+AU  - Campanha, G. A. C.
+A2  - Fontoura, S. A. B.
+A2  - Rocca, R. J.
+A2  - Mendoza, J. P.
+T1  - Rock Mechanics for Natural Resources and Infrastructure Development - Full Papers: Proceedings of the 14th International Congress on Rock Mechanics and Rock Engineering (ISRM 2019)
+PB  - CRC Press
+AD  - Foz do Iguassu, Brazil
+Y1  - 2019/september
+SP  - 560
+EP  - 566
+UR  - 10.1201/9780367823184
+M3  - https://doi.org/10.1201/9780367823184
+N1  - Owner: guano
+N1  - Added to JabRef: 2020-12-30-20-23
+ER  -
+TY  - CONF
+AU  - Viana, C. D.
+AU  - Endlein, A.
+AU  - Grohmann, C. H.
+AU  - Monticelli, J. P.
+AU  - Campanha, G. A. C.
+A2  - Fontoura, S. A. B.
+A2  - Rocca, R. J.
+A2  - Mendoza, J. P.
+T1  - SfM-MVS digital models applied to rock surface roughness
+T2  - 14th International Congress on Rock Mechanics and Rock Engineering (ISRM 2019)
+PB  - CRC Press
+AD  - Foz do Iguassu, Brazil
+Y1  - 2019/september
+SP  - 560
+EP  - 566
+UR  - 10.1201/9780367823184
+M3  - https://doi.org/10.1201/9780367823184
+N1  - Owner: guano
+N1  - Added to JabRef: 2020-12-30-20-23
+ER  -
+TY  - GEN
+AU  - Viana, C. D.
+AU  - Grohmann, C. H.
+AU  - Monticelli J., P.
+AU  - Garcia, G. P. B.
+AU  - Albuquerque. R., W.
+AU  - Cacciari, P. P.
+AU  - Futai, M. M.
+A2  - Fontoura, S. A. B.
+A2  - Rocca, R. J.
+A2  - Mendoza, J. P.
+T1  - Rock Mechanics for Natural Resources and Infrastructure Development - Full Papers: Proceedings of the 14th International Congress on Rock Mechanics and Rock Engineering (ISRM 2019)
+PB  - CRC Press
+AD  - Foz do Iguassu, Brazil
+Y1  - 2019/september
+SP  - 3604
+EP  - 3611
+UR  - 10.1201/9780367823184
+M3  - https://doi.org/10.1201/9780367823184
+N1  - Owner: guano
+N1  - Added to JabRef: 2020-12-30-20-23
+ER  -
+TY  - CONF
+AU  - Viana, C. D.
+AU  - Grohmann, C. H.
+AU  - Monticelli, J. P.
+AU  - Garcia, G. P. B.
+AU  - Albuquerque, R. W.
+AU  - Cacciari, P. P.
+AU  - Futai, M. M.
+A2  - Fontoura, S. A. B.
+A2  - Rocca, R. J.
+A2  - Mendoza, J. P.
+T1  - Slope stability assessment based on a digital outcrop model: A case-study at Jardim Garcia quarry
+T2  - Proceedings of the 14th International Congress on Rock Mechanics and Rock Engineering (ISRM 2019)
+PB  - CRC Press
+AD  - Foz do Iguassu, Brazil
+Y1  - 2019/september
+SP  - 3604
+EP  - 3611
+UR  - 10.1201/9780367823184
+M3  - https://doi.org/10.1201/9780367823184
+N1  - Owner: guano
+N1  - Added to JabRef: 2020-12-30-20-23
+ER  -
+TY  - JOUR
+AU  - Albuquerque, Rafael Walter
+AU  - Costa, Marcelo Oliveira
+AU  - Ferreira, Manuel Eduardo
+AU  - Carrero, Gabriel Cardoso
+AU  - Grohmann, C. H.
+T1  - Remotely piloted aircraft imagery for automatic tree counting in forest restoration areas: a case study in the Amazon
+JO  - Journal of Unmanned Vehicle Systems
+Y1  - 2020
+VL  - 8
+IS  - 3
+SP  - 207
+EP  - 223
+UR  - 10.1139/juvs-2019-0024
+M3  - https://doi.org/10.1139/juvs-2019-0024
+N1  - Added to JabRef: 2020-08-22
+ER  -
+TY  - JOUR
+AU  - Ciotta, Mariana
+AU  - Peyerl, Drielli
+AU  - Barrozo, Ligia
+AU  - Anna, Lucy Sant
+AU  - dos Santos, Edmilson Moutinho
+AU  - Bermann, Célio
+AU  - Grohmann, C. H.
+AU  - Moretto, Evandro Mateus
+AU  - Tassinari, Colombo
+T1  - An overview of carbon capture and storage atlases around the world
+JO  - Environmental Geosciences
+Y1  - 2020/march
+VL  - 27
+IS  - 1
+SP  - 1–8
+EP  - 1–8
+M3  - https://doi.org/10.1306/eg.10221919015
+N1  - Added to JabRef: 2020-03-09
+ER  -
+TY  - GEN
+AU  - Cracraft, J.
+AU  - Camila Ribas, C.
+AU  - d'Horta, F. M.
+AU  - Bates, J.
+AU  - Almeida, R. P.
+AU  - Aleixo, A.
+AU  - Boubli, J. P.
+AU  - Campbell, K. E.
+AU  - Cruz, F. W.
+AU  - Ferreira, M.
+AU  - Fritz, S. C.
+AU  - Grohmann, C. H.
+AU  - Latrubesse, E. M.
+AU  - Lohmann, L. G.
+AU  - Musher, L. J.
+AU  - Nogueira, A.
+AU  - Sawakuchi, A. O.
+AU  - Baker, P.
+A2  - Rull, Valentí
+A2  - Carnaval, Ana Carolina
+T1  - The Origin and Evolution of Amazonian Species Diversity
+PB  - Springer International Publishing
+AD  - Cham
+Y1  - 2020
+SP  - 225–244
+EP  - 225–244
+UR  - 10.1007/978-3-030-31167-4_10
+M3  - https://doi.org/10.1007/978-3-030-31167-4_10
+ER  -
+TY  - JOUR
+AU  - Gerolin, Cristiano Rezende
+AU  - Pupim, Fabiano Nascimento
+AU  - Sawakuchi, André Oliveira
+AU  - Grohmann, C. H.
+AU  - Labuto, Geórgia
+AU  - Semensatto, Décio
+T1  - Microplastics in sediments from Amazon rivers, Brazil
+JO  - Science of The Total Environment
+Y1  - 2020
+VL  - 749
+SP  - 141604
+EP  - 141604
+UR  - 10.1016/j.scitotenv.2020.141604
+M3  - https://doi.org/10.1016/j.scitotenv.2020.141604
+KW  - Microplastics pollution
+KW  - River sediment
+KW  - Amazon
+U1  - 0048-9697
+N1  - Added to JabRef: 2020-08-22
+ER  -
+TY  - JOUR
+AU  - Grohmann, C. H.
+AU  - Garcia, G. P. B.
+AU  - Affonso, A. A.
+AU  - Albuquerque, R. W.
+T1  - Aeolian dune modelling from airborne LiDAR, terrestrial LiDAR and Structure from Motion-Multi View Stereo
+JO  - Computers & Geosciences
+Y1  - 2020
+VL  - 143
+SP  - 104569
+EP  - 104569
+UR  - http://doi.org/10.1016/j.cageo.2020.104569
+N1  - Added to JabRef: 2020-08-22
+ER  -
+TY  - CONF
+AU  - Grohmann, C. H.
+AU  - Garcia, G. P. B.
+AU  - Affonso, A. A.
+AU  - Albuquerque, R. W.
+A2  - Alvioli, Massimiliano
+A2  - Marchesini, Ivan
+A2  - Melelli, Laura
+A2  - Guth, Peter
+T1  - Coastal dune modelling from airborne LiDAR, terrestrial LiDAR and Structure from Motion-Multi View Stereo
+T2  - Proceedings of the Geomorphometry 2020 conference
+AD  - Perugia, Italy
+Y1  - 2020
+SP  - 99
+EP  - 102
+UR  - http://doi.org/10.30437/Geomorphometry2020
+M3  - https://doi.org/10.30437/Geomorphometry2020
+N1  - Added to JabRef: 2020-08-22
 ER  -
 TY  - JOUR
 AU  - Simon, Quentin
@@ -2646,7 +1659,7 @@ AU  - Ledru, Marie-Pierre
 AU  - Sawakuchi, André Oliveira
 AU  - Favier, Charly
 AU  - Mineli, Thays D.
-AU  - Grohmann, Carlos H.
+AU  - Grohmann, C. H.
 AU  - Guedes, Marco
 AU  - Bard, Edouard
 AU  - Thouveny, Nicolas
@@ -2654,71 +1667,245 @@ AU  - Garcia, Marta
 AU  - Tachikawa, Kazuyo
 AU  - Rodríguez-Zorro, Paula A.
 AU  - Team, A. S. T. E. R.
-T1  - Chronostratigraphy of a 1.5&plusmn;0.1 Ma composite sedimentary record from Colônia basin (SE Brazil): Bayesian modeling based on paleomagnetic, authigenic 10Be/9Be, radiocarbon and luminescence dating
+T1  - Chronostratigraphy of a 1.5±0.1Ma composite sedimentary record from Colônia basin (SE Brazil): Bayesian modeling based on paleomagnetic, authigenic 10Be/9Be, radiocarbon and luminescence dating
 JO  - Quaternary Geochronology
 Y1  - 2020
-
-
 SP  - 101081
 EP  - 101081
-
-M3  - http://doi.org/10.1016/j.quageo.2020.101081
+M3  - https://doi.org/10.1016/j.quageo.2020.101081
 KW  - Peat and lake sediments
 KW  - Paleomagnetism
 KW  - Luminescence dating
 KW  - Radiocarbon
 KW  - Authigenic Be/Be dating
 KW  - Deep drilling
-
 U1  - 1871-1014
-
-
-
-N1  - Added to JabRef: 2020-12-30-12-30
-N2  - We present a new 52 m composite record (COL17c) composed of five sedimentary sequences retrieved from the Colônia basin (Southeastern Brazil). The COL17c record is composed of two main sub-units deposited under different regimes: a peatland above  14 m and lacustrine sediments below. Sedimentary description and core scanning (MSCL and XRF) are first used to align individual cores in order to produce a nearly continuous composite record. We then established an original chronological framework based on radiocarbon, paleomagnetic, optically stimulated luminescence (OSL), post-infrared infrared stimulated luminescence at elevated temperature (pIRIR290°C) and authigenic 10Be/9Be dating. We describe the protocols used for each technique and discuss the positive and negative results, as well as their implications for proxy interpretation. In spite of negative results of some techniques, mainly due to the absence of adequate sample material, the multi-proxy approach used is essential to maximize the chances of obtaining a satisfactory age model for this unique continental sedimentary sequence. All valid chronological proxies, comprising three AMS 14C ages, one pIRIR290°C age, two paleomagnetic constraints and eight authigenic 10Be/9Be datum, are integrated within a Bayesian age-depth modeling to produce a 1.5 ± 0.1 Ma chronology for the whole COL17c sequence. This age model represents the first long-term chronological estimate of sediments deposition in the Colônia basin. The record allows to refine the age of the Colônia basin formation between 5.3 and 11.2 Ma, much older than previously estimated from short sedimentary cores.
+ER  -
+TY  - JOUR
+AU  - Albuquerque, R. W.
+AU  - Ferreira, M. E.
+AU  - Olsen, S. I.
+AU  - Tymus, J. R. C.
+AU  - Balieiro, C. P.
+AU  - Mansur, H.
+AU  - Moura, C. J. R.
+AU  - Costa, J. V. S.
+AU  - Branco, Ma. R. C.
+AU  - Grohmann, C. H.
+T1  - Forest Restoration Monitoring Protocol with a Low-Cost Remotely Piloted Aircraft: Lessons Learned from a Case Study in the Brazilian Atlantic Forest
+JO  - Remote Sensing
+Y1  - 2021
+VL  - 13
+IS  - 12
+M3  - https://doi.org/10.3390/rs13122401
+U1  - 2072-4292
+N1  - Owner: guano
+ER  -
+TY  - JOUR
+AU  - Dias, H. C.
+AU  - Sandre, L. H.
+AU  - Alarcón, D. A. S.
+AU  - Grohmann, C. H.
+AU  - Quintanilha, J. A.
+T1  - Landslide recognition using SVM, Random Forest, and Maximum Likelihood classifiers on high-resolution satellite images: A case study of Itaóca, southeastern Brazil
+JO  - Brazilian Journal of Geology
+Y1  - 2021
+VL  - 51
+IS  - 4
+SP  - e20200105
+EP  - e20200105
+M3  - https://doi.org/10.1590/2317-4889202120200105
+N1  - Owner: guano
+N1  - Added to JabRef: 2022-03-23-22-20
+ER  -
+TY  - JOUR
+AU  - Dias, H. C.
+AU  - Hölbling, D.
+AU  - Grohmann, C. H.
+T1  - Landslide Susceptibility Mapping in Brazil: A Review
+JO  - Geosciences
+Y1  - 2021
+VL  - 11
+IS  - 10
+SP  - 425
+EP  - 425
+M3  - https://doi.org/10.3390/geosciences11100425
+N1  - Owner: guano
+N1  - Added to JabRef: 2022-03-23-22-20
 ER  -
 TY  - CONF
-AU  - Smith, M.
+AU  - Dias, H. C.
+AU  - Hölbling, D.
 AU  - Grohmann, C. H.
-AU  - Riccomini, C.
-
-T1  - Comparative assessment of measures of surface roughness
-T2  - Geological Remote Sensing Group
-
-AD  - London
-Y1  - 2007
-
-
-
-
-
-
-
-
-
-
-
-
-
+T1  - Landslide inventory mapping in Brazil: Status and challenges
+T2  - SCG-XIII International Symposium on Landslides
+AD  - Cartagena, Colombia
+Y1  - 2021
+N1  - Owner: guano
+N1  - Added to JabRef: 2020-08-04
+ER  -
+TY  - JOUR
+AU  - Dias, H. C.
+AU  - Gramani, M. F.
+AU  - Grohmann, C. H.
+AU  - Bateira, C.
+AU  - Vieira, B. C.
+T1  - Statistical-based shallow landslide susceptibility assessment for a tropical environment: a case study in the southeastern Brazilian coast
+JO  - Natural Hazards
+Y1  - 2021
+M3  - https://doi.org/10.1007/s11069-021-04676-y
+N1  - Owner: guano
+N1  - Added to JabRef: 2021-05-06-11-29
+ER  -
+TY  - JOUR
+AU  - Ferreira, A. T. S.
+AU  - Siegle, Eduardo
+AU  - Ribeiro, Maria Carolina Hernandez
+AU  - Santos, Marcelo Soares Teles
+AU  - Grohmann, C. H.
+T1  - The dynamics of plastic pellets on sandy beaches: a new methodological approach
+JO  - Marine Environmental Research
+Y1  - 2021
+VL  - 163
+SP  - 105219
+EP  - 105219
+M3  - https://doi.org/10.1016/j.marenvres.2020.105219
+KW  - Nurdles
+KW  - GNSS
+KW  - Strandline altitude
+KW  - Extreme events
+KW  - Storm surge
+KW  - DEM
+U1  - 0141-1136
+N1  - Owner: guano
+N1  - Added to JabRef: 2021-05-06-11-26
+ER  -
+TY  - JOUR
+AU  - Godoy-Veiga, Milena
+AU  - Cintra, Bruno Barçante Ladvocat
+AU  - Stríkis, Nicolás Misailidis
+AU  - Cruz, Francisco Willian
+AU  - Grohmann, C. H.
+AU  - Santos, Matheus Simões
+AU  - Regev, Lior
+AU  - Boaretto, Elisabetta
+AU  - Ceccantini, Gregório
+AU  - Locosselli, Giuliano Maselli
+T1  - The value of climate responses of individual trees to detect areas of climate-change refugia, a tree-ring study in the Brazilian seasonally dry tropical forests
+JO  - Forest Ecology and Management
+Y1  - 2021
+VL  - 488
+SP  - 118971
+EP  - 118971
+M3  - https://doi.org/10.1016/j.foreco.2021.118971
+KW  - Climate change
+KW  - Dendrochronology
+KW  - Karst
+KW  - Microenvironment
+KW  - Radiocarbon (C)
+KW  - Tropics
+U1  - 0378-1127
+N1  - Owner: guano
+N1  - Added to JabRef: 2021-03-02-14-23
+ER  -
+TY  - GEN
+AU  - Grohmann, C. H.
+T1  - Lagoinha Landslide, São Paulo State, Brazil. RPA Image Collection.
+Y1  - 2021
+UR  - https://data.geonadir.com/project-details/339
+N1  - Owner: guano
+ER  -
+TY  - GEN
+AU  - Grohmann, C. H.
+T1  - Toque-Toque Grande Landslide, São Paulo State, Brazil. RPA Image Collection.
+Y1  - 2021
+UR  - https://data.geonadir.com/project-details/537
+N1  - Owner: guano
+ER  -
+TY  - JOUR
+AU  - Guth, P. L.
+AU  - Van Niekerk, A.
+AU  - Grohmann, C. H.
+AU  - Muller, J.-P.
+AU  - Hawker, L.
+AU  - Florinsky, I. V.
+AU  - Gesch, D.
+AU  - Reuter, H. I.
+AU  - Herrera-Cruz, V.
+AU  - Riazanoff, S.
+AU  - López-Vázquez, C.
+AU  - Carabajal, C. C.
+AU  - Albinet, C.
+AU  - Strobl, P.
+T1  - Digital Elevation Models: Terminology and Definitions
+JO  - Remote Sensing.
+Y1  - 2021
+VL  - 13
+IS  - 18
+SP  - 3581
+EP  - 3581
+M3  - https://doi.org/10.3390/rs13183581
+N1  - Owner: guano
+N1  - Added to JabRef: 2022-03-23-22-20
+ER  -
+TY  - JOUR
+AU  - Paz, Andrea
+AU  - Brown, Jason L.
+AU  - Cordeiro, Carlos L. O.
+AU  - Aguirre-Santoro, Julian
+AU  - Assis, Claydson
+AU  - Amaro, Renata Cecilia
+AU  - Raposo do Amaral, Fabio
+AU  - Bochorny, Thuane
+AU  - Bacci, Lucas F.
+AU  - Caddah, Mayara K.
+AU  - d’Horta, Fernando
+AU  - Kaehler, Miriam
+AU  - Lyra, Mariana
+AU  - Grohmann, C. H.
+AU  - Reginato, Marcelo
+AU  - Silva-Brandão, Karina Lucas
+AU  - Freitas, André Victor Lucci
+AU  - Goldenberg, Renato
+AU  - Lohmann, Lúcia G.
+AU  - Michelangeli, Fabián A.
+AU  - Miyaki, Cristina
+AU  - Rodrigues, Miguel T.
+AU  - Silva, Thiago S.
+AU  - Carnaval, Ana C.
+T1  - Environmental correlates of taxonomic and phylogenetic diversity in the Atlantic Forest
+JO  - Journal of Biogeography
+Y1  - 2021
+M3  - https://doi.org/10.1111/jbi.14083
+N1  - Owner: guano
+N1  - Added to JabRef: 2021-05-12
+ER  -
+TY  - GEN
+AU  - Sinisgalli, P. A. A.
+AU  - Grohmann, C. H.
+A2  - Sampaio, C. A. C.
+A2  - Philippi Junior, A.
+T1  - Programa de Pós-Graduação em Ciência Ambiental da USP e os Objetivos de Desenvolvimento Sustentável
+PB  - Instituto de Estudos Avançados USP
+Y1  - 2021
+SP  - 163–177
+EP  - 163–177
+M3  - https://doi.org/10.11606/9786587773186
+N1  - Owner: guano
+N1  - Added to JabRef: 2020-12-30-20-23
 ER  -
 TY  - GEN
 AU  - Smith, Mike J.
 AU  - Otto, Jan-Christoph
 AU  - Moore, Antoni B.
-AU  - Grohmann, Carlos H.
+AU  - Grohmann, C. H.
 AU  - Hillier, John
 AU  - Geilhausen, Martin
-
 T1  - Reference Module in Earth Systems and Environmental Sciences
-
 PB  - Elsevier
-
 Y1  - 2021
-
-
-
-UR  - https://doi.org/10.1016/B978-0-12-818234-5.00147-4
-M3  - http://doi.org/10.1016/B978-0-12-818234-5.00147-4
+UR  - 10.1016/B978-0-12-818234-5.00147-4
+M3  - https://doi.org/10.1016/B978-0-12-818234-5.00147-4
 KW  - Augmented reality
 KW  - Cartography
 KW  - DEM
@@ -2733,100 +1920,8 @@ KW  - Symbol
 KW  - Terrain
 KW  - Virtual reality
 KW  - Visualization
-
-
-
-
+N1  - Owner: guano
 N1  - Added to JabRef: 2022-03-23-22-20
-
-ER  -
-TY  - CHAP
-AU  - Smith, Mike J.
-AU  - Otto, Jan-Christoph
-AU  - Moore, Antoni B.
-AU  - Grohmann, Carlos H.
-AU  - Hillier, John
-AU  - Geilhausen, Martin
-
-T1  - Geovisualization
-T2  - Reference Module in Earth Systems and Environmental Sciences
-PB  - Elsevier
-
-Y1  - 2021
-
-
-
-UR  - https://www.sciencedirect.com/science/article/pii/B9780128182345001474
-M3  - http://doi.org/10.1016/B978-0-12-818234-5.00147-4
-KW  - Augmented reality
-KW  - Cartography
-KW  - DEM
-KW  - Filter
-KW  - Globe
-KW  - HCI
-KW  - Interactivity
-KW  - Kernel
-KW  - Legend
-KW  - Map
-KW  - Symbol
-KW  - Terrain
-KW  - Virtual reality
-KW  - Visualization
-
-
-
-
-
-N1  - Added to JabRef: 2022-03-23-22-20
-
-ER  -
-TY  - CONF
-AU  - Steiner, S. S.
-AU  - Machado, R.
-AU  - Grohmann, C. H.
-
-T1  - Análise morfométrica da estrutura divergente na região do Rio Paraíba do Sul, Rio de Janeiro
-T2  - XLIII Congresso Brasileiro de Geologia, Aracaju-SE
-
-
-Y1  - 2006
-
-
-SP  - 97
-EP  - 97
-
-
-
-
-
-
-
-
-
-
-ER  -
-TY  - CONF
-AU  - Steiner, S. S.
-AU  - Grohmann, C. H.
-
-T1  - Comparação entre o ArcGIS e o GRASS-GIS na elaboração e aquisição de dados morfométricos
-T2  - Simposio do Sudeste
-
-
-Y1  - 2007
-
-
-
-
-
-
-
-
-
-
-
-
-
 ER  -
 TY  - JOUR
 AU  - Strobl, P. A.
@@ -2843,189 +1938,316 @@ T1  - The Digital Elevation Model Intercomparison eXperiment DEMIX, a community 
 JO  - The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences
 Y1  - 2021
 VL  - XLIII-B4-2021
-
-SP  - 395
-EP  - 400
-
-M3  - http://doi.org/10.5194/isprs-archives-XLIII-B4-2021-395-2021
-
-
-
-
-
-
+SP  - 395–400
+EP  - 395–400
+M3  - https://doi.org/10.5194/isprs-archives-XLIII-B4-2021-395-2021
+N1  - Owner: guano
 N1  - Added to JabRef: 2021-07-12-00-03
-
 ER  -
 TY  - JOUR
-AU  - Tennant, Jonathan P.
-AU  - Poisot, Timothée
-AU  - Kubke, M.  Fabiana
-AU  - et al.
-T1  - Open Letter to The American Association for the Advancement of Science
-JO  - The Winnower
-Y1  - 2014
-VL  - 2
-
-SP  - e140813.35294
-EP  - e140813.35294
-UR  - http://dx.doi.org/10.15200/winn.140813.35294
-M3  - http://doi.org/10.15200/winn.140813.35294
-
-
-
-
-
-
-N1  - Added to JabRef: 2020-12-30-12-38
-N2  - This is an open letter concerning the recent launch of the new open access journal, Science Advances. In addition to the welcome diversification in journal choices for authors looking for open access venues, there are many positive aspects of Science Advances: its broad STEM scope, its interest in cross-disciplinary research, and the offering of fee waivers. While we welcome the commitment of the Association to open access, we are also deeply concerned with the specific approach. Herein, we outline a number of suggestions that are in line with both the current direction that scholarly publishing is taking and the needs expressed by the open access community, which this journal aims to serve.
-ER  -
-TY  - JOUR
-AU  - Viana*, C. D.
-AU  - Endlein*, A.
-AU  - Campanha, G. A. C.
-AU  - Grohmann, C. H.
-T1  - Algorithms for Extraction of Structural Attitudes from 3D Outcrop Models
-JO  - Computers & Geosciences
-Y1  - 2016
-VL  - 90
-
-SP  - 112
-EP  - 122
-UR  - https://doi.org/10.1016/j.cageo.2016.02.017
-M3  - http://doi.org/10.1016/j.cageo.2016.02.017
-
-
-
-
-
-
-N1  - Added to JabRef: 2020-12-30-12-36
-
-ER  -
-TY  - JOUR
-AU  - Viana*, C. D.
-AU  - Grohmann, C. H.
-AU  - Busarello*, M.
-AU  - Garcia*, G. P. B.
-T1  - Structural analysis of clastic dikes using Structure from Motion - Multi-View Stereo: a case-study in the Paraná Basin, southeastern Brazil
-JO  - Brazilian Journal of Geology
-Y1  - 2018/12
-VL  - 48
-
-SP  - 839
-EP  -  852
-UR  - https://doi.org/10.1590/2317-4889201800201898
-M3  - http://doi.org/10.1590/2317-4889201800201898
-
-
-U1  - 2317-4889
-
-
-
-N1  - Added to JabRef: 2020-12-30-12-36
-N2  - This work presents the development of a three-dimensional (3D) model of an outcrop of the Corumbataí Formation (Permian, Paraná Basin, Brazil) using Structure from Motion - Multi-View Stereo (SfM-MVS) technique in order to provide a structural analysis of clastic dikes cutting through siltstone layers. While traditional photogrammetry requires the user to input a series of parameters related to the camera orientation and its characteristics (such as focal distance), in SfM-MVS the scene geometry, camera position and orientations are automatically determined by a bundle adjustment, an iterative procedure based on a set of overlapping images. It is considered a low-cost technique in terms of hardware and software, also being able to provide point density and accuracy on par to the ones obtained withTerrestrial Laser Scanning. The results acquired on this research have good agreement with previous works, yielding a NNW main orientation for the dikes measured in the field and on the 3D model. The development of this work showed that SfM-MVS use and practice on geosciences still needs more studies on the optimization of the involved parameters (such as camera orientation, image overlap and angle of illumination), which, when accomplished, will result in less processing time and more accurate models.
-ER  -
-TY  - GEN
-AU  - Viana*, C. D.
-AU  - Endlein, A.
-AU  - Grohmann, C. H.
-AU  - Monticelli J., P.
-AU  - Campanha, G. A. C.
-A2  - Fontoura, S. A. B.
-A2  - Rocca, R. J.
-A2  - Mendoza, J. P.
-T1  - Rock Mechanics for Natural Resources and Infrastructure Development - Full Papers: Proceedings of the 14th International Congress on Rock Mechanics and Rock Engineering (ISRM 2019)
-
-PB  - CRC Press
-AD  - Foz do Iguassu, Brazil
-Y1  - 2019/september
-
-
-SP  - 560
-EP  - 566
-UR  - https://doi.org/10.1201/9780367823184
-M3  - http://doi.org/10.1201/9780367823184
-
-
-
-
-
-N1  - Added to JabRef: 2020-12-30
-
-ER  -
-TY  - GEN
-AU  - Viana*, C. D.
-AU  - Grohmann, C. H.
-AU  - Monticelli J., P.
-AU  - Garcia*, G. P. B.
-AU  - Albuquerque*. R., W.
-AU  - Cacciari, P. P.
-AU  - Futai, M. M.
-A2  - Fontoura, S. A. B.
-A2  - Rocca, R. J.
-A2  - Mendoza, J. P.
-T1  - Rock Mechanics for Natural Resources and Infrastructure Development - Full Papers: Proceedings of the 14th International Congress on Rock Mechanics and Rock Engineering (ISRM 2019)
-
-PB  - CRC Press
-AD  - Foz do Iguassu, Brazil
-Y1  - 2019/september
-
-
-SP  - 3604
-EP  - 3611
-UR  - https://doi.org/10.1201/9780367823184
-M3  - http://doi.org/10.1201/9780367823184
-
-
-
-
-
-N1  - Added to JabRef: 2020-12-30
-
-ER  -
-TY  - JOUR
-AU  - Villaça*, C. V. N.
+AU  - Villaça, C. V. N.
 AU  - Crósta, A. P.
 AU  - Grohmann, C. H.
 T1  - Morphometric Analysis of Pluto’s Impact Craters
 JO  - Remote Sensing
 Y1  - 2021
 VL  - 13(3)
-
 SP  - 377
 EP  - 377
-
-M3  - http://doi.org/10.3390/rs13030377
-
-
-
-
-
-
+M3  - https://doi.org/10.3390/rs13030377
+N1  - Owner: guano
 N1  - Added to JabRef: 2021-05-24-12-44
-
+ER  -
+TY  - CONF
+AU  - Affonso, Alynne Almeida
+AU  - Mandai, Silvia Sayuri
+AU  - Portella, Tatiana Pineda
+AU  - Quintanilha, José Alberto
+AU  - Grohmann, C. H.
+T1  - Tracking Land Use and Land Cover Changes in the Volta Grande Do Xingu(PARÁ - Brazil) Between 2000 and 2017 Through Three Pixel-Based Classification Methods
+T2  - IGARSS 2022 - 2022 IEEE International Geoscience and Remote Sensing Symposium
+PB  - IEEE
+Y1  - 2022/07
+SP  - 5630
+EP  - 5633
+M3  - https://doi.org/10.1109/IGARSS46834.2022.9884422
+N1  - Owner: guano
+ER  -
+TY  - JOUR
+AU  - Albuquerque, R. W.
+AU  - Matsumoto, M. H.
+AU  - Calmon, M.
+AU  - Ferreira, M. E.
+AU  - Vieira, D. L. M.
+AU  - Grohmann, C. H.
+T1  - A protocol for canopy cover monitoring on forest restoration projects using low-cost drones
+JO  - Open Geosciences
+Y1  - 2022
+VL  - 14
+IS  - 1
+SP  - 921–929
+EP  - 921–929
+M3  - https://doi.org/10.1515/geo-2022-0406
+N1  - Owner: guano
+ER  -
+TY  - JOUR
+AU  - Albuquerque, Rafael Walter
+AU  - Vieira, Daniel Luis Mascia
+AU  - Ferreira, Manuel Eduardo
+AU  - Soares, Lucas Pedrosa
+AU  - Olsen, Søren Ingvor
+AU  - Araujo, Luciana Spinelli
+AU  - Vicente, Luiz Eduardo
+AU  - Tymus, Julio Ricardo Caetano
+AU  - Balieiro, Cintia Palheta
+AU  - Matsumoto, Marcelo Hiromiti
+AU  - Grohmann, C. H.
+T1  - Mapping Key Indicators of Forest Restoration in the Amazon Using a Low-Cost Drone and Artificial Intelligence
+JO  - Remote Sensing
+Y1  - 2022
+VL  - 14
+IS  - 4
+UR  - https://www.mdpi.com/2072-4292/14/4/830
+M3  - https://doi.org/10.3390/rs14040830
+U1  - 2072-4292
+N1  - Owner: guano
+N1  - Added to JabRef: 2022-02-13-22-06
+ER  -
+TY  - JOUR
+AU  - Garcia, G. P. B.
+AU  - Grohmann, C. H.
+AU  - Viana, C. D.
+AU  - Gomes, E.
+T1  - Using terrestrial laser scanner and RPA-based-photogrammetry for surface analysis of a landslide: a comparison
+JO  - Bulletin of Geodetic Sciences
+Y1  - 2022
+VL  - 28
+IS  - 03
+M3  - https://doi.org/10.1590/s1982-21702022000300016
+N1  - Owner: guano
+ER  -
+TY  - GEN
+AU  - Grohmann, C. H.
+AU  - Gomes, F.
+T1  - Digital Terrain and Surface Models of São Paulo
+Y1  - 2022
+UR  - 10.34740/KAGGLE/DS/1915612
+M3  - https://doi.org/10.34740/KAGGLE/DS/1915612
+N1  - Owner: guano
+N1  - Added to JabRef: 2022-02-15
+ER  -
+TY  - GEN
+AU  - Grohmann, C. H.
+T1  - CEU Paz, São Paulo State, Brazil. RPA Image Collection.
+Y1  - 2022
+UR  - https://data.geonadir.com/project-details/797
+N1  - Owner: guano
+ER  -
+TY  - GEN
+AU  - Grohmann, C. H.
+T1  - Santa Madalena I (Jardim Elba), São Paulo State, Brazil. RPA Image Collection.
+Y1  - 2022
+UR  - https://data.geonadir.com/project-details/798
+N1  - Owner: guano
+ER  -
+TY  - JOUR
+AU  - Meena, Sansar Raj
+AU  - Soares, Lucas Pedrosa
+AU  - Grohmann, C. H.
+AU  - van Westen, Cees
+AU  - Bhuyan, Kushanav
+AU  - Singh, Ramesh P.
+AU  - Floris, Mario
+AU  - Catani, Filippo
+T1  - Landslide detection in the Himalayas using machine learning algorithms and U-Net
+JO  - Landslides
+Y1  - 2022/february
+VL  - 19
+UR  - 10.1007/s10346-022-01861-3
+M3  - https://doi.org/10.1007/s10346-022-01861-3
+U1  - 1612-5118
+N1  - Owner: guano
+N1  - Added to JabRef: 2022-02-27-11-33
+ER  -
+TY  - JOUR
+AU  - Sawakuchi, A. O.
+AU  - Schultz, E. D.
+AU  - Pupim, F. N.
+AU  - Bertassoli, D. J.
+AU  - Souza, D. F.
+AU  - Cunha, D. F.
+AU  - Mazoca, C. E.
+AU  - Ferreira, M. P.
+AU  - Grohmann, C. H.
+AU  - Wahnfried, I. D.
+AU  - Chiessi, C. M.
+AU  - Cruz, F. W.
+AU  - Almeida, R. P.
+AU  - Ribas, C. C.
+T1  - Rainfall and sea level drove the expansion of seasonally flooded habitats and associated bird populations across Amazonia
+JO  - Nature Communications
+Y1  - 2022
+VL  - 13
+IS  - 1
+SP  - 4945
+EP  - 4945
+M3  - https://doi.org/10.1038/s41467-022-32561-0
+U1  - 2041-1723
+N1  - Owner: guano
+ER  -
+TY  - GEN
+AU  - Smith, M. J.
+AU  - Otto, J.-C.
+AU  - Moore, A. B.
+AU  - Grohmann, C. H.
+AU  - Hillier, J.
+AU  - Geilhausen, M.
+A2  - Shroder, J. F.
+T1  - 1.13 - Geovisualization
+PB  - Academic Press
+AD  - Oxford
+Y1  - 2022
+SP  - 319–361
+EP  - 319–361
+UR  - https://www.sciencedirect.com/science/article/pii/B9780128182345001474
+M3  - https://doi.org/10.1016/B978-0-12-818234-5.00147-4
+KW  - Augmented reality
+KW  - Cartography
+KW  - DEM
+KW  - Filter
+KW  - Globe
+KW  - HCI
+KW  - Interactivity
+KW  - Kernel
+KW  - Legend
+KW  - Map
+KW  - Symbol
+KW  - Terrain
+KW  - Virtual reality
+KW  - Visualization
+N1  - Owner: guano
+ER  -
+TY  - JOUR
+AU  - Soares, L. P.
+AU  - Dias, H. C.
+AU  - Garcia, G. P. B.
+AU  - Grohmann, C. H.
+T1  - Landslide Segmentation with Deep Learning: Evaluating Model Generalization in Rainfall-Induced Landslides in Brazil
+JO  - Remote Sensing
+Y1  - 2022
+VL  - 14
+IS  - 9
+SP  - 2237
+EP  - 2237
+M3  - https://doi.org/10.3390/rs14092237
+N1  - Owner: guano
+N1  - Added to JabRef: 2022-01-08-13-52
 ER  -
 TY  - JOUR
 AU  - Xu, Guosen
 AU  - Wang, Yi
 AU  - Wang, Lizhe
-AU  - Soares*, Lucas Pedrosa
-AU  - Grohmann, Carlos Henrique
+AU  - Soares, Lucas Pedrosa
+AU  - Grohmann, C. H.
 T1  - Feature-based constraint deep CNN method for mapping rainfall-induced landslides in remote regions with mountainous terrain: An application to Brazil
 JO  - IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing
 Y1  - 2022
 VL  - 15
-
-
-
-M3  - http://doi.org/10.1109/JSTARS.2022.3161383
-
-
-
-
-
+M3  - https://doi.org/10.1109/JSTARS.2022.3161383
 N1  - Owner: guano
-
-
+ER  -
+TY  - JOUR
+AU  - Affonso, Alynne Almeida
+AU  - Mandai, Silvia Sayuri
+AU  - Portella, Tatiana Pineda
+AU  - Quintanilha, José Alberto
+AU  - Conti, Luis Américo
+AU  - Grohmann, C. H.
+T1  - A Comparison between Supervised Classification Methods: Study Case on Land Cover Change Detection Caused by a Hydroelectric Complex Installation in the Brazilian Amazon
+JO  - Sustainability
+Y1  - 2023/01
+VL  - 15
+IS  - 2
+SP  - 1309
+EP  - 1309
+M3  - https://doi.org/10.3390/su15021309
+ER  -
+TY  - CONF
+AU  - Albuquerque, R. W.
+AU  - Matsumoto, M. H.
+AU  - Calmon, M. Ferreira, M. E.
+AU  - Vieira, D. L. M.
+AU  - Grohmann, C. H.
+T1  - Upscaling Forest Restoration monitoring via Low-Cost Drones and Freely-available Satellite Imagery
+T2  - XX Brazilian Symposium on Remote Sensing
+PB  - Galoa
+AD  - Florianopolis, SC
+Y1  - 2023
+VL  - 20
+SP  - 155529
+EP  - 155529
+UR  - https://proceedings.science/sbsr-2023/trabalhos/upscaling-forest-restoration-monitoring-via-low-cost-drones-and-freely-available
+ER  -
+TY  - CONF
+AU  - Albuquerque, R. W.
+AU  - Vieira, D. L. M.
+AU  - Vicente, L. E.
+AU  - Araujo, L. S.
+AU  - Ferreira, M. E.
+AU  - Grohmann, C. H.
+T1  - Comparing forest restoration canopy cover measurements using RGB and multispectral sensors onboard drones
+T2  - XX Brazilian Symposium on Remote Sensing
+PB  - Galoa
+AD  - Florianopolis, SC
+Y1  - 2023
+VL  - 20
+SP  - 155275
+EP  - 155275
+UR  - https://proceedings.science/sbsr-2023/trabalhos/comparing-forest-restoration-canopy-cover-measurements-using-rgb-and-multispectr
+ER  -
+TY  - JOUR
+AU  - Garcia, G. P. B.
+AU  - Soares, L. P.
+AU  - Espadoto, M.
+AU  - Grohmann, C. H.
+T1  - Relict landslide detection using deep-learning architectures for image segmentation in rainforest areas: a new framework
+JO  - International Journal of Remote Sensing
+Y1  - 2023
+VL  - 44
+IS  - 7
+SP  - 2168
+EP  - 2195
+M3  - https://doi.org/10.1080/01431161.2023.2197130
+N1  - Owner: guano
+ER  -
+TY  - GEN
+AU  - Grohmann, C. H.
+T1  - Viana Beach, Ilhabela, São Paulo State, Brazil. RPA Image Collection.
+Y1  - 2023
+UR  - https://data.geonadir.com/project-details/1723
+N1  - Owner: guano
+ER  -
+TY  - JOUR
+AU  - Grohmann, C. H.
+AU  - Viana, Camila D.
+AU  - Garcia, Guilherme P. B.
+AU  - Albuquerque, Rafael W.
+T1  - Remotely piloted aircraft-based automated vertical surface survey
+JO  - MethodsX
+Y1  - 2023
+VL  - 10
+SP  - 101982
+EP  - 101982
+M3  - https://doi.org/10.1016/j.mex.2022.101982
+ER  -
+TY  - GEN
+AU  - Guth, P. L.
+AU  - Grohmann, C. H.
+AU  - Trevisani, S.
+AU  - López-Vázquez, C.
+T1  - DEMIX 1'' Reference DEMs version 1.0
+PB  - Zenodo
+Y1  - 2023/february
+UR  - https://doi.org/10.5281/zenodo.7600699
+M3  - https://doi.org/10.5281/zenodo.7600699
 ER  -
