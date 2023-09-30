@@ -1,0 +1,938 @@
+<!DOCTYPE html>
+<!--
+    Type on Strap jekyll theme v2.4.5
+    Theme free for personal and commercial use under the MIT license
+    https://github.com/sylhare/Type-on-Strap/blob/master/LICENSE
+-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=0.5, maximum-scale=5">
+
+    <!-- Theme Mode-->
+    
+    <script>
+        const isAutoTheme = true;
+        document.documentElement.setAttribute('data-theme', sessionStorage.getItem('theme'))
+    </script>
+    
+
+    <!-- Main JS (navbar.js, katex_init.js and masonry_init.js)-->
+    <script defer src="/assets/js/main.min.js"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/assets/css/main.css">
+
+    <!--Favicon-->
+    <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon">
+
+    
+
+    <!-- KaTeX 0.15.2 -->
+    
+    <script defer src="/assets/js/vendor/katex.min.js"></script>
+    <script defer src="/assets/js/vendor/auto-render.min.js" onload="renderMathInElement(document.body);"></script>
+    
+
+    <!-- Mermaid 9.1.1 -->
+    
+    <script defer src="/assets/js/vendor/mermaid.min.js" onload="mermaid.initialize({
+      startOnLoad:true,
+      theme: 'default',
+    });"></script>
+    
+
+    <!-- Simple Jekyll Search 1.10.0 -->
+    <script src="/assets/js/vendor/simple-jekyll-search.min.js" type="text/javascript"></script>
+
+    <!-- Google Analytics / Cookie Consent -->
+    <script>
+      const cookieName = 'cookie-notice-dismissed-http://localhost:4000';
+      const isCookieConsent = 'false';
+      const analyticsName = '';
+      const analyticsNameGA4 = '';
+    </script>
+
+    
+    
+
+    <!-- seo tags -->
+    <meta property="og:image" content="http://localhost:4000/assets/img/pexels/travel.jpeg">
+    
+    <meta property="og:type" content="website" />
+    
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Archive | Geomorphometry.org</title>
+<meta name="generator" content="Jekyll v4.3.2" />
+<meta property="og:title" content="Archive" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Geomorphometry.org" />
+<meta property="og:description" content="Geomorphometry.org" />
+<link rel="canonical" href="http://localhost:4000/archive/" />
+<meta property="og:url" content="http://localhost:4000/archive/" />
+<meta property="og:site_name" content="Geomorphometry.org" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Archive" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"Geomorphometry.org","headline":"Archive","url":"http://localhost:4000/archive/"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+    <!-- RSS -->
+    <link rel="alternate" type="application/atom+xml" title="Geomorphometry.org" href="http://localhost:4000/feed.xml"/>
+    <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Geomorphometry.org" />
+
+    <!-- Twitter Cards -->
+    <meta name="twitter:title" content="Archive">
+    <meta name="twitter:description" content="   {% for post in site.posts %}       {% assign currentDate = post.date | date: "%Y" %}       {% if currentDate != myDate %}           {% unless forloop.firs...">
+    
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:image" content="http://localhost:4000/assets/img/pexels/travel.jpeg">
+    <meta name="twitter:image:alt" content="Archive">
+</head>
+
+  <body>
+    <header class="site-header">
+
+    <!-- Logo and title -->
+	<div class="branding">
+        
+		<a href="/">
+			<img alt="logo img" class="avatar" src="/assets/img/logo-9.png" loading="lazy">
+		</a>
+        
+        <a class="site-title" aria-label="Geomorphometry.org" href="/">
+        Geomorphometry.org
+		</a>
+	</div>
+
+    <!-- Toggle menu -->
+    <nav class="clear">
+    <a aria-label="pull" id="pull" class="toggle" href="#">
+    <i class="fas fa-bars fa-lg"></i>
+    </a>
+
+    <!-- Menu -->
+    <ul class="hide">
+        
+
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            <li class="separator"> | </li>
+            <li>
+                <a class="clear" aria-label="About the ISG" title="About the ISG" href="/about/">
+                     About the ISG 
+                </a>
+            </li>
+            
+            
+        
+            
+            <li class="separator"> | </li>
+            <li>
+                <a class="clear" aria-label="ISG Events" title="ISG Events" href="/events/">
+                     ISG Events 
+                </a>
+            </li>
+            
+            
+        
+            
+            <li class="separator"> | </li>
+            <li>
+                <a class="clear" aria-label="Awards" title="Awards" href="/awards/">
+                     Awards 
+                </a>
+            </li>
+            
+            
+        
+            
+            <li class="separator"> | </li>
+            <li>
+                <a class="clear" aria-label="Code/Data" title="Code/Data" href="/code_data/">
+                     Code/Data 
+                </a>
+            </li>
+            
+            
+        
+            
+            <li class="separator"> | </li>
+            <li>
+                <a class="clear" aria-label="Archive" title="Archive" href="/archive/">
+                     Archive 
+                </a>
+            </li>
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            <li class="separator"> | </li>
+            <li>
+                <a class="clear" aria-label="Blog" title="Blog" href="/blog/">
+                     Blog 
+                </a>
+            </li>
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            <li class="separator"> | </li>
+            <li>
+                <a class="clear" aria-label="Search" title="Search" href="/search/">
+                     <i class="fas fa-search" aria-hidden="true"></i>
+                    
+                </a>
+            </li>
+            
+            
+        
+            
+            
+        
+            
+            <li class="separator"> | </li>
+            <li>
+                <a class="clear" aria-label="Tags" title="Tags" href="/tags/">
+                     <i class="fas fa-tags" aria-hidden="true"></i>
+                    
+                </a>
+            </li>
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+
+        
+        <li class="separator"> | </li>
+        <li><a id="theme-toggle" title="Archive " aria-label="Archive" onclick="themeToggle()"></a></li>
+        
+    </ul>
+
+	</nav>
+</header>
+
+    <div class="content">
+      <article class="feature-image">
+
+  <header id="main" style="background-image: url('/assets/img/pexels/travel.jpeg')">
+    <div class="title-padder">
+      
+        <h1 id="Archive" class="title"> Archive</h1>
+        
+      
+    </div>
+  </header>
+
+  <section class="post-content">
+  
+	<section>
+
+   
+       
+       
+           
+           <h1>2023</h1>
+           <ul>
+           
+       
+       <li><a href="/data-sets/scripts/2023/02/14/an-ensemble-digital-terrain-model-of-the-world-at-30-m-spatial-resolution-edtm30.html"><span>February 14, 2023</span> - An Ensemble Digital Terrain Model of the world at 30 m spatial resolution (EDTM30)</a></li>
+       
+   
+       
+       
+       <li><a href="/2023/01/05/geomorphometry-2023.html"><span>January 5, 2023</span> - Geomorphometry 2023</a></li>
+       
+   
+       
+       
+           </ul>
+           <h1>2021</h1>
+           <ul>
+           
+       
+       <li><a href="/2021/09/27/summary-of-geomorphometry-2021.html"><span>September 27, 2021</span> - Summary of Geomorphometry 2021</a></li>
+       
+   
+       
+       
+       <li><a href="/2021/09/16/digital-elevation-models-dems-terminology-and-definitions.html"><span>September 16, 2021</span> - Digital Elevation Models (DEMs): Terminology and Definitions</a></li>
+       
+   
+       
+       
+       <li><a href="/2021/08/19/digital-elevation-model-intercomparison-experiment-demix-working-group.html"><span>August 19, 2021</span> - Digital Elevation Model Intercomparison eXperiment (DEMIX) working group</a></li>
+       
+   
+       
+       
+       <li><a href="/2021/08/12/nasa-sea-level-projection-tool.html"><span>August 12, 2021</span> - NASA Sea level projection tool</a></li>
+       
+   
+       
+       
+       <li><a href="/2021/08/12/grass-gis-v8-release-end-of-2021.html"><span>August 12, 2021</span> - GRASS GIS v8 release end of 2021</a></li>
+       
+   
+       
+       
+       <li><a href="/2021/08/12/copernicus-digital-elevation-model-dem-as-open-data-on-amazon-aws-and-sentinel-hub.html"><span>August 12, 2021</span> - Copernicus Digital Elevation Model (DEM) as Open Data on Amazon AWS and Sentinel-Hub</a></li>
+       
+   
+       
+       
+       <li><a href="/2021/08/12/continental-europe-digital-terrain-model-at-30-m-resolution-based-on-multisource-data.html"><span>August 12, 2021</span> - Continental Europe Digital Terrain Model at 30 m resolution based on multisource data</a></li>
+       
+   
+       
+       
+       <li><a href="/publication/story/2021/08/12/a-hydrologists-guide-to-open-science-preprint.html"><span>August 12, 2021</span> - A Hydrologist's Guide to Open Science (preprint)</a></li>
+       
+   
+       
+       
+       <li><a href="/2021/08/09/geomorphometry-concepts-software-applications.html"><span>August 9, 2021</span> - Geomorphometry: Concepts, Software, Applications</a></li>
+       
+   
+       
+       
+       <li><a href="/story/2021/08/07/your-opinion-on-object-based-classification-of-topography-evaluation-still-possible.html"><span>August 7, 2021</span> - Your opinion on object-based classification of topography - Evaluation still possible!</a></li>
+       
+   
+       
+       
+       <li><a href="/story/2021/08/07/topotoolbox-a-set-of-matlab-functions-for-topographic-analysis.html"><span>August 7, 2021</span> - TopoToolbox - a set of Matlab functions for topographic analysis</a></li>
+       
+   
+       
+       
+       <li><a href="/story/2021/08/07/the-terrain-analysis-system-tas-now-available-as-open-source-gis-project.html"><span>August 7, 2021</span> - The Terrain Analysis System (TAS) now available as open-source GIS project</a></li>
+       
+   
+       
+       
+       <li><a href="/simplenews/2021/08/07/newsletter-may-2011.html"><span>August 7, 2021</span> - Newsletter May 2011</a></li>
+       
+   
+       
+       
+       <li><a href="/simplenews/2021/08/07/newsletter-february-2011.html"><span>August 7, 2021</span> - Newsletter February 2011</a></li>
+       
+   
+       
+       
+       <li><a href="/story/2021/08/07/new-parallel-version-of-hydrologic-terrain-analysis-software-taudem.html"><span>August 7, 2021</span> - New Parallel version of Hydrologic Terrain Analysis Software TauDEM</a></li>
+       
+   
+       
+       
+       <li><a href="/simplenews/2021/08/07/geomorphometry-newsletter-september-2014.html"><span>August 7, 2021</span> - Geomorphometry Newsletter September 2014</a></li>
+       
+   
+       
+       
+       <li><a href="/simplenews/2021/08/07/geomorphometry-newsletter-sept-2013.html"><span>August 7, 2021</span> - Geomorphometry Newsletter Sept 2013</a></li>
+       
+   
+       
+       
+       <li><a href="/simplenews/2021/08/07/geomorphometry-newsletter-november-2017.html"><span>August 7, 2021</span> - Geomorphometry newsletter November 2017</a></li>
+       
+   
+       
+       
+       <li><a href="/simplenews/2021/08/07/geomorphometry-newsletter-november-2014.html"><span>August 7, 2021</span> - Geomorphometry Newsletter November 2014</a></li>
+       
+   
+       
+       
+       <li><a href="/simplenews/2021/08/07/geomorphometry-newsletter-november-2013.html"><span>August 7, 2021</span> - Geomorphometry Newsletter November 2013</a></li>
+       
+   
+       
+       
+       <li><a href="/simplenews/2021/08/07/geomorphometry-newsletter-march-2013.html"><span>August 7, 2021</span> - Geomorphometry Newsletter March 2013</a></li>
+       
+   
+       
+       
+       <li><a href="/simplenews/2021/08/07/geomorphometry-newsletter-july-2013.html"><span>August 7, 2021</span> - Geomorphometry Newsletter July 2013</a></li>
+       
+   
+       
+       
+       <li><a href="/simplenews/2021/08/07/geomorphometry-newsletter-january-2014.html"><span>August 7, 2021</span> - Geomorphometry Newsletter January 2014</a></li>
+       
+   
+       
+       
+       <li><a href="/story/2021/08/07/geomorphometry-group-at-arcgis-com.html"><span>August 7, 2021</span> - Geomorphometry group at arcgis.com</a></li>
+       
+   
+       
+       
+       <li><a href="/2021/08/07/gdem-a-quick-assessment.html"><span>August 7, 2021</span> - GDEM - a quick assessment</a></li>
+       
+   
+       
+       
+       <li><a href="/story/2021/08/07/22510-2.html"><span>August 7, 2021</span> - Interview with Jack Dangermond, the ESRI president</a></li>
+       
+   
+       
+       
+       <li><a href="/2021/08/07/workshop-back-to-reality-reconciling-geomorphometry-and-geomorphology-in-the-field.html"><span>August 7, 2021</span> - Workshop: Back to reality - Reconciling geomorphometry and geomorphology in the field</a></li>
+       
+   
+       
+       
+       <li><a href="/2021/08/07/workshop-automated-analysis-of-elevation-data-in-rsaga-grass.html"><span>August 7, 2021</span> - Workshop: Automated analysis of elevation data in R+SAGA/GRASS</a></li>
+       
+   
+       
+       
+       <li><a href="/2021/08/07/triangles-and-kebabs-from-geomorphometry-2009.html"><span>August 7, 2021</span> - Triangles and kebabs (from Geomorphometry 2009)</a></li>
+       
+   
+       
+       
+       <li><a href="/2021/08/07/symposium-on-surface-modeling-21-25-august-beijing-china.html"><span>August 7, 2021</span> - Symposium on Surface Modeling, 21-25 August, Beijing, China</a></li>
+       
+   
+       
+       
+       <li><a href="/2021/08/07/report-from-geomorphometry-2009.html"><span>August 7, 2021</span> - Report from Geomorphometry 2009</a></li>
+       
+   
+       
+       
+       <li><a href="/2021/08/07/memo-submission-deadline-geomorphometry-2011.html"><span>August 7, 2021</span> - MEMO: Submission deadline Geomorphometry 2011</a></li>
+       
+   
+       
+       
+       <li><a href="/2021/08/07/memo-registration-deadline-for-geomorphometry-2011.html"><span>August 7, 2021</span> - MEMO: Registration deadline for Geomorphometry 2011</a></li>
+       
+   
+       
+       
+       <li><a href="/2021/08/07/lidar10-mapping-forum.html"><span>August 7, 2021</span> - Lidar10 Mapping Forum</a></li>
+       
+   
+       
+       
+       <li><a href="/2021/08/07/iale2009-symposium6-presentations-online.html"><span>August 7, 2021</span> - IALE2009 Symposium6 presentations online</a></li>
+       
+   
+       
+       
+       <li><a href="/2021/08/07/gi-forum-2010.html"><span>August 7, 2021</span> - GI-Forum 2010</a></li>
+       
+   
+       
+       
+       <li><a href="/2021/08/07/call-for-papers-special-issue-of-hydrology-and-earth-system-sciences-hess-on-geomorphometry-and-hydrology.html"><span>August 7, 2021</span> - Call for Papers: Special issue of Hydrology and Earth System Sciences (HESS) on Geomorphometry and Hydrology</a></li>
+       
+   
+       
+       
+       <li><a href="/2021/08/07/call-for-papers-on-global-dem-interoperability-for-the-2016-isprs-congress-in-prague.html"><span>August 7, 2021</span> - Call for papers on Global DEM Interoperability for the 2016 ISPRS Congress in Prague</a></li>
+       
+   
+       
+       
+       <li><a href="/2021/08/07/41st-international-binghamton-geomorphology-symposium.html"><span>August 7, 2021</span> - 41st International Binghamton Geomorphology Symposium</a></li>
+       
+   
+       
+       
+       <li><a href="/2021/08/06/transformation-normalization-tool.html"><span>August 6, 2021</span> - Transformation (normalization) tool</a></li>
+       
+   
+       
+       
+       <li><a href="/2021/08/06/generic-landforms.html"><span>August 6, 2021</span> - Generic landforms</a></li>
+       
+   
+       
+       
+       <li><a href="/2021/08/06/nominations-for-geomorphometry-2011.html"><span>August 6, 2021</span> - Nominations for Geomorphometry 2011</a></li>
+       
+   
+       
+       
+       <li><a href="/2021/07/30/uncertainty-of-stream-networks-derived-from-elevation-data.html"><span>July 30, 2021</span> - Uncertainty of stream networks derived from elevation data</a></li>
+       
+   
+       
+       
+       <li><a href="/2021/07/30/topo-parameters.html"><span>July 30, 2021</span> - TOPO parameters</a></li>
+       
+   
+       
+       
+       <li><a href="/2021/07/30/openess.html"><span>July 30, 2021</span> - Openess</a></li>
+       
+   
+       
+       
+       <li><a href="/2021/07/30/landslide-probabilities.html"><span>July 30, 2021</span> - Landslide probabilities</a></li>
+       
+   
+       
+       
+       <li><a href="/2021/07/30/landform-classes-pennock-and-corre-2001.html"><span>July 30, 2021</span> - Landform classes (Pennock and Corre, 2001)</a></li>
+       
+   
+       
+       
+       <li><a href="/2021/07/30/geostatistical-simulations-of-topography.html"><span>July 30, 2021</span> - Geostatistical simulations of topography</a></li>
+       
+   
+       
+       
+       <li><a href="/2021/07/30/geomorphometry-terrain-toolbox.html"><span>July 30, 2021</span> - geomorphometry terrain toolbox</a></li>
+       
+   
+       
+       
+       <li><a href="/2021/07/30/geomorphological-mapping.html"><span>July 30, 2021</span> - Geomorphological mapping</a></li>
+       
+   
+       
+       
+       <li><a href="/2021/07/30/gdem-assessment.html"><span>July 30, 2021</span> - GDEM assessment</a></li>
+       
+   
+       
+       
+       <li><a href="/2021/07/30/flow-magnitude-and-drainage-basins.html"><span>July 30, 2021</span> - Flow magnitude and drainage basins</a></li>
+       
+   
+       
+       
+       <li><a href="/2021/07/30/digital-soil-mapping-for-baranja-hill.html"><span>July 30, 2021</span> - Digital soil mapping for Baranja Hill</a></li>
+       
+   
+       
+       
+       <li><a href="/2021/07/30/conver-to-landserf-format.html"><span>July 30, 2021</span> - Conver to Landserf format</a></li>
+       
+   
+       
+       
+       <li><a href="/2021/07/30/characteristic-scale.html"><span>July 30, 2021</span> - Characteristic scale</a></li>
+       
+   
+       
+       
+       <li><a href="/2021/07/29/geomorphometry-in-r-saga-ilwis-grass.html"><span>July 29, 2021</span> - Geomorphometry in R + SAGA + ILWIS + GRASS</a></li>
+       
+   
+       
+       
+       <li><a href="/awards/gorini2011/"><span>July 21, 2021</span> - Which is the best scale? Finding fundamental features and scales in DEMs</a></li>
+       
+   
+       
+       
+       <li><a href="/awards/xiong2013/"><span>July 21, 2021</span> - Simulating Loess Underlying Bedrock Paleotopographic strata for Landscape Evolution in the Loess Plateau Based on Digital Elevation Models</a></li>
+       
+   
+       
+       
+       <li><a href="/awards/gorini2009/"><span>July 21, 2021</span> - Physiographic Classification of the Ocean Floor: A Multi-Scale Geomorphometric Approach</a></li>
+       
+   
+       
+       
+       <li><a href="/awards/petras2015/"><span>July 21, 2021</span> - Mapping gradient fields of landform migration</a></li>
+       
+   
+       
+       
+       <li><a href="/awards/stepinski2011/"><span>July 21, 2021</span> - Geomorphons - a new approach to classification of landforms</a></li>
+       
+   
+       
+       
+       <li><a href="/awards/lecours2015/"><span>July 21, 2021</span> - An Ocean of Possibilities: Applications and Challenges of Marine Geomorphometry</a></li>
+       
+   
+       
+       
+       <li><a href="/awards/gallant2009/"><span>July 21, 2021</span> - A Differential Equation for Specific Catchment Area</a></li>
+       
+   
+       
+       
+       <li><a href="/awards/qin2013/"><span>July 21, 2021</span> - A Browser/Server-based Prototype of Heuristic Modelling Environment for Digital Terrain Analysis</a></li>
+       
+   
+       
+       
+       <li><a href="/2021/07/20/volcano-maungawhau.html"><span>July 20, 2021</span> - Volcano Maungawhau</a></li>
+       
+   
+       
+       
+       <li><a href="/data-sets/2021/07/20/north-carolina-coast-lidar-by-helenam.html"><span>July 20, 2021</span> - North Carolina coast LiDAR</a></li>
+       
+   
+       
+       
+       <li><a href="/data-sets/2021/07/20/fishcamp.html"><span>July 20, 2021</span> - Fishcamp</a></li>
+       
+   
+       
+       
+       <li><a href="/2021/07/20/earthenv-dem90.html"><span>July 20, 2021</span> - EarthEnv-DEM90</a></li>
+       
+   
+       
+       
+       <li><a href="/data-sets/2021/07/20/data-sets-zlatibor.html"><span>July 20, 2021</span> - Zlatibor</a></li>
+       
+   
+       
+       
+       <li><a href="/data-sets/2021/07/20/data-sets-mdem250m.html"><span>July 20, 2021</span> - MDEM250m</a></li>
+       
+   
+       
+       
+       <li><a href="/data-sets/2021/07/20/data-sets-ebergotzen.html"><span>July 20, 2021</span> - Ebergotzen</a></li>
+       
+   
+       
+       
+       <li><a href="/data-sets/2021/07/20/data-sets-baranja-hill.html"><span>July 20, 2021</span> - Baranja hill</a></li>
+       
+   
+       
+       
+       <li><a href="/data-sets/2021/07/20/boschoord-case-study.html"><span>July 20, 2021</span> - Boschoord case study</a></li>
+       
+   
+       
+       
+       <li><a href="/2021/07/07/vom-punkt-zur-flache-probleme-des-upscaling-in-der-bodenkartierung.html"><span>July 7, 2021</span> - Vom Punkt zur Flache – Probleme des "upscaling" in der Bodenkartierung</a></li>
+       
+   
+       
+       
+       <li><a href="/2021/07/07/semi-automated-identification-and-extraction-of-geomorphological-features-using-digital-elevation-data.html"><span>July 7, 2021</span> - Semi-automated identification and extraction of geomorphological features using digital elevation data</a></li>
+       
+   
+       
+       
+       <li><a href="/2021/07/07/earthenv-dem90-a-nearly-global-void-free-multi-scale-smoothed-90m-digital-elevation-model-from-fused-aster-and-srtm-data.html"><span>July 7, 2021</span> - EarthEnv-DEM90: A nearly-global, void-free, multi-scale smoothed, 90m digital elevation model from fused ASTER and SRTM data</a></li>
+       </ul>
+   
+
+</section>
+
+  
+  </section>
+
+
+  <!-- Tag list for portfolio -->
+  
+  
+
+
+  <div class="tag-list">
+    <ul>
+      
+        <li class="meta">Tags</li>
+      
+
+      
+        <li><a class="button" href="/tags#archive">
+          <p><i class="fas fa-tag fa-fw fa-sm"></i> archive</p>
+        </a></li>
+      
+        <li><a class="button" href="/tags#blog">
+          <p><i class="fas fa-tag fa-fw fa-sm"></i> blog</p>
+        </a></li>
+      
+        <li><a class="button" href="/tags#posts">
+          <p><i class="fas fa-tag fa-fw fa-sm"></i> posts</p>
+        </a></li>
+      
+    </ul>
+  </div>
+
+
+
+</article>
+
+    </div>
+    <footer class="site-footer">
+    <p class="text">
+        Powered by <a href="https://jekyllrb.com/" target="_blank" rel="noopener noreferrer">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap" target="_blank" rel="noopener noreferrer">Type on Strap</a>
+</p>
+            <div class="footer-icons">
+                <ul>
+                <!-- Social icons from Font Awesome, if enabled -->
+                
+<li>
+    <a feed.xml href="/feed.xml" title="Follow RSS feed" target="_blank">
+        <span class="fa-stack fa-lg">
+            <i class="fas fa-circle fa-stack-2x"></i>
+            <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
+        </span>
+    </a>
+</li>
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+        
+        
+        
+        
+        <li>
+            <a href="https://github.com/sylhare" title="Follow on Github" target="_blank" rel="noopener noopener noreferrer">
+            <span class="fa-stack fa-lg">
+              <i class="fas fa-circle fa-stack-2x"></i>
+              <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+            </span>
+            </a>
+        </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+                </ul>
+            </div>
+</footer>
+
+
+
+  </body>
+</html>

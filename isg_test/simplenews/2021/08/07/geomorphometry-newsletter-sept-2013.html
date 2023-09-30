@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<!--
+    Type on Strap jekyll theme v2.4.5
+    Theme free for personal and commercial use under the MIT license
+    https://github.com/sylhare/Type-on-Strap/blob/master/LICENSE
+-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=0.5, maximum-scale=5">
+
+    <!-- Theme Mode-->
+    
+    <script>
+        const isAutoTheme = true;
+        document.documentElement.setAttribute('data-theme', sessionStorage.getItem('theme'))
+    </script>
+    
+
+    <!-- Main JS (navbar.js, katex_init.js and masonry_init.js)-->
+    <script defer src="/assets/js/main.min.js"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/assets/css/main.css">
+
+    <!--Favicon-->
+    <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon">
+
+    
+
+    <!-- KaTeX 0.15.2 -->
+    
+    <script defer src="/assets/js/vendor/katex.min.js"></script>
+    <script defer src="/assets/js/vendor/auto-render.min.js" onload="renderMathInElement(document.body);"></script>
+    
+
+    <!-- Mermaid 9.1.1 -->
+    
+    <script defer src="/assets/js/vendor/mermaid.min.js" onload="mermaid.initialize({
+      startOnLoad:true,
+      theme: 'default',
+    });"></script>
+    
+
+    <!-- Simple Jekyll Search 1.10.0 -->
+    <script src="/assets/js/vendor/simple-jekyll-search.min.js" type="text/javascript"></script>
+
+    <!-- Google Analytics / Cookie Consent -->
+    <script>
+      const cookieName = 'cookie-notice-dismissed-http://localhost:4000';
+      const isCookieConsent = 'false';
+      const analyticsName = '';
+      const analyticsNameGA4 = '';
+    </script>
+
+    
+    
+
+    <!-- seo tags -->
+    <meta property="og:image" content="http://localhost:4000/assets/img/pexels/travel.jpeg">
+    
+    <meta property="og:type" content="website" />
+    
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Geomorphometry Newsletter Sept 2013 | Geomorphometry.org</title>
+<meta name="generator" content="Jekyll v4.3.2" />
+<meta property="og:title" content="Geomorphometry Newsletter Sept 2013" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="The 4th international conference + workshops on Geomorphometry / Digital terrain modelling and analysis will be held next year in Nanjing, China. If you have not done already, put this date in your agenda: October 16-20, 2013 (Wednesday to Sunday). We expect again an exciting programme with several workshops and training sessions. This edition of Geomorphometry is kindly sponsored by the Geographical Society of China, National Natural Science Foundation of China, Key Laboratory of Virtual Geographical Environment, Ministry of Education, and Nanjing Normal University. For all other info please refer to:&nbsp;www.geomorphometry.org/2013...&nbsp;read moreColleagues from ESRI are actively producing geomorphometry tools and data sets for public use. This is an example of a multiscale slope map built using the ArcGIS JavaScript API. The ESRI&#39;s World Elevation Services is expected to become fully operational in mid 2012. It will contain image services, data download services, and analysis task services available, as well as sample applications..Google has recently released a Google Elevation service. The Elevation service provides SRTM/bathymetry elevation data for locations on the surface of the earth, including depth locations on the ocean floor (negative values). It can be used to produce elevation paths and get elevations for any point on Earth&#39;s surface (maximum of 2,500 requests per day)....&nbsp;read moreHave you missed the Geomorphometry 2011 conference? No problem. All presentations from Geomorphometry 2011 are available via the&nbsp;ESRI proceedings website. All papers and attached datasets can also be accessed freely from the&nbsp;Geomorphometry homepage.TanDEM-X is the new generation satellite (owned by the German Aerospace Center) that aims at producing new generation radar-based DEMs with a horizontal detail of 12 meters) and a height accuracy of better than 2 m. The data will likely not be publicly available, but the new global DEM will completely change the world of geomorphometry...&nbsp;read moreA recent geography&nbsp;Master&#39;s thesis by Jason Goetz&nbsp;from the University of Waterloo, Canada utilizes terrain analysis tools implemented in open-source software (SAGA GIS, R) for exploring the regional controls of landslide initiation on Vancouver Island, British Columbia. A nonparametric regression technique, the generalized additive model (GAM), was used to model the relationship of topography, climate, forest harvesting activities and geology to landslide initiation, underlining the importance of the impacts of logging roads. Based on the model predictions, the most susceptible 4% of the study area had 29 times higher density of landslide initiation points than the least susceptible 73% of the study area." />
+<meta property="og:description" content="The 4th international conference + workshops on Geomorphometry / Digital terrain modelling and analysis will be held next year in Nanjing, China. If you have not done already, put this date in your agenda: October 16-20, 2013 (Wednesday to Sunday). We expect again an exciting programme with several workshops and training sessions. This edition of Geomorphometry is kindly sponsored by the Geographical Society of China, National Natural Science Foundation of China, Key Laboratory of Virtual Geographical Environment, Ministry of Education, and Nanjing Normal University. For all other info please refer to:&nbsp;www.geomorphometry.org/2013...&nbsp;read moreColleagues from ESRI are actively producing geomorphometry tools and data sets for public use. This is an example of a multiscale slope map built using the ArcGIS JavaScript API. The ESRI&#39;s World Elevation Services is expected to become fully operational in mid 2012. It will contain image services, data download services, and analysis task services available, as well as sample applications..Google has recently released a Google Elevation service. The Elevation service provides SRTM/bathymetry elevation data for locations on the surface of the earth, including depth locations on the ocean floor (negative values). It can be used to produce elevation paths and get elevations for any point on Earth&#39;s surface (maximum of 2,500 requests per day)....&nbsp;read moreHave you missed the Geomorphometry 2011 conference? No problem. All presentations from Geomorphometry 2011 are available via the&nbsp;ESRI proceedings website. All papers and attached datasets can also be accessed freely from the&nbsp;Geomorphometry homepage.TanDEM-X is the new generation satellite (owned by the German Aerospace Center) that aims at producing new generation radar-based DEMs with a horizontal detail of 12 meters) and a height accuracy of better than 2 m. The data will likely not be publicly available, but the new global DEM will completely change the world of geomorphometry...&nbsp;read moreA recent geography&nbsp;Master&#39;s thesis by Jason Goetz&nbsp;from the University of Waterloo, Canada utilizes terrain analysis tools implemented in open-source software (SAGA GIS, R) for exploring the regional controls of landslide initiation on Vancouver Island, British Columbia. A nonparametric regression technique, the generalized additive model (GAM), was used to model the relationship of topography, climate, forest harvesting activities and geology to landslide initiation, underlining the importance of the impacts of logging roads. Based on the model predictions, the most susceptible 4% of the study area had 29 times higher density of landslide initiation points than the least susceptible 73% of the study area." />
+<link rel="canonical" href="http://localhost:4000/simplenews/2021/08/07/geomorphometry-newsletter-sept-2013.html" />
+<meta property="og:url" content="http://localhost:4000/simplenews/2021/08/07/geomorphometry-newsletter-sept-2013.html" />
+<meta property="og:site_name" content="Geomorphometry.org" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-08-07T00:00:00-03:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Geomorphometry Newsletter Sept 2013" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2021-08-07T00:00:00-03:00","datePublished":"2021-08-07T00:00:00-03:00","description":"The 4th international conference + workshops on Geomorphometry / Digital terrain modelling and analysis will be held next year in Nanjing, China. If you have not done already, put this date in your agenda: October 16-20, 2013 (Wednesday to Sunday). We expect again an exciting programme with several workshops and training sessions. This edition of Geomorphometry is kindly sponsored by the Geographical Society of China, National Natural Science Foundation of China, Key Laboratory of Virtual Geographical Environment, Ministry of Education, and Nanjing Normal University. For all other info please refer to:&nbsp;www.geomorphometry.org/2013...&nbsp;read moreColleagues from ESRI are actively producing geomorphometry tools and data sets for public use. This is an example of a multiscale slope map built using the ArcGIS JavaScript API. The ESRI&#39;s World Elevation Services is expected to become fully operational in mid 2012. It will contain image services, data download services, and analysis task services available, as well as sample applications..Google has recently released a Google Elevation service. The Elevation service provides SRTM/bathymetry elevation data for locations on the surface of the earth, including depth locations on the ocean floor (negative values). It can be used to produce elevation paths and get elevations for any point on Earth&#39;s surface (maximum of 2,500 requests per day)....&nbsp;read moreHave you missed the Geomorphometry 2011 conference? No problem. All presentations from Geomorphometry 2011 are available via the&nbsp;ESRI proceedings website. All papers and attached datasets can also be accessed freely from the&nbsp;Geomorphometry homepage.TanDEM-X is the new generation satellite (owned by the German Aerospace Center) that aims at producing new generation radar-based DEMs with a horizontal detail of 12 meters) and a height accuracy of better than 2 m. The data will likely not be publicly available, but the new global DEM will completely change the world of geomorphometry...&nbsp;read moreA recent geography&nbsp;Master&#39;s thesis by Jason Goetz&nbsp;from the University of Waterloo, Canada utilizes terrain analysis tools implemented in open-source software (SAGA GIS, R) for exploring the regional controls of landslide initiation on Vancouver Island, British Columbia. A nonparametric regression technique, the generalized additive model (GAM), was used to model the relationship of topography, climate, forest harvesting activities and geology to landslide initiation, underlining the importance of the impacts of logging roads. Based on the model predictions, the most susceptible 4% of the study area had 29 times higher density of landslide initiation points than the least susceptible 73% of the study area.","headline":"Geomorphometry Newsletter Sept 2013","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/simplenews/2021/08/07/geomorphometry-newsletter-sept-2013.html"},"url":"http://localhost:4000/simplenews/2021/08/07/geomorphometry-newsletter-sept-2013.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+    <!-- RSS -->
+    <link rel="alternate" type="application/atom+xml" title="Geomorphometry.org" href="http://localhost:4000/feed.xml"/>
+    <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Geomorphometry.org" />
+
+    <!-- Twitter Cards -->
+    <meta name="twitter:title" content="Geomorphometry Newsletter Sept 2013">
+    <meta name="twitter:description" content="The 4th international conference + workshops on Geomorphometry / Digital terrain modelling and analysis will be held next year in Nanjing, China. If you have...">
+    
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:image" content="http://localhost:4000/assets/img/pexels/travel.jpeg">
+    <meta name="twitter:image:alt" content="Geomorphometry Newsletter Sept 2013">
+</head>
+
+  <body>
+    <header class="site-header">
+
+    <!-- Logo and title -->
+	<div class="branding">
+        
+		<a href="/">
+			<img alt="logo img" class="avatar" src="/assets/img/logo-9.png" loading="lazy">
+		</a>
+        
+        <a class="site-title" aria-label="Geomorphometry.org" href="/">
+        Geomorphometry.org
+		</a>
+	</div>
+
+    <!-- Toggle menu -->
+    <nav class="clear">
+    <a aria-label="pull" id="pull" class="toggle" href="#">
+    <i class="fas fa-bars fa-lg"></i>
+    </a>
+
+    <!-- Menu -->
+    <ul class="hide">
+        
+
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            <li class="separator"> | </li>
+            <li>
+                <a class="clear" aria-label="About the ISG" title="About the ISG" href="/about/">
+                     About the ISG 
+                </a>
+            </li>
+            
+            
+        
+            
+            <li class="separator"> | </li>
+            <li>
+                <a class="clear" aria-label="ISG Events" title="ISG Events" href="/events/">
+                     ISG Events 
+                </a>
+            </li>
+            
+            
+        
+            
+            <li class="separator"> | </li>
+            <li>
+                <a class="clear" aria-label="Awards" title="Awards" href="/awards/">
+                     Awards 
+                </a>
+            </li>
+            
+            
+        
+            
+            <li class="separator"> | </li>
+            <li>
+                <a class="clear" aria-label="Code/Data" title="Code/Data" href="/code_data/">
+                     Code/Data 
+                </a>
+            </li>
+            
+            
+        
+            
+            <li class="separator"> | </li>
+            <li>
+                <a class="clear" aria-label="Archive" title="Archive" href="/archive/">
+                     Archive 
+                </a>
+            </li>
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            <li class="separator"> | </li>
+            <li>
+                <a class="clear" aria-label="Blog" title="Blog" href="/blog/">
+                     Blog 
+                </a>
+            </li>
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            <li class="separator"> | </li>
+            <li>
+                <a class="clear" aria-label="Search" title="Search" href="/search/">
+                     <i class="fas fa-search" aria-hidden="true"></i>
+                    
+                </a>
+            </li>
+            
+            
+        
+            
+            
+        
+            
+            <li class="separator"> | </li>
+            <li>
+                <a class="clear" aria-label="Tags" title="Tags" href="/tags/">
+                     <i class="fas fa-tags" aria-hidden="true"></i>
+                    
+                </a>
+            </li>
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+
+        
+        <li class="separator"> | </li>
+        <li><a id="theme-toggle" title="Geomorphometry Newsletter Sept 2013 " aria-label="Geomorphometry Newsletter Sept 2013" onclick="themeToggle()"></a></li>
+        
+    </ul>
+
+	</nav>
+</header>
+
+    <div class="content">
+      <article>
+  <header id="main" style="">
+    <div class="title-padder">
+      
+      <h1 id="Geomorphometry+Newsletter+Sept+2013" class="title">Geomorphometry Newsletter Sept 2013</h1>
+      
+
+
+<div class="post-info">
+    <p class="meta">
+      
+      
+      August 07, 2021
+    </p>
+</div>
+
+      
+    </div>
+  </header>
+
+  <section class="post-content">
+  
+      <table><tbody>
+<tr>
+<td><a href="http://www.geomorphometry.org/2013" target="_blank" rel="noopener noreferrer"></a></td>
+<td>The 4th international conference + workshops on Geomorphometry / Digital terrain modelling and analysis will be held next year in Nanjing, China. If you have not done already, put this date in your agenda: October 16-20, 2013 (Wednesday to Sunday). We expect again an exciting programme with several workshops and training sessions. This edition of Geomorphometry is kindly sponsored by the Geographical Society of China, National Natural Science Foundation of China, Key Laboratory of Virtual Geographical Environment, Ministry of Education, and Nanjing Normal University. For all other info please refer to: www.geomorphometry.org/2013<em>... <a href="http://www.geomorphometry.org/2013" target="_blank" rel="noopener noreferrer">read more</a></em>
+</td>
+</tr>
+<tr>
+<td><a href="http://geomorphometry.org/content/arcgis-javascript-api-worldelevationdtmslopemap" target="_blank" rel="noopener noreferrer"></a></td>
+<td>Colleagues from ESRI are actively producing geomorphometry tools and data sets for public use. This is an example of a multiscale slope map built using the ArcGIS JavaScript API. The ESRI's World Elevation Services is expected to become fully operational in mid 2012. It will contain image services, data download services, and analysis task services available, as well as sample applications..</td>
+</tr>
+<tr>
+<td><a href="https://developers.google.com/maps/documentation/javascript/elevation" target="_blank" rel="noopener noreferrer"></a></td>
+<td>Google has recently released a Google Elevation service. The Elevation service provides SRTM/bathymetry elevation data for locations on the surface of the earth, including depth locations on the ocean floor (negative values). It can be used to produce elevation paths and get elevations for any point on Earth's surface (maximum of 2,500 requests per day).<em>... <a href="https://developers.google.com/maps/documentation/elevation/" target="_blank" rel="noreferrer noopener noopener noreferrer">read more</a></em>
+</td>
+</tr>
+<tr>
+<td><a href="http://geomorphometry.org/content/video-presentations-geomorphometry-2011" target="_blank" rel="noopener noreferrer"></a></td>
+<td>Have you missed the Geomorphometry 2011 conference? No problem. All presentations from Geomorphometry 2011 are available via the <a href="http://proceedings.esri.com/library/userconf/geomorphometry11/index.html" target="_blank" rel="noreferrer noopener noopener noreferrer">ESRI proceedings website</a>. All papers and attached datasets can also be accessed freely from the Geomorphometry homepage.</td>
+</tr>
+<tr>
+<td><a href="http://www.dlr.de/hr/en/desktopdefault.aspx/tabid-2317/" target="_blank" rel="noopener noreferrer"></a></td>
+<td>TanDEM-X is the new generation satellite (owned by the German Aerospace Center) that aims at producing new generation radar-based DEMs with a horizontal detail of 12 meters) and a height accuracy of better than 2 m. The data will likely not be publicly available, but the new global DEM will completely change the world of geomorphometry<em>... <a href="http://www.dlr.de/hr/en/desktopdefault.aspx/tabid-2317/" target="_blank" rel="noreferrer noopener noopener noreferrer">read more</a></em>
+</td>
+</tr>
+<tr>
+<td><a href="https://uwspace.uwaterloo.ca/handle/10012/6706" target="_blank" rel="noopener noreferrer"></a></td>
+<td>A recent geography Master's thesis by Jason Goetz from the University of Waterloo, Canada utilizes terrain analysis tools implemented in open-source software (SAGA GIS, R) for exploring the regional controls of landslide initiation on Vancouver Island, British Columbia. A nonparametric regression technique, the generalized additive model (GAM), was used to model the relationship of topography, climate, forest harvesting activities and geology to landslide initiation, underlining the importance of the impacts of logging roads. Based on the model predictions, the most susceptible 4% of the study area had 29 times higher density of landslide initiation points than the least susceptible 73% of the study area<em>.</em>
+</td>
+</tr>
+</tbody></table>
+
+    
+  </section>
+
+  <!-- Social media shares -->
+  
+
+<div class="share-buttons">
+    <ul class="share-buttons">
+        <li class="meta">Share</li>
+        
+        <li>
+            <a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/simplenews/2021/08/07/geomorphometry-newsletter-sept-2013.html" target="_blank" title=" Facebook" rel="noopener noreferrer">
+                <i class="fab fa-facebook-square fa-2x" aria-hidden="true"></i>
+                <span class="sr-only">Share on Facebook</span>
+            </a>
+        </li>
+         
+        <li>
+            <a href="https://twitter.com/intent/tweet?text=Geomorphometry+Newsletter+Sept+2013%20http%3A%2F%2Flocalhost%3A4000%2Fsimplenews%2F2021%2F08%2F07%2Fgeomorphometry-newsletter-sept-2013.html" target="_blank" title="" rel="noopener noreferrer">
+                <i class="fab fa-twitter-square fa-2x" aria-hidden="true"></i>
+                <span class="sr-only">Tweet</span>
+            </a>
+        </li>
+         
+        <li>
+            <a href="https://www.tumblr.com/share?v=3&amp;u=http://localhost:4000/simplenews/2021/08/07/geomorphometry-newsletter-sept-2013.html&amp;quote=Geomorphometry+Newsletter+Sept+2013%20%7C%20Geomorphometry.org&amp;s=" target="_blank" title=" Tumblr" rel="noopener noreferrer">
+                <i class="fab fa-tumblr-square fa-2x" aria-hidden="true"></i>
+                <span class="sr-only">Share on Tumblr</span>
+            </a>
+        </li>
+         
+        <li>
+            <a href="https://pinterest.com/pin/create/button/?url=http://localhost:4000/simplenews/2021/08/07/geomorphometry-newsletter-sept-2013.html&amp;media=$description=The+4th+international+conference+%2B+workshops+on+Geomorphometry+%2F+Digital+terrain+modelling+and+analysis+will+be+held+next+year+in+Nanjing%2C+China.+If+you+have+not+done+already%2C+put+this+date+in+your+agenda%3A+October+16-20%2C+2013+%28Wednesday+to+Sunday%29.+We+expect+again+an+exciting+programme+with+several+workshops+and+training+sessions.+This+edition+of+Geomorphometry+is+kindly+sponsored+by+the+Geographical+Society+of+China%2C+National+Natural+Science+Foundation+of+China%2C+Key+Laboratory+of+Virtual+Geographical+Environment%2C+Ministry+of+Education%2C+and+Nanjing+Normal+University.+For+all+other+info+please+refer+to%3A%26nbsp%3Bwww.geomorphometry.org%2F2013...%26nbsp%3Bread+moreColleagues+from+ESRI+are+actively+producing+geomorphometry+tools+and+data+sets+for+public+use.+This+is+an+example+of+a+multiscale+slope+map+built+using+the+ArcGIS+JavaScript+API.+The+ESRI%27s+World+Elevation+Services+is+expected+to+become+fully+operational+in+mid+2012.+It+will+contain+image+services%2C+data+download+services%2C+and+analysis+task+services+available%2C+as+well+as+sample+applications..Google+has+recently+released+a+Google+Elevation+service.+The+Elevation+service+provides+SRTM%2Fbathymetry+elevation+data+for+locations+on+the+surface+of+the+earth%2C+including+depth+locations+on+the+ocean+floor+%28negative+values%29.+It+can+be+used+to+produce+elevation+paths+and+get+elevations+for+any+point+on+Earth%27s+surface+%28maximum+of+2%2C500+requests+per+day%29....%26nbsp%3Bread+moreHave+you+missed+the+Geomorphometry+2011+conference%3F+No+problem.+All+presentations+from+Geomorphometry+2011+are+available+via+the%26nbsp%3BESRI+proceedings+website.+All+papers+and+attached+datasets+can+also+be+accessed+freely+from+the%26nbsp%3BGeomorphometry+homepage.TanDEM-X+is+the+new+generation+satellite+%28owned+by+the+German+Aerospace+Center%29+that+aims+at+producing+new+generation+radar-based+DEMs+with+a+horizontal+detail+of+12+meters%29+and+a+height+accuracy+of+better+than+2+m.+The+data+will+likely+not+be+publicly+available%2C+but+the+new+global+DEM+will+completely+change+the+world+of+geomorphometry...%26nbsp%3Bread+moreA+recent+geography%26nbsp%3BMaster%27s+thesis+by+Jason+Goetz%26nbsp%3Bfrom+the+University+of+Waterloo%2C+Canada+utilizes+terrain+analysis+tools+implemented+in+open-source+software+%28SAGA+GIS%2C+R%29+for+exploring+the+regional+controls+of+landslide+initiation+on+Vancouver+Island%2C+British+Columbia.+A+nonparametric+regression+technique%2C+the+generalized+additive+model+%28GAM%29%2C+was+used+to+model+the+relationship+of+topography%2C+climate%2C+forest+harvesting+activities+and+geology+to+landslide+initiation%2C+underlining+the+importance+of+the+impacts+of+logging+roads.+Based+on+the+model+predictions%2C+the+most+susceptible+4%25+of+the+study+area+had+29+times+higher+density+of+landslide+initiation+points+than+the+least+susceptible+73%25+of+the+study+area.%0A" target="_blank" title="" rel="noopener noreferrer">
+                <i class="fab fa-pinterest-square fa-2x" aria-hidden="true"></i>
+                <span class="sr-only">Pin it</span>
+            </a>
+        </li>
+          
+        <li>
+            <a href="https://www.reddit.com/submit?url=http://localhost:4000/simplenews/2021/08/07/geomorphometry-newsletter-sept-2013.html&amp;title=Geomorphometry+Newsletter+Sept+2013%20%7C%20Geomorphometry.org" target="_blank" title=" Reddit" rel="noopener noreferrer">
+                <i class="fab fa-reddit-square fa-2x" aria-hidden="true"></i>
+                <span class="sr-only">Share on Reddit</span>
+            </a>
+        </li>
+         
+        <li>
+            <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http://localhost:4000/simplenews/2021/08/07/geomorphometry-newsletter-sept-2013.html&amp;title=Geomorphometry+Newsletter+Sept+2013%20%7C%20Geomorphometry.org&amp;summary=&amp;source=http://localhost:4000/simplenews/2021/08/07/geomorphometry-newsletter-sept-2013.html" target="_blank" title=" LinkedIn" rel="noopener noreferrer">
+                <i class="fab fa-linkedin fa-2x" aria-hidden="true"></i>
+                <span class="sr-only">Share on LinkedIn</span>
+            </a>
+        </li>
+          
+        <li>
+            <a href="mailto:?subject=Geomorphometry%20Newsletter%20Sept%202013%20%7C%20Geomorphometry.org&amp;body=http://localhost:4000/simplenews/2021/08/07/geomorphometry-newsletter-sept-2013.html" target="_blank" title="">
+                <i class="fas fa-envelope-square fa-2x" aria-hidden="true"></i>
+                <span class="sr-only">Email</span></a>
+        </li>
+        
+    </ul>
+</div>
+
+
+
+
+   <!-- Tag list -->
+  
+  
+
+
+  <div class="tag-list">
+    <ul>
+      
+        <li class="meta">Tag</li>
+      
+
+      
+        <li><a class="button" href="/tags#newsletter">
+          <p><i class="fas fa-tag fa-fw fa-sm"></i> newsletter</p>
+        </a></li>
+      
+    </ul>
+  </div>
+
+
+
+</article>
+
+<!-- Post navigation -->
+
+<div id="post-nav">
+    
+    <div id="previous-post">
+        <a alt="Geomorphometry Newsletter September 2014" href="/simplenews/2021/08/07/geomorphometry-newsletter-september-2014.html">
+            <p>Previous post</p>
+            Geomorphometry Newsletter September 2014
+        </a>
+    </div>
+    
+
+    
+    <div id="next-post">
+        <a alt="Geomorphometry newsletter November 2017" href="/simplenews/2021/08/07/geomorphometry-newsletter-november-2017.html">
+            <p>Next post</p>
+            Geomorphometry newsletter November 2017
+        </a>
+    </div>
+    
+</div>
+
+
+
+<!--Utterances-->
+
+
+<!-- Cusdis -->
+
+
+<!-- Disqus -->
+
+
+<!-- To change color of links in the page -->
+<style>
+  header#main {
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+  }
+
+  
+
+  
+</style>
+
+    </div>
+    <footer class="site-footer">
+    <p class="text">
+        Powered by <a href="https://jekyllrb.com/" target="_blank" rel="noopener noreferrer">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap" target="_blank" rel="noopener noreferrer">Type on Strap</a>
+</p>
+            <div class="footer-icons">
+                <ul>
+                <!-- Social icons from Font Awesome, if enabled -->
+                
+<li>
+    <a feed.xml href="/feed.xml" title="Follow RSS feed" target="_blank">
+        <span class="fa-stack fa-lg">
+            <i class="fas fa-circle fa-stack-2x"></i>
+            <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
+        </span>
+    </a>
+</li>
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+        
+        
+        
+        
+        <li>
+            <a href="https://github.com/sylhare" title="Follow on Github" target="_blank" rel="noopener noopener noreferrer">
+            <span class="fa-stack fa-lg">
+              <i class="fas fa-circle fa-stack-2x"></i>
+              <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+            </span>
+            </a>
+        </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+                </ul>
+            </div>
+</footer>
+
+
+
+  </body>
+</html>

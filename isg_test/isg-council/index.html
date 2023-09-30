@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<!--
+    Type on Strap jekyll theme v2.4.5
+    Theme free for personal and commercial use under the MIT license
+    https://github.com/sylhare/Type-on-Strap/blob/master/LICENSE
+-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=0.5, maximum-scale=5">
+
+    <!-- Theme Mode-->
+    
+    <script>
+        const isAutoTheme = true;
+        document.documentElement.setAttribute('data-theme', sessionStorage.getItem('theme'))
+    </script>
+    
+
+    <!-- Main JS (navbar.js, katex_init.js and masonry_init.js)-->
+    <script defer src="/assets/js/main.min.js"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/assets/css/main.css">
+
+    <!--Favicon-->
+    <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon">
+
+    
+
+    <!-- KaTeX 0.15.2 -->
+    
+    <script defer src="/assets/js/vendor/katex.min.js"></script>
+    <script defer src="/assets/js/vendor/auto-render.min.js" onload="renderMathInElement(document.body);"></script>
+    
+
+    <!-- Mermaid 9.1.1 -->
+    
+    <script defer src="/assets/js/vendor/mermaid.min.js" onload="mermaid.initialize({
+      startOnLoad:true,
+      theme: 'default',
+    });"></script>
+    
+
+    <!-- Simple Jekyll Search 1.10.0 -->
+    <script src="/assets/js/vendor/simple-jekyll-search.min.js" type="text/javascript"></script>
+
+    <!-- Google Analytics / Cookie Consent -->
+    <script>
+      const cookieName = 'cookie-notice-dismissed-http://localhost:4000';
+      const isCookieConsent = 'false';
+      const analyticsName = '';
+      const analyticsNameGA4 = '';
+    </script>
+
+    
+    
+
+    <!-- seo tags -->
+    <meta property="og:image" content="http://localhost:4000/uploads/img/unsplash/patrick-robert-doyle-unsplash.jpg">
+    
+    <meta property="og:type" content="website" />
+    
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>ISG Council | Geomorphometry.org</title>
+<meta name="generator" content="Jekyll v4.3.2" />
+<meta property="og:title" content="ISG Council" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Geomorphometry.org" />
+<meta property="og:description" content="Geomorphometry.org" />
+<link rel="canonical" href="http://localhost:4000/isg-council/" />
+<meta property="og:url" content="http://localhost:4000/isg-council/" />
+<meta property="og:site_name" content="Geomorphometry.org" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="ISG Council" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"Geomorphometry.org","headline":"ISG Council","url":"http://localhost:4000/isg-council/"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+    <!-- RSS -->
+    <link rel="alternate" type="application/atom+xml" title="Geomorphometry.org" href="http://localhost:4000/feed.xml"/>
+    <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Geomorphometry.org" />
+
+    <!-- Twitter Cards -->
+    <meta name="twitter:title" content="ISG Council">
+    <meta name="twitter:description" content="The ISG Council meets multiple times per year to discuss the matters of the ISG. Meetings follow pre-established agendas and detailed notes are taken and arc...">
+    
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:image" content="http://localhost:4000/uploads/img/unsplash/patrick-robert-doyle-unsplash.jpg">
+    <meta name="twitter:image:alt" content="ISG Council">
+</head>
+
+  <body>
+    <header class="site-header">
+
+    <!-- Logo and title -->
+	<div class="branding">
+        
+		<a href="/">
+			<img alt="logo img" class="avatar" src="/assets/img/logo-9.png" loading="lazy">
+		</a>
+        
+        <a class="site-title" aria-label="Geomorphometry.org" href="/">
+        Geomorphometry.org
+		</a>
+	</div>
+
+    <!-- Toggle menu -->
+    <nav class="clear">
+    <a aria-label="pull" id="pull" class="toggle" href="#">
+    <i class="fas fa-bars fa-lg"></i>
+    </a>
+
+    <!-- Menu -->
+    <ul class="hide">
+        
+
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            <li class="separator"> | </li>
+            <li>
+                <a class="clear" aria-label="About the ISG" title="About the ISG" href="/about/">
+                     About the ISG 
+                </a>
+            </li>
+            
+            
+        
+            
+            <li class="separator"> | </li>
+            <li>
+                <a class="clear" aria-label="ISG Events" title="ISG Events" href="/events/">
+                     ISG Events 
+                </a>
+            </li>
+            
+            
+        
+            
+            <li class="separator"> | </li>
+            <li>
+                <a class="clear" aria-label="Awards" title="Awards" href="/awards/">
+                     Awards 
+                </a>
+            </li>
+            
+            
+        
+            
+            <li class="separator"> | </li>
+            <li>
+                <a class="clear" aria-label="Code/Data" title="Code/Data" href="/code_data/">
+                     Code/Data 
+                </a>
+            </li>
+            
+            
+        
+            
+            <li class="separator"> | </li>
+            <li>
+                <a class="clear" aria-label="Archive" title="Archive" href="/archive/">
+                     Archive 
+                </a>
+            </li>
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            <li class="separator"> | </li>
+            <li>
+                <a class="clear" aria-label="Blog" title="Blog" href="/blog/">
+                     Blog 
+                </a>
+            </li>
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            <li class="separator"> | </li>
+            <li>
+                <a class="clear" aria-label="Search" title="Search" href="/search/">
+                     <i class="fas fa-search" aria-hidden="true"></i>
+                    
+                </a>
+            </li>
+            
+            
+        
+            
+            
+        
+            
+            <li class="separator"> | </li>
+            <li>
+                <a class="clear" aria-label="Tags" title="Tags" href="/tags/">
+                     <i class="fas fa-tags" aria-hidden="true"></i>
+                    
+                </a>
+            </li>
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+
+        
+        <li class="separator"> | </li>
+        <li><a id="theme-toggle" title="ISG Council " aria-label="ISG Council" onclick="themeToggle()"></a></li>
+        
+    </ul>
+
+	</nav>
+</header>
+
+    <div class="content">
+      <article class="feature-image">
+
+  <header id="main" style="background-image: url('/uploads/img/unsplash/patrick-robert-doyle-unsplash.jpg')">
+    <div class="title-padder">
+      
+        <h1 id="ISG+Council" class="title"> ISG Council</h1>
+        
+      
+    </div>
+  </header>
+
+  <section class="post-content">
+  
+	<p>The ISG Council meets multiple times per year to discuss the matters of the ISG. Meetings follow pre-established agendas and detailed notes are taken and archived. All members of the ISG can access the archives and all documentation on the functioning of the ISG upon request to the Council by email: <a href="mailto:geomorphometry.org@gmail.com">geomorphometry.org@gmail.com</a>.</p>
+
+<h4 id="isg-council-2023-2025">ISG Council (2023-2025):</h4>
+
+<ul>
+  <li>President: <strong>Hannes I. Reuter</strong>, gisxperts, Germany</li>
+  <li>Vice-president: <strong>John Linsay</strong>, Université du Guelph, Canada</li>
+  <li>Secretary: <strong>Carlos H. Grohmann</strong>, Universidade de São Paulo, Brazil</li>
+  <li>Councilor: <strong>Samantha T Arundel</strong>, U.S. Geological Survey, USA</li>
+  <li>Councilor: <strong>Cheng-Zhi Qin</strong>, Chinese Academy of Sciences, Beijing, China</li>
+  <li>Councilor: <strong>Massiniliano Giorgio</strong>, Faculty of Geography and Geology, Alexandru Ioan Cuza University of Iasi, Romania</li>
+</ul>
+
+<h4 id="isg-council-2021-2023">ISG Council (2021-2023):</h4>
+
+<ul>
+  <li>President: <strong>Hannes I. Reuter</strong>, gisxperts, Germany</li>
+  <li>Vice-president: <strong>Vincent Lecours</strong>, Université du Québec à Chicoutimi, Canada</li>
+  <li>Secretary: <strong>Carlos H. Grohmann</strong>, Universidade de São Paulo, Brazil</li>
+  <li>Councilor: <strong>Samantha T Arundel</strong>, U.S. Geological Survey, USA</li>
+  <li>Councilor: <strong>Cheng-Zhi Qin</strong>, Chinese Academy of Sciences, Beijing, China</li>
+  <li>Councilor: <strong>Mihai Niculita</strong>, Faculty of Geography and Geology, Alexandru Ioan Cuza University of Iasi, Romania</li>
+</ul>
+
+<h4 id="chair-and-vice-chair-2015-2021">Chair and Vice Chair (2015-2021):</h4>
+
+<ul>
+  <li>Chair: <strong>Peter Guth</strong>, US Naval Academy, USA</li>
+  <li>Vice-chair: <strong>Carlos H. Grohmann</strong>, University of São Paulo, Brazil</li>
+</ul>
+
+<h4 id="chair-and-vice-chair-2011-2015">Chair and Vice Chair (2011-2015):</h4>
+
+<ul>
+  <li>Chair: <strong>Helena Mitasova</strong>, North Carolina State University</li>
+  <li>Vice-chair: <strong>Tomislav Hengl</strong>, ISRIC / Wageningen University, the Netherlands</li>
+</ul>
+
+<h4 id="chair-and-vice-chair-2009-2011">Chair and Vice Chair (2009-2011):</h4>
+
+<ul>
+  <li>Chair: <strong>Ian S. Evans</strong>, University of Durham, UK</li>
+  <li>Vice-chair: <strong>Tomislav Hengl</strong>, ISRIC / Wageningen University, the Netherlands</li>
+</ul>
+
+  
+  </section>
+
+
+  <!-- Tag list for portfolio -->
+  
+  
+
+
+  <div class="tag-list">
+    <ul>
+      
+        <li class="meta">Tags</li>
+      
+
+      
+        <li><a class="button" href="/tags#about">
+          <p><i class="fas fa-tag fa-fw fa-sm"></i> about</p>
+        </a></li>
+      
+        <li><a class="button" href="/tags#council">
+          <p><i class="fas fa-tag fa-fw fa-sm"></i> council</p>
+        </a></li>
+      
+        <li><a class="button" href="/tags#membership">
+          <p><i class="fas fa-tag fa-fw fa-sm"></i> membership</p>
+        </a></li>
+      
+    </ul>
+  </div>
+
+
+
+</article>
+
+    </div>
+    <footer class="site-footer">
+    <p class="text">
+        Powered by <a href="https://jekyllrb.com/" target="_blank" rel="noopener noreferrer">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap" target="_blank" rel="noopener noreferrer">Type on Strap</a>
+</p>
+            <div class="footer-icons">
+                <ul>
+                <!-- Social icons from Font Awesome, if enabled -->
+                
+<li>
+    <a feed.xml href="/feed.xml" title="Follow RSS feed" target="_blank">
+        <span class="fa-stack fa-lg">
+            <i class="fas fa-circle fa-stack-2x"></i>
+            <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
+        </span>
+    </a>
+</li>
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+        
+        
+        
+        
+        <li>
+            <a href="https://github.com/sylhare" title="Follow on Github" target="_blank" rel="noopener noopener noreferrer">
+            <span class="fa-stack fa-lg">
+              <i class="fas fa-circle fa-stack-2x"></i>
+              <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+            </span>
+            </a>
+        </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+                </ul>
+            </div>
+</footer>
+
+
+
+  </body>
+</html>

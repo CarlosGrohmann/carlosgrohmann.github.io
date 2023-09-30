@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<!--
+    Type on Strap jekyll theme v2.4.5
+    Theme free for personal and commercial use under the MIT license
+    https://github.com/sylhare/Type-on-Strap/blob/master/LICENSE
+-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=0.5, maximum-scale=5">
+
+    <!-- Theme Mode-->
+    
+    <script>
+        const isAutoTheme = true;
+        document.documentElement.setAttribute('data-theme', sessionStorage.getItem('theme'))
+    </script>
+    
+
+    <!-- Main JS (navbar.js, katex_init.js and masonry_init.js)-->
+    <script defer src="/assets/js/main.min.js"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/assets/css/main.css">
+
+    <!--Favicon-->
+    <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon">
+
+    
+
+    <!-- KaTeX 0.15.2 -->
+    
+    <script defer src="/assets/js/vendor/katex.min.js"></script>
+    <script defer src="/assets/js/vendor/auto-render.min.js" onload="renderMathInElement(document.body);"></script>
+    
+
+    <!-- Mermaid 9.1.1 -->
+    
+    <script defer src="/assets/js/vendor/mermaid.min.js" onload="mermaid.initialize({
+      startOnLoad:true,
+      theme: 'default',
+    });"></script>
+    
+
+    <!-- Simple Jekyll Search 1.10.0 -->
+    <script src="/assets/js/vendor/simple-jekyll-search.min.js" type="text/javascript"></script>
+
+    <!-- Google Analytics / Cookie Consent -->
+    <script>
+      const cookieName = 'cookie-notice-dismissed-http://localhost:4000';
+      const isCookieConsent = 'false';
+      const analyticsName = '';
+      const analyticsNameGA4 = '';
+    </script>
+
+    
+    
+
+    <!-- seo tags -->
+    <meta property="og:image" content="http://localhost:4000/assets/img/pexels/travel.jpeg">
+    
+    <meta property="og:type" content="website" />
+    
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Copernicus Digital Elevation Model (DEM) as Open Data on Amazon AWS and Sentinel-Hub | Geomorphometry.org</title>
+<meta name="generator" content="Jekyll v4.3.2" />
+<meta property="og:title" content="Copernicus Digital Elevation Model (DEM) as Open Data on Amazon AWS and Sentinel-Hub" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="European Space Agency (ESA) has recently made available two global Digital Surface Models:" />
+<meta property="og:description" content="European Space Agency (ESA) has recently made available two global Digital Surface Models:" />
+<link rel="canonical" href="http://localhost:4000/2021/08/12/copernicus-digital-elevation-model-dem-as-open-data-on-amazon-aws-and-sentinel-hub.html" />
+<meta property="og:url" content="http://localhost:4000/2021/08/12/copernicus-digital-elevation-model-dem-as-open-data-on-amazon-aws-and-sentinel-hub.html" />
+<meta property="og:site_name" content="Geomorphometry.org" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-08-12T00:00:00-03:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Copernicus Digital Elevation Model (DEM) as Open Data on Amazon AWS and Sentinel-Hub" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2021-08-12T00:00:00-03:00","datePublished":"2021-08-12T00:00:00-03:00","description":"European Space Agency (ESA) has recently made available two global Digital Surface Models:","headline":"Copernicus Digital Elevation Model (DEM) as Open Data on Amazon AWS and Sentinel-Hub","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2021/08/12/copernicus-digital-elevation-model-dem-as-open-data-on-amazon-aws-and-sentinel-hub.html"},"url":"http://localhost:4000/2021/08/12/copernicus-digital-elevation-model-dem-as-open-data-on-amazon-aws-and-sentinel-hub.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+    <!-- RSS -->
+    <link rel="alternate" type="application/atom+xml" title="Geomorphometry.org" href="http://localhost:4000/feed.xml"/>
+    <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Geomorphometry.org" />
+
+    <!-- Twitter Cards -->
+    <meta name="twitter:title" content="Copernicus Digital Elevation Model (DEM) as Open Data on Amazon AWS and Sentinel-Hub">
+    <meta name="twitter:description" content="European Space Agency (ESA) has recently made available two global Digital Surface Models:  GLO-30: the 30-m spatial resolution DSM,  GLO-90: the 90-m spatia...">
+    
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:image" content="http://localhost:4000/assets/img/pexels/travel.jpeg">
+    <meta name="twitter:image:alt" content="Copernicus Digital Elevation Model (DEM) as Open Data on Amazon AWS and Sentinel-Hub">
+</head>
+
+  <body>
+    <header class="site-header">
+
+    <!-- Logo and title -->
+	<div class="branding">
+        
+		<a href="/">
+			<img alt="logo img" class="avatar" src="/assets/img/logo-9.png" loading="lazy">
+		</a>
+        
+        <a class="site-title" aria-label="Geomorphometry.org" href="/">
+        Geomorphometry.org
+		</a>
+	</div>
+
+    <!-- Toggle menu -->
+    <nav class="clear">
+    <a aria-label="pull" id="pull" class="toggle" href="#">
+    <i class="fas fa-bars fa-lg"></i>
+    </a>
+
+    <!-- Menu -->
+    <ul class="hide">
+        
+
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            <li class="separator"> | </li>
+            <li>
+                <a class="clear" aria-label="About the ISG" title="About the ISG" href="/about/">
+                     About the ISG 
+                </a>
+            </li>
+            
+            
+        
+            
+            <li class="separator"> | </li>
+            <li>
+                <a class="clear" aria-label="ISG Events" title="ISG Events" href="/events/">
+                     ISG Events 
+                </a>
+            </li>
+            
+            
+        
+            
+            <li class="separator"> | </li>
+            <li>
+                <a class="clear" aria-label="Awards" title="Awards" href="/awards/">
+                     Awards 
+                </a>
+            </li>
+            
+            
+        
+            
+            <li class="separator"> | </li>
+            <li>
+                <a class="clear" aria-label="Code/Data" title="Code/Data" href="/code_data/">
+                     Code/Data 
+                </a>
+            </li>
+            
+            
+        
+            
+            <li class="separator"> | </li>
+            <li>
+                <a class="clear" aria-label="Archive" title="Archive" href="/archive/">
+                     Archive 
+                </a>
+            </li>
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            <li class="separator"> | </li>
+            <li>
+                <a class="clear" aria-label="Blog" title="Blog" href="/blog/">
+                     Blog 
+                </a>
+            </li>
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            <li class="separator"> | </li>
+            <li>
+                <a class="clear" aria-label="Search" title="Search" href="/search/">
+                     <i class="fas fa-search" aria-hidden="true"></i>
+                    
+                </a>
+            </li>
+            
+            
+        
+            
+            
+        
+            
+            <li class="separator"> | </li>
+            <li>
+                <a class="clear" aria-label="Tags" title="Tags" href="/tags/">
+                     <i class="fas fa-tags" aria-hidden="true"></i>
+                    
+                </a>
+            </li>
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+
+        
+        <li class="separator"> | </li>
+        <li><a id="theme-toggle" title="Copernicus Digital Elevation Model (DEM) as Open Data on Amazon AWS and Sentinel-Hub " aria-label="Copernicus Digital Elevation Model (DEM) as Open Data on Amazon AWS and Sentinel-Hub" onclick="themeToggle()"></a></li>
+        
+    </ul>
+
+	</nav>
+</header>
+
+    <div class="content">
+      <article>
+  <header id="main" style="">
+    <div class="title-padder">
+      
+      <h1 id="Copernicus+Digital+Elevation+Model+%28DEM%29+as+Open+Data+on+Amazon+AWS+and+Sentinel-Hub" class="title">Copernicus Digital Elevation Model (DEM) as Open Data on Amazon AWS and Sentinel-Hub</h1>
+      
+
+
+<div class="post-info">
+    <p class="meta">
+      
+      
+      August 12, 2021
+    </p>
+</div>
+
+      
+    </div>
+  </header>
+
+  <section class="post-content">
+  
+      <p>European Space Agency (ESA) has recently made available two global Digital Surface Models:</p>
+
+<ul>
+  <li>GLO-30: the 30-m spatial resolution DSM,</li>
+  <li>GLO-90: the 90-m spatial resolution DSM,</li>
+</ul>
+
+<p>Both are available for download from <a href="https://spacedata.copernicus.eu/data-offer/core-datasets" target="_blank" rel="noopener noreferrer"><strong>cdsdata.copernicus.eu</strong></a> on a free basis for the general public under the terms and conditions of the Licence found <a href="https://spacedata.copernicus.eu/documents/20126/0/CSCDA_ESA_Mission-specific+Annex.pdf" target="_blank" rel="noopener noreferrer">here</a>.</p>
+
+<p>A copy of the GLO-30 and GLO-90 is now also available as Cloud Optimized GeoTIFFs from the <a href="https://registry.opendata.aws/copernicus-dem/" target="_blank" rel="noopener noreferrer"><strong>Amazon AWS public data repository</strong></a>. The visualization shown above is from the <a href="https://apps.sentinel-hub.com/eo-browser/?zoom=12&amp;lat=41.7726&amp;lng=12.29198&amp;themeId=DEFAULT-THEME&amp;visualizationUrl=https%3A%2F%2Fservices.sentinel-hub.com%2Fogc%2Fwms%2F6448ffd0-56c5-4601-bed7-242bf75d97db&amp;datasetId=DEM_COPERNICUS_30&amp;fromTime=2021-08-12T00%3A00%3A00.000Z&amp;toTime=2021-08-12T23%3A59%3A59.999Z&amp;layerId=COLOR" target="_blank" rel="noopener noreferrer">sentinel-hub.com</a>.</p>
+
+<p>To learn more about the GLO-30 and it’s accuracy and production, refer to <a href="https://spacedata.copernicus.eu/web/cscda/dataset-details?articleId=394198" target="_blank" rel="noopener noreferrer">this article</a>.</p>
+
+    
+  </section>
+
+  <!-- Social media shares -->
+  
+
+<div class="share-buttons">
+    <ul class="share-buttons">
+        <li class="meta">Share</li>
+        
+        <li>
+            <a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/2021/08/12/copernicus-digital-elevation-model-dem-as-open-data-on-amazon-aws-and-sentinel-hub.html" target="_blank" title=" Facebook" rel="noopener noreferrer">
+                <i class="fab fa-facebook-square fa-2x" aria-hidden="true"></i>
+                <span class="sr-only">Share on Facebook</span>
+            </a>
+        </li>
+         
+        <li>
+            <a href="https://twitter.com/intent/tweet?text=Copernicus+Digital+Elevation+Model+%28DEM%29+as+Open+Data+on+Amazon+AWS+and+Sentinel-Hub%20http%3A%2F%2Flocalhost%3A4000%2F2021%2F08%2F12%2Fcopernicus-digital-elevation-model-dem-as-open-data-on-amazon-aws-and-sentinel-hub.html" target="_blank" title="" rel="noopener noreferrer">
+                <i class="fab fa-twitter-square fa-2x" aria-hidden="true"></i>
+                <span class="sr-only">Tweet</span>
+            </a>
+        </li>
+         
+        <li>
+            <a href="https://www.tumblr.com/share?v=3&amp;u=http://localhost:4000/2021/08/12/copernicus-digital-elevation-model-dem-as-open-data-on-amazon-aws-and-sentinel-hub.html&amp;quote=Copernicus+Digital+Elevation+Model+%28DEM%29+as+Open+Data+on+Amazon+AWS+and+Sentinel-Hub%20%7C%20Geomorphometry.org&amp;s=" target="_blank" title=" Tumblr" rel="noopener noreferrer">
+                <i class="fab fa-tumblr-square fa-2x" aria-hidden="true"></i>
+                <span class="sr-only">Share on Tumblr</span>
+            </a>
+        </li>
+         
+        <li>
+            <a href="https://pinterest.com/pin/create/button/?url=http://localhost:4000/2021/08/12/copernicus-digital-elevation-model-dem-as-open-data-on-amazon-aws-and-sentinel-hub.html&amp;media=$description=European+Space+Agency+%28ESA%29+has+recently+made+available+two+global+Digital+Surface+Models%3A%0A" target="_blank" title="" rel="noopener noreferrer">
+                <i class="fab fa-pinterest-square fa-2x" aria-hidden="true"></i>
+                <span class="sr-only">Pin it</span>
+            </a>
+        </li>
+          
+        <li>
+            <a href="https://www.reddit.com/submit?url=http://localhost:4000/2021/08/12/copernicus-digital-elevation-model-dem-as-open-data-on-amazon-aws-and-sentinel-hub.html&amp;title=Copernicus+Digital+Elevation+Model+%28DEM%29+as+Open+Data+on+Amazon+AWS+and+Sentinel-Hub%20%7C%20Geomorphometry.org" target="_blank" title=" Reddit" rel="noopener noreferrer">
+                <i class="fab fa-reddit-square fa-2x" aria-hidden="true"></i>
+                <span class="sr-only">Share on Reddit</span>
+            </a>
+        </li>
+         
+        <li>
+            <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http://localhost:4000/2021/08/12/copernicus-digital-elevation-model-dem-as-open-data-on-amazon-aws-and-sentinel-hub.html&amp;title=Copernicus+Digital+Elevation+Model+%28DEM%29+as+Open+Data+on+Amazon+AWS+and+Sentinel-Hub%20%7C%20Geomorphometry.org&amp;summary=&amp;source=http://localhost:4000/2021/08/12/copernicus-digital-elevation-model-dem-as-open-data-on-amazon-aws-and-sentinel-hub.html" target="_blank" title=" LinkedIn" rel="noopener noreferrer">
+                <i class="fab fa-linkedin fa-2x" aria-hidden="true"></i>
+                <span class="sr-only">Share on LinkedIn</span>
+            </a>
+        </li>
+          
+        <li>
+            <a href="mailto:?subject=Copernicus%20Digital%20Elevation%20Model%20(DEM)%20as%20Open%20Data%20on%20Amazon%20AWS%20and%20Sentinel-Hub%20%7C%20Geomorphometry.org&amp;body=http://localhost:4000/2021/08/12/copernicus-digital-elevation-model-dem-as-open-data-on-amazon-aws-and-sentinel-hub.html" target="_blank" title="">
+                <i class="fas fa-envelope-square fa-2x" aria-hidden="true"></i>
+                <span class="sr-only">Email</span></a>
+        </li>
+        
+    </ul>
+</div>
+
+
+
+
+   <!-- Tag list -->
+  
+  
+
+
+  <div class="tag-list">
+    <ul>
+      
+        <li class="meta">Tags</li>
+      
+
+      
+        <li><a class="button" href="/tags#data-sets">
+          <p><i class="fas fa-tag fa-fw fa-sm"></i> data-sets</p>
+        </a></li>
+      
+        <li><a class="button" href="/tags#story">
+          <p><i class="fas fa-tag fa-fw fa-sm"></i> story</p>
+        </a></li>
+      
+    </ul>
+  </div>
+
+
+
+</article>
+
+<!-- Post navigation -->
+
+<div id="post-nav">
+    
+    <div id="previous-post">
+        <a alt="GRASS GIS v8 release end of 2021" href="/2021/08/12/grass-gis-v8-release-end-of-2021.html">
+            <p>Previous post</p>
+            GRASS GIS v8 release end of 2021
+        </a>
+    </div>
+    
+
+    
+    <div id="next-post">
+        <a alt="Continental Europe Digital Terrain Model at 30 m resolution based on multisource data" href="/2021/08/12/continental-europe-digital-terrain-model-at-30-m-resolution-based-on-multisource-data.html">
+            <p>Next post</p>
+            Continental Europe Digital Terrain Model at 30 m resolution based on multisource data
+        </a>
+    </div>
+    
+</div>
+
+
+
+<!--Utterances-->
+
+
+<!-- Cusdis -->
+
+
+<!-- Disqus -->
+
+
+<!-- To change color of links in the page -->
+<style>
+  header#main {
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+  }
+
+  
+
+  
+</style>
+
+    </div>
+    <footer class="site-footer">
+    <p class="text">
+        Powered by <a href="https://jekyllrb.com/" target="_blank" rel="noopener noreferrer">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap" target="_blank" rel="noopener noreferrer">Type on Strap</a>
+</p>
+            <div class="footer-icons">
+                <ul>
+                <!-- Social icons from Font Awesome, if enabled -->
+                
+<li>
+    <a feed.xml href="/feed.xml" title="Follow RSS feed" target="_blank">
+        <span class="fa-stack fa-lg">
+            <i class="fas fa-circle fa-stack-2x"></i>
+            <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
+        </span>
+    </a>
+</li>
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+        
+        
+        
+        
+        <li>
+            <a href="https://github.com/sylhare" title="Follow on Github" target="_blank" rel="noopener noopener noreferrer">
+            <span class="fa-stack fa-lg">
+              <i class="fas fa-circle fa-stack-2x"></i>
+              <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+            </span>
+            </a>
+        </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+                </ul>
+            </div>
+</footer>
+
+
+
+  </body>
+</html>

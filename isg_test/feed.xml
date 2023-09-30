@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-08-16T10:12:58-03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Geomorphometry.org</title><subtitle>Geomorphometry.org</subtitle><entry><title type="html">An Ensemble Digital Terrain Model of the world at 30 m spatial resolution (EDTM30)</title><link href="http://localhost:4000/data-sets/scripts/2023/02/14/an-ensemble-digital-terrain-model-of-the-world-at-30-m-spatial-resolution-edtm30.html" rel="alternate" type="text/html" title="An Ensemble Digital Terrain Model of the world at 30 m spatial resolution (EDTM30)" /><published>2023-02-14T00:00:00-03:00</published><updated>2023-02-14T00:00:00-03:00</updated><id>http://localhost:4000/data-sets/scripts/2023/02/14/an-ensemble-digital-terrain-model-of-the-world-at-30-m-spatial-resolution-edtm30</id><content type="html" xml:base="http://localhost:4000/data-sets/scripts/2023/02/14/an-ensemble-digital-terrain-model-of-the-world-at-30-m-spatial-resolution-edtm30.html"><![CDATA[<p><em>Prepared by: Yu-Feng Ho (OpenGeoHub), Tom Hengl (OpenGeoHub) and Leandro Parente (OpenGeoHub)</em></p>
+
+<p>Digital Terrain Model or Digital Land Surface Model is a digital raster map representing elevations of terrain / bare surface. NASA’s SRTM DEM used to be one of the most famous environmental layers in early 2000’s. In recent years a number of global public topography datasets at high spatial resolutions (30 m) have been released, from which Copernicus GLO-30 and ALOS AW3D30 are the two that can be considered new-generation elevation models. Too many versions of (basically the same) environmental data layer and too many landing pages can often confuse users and decrease the overall usability of such data. To simplify access and usability of such data we are building global Cloud-Optimized GeoTIFFs that are based on ensembling of multiple data sources, including national/regional datasets. Here is how you can access this data and contribute to the project.</p>
+
+<p><em>To comment on this article please use the <strong><a href="https://opengeohub.medium.com/an-ensemble-digital-terrain-model-of-the-world-at-30-m-spatial-resolution-edtm30-b4fcff38164c">Medium version</a></strong>.</em></p>
+
+<h1 id="rationale-for-a-new-global-ensemble-dtm">Rationale for a new global Ensemble DTM</h1>
+
+<p>In recent years a number of global public topography datasets at high spatial resolutions (30 m) have been released including <a href="https://spacedata.copernicus.eu/collections/copernicus-digital-elevation-model">GLO-30</a> and <a href="https://www.eorc.jaxa.jp/ALOS/en/index_e.htm">ALOS AW3D</a>, and that is on top of the existing <a href="https://www.earthdata.nasa.gov/esds/competitive-programs/measures/nasadem">NASADEM</a>, <a href="https://www.earthdata.nasa.gov/news/new-aster-gdem">ASTER DEM</a>, <a href="http://hydro.iis.u-tokyo.ac.jp/~yamadai/MERIT_DEM/">MERIT DEM</a> and similar. For a complete inventory of global datasets best refer to the <a href="https://portal.opentopography.org/dataCatalog?loc=Global"><strong>OpenTopography</strong> data catalog</a>. Too many versions of (basically the same) environmental data layer and too many landing pages can often confuse users and decrease the overall usability of such data. In addition, most DEMs produced from remote sensing observations are only surface models requiring removal of canopy and similar objects. On the other hand, users typically require a single (most current, most accurate, most complete) terrain model that can then be used to produce all <a href="https://geomorphometry.org/">morphometric and hydrographic terrain variables</a> across borders (see e.g. <a href="https://www.nature.com/articles/sdata201840">Amatulli et al., 2018</a>; <a href="https://doi.org/10.5194/essd-14-4525-2022">Amatulli et al., 2022</a>). Previously, the most global consistent Digital model of Terrain (bare-earth or land surface) was the <a href="http://hydro.iis.u-tokyo.ac.jp/~yamadai/MERIT_DEM/"><strong>MERIT DEM</strong></a>, available at 100 m resolution (<a href="https://agupubs.onlinelibrary.wiley.com/doi/10.1002/2017GL072874">Yamazaki et al., 2017</a>). <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/tgis.12825">Guth and Geoffroy (2021)</a> compared multiple global DEMs for the world vs LiDAR points from ICESat and concluded that GLO-30 is most likely the most accurate DEM to date, but again it is a surface model and canopy needs to be removed before it can be used as a DTM.</p>
+
+<p>Recently, a team at University of Bristol produced <a href="https://www.fathom.global/product/fabdem/"><strong>FABDEM</strong></a> (Forest And Buildings removed Copernicus DEM), basically the GLO-30 with buildings and forests removed by machine-learning. The correction algorithm was trained from a unique set of reference elevation from 12 countries, covering a wide range of climate zones and urban extents. Separate random forest models were implemented to estimate canopy height in forests and building height in urban areas and then GLO-30 subtracted height difference to produce FABDEM. This data set is described in detail in <a href="https://iopscience.iop.org/article/10.1088/1748-9326/ac4d4f">Hawker et al., (2022</a>) and is available under CC-NC-SA license. An independent accuracy assessment of FABDEM is available in <a href="https://doi.org/10.1007/s40808-022-01648-4">Dandabathula et al. (2022)</a>.</p>
+
+<p>Likewise, our results for the <a href="https://stac.ecodatacube.eu/dtm_elevation/collection.json">Continental Europe</a> have shown that machine learning can be used to remove canopy and buildings, although some post-processing is still needed to create hydrologically correct DTMs (<a href="https://doi.org/10.5281/zenodo.4724549">Hengl et. al., 2020</a>). Furthermore, number of national DTMs are now also available for large areas, such as <a href="https://ecat.ga.gov.au/geonetwork/srv/eng/catalog.search#/metadata/89644">Australia DTM</a>, and <a href="https://www.usgs.gov/3d-elevation-program/about-3dep-products-services">USA DTM</a>. Overall, there is a need for an Ensemble DTM that can incorporate multiple valuable datasets and post-processing done by different groups (e.g. MERITDEM).</p>
+
+<p>To help reduce the complexity of global elevation datasets and make the data more usable, we have started working on a multipurpose Ensemble DTM for the world. The methods and how to access data (available under CC-BY license as <strong>ARCO</strong> — <a href="https://medium.com/mlearning-ai/present-and-future-of-data-cubes-an-european-eo-perspective-735d3f16f7c9">Analysis-Ready Cloud Optimized</a> global mosaic) are outlined below.</p>
+
+<h1 id="building-the-30m-ensemble-terrain-model-edtm30">Building the 30m Ensemble Terrain Model (EDTM30)</h1>
+
+<p>Although terrain can be estimated using <a href="https://icesat.gsfc.nasa.gov/">ICESat</a> / <a href="https://daac.ornl.gov/daacdata/gedi/">GEDI</a> points as reference training data, we test here using a more simple procedure for building a DTM that allows for faster updates and easy additions of new data: using lower 10% probability quantile. Advantage of having an inexpensive setup to update Ensemble DTM (EDTM30) is that we could possibly run nightly updates i.e. as soon as countries / regions submit locally produced terrain models.</p>
+
+<p>Why 10% lower quantile? We basically assume that terrain heights are at the lower part of the distribution, so we simply derive lower 10% quantile from multisource data as shown below. We assume that, because canopy is difficult to remove and still remains even in MERITDEM and FABDEM (<a href="https://doi.org/10.1007/s40808-022-01648-4">Dandabathula et al., 2022</a>), deriving 10% lower quantile can further help filter out potential canopy remains.</p>
+
+<p>This is of course a simplification and an arbitrary chosen number. Although computationally efficient, there is no guarantee that using lower 10% quantile will remove all canopy problems (e.g. all forests) hence it is important to first remove any pixels that significantly oscillate from MERITDEM. In addition, we here also assume that both AW3D and GLO-30 are the same quality, which might not be true for different parts of the world.</p>
+
+<p><img src="images/1*FDVBXIErsTVfrwlz6eLlkw.png" alt="" /></p>
+
+<p>A simple procedure used to derive an Ensemble estimate of the terrain elevation.</p>
+
+<p>We run processing, described in the flow chart above, tile by tile (1000 x 1000 pixels). In summary <a href="https://gitlab.opengeohub.org/yu-feng.ho/faen-artifact/-/blob/main/ensemble_dtm.ipynb">the process</a> works as follows:</p>
+
+<ol>
+  <li>
+    <p>We first derive standard deviation (s.d.) using the list of DEMs (new map).</p>
+  </li>
+  <li>
+    <p>For GLO-30, ALOS, we remove all pixels where s.d. values are &gt;6 m (60 dm) i.e. [sd(GLO, ALOS, MERIT, NDTM) &gt; 6 m] AND/OR where canopy height is &gt;2m; for those pixels we assign a NA value i.e. we assume these are DSM or erratic values. Note: for <a href="https://glad.umd.edu/dataset/gedi/">Canopy height</a> a global 30 m layers is provided by UMD GLAD (Potapov et al., 2021).</p>
+  </li>
+  <li>
+    <p>We next derive a lower 10% quantile from the 5 values (GLO, ALOS, MERIT, NDTM). This is then the EDTM i.e. the most probable bare-earth elevation.</p>
+  </li>
+  <li>
+    <p>We also derive standard deviation using the 5 values; which can be used as the uncertainty map. If there is only one value of DEM in the list, we assign the value -1.</p>
+  </li>
+</ol>
+
+<p>The process of deriving the best estimate of DTM is fully documented and automated in this <a href="https://github.com/openlandmap/spatial-layers/blob/main/EDTM/ensemble_dtm.ipynb"><strong>Python script</strong></a>. At the moment it can be used to generate an ensemble DTM within 5 hrs running on a fully parallelized HPC center with cca 1050 threads. Final mosaic of the world is a massive 200GB dataset and still takes significant time to compile a COG:</p>
+
+<p><img src="https://miro.medium.com/max/700/0*yl4R9nsy1QGYj2e4" alt="" /></p>
+
+<p>Dimensions and technical properties of the global mosaic at 30 m spatial resolution.</p>
+
+<p>A demonstration of the maps used and the results obtained (EDTM) is shown below:</p>
+
+<p><img src="images/1*j0sWhwNEiN2Us1jJBbFZvw.png" alt="" /></p>
+
+<p>Three original input DEMs. GLO-30 and AW3D30 can be considered to be Digital Surface Models, hence canopy and buildings would need to be removed before it can be used.</p>
+
+<p>In the last stage we compile all output layers as Analysis-Ready-Cloud-Optimized (ARCO) GeoTiff. This gives on the two final layers (1) EDTM in metre (m), and (2) standard deviation showing biggest discrepancies between AW3D, GLO-30, MERITDEM, and national DTMs. The two output COGs are shown below.</p>
+
+<p><img src="https://miro.medium.com/max/700/0*QtOe79g6biXDex1h" alt="" /></p>
+
+<p>Ensemble DTM in 30m.</p>
+
+<p><img src="https://miro.medium.com/max/700/0*UStEl22YCjX3RtMQ" alt="" /></p>
+
+<p>Standard deviation of Ensemble DTM in 30 m. This only shows how much the elevation differs from the multisource input data. Note that the highest errors can be noticed in areas with high complex relief i.e. Alps, Himalayas, but also in areas covered with dense vegetation (tropical forests).</p>
+
+<h3 id="access-and-test-using-the-ensemble-dtm-edtm-of-the-world">Access and test using the Ensemble DTM (EDTM) of the world</h3>
+
+<p>Interested to test the usability and accuracy of this data? To access this dataset seamlessly, without requiring to download the whole dataset (+200GB) or tiles that then need to be combined manually, we have further converted the global mosaic to COG files and uploaded them to our S3 repository.</p>
+
+<p>To cite this EDTM please use the following reference:</p>
+
+<ul>
+  <li>Ho, Y.-F., Hengl, T., Parente, L., (2023). Ensemble Digital Terrain Model (EDTM) of the world (Version 1.1) [Data set]. Zenodo. <a href="https://doi.org/10.5281/zenodo.7634679">https://doi.org/10.5281/zenodo.7634679</a></li>
+</ul>
+
+<p>To access the Ensemble DTM at 30-m, you could copy these link and open in QGIS:</p>
+
+<ul>
+  <li>
+    <p><strong>10% lower quantile image</strong>: https://s3.eu-central-1.wasabisys.com/openlandmap/dtm/dtm.bareearth_ensemble_p10_30m_s_2018_go_epsg4326_v20230221.tif</p>
+  </li>
+  <li>
+    <p><strong>Standard deviation image</strong>: https://s3.eu-central-1.wasabisys.com/openlandmap/dtm/dtm.bareearth_ensemble_std_30m_s_2018_go_epsg4326_v20230221.tif</p>
+  </li>
+</ul>
+
+<p>Important note: probably there is no need to download the whole tif as it is 200+ GB in size. To open this layer in QGIS and resample or subset / crop to area of interest, follow these steps: open QGIS -&gt; “Layer” -&gt; “Add Layer” -&gt; “Add Raster Layer”, and click Protocol: HTTP(S), cloud, etc., paste the url from above at URL, and click “Add” button.</p>
+
+<p><img src="https://miro.medium.com/max/700/0*y9fKimuVqB0-DFey" alt="" /></p>
+
+<p>Panel to add Ensemble DTM in QGIS (Layer » Add Layer » Add Raster Layer)</p>
+
+<p>To derive local DTM parameters we advise using some equidistant projection e.g. the Equi7 gridding system. To extract part of the DTM best use the following code (e.g. for TILE:E038N093T1 in <a href="https://github.com/TUW-GEO/Equi7Grid">Equi7Grid</a> or similar:</p>
+
+<blockquote>
+  <p>gdal_translate <strong>-</strong>a_srs ‘+proj=aeqd +lat_0=8.5 +lon_0=21.5 +x_0=5621452.01998 +y_0=5990638.42298 +datum=WGS84 +units=m +no_defs’ <strong>-</strong>projwin 3700000 9300000 3800000 9200000 <a href="https://s3.eu-central-1.wasabisys.com/openlandmap/dtm/dtm.bareearth_ensemble_p10_30m_s_2018_go_epsg4326_v20230221.tif">https://s3.eu-central-1.wasabisys.com/openlandmap/dtm/dtm.bareearth_ensemble_p10_30m_s_2018_go_epsg4326_v20230221.tif</a> ensemble_dtm_equi7_af_tile.E038N093T1.tif</p>
+</blockquote>
+
+<p>To derive hillshade for this tile, QGIS provides Hillshade function. You can find it from QGIS -&gt; “Raster” -&gt; “Analysis” -&gt; “Hillshade”.</p>
+
+<p><img src="https://miro.medium.com/max/444/0*8HMYjw4N_QYreXMp" alt="" /></p>
+
+<p>Ensemble DEM and derived Hillshade.</p>
+
+<p>For python programmers, here is a <a href="https://github.com/openlandmap/spatial-layers/blob/main/EDTM/data_acess.ipynb"><strong>jupyter script</strong></a> to access data, crop and generate hillshade in Python.</p>
+
+<h3 id="report-a-problem--help-us-improve-the-modeling-framework">Report a problem / help us improve the modeling framework</h3>
+
+<p>The OpenLandMap <a href="https://github.com/openlandmap/spatial-layers/tree/main/EDTM">Github</a> repository contains all information how the data was produced (see the <a href="https://github.com/openlandmap/spatial-layers/blob/main/EDTM/">repository</a>). If you discover a bug, artifact, or inconsistency, it is always welcome to create a new issue using the <a href="https://github.com/openlandmap/spatial-layers/blob/main/EDTM/">Github repository</a> and upload a screenshot or similar showing where the problem might be.</p>
+
+<p>If you are aware of some national dataset that we could also add to the list of inputs for ensembling, please also register it as an issue. We only require that the input data license allows us to produce derivative datasets and to release them under an <a href="https://opendatacommons.org/licenses/">open data license</a> (CC-BY, CC-BY-SA and/or ODbL). In addition, receiving your data as a GeoTIFFs with internal compression, also helps speed up the process. If you are producing LiDAR-based on similar topographic data and do not know where to publish / host them, <strong>we recommend submitting your data directly to</strong> <a href="https://portal.opentopography.org/dataCatalog">https://portal.opentopography.org/dataCatalog</a>.</p>
+
+<h3 id="data-license-and-terms-of-use">Data license and terms of use</h3>
+
+<p>This data is provided under the <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution CC-BY license</a>. This dataset is under development. Use at own risk.</p>
+
+<p>In the previous version we have tested using FABDEM data set for building EDTM but this data set has been removed due to copyright concerns by the FABDEM data owners. Every effort has been made to trace copyright holders of the materials used to produce these layers. Should we, despite all our best efforts, have overlooked contributors please <a href="https://opengeohub.org/about"><strong>contact the OpenGeoHub Foundation</strong></a> and we will correct this unintentional omission without delay and will acknowledge any overlooked contributions and recognize new contributors in future updates.</p>
+
+<h3 id="acknowledgements">Acknowledgements</h3>
+
+<p>This work has been funded by OEMC project The Open-Earth-Monitor Cyberinfratructure project, which has received funding from the European Union’s Horizon Europe research and innovation programme under grant agreement <a href="https://cordis.europa.eu/project/id/101059548">№ 101059548</a>.</p>
+
+<h3 id="references">References:</h3>
+
+<ol>
+  <li>
+    <p>Amatulli, G., Domisch, S., Tuanmu, M. N., Parmentier, B., Ranipeta, A., Malczyk, J., &amp; Jetz, W. (2018). <a href="https://www.nature.com/articles/sdata201840">A suite of global, cross-scale topographic variables for environmental and biodiversity modeling</a>. Scientific data, 5(1), 1–15.</p>
+  </li>
+  <li>
+    <p>Amatulli, G., Garcia Marquez, J., Sethi, T., Kiesel, J., Grigoropoulou, A., Üblacker, M. M., … &amp; Domisch, S. (2022). <a href="https://essd.copernicus.org/preprints/essd-2022-9/">Hydrography90m: A new high-resolution global hydrographic dataset</a>. <em>Earth System Science Data</em>, <em>14</em>(10), 4525–4550.</p>
+  </li>
+  <li>
+    <p>Dandabathula, G., Hari, R., Ghosh, K., Bera, A. K., &amp; Srivastav, S. K. (2022). <a href="https://doi.org/10.1007/s40808-022-01648-4">Accuracy assessment of digital bare-earth model using ICESat-2 photons: analysis of the FABDEM</a>. Modeling Earth Systems and Environment, 1–18.</p>
+  </li>
+  <li>
+    <p>Geoscience Australia (2015). <a href="https://researchdata.edu.au/digital-elevation-model-metre-grid/1278967">Digital Elevation Model (DEM) of Australia derived from LiDAR 5 Metre Grid</a>. Geoscience Australia, Canberra. <a href="https://doi.org/10.26186/89644">https://doi.org/10.26186/89644</a></p>
+  </li>
+  <li>
+    <p>Guth, P. L., &amp; Geoffroy, T. M. (2021). <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/tgis.12825">LiDAR point cloud and ICESat‐2 evaluation of 1 second global digital elevation models: Copernicus wins</a>. Transactions in GIS, 25(5), 2245–2261.</p>
+  </li>
+  <li>
+    <p>Hawker, L., Uhe, P., Paulo, L., Sosa, J., Savage, J., Sampson, C., &amp; Neal, J. (2022). <a href="https://iopscience.iop.org/article/10.1088/1748-9326/ac4d4f">A 30 m global map of elevation with forests and buildings removed</a>. <em>Environmental Research Letters</em>, <em>17</em>(2), 024016.</p>
+  </li>
+  <li>
+    <p>Hengl, T., Leal Parente, L., Krizan, J., &amp; Bonannella, C., (2020). Continental Europe Digital Terrain Model at 30 m resolution based on GEDI, ICESat-2, AW3D, GLO-30, EUDEM, MERIT DEM and background layers (v0.3) [Data set]. Zenodo. <a href="https://doi.org/10.5281/zenodo.4724549">https://doi.org/10.5281/zenodo.4724549</a></p>
+  </li>
+  <li>
+    <p>Potapov, P., Li, X., Hernandez-Serna, A., Tyukavina, A., Hansen, M. C., Kommareddy, A., … &amp; Hofton, M. (2021). <a href="https://www.sciencedirect.com/science/article/pii/S0034425720305381">Mapping global forest canopy height through integration of GEDI and Landsat data</a>. Remote Sensing of Environment, 253, 112165.</p>
+  </li>
+  <li>
+    <p>Yamazaki, D., Ikeshima, D., Sosa, J., Bates, P. D., Allen, G. H., &amp; Pavelsky, T. M. (2019). <a href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2019WR024873">MERIT Hydro: a high‐resolution global hydrography map based on latest topography dataset</a>. Water Resources Research, 55(6), 5053–5073.</p>
+  </li>
+  <li>
+    <p>Yamazaki, D., Ikeshima, D., Tawatari, R., Yamaguchi, T., O’Loughlin, F., Neal, J. C., … &amp; Bates, P. D. (2017). <a href="https://agupubs.onlinelibrary.wiley.com/doi/10.1002/2017GL072874">A high‐accuracy map of global terrain elevations</a>. Geophysical Research Letters, 44(11), 5844–5853.</p>
+  </li>
+</ol>]]></content><author><name></name></author><category term="data-sets" /><category term="scripts" /><category term="global-scale-geomorphometry" /><category term="multiscale-methods" /><summary type="html"><![CDATA[Prepared by: Yu-Feng Ho (OpenGeoHub), Tom Hengl (OpenGeoHub) and Leandro Parente (OpenGeoHub)]]></summary></entry><entry><title type="html">Geomorphometry 2023</title><link href="http://localhost:4000/2023/01/05/geomorphometry-2023.html" rel="alternate" type="text/html" title="Geomorphometry 2023" /><published>2023-01-05T00:00:00-03:00</published><updated>2023-01-05T00:00:00-03:00</updated><id>http://localhost:4000/2023/01/05/geomorphometry-2023</id><content type="html" xml:base="http://localhost:4000/2023/01/05/geomorphometry-2023.html"><![CDATA[<p><img src="images/iasi_01.png" alt="" /></p>
+
+<p>The International Society for Geomorphometry and the Organizing Committee, are pleased to announce the seventh Geomorphometry Conference to be held in Iasi, Romania, July 10-14 2023. The event is hosted by the Department of Geography, Faculty of Geography and Geology (<a href="http://www.geo.uaic.ro">www.geo.uaic.ro</a>), Alexandru Ioan Cuza University of Iasi (<a href="http://www.uaic.ro">www.uaic.ro</a>).</p>
+
+<p>300 words abstracts and 4-page extended abstracts are expected to be submitted through the Easy Chair system by 15th January 2023 (<a href="https://easychair.org/my/conference?conf=geomorphometry2023">link for submission</a>)</p>
+
+<p>Contributions to the conference will be evaluated by the scientific committee, and authors will be notified of acceptance/rejection of their abstract by 28th February 2023; extended abstracts (maximum 4 pages) will be collected into a volume of proceedings that will be available online before the conference and printed at the conference. The following template should be used for the extended abstracts: <a href="https://www.geo.uaic.ro/geomorphometry2023/wp-content/uploads/2022/11/geomorphometry_2023_template.doc">template</a>.</p>
+
+<p><strong>Important links:</strong></p>
+
+<p>Conference website: <a href="https://www.geo.uaic.ro/geomorphometry2023/">https://www.geo.uaic.ro/geomorphometry2023/</a></p>
+
+<p>Abstract template: <a href="https://www.geo.uaic.ro/geomorphometry2023/wp-content/uploads/2022/11/geomorphometry_2023_template.doc">https://www.geo.uaic.ro/geomorphometry2023/wp-content/uploads/2022/11/geomorphometry_2023_template.doc</a></p>
+
+<p>EasyChair submission: <a href="https://easychair.org/my/conference?conf=geomorphometry2023">https://easychair.org/my/conference?conf=geomorphometry2023</a></p>
+
+<p><strong>Calendar</strong></p>
+
+<ul>
+  <li>EasyChair system opens for submissions: 10th November 2022</li>
+  <li>Extended 4-page abstracts due to EasyChair: 15th January 2023</li>
+  <li>Workshop proposals due: 15th February 2023</li>
+  <li>Notification of acceptance and required revisions: 28th February 2023</li>
+  <li>Registration opens: 1st March 2023</li>
+  <li>Final camera-ready digital manuscripts due: 30th April 2023</li>
+  <li>Early registration deadline: 1st May 2023</li>
+  <li>Conference: 10th-14th July 2023</li>
+</ul>]]></content><author><name></name></author><category term="event" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Summary of Geomorphometry 2021</title><link href="http://localhost:4000/2021/09/27/summary-of-geomorphometry-2021.html" rel="alternate" type="text/html" title="Summary of Geomorphometry 2021" /><published>2021-09-27T00:00:00-03:00</published><updated>2021-09-27T00:00:00-03:00</updated><id>http://localhost:4000/2021/09/27/summary-of-geomorphometry-2021</id><content type="html" xml:base="http://localhost:4000/2021/09/27/summary-of-geomorphometry-2021.html"><![CDATA[<p>About 50 researchers from around the world attended the event, mostly by remote connection. The conference only featured oral sessions, with 44 contributions. Three invited keynote talks, by Michael Hutchinson (Australian National University College of Science), Igor Florinsky (Russian Academy of Sciences) and Marco Cavalli (CNR IRPI, Padua) enriched the content of the conference. <a href="http://geomorphometry2021.org/index.php/scientific-program">Contributions</a> were spread over three days, grouped by topic: “use of digital elevation, terrain and surface models” on day 1, “dynamics of earth surface: automated surface analysis and modelization” on day 2, and “modeling geomorphological processes” on day 3.</p>
+
+<p>All of the sessions demonstrated that quantitative analysis of the Earth’s surface is closely related to the scale at which the surface itself is described/represented. Research on a global scale (<em>e.g.</em> aimed at the definition of accurate hydrographic networks) was counterbalanced by studies that focused on centimetric portions of Earth’s surface (<em>e.g.</em> small plates where accretion of tufa/travertine is studied). A related relevant topic was the comparison of lidar data with global (or quasi-global) DEMs and among different global DEMs, using different methods in many study areas. Explicit comparisons highlighted that, in selected areas representative of most existing settings, Copernicus DEM is the best performing; other comparisons in different areas and methods favored MERIT DEM. In all cases, lidar data represents the benchmark. Despite that, a discussion highlighted that peculiar applications may not be so sensitive to details represented in elevation data from lidar and/or SfM measurements to justify the much higher cost. There also have been an explicit proposal to merge global and local elevation data, already existing and available online for Europe.</p>
+
+<p>This also lead to a discussion about the characteristic scale of terrain analysis, and a few presentations described multi-scale approaches as mature tools for a variety of application. Mainly, they described multi-scale methods for estimation of terrain roughness, curvatures, and landform mapping. The relationship between multi-scale approaches and characteristic scale may lead to need of optimization of numerical parameters for terrain analysis and classification.</p>
+
+<p>A few presentations focused on the geomorphological and physical meaning of maps derived from digital terrain models (such as curvatures) or on the definition of new functions aimed at representing the topology of surface water flow directions or the selection of features (derived from DEM) which are relevant in supervised classification applications.</p>
+
+<p>Applications of geomorphometry concepts and algorithms to other disciplines/topics have been numerous and included tectonics, soil erosion, landslide susceptibility, thermokarst phenomena, river forms, coastal habitat and coastal dunes, crevasses in polar ice, inundated areas, glacial cirques and volcanic eruptions.</p>
+
+<p>One addition to the topics of this year’s edition of the conference was specifically commercial and industrial application. The scientific program actually included a few contributions explicitly reporting about industrial processes (microscopic analysis of silicon wafer “topography”) and commercial applications (deposition and analysis of submarine cables, rockfall susceptibility along the Italian national railway). Other contributions, even if not specifically commercial, highlighted the use of algorithms borrowed from computer graphics for terrain segmentation, and adaptation of general purpose software for marine geomorphometry. Moreover, commercial and industrial applications were one of the key topics – along with the role of local/global elevation data – for a proposed session at the upcoming European Geoscience Union General Assembly, prepared by a few of the participants of Geomorphometry 2021.</p>
+
+<p>Contributions presented at the conference are available as peer-reviewed short papers from the <a href="https://doi.org/10.30437/geomorphometry2020">book of Proceedings</a> of the 2020 submissions (CNR Edizioni, Rome), or on <a href="https://zenodo.org/communities/geomorphometry/?page=1&amp;size=20">Zenodo</a>, for new submissions. Most of the presentations are also available as PDF and/or video recording at the <a href="http://geomorphometry2021.org/index.php/scientific-program">conference website</a>; a few of the contributions also have a link to published papers, either on the special issue “Advances in geomorphometry” in the journal <a href="https://onlinelibrary.wiley.com/loi/14679671">Transaction in GIS</a>.</p>
+
+<p><img src="images/summary_pic5-1024x421.jpg" alt="" /></p>
+
+<p>The beautiful city of Perugia</p>
+
+<p><img src="images/summary_pic3-1024x768.jpg" alt="" /></p>
+
+<p>In-person attendance to the conference</p>
+
+<p><img src="images/summary_pic1.png" alt="" /></p>
+
+<p>Happy faces from all around the world</p>]]></content><author><name></name></author><category term="event" /><summary type="html"><![CDATA[About 50 researchers from around the world attended the event, mostly by remote connection. The conference only featured oral sessions, with 44 contributions. Three invited keynote talks, by Michael Hutchinson (Australian National University College of Science), Igor Florinsky (Russian Academy of Sciences) and Marco Cavalli (CNR IRPI, Padua) enriched the content of the conference. Contributions were spread over three days, grouped by topic: “use of digital elevation, terrain and surface models” on day 1, “dynamics of earth surface: automated surface analysis and modelization” on day 2, and “modeling geomorphological processes” on day 3.]]></summary></entry><entry><title type="html">Digital Elevation Models (DEMs): Terminology and Definitions</title><link href="http://localhost:4000/2021/09/16/digital-elevation-models-dems-terminology-and-definitions.html" rel="alternate" type="text/html" title="Digital Elevation Models (DEMs): Terminology and Definitions" /><published>2021-09-16T00:00:00-03:00</published><updated>2021-09-16T00:00:00-03:00</updated><id>http://localhost:4000/2021/09/16/digital-elevation-models-dems-terminology-and-definitions</id><content type="html" xml:base="http://localhost:4000/2021/09/16/digital-elevation-models-dems-terminology-and-definitions.html"><![CDATA[<p>There is a new paper on DEM terminology and definitions (open access):</p>
+
+<p>Guth, P.L., Niekerk, A.V., Grohmann, C.H., Muller, J.-P., Hawker, L., Florinsky, I.V., Gesch, D., Reuter, H.I., Herrera-Cruz, V., Riazanoff, S., Lópéz-Vázquez, C., Carabajal, C.C., Albinet, C., Strobl, P., 2021 - Digital Elevation Models: Terminology and Definitions. Remote Sensing, 13(18):3581. <a href="https://doi.org/10.3390/rs13183581">https://doi.org/10.3390/rs13183581</a></p>
+
+<p>The paper is the first major contribution of the DEMIX project (<a href="https://youtu.be/veZA4O1rU28">DEM Intercomparison EXercise</a>). The idea is to “consolidate terminology and definitions of key concepts to facilitate a common understanding among the growing community of DEM users,<br />
+who do not necessarily share the same background”.</p>
+
+<p><img src="images/paper_demix_dem_dtm-1024x648.png" alt="" /></p>
+
+<p>Scheme showing the surfaces represented by a DSM, a DTM, and a NVS (Guth et al., 2021)</p>]]></content><author><name></name></author><category term="publication" /><summary type="html"><![CDATA[There is a new paper on DEM terminology and definitions (open access):]]></summary></entry><entry><title type="html">Digital Elevation Model Intercomparison eXperiment (DEMIX) working group</title><link href="http://localhost:4000/2021/08/19/digital-elevation-model-intercomparison-experiment-demix-working-group.html" rel="alternate" type="text/html" title="Digital Elevation Model Intercomparison eXperiment (DEMIX) working group" /><published>2021-08-19T00:00:00-03:00</published><updated>2021-08-19T00:00:00-03:00</updated><id>http://localhost:4000/2021/08/19/digital-elevation-model-intercomparison-experiment-demix-working-group</id><content type="html" xml:base="http://localhost:4000/2021/08/19/digital-elevation-model-intercomparison-experiment-demix-working-group.html"><![CDATA[<p>The Digital Elevation Model Intercomparison eXperiment (DEMIX) working group is working to standardize DEM terminology, and evaluate the available global 1 arc second DEMs. They published a paper setting out their goals this summer.</p>
+
+<ul>
+  <li>Strobl, P. A., Bielski, C., Guth, P. L., Grohmann, C. H., Muller, J.-P., López-Vázquez, C., Gesch, D. B., Amatulli, G., Riazanoff, S., and Carabajal, C.: 2021 <a href="https://doi.org/10.5194/isprs-archives-XLIII-B4-2021-395-2021">THE DIGITAL ELEVATION MODEL INTERCOMPARISON EXPERIMENT DEMIX, A COMMUNITY-BASED APPROACH AT GLOBAL DEM BENCHMARKING</a>, Int. Arch. Photogramm. Remote Sens. Spatial Inf. Sci., XLIII-B4-2021, 395–400, <a href="https://doi.org/10.5194/isprs-archives-XLIII-B4-2021-395-2021">https://doi.org/10.5194/isprs-archives-XLIII-B4-2021-395-2021</a>.</li>
+</ul>
+
+<p>10 minute movie: DEMIX – The Digital Elevation Model Intercomparison EXperiment:</p>
+
+<p>https://www.youtube.com/watch?v=veZA4O1rU28</p>]]></content><author><name></name></author><category term="publication" /><summary type="html"><![CDATA[The Digital Elevation Model Intercomparison eXperiment (DEMIX) working group is working to standardize DEM terminology, and evaluate the available global 1 arc second DEMs. They published a paper setting out their goals this summer.]]></summary></entry><entry><title type="html">A Hydrologist’s Guide to Open Science (preprint)</title><link href="http://localhost:4000/publication/story/2021/08/12/a-hydrologists-guide-to-open-science-preprint.html" rel="alternate" type="text/html" title="A Hydrologist’s Guide to Open Science (preprint)" /><published>2021-08-12T00:00:00-03:00</published><updated>2021-08-12T00:00:00-03:00</updated><id>http://localhost:4000/publication/story/2021/08/12/a-hydrologists-guide-to-open-science-preprint</id><content type="html" xml:base="http://localhost:4000/publication/story/2021/08/12/a-hydrologists-guide-to-open-science-preprint.html"><![CDATA[<p>Hall et al., (2021) have recently submitted a paper discussing a general Open Hydrology framework to guide individual and community progress toward open science for research and education. In the times when reproducible research and Open Science are more important than ever, this seems as a systematic guide that everyone (beyond hydrologists!) should read:</p>
+
+<ul>
+  <li>Hall, C. A., Saia, S. M., Popp, A. L., Dogulu, N., Schymanski, S. J., Drost, N., van Emmerik, T., and Hut, R.: <strong><a href="https://doi.org/10.5194/hess-2021-392">A Hydrologist’s Guide to Open Science</a></strong>, Hydrol. Earth Syst. Sci. Discuss. [preprint], https://doi.org/10.5194/hess-2021-392, in review, 2021.</li>
+</ul>]]></content><author><name></name></author><category term="publication" /><category term="story" /><category term="biblio" /><category term="paper" /><summary type="html"><![CDATA[Hall et al., (2021) have recently submitted a paper discussing a general Open Hydrology framework to guide individual and community progress toward open science for research and education. In the times when reproducible research and Open Science are more important than ever, this seems as a systematic guide that everyone (beyond hydrologists!) should read:]]></summary></entry><entry><title type="html">Continental Europe Digital Terrain Model at 30 m resolution based on multisource data</title><link href="http://localhost:4000/2021/08/12/continental-europe-digital-terrain-model-at-30-m-resolution-based-on-multisource-data.html" rel="alternate" type="text/html" title="Continental Europe Digital Terrain Model at 30 m resolution based on multisource data" /><published>2021-08-12T00:00:00-03:00</published><updated>2021-08-12T00:00:00-03:00</updated><id>http://localhost:4000/2021/08/12/continental-europe-digital-terrain-model-at-30-m-resolution-based-on-multisource-data</id><content type="html" xml:base="http://localhost:4000/2021/08/12/continental-europe-digital-terrain-model-at-30-m-resolution-based-on-multisource-data.html"><![CDATA[<p>Within the <strong><a href="https://maps.opendatascience.eu/?base=OpenStreetMap%20(grayscale)&amp;layer=Topographic%20index%20(wetness%20index)&amp;zoom=4.8&amp;center=45.3356,9.9145&amp;opacity=45">OpenDataScience.eu</a></strong> (Geo-harmonizer) project we have recently produced an Digital Terrain Model for Continental Europe based on the four publicly available Digital Surface Models:  <a href="http://hydro.iis.u-tokyo.ac.jp/~yamadai/MERIT_DEM/">MERITDEM</a>, <a href="https://www.eorc.jaxa.jp/ALOS/en/aw3d30/index.htm">AW3D30</a>, <a href="https://spacedata.copernicus.eu/web/cscda/dataset-details?articleId=394198">GLO-30</a>, <a href="https://www.eea.europa.eu/data-and-maps/data/copernicus-land-monitoring-service-eu-dem">EU DEM</a>. This is basically an Ensemble Machine Learning approach where GEDI level 2B points (Level 2A; “elev_lowestmode”) and ICESat-2 (ATL08; “h_te_mean”) were used to train a multisource model to predict “most probable height of terrain” including the prediction errors per pixel.</p>
+
+<p>So which of the four big global DEM’s is the best match with terrain heights? Our results indicate that it is the <a href="http://hydro.iis.u-tokyo.ac.jp/~yamadai/MERIT_DEM/">MERITv1.0.1</a> (originally available at 90-m, but was downscaled here to 30-m using cubic splines) followed by the AW3Dv2012 and GLO-30. This confirms that Yamazaki et al. (2017) have done an excellent work in filtering out canopy and artifacts in the original SRTM/AWD30 data.</p>
+
+<p>Read more about MERIT DEM in:</p>
+
+<ul>
+  <li>Yamazaki D., D. Ikeshima, R. Tawatari, T. Yamaguchi, F. O’Loughlin, J.C. Neal, C.C. Sampson, S. Kanae &amp; P.D. Bates, (2017). <a href="http://onlinelibrary.wiley.com/doi/10.1002/2017GL072874/full">A high accuracy map of global terrain elevations</a>. Geophysical Research Letters, vol.44, pp.5844-5853, 2017 doi: <a href="https://doi.org/10.1002/2017GL072874">10.1002/2017GL072874</a></li>
+</ul>
+
+<p>To access the Continental Europe Digital Terrain Model at 30-m please visit https://maps.opendatascience.eu and select “terrain” from the layer menu.</p>
+
+<p>You can also download the DTM for EU including the regression matrix with all training points (GEDI/ICESat) via:</p>
+
+<ul>
+  <li>Hengl, T., Leal Parente, L., Krizan, J., &amp; Bonannella, C. (2020). <a href="https://zenodo.org/record/4724549">Continental Europe Digital Terrain Model at 30 m resolution based on GEDI, ICESat-2, AW3D, GLO-30, EUDEM, MERIT DEM and background layers (v0.3)</a> [Data set]. Zenodo. https://doi.org/10.5281/zenodo.4724549</li>
+</ul>]]></content><author><name></name></author><category term="data-sets" /><category term="publication" /><summary type="html"><![CDATA[Within the OpenDataScience.eu (Geo-harmonizer) project we have recently produced an Digital Terrain Model for Continental Europe based on the four publicly available Digital Surface Models:  MERITDEM, AW3D30, GLO-30, EU DEM. This is basically an Ensemble Machine Learning approach where GEDI level 2B points (Level 2A; “elev_lowestmode”) and ICESat-2 (ATL08; “h_te_mean”) were used to train a multisource model to predict “most probable height of terrain” including the prediction errors per pixel.]]></summary></entry><entry><title type="html">Copernicus Digital Elevation Model (DEM) as Open Data on Amazon AWS and Sentinel-Hub</title><link href="http://localhost:4000/2021/08/12/copernicus-digital-elevation-model-dem-as-open-data-on-amazon-aws-and-sentinel-hub.html" rel="alternate" type="text/html" title="Copernicus Digital Elevation Model (DEM) as Open Data on Amazon AWS and Sentinel-Hub" /><published>2021-08-12T00:00:00-03:00</published><updated>2021-08-12T00:00:00-03:00</updated><id>http://localhost:4000/2021/08/12/copernicus-digital-elevation-model-dem-as-open-data-on-amazon-aws-and-sentinel-hub</id><content type="html" xml:base="http://localhost:4000/2021/08/12/copernicus-digital-elevation-model-dem-as-open-data-on-amazon-aws-and-sentinel-hub.html"><![CDATA[<p>European Space Agency (ESA) has recently made available two global Digital Surface Models:</p>
+
+<ul>
+  <li>GLO-30: the 30-m spatial resolution DSM,</li>
+  <li>GLO-90: the 90-m spatial resolution DSM,</li>
+</ul>
+
+<p>Both are available for download from <a href="https://spacedata.copernicus.eu/data-offer/core-datasets"><strong>cdsdata.copernicus.eu</strong></a> on a free basis for the general public under the terms and conditions of the Licence found <a href="https://spacedata.copernicus.eu/documents/20126/0/CSCDA_ESA_Mission-specific+Annex.pdf">here</a>.</p>
+
+<p>A copy of the GLO-30 and GLO-90 is now also available as Cloud Optimized GeoTIFFs from the <a href="https://registry.opendata.aws/copernicus-dem/"><strong>Amazon AWS public data repository</strong></a>. The visualization shown above is from the <a href="https://apps.sentinel-hub.com/eo-browser/?zoom=12&amp;lat=41.7726&amp;lng=12.29198&amp;themeId=DEFAULT-THEME&amp;visualizationUrl=https%3A%2F%2Fservices.sentinel-hub.com%2Fogc%2Fwms%2F6448ffd0-56c5-4601-bed7-242bf75d97db&amp;datasetId=DEM_COPERNICUS_30&amp;fromTime=2021-08-12T00%3A00%3A00.000Z&amp;toTime=2021-08-12T23%3A59%3A59.999Z&amp;layerId=COLOR">sentinel-hub.com</a>.</p>
+
+<p>To learn more about the GLO-30 and it’s accuracy and production, refer to <a href="https://spacedata.copernicus.eu/web/cscda/dataset-details?articleId=394198">this article</a>.</p>]]></content><author><name></name></author><category term="data-sets" /><category term="story" /><summary type="html"><![CDATA[European Space Agency (ESA) has recently made available two global Digital Surface Models:]]></summary></entry><entry><title type="html">GRASS GIS v8 release end of 2021</title><link href="http://localhost:4000/2021/08/12/grass-gis-v8-release-end-of-2021.html" rel="alternate" type="text/html" title="GRASS GIS v8 release end of 2021" /><published>2021-08-12T00:00:00-03:00</published><updated>2021-08-12T00:00:00-03:00</updated><id>http://localhost:4000/2021/08/12/grass-gis-v8-release-end-of-2021</id><content type="html" xml:base="http://localhost:4000/2021/08/12/grass-gis-v8-release-end-of-2021.html"><![CDATA[<p>The GRASS GIS development team has used the lock-down times also to work hard on the v8 release of the popular GRASS GIS software (see <a href="https://trac.osgeo.org/grass/wiki/Grass8Planning">complete list of new functionality</a>).</p>
+
+<p>There are many new additions to the raster library expected and likely Digital Terrain Modeling and analysis should likely run smoother. The GRASS GIS will stay available via QGIS but also will provide direct Python 3 support and of course R community should be able to access GRASS modules directly via the <a href="https://rdrr.io/rforge/rgrass7/">rgrass</a> package.</p>
+
+<p>We are looking forward to seeing the new GRASS GIS in action!</p>]]></content><author><name></name></author><category term="scripts" /><category term="story" /><summary type="html"><![CDATA[The GRASS GIS development team has used the lock-down times also to work hard on the v8 release of the popular GRASS GIS software (see complete list of new functionality).]]></summary></entry><entry><title type="html">NASA Sea level projection tool</title><link href="http://localhost:4000/2021/08/12/nasa-sea-level-projection-tool.html" rel="alternate" type="text/html" title="NASA Sea level projection tool" /><published>2021-08-12T00:00:00-03:00</published><updated>2021-08-12T00:00:00-03:00</updated><id>http://localhost:4000/2021/08/12/nasa-sea-level-projection-tool</id><content type="html" xml:base="http://localhost:4000/2021/08/12/nasa-sea-level-projection-tool.html"><![CDATA[<p>NASA has recently released <strong><a href="https://sealevel.nasa.gov/ipcc-ar6-sea-level-projection-tool">an interactive webmapping tool</a></strong> to explore effect of global warming on the sea level rise and potential risks / damages associated.</p>
+
+<p>“The NASA Sea Level Projection Tool allows users to visualize and download the sea level projection data from the IPCC 6th Assessment Report (AR6). The goal of this tool is to provide easy and improved access and visualization to the consensus projections found in the report. The target audience is intended to be broad, allowing a general audience and scientists alike to interact with the information contained in the AR6.”</p>
+
+<p>To learn more about method and Digital Terrain Model source used for modeling, please refer to:</p>
+
+<ul>
+  <li>Fox-Kemper, B., H. T. Hewitt, C. Xiao, G. Aðalgeirsdóttir, S. S. Drijfhout, T. L. Edwards, N. R. Golledge, M. Hemer, R. E. Kopp, G. Krinner, A. Mix, D. Notz, S. Nowicki, I. S. Nurhati, L. Ruiz, J-B. Sallée, A. B. A. Slangen, Y. Yu, (2021). <strong><a href="https://www.unep.org/resources/report/climate-change-2021-physical-science-basis-working-group-i-contribution-sixth">Ocean, Cryosphere and Sea Level Change. In: Climate Change 2021: The Physical Science Basis</a></strong>. Contribution of Working Group I to the Sixth Assessment Report of the Intergovernmental Panel on Climate Change [MassonDelmotte, V., P. Zhai, A. Pirani, S. L. Connors, C. Péan, S. Berger, N. Caud, Y. Chen, L. Goldfarb, M. I. Gomis, M. Huang, K. Leitzell, E. Lonnoy, J. B. R. Matthews, T. K. Maycock, T. Waterfield, O. Yelekçi, R. Yu and B. Zhou (eds.)]. Cambridge University Press. In Press.</li>
+</ul>]]></content><author><name></name></author><category term="data-sets" /><category term="story" /><summary type="html"><![CDATA[NASA has recently released an interactive webmapping tool to explore effect of global warming on the sea level rise and potential risks / damages associated.]]></summary></entry></feed>

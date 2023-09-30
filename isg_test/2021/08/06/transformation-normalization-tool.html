@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<!--
+    Type on Strap jekyll theme v2.4.5
+    Theme free for personal and commercial use under the MIT license
+    https://github.com/sylhare/Type-on-Strap/blob/master/LICENSE
+-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=0.5, maximum-scale=5">
+
+    <!-- Theme Mode-->
+    
+    <script>
+        const isAutoTheme = true;
+        document.documentElement.setAttribute('data-theme', sessionStorage.getItem('theme'))
+    </script>
+    
+
+    <!-- Main JS (navbar.js, katex_init.js and masonry_init.js)-->
+    <script defer src="/assets/js/main.min.js"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/assets/css/main.css">
+
+    <!--Favicon-->
+    <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon">
+
+    
+
+    <!-- KaTeX 0.15.2 -->
+    
+    <script defer src="/assets/js/vendor/katex.min.js"></script>
+    <script defer src="/assets/js/vendor/auto-render.min.js" onload="renderMathInElement(document.body);"></script>
+    
+
+    <!-- Mermaid 9.1.1 -->
+    
+    <script defer src="/assets/js/vendor/mermaid.min.js" onload="mermaid.initialize({
+      startOnLoad:true,
+      theme: 'default',
+    });"></script>
+    
+
+    <!-- Simple Jekyll Search 1.10.0 -->
+    <script src="/assets/js/vendor/simple-jekyll-search.min.js" type="text/javascript"></script>
+
+    <!-- Google Analytics / Cookie Consent -->
+    <script>
+      const cookieName = 'cookie-notice-dismissed-http://localhost:4000';
+      const isCookieConsent = 'false';
+      const analyticsName = '';
+      const analyticsNameGA4 = '';
+    </script>
+
+    
+    
+
+    <!-- seo tags -->
+    <meta property="og:image" content="http://localhost:4000/assets/img/pexels/travel.jpeg">
+    
+    <meta property="og:type" content="website" />
+    
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Transformation (normalization) tool | Geomorphometry.org</title>
+<meta name="generator" content="Jekyll v4.3.2" />
+<meta property="og:title" content="Transformation (normalization) tool" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Short title: transform" />
+<meta property="og:description" content="Short title: transform" />
+<link rel="canonical" href="http://localhost:4000/2021/08/06/transformation-normalization-tool.html" />
+<meta property="og:url" content="http://localhost:4000/2021/08/06/transformation-normalization-tool.html" />
+<meta property="og:site_name" content="Geomorphometry.org" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-08-06T00:00:00-03:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Transformation (normalization) tool" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2021-08-06T00:00:00-03:00","datePublished":"2021-08-06T00:00:00-03:00","description":"Short title: transform","headline":"Transformation (normalization) tool","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2021/08/06/transformation-normalization-tool.html"},"url":"http://localhost:4000/2021/08/06/transformation-normalization-tool.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+    <!-- RSS -->
+    <link rel="alternate" type="application/atom+xml" title="Geomorphometry.org" href="http://localhost:4000/feed.xml"/>
+    <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Geomorphometry.org" />
+
+    <!-- Twitter Cards -->
+    <meta name="twitter:title" content="Transformation (normalization) tool">
+    <meta name="twitter:description" content="Short title:  transformInputs: Slope raster or curvature raster; any other variables with skewed or long-tailed distributionsOutputs: Normalized slope or cur...">
+    
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:image" content="http://localhost:4000/assets/img/pexels/travel.jpeg">
+    <meta name="twitter:image:alt" content="Transformation (normalization) tool">
+</head>
+
+  <body>
+    <header class="site-header">
+
+    <!-- Logo and title -->
+	<div class="branding">
+        
+		<a href="/">
+			<img alt="logo img" class="avatar" src="/assets/img/logo-9.png" loading="lazy">
+		</a>
+        
+        <a class="site-title" aria-label="Geomorphometry.org" href="/">
+        Geomorphometry.org
+		</a>
+	</div>
+
+    <!-- Toggle menu -->
+    <nav class="clear">
+    <a aria-label="pull" id="pull" class="toggle" href="#">
+    <i class="fas fa-bars fa-lg"></i>
+    </a>
+
+    <!-- Menu -->
+    <ul class="hide">
+        
+
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            <li class="separator"> | </li>
+            <li>
+                <a class="clear" aria-label="About the ISG" title="About the ISG" href="/about/">
+                     About the ISG 
+                </a>
+            </li>
+            
+            
+        
+            
+            <li class="separator"> | </li>
+            <li>
+                <a class="clear" aria-label="ISG Events" title="ISG Events" href="/events/">
+                     ISG Events 
+                </a>
+            </li>
+            
+            
+        
+            
+            <li class="separator"> | </li>
+            <li>
+                <a class="clear" aria-label="Awards" title="Awards" href="/awards/">
+                     Awards 
+                </a>
+            </li>
+            
+            
+        
+            
+            <li class="separator"> | </li>
+            <li>
+                <a class="clear" aria-label="Code/Data" title="Code/Data" href="/code_data/">
+                     Code/Data 
+                </a>
+            </li>
+            
+            
+        
+            
+            <li class="separator"> | </li>
+            <li>
+                <a class="clear" aria-label="Archive" title="Archive" href="/archive/">
+                     Archive 
+                </a>
+            </li>
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            <li class="separator"> | </li>
+            <li>
+                <a class="clear" aria-label="Blog" title="Blog" href="/blog/">
+                     Blog 
+                </a>
+            </li>
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            <li class="separator"> | </li>
+            <li>
+                <a class="clear" aria-label="Search" title="Search" href="/search/">
+                     <i class="fas fa-search" aria-hidden="true"></i>
+                    
+                </a>
+            </li>
+            
+            
+        
+            
+            
+        
+            
+            <li class="separator"> | </li>
+            <li>
+                <a class="clear" aria-label="Tags" title="Tags" href="/tags/">
+                     <i class="fas fa-tags" aria-hidden="true"></i>
+                    
+                </a>
+            </li>
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+
+        
+        <li class="separator"> | </li>
+        <li><a id="theme-toggle" title="Transformation (normalization) tool " aria-label="Transformation (normalization) tool" onclick="themeToggle()"></a></li>
+        
+    </ul>
+
+	</nav>
+</header>
+
+    <div class="content">
+      <article>
+  <header id="main" style="">
+    <div class="title-padder">
+      
+      <h1 id="Transformation+%28normalization%29+tool" class="title">Transformation (normalization) tool</h1>
+      
+
+
+<div class="post-info">
+    <p class="meta">
+      
+      
+      August 06, 2021
+    </p>
+</div>
+
+      
+    </div>
+  </header>
+
+  <section class="post-content">
+  
+      <p>Short title:  transform</p>
+
+<p><strong><em>Inputs:</em></strong> Slope raster or curvature raster; any other variables with skewed or long-tailed distributions<br>
+<em><strong>Outputs:</strong></em> Normalized slope or curvature raster; a text file informing about transformation used and new skewness/kurtosis.</p>
+
+<p>For <strong>INSTRUCTIONS</strong>, please visit: <a href="http://research.enjoymaps.ro/downloads/" target="_blank" rel="noopener noreferrer">http://research.enjoymaps.ro/downloads/</a></p>
+
+<p><strong>Reference:</strong><br>
+<a href="http://www.sciencedirect.com/science/article/pii/S0169555X15000033#" target="_blank" rel="noopener noreferrer">Csillik, O., Evans, I.S., Drăguţ, L., 2015. Transformation (normalization) of slope gradient and surface curvatures, automated for statistical analyses from DEMs. Geomorphology <strong>232</strong>(0): 65-77.</a>Purpose and use:</p>
+
+<p>Automated procedures are developed to alleviate long tails in frequency distributions of morphometric variables. They minimize the skewness of slope gradient frequency distributions, and modify the kurtosis of profile and plan curvature distributions towards that of the Gaussian (normal) model. Box-Cox (for slope) and arctangent (for curvature) transformations are used. The transforms are applicable to morphometric variables and many others with skewed or long-tailed distributions. It is suggested that such transformations should be routinely applied in all parametric analyses of long-tailed variables. Our Box-Cox and curvature automated transformations are based on a Python script, implemented as an easy-to-use script tool in ArcGIS.</p>
+
+<p><strong>Programming environment:</strong>  Python<br>
+<strong>Status of work:</strong>  Public Domain</p>
+
+<p><a href="/uploads/zip/Transformation-Tools.zip">Download</a></p>
+
+    
+  </section>
+
+  <!-- Social media shares -->
+  
+
+<div class="share-buttons">
+    <ul class="share-buttons">
+        <li class="meta">Share</li>
+        
+        <li>
+            <a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/2021/08/06/transformation-normalization-tool.html" target="_blank" title=" Facebook" rel="noopener noreferrer">
+                <i class="fab fa-facebook-square fa-2x" aria-hidden="true"></i>
+                <span class="sr-only">Share on Facebook</span>
+            </a>
+        </li>
+         
+        <li>
+            <a href="https://twitter.com/intent/tweet?text=Transformation+%28normalization%29+tool%20http%3A%2F%2Flocalhost%3A4000%2F2021%2F08%2F06%2Ftransformation-normalization-tool.html" target="_blank" title="" rel="noopener noreferrer">
+                <i class="fab fa-twitter-square fa-2x" aria-hidden="true"></i>
+                <span class="sr-only">Tweet</span>
+            </a>
+        </li>
+         
+        <li>
+            <a href="https://www.tumblr.com/share?v=3&amp;u=http://localhost:4000/2021/08/06/transformation-normalization-tool.html&amp;quote=Transformation+%28normalization%29+tool%20%7C%20Geomorphometry.org&amp;s=" target="_blank" title=" Tumblr" rel="noopener noreferrer">
+                <i class="fab fa-tumblr-square fa-2x" aria-hidden="true"></i>
+                <span class="sr-only">Share on Tumblr</span>
+            </a>
+        </li>
+         
+        <li>
+            <a href="https://pinterest.com/pin/create/button/?url=http://localhost:4000/2021/08/06/transformation-normalization-tool.html&amp;media=$description=Short+title%3A++transform%0A" target="_blank" title="" rel="noopener noreferrer">
+                <i class="fab fa-pinterest-square fa-2x" aria-hidden="true"></i>
+                <span class="sr-only">Pin it</span>
+            </a>
+        </li>
+          
+        <li>
+            <a href="https://www.reddit.com/submit?url=http://localhost:4000/2021/08/06/transformation-normalization-tool.html&amp;title=Transformation+%28normalization%29+tool%20%7C%20Geomorphometry.org" target="_blank" title=" Reddit" rel="noopener noreferrer">
+                <i class="fab fa-reddit-square fa-2x" aria-hidden="true"></i>
+                <span class="sr-only">Share on Reddit</span>
+            </a>
+        </li>
+         
+        <li>
+            <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http://localhost:4000/2021/08/06/transformation-normalization-tool.html&amp;title=Transformation+%28normalization%29+tool%20%7C%20Geomorphometry.org&amp;summary=&amp;source=http://localhost:4000/2021/08/06/transformation-normalization-tool.html" target="_blank" title=" LinkedIn" rel="noopener noreferrer">
+                <i class="fab fa-linkedin fa-2x" aria-hidden="true"></i>
+                <span class="sr-only">Share on LinkedIn</span>
+            </a>
+        </li>
+          
+        <li>
+            <a href="mailto:?subject=Transformation%20(normalization)%20tool%20%7C%20Geomorphometry.org&amp;body=http://localhost:4000/2021/08/06/transformation-normalization-tool.html" target="_blank" title="">
+                <i class="fas fa-envelope-square fa-2x" aria-hidden="true"></i>
+                <span class="sr-only">Email</span></a>
+        </li>
+        
+    </ul>
+</div>
+
+
+
+
+   <!-- Tag list -->
+  
+  
+
+
+  <div class="tag-list">
+    <ul>
+      
+        <li class="meta">Tags</li>
+      
+
+      
+        <li><a class="button" href="/tags#dataset">
+          <p><i class="fas fa-tag fa-fw fa-sm"></i> dataset</p>
+        </a></li>
+      
+        <li><a class="button" href="/tags#script">
+          <p><i class="fas fa-tag fa-fw fa-sm"></i> script</p>
+        </a></li>
+      
+    </ul>
+  </div>
+
+
+
+</article>
+
+<!-- Post navigation -->
+
+<div id="post-nav">
+    
+    <div id="previous-post">
+        <a alt="41st International Binghamton Geomorphology Symposium" href="/2021/08/07/41st-international-binghamton-geomorphology-symposium.html">
+            <p>Previous post</p>
+            41st International Binghamton Geomorphology Symposium
+        </a>
+    </div>
+    
+
+    
+    <div id="next-post">
+        <a alt="Generic landforms" href="/2021/08/06/generic-landforms.html">
+            <p>Next post</p>
+            Generic landforms
+        </a>
+    </div>
+    
+</div>
+
+
+
+<!--Utterances-->
+
+
+<!-- Cusdis -->
+
+
+<!-- Disqus -->
+
+
+<!-- To change color of links in the page -->
+<style>
+  header#main {
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+  }
+
+  
+
+  
+</style>
+
+    </div>
+    <footer class="site-footer">
+    <p class="text">
+        Powered by <a href="https://jekyllrb.com/" target="_blank" rel="noopener noreferrer">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap" target="_blank" rel="noopener noreferrer">Type on Strap</a>
+</p>
+            <div class="footer-icons">
+                <ul>
+                <!-- Social icons from Font Awesome, if enabled -->
+                
+<li>
+    <a feed.xml href="/feed.xml" title="Follow RSS feed" target="_blank">
+        <span class="fa-stack fa-lg">
+            <i class="fas fa-circle fa-stack-2x"></i>
+            <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
+        </span>
+    </a>
+</li>
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+        
+        
+        
+        
+        <li>
+            <a href="https://github.com/sylhare" title="Follow on Github" target="_blank" rel="noopener noopener noreferrer">
+            <span class="fa-stack fa-lg">
+              <i class="fas fa-circle fa-stack-2x"></i>
+              <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+            </span>
+            </a>
+        </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+                </ul>
+            </div>
+</footer>
+
+
+
+  </body>
+</html>
