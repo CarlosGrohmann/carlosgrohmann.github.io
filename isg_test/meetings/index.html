@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<!--
+    Type on Strap jekyll theme v2.4.5
+    Theme free for personal and commercial use under the MIT license
+    https://github.com/sylhare/Type-on-Strap/blob/master/LICENSE
+-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=0.5, maximum-scale=5">
+
+    <!-- Theme Mode-->
+    
+    <script>
+        const isAutoTheme = true;
+        document.documentElement.setAttribute('data-theme', sessionStorage.getItem('theme'))
+    </script>
+    
+
+    <!-- Main JS (navbar.js, katex_init.js and masonry_init.js)-->
+    <script defer src="/isg_test/assets/js/main.min.js"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/isg_test/assets/css/main.css">
+
+    <!--Favicon-->
+    <link rel="shortcut icon" href="/isg_test/assets/favicon.ico" type="image/x-icon">
+
+    
+
+    <!-- KaTeX 0.15.2 -->
+    
+    <script defer src="/isg_test/assets/js/vendor/katex.min.js"></script>
+    <script defer src="/isg_test/assets/js/vendor/auto-render.min.js" onload="renderMathInElement(document.body);"></script>
+    
+
+    <!-- Mermaid 9.1.1 -->
+    
+    <script defer src="/isg_test/assets/js/vendor/mermaid.min.js" onload="mermaid.initialize({
+      startOnLoad:true,
+      theme: 'default',
+    });"></script>
+    
+
+    <!-- Simple Jekyll Search 1.10.0 -->
+    <script src="/isg_test/assets/js/vendor/simple-jekyll-search.min.js" type="text/javascript"></script>
+
+    <!-- Google Analytics / Cookie Consent -->
+    <script>
+      const cookieName = 'cookie-notice-dismissed-http://carlosgrohmann.com/';
+      const isCookieConsent = 'false';
+      const analyticsName = '';
+      const analyticsNameGA4 = '';
+    </script>
+
+    
+    
+
+    <!-- seo tags -->
+    <meta property="og:image" content="http://carlosgrohmann.com//isg_test/uploads/img/unsplash/nik-shuliahin-unsplash.jpg">
+    
+    <meta property="og:type" content="website" />
+    
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>ISG Events | Geomorphometry.org</title>
+<meta name="generator" content="Jekyll v4.3.2" />
+<meta property="og:title" content="ISG Events" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Geomorphometry.org" />
+<meta property="og:description" content="Geomorphometry.org" />
+<link rel="canonical" href="http://carlosgrohmann.com//isg_test/meetings/" />
+<meta property="og:url" content="http://carlosgrohmann.com//isg_test/meetings/" />
+<meta property="og:site_name" content="Geomorphometry.org" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="ISG Events" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"Geomorphometry.org","headline":"ISG Events","url":"http://carlosgrohmann.com//isg_test/meetings/"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+    <!-- RSS -->
+    <link rel="alternate" type="application/atom+xml" title="Geomorphometry.org" href="http://carlosgrohmann.com//isg_test/feed.xml"/>
+    <link type="application/atom+xml" rel="alternate" href="http://carlosgrohmann.com//isg_test/feed.xml" title="Geomorphometry.org" />
+
+    <!-- Twitter Cards -->
+    <meta name="twitter:title" content="ISG Events">
+    <meta name="twitter:description" content="### Geomorphometry Coffee Talks- [Information and Schedule](/coffee_talks/)### Geomorphometry Meetings - [Geomorphometry 2023]({{site.baseurl}}/meetings/iasi...">
+    
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:image" content="http://carlosgrohmann.com//isg_test/uploads/img/unsplash/nik-shuliahin-unsplash.jpg">
+    <meta name="twitter:image:alt" content="ISG Events">
+</head>
+
+  <body>
+    <header class="site-header">
+
+    <!-- Logo and title -->
+	<div class="branding">
+        
+		<a href="/isg_test/">
+			<img alt="logo img" class="avatar" src="/isg_test/assets/img/logo-9.png" loading="lazy">
+		</a>
+        
+        <a class="site-title" aria-label="Geomorphometry.org" href="/isg_test/">
+        Geomorphometry.org
+		</a>
+	</div>
+
+    <!-- Toggle menu -->
+    <nav class="clear">
+    <a aria-label="pull" id="pull" class="toggle" href="#">
+    <i class="fas fa-bars fa-lg"></i>
+    </a>
+
+    <!-- Menu -->
+    <ul class="hide">
+        
+
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            <li class="separator"> | </li>
+            <li>
+                <a class="clear" aria-label="About the ISG" title="About the ISG" href="/isg_test/about/">
+                     About the ISG 
+                </a>
+            </li>
+            
+            
+        
+            
+            <li class="separator"> | </li>
+            <li>
+                <a class="clear" aria-label="ISG Events" title="ISG Events" href="/isg_test/meetings/">
+                     ISG Events 
+                </a>
+            </li>
+            
+            
+        
+            
+            <li class="separator"> | </li>
+            <li>
+                <a class="clear" aria-label="Awards" title="Awards" href="/isg_test/awards/">
+                     Awards 
+                </a>
+            </li>
+            
+            
+        
+            
+            <li class="separator"> | </li>
+            <li>
+                <a class="clear" aria-label="Code/Data" title="Code/Data" href="/isg_test/code_data/">
+                     Code/Data 
+                </a>
+            </li>
+            
+            
+        
+            
+            <li class="separator"> | </li>
+            <li>
+                <a class="clear" aria-label="Archive" title="Archive" href="/isg_test/archive/">
+                     Archive 
+                </a>
+            </li>
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            <li class="separator"> | </li>
+            <li>
+                <a class="clear" aria-label="Blog" title="Blog" href="/isg_test/blog/">
+                     Blog 
+                </a>
+            </li>
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            <li class="separator"> | </li>
+            <li>
+                <a class="clear" aria-label="Search" title="Search" href="/isg_test/search/">
+                     <i class="fas fa-search" aria-hidden="true"></i>
+                    
+                </a>
+            </li>
+            
+            
+        
+            
+            
+        
+            
+            <li class="separator"> | </li>
+            <li>
+                <a class="clear" aria-label="Tags" title="Tags" href="/isg_test/tags/">
+                     <i class="fas fa-tags" aria-hidden="true"></i>
+                    
+                </a>
+            </li>
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+
+        
+        <li class="separator"> | </li>
+        <li><a id="theme-toggle" title="ISG Events " aria-label="ISG Events" onclick="themeToggle()"></a></li>
+        
+    </ul>
+
+	</nav>
+</header>
+
+    <div class="content">
+      <article class="feature-image">
+
+  <header id="main" style="background-image: url('/isg_test/uploads/img/unsplash/nik-shuliahin-unsplash.jpg')">
+    <div class="title-padder">
+      
+        <h1 id="ISG+Events" class="title"> ISG Events</h1>
+        
+      
+    </div>
+  </header>
+
+  <section class="post-content">
+  
+	<h3 id="geomorphometry-coffee-talks">Geomorphometry Coffee Talks</h3>
+<ul>
+  <li><a href="/coffee_talks/">Information and Schedule</a></li>
+</ul>
+
+<h3 id="geomorphometry-meetings">Geomorphometry Meetings</h3>
+<!-- [Group Photos Gallery](/gallery_groups/) -->
+<ul>
+  <li>
+<a href="/isg_test/meetings/iasi-2023/">Geomorphometry 2023</a> - Iasi, Romania - <a href="/isg_test/meetings/gallery-2023/">photo gallery</a>
+</li>
+  <li>
+<a href="/isg_test/meetings/perugia-2021/">Geomorphometry 2021</a> - Perugia, Italy - <a href="/isg_test/meetings/gallery-2021/">photo gallery</a>
+</li>
+  <li>
+<a href="/isg_test/meetings/boulder-2018/">Geomorphometry 2018</a> - Boulder, USA - <a href="/isg_test/meetings/gallery-2018/">photo gallery</a>
+</li>
+  <li>
+<a href="/isg_test/meetings/poznam-2015/">Geomorphometry 2015</a> - Poznam, Poland - <a href="/isg_test/meetings/gallery-2015/">photo gallery</a>
+</li>
+  <li>
+<a href="/isg_test/meetings/nanjing-2013/">Geomorphometry 2013</a> - Nanjing, China - <a href="/isg_test/meetings/gallery-2013/">photo gallery</a>
+</li>
+  <li>
+<a href="/isg_test/meetings/redlands-2011/">Geomorphometry 2011</a> - Redlands, USA - <a href="/isg_test/meetings/gallery-2011/">photo gallery</a>
+</li>
+  <li>
+<a href="/isg_test/meetings/zurich-2009/">Geomorphometry 2009</a> - Zurich, Switzerland - <a href="/isg_test/meetings/gallery-2009/">photo gallery</a>
+</li>
+  <li>
+<a href="/isg_test/meetings/nanjing-2006/">Geomorphometry 2006</a> - Nanjing, China - <a href="/isg_test/meetings/gallery-2006/">photo gallery</a>
+</li>
+</ul>
+
+  
+  </section>
+
+
+  <!-- Tag list for portfolio -->
+  
+  
+
+
+  <div class="tag-list">
+    <ul>
+      
+        <li class="meta">Tags</li>
+      
+
+      
+        <li><a class="button" href="/isg_test/tags#meeting">
+          <p><i class="fas fa-tag fa-fw fa-sm"></i> meeting</p>
+        </a></li>
+      
+        <li><a class="button" href="/isg_test/tags#travel">
+          <p><i class="fas fa-tag fa-fw fa-sm"></i> travel</p>
+        </a></li>
+      
+    </ul>
+  </div>
+
+
+
+</article>
+
+    </div>
+    <footer class="site-footer">
+    <p class="text">
+        Powered by <a href="https://jekyllrb.com/" target="_blank" rel="noopener noreferrer">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap" target="_blank" rel="noopener noreferrer">Type on Strap</a>
+</p>
+            <div class="footer-icons">
+                <ul>
+                <!-- Social icons from Font Awesome, if enabled -->
+                
+<li>
+    <a feed.xml href="/isg_test/feed.xml" title="Follow RSS feed" target="_blank">
+        <span class="fa-stack fa-lg">
+            <i class="fas fa-circle fa-stack-2x"></i>
+            <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
+        </span>
+    </a>
+</li>
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+        
+        
+        
+        
+        <li>
+            <a href="https://github.com/sylhare" title="Follow on Github" target="_blank" rel="noopener noopener noreferrer">
+            <span class="fa-stack fa-lg">
+              <i class="fas fa-circle fa-stack-2x"></i>
+              <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+            </span>
+            </a>
+        </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+                </ul>
+            </div>
+</footer>
+
+
+
+  </body>
+</html>
