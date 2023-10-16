@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<!--
+    Type on Strap jekyll theme v2.4.5
+    Theme free for personal and commercial use under the MIT license
+    https://github.com/sylhare/Type-on-Strap/blob/master/LICENSE
+-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=0.5, maximum-scale=5">
+
+    <!-- Theme Mode-->
+    
+    <script>
+        const isAutoTheme = true;
+        document.documentElement.setAttribute('data-theme', sessionStorage.getItem('theme'))
+    </script>
+    
+
+    <!-- Main JS (navbar.js, katex_init.js and masonry_init.js)-->
+    <script defer src="/isg_test/assets/js/main.min.js"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/isg_test/assets/css/main.css">
+
+    <!--Favicon-->
+    <link rel="shortcut icon" href="/isg_test/assets/favicon.ico" type="image/x-icon">
+
+    
+
+    <!-- KaTeX 0.15.2 -->
+    
+    <script defer src="/isg_test/assets/js/vendor/katex.min.js"></script>
+    <script defer src="/isg_test/assets/js/vendor/auto-render.min.js" onload="renderMathInElement(document.body);"></script>
+    
+
+    <!-- Mermaid 9.1.1 -->
+    
+    <script defer src="/isg_test/assets/js/vendor/mermaid.min.js" onload="mermaid.initialize({
+      startOnLoad:true,
+      theme: 'default',
+    });"></script>
+    
+
+    <!-- Simple Jekyll Search 1.10.0 -->
+    <script src="/isg_test/assets/js/vendor/simple-jekyll-search.min.js" type="text/javascript"></script>
+
+    <!-- Google Analytics / Cookie Consent -->
+    <script>
+      const cookieName = 'cookie-notice-dismissed-http://carlosgrohmann.com/';
+      const isCookieConsent = 'false';
+      const analyticsName = '';
+      const analyticsNameGA4 = '';
+    </script>
+
+    
+    
+
+    <!-- seo tags -->
+    <meta property="og:image" content="http://carlosgrohmann.com//isg_test/uploads/img/unsplash/computer-2.jpeg">
+    
+    <meta property="og:type" content="website" />
+    
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Geomorphometry in R + SAGA + ILWIS + GRASS | Geomorphometry.org</title>
+<meta name="generator" content="Jekyll v4.3.2" />
+<meta property="og:title" content="Geomorphometry in R + SAGA + ILWIS + GRASS" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="This is a sample code to process Baranja hill DEM using a combination of R, SAGA, ILWIS and Google Earth (under MS Windows machines). All four packages are available as open source or freeware (GE). You first need to obtain and install R (including the maptools, gstat, rgdal and RSAGA packages), ILWIS 3.5, SAGA GIS and GRASS GIS. After you finished installing R, SAGA, ILWIS, GRASS, copy the code down-below and start running it line by line. If you experience problems, send as a post via the R-sig-geo or ILWIS mailing list. Note: in order to use the functionality of ILWIS, SAGA, GRASS, you need to install them first. These are not internal packages in R!" />
+<meta property="og:description" content="This is a sample code to process Baranja hill DEM using a combination of R, SAGA, ILWIS and Google Earth (under MS Windows machines). All four packages are available as open source or freeware (GE). You first need to obtain and install R (including the maptools, gstat, rgdal and RSAGA packages), ILWIS 3.5, SAGA GIS and GRASS GIS. After you finished installing R, SAGA, ILWIS, GRASS, copy the code down-below and start running it line by line. If you experience problems, send as a post via the R-sig-geo or ILWIS mailing list. Note: in order to use the functionality of ILWIS, SAGA, GRASS, you need to install them first. These are not internal packages in R!" />
+<link rel="canonical" href="http://carlosgrohmann.com//isg_test/2020/06/30/geomorphometry-in-r-saga-ilwis-grass.html" />
+<meta property="og:url" content="http://carlosgrohmann.com//isg_test/2020/06/30/geomorphometry-in-r-saga-ilwis-grass.html" />
+<meta property="og:site_name" content="Geomorphometry.org" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-06-30T00:00:00-03:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Geomorphometry in R + SAGA + ILWIS + GRASS" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2020-06-30T00:00:00-03:00","datePublished":"2020-06-30T00:00:00-03:00","description":"This is a sample code to process Baranja hill DEM using a combination of R, SAGA, ILWIS and Google Earth (under MS Windows machines). All four packages are available as open source or freeware (GE). You first need to obtain and install R (including the maptools, gstat, rgdal and RSAGA packages), ILWIS 3.5, SAGA GIS and GRASS GIS. After you finished installing R, SAGA, ILWIS, GRASS, copy the code down-below and start running it line by line. If you experience problems, send as a post via the R-sig-geo or ILWIS mailing list. Note: in order to use the functionality of ILWIS, SAGA, GRASS, you need to install them first. These are not internal packages in R!","headline":"Geomorphometry in R + SAGA + ILWIS + GRASS","mainEntityOfPage":{"@type":"WebPage","@id":"http://carlosgrohmann.com//isg_test/2020/06/30/geomorphometry-in-r-saga-ilwis-grass.html"},"url":"http://carlosgrohmann.com//isg_test/2020/06/30/geomorphometry-in-r-saga-ilwis-grass.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+    <!-- RSS -->
+    <link rel="alternate" type="application/atom+xml" title="Geomorphometry.org" href="http://carlosgrohmann.com//isg_test/feed.xml"/>
+    <link type="application/atom+xml" rel="alternate" href="http://carlosgrohmann.com//isg_test/feed.xml" title="Geomorphometry.org" />
+
+    <!-- Twitter Cards -->
+    <meta name="twitter:title" content="Geomorphometry in R + SAGA + ILWIS + GRASS">
+    <meta name="twitter:description" content="This is a sample code to process Baranja hill DEM using a combination of R, SAGA, ILWIS and Google Earth (under MS Windows machines). All four packages are a...">
+    
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:image" content="http://carlosgrohmann.com//isg_test/uploads/img/unsplash/computer-2.jpeg">
+    <meta name="twitter:image:alt" content="Geomorphometry in R + SAGA + ILWIS + GRASS">
+</head>
+
+  <body>
+    <header class="site-header">
+
+    <!-- Logo and title -->
+	<div class="branding">
+        
+		<a href="/isg_test/">
+			<img alt="logo img" class="avatar" src="/isg_test/assets/img/logo-9.png" loading="lazy">
+		</a>
+        
+        <a class="site-title" aria-label="Geomorphometry.org" href="/isg_test/">
+        Geomorphometry.org
+		</a>
+	</div>
+
+    <!-- Toggle menu -->
+    <nav class="clear">
+    <a aria-label="pull" id="pull" class="toggle" href="#">
+    <i class="fas fa-bars fa-lg"></i>
+    </a>
+
+    <!-- Menu -->
+    <ul class="hide">
+        
+
+        
+            
+            
+        
+            
+            <li class="separator"> | </li>
+            <li>
+                <a class="clear" aria-label="About the ISG" title="About the ISG" href="/isg_test/about/">
+                     About the ISG 
+                </a>
+            </li>
+            
+            
+        
+            
+            <li class="separator"> | </li>
+            <li>
+                <a class="clear" aria-label="ISG Events" title="ISG Events" href="/isg_test/meetings/">
+                     ISG Events 
+                </a>
+            </li>
+            
+            
+        
+            
+            <li class="separator"> | </li>
+            <li>
+                <a class="clear" aria-label="Awards" title="Awards" href="/isg_test/awards/">
+                     Awards 
+                </a>
+            </li>
+            
+            
+        
+            
+            <li class="separator"> | </li>
+            <li>
+                <a class="clear" aria-label="Code/Data" title="Code/Data" href="/isg_test/code_data/">
+                     Code/Data 
+                </a>
+            </li>
+            
+            
+        
+            
+            <li class="separator"> | </li>
+            <li>
+                <a class="clear" aria-label="Archive" title="Archive" href="/isg_test/archive/">
+                     Archive 
+                </a>
+            </li>
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            <li class="separator"> | </li>
+            <li>
+                <a class="clear" aria-label="Blog" title="Blog" href="/isg_test/blog/">
+                     Blog 
+                </a>
+            </li>
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            <li class="separator"> | </li>
+            <li>
+                <a class="clear" aria-label="Search" title="Search" href="/isg_test/search/">
+                     <i class="fas fa-search" aria-hidden="true"></i>
+                    
+                </a>
+            </li>
+            
+            
+        
+            
+            
+        
+            
+            <li class="separator"> | </li>
+            <li>
+                <a class="clear" aria-label="Tags" title="Tags" href="/isg_test/tags/">
+                     <i class="fas fa-tags" aria-hidden="true"></i>
+                    
+                </a>
+            </li>
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+
+        
+        <li class="separator"> | </li>
+        <li><a id="theme-toggle" title="Geomorphometry in R + SAGA + ILWIS + GRASS " aria-label="Geomorphometry in R + SAGA + ILWIS + GRASS" onclick="themeToggle()"></a></li>
+        
+    </ul>
+
+	</nav>
+</header>
+
+    <div class="content">
+      <article class="feature-image">
+  <header id="main" style="">
+    <div class="title-padder">
+      
+      <h1 id="Geomorphometry+in+R+%2B+SAGA+%2B+ILWIS+%2B+GRASS" class="title">Geomorphometry in R + SAGA + ILWIS + GRASS</h1>
+      
+
+
+<div class="post-info">
+    <p class="meta">
+      
+      
+      June 30, 2020
+    </p>
+</div>
+
+      
+    </div>
+  </header>
+
+  <section class="post-content">
+  
+      <p>This is a sample <a href="/isg_test/uploads/datasets/SAGA_ILWIS_GRASS_0.zip">code</a> to process Baranja hill DEM using a combination of R, SAGA, ILWIS and Google Earth (under MS Windows machines). All four packages are available as open source or freeware (GE). You first need to obtain and install <a href="http://www.r-project.org/" target="_blank" rel="noopener noreferrer"><strong>R</strong></a> (including the maptools, gstat, rgdal and RSAGA packages), <strong><a href="http://52north.org/index.php?option=com_content&amp;task=view&amp;id=219&amp;Itemid=320" target="_blank" rel="noopener noreferrer">ILWIS 3.5</a></strong>, <a href="http://www.saga-gis.org/" target="_blank" rel="noopener noreferrer"><strong>SAGA GIS</strong></a> and <a href="http://grass.osgeo.org/" target="_blank" rel="noopener noreferrer"><strong>GRASS GIS</strong></a>. After you finished <a href="http://spatial-analyst.net/wiki/index.php?title=Software" target="_blank" rel="noopener noreferrer">installing R, SAGA, ILWIS, GRASS</a>, copy the code down-below and start running it line by line. If you experience problems, send as a post via the <strong><a href="https://stat.ethz.ch/mailman/listinfo/r-sig-geo" target="_blank" rel="noopener noreferrer">R-sig-geo</a></strong> or <strong><a href="https://52north.org/mailman/listinfo/ilwis" target="_blank" rel="noopener noreferrer">ILWIS mailing list</a></strong>. Note: in order to use the functionality of ILWIS, SAGA, GRASS, you need to install them first. These are not internal packages in R!</p>
+
+<p><img src="/isg_test/uploads/img/posts/R_GRASS_screen.jpg" alt=""></p>
+
+<p>Fig: Screenshots of R + SAGA/GRASS/ILWIS integration</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>######## R script ###############
+# DEM processing and extraction of channel networks;
+library(maptools)
+library(rgdal)
+library(RSAGA)
+# ! first download and install SAGA GIS [http://www.saga-gis.org], ILWIS GIS [https://52north.org/download/Ilwis/52n-Ilwis-v3-05-02.zip] and GRASS GIS [http://grass.itc.it] to your machine!
+rsaga.env(path="C:/Progra~1/saga_vc")
+ILWIS &lt;- "C:\Progra~1\N52\Ilwis35\IlwisClient.exe -C"
+MGI_Z6 &lt;- "+proj=tmerc +lat_0=0 +lon_0=18 +k=0.9999 +x_0=6500000 +y_0=0 +ellps=bessel +towgs84=550.499,164.116,475.142,5.80967,2.07902,-11.62386,0.99999445824 +units=m"
+# The coordinate system is "MGI Zone 6"; see [http://spatial-analyst.net/wiki/index.php?title=MGI_/_Balkans_coordinate_systems]
+setwd("C:/tmp")
+# obtain the data:
+download.file("http://geomorphometry.org/system/files/BaranjaHill.zip", destfile=paste(getwd(), "BaranjaHill.zip", sep="/"))
+fname &lt;- zip.file.extract(file="DEM25m.asc", zipname="BaranjaHill.zip")
+file.copy(fname, "./DEM25m.asc", overwrite=TRUE)
+list.files(pattern="asc")
+dem25m &lt;- readGDAL("DEM25m.asc")
+proj4string(dem25m) &lt;- CRS(MGI_Z6)
+# view the data in ILWIS:
+writeGDAL(dem25m[1], "dem25m.mpr", "ILWIS")
+# set the right coordinate system!
+download.file("http://spatial-analyst.net/CRS/gk_6.csy", destfile=paste(getwd(), "gk_6.csy", sep="/"))
+shell(cmd=paste(ILWIS, "setcsy dem25m.grf gk_6.csy -force"), wait=F)
+shell(cmd=paste(ILWIS, "open dem25m.mpr -noask"), wait=F)
+# make a relief view in ILWIS:
+shell(cmd=paste(ILWIS, "run C:\Progra~1\Ilwis3\Scripts\Hydro-DEM\dem_visualization dem25m.mpr dem25m_c.mpr"), wait=F)
+# load to SAGA and derive drainage network:
+rsaga.esri.to.sgrd(in.grids="dem25m.asc", out.sgrds="dem25m.sgrd", in.path=getwd())
+# First, fill the spurious sinks:
+rsaga.get.modules("ta_preprocessor")
+rsaga.get.usage("ta_preprocessor", 2)
+rsaga.geoprocessor(lib="ta_preprocessor", module=2, param=list(DEM="dem25m.sgrd", RESULT="dem25m_f.sgrd", MINSLOPE=0.05))
+# Second, extract the channel network:
+rsaga.get.modules("ta_channels")
+rsaga.get.usage("ta_channels", 0)
+rsaga.geoprocessor(lib="ta_channels", module=0, param=list(ELEVATION="dem25m.sgrd", CHNLNTWRK="channel_ntwrk.sgrd", CHNLROUTE="channel_route.sgrd", SHAPES="channels2.shp", INIT_GRID="dem25m.sgrd", DIV_CELLS=3, MINLEN=40))
+channels &lt;- readOGR("channels.shp", "channels")
+spplot(channels["LENGTH"], col.regions=bpy.colors())
+# derive Topographic Wetness Index:
+rsaga.geoprocessor(lib="ta_hydrology", module=15, param=list(DEM="dem25m.sgrd", C="catharea.sgrd", GN="catchslope.sgrd", CS="modcatharea.sgrd", SB="TWI.sgrd", T=10))
+# Export of grids to Google Earth using SAGA GIS:
+rsaga.geoprocessor(lib="pj_proj4", 2, param=list(SOURCE_PROJ=paste('"', proj4string(dem25m), '"', sep=""), TARGET_PROJ=""+proj=longlat +datum=WGS84"", SOURCE="TWI.sgrd", TARGET="TWI_ll.sgrd", TARGET_TYPE=0, INTERPOLATION=0))
+# export to PNG:
+rsaga.geoprocessor(lib="io_grid_image", 0, param=list(GRID="TWI_ll.sgrd", FILE="TWI.png"))
+# read back to R:
+rsaga.sgrd.to.esri(in.sgrds="TWI_ll.sgrd", out.grids="TWI_ll.asc", prec=1, out.path=getwd())
+TWI.ll &lt;- readGDAL("TWI_ll.asc")
+proj4string(TWI.ll) &lt;- CRS("+proj=longlat +datum=WGS84")
+TWI.kml &lt;- GE_SpatialGrid(TWI.ll)
+kmlOverlay(TWI.kml, kmlfile="TWI.kml", imagefile="TWI.png", name="Topographic Wetness Index")
+# Optional: export to Google Earth using ILWIS:
+dem25m.ll &lt;- spTransform(dem25m[1], CRS("+proj=longlat +datum=WGS84"))
+corrf &lt;- (1+cos((dem25m.ll@bbox[2,2]+dem25m.ll@bbox[2,1])/2*pi/180))/2
+geogrd.cell &lt;- corrf*(dem25m.ll@bbox[1,2]-dem25m.ll@bbox[1,1])/dem25m@grid@cells.dim[1]
+geoarc &lt;- spsample(dem25m.ll, type="regular", cellsize=c(geogrd.cell,geogrd.cell))
+gridded(geoarc) &lt;- TRUE
+gridparameters(geoarc)
+gridparameters(dem25m)
+# resample the map (Bilinear) to the new geographic grid:
+shell(cmd=paste(ILWIS, " crgrf geoarc.grf ",geoarc@grid@cells.dim[[2]]," ",geoarc@grid@cells.dim[[1]]," -crdsys=LatlonWGS84 -lowleft=(",geoarc@grid@cellcentre.offset[[1]],",",geoarc@grid@cellcentre.offset[[2]],") -pixsize=",geoarc@grid@cellsize[[1]],sep=""), wait=F)
+shell(cmd=paste(ILWIS, "dem25m_ll_c.mpr = MapResample(dem25m_c.mpr, geoarc, BiLinear)"), wait=F)
+shell(cmd=paste(ILWIS, "open dem25m_ll_c.mpr -noask"))
+shell(cmd=paste(ILWIS, "export tiff(dem25m_ll_c.mpr, dem25m_c.tif)"), wait=F)
+# generate a KML (ground overlay):
+dem25m.kml &lt;- GE_SpatialGrid(geoarc)
+kmlOverlay(dem25m.kml, "dem25m_c.kml", "dem25m_c.tif", name="Shaded relief in ILWIS")
+# export of extracted channels to Google Earth:
+proj4string(channels) &lt;- CRS(MGI_Z6)
+channels.ll &lt;- spTransform(channels[3], CRS("+proj=longlat +datum=WGS84"))
+writeOGR(channels.ll, "channels.kml", "channels", "KML")
+# extract the drainage network in GRASS GIS:
+library(spgrass6) # version =&gt; 0.6-1 (http://spatial.nhh.no/R/Devel/spgrass6_0.6-1.zip (71))
+# Location of your GRASS installation:
+loc &lt;- initGRASS("C:/GRASS", home=tempdir())
+loc
+# Import the ArcInfo ASCII file to GRASS:
+parseGRASS("r.in.gdal") # commmand description
+execGRASS("r.in.gdal", flags="o", parameters=list(input="DEM25m.asc", output="DEM"))
+execGRASS("g.region", parameters=list(rast="DEM"))
+gmeta6()
+# extract the drainage network:
+execGRASS("r.watershed", flags=c("m", "overwrite"), parameters=list(elevation="DEM", stream="stream", threshold=as.integer(50)))
+# thin the raster map so it can be converted to vectors:
+execGRASS("r.thin", parameters=list(input="stream", output="streamt"))
+# convert to vectors:
+execGRASS("r.to.vect", parameters=list(input="streamt", output="streamt", feature="line"))
+streamt &lt;- readVECT6("streamt")
+plot(streamt)
+######## R script ###############
+</code></pre></div></div>
+
+<p>MORE READING:</p>
+
+<ol>
+  <li>Bivand, R. 2005. <a href="http://grass.itc.it/newsletter/GRASSNews_vol3.pdf" target="_blank" rel="noopener noreferrer"><strong>Interfacing GRASS 6 and R. Status and development directions</strong></a>, GRASS Newsletter, 3, 11–16.</li>
+  <li>Bivand, R., Pebesma, E., Rubio, V., 2008. <a href="http://www.asdar-book.org/" target="_blank" rel="noopener noreferrer"><strong>Applied Spatial Data Analysis with R</strong></a>. Use R Series, p. 400. Springer, Heidelberg, pp. 378.</li>
+  <li>Brenning, A. 2008. <a href="http://www.environment.uwaterloo.ca/u/brenning/Brenning-2008-RSAGA.pdf" target="_blank" rel="noopener noreferrer"><strong>Statistical geocomputing combining R and SAGA: The example of landslide susceptibility analysis with generalized additive models</strong></a>. In: J. Böhner, T. Blaschke &amp; L. Montanarella (eds.), SAGA - Seconds Out (= Hamburger Beiträge zur Physischen Geographie und Landschaftsökologie, 19), 23-32.</li>
+  <li>Conrad, O. 2007. <a href="http://www.saga-gis.org/en/about/references.html" target="_blank" rel="noopener noreferrer"><strong>SAGA — Entwurf, Funktionsumfang und Anwendung eines Systems fur Automatisierte Geowissenschaftliche Analysen</strong></a>, Ph.D. thesis, University of Gottingen, Gottingen.</li>
+  <li>Grohmann, C.H. 2004. <a href="http://dx.doi.org/10.1016/j.cageo.2004.08.002" target="_blank" rel="noopener noreferrer"><strong>Morphometric analysis in Geographic Information Systems: applications of free software GRASS and R</strong></a>. Computers &amp; Geosciences, 30 (9-10):1055-1067.</li>
+  <li>Hengl, T., 2009. <a href="http://spatial-analyst.net/book/" target="_blank" rel="noopener noreferrer"><strong>A Practical Guide to Geostatistical Mapping</strong></a>. 2nd Ed, University of Amsterdam, 291 p.</li>
+  <li>Neteler, M. and Mitasova, H. 2008. <a href="http://www.grassbook.org/" target="_blank" rel="noopener noreferrer"><strong>Open Source GIS: A GRASS GIS Approach</strong></a>, Springer, New York, 3rd edn.</li>
+</ol>
+
+<p><em><strong>Attachment:</strong></em></p>
+
+<p><a href="/isg_test/uploads/datasets/SAGA_ILWIS_GRASS_0.zip">SAGA_ILWIS_GRASS_0.zip</a></p>
+
+
+    
+  </section>
+
+  <!-- Social media shares -->
+  
+
+<div class="share-buttons">
+    <ul class="share-buttons">
+        <li class="meta">Share</li>
+        
+        <li>
+            <a href="https://www.facebook.com/sharer/sharer.php?u=http://carlosgrohmann.com//isg_test/2020/06/30/geomorphometry-in-r-saga-ilwis-grass.html" target="_blank" title=" Facebook" rel="noopener noreferrer">
+                <i class="fab fa-facebook-square fa-2x" aria-hidden="true"></i>
+                <span class="sr-only">Share on Facebook</span>
+            </a>
+        </li>
+         
+        <li>
+            <a href="https://twitter.com/intent/tweet?text=Geomorphometry+in+R+%2B+SAGA+%2B+ILWIS+%2B+GRASS%20http%3A%2F%2Fcarlosgrohmann.com%2F%2Fisg_test%2F2020%2F06%2F30%2Fgeomorphometry-in-r-saga-ilwis-grass.html" target="_blank" title="" rel="noopener noreferrer">
+                <i class="fab fa-twitter-square fa-2x" aria-hidden="true"></i>
+                <span class="sr-only">Tweet</span>
+            </a>
+        </li>
+         
+        <li>
+            <a href="https://www.tumblr.com/share?v=3&amp;u=http://carlosgrohmann.com//isg_test/2020/06/30/geomorphometry-in-r-saga-ilwis-grass.html&amp;quote=Geomorphometry+in+R+%2B+SAGA+%2B+ILWIS+%2B+GRASS%20%7C%20Geomorphometry.org&amp;s=" target="_blank" title=" Tumblr" rel="noopener noreferrer">
+                <i class="fab fa-tumblr-square fa-2x" aria-hidden="true"></i>
+                <span class="sr-only">Share on Tumblr</span>
+            </a>
+        </li>
+         
+        <li>
+            <a href="https://pinterest.com/pin/create/button/?url=http://carlosgrohmann.com//isg_test/2020/06/30/geomorphometry-in-r-saga-ilwis-grass.html&amp;media=http://carlosgrohmann.com//isg_test/uploads/img/unsplash/computer-2.jpeg$description=This+is+a+sample+code+to+process+Baranja+hill+DEM+using+a+combination+of+R%2C+SAGA%2C+ILWIS+and+Google+Earth+%28under+MS+Windows+machines%29.+All+four+packages+are+available+as+open+source+or+freeware+%28GE%29.+You+first+need+to+obtain+and+install+R+%28including+the+maptools%2C+gstat%2C+rgdal+and+RSAGA+packages%29%2C+ILWIS+3.5%2C+SAGA+GIS+and+GRASS+GIS.+After+you+finished+installing+R%2C+SAGA%2C+ILWIS%2C+GRASS%2C+copy+the+code+down-below+and+start+running+it+line+by+line.+If+you+experience+problems%2C+send+as+a+post+via+the+R-sig-geo+or+ILWIS+mailing+list.+Note%3A+in+order+to+use+the+functionality+of+ILWIS%2C+SAGA%2C+GRASS%2C+you+need+to+install+them+first.+These+are+not+internal+packages+in+R%21%0A" target="_blank" title="" rel="noopener noreferrer">
+                <i class="fab fa-pinterest-square fa-2x" aria-hidden="true"></i>
+                <span class="sr-only">Pin it</span>
+            </a>
+        </li>
+          
+        <li>
+            <a href="https://www.reddit.com/submit?url=http://carlosgrohmann.com//isg_test/2020/06/30/geomorphometry-in-r-saga-ilwis-grass.html&amp;title=Geomorphometry+in+R+%2B+SAGA+%2B+ILWIS+%2B+GRASS%20%7C%20Geomorphometry.org" target="_blank" title=" Reddit" rel="noopener noreferrer">
+                <i class="fab fa-reddit-square fa-2x" aria-hidden="true"></i>
+                <span class="sr-only">Share on Reddit</span>
+            </a>
+        </li>
+         
+        <li>
+            <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http://carlosgrohmann.com//isg_test/2020/06/30/geomorphometry-in-r-saga-ilwis-grass.html&amp;title=Geomorphometry+in+R+%2B+SAGA+%2B+ILWIS+%2B+GRASS%20%7C%20Geomorphometry.org&amp;summary=&amp;source=http://carlosgrohmann.com//isg_test/2020/06/30/geomorphometry-in-r-saga-ilwis-grass.html" target="_blank" title=" LinkedIn" rel="noopener noreferrer">
+                <i class="fab fa-linkedin fa-2x" aria-hidden="true"></i>
+                <span class="sr-only">Share on LinkedIn</span>
+            </a>
+        </li>
+          
+        <li>
+            <a href="mailto:?subject=Geomorphometry%20in%20R%20+%20SAGA%20+%20ILWIS%20+%20GRASS%20%7C%20Geomorphometry.org&amp;body=http://carlosgrohmann.com//isg_test/2020/06/30/geomorphometry-in-r-saga-ilwis-grass.html" target="_blank" title="">
+                <i class="fas fa-envelope-square fa-2x" aria-hidden="true"></i>
+                <span class="sr-only">Email</span></a>
+        </li>
+        
+    </ul>
+</div>
+
+
+
+
+   <!-- Tag list -->
+  
+  
+
+
+  <div class="tag-list">
+    <ul>
+      
+        <li class="meta">Tags</li>
+      
+
+      
+        <li><a class="button" href="/isg_test/tags#dataset">
+          <p><i class="fas fa-tag fa-fw fa-sm"></i> dataset</p>
+        </a></li>
+      
+        <li><a class="button" href="/isg_test/tags#script">
+          <p><i class="fas fa-tag fa-fw fa-sm"></i> script</p>
+        </a></li>
+      
+    </ul>
+  </div>
+
+
+
+</article>
+
+<!-- Post navigation -->
+
+<div id="post-nav">
+    
+    <div id="previous-post">
+        <a alt="geomorphometry terrain toolbox" href="/isg_test/2020/06/30/geomorphometry-terrain-toolbox.html">
+            <p>Previous post</p>
+            geomorphometry terrain toolbox
+        </a>
+    </div>
+    
+
+    
+    <div id="next-post">
+        <a alt="Geomorphological mapping" href="/isg_test/2020/06/30/geomorphological-mapping.html">
+            <p>Next post</p>
+            Geomorphological mapping
+        </a>
+    </div>
+    
+</div>
+
+
+
+<!--Utterances-->
+
+
+<!-- Cusdis -->
+
+
+<!-- Disqus -->
+
+
+<!-- To change color of links in the page -->
+<style>
+  header#main {
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+  }
+
+  
+
+  
+  header#main { background-image: url('/isg_test/uploads/img/unsplash/computer-2.jpeg'); }
+  
+</style>
+
+    </div>
+    <footer class="site-footer">
+    <p class="text">
+        Powered by <a href="https://jekyllrb.com/" target="_blank" rel="noopener noreferrer">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap" target="_blank" rel="noopener noreferrer">Type on Strap</a>
+</p>
+            <div class="footer-icons">
+                <ul>
+                <!-- Social icons from Font Awesome, if enabled -->
+                
+<li>
+    <a feed.xml href="/isg_test/feed.xml" title="Follow RSS feed" target="_blank">
+        <span class="fa-stack fa-lg">
+            <i class="fas fa-circle fa-stack-2x"></i>
+            <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
+        </span>
+    </a>
+</li>
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+        
+        
+        
+        
+        <li>
+            <a href="https://github.com/sylhare" title="Follow on Github" target="_blank" rel="noopener noopener noreferrer">
+            <span class="fa-stack fa-lg">
+              <i class="fas fa-circle fa-stack-2x"></i>
+              <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+            </span>
+            </a>
+        </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+                </ul>
+            </div>
+</footer>
+
+
+
+  </body>
+</html>
