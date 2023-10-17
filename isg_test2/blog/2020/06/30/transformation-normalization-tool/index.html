@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="/isg_test2/assets/css/main.css">
+    <link rel="stylesheet" href="/isg_test2/assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+
+    <link rel="shortcut icon" href="/isg_test2/assets/favicon.ico?1">
+    <!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Transformation (normalization) tool | Geomorphometry.org</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Transformation (normalization) tool" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Short title: transform" />
+<meta property="og:description" content="Short title: transform" />
+<link rel="canonical" href="http://carlosgrohmann.com//isg_test2/blog/2020/06/30/transformation-normalization-tool/" />
+<meta property="og:url" content="http://carlosgrohmann.com//isg_test2/blog/2020/06/30/transformation-normalization-tool/" />
+<meta property="og:site_name" content="Geomorphometry.org" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-06-30T00:00:00-04:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Transformation (normalization) tool" />
+<script type="application/ld+json">
+{"url":"http://carlosgrohmann.com//isg_test2/blog/2020/06/30/transformation-normalization-tool/","@type":"BlogPosting","headline":"Transformation (normalization) tool","dateModified":"2020-06-30T00:00:00-04:00","datePublished":"2020-06-30T00:00:00-04:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://carlosgrohmann.com//isg_test2/blog/2020/06/30/transformation-normalization-tool/"},"description":"Short title: transform","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+    <link rel="alternate" type="application/rss+xml" title="Geomorphometry.org" href="http://carlosgrohmann.com//isg_test2/feed.xml" />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/isg_test2/assets/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/isg_test2/assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/isg_test2/assets/favicon-16x16.png">
+    <link rel="manifest" href="assets/site.webmanifest">
+    <link rel="mask-icon" href="/isg_test2/assets/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="assets/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+
+
+</head>
+
+
+<body>
+
+    <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container navbar-container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+            <a class="navbar-brand" href="/isg_test2/">
+                <span><img src="/isg_test2/uploads/img/logos/logo-9.png" alt="Logo"></span> Geomorphometry.org
+            </a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About the ISG<span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="/isg_test2/about">About the ISG</a></li>
+                    <!-- <li><a href="/isg_test2/about/membership">Membership</a></li> -->
+                    <li><a href="/isg_test2/about/constitution-bylaws">Constitution and Bylaws</a></li>
+                    <li><a href="/isg_test2/about/diversity-and-inclusion">Diversity and Inclusion</a></li>
+                    <li><a href="/isg_test2/about/social-media">Social Media</a></li>
+                    <li><a href="/isg_test2/about/isg-council">ISG Council</a></li>
+                    <li><a href="/isg_test2/about/scientific-committee">ISG Scientific Committee</a></li>
+                  </ul>
+                </li>
+
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ISG Events<span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <!-- <li><a href="/isg_test2/meetings">All Events</a></li> -->
+                    <li><a href="/isg_test2/coffee_talks">Coffee Talks</a></li>
+                    <li><a href="/isg_test2/2023">Geomorphometry 2023</a></li>
+                    <li><a href="/isg_test2/2021">Geomorphometry 2021</a></li>
+                    <li><a href="/isg_test2/2018">Geomorphometry 2018</a></li>
+                    <li><a href="/isg_test2/2015">Geomorphometry 2015</a></li>
+                    <li><a href="/isg_test2/2013">Geomorphometry 2013</a></li>
+                    <li><a href="/isg_test2/2011">Geomorphometry 2011</a></li>
+                    <li><a href="/isg_test2/2009">Geomorphometry 2009</a></li>
+                  </ul>
+                </li>
+
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Galleries<span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="/isg_test2/galleries/gallery-2023">Geomorphometry 2023</a></li>
+                    <li><a href="/isg_test2/galleries/gallery-2021">Geomorphometry 2021</a></li>
+                    <li><a href="/isg_test2/galleries/gallery-2018">Geomorphometry 2018</a></li>
+                    <li><a href="/isg_test2/galleries/gallery-2015">Geomorphometry 2015</a></li>
+                    <li><a href="/isg_test2/galleries/gallery-2013">Geomorphometry 2013</a></li>
+                    <li><a href="/isg_test2/galleries/gallery-2011">Geomorphometry 2011</a></li>
+                    <li><a href="/isg_test2/galleries/gallery-2009">Geomorphometry 2009</a></li>
+                  </ul>
+                </li>
+
+                <li><a href="/isg_test2/awards">Awards</a></li>
+
+                <li><a href="/isg_test2/code_data">Code/Data</a></li>
+
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Blog<span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="/isg_test2/blog/2023/05/10/geomorphometry-2023-demix/">Posts</a></li>
+                    <li><a href="/isg_test2/archive">Archive</a></li>
+                    <li><a href="/isg_test2/tags">Tags</a></li>
+                  </ul>
+                </li>
+
+                <li><a href="/isg_test2/search">Search</a></li>
+<!--             <div class="navbar-right">
+                <form class="navbar-form navbar-left">
+                    <div class="form-group has-feedback">
+                        <input id="search-box" type="search" class="form-control" placeholder="Search...">
+                        <i class="fa fa-search form-control-feedback"></i>
+                    </div>
+                </form>
+            </div> -->
+        </div>
+    </div>
+</nav>
+
+
+    <div class="page-content">
+        <div class="wrapper">
+            <div class="container">
+    <div class="row">
+
+        <div class="col-md-4">
+            <div class="well">
+                <h4>RECENT POSTS</h4>
+                <ul class="list-unstyled post-list-container">
+                    
+                    <li><a href="/isg_test2/blog/2023/05/10/geomorphometry-2023-demix/" >Geomorphometry 2023 - DEMIX Workshop</a></li>
+                    
+                    <li><a href="/isg_test2/blog/2023/05/05/geomorphometry-2023-programme/" >Geomorphometry 2023 - Programme</a></li>
+                    
+                    <li><a href="/isg_test2/blog/2023/02/18/geomorphometry-2023-registration/" >Geomorphometry 2023 - Registration</a></li>
+                    
+                    <li><a href="/isg_test2/blog/2023/02/14/an-ensemble-digital-terrain-model-of-the-world-at-30-m-spatial-resolution-edtm30/" >An Ensemble Digital Terrain Model of the world at 30 m spatial resolution (EDTM30)</a></li>
+                    
+                    <li><a href="/isg_test2/blog/2023/02/10/geomorphometry-2023-travel/" >Geomorphometry 2023 - Travel/Accommodation</a></li>
+                    
+                    <li><a href="/isg_test2/blog/2023/01/15/geomorphometry-2023-venue/" >Geomorphometry 2023 - Venue</a></li>
+                    
+                    <li><a href="/isg_test2/blog/2022/10/15/geomorphometry-2023-announcement/" >Geomorphometry 2023 - Announcement</a></li>
+                    
+                    <li><a href="/isg_test2/blog/2021/10/30/grass-gis-v8-release-end-of-2021/" >GRASS GIS v8 release end of 2021</a></li>
+                    
+                    <li><a href="/isg_test2/blog/2021/09/27/summary-of-geomorphometry-2021/" >Summary of Geomorphometry 2021</a></li>
+                    
+                    <li><a href="/isg_test2/blog/2021/09/16/digital-elevation-models-dems-terminology-and-definitions/" >Digital Elevation Models (DEMs): Terminology and Definitions</a></li>
+                    
+                    <li><a href="/isg_test2/allposts">All posts ...</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="col-md-8">
+            <h1>Transformation (normalization) tool</h1>
+            <p>Jun 30, 2020</p>
+            <div  id="markdown-content-container"><p>Short title:  transform</p>
+
+<p><strong><em>Inputs:</em></strong> Slope raster or curvature raster; any other variables with skewed or long-tailed distributions<br />
+<em><strong>Outputs:</strong></em> Normalized slope or curvature raster; a text file informing about transformation used and new skewness/kurtosis.</p>
+
+<p>For <strong>INSTRUCTIONS</strong>, please visit: <a href="http://research.enjoymaps.ro/downloads/">http://research.enjoymaps.ro/downloads/</a></p>
+
+<p><strong>Reference:</strong><br />
+<a href="http://www.sciencedirect.com/science/article/pii/S0169555X15000033#">Csillik, O., Evans, I.S., Drăguţ, L., 2015. Transformation (normalization) of slope gradient and surface curvatures, automated for statistical analyses from DEMs. Geomorphology <strong>232</strong>(0): 65-77.</a></p>
+
+<p>Purpose and use:</p>
+
+<p>Automated procedures are developed to alleviate long tails in frequency distributions of morphometric variables. They minimize the skewness of slope gradient frequency distributions, and modify the kurtosis of profile and plan curvature distributions towards that of the Gaussian (normal) model. Box-Cox (for slope) and arctangent (for curvature) transformations are used. The transforms are applicable to morphometric variables and many others with skewed or long-tailed distributions. It is suggested that such transformations should be routinely applied in all parametric analyses of long-tailed variables. Our Box-Cox and curvature automated transformations are based on a Python script, implemented as an easy-to-use script tool in ArcGIS.</p>
+
+<p><strong>Programming environment:</strong>  Python<br />
+<strong>Status of work:</strong>  Public Domain</p>
+
+<p><a href="/isg_test2/uploads/datasets/Transformation-Tools.zip">Transformation-Tools.zip</a></p>
+</div>
+            <hr>
+            <ul class="pager">
+                
+                <li class="previous">
+                    <a href="/isg_test2/blog/2020/06/30/topo-parameters/">
+                        <span aria-hidden="true">&larr;</span> Older
+                    </a>
+                </li>
+                 
+                <li class="next">
+                    <a href="/isg_test2/blog/2020/06/30/uncertainty-stream-networks/">
+                      Newer <span aria-hidden="true">&rarr;</span>
+                    </a>
+                </li>
+                
+            </ul>
+        </div>
+
+    </div>
+</div>
+
+        </div>
+    </div>
+
+    <footer class="footer">
+    <div class="container mx-auto">
+                <ul class="nav navbar-nav">
+                    <li><a href="https://www.facebook.com/groups/geomorphometry/" target="_blank"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a></li>
+                    <li><a href="https://twitter.com/geomorphomorg" target="_blank"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a></li>
+                    <li><a href="https://twitter.com/GalsOfGeomorph" target="_blank"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a></li>
+                    <li><a href="https://www.instagram.com/geomorphometry" target="_blank"><i class="fa fa-instagram  fa-2x" aria-hidden="true"></i></a></li>
+                    <li><a href="https://github.com/aksakalli/jekyll-doc-theme" target="_blank"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a></li>
+                    <li><a href="https://scholar.google.com.br/scholar?hl=en&as_sdt=0%2C5&q=geomorphometry&btnG=" target="_blank"><i class="ai ai-google-scholar-square ai-2x" aria-hidden="true"></i></a></li>
+                </ul>
+    </div>
+    <div class="container mx-auto">
+        <p class="text">
+            Geomorphometry.org 2023 |
+            Powered by <a href="https://github.com/aksakalli/jekyll-doc-theme">Jekyll Doc Theme</a>
+        </p>
+    </div>
+</footer>
+
+
+
+    <script>
+  var baseurl = '/isg_test2'
+</script>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script src="/isg_test2/assets/js/bootstrap.min.js "></script>
+<script src="/isg_test2/assets/js/typeahead.bundle.min.js "></script>
+
+<script src="/isg_test2/assets/js/main.js "></script>
+
+</body>
+
+</html>
