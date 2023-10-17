@@ -1,4 +1,423 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://carlosgrohmann.com//isg_test/feed.xml" rel="self" type="application/atom+xml" /><link href="http://carlosgrohmann.com//isg_test/" rel="alternate" type="text/html" /><updated>2023-10-15T23:20:41-03:00</updated><id>http://carlosgrohmann.com//isg_test/feed.xml</id><title type="html">Geomorphometry.org</title><subtitle>Geomorphometry.org</subtitle><entry><title type="html">An Ensemble Digital Terrain Model of the world at 30 m spatial resolution (EDTM30)</title><link href="http://carlosgrohmann.com//isg_test/2023/02/14/an-ensemble-digital-terrain-model-of-the-world-at-30-m-spatial-resolution-edtm30.html" rel="alternate" type="text/html" title="An Ensemble Digital Terrain Model of the world at 30 m spatial resolution (EDTM30)" /><published>2023-02-14T00:00:00-03:00</published><updated>2023-02-14T00:00:00-03:00</updated><id>http://carlosgrohmann.com//isg_test/2023/02/14/an-ensemble-digital-terrain-model-of-the-world-at-30-m-spatial-resolution-edtm30</id><content type="html" xml:base="http://carlosgrohmann.com//isg_test/2023/02/14/an-ensemble-digital-terrain-model-of-the-world-at-30-m-spatial-resolution-edtm30.html"><![CDATA[<p><em>Prepared by: Yu-Feng Ho (OpenGeoHub), Tom Hengl (OpenGeoHub) and Leandro Parente (OpenGeoHub)</em></p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://carlosgrohmann.com//isg_test/feed.xml" rel="self" type="application/atom+xml" /><link href="http://carlosgrohmann.com//isg_test/" rel="alternate" type="text/html" /><updated>2023-10-16T21:27:50-03:00</updated><id>http://carlosgrohmann.com//isg_test/feed.xml</id><title type="html">Geomorphometry.org</title><subtitle>Geomorphometry.org</subtitle><entry><title type="html">Geomorphometry 2023 - DEMIX Workshop</title><link href="http://carlosgrohmann.com//isg_test/2023/05/10/geomorphometry-2023-demix.html" rel="alternate" type="text/html" title="Geomorphometry 2023 - DEMIX Workshop" /><published>2023-05-10T00:00:00-03:00</published><updated>2023-05-10T00:00:00-03:00</updated><id>http://carlosgrohmann.com//isg_test/2023/05/10/geomorphometry-2023-demix</id><content type="html" xml:base="http://carlosgrohmann.com//isg_test/2023/05/10/geomorphometry-2023-demix.html"><![CDATA[<p><img src="/isg_test/uploads/img/logos/demix_logo.png" alt="" /></p>
+
+<p>DEMIX (DEM Intercomparison eXercise) is a CEOS / WGCV / TMSG initiative supported by ESA as part of the EDAP+ project and by USGS. The objective of DEMIX is to compare global DEMs, and in particular, those at 1” arcsecond such as SRTM, ASTER GDEM, ALOS World-3D, NASADEM, COP-DEM, and FABDEM to allow different users to select the one that best suits their needs in their areas of interest. This choice is based on the results of criteria tested in different areas and evaluated using a “Wine contest” method where both quantitative and qualitative results can be freely combined for the candidate DEMs. The DEMIX project, developed out of a JRC workshop on Global DEM Benchmarking in 2019, started in July 2020 and is rolled out in three subgroups: (1) terminology and analytical basis, (2) algorithms and software, and (3) platforms and processing.</p>
+
+<p>This DEMIX workshop is intended to present the results of this project, invite you to participate, and offer you access to the platforms and services that have been developed.</p>
+
+<p>This workshop is co-organized by ISG:</p>
+<ul>
+  <li>Hannes Isaak REUTER (<a href="mailto:hannes@gisxperts.de">hannes@gisxperts.de </a>)</li>
+  <li>Peter GUTH (<a href="mailto:pguth@verizon.net">pguth@verizon.net</a>)</li>
+  <li>Mihai NICULITA (<a href="mailto:mihai.niculita@uaic.ro">mihai.niculita@uaic.ro</a>)</li>
+</ul>
+
+<p>and the CEOS Terrain Mapping Sub-Group:</p>
+<ul>
+  <li>Peter STROBL (<a href="mailto:Peter.STROBL@ec.europa.eu">Peter.STROBL@ec.europa.eu</a>)</li>
+  <li>Clément ALBINET (<a rel="noreferrer noopener" href="mailto:Clement.Albinet@esa.int" target="_blank">Clement.Albinet@esa.int</a>)</li>
+</ul>
+
+<p><strong>References</strong></p>
+
+<ul>
+  <li>Strobl et al., 2021a - THE DIGITAL ELEVATION MODEL INTERCOMPARISON EXPERIMENT DEMIX, A COMMUNITY-BASED APPROACH AT GLOBAL DEM BENCHMARKING - Int. Arch. Photogramm. Remote Sens. Spatial Inf. Sci., XLIII-B4-2021, 395–400, 2021 - <a href="https://doi.org/10.5194/isprs-archives-XLIII-B4-2021-395-2021">https://doi.org/10.5194/isprs-archives-XLIII-B4-2021-395-2021</a></li>
+  <li>Strobl et al., 2021b - Video presenting DEMIX - <a href="https://geomorphometry.org/digital-elevation-model-intercomparison-experiment-demix-working-group/">https://geomorphometry.org/digital-elevation-model-intercomparison-experiment-demix-working-group/</a> - <a href="https://www.youtube.com/watch?v=veZA4O1rU28">https://www.youtube.com/watch?v=veZA4O1rU28</a></li>
+  <li>Guth et al., 2021 - Digital Elevation Models: Terminology and Definitions - Remote Sens. 2021, 13(18), 3581<a href="https://doi.org/10.3390/rs13183581">https://doi.org/10.3390/rs13183581</a></li>
+  <li>Bielski et al., 2023: DEMIX Wine Contest Method Ranks ALOS AW3D30, COPDEM, and FABDEM as Top 1” Global DEMs” <a rel="noreferrer noopener" href="https://arxiv.org/abs/2302.08425" target="_blank">https://arxiv.org/abs/2302.08425</a></li>
+</ul>]]></content><author><name></name></author><category term="story" /><category term="event" /><category term="Iasi" /><category term="Romania" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Geomorphometry 2023 - Programme</title><link href="http://carlosgrohmann.com//isg_test/2023/05/05/geomorphometry-2023-programme.html" rel="alternate" type="text/html" title="Geomorphometry 2023 - Programme" /><published>2023-05-05T00:00:00-03:00</published><updated>2023-05-05T00:00:00-03:00</updated><id>http://carlosgrohmann.com//isg_test/2023/05/05/geomorphometry-2023-programme</id><content type="html" xml:base="http://carlosgrohmann.com//isg_test/2023/05/05/geomorphometry-2023-programme.html"><![CDATA[<h2 id="scientific-program">Scientific Program</h2>
+
+<p><img src="/isg_test/uploads/img/posts/GEOMORPHOMETRY2023_PROGRAMME.png" alt="" /></p>
+
+<h3 id="monday-10th-july--day-1">Monday (10th July) – Day 1</h3>
+
+<table>
+  <tbody>
+    <tr>
+      <td>08:00-08:45</td>
+      <td><strong>Registration</strong> <br /> front of Aula Magna Mihai Eminescu, University Main Corp (A)</td>
+    </tr>
+    <tr>
+      <td>08:45-09:00</td>
+      <td><strong>Opening and Welcome Address</strong> <br /> Aula Magna Mihai Eminescu, University Main Corp (A)</td>
+    </tr>
+    <tr>
+      <td>09:00-10:00</td>
+      <td><strong>Geomorphometry Lifetime Achievement Award Lecture:</strong> John Wilson <br /> Recent Advances and Challenges in Geomorphometry</td>
+    </tr>
+    <tr>
+      <td>10:00-10:20</td>
+      <td>Ernest Fahrland, Virginia Herrera, Hanne Paschko and Henning Schrader <br /> <a href="https://doi.org/10.5281/zenodo.7875365">Evolution of the Copernicus DEM: beyond today’s elevation data with WorldDEM Neo</a></td>
+    </tr>
+    <tr>
+      <td>10:20-10:40</td>
+      <td>Laurence Paul Hawker, Peter Uhe and Jeffrey Neal <br /> <a href="https://doi.org/10.5281/zenodo.8101259">FABDEM Updates - FABDEM V1-2</a></td>
+    </tr>
+    <tr>
+      <td>10:40-11:00</td>
+      <td>Peter Guth, Carlos Grohmann and Sebastiano Trevisani <br /> <a href="https://doi.org/10.5281/zenodo.8057703">Geomorphometric and Geospatial Patterns in Differences Between ALOS and COPDEM</a></td>
+    </tr>
+    <tr>
+      <td>11:00-11:20</td>
+      <td>Dean Gesch <br /> <a href="https://doi.org/10.5281/zenodo.8011577">Assessing Global Elevation Models for Mapping the Low Elevation Coastal Zone</a></td>
+    </tr>
+    <tr>
+      <td>11:20-11:40</td>
+      <td>Richard Feciskanin <br /> <a href="https://doi.org/10.5281/zenodo.7861927">DEM generalization using polygonal simplification</a></td>
+    </tr>
+    <tr>
+      <td>11:40-13:00</td>
+      <td>Lunch Break <br /> Titu Maiorescu Canteen</td>
+    </tr>
+    <tr>
+      <td>13:00-13:20</td>
+      <td>Fei Zhao and Liyang Xiong <br /> A novel algorithm for calculating flow direction in multi-lake areas</td>
+    </tr>
+    <tr>
+      <td>13:20-13:40</td>
+      <td>Sebastiano Trevisani and Peter L. Guth <br /> <a href="https://doi.org/10.5281/zenodo.7899820">Landscape according to surface roughness: experimenting in the Taklimakan Desert</a></td>
+    </tr>
+    <tr>
+      <td>13:40-14:00</td>
+      <td>Vincent Lecours, Benjamin Misiuk and Craig J. Brown <br /> <a href="https://doi.org/10.5281/zenodo.7871806">Exploring the Effects of Acoustic Frequency on Terrain Attributes and Classifications Derived from Digital Bathymetric Models at Multiple Scales</a></td>
+    </tr>
+    <tr>
+      <td>14:00-14:20</td>
+      <td>John Lindsay <br /> <a href="https://doi.org/10.5281/zenodo.7879601">The time-in-daylight land-surface parameter</a></td>
+    </tr>
+    <tr>
+      <td>14:20-14:40</td>
+      <td>Gaurav Sinha, Samantha Arundel, Romim Somadder, David Martin and Kevin McKeehan <br /><a href="https://doi.org/10.5281/zenodo.7902804"> Geomorphometric analysis of Summit and Ridge landforms in the USGS GNIS topographic database</a></td>
+    </tr>
+    <tr>
+      <td>14:40-15:00</td>
+      <td>Coffee Break <br /> The Hall of the Lost Steps, University Main Corp (A)</td>
+    </tr>
+    <tr>
+      <td>15:00-15:20</td>
+      <td>Mihai Niculiță <br /> <a href="https://doi.org/10.5281/zenodo.8117563">Neighborhood contextual merging of segments for landform detection and classification</a></td>
+    </tr>
+    <tr>
+      <td>15:20-15:40</td>
+      <td>Andrei Dornik, Marinela Adriana Cheţan, Lucian Dragut, Andrei Iliuţă and Daniel Dorin Dicu <br /> Delineation of mapping units for land suitability assessment using land-surface parameters</td>
+    </tr>
+    <tr>
+      <td>15:40-16:00</td>
+      <td>Janusz Godziek <br /> <a href="https://doi.org/10.5281/zenodo.7883108">Application of LiDAR-based DTMs and DSMs to detect landforms created by the trees uprooting process</a></td>
+    </tr>
+    <tr>
+      <td>16:00-16:20</td>
+      <td>Christian Depraetere, Benoît Deffontaines and Serge Riazanoff <br /> Resampling and hydrogeomorphometrical processing of dense Lidar/DEM: Relationships between landforms and hydrological processes in a Mediterranean peri-alpine catchment basin</td>
+    </tr>
+    <tr>
+      <td>16:20-16:40</td>
+      <td>Maeve DeBuse and Peter Guth <br /> <a href="https://doi.org/10.5281/zenodo.8037112">Evaluation of elevation, slope, roughness, and vegetation type on the burn severity of the 2020 Calwood Fire in Boulder County, Colorado</a></td>
+    </tr>
+    <tr>
+      <td>17:00-20:00</td>
+      <td>Guided City Tour - Meeting point is Corp A entry</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="tuesday-11th-july--day-2-field-trip">Tuesday (11th July) – Day 2 (Field Trip)</h3>
+
+<table>
+  <tbody>
+    <tr>
+      <td>8:00-9:00</td>
+      <td>Travel from Iași to Costești</td>
+    </tr>
+    <tr>
+      <td>9:00-10:00</td>
+      <td>Costești Geoarchaeosite</td>
+    </tr>
+    <tr>
+      <td>10:00-10:30</td>
+      <td>Travel from Costești to Cotnari</td>
+    </tr>
+    <tr>
+      <td>10:30-11:30</td>
+      <td>Cotnari Vineyard and Winery</td>
+    </tr>
+    <tr>
+      <td>11:30-13:00</td>
+      <td>Wine tasting and Lunch</td>
+    </tr>
+    <tr>
+      <td>13:00-14:30</td>
+      <td>Travel from Cotnari to Vânători</td>
+    </tr>
+    <tr>
+      <td>14:30-16:00</td>
+      <td>Visit to Dragoș Vodă Bison Reserve</td>
+    </tr>
+    <tr>
+      <td>16:00-16:30</td>
+      <td>Travel from Vânători to Târgu Neamț</td>
+    </tr>
+    <tr>
+      <td>16:30-18:00</td>
+      <td>Neamț Fortress Visit</td>
+    </tr>
+    <tr>
+      <td>18:00-20:00</td>
+      <td>Travel from Târgu Neamț to Iași</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="wednesday-12th-july--day-3">Wednesday (12th July) – Day 3</h3>
+
+<table>
+  <tbody>
+    <tr>
+      <td>9:00-10:00</td>
+      <td><strong>Keynote Lecture 1: John Lindsay</strong> <br /> The case for locally scale optimized land-surface parameters</td>
+    </tr>
+    <tr>
+      <td>10:00-10:40</td>
+      <td>Simona Bacau, ESRI Romania <br /> <a href="">Processing Drone Imagery</a></td>
+    </tr>
+    <tr>
+      <td>10:40-11:00</td>
+      <td>Bofei Zhao, Haigang Sui and Qiming Zhou <br /> <a href="https://doi.org/10.5281/zenodo.7848310">Flood inundation analysis based on SAR image and DEM: A case study of the 2021 Zhengzhou Flood in China</a></td>
+    </tr>
+    <tr>
+      <td>11:00-11:20</td>
+      <td>Alexander Brenning <br /> Novel approaches to spatial model assessment and interpretation: the example of landslide susceptibility modeling</td>
+    </tr>
+    <tr>
+      <td>11:20-11:40</td>
+      <td>Nicusor Necula and Mihai Niculita <br /> <a href="https://doi.org/10.5281/zenodo.8009021">Machine learning classification of geomorphometric segments for floodplain detection and delineation</a></td>
+    </tr>
+    <tr>
+      <td>11:40-13:00</td>
+      <td>Lunch Break <br /> Titu Maiorescu</td>
+    </tr>
+    <tr>
+      <td>13:00-13:20</td>
+      <td>Liyang Xiong, Jiang Yinghui and Sijin Li <br /> <a href="https://doi.org/10.5281/zenodo.7848119">Super-resolution for terrain modeling using deep learning in High Mountain Asia</a></td>
+    </tr>
+    <tr>
+      <td>13:20-13:40</td>
+      <td>Yu-Feng Ho, Tomislav Hengl and Leandro Parente <br /> <a href="https://doi.org/10.5281/zenodo.7877510">Cloud services for ensemble global elevation data using an updatable method achieved by parallel computation</a></td>
+    </tr>
+    <tr>
+      <td>13:40-14:00</td>
+      <td>Jun Chen, Liyang Xiong, Guanghui Hu and Guoan Tang <br /> <a href="https://www.geo.uaic.ro/doi.org/10.5281/zenodo.7805651">Integrating topographic knowledge into point cloud simplification for terrain modelling</a></td>
+    </tr>
+    <tr>
+      <td>14:00-14:20</td>
+      <td>Juan Francisco Reinoso-Gordo and Francisco Javier Ariza-López <br /> <a href="https://doi.org/10.5281/zenodo.7852429">A method to rank global DEMs quality focused on their horizontal accuracy</a></td>
+    </tr>
+    <tr>
+      <td>14:20-14:40</td>
+      <td>Adam Rusinko and Jozef Minár <br /> <a href="https://doi.org/10.5281/zenodo.7821717">The role of geomorphometric predictors in LUCC modeling</a></td>
+    </tr>
+    <tr>
+      <td>14:40-15:00</td>
+      <td>Coffee Break <br /> The Hall of the Lost Steps, University Main Corp (A)</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><strong>CEOS DEMIX</strong></td>
+    </tr>
+    <tr>
+      <td>15:00-15:20</td>
+      <td>Peter Strobl <br /> Overview of the DEMIX Initiative</td>
+    </tr>
+    <tr>
+      <td>15:20-15:40</td>
+      <td>Carlos Henrique Grohmann, Carlos López-Vázquez, Peter Guth, Conrad Bielski <br /> <a href="https://doi.org/10.5281/zenodo.8066531">The DEMIX Wine Contest: a summary</a></td>
+    </tr>
+    <tr>
+      <td>15:40-16:00</td>
+      <td>Carlos Henrique Grohmann <br /> <a href="https://doi.org/10.5281/zenodo.7779256">The DEMIX Wine Contest Jupyter notebook</a></td>
+    </tr>
+    <tr>
+      <td>16:00-16:20</td>
+      <td>Peter Guth, Carlos Henrique Grohmann and Sebastiano Trevisani <br /> <a href="https://doi.org/10.5281/zenodo.8030735">Subjective Criterion for the DEMIX Wine Contest: Hillshade Maps</a></td>
+    </tr>
+    <tr>
+      <td>16:20-16:40</td>
+      <td>Guth, Peter L, Grohmann, Carlos H., Trevisani, Sebastiano,and Bielski,Conrad  <br /> <a href="https://doi.org/10.5281/zenodo.8092218">Going Forward: Extending and Exploiting the DEMIX Database With MICRODEM</a></td>
+    </tr>
+    <tr>
+      <td>16:40-17:00</td>
+      <td>Serge Riazanoff <br /> DEMIX SG3 Platforms Processing studies Quality assessment of global DEMs from LiDAR data, planimetric, misregistration assessment, use of VHR DEMs to produce Sentinel-1 ARD</td>
+    </tr>
+    <tr>
+      <td>17:00-17:40</td>
+      <td>Panel discussions with the audience</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="thursday-13th-july--day-4">Thursday (13th July) – Day 4</h3>
+
+<table>
+  <tbody>
+    <tr>
+      <td>09:00-10:00</td>
+      <td><strong>Keynote Lecture 2: Jozef Minar</strong> <br /> <a href="https://doi.org/10.5281/zenodo.7802187">Using principles of physics in geomorphometry: moving toward hypothetico-deductive geoscience</a></td>
+    </tr>
+    <tr>
+      <td>10:00-10:20</td>
+      <td>Xiaohui Huang and Liyang Xiong <br /> <a href="https://doi.org/10.5281/zenodo.7871014">Mapping gully affected areas based on Sentinel 2 imagery and digital elevation model</a></td>
+    </tr>
+    <tr>
+      <td>10:20-10:40</td>
+      <td>Tian Jia, Cheng-Zhi Qin, Ping Fu and Vladimir Brusic <br /> <a href="https://doi.org/10.5281/zenodo.7834856">Applicability of longitudinal profiles for glacial cirque classification</a></td>
+    </tr>
+    <tr>
+      <td>10:40-11:00</td>
+      <td>Ian Evans, Yingkui Li and Zhibin Zhao <br /> <a href="https://doi.org/10.5281/zenodo.7821243">Dependence of statistical results on definitions and extents of study area: examples from cirques and glaciers</a></td>
+    </tr>
+    <tr>
+      <td>11:00-11:20</td>
+      <td>Hannes Reuter <br /> <a href="https://doi.org/10.5281/zenodo.7977922">Applying Terrain analysis to human population?</a></td>
+    </tr>
+    <tr>
+      <td>11:20-11:40</td>
+      <td>Francisco Javier Ariza-López and Juan Francisco Reinoso <br /> <a href="https://doi.org/10.5281/zenodo.7861223">Functional Quality for GDEMs Assessment</a></td>
+    </tr>
+    <tr>
+      <td>11:40-13:00</td>
+      <td>Lunch Break <br /> Titu Maiorescu</td>
+    </tr>
+    <tr>
+      <td>13:00-13:20</td>
+      <td>Francisco Javier Ariza-López, Manuel A. Ureña-Camara, Juan Francisco Reinoso and Marcelo Antonio Nero <br /> <a href="https://doi.org/10.5281/zenodo.7871959">Proposal for a Collaborative Data Infrastructure for Control of DEMs</a></td>
+    </tr>
+    <tr>
+      <td>13:20-13:40</td>
+      <td>Guohua Gou, Haigang Sui, Sheng Wang, Qiming Zhou and Jianya Gong <br /> <a href="https://doi.org/10.5281/zenodo.7857527">Constructing a True 3-D Model of a Karst Cave Using an UAV</a></td>
+    </tr>
+    <tr>
+      <td>13:40-14:00</td>
+      <td>Carlos Grohmann, Gulherme Garcia, Camila Viana, Helen Dias and Rebeca Coelho <br /> <a href="https://doi.org/10.5281/zenodo.7779223">RPA flight pattern and GCP influence on SfM-MVS modeling of a stable landslide in SE Brazil</a></td>
+    </tr>
+    <tr>
+      <td>14:00-14:20</td>
+      <td>Haigang Sui, Hao Zhang, Qiming Zhou and Jianya Gong <br /> <a href="https://doi.org/10.5281/zenodo.7988662">The true 3-D surface reconstruction using a multi-UAV cooperation method</a></td>
+    </tr>
+    <tr>
+      <td>14:20-14:40</td>
+      <td><strong>ISG Busssiness Meeting</strong></td>
+    </tr>
+    <tr>
+      <td>14:40-15:00</td>
+      <td>Coffee Break <br /> The Hall of the Lost Steps, University Main Corp (A)</td>
+    </tr>
+    <tr>
+      <td>15:00-15:20</td>
+      <td><strong>ISG Busssiness Meeting</strong></td>
+    </tr>
+    <tr>
+      <td>15:20-15:40</td>
+      <td><strong>ISG Busssiness Meeting</strong></td>
+    </tr>
+    <tr>
+      <td>15:40-16:40</td>
+      <td><strong>ISG Busssiness Meeting</strong></td>
+    </tr>
+    <tr>
+      <td>16:40-17:00</td>
+      <td>Coffee Break <br /> The Hall of the Lost Steps, University Main Corp (A)</td>
+    </tr>
+    <tr>
+      <td>17:00-18:00</td>
+      <td><strong>ISG Busssiness Meeting</strong></td>
+    </tr>
+    <tr>
+      <td>18:00-21:00</td>
+      <td>Dinner <br /> University House</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="friday-13th-july--day-5">Friday (13th July) – Day 5</h3>
+
+<table>
+  <tbody>
+    <tr>
+      <td>8:45-10:20</td>
+      <td><strong>Serge Riazanoff</strong> <br /> <strong>DEMIX workshop</strong> <br /> Department of Geography, University Corp B  <br /> (1) VtWeb for DEMs and  <br /> (2) DEMIX Operations Portal <br /> (1) How to use VtWeb to select DEMs, their various versions, visualise them, apply on-the-fly processing, compare interactively DEMs and their versions, compute statistics, compute profiles   <a href="https://visioterra.fr/telechargement/A003_VISIOTERRA_COMMUNICATION/HYP-107-VtWeb-E_Comparison_of_Copernicus_DEM_releases_2022_vs_2021.pdf(2)">Example PDF</a>  <br /> How to use <a href="https://visioterra.org/DemixOperationsPlatform/">DEMIX Operations Portal</a> to import candidate and VHR reference DEMs and to compute criteria.</td>
+    </tr>
+    <tr>
+      <td>10:20-10:40</td>
+      <td>Coffee Break <br /> Department of Geography, University Corp B</td>
+    </tr>
+    <tr>
+      <td>10:40-11:40</td>
+      <td><strong>Serge Riazanoff</strong> <br /> <strong>DEMIX workshop</strong> <br /> Department of Geography, University Corp B  <br /> DEM4S2 How to get the DEM that has been used to orthorectify the Sentinel-2 tile and how this DEM produced on the exact tile footprint can be uploaded to better photo-interpret the optical data. <a href="https://visioterra.org/DEM4S2/?s2Id=S2A_MSIL1C_20230616T012701_N0509_R074_T54STE_20230616T045503">Example</a></td>
+    </tr>
+    <tr>
+      <td>11:40-13:00</td>
+      <td>Lunch Break <br /> Titu Maiorescu</td>
+    </tr>
+    <tr>
+      <td>13:00-14:00</td>
+      <td><strong>John Lindsay</strong> <br /> <strong>Whitebox Workshop</strong> <br /> Department of Geography, University Corp B</td>
+    </tr>
+    <tr>
+      <td>14:00-14:20</td>
+      <td>Coffee Break <br /> Department of Geography, University Corp B</td>
+    </tr>
+    <tr>
+      <td>14:20-15:40</td>
+      <td><strong>John Lindsay</strong> <br /> <strong>Whitebox Workshop</strong> <br /> Department of Geography, University Corp B</td>
+    </tr>
+    <tr>
+      <td>15:40-17:00</td>
+      <td><strong>John Lindsay</strong> <br /> <strong>Whitebox Workshop</strong> <br /> Department of Geography, University Corp B</td>
+    </tr>
+    <tr>
+      <td>17:00-22:00</td>
+      <td>Informal City Tour</td>
+    </tr>
+  </tbody>
+</table>]]></content><author><name></name></author><category term="story" /><category term="event" /><category term="Iasi" /><category term="Romania" /><summary type="html"><![CDATA[Scientific Program]]></summary></entry><entry><title type="html">Geomorphometry 2023 - Registration</title><link href="http://carlosgrohmann.com//isg_test/2023/02/18/geomorphometry-2023-registration.html" rel="alternate" type="text/html" title="Geomorphometry 2023 - Registration" /><published>2023-02-18T00:00:00-03:00</published><updated>2023-02-18T00:00:00-03:00</updated><id>http://carlosgrohmann.com//isg_test/2023/02/18/geomorphometry-2023-registration</id><content type="html" xml:base="http://carlosgrohmann.com//isg_test/2023/02/18/geomorphometry-2023-registration.html"><![CDATA[<p>Registration can be done by paying the conference fee and submitting this completed form to mihai.niculita@uaic.ro.</p>
+
+<p>The registration fee will be 460 EURO, including conference materials, an icebreaker, coffee breaks, lunches, Thursday dinner, and a field trip.</p>
+
+<p>Payment can be made by card online or by bank transfer.</p>
+
+<p>Online payments are made using the university platform: https://plati-alumni.uaic.ro/, choosing Geomorphometry 2023 as the event and filling in the required fields. Invoices will be provided by email or at the conference (contact mihai.niculita@uaic.ro or aesynero@gmail.com).</p>
+
+<p>Bank transfer details:</p>
+
+<p>Name: Fundația Alumni – Universitatea Alexandru Ioan Cuza din Iași</p>
+
+<p>Address: Bulevardul Carol I, nr. 11</p>
+
+<p>Fiscal code: 21591880</p>
+
+<ol>
+  <li><strong>BRD-GSG (Banca Română pentru Dezvoltare – Groupe Societe Generale)</strong>
+    <ul>
+      <li>IBAN RON: RO90 BRDE 240S V765 6220 2400</li>
+      <li>IBAN EUR: RO76 BRDE 240S V783 6183 2400</li>
+      <li>SWIFT: BRDEROBUXXX</li>
+    </ul>
+  </li>
+  <li><strong>BCR (Banca Comercială Română)</strong>
+    <ul>
+      <li>IBAN RON: RO83 RNCB 0175 1456 5076 0001</li>
+    </ul>
+  </li>
+</ol>
+
+<p>Ph.D. students and retired scientists will benefit from reduced fees (50% of normal registration).</p>
+
+<p>Scientists with a documented permanent affiliation in low- or lower-middle income countries will benefit from reduced fees (50% of normal registration). The list is available on the World Bank website.</p>
+
+<p>Cancellation/refund policy</p>
+
+<p>Written notifications must be emailed to mihai.niculita@uaic.ro.
+Registration cancellations received by 1 June 2023 will receive a complete refund.
+Cancellations received between 1 June and 1 July 2023 will have a 100 EUR processing fee deducted from their refund.
+No refunds will be issued for canceled registrations or ticketed events after 1 July 2023.</p>]]></content><author><name></name></author><category term="story" /><category term="event" /><category term="Iasi" /><category term="Romania" /><summary type="html"><![CDATA[Registration can be done by paying the conference fee and submitting this completed form to mihai.niculita@uaic.ro.]]></summary></entry><entry><title type="html">An Ensemble Digital Terrain Model of the world at 30 m spatial resolution (EDTM30)</title><link href="http://carlosgrohmann.com//isg_test/2023/02/14/an-ensemble-digital-terrain-model-of-the-world-at-30-m-spatial-resolution-edtm30.html" rel="alternate" type="text/html" title="An Ensemble Digital Terrain Model of the world at 30 m spatial resolution (EDTM30)" /><published>2023-02-14T00:00:00-03:00</published><updated>2023-02-14T00:00:00-03:00</updated><id>http://carlosgrohmann.com//isg_test/2023/02/14/an-ensemble-digital-terrain-model-of-the-world-at-30-m-spatial-resolution-edtm30</id><content type="html" xml:base="http://carlosgrohmann.com//isg_test/2023/02/14/an-ensemble-digital-terrain-model-of-the-world-at-30-m-spatial-resolution-edtm30.html"><![CDATA[<p><em>Prepared by: Yu-Feng Ho (OpenGeoHub), Tom Hengl (OpenGeoHub) and Leandro Parente (OpenGeoHub)</em></p>
 
 <p>Digital Terrain Model or Digital Land Surface Model is a digital raster map representing elevations of terrain / bare surface. NASA’s SRTM DEM used to be one of the most famous environmental layers in early 2000’s. In recent years a number of global public topography datasets at high spatial resolutions (30 m) have been released, from which Copernicus GLO-30 and ALOS AW3D30 are the two that can be considered new-generation elevation models. Too many versions of (basically the same) environmental data layer and too many landing pages can often confuse users and decrease the overall usability of such data. To simplify access and usability of such data we are building global Cloud-Optimized GeoTIFFs that are based on ensembling of multiple data sources, including national/regional datasets. Here is how you can access this data and contribute to the project.</p>
 
@@ -155,51 +574,87 @@
   <li>
     <p>Yamazaki, D., Ikeshima, D., Tawatari, R., Yamaguchi, T., O’Loughlin, F., Neal, J. C., … &amp; Bates, P. D. (2017). <a href="https://agupubs.onlinelibrary.wiley.com/doi/10.1002/2017GL072874">A high‐accuracy map of global terrain elevations</a>. Geophysical Research Letters, 44(11), 5844–5853.</p>
   </li>
-</ol>]]></content><author><name></name></author><category term="story" /><category term="dataset" /><category term="script" /><category term="multiscale" /><summary type="html"><![CDATA[Prepared by: Yu-Feng Ho (OpenGeoHub), Tom Hengl (OpenGeoHub) and Leandro Parente (OpenGeoHub)]]></summary></entry><entry><title type="html">Geomorphometry 2021 - Announcement</title><link href="http://carlosgrohmann.com//isg_test/2022/11/15/geomorphometry-2021-announcement.html" rel="alternate" type="text/html" title="Geomorphometry 2021 - Announcement" /><published>2022-11-15T00:00:00-03:00</published><updated>2022-11-15T00:00:00-03:00</updated><id>http://carlosgrohmann.com//isg_test/2022/11/15/geomorphometry-2021-announcement</id><content type="html" xml:base="http://carlosgrohmann.com//isg_test/2022/11/15/geomorphometry-2021-announcement.html"><![CDATA[<h2 id="geomorphometry-2021-conference-and-workshops">Geomorphometry 2021: Conference and Workshops</h2>
+</ol>]]></content><author><name></name></author><category term="story" /><category term="dataset" /><category term="script" /><category term="multiscale" /><summary type="html"><![CDATA[Prepared by: Yu-Feng Ho (OpenGeoHub), Tom Hengl (OpenGeoHub) and Leandro Parente (OpenGeoHub)]]></summary></entry><entry><title type="html">Geomorphometry 2023 - Travel/Accommodation</title><link href="http://carlosgrohmann.com//isg_test/2023/02/10/geomorphometry-2023-travel.html" rel="alternate" type="text/html" title="Geomorphometry 2023 - Travel/Accommodation" /><published>2023-02-10T00:00:00-03:00</published><updated>2023-02-10T00:00:00-03:00</updated><id>http://carlosgrohmann.com//isg_test/2023/02/10/geomorphometry-2023-travel</id><content type="html" xml:base="http://carlosgrohmann.com//isg_test/2023/02/10/geomorphometry-2023-travel.html"><![CDATA[<h2 id="how-to-get-to-iasi">How to get to Iasi</h2>
 
-<p>The <strong>Geomorphometry Society</strong> and the <strong>Organizing Committee</strong> are pleased to announce the sixth <strong>Geomorphometry</strong> Conference to be held in Perugia, Italy, September 13-17 2021. The event is hosted by the <strong><a href="http://www.irpi.cnr.it/">Research Institute for Geo-Hydrological Protection</a></strong> of the Italian National Research Council (CNR IRPI) and the <strong><a href="http://www.fisica.unipg.it/fisgejo/index.php/en/">Department of Physics and Geology</a></strong> of the University of Perugia. Details on past editions of the conference are on the geomorphometry.org website.</p>
-
-<p>The Geomorphometry Society and the Organizing Committee are pleased to announce the sixth Geomorphometry Conference to be held in Perugia, Italy, September 13-17 2021. The event is hosted by the Research Institute for Geo-Hydrological Protection of the Italian National Research Council (CNR IRPI) and the Department of Physics and Geology of the University of Perugia. Details on past editions of the conference are on the geomorphometry.org website.</p>
-
-<p>The previous edition of the conference was postponed due the global pandemic. Contributions to the conference were evaluated by the scientific/organizing committee, and authors were notified of acceptance/rejection of their extended abstract; revised abstracts were collected into a volume entitled “Geomorphometry 2020 Conference Proceedings” edited by M. Alvioli, I. Marchesini, L. Melelli &amp; P. Guth and published by CNR Edizioni (Rome, 2020). Individual contributions and the whole volume can be <a href="https://doi.org/10.30437/geomorphometry2020">downloaded here</a>.</p>
-
-<p>Authors were invited to extend their contributions to full article length, and submit them for pubblication in a special issue of Transactions in GIS, entitled “Geomorphometry 2020” which wil be published in the third quarter of 2021 (Volume 25); submissions for the 2020 special issue are currently closed.</p>
-
-<p>The 2021 conference will tentatively be a mixed in presence - online event, so that whoever can/want to travel to Perugia is welcome to do so, but people will still be able to participate in the conference remotely. Please refere to the Covid-19 link on the main page for further and updated information about this. For online presenters: we are aware of the different time zones issue; we are working on it.</p>
-
-<p>Submissions to the 2021 event are now close and submitted papers have been peer reviewed; contributions accepted for the 2020 will be retained for the 2021 event. Based on the actual number of new accepted contributions we will consider publishing a new conference proceedings and/or a new journal publication.</p>
-
-<p><img src="/isg_test/uploads/img/meet2021/perugia.jpg" alt="" /><br />
-Perugia, Italy - Venue of Geomorphometry 2021</p>
-
-<p>Geomorphometry is the science of quantitative land surface analysis. It gathers various mathematical, statistical and image processing techniques that can be used to quantify morphological, hydrological, ecological and other aspects of a land surface. Common synonyms for geomorphometry are geomorphological analysis, terrain morphometry or terrain analysis and land surface analysis.</p>]]></content><author><name></name></author><category term="story" /><category term="event" /><category term="Iasi" /><category term="Romania" /><summary type="html"><![CDATA[Geomorphometry 2021: Conference and Workshops]]></summary></entry><entry><title type="html">Geomorphometry 2023 - Announcement</title><link href="http://carlosgrohmann.com//isg_test/2022/11/15/geomorphometry-2023-announcement.html" rel="alternate" type="text/html" title="Geomorphometry 2023 - Announcement" /><published>2022-11-15T00:00:00-03:00</published><updated>2022-11-15T00:00:00-03:00</updated><id>http://carlosgrohmann.com//isg_test/2022/11/15/geomorphometry-2023-announcement</id><content type="html" xml:base="http://carlosgrohmann.com//isg_test/2022/11/15/geomorphometry-2023-announcement.html"><![CDATA[<p>The International Society for Geomorphometry and the Organizing Committee, are pleased to announce the seventh Geomorphometry Conference to be held in Iasi, Romania, July 10-14 2023. The event is hosted by the Department of Geography, Faculty of Geography and Geology (<a href="http://www.geo.uaic.ro">www.geo.uaic.ro</a>), Alexandru Ioan Cuza University of Iasi (<a href="http://www.uaic.ro">www.uaic.ro</a>).</p>
-
-<p>300 words abstracts and 4-page extended abstracts are expected to be submitted through the Easy Chair system by 15th January 2023 (<a href="https://easychair.org/my/conference?conf=geomorphometry2023">link for submission</a>)</p>
-
-<p>Contributions to the conference will be evaluated by the scientific committee, and authors will be notified of acceptance/rejection of their abstract by 28th February 2023; extended abstracts (maximum 4 pages) will be collected into a volume of proceedings that will be available online before the conference and printed at the conference. The following template should be used for the extended abstracts: <a href="https://www.geo.uaic.ro/geomorphometry2023/wp-content/uploads/2022/11/geomorphometry_2023_template.doc">template</a>.</p>
-
-<p><img src="/isg_test/uploads/img/logos/iasi_01.png" alt="" /></p>
-
-<p><strong>Important links:</strong></p>
-
-<p>Conference website: <a href="https://www.geo.uaic.ro/geomorphometry2023/">https://www.geo.uaic.ro/geomorphometry2023/</a></p>
-
-<p>Abstract template: <a href="https://www.geo.uaic.ro/geomorphometry2023/wp-content/uploads/2022/11/geomorphometry_2023_template.doc">https://www.geo.uaic.ro/geomorphometry2023/wp-content/uploads/2022/11/geomorphometry_2023_template.doc</a></p>
-
-<p>EasyChair submission: <a href="https://easychair.org/my/conference?conf=geomorphometry2023">https://easychair.org/my/conference?conf=geomorphometry2023</a></p>
-
-<p><strong>Calendar</strong></p>
+<p><strong>By plane:</strong> https://www.aeroport-iasi.ro/#flights-table</p>
 
 <ul>
-  <li>EasyChair system opens for submissions: 10th November 2022</li>
-  <li>Extended 4-page abstracts due to EasyChair: 15th January 2023</li>
-  <li>Workshop proposals due: 15th February 2023</li>
-  <li>Notification of acceptance and required revisions: 28th February 2023</li>
-  <li>Registration opens: 1st March 2023</li>
-  <li>Final camera-ready digital manuscripts due: 30th April 2023</li>
-  <li>Early registration deadline: 1st May 2023</li>
-  <li>Conference: 10th-14th July 2023</li>
-</ul>]]></content><author><name></name></author><category term="story" /><category term="event" /><category term="Iasi" /><category term="Romania" /><summary type="html"><![CDATA[The International Society for Geomorphometry and the Organizing Committee, are pleased to announce the seventh Geomorphometry Conference to be held in Iasi, Romania, July 10-14 2023. The event is hosted by the Department of Geography, Faculty of Geography and Geology (www.geo.uaic.ro), Alexandru Ioan Cuza University of Iasi (www.uaic.ro).]]></summary></entry><entry><title type="html">Geomorphometry 2023 Announcement</title><link href="http://carlosgrohmann.com//isg_test/2022/07/01/geomorphometry-2023.html" rel="alternate" type="text/html" title="Geomorphometry 2023 Announcement" /><published>2022-07-01T00:00:00-03:00</published><updated>2022-07-01T00:00:00-03:00</updated><id>http://carlosgrohmann.com//isg_test/2022/07/01/geomorphometry-2023</id><content type="html" xml:base="http://carlosgrohmann.com//isg_test/2022/07/01/geomorphometry-2023.html"><![CDATA[<p><img src="/isg_test/uploads/img/meet2023/iasi_01.png" alt="" /></p>
+  <li>TAROM: (www.tarom.ro) London, Madrid, Tel Aviv, Bucharest, Bologna, Rome</li>
+  <li>AIRFRANCE: (wwws.airfrance.fr) Paris via Bucharest</li>
+  <li>BLUE AIR – (www.blueairweb.com) London, Paris (Beauvais), Brussels, Koln, Berlin, Glasgow, Barcelona, Milano, Torino, Venice, Cluj Napoca, - Timisoara, Oradea, Constanta</li>
+  <li>AUSTRIAN – (www.austrian.com) via Vienna</li>
+  <li>WIZZAIR – (www.wizzair.com) Catania, Larnaca, Tel Aviv, Venetia Marco Polo, Rome, London (Luton)</li>
+</ul>
+
+<p><strong>By train:</strong> https://www.cfrcalatori.ro/en/</p>
+
+<h2 id="accommodation-in-iasi">Accommodation in Iasi</h2>
+
+<p><strong>University Hotels</strong> – Booking can be done by contacting the local organizers</p>
+
+<p>“Gaudeamus” Hotel
+Address: Str. Codrescu No. 1
+Located near important academic objectives and student campuses, it offers University students and professors from abroad special accommodation conditions in rooms with 2 and 3 beds.
+All rooms are equipped with a private bathroom, air conditioning, refrigerator, TV, telephone, etc.
+VIRTUAL TOUR OF THE “GAUDEAMUS” HOSPITAL/CANTEEN</p>
+
+<p>“Akademos” Hotel
+Address: Str. Păcurari, no. 6
+The location near the “Mihai Eminescu” Central University Library and the House of Student Culture offers guests the possibility to reach the university buildings in less than 10 minutes on foot.
+The rooms have two beds each and are equipped with air conditioning, own bathroom, and shower cubicles, refrigerator, modern furniture, and internet connection.
+“Gaudeamus” and “Akademos” restaurants
+The restaurant “Gaudeamus” is located on the premises of the “Gaudeamus” hotel and has a capacity of 122 seats. The daily average of those who serve the meal is 200-250 people.
+The “Akademos” restaurant is set up on the ground floor of the “Akademos” hotel and has a capacity of approximately 110 seats. The daily average of those serving the meal is 238 people.
+The operating schedule of the canteens-restaurant is from Monday to Friday, between 07.00 and 10.30 breakfast is served, and from 12.00 to 15.00 lunch.</p>
+
+<p><strong>Virtual tours:</strong>
+https://www.uaic.ro/tur-virtual/caminul-si-cantina-gaudeamus/
+https://www.uaic.ro/tur-virtual/camin-studentesc-akademos/</p>
+
+<p><strong>Recommended hotels in the city of Iași:</strong></p>
+
+<ul>
+  <li>Hotel Majestic <em>**</em> – Str. Petru Rareş, 7, Iaşi, 700126, Tel: +40232-255557</li>
+  <li>Hotel Traian <em>**</em> – Str. Unirii Place, 1, tel. +400232-266666</li>
+  <li>Hotel Moldova *** – Str. Anastasia Panu, 29, tel. +400232-260240</li>
+  <li>Hotel Astoria *** – Str. Alexadru Lăpuşneanu, 1, tel. +400232-233888</li>
+  <li>Hotel Unirea *** – Str. Piața Unirii, 5, tel. +400232-205000</li>
+  <li>Hotel Ramada ** – Str. Gregory Ureche, 27, tel. +400232-215037</li>
+  <li>Hotel Select <em>**</em> – Str. Piața 14 December 1989, 2, tel. +400232-415415</li>
+</ul>
+
+<h2 id="discover-iasi">Discover Iasi</h2>
+
+<p>For a guide to the best places and experiences in the city of Iasi, please consult the https://iasi.travel/en/ website, created by a collective of teachers-researchers and students from the Department of Geography of the “Alexandru Ioan Cuza” University of Iasi.</p>
+
+<h2 id="visa">Visa</h2>
+
+<p>For information about the visa requirements for traveling in Romania, please visit http://evisa.mae.ro/, which is the best way to find information and apply online for visa.</p>]]></content><author><name></name></author><category term="story" /><category term="event" /><category term="Iasi" /><category term="Romania" /><summary type="html"><![CDATA[How to get to Iasi]]></summary></entry><entry><title type="html">Geomorphometry 2023 - Venue</title><link href="http://carlosgrohmann.com//isg_test/2023/01/15/geomorphometry-2023-venue.html" rel="alternate" type="text/html" title="Geomorphometry 2023 - Venue" /><published>2023-01-15T00:00:00-03:00</published><updated>2023-01-15T00:00:00-03:00</updated><id>http://carlosgrohmann.com//isg_test/2023/01/15/geomorphometry-2023-venue</id><content type="html" xml:base="http://carlosgrohmann.com//isg_test/2023/01/15/geomorphometry-2023-venue.html"><![CDATA[<h2 id="conference-venue">Conference Venue</h2>
+
+<p>“Mihai Eminescu” Aula Magna of “Alexandru Ioan Cuza” University of Iasi</p>
+
+<p>Total capacity: 426 seats, of which 258 are on the ground floor and 168 are on the balcony.</p>
+
+<p>Facilities: laptops; video projection; 7 static microphones – desk; 2 portable microphones; Wireless sound amplification system (2x300 W); Reflectors; the possibility of organizing cocktails and coffee breaks, etc.</p>
+
+<p>See the exact location on Google maps: https://goo.gl/maps/JnGCZXyoJkCfEWGbA</p>
+
+<p><img src="/isg_test/uploads/img/meet2023/aaula.jpg" alt="" /> <img src="/isg_test/uploads/img/meet2023/aula.png" alt="" /></p>
+
+<h2 id="workshops">Workshops</h2>
+
+<p>For the workshops, PC rooms from the Department of Geography, Faculty of Geography and Geology will host the attendees.
+<img src="/isg_test/uploads/img/meet2023/rooms.png" alt="" /></p>
+
+<h2 id="posters">Posters</h2>
+
+<p>For the posters, there is the Hall of the Echoing Footsteps (https://www.uaic.ro/en/about-uaic/hall-echoing-footsteps/ and the virtual tour https://www.uaic.ro/despre-uaic/prezentare-sala-pasilor-pierduti/), adjacent to the Aula Magna: https://goo.gl/maps/T5VEtcmGWUnS7gLt9</p>
+
+<p><img src="/isg_test/uploads/img/meet2023/posters.png" alt="" /></p>
+
+<h2 id="fieldtrip">Fieldtrip</h2>
+
+<p>The one-day field trip will be an enjoyable itinerary through the Moldavian Plateau, the Romanian Subcarpathians, and the Romanian Carpathians. Geosites, wineries, monasteries, and natural parks will be visited, while geomorphometricians will network, make friends and spend a good time.</p>]]></content><author><name></name></author><category term="story" /><category term="event" /><category term="Iasi" /><category term="Romania" /><summary type="html"><![CDATA[Conference Venue]]></summary></entry><entry><title type="html">Geomorphometry 2023 - Announcement</title><link href="http://carlosgrohmann.com//isg_test/2022/10/15/geomorphometry-2023-announcement.html" rel="alternate" type="text/html" title="Geomorphometry 2023 - Announcement" /><published>2022-10-15T00:00:00-03:00</published><updated>2022-10-15T00:00:00-03:00</updated><id>http://carlosgrohmann.com//isg_test/2022/10/15/geomorphometry-2023-announcement</id><content type="html" xml:base="http://carlosgrohmann.com//isg_test/2022/10/15/geomorphometry-2023-announcement.html"><![CDATA[<p><img src="/isg_test/uploads/img/logos/iasi_01.png" width="50%" /></p>
 
 <p>The International Society for Geomorphometry and the Organizing Committee, are pleased to announce the seventh Geomorphometry Conference to be held in Iasi, Romania, July 10-14 2023. The event is hosted by the Department of Geography, Faculty of Geography and Geology (<a href="http://www.geo.uaic.ro">www.geo.uaic.ro</a>), Alexandru Ioan Cuza University of Iasi (<a href="http://www.uaic.ro">www.uaic.ro</a>).</p>
 
@@ -226,7 +681,7 @@ Perugia, Italy - Venue of Geomorphometry 2021</p>
   <li>Final camera-ready digital manuscripts due: 30th April 2023</li>
   <li>Early registration deadline: 1st May 2023</li>
   <li>Conference: 10th-14th July 2023</li>
-</ul>]]></content><author><name></name></author><category term="event" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">GRASS GIS v8 release end of 2021</title><link href="http://carlosgrohmann.com//isg_test/2021/10/30/grass-gis-v8-release-end-of-2021.html" rel="alternate" type="text/html" title="GRASS GIS v8 release end of 2021" /><published>2021-10-30T00:00:00-03:00</published><updated>2021-10-30T00:00:00-03:00</updated><id>http://carlosgrohmann.com//isg_test/2021/10/30/grass-gis-v8-release-end-of-2021</id><content type="html" xml:base="http://carlosgrohmann.com//isg_test/2021/10/30/grass-gis-v8-release-end-of-2021.html"><![CDATA[<p>The GRASS GIS development team has used the lock-down times also to work hard on the v8 release of the popular GRASS GIS software (see <a href="https://trac.osgeo.org/grass/wiki/Grass8Planning">complete list of new functionality</a>).</p>
+</ul>]]></content><author><name></name></author><category term="story" /><category term="event" /><category term="Iasi" /><category term="Romania" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">GRASS GIS v8 release end of 2021</title><link href="http://carlosgrohmann.com//isg_test/2021/10/30/grass-gis-v8-release-end-of-2021.html" rel="alternate" type="text/html" title="GRASS GIS v8 release end of 2021" /><published>2021-10-30T00:00:00-03:00</published><updated>2021-10-30T00:00:00-03:00</updated><id>http://carlosgrohmann.com//isg_test/2021/10/30/grass-gis-v8-release-end-of-2021</id><content type="html" xml:base="http://carlosgrohmann.com//isg_test/2021/10/30/grass-gis-v8-release-end-of-2021.html"><![CDATA[<p>The GRASS GIS development team has used the lock-down times also to work hard on the v8 release of the popular GRASS GIS software (see <a href="https://trac.osgeo.org/grass/wiki/Grass8Planning">complete list of new functionality</a>).</p>
 
 <p>There are many new additions to the raster library expected and likely Digital Terrain Modeling and analysis should likely run smoother. The GRASS GIS will stay available via QGIS but also will provide direct Python 3 support and of course R community should be able to access GRASS modules directly via the <a href="https://rdrr.io/rforge/rgrass7/">rgrass</a> package.</p>
 
@@ -261,362 +716,4 @@ Happy faces from all around the world</p>]]></content><author><name></name></aut
 
 <p><img src="/isg_test/uploads/img/posts/paper_demix_dem_dtm.png" alt="" /></p>
 
-<p>Scheme showing the surfaces represented by a DSM, a DTM, and a NVS (Guth et al., 2021)</p>]]></content><author><name></name></author><category term="story" /><category term="srtm" /><category term="aster" /><category term="alos" /><category term="fabdem" /><category term="nasadem" /><category term="copdem" /><category term="copernicus" /><category term="publication" /><category term="demix" /><summary type="html"><![CDATA[There is a new paper on DEM terminology and definitions (open access):]]></summary></entry><entry><title type="html">Geomorphometry 2021 (programme)</title><link href="http://carlosgrohmann.com//isg_test/2021/09/05/geomorphometry-2021-programme.html" rel="alternate" type="text/html" title="Geomorphometry 2021 (programme)" /><published>2021-09-05T00:00:00-03:00</published><updated>2021-09-05T00:00:00-03:00</updated><id>http://carlosgrohmann.com//isg_test/2021/09/05/geomorphometry-2021-programme</id><content type="html" xml:base="http://carlosgrohmann.com//isg_test/2021/09/05/geomorphometry-2021-programme.html"><![CDATA[<h2 id="scientific-program">Scientific Program</h2>
-
-<h3 id="topics">Topics</h3>
-<ul>
-  <li>Use of Digital Elevation, Terrain and Surface Models</li>
-  <li>High resolution data collected with LiDAR, photogrammetry and satellite imagery</li>
-  <li>Automated surface analysis with machine learning and new algorithms</li>
-  <li>Measurements and simulations Earth surface changes</li>
-  <li>3D and 4D dynamics of Earth surface</li>
-  <li>Morphometric techniques for climate change studies</li>
-  <li>Modeling extreme processes and natural hazards on the Earth surface</li>
-  <li>Marine Geomorphometry and bathymetry data</li>
-  <li>Geomorphometry for urban areas and cultural heritage</li>
-  <li>Planetary morphometry</li>
-  <li>Professional and industrial applications of Geomorphometry</li>
-</ul>
-
-<h2 id="september-13-use-of-digital-elevation-terrain-and-surface-models">SEPTEMBER 13: USE OF DIGITAL ELEVATION, TERRAIN AND SURFACE MODELS</h2>
-
-<table>
-  <tbody>
-    <tr>
-      <td>10.00</td>
-      <td>Opening connections</td>
-    </tr>
-    <tr>
-      <td>10.15</td>
-      <td><strong>Conference opening</strong></td>
-    </tr>
-    <tr>
-      <td>10.30-10.45</td>
-      <td>Jozef Minár, Marián Jenčo and Ian S. Evans <br /> <a href="https://doi.org/10.30437/geomorphometry2020_6">What does land surface curvature really mean?</a> <br /> <a href="https://youtu.be/mUwotbzEVgQ">video</a></td>
-    </tr>
-    <tr>
-      <td>10.45-11.00</td>
-      <td>Cheng-Zhi Qin, Peng Liang and A-Xing Zhu <br /> <a href="https://doi.org/10.30437/geomorphometry2020_9">Two case-based classification strategies of automatically selecting terrain covariates for building geographic variable-environment relationship</a> <br /> <a href="https://zenodo.org/record/5503584">presentation</a> <br /> <a href="https://youtu.be/qU3WKOn_xro">video</a></td>
-    </tr>
-    <tr>
-      <td>11.00-11.15</td>
-      <td>Fran Domazetović, Ante Šiljeg and Ivan Marić <br /> <a href="https://doi.org/10.30437/geomorphometry2020_59">Guidelines for optimization of terrestrial laser scanning surveys over gully erosion affected areas</a> <br /><a href="/isg_test/uploads/pdf/pdf2021/Domazetovic.pdf">presentation</a> <br /> <a href="https://youtu.be/-f3ENoPf1-U">video</a></td>
-    </tr>
-    <tr>
-      <td>11.15-11.30</td>
-      <td>Alexey Victorov, Olga Trapeznikova and Timofey Orlov <br /> <a href="https://doi.org/10.30437/geomorphometry2020_70">Probabilistic behavior modeling of morphometric parameters for thermokarst plains with fluvial erosion in Cryolithozone</a> <br /><a href="/isg_test/uploads/pdf/pdf2021/Victorov.pdf">presentation</a> <br /> <a href="https://youtu.be/UCIzGa3RrHo">video</a></td>
-    </tr>
-    <tr>
-      <td>11.30-11.45</td>
-      <td>Break time</td>
-    </tr>
-    <tr>
-      <td>11.45-12.15</td>
-      <td><strong>Keynote talk: Marco Cavalli, Stefano Crema and Lorenzo Marchi</strong> <br /> <a href="https://doi.org/10.30437/geomorphometry2020_57">Sediment connectivity assessment through a geomorphometric approach: review of recent applications</a> <br /><a href="/isg_test/uploads/pdf/pdf2021/Cavalli.pdf">presentation</a> <br /> <a href="https://youtu.be/f6kx2jt_f3s">video</a></td>
-    </tr>
-    <tr>
-      <td>12.15-12.30</td>
-      <td>John Gallant <br /> <a href="https://doi.org/10.30437/geomorphometry2020_60">The surface stream function: representing flow topology with numbers</a> <br /> <a href="https://youtu.be/LK4HF1wrIzY">video</a></td>
-    </tr>
-    <tr>
-      <td>12.30-12.45</td>
-      <td>John Gallant<br /><a href="https://doi.org/10.30437/geomorphometry2020_61">The D8 implementation of the surface stream</a><br /><a href="https://youtu.be/0oU6CqTjGjk">video</a></td>
-    </tr>
-    <tr>
-      <td>12.45-13.00</td>
-      <td>Discussion and Conclusion</td>
-    </tr>
-    <tr>
-      <td>13.00-14.00</td>
-      <td>Lunch time</td>
-    </tr>
-    <tr>
-      <td>14.00-14.15</td>
-      <td>Marina Metes, Kristina Hopkins, Labeeb Ahmed, Sam Lamont, Peter Claggett and Greg Noe <br /> <a href="https://doi.org/10.30437/GEOMORPHOMETRY2020_65">Mapping stream and floodplain geomorphic characteristics with the Floodplain and Channel Evaluation Tool (FACET) in the Mid-Atlantic Region, United States</a> <br /><a href="/isg_test/uploads/pdf/pdf2021/Metes.pdf">presentation</a> <br /> <a href="https://youtu.be/Ddnf95cpJRM">video</a></td>
-    </tr>
-    <tr>
-      <td>14.15-14.30</td>
-      <td>Adeyemi Olusola <br /> <a href="https://doi.org/10.30437/geomorphometry2020_66">Lithology and channel network initiation and orientation: a case study of upper Ogun River Basin, Soyhwestern Nigeria</a> <br /><a href="/isg_test/uploads/pdf/pdf2021/Olusola.pdf">presentation</a> <br /> <a href="https://youtu.be/Mh53hJAhHsM">video</a></td>
-    </tr>
-    <tr>
-      <td>14.30-14.45</td>
-      <td>Priyank Patel, Sayoni Mondal and Rajarshi Dasgupta <br /> <a href="https://doi.org/10.30437/geomorphometry2020_67">Morphometric and channel erosivity analysis of lateritic gully catchments using high resolution DTM and repeat survey Structure-from-Motion datasets</a> <br /><a href="https://doi.org/10.1111/tgis.12828">published as full paper in Transactions in GIS</a> <br /><a href="/isg_test/uploads/pdf/pdf2021/Patel.pdf">presentation</a></td>
-    </tr>
-    <tr>
-      <td>14.45-15.00</td>
-      <td>Francesco Bucci, Michele Santangelo, Francesco Mirabella, Andrea Mazzoni and Mauro Cardinali <br /> <a href="https://doi.org/10.30437/geomorphometry2020_56">Drainage inversion revealed by geomorphometric analysis of fluvial terraces</a> <br /><a href="/isg_test/uploads/pdf/pdf2021/Bucci.pdf">presentation</a> <br /> <a href="https://youtu.be/SCqYY5Tyqac">video</a></td>
-    </tr>
-    <tr>
-      <td>15.00-15.15</td>
-      <td>Break time</td>
-    </tr>
-    <tr>
-      <td>15.15-15.30</td>
-      <td>Mihai Niculita <br /> <a href="https://doi.org/10.30437/geomorphometry2020_7">Burial mound detection using geomorphometry and statistical methods: pixels versus objects</a> <br /><a href="https://zenodo.org/record/5502986">presentation</a> <br /> <a href="https://youtu.be/U-iLHNZS53Y">video</a></td>
-    </tr>
-    <tr>
-      <td>15.30-15.45</td>
-      <td>Richard Feciskanin and Jozef Minár <br />  <a href="https://doi.org/10.30437/GEOMORPHOMETRY2020_2">An optimization of triangular network and its use in DEM generalization for the land surface segmentation</a> <br /><a href="https://doi.org/10.1111/tgis.12796">published as full paper in Transactions in GIS</a> <br /><a href="/isg_test/uploads/pdf/pdf2021/Feciskanin.pdf">presentation</a> <br /> <a href="https://youtu.be/pwo_3KucPKU">video</a></td>
-    </tr>
-    <tr>
-      <td>15.45-16.00</td>
-      <td>Vincent Lecours and Michael Espriella <br /> <a href="https://doi.org/10.30437/geomorphometry2020_24">Can multiscale roughness help computer-assisted identification of coastal habitats in Florida?</a> <br /><a href="/isg_test/uploads/pdf/pdf2021/Lecours.pdf">presentation</a> <br /> <a href="https://youtu.be/zx19j3qqCts">video</a></td>
-    </tr>
-    <tr>
-      <td>16.00-16.15</td>
-      <td>Charles Holderman, Steve Kopp and Nawajish Noman <br /> <a href="https://doi.org/10.5281/zenodo.5297224">A New Analytic Framework and Notebook for Terrain Analysis</a> <br /><a href="/isg_test/uploads/pdf/pdf2021/Kopp.pdf">presentation</a>  <br /> <a href="https://youtu.be/M7CsJ8eagc0">video</a></td>
-    </tr>
-    <tr>
-      <td>16.30-16.45</td>
-      <td>Discussion and Conclusion</td>
-    </tr>
-  </tbody>
-</table>
-
-<h2 id="september-14-dynamics-of-earth-surface-automated-surface-analysis-and-modelization">SEPTEMBER 14 DYNAMICS OF EARTH SURFACE: AUTOMATED SURFACE ANALYSIS AND MODELIZATION</h2>
-
-<table>
-  <tbody>
-    <tr>
-      <td>10.00:</td>
-      <td>Opening connections</td>
-    </tr>
-    <tr>
-      <td>10.30-10.45</td>
-      <td>Peter Guth <br /> <a href="https://doi.org/10.30437/GEOMORPHOMETRY2020_31">Using high-resolution lidar point clouds to evaluate 1-3 arc second global digital elevation models</a> <br /><a href="https://zenodo.org/record/5504441">presentation</a> <br /> <a href="https://youtu.be/K3I81m_2jxE">video</a></td>
-    </tr>
-    <tr>
-      <td>10.45-11.00</td>
-      <td>Tera Geoffroy and Peter Guth <br /> <a href="https://doi.org/10.30437/GEOMORPHOMETRY2020_29">Using high-resolution ICESat-2 point clouds to evaluate 1-3 arc second global digital elevation models</a><br /> <a href="https://doi.org/10.1111/tgis.12825">published as full paper in Transactions in GIS</a>  <br /> <a href="https://zenodo.org/record/5504446">presentation</a> <br /> <a href="https://youtu.be/I1B27IjT0zI">video</a></td>
-    </tr>
-    <tr>
-      <td>11.00-11.15</td>
-      <td>Daniele Pinton, Alberto Canestrellli, Christine Angelini, Benjamin Wilkinson, Peter Ifju and Andrew Ortega <br /> <a href="https://doi.org/10.30437/GEOMORPHOMETRY2020_33">Estimating the spatial distribution of vegetation height and ground level elevation in a mesotidal salt marsh from UAV LiDAR derived point cloud</a> <br /> <a href="https://doi.org/10.1002/esp.4992">published as full paper in Earth Surface Processes and Landforms</a> <br /><a href="/isg_test/uploads/pdf/pdf2021/Pinton.pdf">presentation</a>  <br /> <a href="https://youtu.be/GV78NRpRhyg">video</a></td>
-    </tr>
-    <tr>
-      <td>11.15-11.30</td>
-      <td>Guanghui Hu, Liyang Xiong and Guoan Tang <br /> <a href="https://doi.org/10.30437/GEOMORPHOMETRY2020_12">Mathematical vector framework for land surface curvature calculation from triangulated irregular network</a> <br /> <a href="https://youtu.be/sfkXCwu1lm4">video</a></td>
-    </tr>
-    <tr>
-      <td>11.30-11.45</td>
-      <td>Break time</td>
-    </tr>
-    <tr>
-      <td>11:45-11:50</td>
-      <td>Announcement of <a href="https://zenodo.org/record/5504437">Lifetime Achievement Award</a> <br /> <a href="https://youtu.be/PrrKBZxCoao">video</a></td>
-    </tr>
-    <tr>
-      <td>11.50-12.20</td>
-      <td><strong>Keynote talk: Michael Hutchinson</strong>  <br />  Reflections on adding the Z dimension to earth system analysis <br /><a href="/isg_test/uploads/pdf/pdf2021/Hutchinson.pdf">presentation</a> <br /> <a href="https://youtu.be/fHwtiDl7Vik">video</a></td>
-    </tr>
-    <tr>
-      <td>12.20-12.35</td>
-      <td>Sebastiano Trevisani <br /> <a href="https://doi.org/10.30437/GEOMORPHOMETRY2020_11">Geomorphometric features selection based on intrinsic dimension estimation</a> <br /><a href="/isg_test/uploads/pdf/pdf2021/Trevisani.pdf">presentation</a> <br /> <a href="https://youtu.be/EmJLkzTh7g4">video</a></td>
-    </tr>
-    <tr>
-      <td>12.35-12.50</td>
-      <td>Kacper Jancewicz, Piotr Migoń, WioletaPorębna and Milena Różycka <br /> <a href="https://doi.org/10.30437/GEOMORPHOMETRY2020_32">High-resolution geomorphometry – a tool for better understanding the genesis and contemporary processes in erosional sandstone landscapes</a><br /><a href="/isg_test/uploads/pdf/pdf2021/Jancewicz.pdf">presentation</a> <br /> <a href="https://youtu.be/Yyd1TMzLCN0">video</a></td>
-    </tr>
-    <tr>
-      <td>12.50-13.00</td>
-      <td>Discussion and Conclusion</td>
-    </tr>
-    <tr>
-      <td>13.00-14.00</td>
-      <td>Lunch time</td>
-    </tr>
-    <tr>
-      <td>14.00-14.15</td>
-      <td>Tomislav Hengl and Leandro Parente <br /> Continental-scale Digital Terrain Model for EU based on Ensemble Machine Learning <br /> <a href="https://youtu.be/6dD6-eCXaXA">video</a></td>
-    </tr>
-    <tr>
-      <td>14.15-14.30</td>
-      <td>Gaurav Sinha and Samantha Arundel <br /> <a href="https://doi.org/10.30437/GEOMORPHOMETRY2020_10">Automated Extraction of Areal Extents For GNIS Summit Features Using the Eminence-Core Method</a> <br /><a href="/isg_test/uploads/pdf/pdf2021/Sinha.pdf">presentation</a> <br /> <a href="https://youtu.be/wzLPM8mstxw">video</a></td>
-    </tr>
-    <tr>
-      <td>14.30-14.45</td>
-      <td>Olga Ishalina, Dmitrii Bliakharskii and Igor Florinsky <br /> <a href="https://doi.org/10.30437/GEOMORPHOMETRY2020_3">Detection of crevasses using high-resolution digital elevation models: Comparison of geomorphometric modeling and texture analysis</a> <br /><a href="/isg_test/uploads/pdf/pdf2021/Ishalina.pdf">presentation</a> <br /> <a href="https://doi.org/10.1111/tgis.12790">published as full paper in Transactions in GIS</a></td>
-    </tr>
-    <tr>
-      <td>14.45-15.00</td>
-      <td>Carlos Grohmann, Guilherme Garcia, Alynne Affonso and Rafael Albuquerque <br /> <a href="https://doi.org/10.30437/GEOMORPHOMETRY2020_30">Coastal dune modelling from airborne LiDAR, terrestrial LiDAR and Structure from Motion–Multi View Stereo</a> <br /> published as https://doi.org/10.1016/j.cageo.2020.104569 <br /> <a href="https://doi.org/10.1016/j.cageo.2020.104569">published as full paper in Computers &amp; Geosciences</a> <br /><a href="/isg_test/uploads/pdf/pdf2021/Grohmann.pdf">presentation</a>  <br /> <a href="https://youtu.be/zVo80-RuvgE">video</a></td>
-    </tr>
-    <tr>
-      <td>15.00-15.15</td>
-      <td>Break time</td>
-    </tr>
-    <tr>
-      <td>15.15-15.30</td>
-      <td>Bartłomiej Szypuła <br /><a href="https://doi.org/10.30437/GEOMORPHOMETRY2020_34">DEM from topographic maps - as good as DEM from LiDAR?</a> <br /><a href="/isg_test/uploads/pdf/pdf2021/Szypula.pdf">presentation</a> <br /> <a href="https://youtu.be/gOdUMg_G7Bs">video</a></td>
-    </tr>
-    <tr>
-      <td>15.30-15.45</td>
-      <td>Anna Dedkova,Igor Florinsky and Nikolay Djuzhev <br /> <a href="http://dx.doi.org/10.5281/zenodo.5295613">Analysis of topography of silicon wafers and wafer-based structures by geomorphometric modeling</a> <br /> <a href="https://youtu.be/tML5FSgRieA">video</a></td>
-    </tr>
-    <tr>
-      <td>15.45-16.00</td>
-      <td>Peter L. Guth and Morgan E. Kane <br /> <a href="https://doi.org/10.5281/zenodo.5260534">Evaluation of slopes calculated from TanDEM-X digital elevation models at 3 spatial resolutions</a> <br /> <a href="https://youtu.be/z8B_kbCt7zg">video</a></td>
-    </tr>
-    <tr>
-      <td>16.00-16.15</td>
-      <td>Ivan Marić, Ante Šiljeg, Fran Domazetović and Neven Cukrov <br /> <a href="https://zenodo.org/record/5484684">A framework for using handheld 3D surface scanners in quantifying the volumetric tufa growth</a> <br /> <a href="/isg_test/uploads/pdf/pdf2021/Maric.pdf">presentation</a></td>
-    </tr>
-    <tr>
-      <td>16.15-16.30</td>
-      <td>Ante Šiljeg, Vlatko Roland, Lovre Panđa, Ivan Marić, Fran Domazetović, Silvija Šiljeg and Rina Milošević <br /> <a href="https://zenodo.org/record/5336065">Development of the new methodological framework for multiscale modeling of urban pluvial flooding</a> <br /> <a href="/isg_test/uploads/pdf/pdf2021/Siljeg.pdf">presentation</a> <br /> <a href="https://youtu.be/SmHDxO2fKIQ">video</a></td>
-    </tr>
-    <tr>
-      <td>16.30-16.45</td>
-      <td>Discussion and conclusion</td>
-    </tr>
-  </tbody>
-</table>
-
-<h2 id="september-15-modeling-geomorphological-processes">SEPTEMBER 15 MODELING GEOMORPHOLOGICAL PROCESSES</h2>
-
-<table>
-  <tbody>
-    <tr>
-      <td>10.00: Opening connections</td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td>10.15: Conference opening</td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td>10.30-10.45</td>
-      <td>Andrei Dornik, Lucian Drăguț, Marinela Adriana Chețan, Takashi Oguchi, Yuichi Hayakawa and Mihai Micu <br /> <a href="https://doi.org/10.30437/GEOMORPHOMETRY2020_44">Towards a consistent set of land-surface variables for landslide modelling</a> <br /> <a href="/isg_test/uploads/pdf/pdf2021/Dornik.pdf">presentation</a><br /> <a href="https://youtu.be/ix4mXf7sV38">video</a></td>
-    </tr>
-    <tr>
-      <td>10.45-11.00</td>
-      <td>Mihai Niculita <br /> <a href="https://doi.org/10.30437/GEOMORPHOMETRY2020_48">Landslide topographic signature prediction using segmentation of roughness and Random Forest</a> <br /> <a href="https://youtu.be/COacJlZYSX0">video</a></td>
-    </tr>
-    <tr>
-      <td>11.00-11.15</td>
-      <td>Stefan Steger <br /> <a href="https://doi.org/10.30437/GEOMORPHOMETRY2020_51">The role of pre-landslide morphology in statistical modelling of landslide-prone areas</a> <br /> <a href="/isg_test/uploads/pdf/pdf2021/Steger.pdf">presentation</a><br /> <a href="https://doi.org/10.1016/j.geomorph.2020.107041">published as full paper in Geomorphology</a></td>
-    </tr>
-    <tr>
-      <td>11.15-11.30</td>
-      <td>Mio Kasai <br /> <a href="https://doi.org/10.30437/GEOMORPHOMETRY2020_45">Incorporating ground cracks in the estimation of post-seismic landslide susceptibility</a> <br /> <a href="https://doi.org/10.1111/tgis.12900">published as full paper in Transactions in GIS</a>  <br /> <a href="/isg_test/uploads/pdf/pdf2021/Kasai.pdf">presentation</a>  <br /> <a href="https://youtu.be/U_X-VXpMSHk">video</a></td>
-    </tr>
-    <tr>
-      <td>11.30-11.45</td>
-      <td>Break time</td>
-    </tr>
-    <tr>
-      <td>11.45-12.15</td>
-      <td>Igor Florinsky, Sergey Filippov and Alexander Govorov <br /> <a href="https://doi.org/10.30437/GEOMORPHOMETRY2020_22">3D marine geomorphometry for the Arctic Ocean</a> <br /> <a href="https://youtu.be/tH3OcFpEvTk">video</a></td>
-    </tr>
-    <tr>
-      <td>12.15-12.30</td>
-      <td>Margaret Dolan, Lilja Bjarnadóttir, Terje Thorsnes, Markus Diesing and Shyam Chand <br /> <a href="https://doi.org/10.30437/GEOMORPHOMETRY2020_20">Geomorphometry in the deep Norwegian Sea</a> <br /> <a href="/isg_test/uploads/pdf/pdf2021/Dolan.pdf">presentation</a><br /> <a href="https://youtu.be/dvjan-SSojA">video</a></td>
-    </tr>
-    <tr>
-      <td>12.30-12.45</td>
-      <td>Queralt Guerrero, Ariadna Salabarnada, Amadeu Deu and Marcelo Devincenzi <br /> <a href="https://zenodo.org/record/5354500">Marine geophysical investigations for offshore wind farms and submarine interconnection cables</a> <br /> <a href="/isg_test/uploads/pdf/pdf2021/Guerrero.pdf">presentation</a><br /> <a href="https://youtu.be/yvNfoEQ9lFo">video</a></td>
-    </tr>
-    <tr>
-      <td>12.45-13.30</td>
-      <td><strong>Meeting of the International Society for Geomorphometry.</strong> Everybody is welcome to attend</td>
-    </tr>
-    <tr>
-      <td>13.00-14.00</td>
-      <td>Lunch time</td>
-    </tr>
-    <tr>
-      <td>14.00-14.15</td>
-      <td>Ivica Milevski, Marjan Temovski, Balazs Madarasz, Zoltan Kern and Zsofia Ruszkiczay-Rudiger <br /> <a href="https://doi.org/10.30437/GEOMORPHOMETRY2020_25">Geomorphometry of the cirques of Shar Mountain</a> <br /> <a href="/isg_test/uploads/pdf/pdf2021/Milevski1.pdf">presentation</a><br /> <a href="https://youtu.be/5wWXmnwvdgc">video</a></td>
-    </tr>
-    <tr>
-      <td>14.15-14.30</td>
-      <td>Ivica Milevski, Bojana Aleksova and Sonja Lepitkova <br /> <a href="https://doi.org/10.30437/GEOMORPHOMETRY2020_41">Geomorphometric characteristics of the high mountains in North Macedonia</a> <br /> <a href="/isg_test/uploads/pdf/pdf2021/Milevski2.pdf">presentation</a><br /> <a href="https://youtu.be/0_gvl1Go88w">video</a></td>
-    </tr>
-    <tr>
-      <td>14.30-14.45</td>
-      <td>Ian Sylvester Evans, Nicholas J. Cox,Mihai Niculita and David Milledge <br /> <a href="https://doi.org/10.30437/GEOMORPHOMETRY2020_21">Hypsoclinometric evidence of the degree of modification of mountains by glacial erosion</a> <br /> <a href="https://zenodo.org/record/5502181">presentation</a> <br /> <a href="https://youtu.be/8ea8cGJppm8">video</a></td>
-    </tr>
-    <tr>
-      <td>14.45-15.00</td>
-      <td>Simone Tarquini, Massimiliano Favalli, Melissa Pfeffer, Mattia De’ Michieli Vitturi, Sara Barsotti and Gro Pedersen <br /> <a href="https://doi.org/10.30437/GEOMORPHOMETRY2020_52">Assessing the impact of lava flows during the unrest of Svartsengi volcano in the Reykjaness peninsula, Iceland</a></td>
-    </tr>
-    <tr>
-      <td>15.15-15.30</td>
-      <td>Giuseppe Amatulli, Tushar Sethi, Longzhu Shen, Jaime Ricardo, Garcia-Márquez, Jens Kiesel and Sami Domisch <br /> <a href="https://doi.org/10.30437/GEOMORPHOMETRY2020_55">A new and extendable global watershed and stream network delineation using GRASS-GIS</a> <br /> <a href="/isg_test/uploads/pdf/pdf2021/Amatulli.pdf">presentation</a> <br /> <a href="https://youtu.be/TK3oyZhURto">video</a></td>
-    </tr>
-    <tr>
-      <td>15.30-15.45</td>
-      <td>Atrayee Biswas, Sunando Bandyopadhyay and Abhijit Chakraborty <br /> <a href="https://zenodo.org/record/5336981">Characterizing Gully Morphology using Structure-from-Motion (SfM) in Garhbeta Badlands, West Bengal, India</a> <br /> <a href="https://youtu.be/ZAeOMwKLlE0">video</a></td>
-    </tr>
-    <tr>
-      <td>15.45-16.00</td>
-      <td>Badal Pokharel, Massimiliano Alvioli and Samsung Lim <br /> <a href="https://doi.org/10.30437/GEOMORPHOMETRY2020_49">Relevance of morphometric parameters and completeness of inventories in susceptibility modelling of earthquake-induced landslides</a> <br /><a href="https://doi.org/10.1038/s41598-021-00780-y">published as full paper in Scientific Reports</a> <br /> <a href="/isg_test/uploads/pdf/pdf2021/Pokharel.pdf">presentation</a>  <br /> <a href="https://youtu.be/KDVK-lZAOZU">video</a></td>
-    </tr>
-    <tr>
-      <td>16.00-16.15</td>
-      <td>Massimiliano Alvioli, Michele Santangelo, Federica Fiorucci, Mauro Cardinali, Ivan Marchesini, Paola Reichenbach and Mauro Rossi <br /> <a href="https://doi.org/10.30437/GEOMORPHOMETRY2020_43">A data-driven method for assessing the probability for terrain grid cells of initiating rockfalls on a large area</a><br /> <a href="https://doi.org/10.1016/j.enggeo.2021.106301">published as full paper in Engineering Geology</a> <br /> <a href="/isg_test/uploads/pdf/pdf2021/Fiorucci.pdf">presentation</a> <br /> <a href="https://youtu.be/vsqZmaaP9zc">video</a></td>
-    </tr>
-    <tr>
-      <td>16.15-16.30</td>
-      <td>Nada Ait Ayad, Adnane Habib, Khalid Elkhalidi, Abdeloihab Choukri and Abdelmounim Charif <br /> <a href="https://zenodo.org/record/5346585">Geomorphometric Analysis for Mapping Platforms of the Mazagan Corridor, Morocco</a></td>
-    </tr>
-    <tr>
-      <td>16:30-16:45</td>
-      <td>Announcement of best paper and best student paper awards recipients</td>
-    </tr>
-    <tr>
-      <td> </td>
-      <td><strong>Best student paper award</strong></td>
-    </tr>
-    <tr>
-      <td> </td>
-      <td><strong>Daniele Pinton</strong>, Alberto Canestrellli, Christine Angelini, Benjamin Wilkinson, Peter Ifju and Andrew Ortega <br /> <a href="https://doi.org/10.30437/GEOMORPHOMETRY2020_33">Estimating the spatial distribution of vegetation height and ground level elevation in a mesotidal salt marsh from UAV LiDAR derived point cloud</a> <br /> published as <a href="https://doi.org/10.1002/esp.4992">full paper in Earth Surface Processes and Landforms</a> <br /><a href="/isg_test/uploads/pdf/pdf2021/Pinton.pdf">presentation</a>  <br /> <a href="https://youtu.be/GV78NRpRhyg">video</a></td>
-    </tr>
-    <tr>
-      <td> </td>
-      <td><strong>Best paper award #1</strong></td>
-    </tr>
-    <tr>
-      <td> </td>
-      <td>Michael Hutchinson  <br />  Reflections on adding the Z dimension to earth system analysis <br /><a href="/isg_test/uploads/pdf/pdf2021/Hutchinson.pdf">presentation</a> <br /> <a href="https://youtu.be/fHwtiDl7Vik">video</a></td>
-    </tr>
-    <tr>
-      <td> </td>
-      <td><strong>Best paper award #2</strong></td>
-    </tr>
-    <tr>
-      <td> </td>
-      <td>Massimiliano Alvioli, Michele Santangelo, <strong>Federica Fiorucci</strong>, Mauro Cardinali, Ivan Marchesini, Paola Reichenbach and Mauro Rossi <br /> <a href="https://doi.org/10.30437/GEOMORPHOMETRY2020_43">A data-driven method for assessing the probability for terrain grid cells of initiating rockfalls on a large area</a><br /> <a href="https://doi.org/10.1016/j.enggeo.2021.106301">published as full paper in Engineering Geology</a> <br /> <a href="/isg_test/uploads/pdf/pdf2021/Fiorucci.pdf">presentation</a> <br /> <a href="https://youtu.be/vsqZmaaP9zc">video</a></td>
-    </tr>
-    <tr>
-      <td>16.30-17.00</td>
-      <td>Discussion and closing remaks</td>
-    </tr>
-  </tbody>
-</table>]]></content><author><name></name></author><category term="story" /><category term="event" /><category term="Perugia" /><category term="Italy" /><summary type="html"><![CDATA[Scientific Program]]></summary></entry><entry><title type="html">Digital Elevation Model Intercomparison eXperiment (DEMIX) working group</title><link href="http://carlosgrohmann.com//isg_test/2021/08/19/digital-elevation-model-intercomparison-experiment-demix-working-group.html" rel="alternate" type="text/html" title="Digital Elevation Model Intercomparison eXperiment (DEMIX) working group" /><published>2021-08-19T00:00:00-03:00</published><updated>2021-08-19T00:00:00-03:00</updated><id>http://carlosgrohmann.com//isg_test/2021/08/19/digital-elevation-model-intercomparison-experiment-demix-working-group</id><content type="html" xml:base="http://carlosgrohmann.com//isg_test/2021/08/19/digital-elevation-model-intercomparison-experiment-demix-working-group.html"><![CDATA[<p>The Digital Elevation Model Intercomparison eXperiment (DEMIX) working group is working to standardize DEM terminology, and evaluate the available global 1 arc second DEMs. They published a paper setting out their goals this summer.</p>
-
-<ul>
-  <li>Strobl, P. A., Bielski, C., Guth, P. L., Grohmann, C. H., Muller, J.-P., López-Vázquez, C., Gesch, D. B., Amatulli, G., Riazanoff, S., and Carabajal, C.: 2021 <a href="https://doi.org/10.5194/isprs-archives-XLIII-B4-2021-395-2021">THE DIGITAL ELEVATION MODEL INTERCOMPARISON EXPERIMENT DEMIX, A COMMUNITY-BASED APPROACH AT GLOBAL DEM BENCHMARKING</a>, Int. Arch. Photogramm. Remote Sens. Spatial Inf. Sci., XLIII-B4-2021, 395–400, <a href="https://doi.org/10.5194/isprs-archives-XLIII-B4-2021-395-2021">https://doi.org/10.5194/isprs-archives-XLIII-B4-2021-395-2021</a>.</li>
-</ul>
-
-<p>10 minute movie: <a href="https://www.youtube.com/watch?v=veZA4O1rU28">DEMIX – The Digital Elevation Model Intercomparison EXperiment</a></p>
-
-<p><img src="/isg_test/uploads/img/demix/demix_group_photo.jpg" alt="" /></p>]]></content><author><name></name></author><category term="story" /><category term="srtm" /><category term="aster" /><category term="alos" /><category term="fabdem" /><category term="nasadem" /><category term="copdem" /><category term="copernicus" /><category term="publication" /><category term="demix" /><summary type="html"><![CDATA[The Digital Elevation Model Intercomparison eXperiment (DEMIX) working group is working to standardize DEM terminology, and evaluate the available global 1 arc second DEMs. They published a paper setting out their goals this summer.]]></summary></entry><entry><title type="html">Continental Europe Digital Terrain Model at 30 m resolution based on multisource data</title><link href="http://carlosgrohmann.com//isg_test/2021/08/12/continental-europe-digital-terrain-model-at-30-m-resolution-based-on-multisource-data.html" rel="alternate" type="text/html" title="Continental Europe Digital Terrain Model at 30 m resolution based on multisource data" /><published>2021-08-12T00:00:00-03:00</published><updated>2021-08-12T00:00:00-03:00</updated><id>http://carlosgrohmann.com//isg_test/2021/08/12/continental-europe-digital-terrain-model-at-30-m-resolution-based-on-multisource-data</id><content type="html" xml:base="http://carlosgrohmann.com//isg_test/2021/08/12/continental-europe-digital-terrain-model-at-30-m-resolution-based-on-multisource-data.html"><![CDATA[<p>Within the <strong><a href="https://maps.opendatascience.eu/?base=OpenStreetMap%20(grayscale)&amp;layer=Topographic%20index%20(wetness%20index)&amp;zoom=4.8&amp;center=45.3356,9.9145&amp;opacity=45">OpenDataScience.eu</a></strong> (Geo-harmonizer) project we have recently produced an Digital Terrain Model for Continental Europe based on the four publicly available Digital Surface Models:  <a href="http://hydro.iis.u-tokyo.ac.jp/~yamadai/MERIT_DEM/">MERITDEM</a>, <a href="https://www.eorc.jaxa.jp/ALOS/en/aw3d30/index.htm">AW3D30</a>, <a href="https://spacedata.copernicus.eu/web/cscda/dataset-details?articleId=394198">GLO-30</a>, <a href="https://www.eea.europa.eu/data-and-maps/data/copernicus-land-monitoring-service-eu-dem">EU DEM</a>. This is basically an Ensemble Machine Learning approach where GEDI level 2B points (Level 2A; “elev_lowestmode”) and ICESat-2 (ATL08; “h_te_mean”) were used to train a multisource model to predict “most probable height of terrain” including the prediction errors per pixel.</p>
-
-<p>So which of the four big global DEM’s is the best match with terrain heights? Our results indicate that it is the <a href="http://hydro.iis.u-tokyo.ac.jp/~yamadai/MERIT_DEM/">MERITv1.0.1</a> (originally available at 90-m, but was downscaled here to 30-m using cubic splines) followed by the AW3Dv2012 and GLO-30. This confirms that Yamazaki et al. (2017) have done an excellent work in filtering out canopy and artifacts in the original SRTM/AWD30 data.</p>
-
-<p>Read more about MERIT DEM in:</p>
-
-<ul>
-  <li>Yamazaki D., D. Ikeshima, R. Tawatari, T. Yamaguchi, F. O’Loughlin, J.C. Neal, C.C. Sampson, S. Kanae &amp; P.D. Bates, (2017). <a href="http://onlinelibrary.wiley.com/doi/10.1002/2017GL072874/full">A high accuracy map of global terrain elevations</a>. Geophysical Research Letters, vol.44, pp.5844-5853, 2017 doi: <a href="https://doi.org/10.1002/2017GL072874">10.1002/2017GL072874</a></li>
-</ul>
-
-<p>To access the Continental Europe Digital Terrain Model at 30-m please visit https://maps.opendatascience.eu and select “terrain” from the layer menu.</p>
-
-<p>You can also download the DTM for EU including the regression matrix with all training points (GEDI/ICESat) via:</p>
-
-<ul>
-  <li>Hengl, T., Leal Parente, L., Krizan, J., &amp; Bonannella, C. (2020). <a href="https://zenodo.org/record/4724549">Continental Europe Digital Terrain Model at 30 m resolution based on GEDI, ICESat-2, AW3D, GLO-30, EUDEM, MERIT DEM and background layers (v0.3)</a> [Data set]. Zenodo. https://doi.org/10.5281/zenodo.4724549</li>
-</ul>
-
-<p><img src="/isg_test/uploads/img/data/eu_ensemble_dtm_preview_odsEurope.jpg" alt="" /></p>]]></content><author><name></name></author><category term="story" /><category term="publication" /><category term="dataset" /><summary type="html"><![CDATA[Within the OpenDataScience.eu (Geo-harmonizer) project we have recently produced an Digital Terrain Model for Continental Europe based on the four publicly available Digital Surface Models: MERITDEM, AW3D30, GLO-30, EU DEM. This is basically an Ensemble Machine Learning approach where GEDI level 2B points (Level 2A; “elev_lowestmode”) and ICESat-2 (ATL08; “h_te_mean”) were used to train a multisource model to predict “most probable height of terrain” including the prediction errors per pixel.]]></summary></entry></feed>
+<p>Scheme showing the surfaces represented by a DSM, a DTM, and a NVS (Guth et al., 2021)</p>]]></content><author><name></name></author><category term="story" /><category term="srtm" /><category term="aster" /><category term="alos" /><category term="fabdem" /><category term="nasadem" /><category term="copdem" /><category term="copernicus" /><category term="publication" /><category term="demix" /><summary type="html"><![CDATA[There is a new paper on DEM terminology and definitions (open access):]]></summary></entry></feed>

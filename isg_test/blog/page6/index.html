@@ -62,7 +62,7 @@
     <meta property="og:type" content="website" />
     
     <!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Page 6 of 17 for Blog | Geomorphometry.org</title>
+<title>Page 6 of 18 for Blog | Geomorphometry.org</title>
 <meta name="generator" content="Jekyll v4.3.2" />
 <meta property="og:title" content="Blog" />
 <meta property="og:locale" content="en_US" />
@@ -340,6 +340,9 @@
             
             
         
+            
+            
+        
 
         
         <li class="separator"> | </li>
@@ -382,8 +385,8 @@
         <span>
           <header>
             <h2>
-              <a aria-label="Geostatistical simulations of topography" class="post-link" href="/isg_test/2020/06/30/geostatistical-simulations-of-topography.html">
-                Geostatistical simulations of topography
+              <a aria-label="TOPO parameters" class="post-link" href="/isg_test/2020/06/30/topo-parameters.html">
+                TOPO parameters
               </a>
             </h2>
             
@@ -401,111 +404,15 @@
           
               <div class="excerpt">
                   
-                     Short title:  DEMsim
+                     hort title:  TOPO.AML
 
-Inputs: control.txt - 1020 precise measurements (photogrametric + spot heights); elevations.txt - 2051 points (contours + spot heights); dem10m_tin.asc - 100x150 pixels 30m DEM.
-Outputs: simulated DEMs, simulated error surfac...
-                  
-              </div>
-          
-      </span>
-    </div>
-    
-    <div class="post-teaser">
-        
-        <span>
-          <header>
-            <h2>
-              <a aria-label="geomorphometry terrain toolbox" class="post-link" href="/isg_test/2020/06/30/geomorphometry-terrain-toolbox.html">
-                geomorphometry terrain toolbox
-              </a>
-            </h2>
-            
-
-
-<div class="post-info">
-    <p class="meta">
-      
-      
-      June 30, 2020
-    </p>
-</div>
-
-          </header>
-          
-              <div class="excerpt">
-                  
-                     Short title:  amltools
-
-ArcInfo Arc Marco Language Code (AML) Geomorphometry Toolbox contains a collection of terrain analysis scripts which can be used with a installation of ArcInfo’s Workstation. Please note: They are not working with ARCVIEW a...
-                  
-              </div>
-          
-      </span>
-    </div>
-    
-    <div class="post-teaser">
-        
-        <span>
-          <header>
-            <h2>
-              <a aria-label="Geomorphometry in R + SAGA + ILWIS + GRASS" class="post-link" href="/isg_test/2020/06/30/geomorphometry-in-r-saga-ilwis-grass.html">
-                Geomorphometry in R + SAGA + ILWIS + GRASS
-              </a>
-            </h2>
-            
-
-
-<div class="post-info">
-    <p class="meta">
-      
-      
-      June 30, 2020
-    </p>
-</div>
-
-          </header>
-          
-              <div class="excerpt">
-                  
-                     This is a sample code to process Baranja hill DEM using a combination of R, SAGA, ILWIS and Google Earth (under MS Windows machines). All four packages are available as open source or freeware (GE). You first need to obtain and install R (includin...
-                  
-              </div>
-          
-      </span>
-    </div>
-    
-    <div class="post-teaser">
-        
-        <span>
-          <header>
-            <h2>
-              <a aria-label="Geomorphological mapping" class="post-link" href="/isg_test/2020/06/30/geomorphological-mapping.html">
-                Geomorphological mapping
-              </a>
-            </h2>
-            
-
-
-<div class="post-info">
-    <p class="meta">
-      
-      
-      June 30, 2020
-    </p>
-</div>
-
-          </header>
-          
-              <div class="excerpt">
-                  
-                     Short title:geomorph
-
-For a complete description of the processing steps, see the original publication.
+Inputs: INPUTDEM - a grid representing a continuous surface.
+Outputs: a set of geomorphometric parameters.
+&amp;amp;r topo INPUTDEM {streamflow threshold} {streamcover} (i.e. &amp;amp;r topo ls10 150)
 
 Purpose and use:
 
-Automated extraction of geomorphological features using digital elevation data: case study Drente; outputs: extracted classe...
+It’s a compi...
                   
               </div>
           
@@ -517,8 +424,8 @@ Automated extraction of geomorphological features using digital elevation data: 
         <span>
           <header>
             <h2>
-              <a aria-label="Generic landforms" class="post-link" href="/isg_test/2020/06/30/generic-landforms.html">
-                Generic landforms
+              <a aria-label="Openess" class="post-link" href="/isg_test/2020/06/30/openess.html">
+                Openess
               </a>
             </h2>
             
@@ -536,10 +443,134 @@ Automated extraction of geomorphological features using digital elevation data: 
           
               <div class="excerpt">
                   
-                     Short title:  g_landf
+                     Short title:  openness.lsc
 
-Inputs: %1 - table with central values has to have same domain as the class map, %2 standard fuzziness factor (1.5), %3 - domain, %4 - SLOPE, %5 - PLANC and %6 - ACV.
-Outputs: membership values (0-1) to each generic landform...
+Inputs: A DEM (uses the Baranja Hill DEM25m.asc as an example).
+Outputs: A raster of ‘openness’ that describes how exposed a surface is at each location. The measure is an angle where values close to 0 are very sheltere...
+                  
+              </div>
+          
+      </span>
+    </div>
+    
+    <div class="post-teaser">
+        
+        <span>
+          <header>
+            <h2>
+              <a aria-label="North Carolina coast LiDAR" class="post-link" href="/isg_test/2020/06/30/nc-coast-lidar.html">
+                North Carolina coast LiDAR
+              </a>
+            </h2>
+            
+
+
+<div class="post-info">
+    <p class="meta">
+      
+      
+      June 30, 2020
+    </p>
+</div>
+
+          </header>
+          
+              <div class="excerpt">
+                  
+                     This dataset contains a series of x,y,z LiDAR point cloud data in csv format, delimited by comma. Points are projected in the NC State Plane EPSG 3358 coordinate system with units meters.
+
+To get more better representation of structures from LiDAR...
+                  
+              </div>
+          
+      </span>
+    </div>
+    
+    <div class="post-teaser">
+        
+        <span>
+          <header>
+            <h2>
+              <a aria-label="MDEM250m" class="post-link" href="/isg_test/2020/06/30/mdem250m.html">
+                MDEM250m
+              </a>
+            </h2>
+            
+
+
+<div class="post-info">
+    <p class="meta">
+      
+      
+      June 30, 2020
+    </p>
+</div>
+
+          </header>
+          
+              <div class="excerpt">
+                  
+                     
+
+Available layers:
+
+Download land surface model per Equi7 region:
+
+
+  AF(49)
+  AN(23)
+  AS(56)
+  EU(43)
+  NA(30)
+  SA(28)
+  OC(57)
+
+
+Grid definition:
+
+Projection system: Equi7 grid
+Spatial resolution: 250m
+Total size: 3.3 GB
+proj4:+proj=aeqd
+
+Lin...
+                  
+              </div>
+          
+      </span>
+    </div>
+    
+    <div class="post-teaser">
+        
+        <span>
+          <header>
+            <h2>
+              <a aria-label="Landslide probabilities" class="post-link" href="/isg_test/2020/06/30/landslide-probabilities.html">
+                Landslide probabilities
+              </a>
+            </h2>
+            
+
+
+<div class="post-info">
+    <p class="meta">
+      
+      
+      June 30, 2020
+    </p>
+</div>
+
+          </header>
+          
+              <div class="excerpt">
+                  
+                     Short title:  landprob
+
+Inputs: DEM in metric projection, Source Landslide areas, H/L value as stopping parameter.
+Outputs: pq_limi and all other parameters as described in Gruber et al., 2008 article in the Geomorphometry book.
+
+Purpose and use:
+...
                   
               </div>
           
@@ -567,7 +598,7 @@ Outputs: membership values (0-1) to each generic landform...
     </div>
 
     <div class="page_number">
-        6 / 17
+        6 / 18
     </div>
 
     <div class="next">
@@ -580,7 +611,7 @@ Outputs: membership values (0-1) to each generic landform...
 
         
         <!-- >> -->
-        <a aria-label="Next" href="/isg_test/blog/page17" class="button">
+        <a aria-label="Next" href="/isg_test/blog/page18" class="button">
             <span><i class="fas fa-angle-double-right"></i></span>
         </a>
         
