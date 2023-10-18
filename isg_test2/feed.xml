@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://carlosgrohmann.com//isg_test2/feed.xml" rel="self" type="application/atom+xml" /><link href="http://carlosgrohmann.com//isg_test2/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2023-10-17T12:46:30-04:00</updated><id>http://carlosgrohmann.com//isg_test2/feed.xml</id><title type="html">Geomorphometry.org</title><subtitle>Website of the International Society for Geomorphometry (ISG). 
-</subtitle><entry><title type="html">Geomorphometry 2023 - DEMIX Workshop</title><link href="http://carlosgrohmann.com//isg_test2/blog/2023/05/10/geomorphometry-2023-demix/" rel="alternate" type="text/html" title="Geomorphometry 2023 - DEMIX Workshop" /><published>2023-05-10T00:00:00-04:00</published><updated>2023-05-10T00:00:00-04:00</updated><id>http://carlosgrohmann.com//isg_test2/blog/2023/05/10/geomorphometry-2023-demix</id><content type="html" xml:base="http://carlosgrohmann.com//isg_test2/blog/2023/05/10/geomorphometry-2023-demix/">&lt;p&gt;&lt;img src=&quot;/isg_test2/uploads/img/logos/demix_logo.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://carlosgrohmann.com//isg_test2/feed.xml" rel="self" type="application/atom+xml" /><link href="http://carlosgrohmann.com//isg_test2/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2023-10-18T13:18:51-04:00</updated><id>http://carlosgrohmann.com//isg_test2/feed.xml</id><title type="html">Geomorphometry.org</title><subtitle>Website of the International Society for Geomorphometry (ISG). 
+</subtitle><entry><title type="html">Geomorphometry 2023 - DEMIX Workshop</title><link href="http://carlosgrohmann.com//isg_test2/blog/2023/05/10/geomorphometry-2023-demix/" rel="alternate" type="text/html" title="Geomorphometry 2023 - DEMIX Workshop" /><published>2023-05-10T00:00:00-04:00</published><updated>2023-05-10T00:00:00-04:00</updated><id>http://carlosgrohmann.com//isg_test2/blog/2023/05/10/geomorphometry-2023-demix</id><content type="html" xml:base="http://carlosgrohmann.com//isg_test2/blog/2023/05/10/geomorphometry-2023-demix/">&lt;p&gt;&lt;img src=&quot;isg_test2/uploads/img/logos/demix_logo.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;DEMIX (DEM Intercomparison eXercise) is a CEOS / WGCV / TMSG initiative supported by ESA as part of the EDAP+ project and by USGS. The objective of DEMIX is to compare global DEMs, and in particular, those at 1” arcsecond such as SRTM, ASTER GDEM, ALOS World-3D, NASADEM, COP-DEM, and FABDEM to allow different users to select the one that best suits their needs in their areas of interest. This choice is based on the results of criteria tested in different areas and evaluated using a “Wine contest” method where both quantitative and qualitative results can be freely combined for the candidate DEMs. The DEMIX project, developed out of a JRC workshop on Global DEM Benchmarking in 2019, started in July 2020 and is rolled out in three subgroups: (1) terminology and analytical basis, (2) algorithms and software, and (3) platforms and processing.&lt;/p&gt;
 
@@ -25,13 +25,13 @@
   &lt;li&gt;Strobl et al., 2021b - Video presenting DEMIX - &lt;a href=&quot;https://geomorphometry.org/digital-elevation-model-intercomparison-experiment-demix-working-group/&quot;&gt;https://geomorphometry.org/digital-elevation-model-intercomparison-experiment-demix-working-group/&lt;/a&gt; - &lt;a href=&quot;https://www.youtube.com/watch?v=veZA4O1rU28&quot;&gt;https://www.youtube.com/watch?v=veZA4O1rU28&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;Guth et al., 2021 - Digital Elevation Models: Terminology and Definitions - Remote Sens. 2021, 13(18), 3581&lt;a href=&quot;https://doi.org/10.3390/rs13183581&quot;&gt;https://doi.org/10.3390/rs13183581&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;Bielski et al., 2023: DEMIX Wine Contest Method Ranks ALOS AW3D30, COPDEM, and FABDEM as Top 1” Global DEMs” &lt;a rel=&quot;noreferrer noopener&quot; href=&quot;https://arxiv.org/abs/2302.08425&quot; target=&quot;_blank&quot;&gt;https://arxiv.org/abs/2302.08425&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="story" /><category term="event" /><category term="Iasi" /><category term="Romania" /><summary type="html"></summary></entry><entry><title type="html">Geomorphometry 2023 - Programme</title><link href="http://carlosgrohmann.com//isg_test2/blog/2023/05/05/geomorphometry-2023-programme/" rel="alternate" type="text/html" title="Geomorphometry 2023 - Programme" /><published>2023-05-05T00:00:00-04:00</published><updated>2023-05-05T00:00:00-04:00</updated><id>http://carlosgrohmann.com//isg_test2/blog/2023/05/05/geomorphometry-2023-programme</id><content type="html" xml:base="http://carlosgrohmann.com//isg_test2/blog/2023/05/05/geomorphometry-2023-programme/">&lt;h2 id=&quot;scientific-program&quot;&gt;Scientific Program&lt;/h2&gt;
+&lt;/ul&gt;</content><author><name>Mihai Niculita</name></author><category term="story" /><category term="event" /><category term="Iasi" /><category term="Romania" /><summary type="html"></summary></entry><entry><title type="html">Geomorphometry 2023 - Programme</title><link href="http://carlosgrohmann.com//isg_test2/blog/2023/05/05/geomorphometry-2023-programme/" rel="alternate" type="text/html" title="Geomorphometry 2023 - Programme" /><published>2023-05-05T00:00:00-04:00</published><updated>2023-05-05T00:00:00-04:00</updated><id>http://carlosgrohmann.com//isg_test2/blog/2023/05/05/geomorphometry-2023-programme</id><content type="html" xml:base="http://carlosgrohmann.com//isg_test2/blog/2023/05/05/geomorphometry-2023-programme/">&lt;h2 id=&quot;scientific-program&quot;&gt;Scientific Program&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&quot;/isg_test2/uploads/img/posts/GEOMORPHOMETRY2023_PROGRAMME.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;isg_test2/uploads/img/posts/GEOMORPHOMETRY2023_PROGRAMME.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;monday-10th-july--day-1&quot;&gt;Monday (10th July) – Day 1&lt;/h3&gt;
 
-&lt;table&gt;
+&lt;table class=&quot;table-condensed table-bordered table-striped table-responsive&quot;&gt;
   &lt;tbody&gt;
     &lt;tr&gt;
       &lt;td&gt;08:00-08:45&lt;/td&gt;
@@ -122,7 +122,7 @@
 
 &lt;h3 id=&quot;tuesday-11th-july--day-2-field-trip&quot;&gt;Tuesday (11th July) – Day 2 (Field Trip)&lt;/h3&gt;
 
-&lt;table&gt;
+&lt;table class=&quot;table-condensed table-bordered table-striped table-responsive&quot;&gt;
   &lt;tbody&gt;
     &lt;tr&gt;
       &lt;td&gt;8:00-9:00&lt;/td&gt;
@@ -169,7 +169,7 @@
 
 &lt;h3 id=&quot;wednesday-12th-july--day-3&quot;&gt;Wednesday (12th July) – Day 3&lt;/h3&gt;
 
-&lt;table&gt;
+&lt;table class=&quot;table-condensed table-bordered table-striped table-responsive&quot;&gt;
   &lt;tbody&gt;
     &lt;tr&gt;
       &lt;td&gt;9:00-10:00&lt;/td&gt;
@@ -256,7 +256,7 @@
 
 &lt;h3 id=&quot;thursday-13th-july--day-4&quot;&gt;Thursday (13th July) – Day 4&lt;/h3&gt;
 
-&lt;table&gt;
+&lt;table class=&quot;table-condensed table-bordered table-striped table-responsive&quot;&gt;
   &lt;tbody&gt;
     &lt;tr&gt;
       &lt;td&gt;09:00-10:00&lt;/td&gt;
@@ -339,7 +339,7 @@
 
 &lt;h3 id=&quot;friday-13th-july--day-5&quot;&gt;Friday (13th July) – Day 5&lt;/h3&gt;
 
-&lt;table&gt;
+&lt;table class=&quot;table-condensed table-bordered table-striped table-responsive&quot;&gt;
   &lt;tbody&gt;
     &lt;tr&gt;
       &lt;td&gt;8:45-10:20&lt;/td&gt;
@@ -378,7 +378,7 @@
       &lt;td&gt;Informal City Tour&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><category term="story" /><category term="event" /><category term="Iasi" /><category term="Romania" /><summary type="html">Scientific Program</summary></entry><entry><title type="html">Geomorphometry 2023 - Registration</title><link href="http://carlosgrohmann.com//isg_test2/blog/2023/02/18/geomorphometry-2023-registration/" rel="alternate" type="text/html" title="Geomorphometry 2023 - Registration" /><published>2023-02-18T00:00:00-05:00</published><updated>2023-02-18T00:00:00-05:00</updated><id>http://carlosgrohmann.com//isg_test2/blog/2023/02/18/geomorphometry-2023-registration</id><content type="html" xml:base="http://carlosgrohmann.com//isg_test2/blog/2023/02/18/geomorphometry-2023-registration/">&lt;p&gt;Registration can be done by paying the conference fee and submitting this completed form to mihai.niculita@uaic.ro.&lt;/p&gt;
+&lt;/table&gt;</content><author><name>Mihai Niculita</name></author><category term="story" /><category term="event" /><category term="Iasi" /><category term="Romania" /><summary type="html">Scientific Program</summary></entry><entry><title type="html">Geomorphometry 2023 - Registration</title><link href="http://carlosgrohmann.com//isg_test2/blog/2023/02/18/geomorphometry-2023-registration/" rel="alternate" type="text/html" title="Geomorphometry 2023 - Registration" /><published>2023-02-18T00:00:00-05:00</published><updated>2023-02-18T00:00:00-05:00</updated><id>http://carlosgrohmann.com//isg_test2/blog/2023/02/18/geomorphometry-2023-registration</id><content type="html" xml:base="http://carlosgrohmann.com//isg_test2/blog/2023/02/18/geomorphometry-2023-registration/">&lt;p&gt;Registration can be done by paying the conference fee and submitting this completed form to mihai.niculita@uaic.ro.&lt;/p&gt;
 
 &lt;p&gt;The registration fee will be 460 EURO, including conference materials, an icebreaker, coffee breaks, lunches, Thursday dinner, and a field trip.&lt;/p&gt;
 
@@ -418,7 +418,7 @@
 &lt;p&gt;Written notifications must be emailed to mihai.niculita@uaic.ro.
 Registration cancellations received by 1 June 2023 will receive a complete refund.
 Cancellations received between 1 June and 1 July 2023 will have a 100 EUR processing fee deducted from their refund.
-No refunds will be issued for canceled registrations or ticketed events after 1 July 2023.&lt;/p&gt;</content><author><name></name></author><category term="story" /><category term="event" /><category term="Iasi" /><category term="Romania" /><summary type="html">Registration can be done by paying the conference fee and submitting this completed form to mihai.niculita@uaic.ro.</summary></entry><entry><title type="html">An Ensemble Digital Terrain Model of the world at 30 m spatial resolution (EDTM30)</title><link href="http://carlosgrohmann.com//isg_test2/blog/2023/02/14/an-ensemble-digital-terrain-model-of-the-world-at-30-m-spatial-resolution-edtm30/" rel="alternate" type="text/html" title="An Ensemble Digital Terrain Model of the world at 30 m spatial resolution (EDTM30)" /><published>2023-02-14T00:00:00-05:00</published><updated>2023-02-14T00:00:00-05:00</updated><id>http://carlosgrohmann.com//isg_test2/blog/2023/02/14/an-ensemble-digital-terrain-model-of-the-world-at-30-m-spatial-resolution-edtm30</id><content type="html" xml:base="http://carlosgrohmann.com//isg_test2/blog/2023/02/14/an-ensemble-digital-terrain-model-of-the-world-at-30-m-spatial-resolution-edtm30/">&lt;p&gt;&lt;em&gt;Prepared by: Yu-Feng Ho (OpenGeoHub), Tom Hengl (OpenGeoHub) and Leandro Parente (OpenGeoHub)&lt;/em&gt;&lt;/p&gt;
+No refunds will be issued for canceled registrations or ticketed events after 1 July 2023.&lt;/p&gt;</content><author><name>Mihai Niculita</name></author><category term="story" /><category term="event" /><category term="Iasi" /><category term="Romania" /><summary type="html">Registration can be done by paying the conference fee and submitting this completed form to mihai.niculita@uaic.ro.</summary></entry><entry><title type="html">An Ensemble Digital Terrain Model of the world at 30 m spatial resolution (EDTM30)</title><link href="http://carlosgrohmann.com//isg_test2/blog/2023/02/14/an-ensemble-digital-terrain-model-of-the-world-at-30-m-spatial-resolution-edtm30/" rel="alternate" type="text/html" title="An Ensemble Digital Terrain Model of the world at 30 m spatial resolution (EDTM30)" /><published>2023-02-14T00:00:00-05:00</published><updated>2023-02-14T00:00:00-05:00</updated><id>http://carlosgrohmann.com//isg_test2/blog/2023/02/14/an-ensemble-digital-terrain-model-of-the-world-at-30-m-spatial-resolution-edtm30</id><content type="html" xml:base="http://carlosgrohmann.com//isg_test2/blog/2023/02/14/an-ensemble-digital-terrain-model-of-the-world-at-30-m-spatial-resolution-edtm30/">&lt;p&gt;&lt;em&gt;Prepared by: Yu-Feng Ho (OpenGeoHub), Tom Hengl (OpenGeoHub) and Leandro Parente (OpenGeoHub)&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;Digital Terrain Model or Digital Land Surface Model is a digital raster map representing elevations of terrain / bare surface. NASA’s SRTM DEM used to be one of the most famous environmental layers in early 2000’s. In recent years a number of global public topography datasets at high spatial resolutions (30 m) have been released, from which Copernicus GLO-30 and ALOS AW3D30 are the two that can be considered new-generation elevation models. Too many versions of (basically the same) environmental data layer and too many landing pages can often confuse users and decrease the overall usability of such data. To simplify access and usability of such data we are building global Cloud-Optimized GeoTIFFs that are based on ensembling of multiple data sources, including national/regional datasets. Here is how you can access this data and contribute to the project.&lt;/p&gt;
 
@@ -442,7 +442,7 @@ No refunds will be issued for canceled registrations or ticketed events after 1 
 
 &lt;p&gt;This is of course a simplification and an arbitrary chosen number. Although computationally efficient, there is no guarantee that using lower 10% quantile will remove all canopy problems (e.g. all forests) hence it is important to first remove any pixels that significantly oscillate from MERITDEM. In addition, we here also assume that both AW3D and GLO-30 are the same quality, which might not be true for different parts of the world.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/isg_test2/uploads/img/posts/1FDVBXIErsTVfrwlz6eLlkw.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;isg_test2/uploads/img/posts/1FDVBXIErsTVfrwlz6eLlkw.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;A simple procedure used to derive an Ensemble estimate of the terrain elevation.&lt;/p&gt;
 
@@ -465,23 +465,23 @@ No refunds will be issued for canceled registrations or ticketed events after 1 
 
 &lt;p&gt;The process of deriving the best estimate of DTM is fully documented and automated in this &lt;a href=&quot;https://github.com/openlandmap/spatial-layers/blob/main/EDTM/ensemble_dtm.ipynb&quot;&gt;&lt;strong&gt;Python script&lt;/strong&gt;&lt;/a&gt;. At the moment it can be used to generate an ensemble DTM within 5 hrs running on a fully parallelized HPC center with cca 1050 threads. Final mosaic of the world is a massive 200GB dataset and still takes significant time to compile a COG:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/isg_test2/uploads/img/posts/0yl4R9nsy1QGYj2e4.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;isg_test2/uploads/img/posts/0yl4R9nsy1QGYj2e4.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Dimensions and technical properties of the global mosaic at 30 m spatial resolution.&lt;/p&gt;
 
 &lt;p&gt;A demonstration of the maps used and the results obtained (EDTM) is shown below:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/isg_test2/uploads/img/posts/1j0sWhwNEiN2Us1jJBbFZvw.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;isg_test2/uploads/img/posts/1j0sWhwNEiN2Us1jJBbFZvw.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Three original input DEMs. GLO-30 and AW3D30 can be considered to be Digital Surface Models, hence canopy and buildings would need to be removed before it can be used.&lt;/p&gt;
 
 &lt;p&gt;In the last stage we compile all output layers as Analysis-Ready-Cloud-Optimized (ARCO) GeoTiff. This gives on the two final layers (1) EDTM in metre (m), and (2) standard deviation showing biggest discrepancies between AW3D, GLO-30, MERITDEM, and national DTMs. The two output COGs are shown below.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/isg_test2/uploads/img/posts/0QtOe79g6biXDex1h.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;isg_test2/uploads/img/posts/0QtOe79g6biXDex1h.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Ensemble DTM in 30m.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/isg_test2/uploads/img/posts/0UStEl22YCjX3RtMQ.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;isg_test2/uploads/img/posts/0UStEl22YCjX3RtMQ.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Standard deviation of Ensemble DTM in 30 m. This only shows how much the elevation differs from the multisource input data. Note that the highest errors can be noticed in areas with high complex relief i.e. Alps, Himalayas, but also in areas covered with dense vegetation (tropical forests).&lt;/p&gt;
 
@@ -508,7 +508,7 @@ No refunds will be issued for canceled registrations or ticketed events after 1 
 
 &lt;p&gt;Important note: probably there is no need to download the whole tif as it is 200+ GB in size. To open this layer in QGIS and resample or subset / crop to area of interest, follow these steps: open QGIS -&amp;gt; “Layer” -&amp;gt; “Add Layer” -&amp;gt; “Add Raster Layer”, and click Protocol: HTTP(S), cloud, etc., paste the url from above at URL, and click “Add” button.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/isg_test2/uploads/img/posts/0y9fKimuVqB0-DFey.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;isg_test2/uploads/img/posts/0y9fKimuVqB0-DFey.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Panel to add Ensemble DTM in QGIS (Layer » Add Layer » Add Raster Layer)&lt;/p&gt;
 
@@ -520,7 +520,7 @@ No refunds will be issued for canceled registrations or ticketed events after 1 
 
 &lt;p&gt;To derive hillshade for this tile, QGIS provides Hillshade function. You can find it from QGIS -&amp;gt; “Raster” -&amp;gt; “Analysis” -&amp;gt; “Hillshade”.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/isg_test2/uploads/img/posts/08HMYjw4N_QYreXMp.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;isg_test2/uploads/img/posts/08HMYjw4N_QYreXMp.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Ensemble DEM and derived Hillshade.&lt;/p&gt;
 
@@ -630,7 +630,7 @@ https://www.uaic.ro/tur-virtual/camin-studentesc-akademos/&lt;/p&gt;
 
 &lt;h2 id=&quot;visa&quot;&gt;Visa&lt;/h2&gt;
 
-&lt;p&gt;For information about the visa requirements for traveling in Romania, please visit http://evisa.mae.ro/, which is the best way to find information and apply online for visa.&lt;/p&gt;</content><author><name></name></author><category term="story" /><category term="event" /><category term="Iasi" /><category term="Romania" /><summary type="html">How to get to Iasi</summary></entry><entry><title type="html">Geomorphometry 2023 - Venue</title><link href="http://carlosgrohmann.com//isg_test2/blog/2023/01/15/geomorphometry-2023-venue/" rel="alternate" type="text/html" title="Geomorphometry 2023 - Venue" /><published>2023-01-15T00:00:00-05:00</published><updated>2023-01-15T00:00:00-05:00</updated><id>http://carlosgrohmann.com//isg_test2/blog/2023/01/15/geomorphometry-2023-venue</id><content type="html" xml:base="http://carlosgrohmann.com//isg_test2/blog/2023/01/15/geomorphometry-2023-venue/">&lt;h2 id=&quot;conference-venue&quot;&gt;Conference Venue&lt;/h2&gt;
+&lt;p&gt;For information about the visa requirements for traveling in Romania, please visit http://evisa.mae.ro/, which is the best way to find information and apply online for visa.&lt;/p&gt;</content><author><name>Mihai Niculita</name></author><category term="story" /><category term="event" /><category term="Iasi" /><category term="Romania" /><summary type="html">How to get to Iasi</summary></entry><entry><title type="html">Geomorphometry 2023 - Venue</title><link href="http://carlosgrohmann.com//isg_test2/blog/2023/01/15/geomorphometry-2023-venue/" rel="alternate" type="text/html" title="Geomorphometry 2023 - Venue" /><published>2023-01-15T00:00:00-05:00</published><updated>2023-01-15T00:00:00-05:00</updated><id>http://carlosgrohmann.com//isg_test2/blog/2023/01/15/geomorphometry-2023-venue</id><content type="html" xml:base="http://carlosgrohmann.com//isg_test2/blog/2023/01/15/geomorphometry-2023-venue/">&lt;h2 id=&quot;conference-venue&quot;&gt;Conference Venue&lt;/h2&gt;
 
 &lt;p&gt;“Mihai Eminescu” Aula Magna of “Alexandru Ioan Cuza” University of Iasi&lt;/p&gt;
 
@@ -640,22 +640,22 @@ https://www.uaic.ro/tur-virtual/camin-studentesc-akademos/&lt;/p&gt;
 
 &lt;p&gt;See the exact location on Google maps: https://goo.gl/maps/JnGCZXyoJkCfEWGbA&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/isg_test2/uploads/img/meet2023/aaula.jpg&quot; alt=&quot;&quot; /&gt; &lt;img src=&quot;/isg_test2/uploads/img/meet2023/aula.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;isg_test2/uploads/img/meet2023/aaula.jpg&quot; alt=&quot;&quot; /&gt; &lt;img src=&quot;isg_test2/uploads/img/meet2023/aula.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;workshops&quot;&gt;Workshops&lt;/h2&gt;
 
 &lt;p&gt;For the workshops, PC rooms from the Department of Geography, Faculty of Geography and Geology will host the attendees.
-&lt;img src=&quot;/isg_test2/uploads/img/meet2023/rooms.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;isg_test2/uploads/img/meet2023/rooms.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;posters&quot;&gt;Posters&lt;/h2&gt;
 
 &lt;p&gt;For the posters, there is the Hall of the Echoing Footsteps (https://www.uaic.ro/en/about-uaic/hall-echoing-footsteps/ and the virtual tour https://www.uaic.ro/despre-uaic/prezentare-sala-pasilor-pierduti/), adjacent to the Aula Magna: https://goo.gl/maps/T5VEtcmGWUnS7gLt9&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/isg_test2/uploads/img/meet2023/posters.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;isg_test2/uploads/img/meet2023/posters.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;fieldtrip&quot;&gt;Fieldtrip&lt;/h2&gt;
 
-&lt;p&gt;The one-day field trip will be an enjoyable itinerary through the Moldavian Plateau, the Romanian Subcarpathians, and the Romanian Carpathians. Geosites, wineries, monasteries, and natural parks will be visited, while geomorphometricians will network, make friends and spend a good time.&lt;/p&gt;</content><author><name></name></author><category term="story" /><category term="event" /><category term="Iasi" /><category term="Romania" /><summary type="html">Conference Venue</summary></entry><entry><title type="html">Geomorphometry 2023 - Announcement</title><link href="http://carlosgrohmann.com//isg_test2/blog/2022/10/15/geomorphometry-2023-announcement/" rel="alternate" type="text/html" title="Geomorphometry 2023 - Announcement" /><published>2022-10-15T00:00:00-04:00</published><updated>2022-10-15T00:00:00-04:00</updated><id>http://carlosgrohmann.com//isg_test2/blog/2022/10/15/geomorphometry-2023-announcement</id><content type="html" xml:base="http://carlosgrohmann.com//isg_test2/blog/2022/10/15/geomorphometry-2023-announcement/">&lt;p&gt;&lt;img src=&quot;/isg_test2/uploads/img/logos/iasi_01.png&quot; width=&quot;50%&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;The one-day field trip will be an enjoyable itinerary through the Moldavian Plateau, the Romanian Subcarpathians, and the Romanian Carpathians. Geosites, wineries, monasteries, and natural parks will be visited, while geomorphometricians will network, make friends and spend a good time.&lt;/p&gt;</content><author><name>Mihai Niculita</name></author><category term="story" /><category term="event" /><category term="Iasi" /><category term="Romania" /><summary type="html">Conference Venue</summary></entry><entry><title type="html">Geomorphometry 2023 - Announcement</title><link href="http://carlosgrohmann.com//isg_test2/blog/2022/10/15/geomorphometry-2023-announcement/" rel="alternate" type="text/html" title="Geomorphometry 2023 - Announcement" /><published>2022-10-15T00:00:00-04:00</published><updated>2022-10-15T00:00:00-04:00</updated><id>http://carlosgrohmann.com//isg_test2/blog/2022/10/15/geomorphometry-2023-announcement</id><content type="html" xml:base="http://carlosgrohmann.com//isg_test2/blog/2022/10/15/geomorphometry-2023-announcement/">&lt;p&gt;&lt;img src=&quot;isg_test2/uploads/img/logos/iasi_01.png&quot; width=&quot;50%&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The International Society for Geomorphometry and the Organizing Committee, are pleased to announce the seventh Geomorphometry Conference to be held in Iasi, Romania, July 10-14 2023. The event is hosted by the Department of Geography, Faculty of Geography and Geology (&lt;a href=&quot;http://www.geo.uaic.ro&quot;&gt;www.geo.uaic.ro&lt;/a&gt;), Alexandru Ioan Cuza University of Iasi (&lt;a href=&quot;http://www.uaic.ro&quot;&gt;www.uaic.ro&lt;/a&gt;).&lt;/p&gt;
 
@@ -682,13 +682,13 @@ https://www.uaic.ro/tur-virtual/camin-studentesc-akademos/&lt;/p&gt;
   &lt;li&gt;Final camera-ready digital manuscripts due: 30th April 2023&lt;/li&gt;
   &lt;li&gt;Early registration deadline: 1st May 2023&lt;/li&gt;
   &lt;li&gt;Conference: 10th-14th July 2023&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="story" /><category term="event" /><category term="Iasi" /><category term="Romania" /><summary type="html"></summary></entry><entry><title type="html">GRASS GIS v8 release end of 2021</title><link href="http://carlosgrohmann.com//isg_test2/blog/2021/10/30/grass-gis-v8-release-end-of-2021/" rel="alternate" type="text/html" title="GRASS GIS v8 release end of 2021" /><published>2021-10-30T00:00:00-04:00</published><updated>2021-10-30T00:00:00-04:00</updated><id>http://carlosgrohmann.com//isg_test2/blog/2021/10/30/grass-gis-v8-release-end-of-2021</id><content type="html" xml:base="http://carlosgrohmann.com//isg_test2/blog/2021/10/30/grass-gis-v8-release-end-of-2021/">&lt;p&gt;The GRASS GIS development team has used the lock-down times also to work hard on the v8 release of the popular GRASS GIS software (see &lt;a href=&quot;https://trac.osgeo.org/grass/wiki/Grass8Planning&quot;&gt;complete list of new functionality&lt;/a&gt;).&lt;/p&gt;
+&lt;/ul&gt;</content><author><name>ISG Board</name></author><category term="story" /><category term="event" /><category term="Iasi" /><category term="Romania" /><summary type="html"></summary></entry><entry><title type="html">GRASS GIS v8 release end of 2021</title><link href="http://carlosgrohmann.com//isg_test2/blog/2021/10/30/grass-gis-v8-release-end-of-2021/" rel="alternate" type="text/html" title="GRASS GIS v8 release end of 2021" /><published>2021-10-30T00:00:00-04:00</published><updated>2021-10-30T00:00:00-04:00</updated><id>http://carlosgrohmann.com//isg_test2/blog/2021/10/30/grass-gis-v8-release-end-of-2021</id><content type="html" xml:base="http://carlosgrohmann.com//isg_test2/blog/2021/10/30/grass-gis-v8-release-end-of-2021/">&lt;p&gt;The GRASS GIS development team has used the lock-down times also to work hard on the v8 release of the popular GRASS GIS software (see &lt;a href=&quot;https://trac.osgeo.org/grass/wiki/Grass8Planning&quot;&gt;complete list of new functionality&lt;/a&gt;).&lt;/p&gt;
 
 &lt;p&gt;There are many new additions to the raster library expected and likely Digital Terrain Modeling and analysis should likely run smoother. The GRASS GIS will stay available via QGIS but also will provide direct Python 3 support and of course R community should be able to access GRASS modules directly via the &lt;a href=&quot;https://rdrr.io/rforge/rgrass7/&quot;&gt;rgrass&lt;/a&gt; package.&lt;/p&gt;
 
 &lt;p&gt;We are looking forward to seeing the new GRASS GIS in action!&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/isg_test2/uploads/img/posts/grass_gis_flyer.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="story" /><category term="software" /><category term="foss" /><category term="grass" /><summary type="html">The GRASS GIS development team has used the lock-down times also to work hard on the v8 release of the popular GRASS GIS software (see complete list of new functionality).</summary></entry><entry><title type="html">Summary of Geomorphometry 2021</title><link href="http://carlosgrohmann.com//isg_test2/blog/2021/09/27/summary-of-geomorphometry-2021/" rel="alternate" type="text/html" title="Summary of Geomorphometry 2021" /><published>2021-09-27T00:00:00-04:00</published><updated>2021-09-27T00:00:00-04:00</updated><id>http://carlosgrohmann.com//isg_test2/blog/2021/09/27/summary-of-geomorphometry-2021</id><content type="html" xml:base="http://carlosgrohmann.com//isg_test2/blog/2021/09/27/summary-of-geomorphometry-2021/">&lt;p&gt;About 50 researchers from around the world attended the event, mostly by remote connection. The conference only featured oral sessions, with 44 contributions. Three invited keynote talks, by Michael Hutchinson (Australian National University College of Science), Igor Florinsky (Russian Academy of Sciences) and Marco Cavalli (CNR IRPI, Padua) enriched the content of the conference. &lt;a href=&quot;http://geomorphometry2021.org/index.php/scientific-program&quot;&gt;Contributions&lt;/a&gt; were spread over three days, grouped by topic: “use of digital elevation, terrain and surface models” on day 1, “dynamics of earth surface: automated surface analysis and modelization” on day 2, and “modeling geomorphological processes” on day 3.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;isg_test2/uploads/img/posts/grass_gis_flyer.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="story" /><category term="software" /><category term="foss" /><category term="grass" /><summary type="html">The GRASS GIS development team has used the lock-down times also to work hard on the v8 release of the popular GRASS GIS software (see complete list of new functionality).</summary></entry><entry><title type="html">Summary of Geomorphometry 2021</title><link href="http://carlosgrohmann.com//isg_test2/blog/2021/09/27/summary-of-geomorphometry-2021/" rel="alternate" type="text/html" title="Summary of Geomorphometry 2021" /><published>2021-09-27T00:00:00-04:00</published><updated>2021-09-27T00:00:00-04:00</updated><id>http://carlosgrohmann.com//isg_test2/blog/2021/09/27/summary-of-geomorphometry-2021</id><content type="html" xml:base="http://carlosgrohmann.com//isg_test2/blog/2021/09/27/summary-of-geomorphometry-2021/">&lt;p&gt;About 50 researchers from around the world attended the event, mostly by remote connection. The conference only featured oral sessions, with 44 contributions. Three invited keynote talks, by Michael Hutchinson (Australian National University College of Science), Igor Florinsky (Russian Academy of Sciences) and Marco Cavalli (CNR IRPI, Padua) enriched the content of the conference. &lt;a href=&quot;http://geomorphometry2021.org/index.php/scientific-program&quot;&gt;Contributions&lt;/a&gt; were spread over three days, grouped by topic: “use of digital elevation, terrain and surface models” on day 1, “dynamics of earth surface: automated surface analysis and modelization” on day 2, and “modeling geomorphological processes” on day 3.&lt;/p&gt;
 
 &lt;p&gt;All of the sessions demonstrated that quantitative analysis of the Earth’s surface is closely related to the scale at which the surface itself is described/represented. Research on a global scale (&lt;em&gt;e.g.&lt;/em&gt; aimed at the definition of accurate hydrographic networks) was counterbalanced by studies that focused on centimetric portions of Earth’s surface (&lt;em&gt;e.g.&lt;/em&gt; small plates where accretion of tufa/travertine is studied). A related relevant topic was the comparison of lidar data with global (or quasi-global) DEMs and among different global DEMs, using different methods in many study areas. Explicit comparisons highlighted that, in selected areas representative of most existing settings, Copernicus DEM is the best performing; other comparisons in different areas and methods favored MERIT DEM. In all cases, lidar data represents the benchmark. Despite that, a discussion highlighted that peculiar applications may not be so sensitive to details represented in elevation data from lidar and/or SfM measurements to justify the much higher cost. There also have been an explicit proposal to merge global and local elevation data, already existing and available online for Europe.&lt;/p&gt;
 
@@ -702,19 +702,19 @@ https://www.uaic.ro/tur-virtual/camin-studentesc-akademos/&lt;/p&gt;
 
 &lt;p&gt;Contributions presented at the conference are available as peer-reviewed short papers from the &lt;a href=&quot;https://doi.org/10.30437/geomorphometry2020&quot;&gt;book of Proceedings&lt;/a&gt; of the 2020 submissions (CNR Edizioni, Rome), or on &lt;a href=&quot;https://zenodo.org/communities/geomorphometry/?page=1&amp;amp;size=20&quot;&gt;Zenodo&lt;/a&gt;, for new submissions. Most of the presentations are also available as PDF and/or video recording at the &lt;a href=&quot;http://geomorphometry2021.org&quot;&gt;conference website&lt;/a&gt;; a few of the contributions also have a link to published papers, either on the special issue “Advances in geomorphometry” in the journal &lt;a href=&quot;https://onlinelibrary.wiley.com/loi/14679671&quot;&gt;Transaction in GIS&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/isg_test2/uploads/img/meet2021/summary_pic5.jpg&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+&lt;p&gt;&lt;img src=&quot;isg_test2/uploads/img/meet2021/summary_pic5.jpg&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
 The beautiful city of Perugia&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/isg_test2/uploads/img/meet2021/geomorphometry_2021_group_photo.jpg&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+&lt;p&gt;&lt;img src=&quot;isg_test2/uploads/img/meet2021/geomorphometry_2021_group_photo.jpg&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
 In-person attendance to the conference&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/isg_test2/uploads/img/meet2021/summary_pic1.png&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+&lt;p&gt;&lt;img src=&quot;isg_test2/uploads/img/meet2021/summary_pic1.png&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
 Happy faces from all around the world&lt;/p&gt;</content><author><name></name></author><category term="event" /><summary type="html">About 50 researchers from around the world attended the event, mostly by remote connection. The conference only featured oral sessions, with 44 contributions. Three invited keynote talks, by Michael Hutchinson (Australian National University College of Science), Igor Florinsky (Russian Academy of Sciences) and Marco Cavalli (CNR IRPI, Padua) enriched the content of the conference. Contributions were spread over three days, grouped by topic: “use of digital elevation, terrain and surface models” on day 1, “dynamics of earth surface: automated surface analysis and modelization” on day 2, and “modeling geomorphological processes” on day 3.</summary></entry><entry><title type="html">Digital Elevation Models (DEMs): Terminology and Definitions</title><link href="http://carlosgrohmann.com//isg_test2/blog/2021/09/16/digital-elevation-models-dems-terminology-and-definitions/" rel="alternate" type="text/html" title="Digital Elevation Models (DEMs): Terminology and Definitions" /><published>2021-09-16T00:00:00-04:00</published><updated>2021-09-16T00:00:00-04:00</updated><id>http://carlosgrohmann.com//isg_test2/blog/2021/09/16/digital-elevation-models-dems-terminology-and-definitions</id><content type="html" xml:base="http://carlosgrohmann.com//isg_test2/blog/2021/09/16/digital-elevation-models-dems-terminology-and-definitions/">&lt;p&gt;There is a new paper on DEM terminology and definitions (open access):&lt;/p&gt;
 
 &lt;p&gt;Guth, P.L., Niekerk, A.V., Grohmann, C.H., Muller, J.-P., Hawker, L., Florinsky, I.V., Gesch, D., Reuter, H.I., Herrera-Cruz, V., Riazanoff, S., Lópéz-Vázquez, C., Carabajal, C.C., Albinet, C., Strobl, P., 2021 - Digital Elevation Models: Terminology and Definitions. Remote Sensing, 13(18):3581. &lt;a href=&quot;https://doi.org/10.3390/rs13183581&quot;&gt;https://doi.org/10.3390/rs13183581&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;The paper is the first major contribution of the DEMIX project (&lt;a href=&quot;https://youtu.be/veZA4O1rU28&quot;&gt;DEM Intercomparison EXercise&lt;/a&gt;). The idea is to “consolidate terminology and definitions of key concepts to facilitate a common understanding among the growing community of DEM users, who do not necessarily share the same background”.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/isg_test2/uploads/img/posts/paper_demix_dem_dtm.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;isg_test2/uploads/img/posts/paper_demix_dem_dtm.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Scheme showing the surfaces represented by a DSM, a DTM, and a NVS (Guth et al., 2021)&lt;/p&gt;</content><author><name></name></author><category term="story" /><category term="srtm" /><category term="aster" /><category term="alos" /><category term="fabdem" /><category term="nasadem" /><category term="copdem" /><category term="copernicus" /><category term="publication" /><category term="demix" /><summary type="html">There is a new paper on DEM terminology and definitions (open access):</summary></entry></feed>

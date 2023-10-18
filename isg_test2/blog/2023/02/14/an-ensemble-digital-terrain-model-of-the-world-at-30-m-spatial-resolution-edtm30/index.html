@@ -57,7 +57,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-            <a class="navbar-brand" href="/isg_test2/">
+            <a class="navbar-brand" href="isg_test2/">
                 <span><img src="/isg_test2/uploads/img/logos/logo-9.png" alt="Logo"></span> Geomorphometry.org
             </a>
         </div>
@@ -68,11 +68,11 @@
                   <ul class="dropdown-menu">
                     <li><a href="/isg_test2/about">About the ISG</a></li>
                     <!-- <li><a href="/isg_test2/about/membership">Membership</a></li> -->
-                    <li><a href="/isg_test2/about/constitution-bylaws">Constitution and Bylaws</a></li>
-                    <li><a href="/isg_test2/about/diversity-and-inclusion">Diversity and Inclusion</a></li>
-                    <li><a href="/isg_test2/about/social-media">Social Media</a></li>
-                    <li><a href="/isg_test2/about/isg-council">ISG Council</a></li>
-                    <li><a href="/isg_test2/about/scientific-committee">ISG Scientific Committee</a></li>
+                    <li><a href="/isg_test2/constitution-bylaws">Constitution and Bylaws</a></li>
+                    <li><a href="/isg_test2/diversity-and-inclusion">Diversity and Inclusion</a></li>
+                    <li><a href="/isg_test2/social-media">Social Media</a></li>
+                    <li><a href="/isg_test2/isg-council">ISG Council</a></li>
+                    <li><a href="/isg_test2/scientific-committee">ISG Scientific Committee</a></li>
                   </ul>
                 </li>
 
@@ -193,7 +193,7 @@
 
 <p>This is of course a simplification and an arbitrary chosen number. Although computationally efficient, there is no guarantee that using lower 10% quantile will remove all canopy problems (e.g. all forests) hence it is important to first remove any pixels that significantly oscillate from MERITDEM. In addition, we here also assume that both AW3D and GLO-30 are the same quality, which might not be true for different parts of the world.</p>
 
-<p><img src="/isg_test2/uploads/img/posts/1FDVBXIErsTVfrwlz6eLlkw.png" alt="" /></p>
+<p><img src="isg_test2/uploads/img/posts/1FDVBXIErsTVfrwlz6eLlkw.png" alt="" /></p>
 
 <p>A simple procedure used to derive an Ensemble estimate of the terrain elevation.</p>
 
@@ -216,23 +216,23 @@
 
 <p>The process of deriving the best estimate of DTM is fully documented and automated in this <a href="https://github.com/openlandmap/spatial-layers/blob/main/EDTM/ensemble_dtm.ipynb"><strong>Python script</strong></a>. At the moment it can be used to generate an ensemble DTM within 5 hrs running on a fully parallelized HPC center with cca 1050 threads. Final mosaic of the world is a massive 200GB dataset and still takes significant time to compile a COG:</p>
 
-<p><img src="/isg_test2/uploads/img/posts/0yl4R9nsy1QGYj2e4.png" alt="" /></p>
+<p><img src="isg_test2/uploads/img/posts/0yl4R9nsy1QGYj2e4.png" alt="" /></p>
 
 <p>Dimensions and technical properties of the global mosaic at 30 m spatial resolution.</p>
 
 <p>A demonstration of the maps used and the results obtained (EDTM) is shown below:</p>
 
-<p><img src="/isg_test2/uploads/img/posts/1j0sWhwNEiN2Us1jJBbFZvw.png" alt="" /></p>
+<p><img src="isg_test2/uploads/img/posts/1j0sWhwNEiN2Us1jJBbFZvw.png" alt="" /></p>
 
 <p>Three original input DEMs. GLO-30 and AW3D30 can be considered to be Digital Surface Models, hence canopy and buildings would need to be removed before it can be used.</p>
 
 <p>In the last stage we compile all output layers as Analysis-Ready-Cloud-Optimized (ARCO) GeoTiff. This gives on the two final layers (1) EDTM in metre (m), and (2) standard deviation showing biggest discrepancies between AW3D, GLO-30, MERITDEM, and national DTMs. The two output COGs are shown below.</p>
 
-<p><img src="/isg_test2/uploads/img/posts/0QtOe79g6biXDex1h.png" alt="" /></p>
+<p><img src="isg_test2/uploads/img/posts/0QtOe79g6biXDex1h.png" alt="" /></p>
 
 <p>Ensemble DTM in 30m.</p>
 
-<p><img src="/isg_test2/uploads/img/posts/0UStEl22YCjX3RtMQ.png" alt="" /></p>
+<p><img src="isg_test2/uploads/img/posts/0UStEl22YCjX3RtMQ.png" alt="" /></p>
 
 <p>Standard deviation of Ensemble DTM in 30 m. This only shows how much the elevation differs from the multisource input data. Note that the highest errors can be noticed in areas with high complex relief i.e. Alps, Himalayas, but also in areas covered with dense vegetation (tropical forests).</p>
 
@@ -259,7 +259,7 @@
 
 <p>Important note: probably there is no need to download the whole tif as it is 200+ GB in size. To open this layer in QGIS and resample or subset / crop to area of interest, follow these steps: open QGIS -&gt; “Layer” -&gt; “Add Layer” -&gt; “Add Raster Layer”, and click Protocol: HTTP(S), cloud, etc., paste the url from above at URL, and click “Add” button.</p>
 
-<p><img src="/isg_test2/uploads/img/posts/0y9fKimuVqB0-DFey.png" alt="" /></p>
+<p><img src="isg_test2/uploads/img/posts/0y9fKimuVqB0-DFey.png" alt="" /></p>
 
 <p>Panel to add Ensemble DTM in QGIS (Layer » Add Layer » Add Raster Layer)</p>
 
@@ -271,7 +271,7 @@
 
 <p>To derive hillshade for this tile, QGIS provides Hillshade function. You can find it from QGIS -&gt; “Raster” -&gt; “Analysis” -&gt; “Hillshade”.</p>
 
-<p><img src="/isg_test2/uploads/img/posts/08HMYjw4N_QYreXMp.gif" alt="" /></p>
+<p><img src="isg_test2/uploads/img/posts/08HMYjw4N_QYreXMp.gif" alt="" /></p>
 
 <p>Ensemble DEM and derived Hillshade.</p>
 
@@ -374,7 +374,7 @@
 
 
     <script>
-  var baseurl = '/isg_test2'
+  var baseurl = 'isg_test2'
 </script>
 <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 <script src="/isg_test2/assets/js/bootstrap.min.js "></script>

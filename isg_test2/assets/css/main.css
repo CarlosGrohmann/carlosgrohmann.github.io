@@ -1739,15 +1739,15 @@ a.label:hover, a.label:focus { color: #fff; text-decoration: none; cursor: point
 
 a.badge:hover, a.badge:focus { color: #fff; text-decoration: none; cursor: pointer; }
 
-.jumbotron { padding-top: 30px; padding-bottom: 30px; margin-bottom: 30px; color: inherit; background-color: #eeeeee; }
+.jumbotron { padding-top: 30px; padding-bottom: 30px; margin-bottom: 30px; color: inherit; background-color: #eeeeee; height: 250px; }
 .jumbotron h1, .jumbotron .h1 { color: inherit; }
 .jumbotron p { margin-bottom: 15px; font-size: 21px; font-weight: 200; }
 .jumbotron > hr { border-top-color: #d5d5d5; }
-.container .jumbotron, .container-fluid .jumbotron { border-radius: 6px; padding-left: 15px; padding-right: 15px; }
+.container .jumbotron, .container-fluid .jumbotron { border-radius: 6px; padding-left: 10px; padding-right: 10px; }
 .jumbotron .container { max-width: 100%; }
 @media screen and (min-width: 768px) { .jumbotron { padding-top: 48px; padding-bottom: 48px; }
   .container .jumbotron, .container-fluid .jumbotron { padding-left: 60px; padding-right: 60px; }
-  .jumbotron h1, .jumbotron .h1 { font-size: 63px; } }
+  .jumbotron h1, .jumbotron .h1 { font-size: 63px; font-weight: bold; } }
 
 .thumbnail { display: block; padding: 4px; margin-bottom: 20px; line-height: 1.428571429; background-color: #fff; border: 1px solid #ddd; border-radius: 4px; -webkit-transition: border 0.2s ease-in-out; -o-transition: border 0.2s ease-in-out; transition: border 0.2s ease-in-out; }
 .thumbnail > img, .thumbnail a > img { display: block; max-width: 100%; height: auto; margin-left: auto; margin-right: auto; }
@@ -2301,8 +2301,8 @@ body { padding-top: 45px; padding-left: 45px; padding-right: 45px; margin-bottom
 
 .navbar-brand img { margin: -12.5px 0; height: 45px; padding: 10px 0; }
 
-.header-container { background-color: black; background: url("../img/bg.jpg") no-repeat 50% 0; color: #fff; background-size: cover; background-position: center 36%; margin-top: -37px; }
-.header-container h1 { color: #fff; }
+.header-container { background-color: black; background: url("../img/bg.jpg") no-repeat 50% 0; color: #000; background-attachment: fixed; background-size: cover; webkit-background-size: cover; moz-background-size: cover; o-background-size: cover; background-position: center; margin-top: -35px; }
+.header-container h1 { color: #000; text-align: center; }
 
 .navbar-container { font-size: 16px; }
 
