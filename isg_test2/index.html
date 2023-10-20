@@ -1,377 +1,354 @@
 <!DOCTYPE html>
-<html lang="en-US">
 
-<head>
+
+
+
+<html
+ dir="ltr"
+ lang="en"
+ class="has-navbar-fixed-top">
+  <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content=#ffffff>
+    <link rel="stylesheet" href="/assets/css/app.css">
+    <link rel="shortcut icon" type="image/png"
+           href="/favicon.png" 
+    />
+    <script defer src="https://unpkg.com/alpinejs@3.9.0/dist/cdn.min.js"></script>
 
-    <link rel="stylesheet" href="/isg_test2/assets/css/main.css">
-    <link rel="stylesheet" href="/isg_test2/assets/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.css">
+    <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/solid.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/brands.css" rel="stylesheet">
 
-    <link rel="shortcut icon" href="/isg_test2/assets/favicon.ico?1">
-    <!-- Begin Jekyll SEO tag v2.7.1 -->
-<title>Geomorphometry.org | Website of the International Society for Geomorphometry (ISG).</title>
-<meta name="generator" content="Jekyll v3.9.0" />
-<meta property="og:title" content="Geomorphometry.org" />
-<meta property="og:locale" content="en_US" />
-<meta name="description" content="Website of the International Society for Geomorphometry (ISG)." />
-<meta property="og:description" content="Website of the International Society for Geomorphometry (ISG)." />
-<link rel="canonical" href="http://carlosgrohmann.com//isg_test2/" />
-<meta property="og:url" content="http://carlosgrohmann.com//isg_test2/" />
+    
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-social@1/bin/bulma-social.min.css">
+    
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>The International Society for Geomorphometry | Geomorphometry.org</title>
+<meta name="generator" content="Jekyll v4.3.2" />
+<meta property="og:title" content="The International Society for Geomorphometry" />
+<meta property="og:locale" content="en" />
+<meta name="description" content="Geomorphometry.org website" />
+<meta property="og:description" content="Geomorphometry.org website" />
+<link rel="canonical" href="https://www.csrhymes.com/" />
+<meta property="og:url" content="https://www.csrhymes.com/" />
 <meta property="og:site_name" content="Geomorphometry.org" />
+<meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Geomorphometry.org" />
+<meta property="twitter:title" content="The International Society for Geomorphometry" />
 <script type="application/ld+json">
-{"url":"http://carlosgrohmann.com//isg_test2/","@type":"WebSite","headline":"Geomorphometry.org","description":"Website of the International Society for Geomorphometry (ISG).","name":"Geomorphometry.org","@context":"https://schema.org"}</script>
+{"@context":"https://schema.org","@type":"WebSite","description":"Geomorphometry.org website","headline":"The International Society for Geomorphometry","name":"Geomorphometry.org","url":"https://www.csrhymes.com/"}</script>
 <!-- End Jekyll SEO tag -->
 
+    <!-- head scripts --></head>
 
-    <link rel="alternate" type="application/rss+xml" title="Geomorphometry.org" href="http://carlosgrohmann.com//isg_test2/feed.xml" />
-
-    <link rel="apple-touch-icon" sizes="180x180" href="/isg_test2/assets/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/isg_test2/assets/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/isg_test2/assets/favicon-16x16.png">
-    <link rel="manifest" href="assets/site.webmanifest">
-    <link rel="mask-icon" href="/isg_test2/assets/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="msapplication-config" content="assets/browserconfig.xml">
-    <meta name="theme-color" content="#ffffff">
-
-
-
-</head>
-
-
-<body>
-
-    <nav class="navbar navbar-default navbar-fixed-top">
-    <div class="container navbar-container">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-            <a class="navbar-brand" href="isg_test2/">
-                <span><img src="/isg_test2/uploads/img/logos/logo-9.png" alt="Logo"></span> Geomorphometry.org
+  <body>
+    <nav class="navbar is-primary  is-fixed-top " x-data="{ openNav: false }">
+    <div class="container">
+        <div class="navbar-brand">
+            <a href="/" class="navbar-item">
+                Geomorphometry.org
+            </a>
+            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navMenu" :class="{ 'is-active': openNav }" x-on:click="openNav = !openNav">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
             </a>
         </div>
-        <div id="navbar" class="collapse navbar-collapse">
-            <ul class="nav navbar-nav">
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About the ISG<span class="caret"></span></a>
-                  <ul class="dropdown-menu">
-                    <li><a href="/isg_test2/about">About the ISG</a></li>
-                    <!-- <li><a href="/isg_test2/about/membership">Membership</a></li> -->
-                    <li><a href="/isg_test2/constitution-bylaws">Constitution and Bylaws</a></li>
-                    <li><a href="/isg_test2/diversity-and-inclusion">Diversity and Inclusion</a></li>
-                    <li><a href="/isg_test2/social-media">Social Media</a></li>
-                    <li><a href="/isg_test2/isg-council">ISG Council</a></li>
-                    <li><a href="/isg_test2/scientific-committee">ISG Scientific Committee</a></li>
-                  </ul>
-                </li>
-
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ISG Events<span class="caret"></span></a>
-                  <ul class="dropdown-menu">
-                    <!-- <li><a href="/isg_test2/meetings">All Events</a></li> -->
-                    <li><a href="/isg_test2/coffee_talks">Coffee Talks</a></li>
-                    <li><a href="/isg_test2/2023">Geomorphometry 2023</a></li>
-                    <li><a href="/isg_test2/2021">Geomorphometry 2021</a></li>
-                    <li><a href="/isg_test2/2018">Geomorphometry 2018</a></li>
-                    <li><a href="/isg_test2/2015">Geomorphometry 2015</a></li>
-                    <li><a href="/isg_test2/2013">Geomorphometry 2013</a></li>
-                    <li><a href="/isg_test2/2011">Geomorphometry 2011</a></li>
-                    <li><a href="/isg_test2/2009">Geomorphometry 2009</a></li>
-                  </ul>
-                </li>
-
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Galleries<span class="caret"></span></a>
-                  <ul class="dropdown-menu">
-                    <li><a href="/isg_test2/galleries/gallery-2023">Geomorphometry 2023</a></li>
-                    <li><a href="/isg_test2/galleries/gallery-2021">Geomorphometry 2021</a></li>
-                    <li><a href="/isg_test2/galleries/gallery-2018">Geomorphometry 2018</a></li>
-                    <li><a href="/isg_test2/galleries/gallery-2015">Geomorphometry 2015</a></li>
-                    <li><a href="/isg_test2/galleries/gallery-2013">Geomorphometry 2013</a></li>
-                    <li><a href="/isg_test2/galleries/gallery-2011">Geomorphometry 2011</a></li>
-                    <li><a href="/isg_test2/galleries/gallery-2009">Geomorphometry 2009</a></li>
-                  </ul>
-                </li>
-
-                <li><a href="/isg_test2/awards">Awards</a></li>
-
-                <li><a href="/isg_test2/code_data">Code/Data</a></li>
-
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Blog<span class="caret"></span></a>
-                  <ul class="dropdown-menu">
-                    <li><a href="/isg_test2/blog/2023/05/10/geomorphometry-2023-demix/">Posts</a></li>
-                    <li><a href="/isg_test2/archive">Archive</a></li>
-                    <li><a href="/isg_test2/tags">Tags</a></li>
-                  </ul>
-                </li>
-
-                <li><a href="/isg_test2/search">Search</a></li>
-<!--             <div class="navbar-right">
-                <form class="navbar-form navbar-left">
-                    <div class="form-group has-feedback">
-                        <input id="search-box" type="search" class="form-control" placeholder="Search...">
-                        <i class="fa fa-search form-control-feedback"></i>
+        <div class="navbar-menu" id="navMenu" :class="{ 'is-active': openNav }">
+            <div class="navbar-start">
+                <a href="/" class="navbar-item is-active">Home</a>
+                
+                
+                    
+                    <div class="navbar-item has-dropdown is-hoverable ">
+                        <a href="/" class="navbar-link ">About the ISG</a>
+                        <div class="navbar-dropdown">
+                            
+                            <a href="/about/" class="navbar-item ">About the ISG</a>
+                            
+                            <a href="/constitution-bylaws/" class="navbar-item ">Constitution and Bylaws</a>
+                            
+                            <a href="/diversity-and-inclusion/" class="navbar-item ">Diversity and Inclusion</a>
+                            
+                            <a href="/social-media/" class="navbar-item ">Social Media</a>
+                            
+                            <a href="/isg-council/" class="navbar-item ">ISG Council</a>
+                            
+                            <a href="/scientific-committee/" class="navbar-item ">ISG Scientific Committee</a>
+                            
+                        </div>
                     </div>
-                </form>
-            </div> -->
+                    
+                
+                    
+                    <div class="navbar-item has-dropdown is-hoverable ">
+                        <a href="/" class="navbar-link ">ISG Events</a>
+                        <div class="navbar-dropdown">
+                            
+                            <a href="/coffee_talks/" class="navbar-item ">ISG Coffee Talks</a>
+                            
+                            <a href="/2023/" class="navbar-item ">Geomorphometry 2023</a>
+                            
+                            <a href="/2021/" class="navbar-item ">Geomorphometry 2021</a>
+                            
+                            <a href="/2018/" class="navbar-item ">Geomorphometry 2018</a>
+                            
+                            <a href="/2015/" class="navbar-item ">Geomorphometry 2015</a>
+                            
+                            <a href="/2013/" class="navbar-item ">Geomorphometry 2013</a>
+                            
+                            <a href="/2011/" class="navbar-item ">Geomorphometry 2011</a>
+                            
+                            <a href="/2009/" class="navbar-item ">Geomorphometry 2009</a>
+                            
+                        </div>
+                    </div>
+                    
+                
+                    
+                    <div class="navbar-item has-dropdown is-hoverable ">
+                        <a href="/" class="navbar-link ">Galleries</a>
+                        <div class="navbar-dropdown">
+                            
+                            <a href="/gallery-2023/" class="navbar-item ">Geomorphometry 2023</a>
+                            
+                            <a href="/gallery-2021/" class="navbar-item ">Geomorphometry 2021</a>
+                            
+                            <a href="/gallery-2018/" class="navbar-item ">Geomorphometry 2018</a>
+                            
+                            <a href="/gallery-2015/" class="navbar-item ">Geomorphometry 2015</a>
+                            
+                            <a href="/gallery-2013/" class="navbar-item ">Geomorphometry 2013</a>
+                            
+                            <a href="/gallery-2011/" class="navbar-item ">Geomorphometry 2011</a>
+                            
+                            <a href="/gallery-2009/" class="navbar-item ">Geomorphometry 2009</a>
+                            
+                            <a href="/gallery-plasencia/" class="navbar-item ">Plasencia 2008</a>
+                            
+                            <a href="/gallery-2006/" class="navbar-item ">TADTM 2006</a>
+                            
+                        </div>
+                    </div>
+                    
+                
+                    
+                    <a href="/awards/" class="navbar-item ">Awards</a>
+                    
+                
+                    
+                    <a href="/code_data/" class="navbar-item ">Code/Data</a>
+                    
+                
+                    
+                    <div class="navbar-item has-dropdown is-hoverable ">
+                        <a href="/" class="navbar-link ">Blog</a>
+                        <div class="navbar-dropdown">
+                            
+                            <a href="/blog/" class="navbar-item ">Posts</a>
+                            
+                            <a href="/archive/" class="navbar-item ">Archive</a>
+                            
+                        </div>
+                    </div>
+                    
+                
+                
+            </div>
+
+            <div class="navbar-end">
+                
+            </div>
+
         </div>
     </div>
 </nav>
 
-
-    <div class="page-content">
-        <div class="wrapper">
-            <div class="post">
-
-    <header class="post-header">
-        <h1 class="post-title"></h1>
-    </header>
-
-    <article class="post-content">
-        <div class="header-container jumbotron" style="background: url(isg_test2/uploads/img/headers/etopo1_crop.png)">
-    <div class="container">
-        <h1>The International Society for Geomorphometry</h1>
-    </div>
-</div>
-
-<!-- 
-
-
-<div class="carousel__holder">
-    <div id="carousel-1" class="carousel">
-        
-        
-        <div class="carousel__track">
-          <ul>
-            
-          </ul>
-        </div>
-        <div class="carousel__indicators">
+    
+        <section class="hero  is-medium  is-bold is-primary" style="background: url('uploads/img/headers/etopo1_globe.png') no-repeat center center; background-size: cover;">
+    <div class="hero-body  hero-darken ">
+        <div class="container">
+            <h1 class="title is-2">The International Society for Geomorphometry</h1>
+            <p class="subtitle is-3"></p>
             
         </div>
     </div>
-</div>
+</section>
+    
+    
+    
+    <section class="hero  is-small  is-light">
+        <div class="hero-body">
+            <div class="container">
+                <div class="columns is-multiline is-centered">
+                    
+                        <div class="column is-4 has-text-centered">
+                            
+                            <div class="icon callout-icon">
+                            
+                                <i class="fas fa-solid fa-mug-saucer fa-4x"></i>
+                            
+                            </div>
+                            
+                            <p class="title is-5">ISG Coffee Talks</p>
+                            <p class="subtitle is-5"></p>
+                            
+                            
+                            <div class="content">
+                                <p>Informal and open discussions. <br>
+</p>
+                            </div>
+                            
 
-<style>
-.carousel__holder {width: 100%; position: relative; padding-bottom: 300px; margin: 1rem 0 1rem;}
-.carousel {
-  height: 100%;
-  width: 100%;
-  overflow: hidden;
-  text-align: center;
-  position: absolute;
-  padding: 0;
-}
-.carousel__controls,
-.carousel__activator {
-  display: none;
-}
+                            
+                            <a href="/coffee_talks/" class="button is-primary">
+                                Tell me more!
+                            </a>
+                            
+                        </div>
+                    
+                        <div class="column is-4 has-text-centered">
+                            
+                            <div class="icon callout-icon">
+                            
+                                <i class="fas fa-solid fa-person-chalkboard fa-4x"></i>
+                            
+                            </div>
+                            
+                            <p class="title is-5">Geomorphometry 2025</p>
+                            <p class="subtitle is-5"></p>
+                            
+                            
+                            <div class="content">
+                                <p>Updates for our next meeting!<br>
+</p>
+                            </div>
+                            
+
+                            
+                            <a href="/2025/" class="button is-primary">
+                                Can't wait!
+                            </a>
+                            
+                        </div>
+                    
+                        <div class="column is-4 has-text-centered">
+                            
+                            <div class="icon callout-icon">
+                            
+                                <i class="fas fa-regular fa-file-lines fa-4x"></i>
+                            
+                            </div>
+                            
+                            <p class="title is-5">Blog posts</p>
+                            <p class="subtitle is-5"></p>
+                            
+                            
+                            <div class="content">
+                                <p>Check the latest posts on our blog.<br>
+</p>
+                            </div>
+                            
+
+                            
+                            <a href="/blog/" class="button is-primary">
+                                Sure!
+                            </a>
+                            
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
 
 
-.carousel__control {
-  height: 30px;
-  width: 30px;
-  margin-top: -15px;
-  top: 50%;
-  position: absolute;
-  display: block;
-  cursor: pointer;
-  border-width: 5px 5px 0 0;
-  border-style: solid;
-  border-color: #fafafa;
-  opacity: 0.35;
-  opacity: 1;
-  outline: 0;
-  z-index: 3;
-}
-.carousel__control:hover {
-  opacity: 1;
-}
-.carousel__control--backward {
-  left: 20px;
-  -webkit-transform: rotate(-135deg);
-          transform: rotate(-135deg);
-}
-.carousel__control--forward {
-  right: 20px;
-  -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
-}
-.carousel__indicators {
-  position: absolute;
-  bottom: 20px;
-  width: 100%;
-  text-align: center;
-}
-.carousel__indicator {
-  height: 15px;
-  width: 15px;
-  border-radius: 100%;
-  display: inline-block;
-  z-index: 2;
-  cursor: pointer;
-  opacity: 0.35;
-  margin: 0 2.5px 0 2.5px;
-}
-.carousel__indicator:hover {
-  opacity: 0.75;
-}
-.carousel__track {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 0;
-  margin: 0;
-  transition: -webkit-transform 0.5s ease 0s;
-  transition: transform 0.5s ease 0s;
-  transition: transform 0.5s ease 0s, -webkit-transform 0.5s ease 0s;
-}
-.carousel__track .carousel__slide {
-  display: block;
-  top: 0;
-  left: 0;
-  right: 0;
-  opacity: 1;
-}
 
+    <section class="section">
+        <div class="container">
+            <div class="columns is-multiline">
+                
+                <div class="column is-12">
+                    
+                    
 
-.carousel--scale .carousel__slide {
-  -webkit-transform: scale(0);
-          transform: scale(0);
-}
-.carousel__slide {
-  height: 100%;
-  position: absolute;
-  opacity: 0;
-  overflow: hidden;
-}
-.carousel__slide .overlay {height: 100%;}
-.carousel--thumb .carousel__indicator {
-  height: 30px;
-  width: 30px;
-}
-.carousel__indicator {
-  background-color: #fafafa;
-}
+                    
+                    
+                    
+<div class="content">
+    <h4 id="the-international-society-for-geomorphometry-isg-is-an-international-association-of-researchers-and-experts-open-for-free-exchange-of-knowledge-and-opinions-about-various-aspects-of-dem-processing-and-digital-relief-analysis">The International Society for Geomorphometry (ISG) is an international association of researchers and experts open for free exchange of knowledge and opinions about various aspects of DEM processing and digital relief analysis.</h4>
 
-</style>
-
-<script>
-  function isVisible(el) {
-        while (el) {
-            if (el === document) {
-                return true;
-            }
-
-            var $style = window.getComputedStyle(el, null);
-
-            if (!el) {
-                return false;
-            } else if (!$style) {
-                return false;
-            } else if ($style.display === 'none') {
-                return false;
-            } else if ($style.visibility === 'hidden') {
-                return false;
-            } else if (+$style.opacity === 0) {
-                return false;
-            } else if (($style.display === 'block' || $style.display === 'inline-block') &&
-                $style.height === '0px' && $style.overflow === 'hidden') {
-                return false;
-            } else {
-                return $style.position === 'fixed' || isVisible(el.parentNode);
-            }
-        }
-  }
-  
-  setInterval(function(){
-    var j=0;
-    var elements = document.querySelectorAll('#carousel-1 .carousel__control--forward');
-    for(i=(elements.length - 1);i>-1;i--) {
-      if(isVisible(elements[i])) j=i;
-    }
-    elements[j].click();
-  },15000);
-  
-</script>  style="color:#154360;" -->
-
-<h4 id="an-international-association-of-researchers-and-experts-open-for-free-exchange-of-knowledge-and-opinions-about-various-aspects-of-dem-processing-and-digital-relief-analysis">An international association of researchers and experts open for free exchange of knowledge and opinions about various aspects of DEM processing and digital relief analysis</h4>
-
-<h2 id="what-is-geomorphometry">What is geomorphometry?</h2>
+<h3 id="what-is-geomorphometry">What is geomorphometry?</h3>
 
 <p><strong>Geomorphometry</strong> is the science of quantitative land-surface analysis (also known as the science of DIGITAL TERRAIN MODELLING AND ANALYSIS). It draws upon mathematical, statistical, and image-processing techniques to quantify the shape of earth’s topography at various spatial scales. The focus of geomorphometry is calculation of surface-form measures (land-surface parameters) and features (objects), which may be used to improve the mapping and modelling of landforms, soils, vegetation, land use, natural hazards, and other information. With today’s rapid growth in sources for mass-produced surface heights (digital elevation models, or DEMs), such as the Shuttle Radar Topographic Mission and laser ranging (LiDAR) technology, geomorphometric methods are becoming increasingly attractive to many disciplines. The operational focus of geomorphometry is the extraction of land-surface parameters and objects from digital elevation models (DEMs). In the most simple terms, geomorphometry is everything you can extract from DEMs!</p>
 
 <!-- The **International Society for Geomorphometry** (ISG) is an international association of researchers and experts open for free exchange of knowledge and opinions about various aspects of DEM processing and digital relief analysis. -->
 
-<p><strong>Membership</strong> for the International Society for Geomorphometry is free of charge. <a href="https://docs.google.com/forms/d/e/1FAIpQLSdIAXFnc_ELwuMN0c-AGZn-Nf874XesjqF1B79gBi5JjSqzTA/viewform?usp=sf_link">You just have to fill this form.</a></p>
+<p><strong>Membership</strong> for the International Society for Geomorphometry is free of charge. <a href="https://docs.google.com/forms/d/e/1FAIpQLSdIAXFnc_ELwuMN0c-AGZn-Nf874XesjqF1B79gBi5JjSqzTA/viewform?usp=sf_link" target="_blank" rel="noopener noreferrer">You just have to fill this form.</a></p>
 
 <p> 
  </p>
 
-<div class="container">
-    <div class="row">
-        <div class="col-sm-4">
-            <a href="isg_test2/coffee_talks"><img src="isg_test2/uploads/img/logos/cofee_talks_logo.png" /></a>
-        </div>
-        <div class="col-sm-4">
-            <a href="isg_test2/2025"><img src="isg_test2/uploads/img/logos/g2025_logo.png" /></a>
-        </div>
-        <div class="col-sm-4">
-            <a href="isg_test2/2025"><img src="isg_test2/uploads/img/logos/g2025_logo.png" /></a>
-        </div>
-    </div>
 </div>
-
-
-    </article>
-
-</div>
-
+                </div>
+                
+            </div>
         </div>
-    </div>
+    </section>
+    
+        <footer class="footer">
+    <div class="container">
+        
+        
+        <div class="columns is-multiline">
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="/" class="link">Home</a>
+                </div>
+            </div>
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="/blog/" class="link">Blog</a>
+                </div>
+            </div>
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="https://mobile.twitter.com/geomorphomorg" class="link" target="_blank" rel="noopener noreferrer">Twitter @GeomorphomOrg</a>
+                </div>
+            </div>
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="https://mobile.twitter.com/GalsOfGeomorph" class="link" target="_blank" rel="noopener noreferrer">Twitter @GalsOfGeomorph</a>
+                </div>
+            </div>
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="https://www.instagram.com/geomorphometry/" class="link" target="_blank" rel="noopener noreferrer">Instagram</a>
+                </div>
+            </div>
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="https://www.facebook.com/groups/geomorphometry/" class="link" target="_blank" rel="noopener noreferrer">Facebook</a>
+                </div>
+            </div>
+            
+        </div>
+        
 
-    <footer class="footer">
-    <div class="container mx-auto">
-                <ul class="nav navbar-nav">
-                    <li><a href="https://www.facebook.com/groups/geomorphometry/" target="_blank"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a></li>
-                    <li><a href="https://twitter.com/geomorphomorg" target="_blank"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a></li>
-                    <li><a href="https://twitter.com/GalsOfGeomorph" target="_blank"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a></li>
-                    <li><a href="https://www.instagram.com/geomorphometry" target="_blank"><i class="fa fa-instagram  fa-2x" aria-hidden="true"></i></a></li>
-                    <li><a href="https://github.com/aksakalli/jekyll-doc-theme" target="_blank"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a></li>
-                    <li><a href="https://scholar.google.com.br/scholar?hl=en&as_sdt=0%2C5&q=geomorphometry&btnG=" target="_blank"><i class="ai ai-google-scholar-square ai-2x" aria-hidden="true"></i></a></li>
-                </ul>
-    </div>
-    <div class="container mx-auto">
-        <p class="text">
-            Geomorphometry.org 2023 |
-            Powered by <a href="https://github.com/aksakalli/jekyll-doc-theme">Jekyll Doc Theme</a>
-        </p>
+        <div class="content is-small has-text-centered">
+            <p class="">Theme built by <a href="https://www.csrhymes.com">C.S. Rhymes</a></p>
+        </div>
     </div>
 </footer>
 
-
-
-    <script>
-  var baseurl = 'isg_test2'
-</script>
-<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
-<script src="/isg_test2/assets/js/bootstrap.min.js "></script>
-<script src="/isg_test2/assets/js/typeahead.bundle.min.js "></script>
-
-<script src="/isg_test2/assets/js/main.js "></script>
-
-</body>
-
+    
+    <script src="/assets/js/app.js" type="text/javascript"></script><!-- footer scripts --></body>
 </html>

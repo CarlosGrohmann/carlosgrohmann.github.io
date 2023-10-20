@@ -1,157 +1,204 @@
 <!DOCTYPE html>
-<html lang="en-US">
 
-<head>
+
+
+
+<html
+ dir="ltr"
+ lang="en"
+ class="has-navbar-fixed-top">
+  <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content=#ffffff>
+    <link rel="stylesheet" href="/assets/css/app.css">
+    <link rel="shortcut icon" type="image/png"
+           href="/favicon.png" 
+    />
+    <script defer src="https://unpkg.com/alpinejs@3.9.0/dist/cdn.min.js"></script>
 
-    <link rel="stylesheet" href="/isg_test2/assets/css/main.css">
-    <link rel="stylesheet" href="/isg_test2/assets/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.css">
+    <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/solid.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/brands.css" rel="stylesheet">
 
-    <link rel="shortcut icon" href="/isg_test2/assets/favicon.ico?1">
-    <!-- Begin Jekyll SEO tag v2.7.1 -->
-<title>Geomorphometry.org | Website of the International Society for Geomorphometry (ISG).</title>
-<meta name="generator" content="Jekyll v3.9.0" />
-<meta property="og:title" content="Geomorphometry.org" />
-<meta property="og:locale" content="en_US" />
-<meta name="description" content="Website of the International Society for Geomorphometry (ISG)." />
-<meta property="og:description" content="Website of the International Society for Geomorphometry (ISG)." />
-<link rel="canonical" href="http://carlosgrohmann.com//isg_test2/2009/" />
-<meta property="og:url" content="http://carlosgrohmann.com//isg_test2/2009/" />
+    
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-social@1/bin/bulma-social.min.css">
+    
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Geomorphometry 2009 - Zurich, Switzerland | Geomorphometry.org</title>
+<meta name="generator" content="Jekyll v4.3.2" />
+<meta property="og:title" content="Geomorphometry 2009 - Zurich, Switzerland" />
+<meta property="og:locale" content="en" />
+<meta name="description" content="Geomorphometry.org website" />
+<meta property="og:description" content="Geomorphometry.org website" />
+<link rel="canonical" href="https://www.csrhymes.com/2009/" />
+<meta property="og:url" content="https://www.csrhymes.com/2009/" />
 <meta property="og:site_name" content="Geomorphometry.org" />
+<meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Geomorphometry.org" />
+<meta property="twitter:title" content="Geomorphometry 2009 - Zurich, Switzerland" />
 <script type="application/ld+json">
-{"url":"http://carlosgrohmann.com//isg_test2/2009/","@type":"WebPage","headline":"Geomorphometry.org","description":"Website of the International Society for Geomorphometry (ISG).","@context":"https://schema.org"}</script>
+{"@context":"https://schema.org","@type":"WebPage","description":"Geomorphometry.org website","headline":"Geomorphometry 2009 - Zurich, Switzerland","url":"https://www.csrhymes.com/2009/"}</script>
 <!-- End Jekyll SEO tag -->
 
+    <!-- head scripts --></head>
 
-    <link rel="alternate" type="application/rss+xml" title="Geomorphometry.org" href="http://carlosgrohmann.com//isg_test2/feed.xml" />
-
-    <link rel="apple-touch-icon" sizes="180x180" href="/isg_test2/assets/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/isg_test2/assets/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/isg_test2/assets/favicon-16x16.png">
-    <link rel="manifest" href="assets/site.webmanifest">
-    <link rel="mask-icon" href="/isg_test2/assets/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="msapplication-config" content="assets/browserconfig.xml">
-    <meta name="theme-color" content="#ffffff">
-
-
-
-</head>
-
-
-<body>
-
-    <nav class="navbar navbar-default navbar-fixed-top">
-    <div class="container navbar-container">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-            <a class="navbar-brand" href="isg_test2/">
-                <span><img src="/isg_test2/uploads/img/logos/logo-9.png" alt="Logo"></span> Geomorphometry.org
+  <body>
+    <nav class="navbar is-primary  is-fixed-top " x-data="{ openNav: false }">
+    <div class="container">
+        <div class="navbar-brand">
+            <a href="/" class="navbar-item">
+                Geomorphometry.org
+            </a>
+            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navMenu" :class="{ 'is-active': openNav }" x-on:click="openNav = !openNav">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
             </a>
         </div>
-        <div id="navbar" class="collapse navbar-collapse">
-            <ul class="nav navbar-nav">
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About the ISG<span class="caret"></span></a>
-                  <ul class="dropdown-menu">
-                    <li><a href="/isg_test2/about">About the ISG</a></li>
-                    <!-- <li><a href="/isg_test2/about/membership">Membership</a></li> -->
-                    <li><a href="/isg_test2/constitution-bylaws">Constitution and Bylaws</a></li>
-                    <li><a href="/isg_test2/diversity-and-inclusion">Diversity and Inclusion</a></li>
-                    <li><a href="/isg_test2/social-media">Social Media</a></li>
-                    <li><a href="/isg_test2/isg-council">ISG Council</a></li>
-                    <li><a href="/isg_test2/scientific-committee">ISG Scientific Committee</a></li>
-                  </ul>
-                </li>
-
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ISG Events<span class="caret"></span></a>
-                  <ul class="dropdown-menu">
-                    <!-- <li><a href="/isg_test2/meetings">All Events</a></li> -->
-                    <li><a href="/isg_test2/coffee_talks">Coffee Talks</a></li>
-                    <li><a href="/isg_test2/2023">Geomorphometry 2023</a></li>
-                    <li><a href="/isg_test2/2021">Geomorphometry 2021</a></li>
-                    <li><a href="/isg_test2/2018">Geomorphometry 2018</a></li>
-                    <li><a href="/isg_test2/2015">Geomorphometry 2015</a></li>
-                    <li><a href="/isg_test2/2013">Geomorphometry 2013</a></li>
-                    <li><a href="/isg_test2/2011">Geomorphometry 2011</a></li>
-                    <li><a href="/isg_test2/2009">Geomorphometry 2009</a></li>
-                  </ul>
-                </li>
-
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Galleries<span class="caret"></span></a>
-                  <ul class="dropdown-menu">
-                    <li><a href="/isg_test2/galleries/gallery-2023">Geomorphometry 2023</a></li>
-                    <li><a href="/isg_test2/galleries/gallery-2021">Geomorphometry 2021</a></li>
-                    <li><a href="/isg_test2/galleries/gallery-2018">Geomorphometry 2018</a></li>
-                    <li><a href="/isg_test2/galleries/gallery-2015">Geomorphometry 2015</a></li>
-                    <li><a href="/isg_test2/galleries/gallery-2013">Geomorphometry 2013</a></li>
-                    <li><a href="/isg_test2/galleries/gallery-2011">Geomorphometry 2011</a></li>
-                    <li><a href="/isg_test2/galleries/gallery-2009">Geomorphometry 2009</a></li>
-                  </ul>
-                </li>
-
-                <li><a href="/isg_test2/awards">Awards</a></li>
-
-                <li><a href="/isg_test2/code_data">Code/Data</a></li>
-
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Blog<span class="caret"></span></a>
-                  <ul class="dropdown-menu">
-                    <li><a href="/isg_test2/blog/2023/05/10/geomorphometry-2023-demix/">Posts</a></li>
-                    <li><a href="/isg_test2/archive">Archive</a></li>
-                    <li><a href="/isg_test2/tags">Tags</a></li>
-                  </ul>
-                </li>
-
-                <li><a href="/isg_test2/search">Search</a></li>
-<!--             <div class="navbar-right">
-                <form class="navbar-form navbar-left">
-                    <div class="form-group has-feedback">
-                        <input id="search-box" type="search" class="form-control" placeholder="Search...">
-                        <i class="fa fa-search form-control-feedback"></i>
+        <div class="navbar-menu" id="navMenu" :class="{ 'is-active': openNav }">
+            <div class="navbar-start">
+                <a href="/" class="navbar-item ">Home</a>
+                
+                
+                    
+                    <div class="navbar-item has-dropdown is-hoverable ">
+                        <a href="/" class="navbar-link ">About the ISG</a>
+                        <div class="navbar-dropdown">
+                            
+                            <a href="/about/" class="navbar-item ">About the ISG</a>
+                            
+                            <a href="/constitution-bylaws/" class="navbar-item ">Constitution and Bylaws</a>
+                            
+                            <a href="/diversity-and-inclusion/" class="navbar-item ">Diversity and Inclusion</a>
+                            
+                            <a href="/social-media/" class="navbar-item ">Social Media</a>
+                            
+                            <a href="/isg-council/" class="navbar-item ">ISG Council</a>
+                            
+                            <a href="/scientific-committee/" class="navbar-item ">ISG Scientific Committee</a>
+                            
+                        </div>
                     </div>
-                </form>
-            </div> -->
+                    
+                
+                    
+                    <div class="navbar-item has-dropdown is-hoverable ">
+                        <a href="/" class="navbar-link ">ISG Events</a>
+                        <div class="navbar-dropdown">
+                            
+                            <a href="/coffee_talks/" class="navbar-item ">ISG Coffee Talks</a>
+                            
+                            <a href="/2023/" class="navbar-item ">Geomorphometry 2023</a>
+                            
+                            <a href="/2021/" class="navbar-item ">Geomorphometry 2021</a>
+                            
+                            <a href="/2018/" class="navbar-item ">Geomorphometry 2018</a>
+                            
+                            <a href="/2015/" class="navbar-item ">Geomorphometry 2015</a>
+                            
+                            <a href="/2013/" class="navbar-item ">Geomorphometry 2013</a>
+                            
+                            <a href="/2011/" class="navbar-item ">Geomorphometry 2011</a>
+                            
+                            <a href="/2009/" class="navbar-item is-active">Geomorphometry 2009</a>
+                            
+                        </div>
+                    </div>
+                    
+                
+                    
+                    <div class="navbar-item has-dropdown is-hoverable ">
+                        <a href="/" class="navbar-link ">Galleries</a>
+                        <div class="navbar-dropdown">
+                            
+                            <a href="/gallery-2023/" class="navbar-item ">Geomorphometry 2023</a>
+                            
+                            <a href="/gallery-2021/" class="navbar-item ">Geomorphometry 2021</a>
+                            
+                            <a href="/gallery-2018/" class="navbar-item ">Geomorphometry 2018</a>
+                            
+                            <a href="/gallery-2015/" class="navbar-item ">Geomorphometry 2015</a>
+                            
+                            <a href="/gallery-2013/" class="navbar-item ">Geomorphometry 2013</a>
+                            
+                            <a href="/gallery-2011/" class="navbar-item ">Geomorphometry 2011</a>
+                            
+                            <a href="/gallery-2009/" class="navbar-item ">Geomorphometry 2009</a>
+                            
+                            <a href="/gallery-plasencia/" class="navbar-item ">Plasencia 2008</a>
+                            
+                            <a href="/gallery-2006/" class="navbar-item ">TADTM 2006</a>
+                            
+                        </div>
+                    </div>
+                    
+                
+                    
+                    <a href="/awards/" class="navbar-item ">Awards</a>
+                    
+                
+                    
+                    <a href="/code_data/" class="navbar-item ">Code/Data</a>
+                    
+                
+                    
+                    <div class="navbar-item has-dropdown is-hoverable ">
+                        <a href="/" class="navbar-link ">Blog</a>
+                        <div class="navbar-dropdown">
+                            
+                            <a href="/blog/" class="navbar-item ">Posts</a>
+                            
+                            <a href="/archive/" class="navbar-item ">Archive</a>
+                            
+                        </div>
+                    </div>
+                    
+                
+                
+            </div>
+
+            <div class="navbar-end">
+                
+            </div>
+
         </div>
     </div>
 </nav>
 
-
-    <div class="page-content">
-        <div class="wrapper">
-            <div class="post">
-
-    <header class="post-header">
-        <h1 class="post-title"></h1>
-    </header>
-
-    <article class="post-content">
-        <div class="header-container jumbotron" style="background:url(../uploads/img/headers/pexels-pixabay-35577022.jpg)">
-    <div class="container">
-        <h1>Geomorphometry 2009 - Zurich, Switzerland</h1>
+    
+        <section class="hero  is-medium  is-bold is-primary" style="background: url('../uploads/img/headers/pexels-pixabay-35577022.jpg') no-repeat center center; background-size: cover;">
+    <div class="hero-body  hero-darken ">
+        <div class="container">
+            <h1 class="title is-2">Geomorphometry 2009 - Zurich, Switzerland</h1>
+            <p class="subtitle is-3"></p>
+            
+        </div>
     </div>
-</div>
+</section>
+    
+    
 
-<!-- <img src="isg_test2/uploads/img/logos/logo_Geomorphometry_2009.png" width="50%" /> -->
 
-<!-- ![](isg_test2/uploads/img/meet2009/geomorph2009_participants.jpg) -->
-<p><img src="isg_test2/uploads/img/meet2009/geomorph2009_participants.jpg" width="75%" /></p>
+    <section class="section">
+        <div class="container">
+            <div class="columns is-multiline">
+                
+                <div class="column is-12">
+                    
+                    
+
+                    
+                    
+                    
+<div class="content">
+    <!-- <img src="/uploads/img/logos/logo_Geomorphometry_2009.png" width="50%" /> -->
+
+<p><img src="/uploads/img/meet2009/geomorph2009_participants.jpg" alt=""></p>
 
 <h2 id="foreword">Foreword</h2>
 
-<!-- ![](isg_test2/uploads/img/meet2009/poster_geomorphometry2009.jpg) -->
+<!-- ![](/uploads/img/meet2009/poster_geomorphometry2009.jpg) -->
 
 <p>On behalf of the organisers we would like to extend a warm welcome to all participants of Geomorphometry 2009 in Zurich. The Geomorphometry 2009 conference continues a series initiated by the Terrain Analysis and Digital Terrain Modelling conference hosted by Nanjing Normal University in November 2006.</p>
 
@@ -168,75 +215,75 @@
 <p>Ross Purves, Stephan Gruber, Tomislav Hengl and Ralph Straumann August 15th, 2009</p>
 
 <p><strong><em>Attachment:</em></strong>
-<a href="isg_test2/uploads/pdf/pdf2009/foreword.pdf">foreword</a></p>
+<a href="/uploads/pdf/pdf2009/foreword.pdf">foreword</a></p>
 
 <p>  </p>
 <h2 id="proceedings">Proceedings</h2>
-<p><a href="isg_test2/uploads/pdf/pdf2009/geomorphometry2009ToC.pdf"><img src="isg_test2/uploads/img/posts/geomorphometry2009_cover.jpg" alt="" /></a></p>
+<p><a href="/uploads/pdf/pdf2009/geomorphometry2009ToC.pdf"><img src="/uploads/img/posts/geomorphometry2009_cover.jpg" alt=""></a></p>
 
-<p><strong>Editors</strong>:<br />
-Ross Purves, Stephan Gruber, Ralph Straumann<br />
-Department of Geography<br />
-University of Zurich<br />
-Winterthurerstrasse 190<br />
-CH-8057 Zurich<br />
-Switzerland<br />
-ross.purves | stephan.gruber | ralph.straumann @geo.uzh.ch<br />
-<a href="http://www.geo.uzh.ch/" title="http://www.geo.uzh.ch">http://www.geo.uzh.ch</a></p>
+<p><strong>Editors</strong>:<br>
+Ross Purves, Stephan Gruber, Ralph Straumann<br>
+Department of Geography<br>
+University of Zurich<br>
+Winterthurerstrasse 190<br>
+CH-8057 Zurich<br>
+Switzerland<br>
+ross.purves | stephan.gruber | ralph.straumann @geo.uzh.ch<br>
+<a href="http://www.geo.uzh.ch/" title="http://www.geo.uzh.ch" target="_blank" rel="noopener noreferrer">http://www.geo.uzh.ch</a></p>
 
-<p>Tomislav Hengl<br />
-Institute for Biodiversity and Ecosystem Dynamics<br />
-University of Amsterdam<br />
-Nieuwe Achtergracht 166<br />
-1018 WV Amsterdam<br />
-The Netherlands<br />
-<a href="mailto:t.hengl@uva.nl">t.hengl@uva.nl</a><br />
-<a href="http://www.science.uva.nl/ibed" title="http://www.science.uva.nl/ibed">http://www.science.uva.nl/ibed</a></p>
+<p>Tomislav Hengl<br>
+Institute for Biodiversity and Ecosystem Dynamics<br>
+University of Amsterdam<br>
+Nieuwe Achtergracht 166<br>
+1018 WV Amsterdam<br>
+The Netherlands<br>
+<a href="mailto:t.hengl@uva.nl">t.hengl@uva.nl</a><br>
+<a href="http://www.science.uva.nl/ibed" title="http://www.science.uva.nl/ibed" target="_blank" rel="noopener noreferrer">http://www.science.uva.nl/ibed</a></p>
 
-<p><strong>Programme Committee:</strong><br />
-Katherine Arrell, University of Leeds, UK<br />
-Alexander Brenning, University of Waterloo, Canada<br />
-Jürgen Böhner, University of Hamburg, Germany<br />
-Olaf Conrad, University of Hamburg, Germany<br />
-Lucian Dragut, University of Salzburg, Austria<br />
-Ian Evans, Durham University, UK<br />
-Peter Fisher, University of Leicester, UK<br />
-John Gallant, CSIRO, Australia<br />
-Paul Gessler, University of Idaho, USA<br />
-Stephan Gruber, University of Zurich, Switzerland<br />
-Peter L. Guth, US Naval Academy, USA<br />
-Tomislav Hengl, University of Amsterdam, Netherlands<br />
-Oliver Korup, WSL, Switzerland<br />
-John Lindsay, University of Guelph, Canada<br />
-Helena Mitasova, North Carolina State University, USA<br />
-Peter Molnar, ETH Zurich, Switzerland<br />
-Scott Peckham, Rivix, USA<br />
-Ross Purves, University of Zurich, Switzerland<br />
-Hannes I. Reuter, GISxperts, Germany<br />
-Jochen Schmidt, NIWA, New Zealand<br />
-Ralph Straumann, University of Zurich, Switzerland<br />
-Andy Turner, Leeds University, UK<br />
-Robert Weibel, University of Zurich, Switzerland<br />
-John P. Wilson, University of Southern California, USA<br />
-Jo Wood, City University London, UK<br />
+<p><strong>Programme Committee:</strong><br>
+Katherine Arrell, University of Leeds, UK<br>
+Alexander Brenning, University of Waterloo, Canada<br>
+Jürgen Böhner, University of Hamburg, Germany<br>
+Olaf Conrad, University of Hamburg, Germany<br>
+Lucian Dragut, University of Salzburg, Austria<br>
+Ian Evans, Durham University, UK<br>
+Peter Fisher, University of Leicester, UK<br>
+John Gallant, CSIRO, Australia<br>
+Paul Gessler, University of Idaho, USA<br>
+Stephan Gruber, University of Zurich, Switzerland<br>
+Peter L. Guth, US Naval Academy, USA<br>
+Tomislav Hengl, University of Amsterdam, Netherlands<br>
+Oliver Korup, WSL, Switzerland<br>
+John Lindsay, University of Guelph, Canada<br>
+Helena Mitasova, North Carolina State University, USA<br>
+Peter Molnar, ETH Zurich, Switzerland<br>
+Scott Peckham, Rivix, USA<br>
+Ross Purves, University of Zurich, Switzerland<br>
+Hannes I. Reuter, GISxperts, Germany<br>
+Jochen Schmidt, NIWA, New Zealand<br>
+Ralph Straumann, University of Zurich, Switzerland<br>
+Andy Turner, Leeds University, UK<br>
+Robert Weibel, University of Zurich, Switzerland<br>
+John P. Wilson, University of Southern California, USA<br>
+Jo Wood, City University London, UK<br>
 Qiming Zhou, Hong Kong Baptist University, Hong Kong</p>
 
 <p><em>Please cite as</em>:
-<em><a href="isg_test2/zurich-2009/">Geomorphometry 2009 Conference Proceedings</a></em> In: <em>Geomorphometry 2009</em>, Edited by R. Purves, S. Gruber, R. Straumann and T. Hengl. University of Zurich, Zurich, 2009.</p>
+<em><a href="/zurich-2009/">Geomorphometry 2009 Conference Proceedings</a></em> In: <em>Geomorphometry 2009</em>, Edited by R. Purves, S. Gruber, R. Straumann and T. Hengl. University of Zurich, Zurich, 2009.</p>
 
 <h3 id="hessd---special-issue">HESSD - Special Issue</h3>
-<p><a href="https://hess.copernicus.org/articles/special_issue114.html">Quantitative analysis of DEMs for hydrology and Earth system science</a><br />
+<p><a href="https://hess.copernicus.org/articles/special_issue114.html" target="_blank" rel="noopener noreferrer">Quantitative analysis of DEMs for hydrology and Earth system science</a><br>
 Editor(s): R. Purves, P. Molnar, and S. Gruber</p>
 
 <p><em><strong>Attachment:</strong></em>
-<a href="isg_test2/uploads/pdf/pdf2009/geomorphometry2009ToC.pdf">geomorphometry2009ToC.pdf</a></p>
+<a href="/uploads/pdf/pdf2009/geomorphometry2009ToC.pdf">geomorphometry2009ToC.pdf</a></p>
 
-<!-- (isg_test2/uploads/pdf/pdf2009/) -->
+<!-- (/uploads/pdf/pdf2009/) -->
 <p>  </p>
 <h2 id="programme">Programme</h2>
 <p><strong>Monday 31.08.2009</strong></p>
 
-<table class="table-condensed table-bordered table-striped table-responsive">
+<table>
   <tbody>
     <tr>
       <td>09:15-09:25</td>
@@ -248,11 +295,13 @@ Editor(s): R. Purves, P. Molnar, and S. Gruber</p>
     </tr>
     <tr>
       <td> </td>
-      <td>Ralph K. Straumann<br /><a href="isg_test2/uploads/pdf/pdf2009/traumann2009geomorphometry.pdf">Experiences in developing landform ontologies</a></td>
+      <td>Ralph K. Straumann<br><a href="/uploads/pdf/pdf2009/traumann2009geomorphometry.pdf">Experiences in developing landform ontologies</a>
+</td>
     </tr>
     <tr>
       <td> </td>
-      <td>T. Hengl, C.H. Grohmman, R.S. Bivand, O. Conrad and A. Lobo<br /><a href="isg_test2/uploads/pdf/pdf2009/hengl2009geomorphometry.pdf">SAGA vs GRASS: a comparative analysis of the two open source desktop GIS for the automated analysis of elevation data</a></td>
+      <td>T. Hengl, C.H. Grohmman, R.S. Bivand, O. Conrad and A. Lobo<br><a href="/uploads/pdf/pdf2009/hengl2009geomorphometry.pdf">SAGA vs GRASS: a comparative analysis of the two open source desktop GIS for the automated analysis of elevation data</a>
+</td>
     </tr>
     <tr>
       <td>10:15-10:45</td>
@@ -264,19 +313,23 @@ Editor(s): R. Purves, P. Molnar, and S. Gruber</p>
     </tr>
     <tr>
       <td> </td>
-      <td>John Gallant and Michael Hutchinson<br /><a href="isg_test2/uploads/pdf/pdf2009/gallanta2009geomorphometry.pdf">A differential equation for specific catchment area</a></td>
+      <td>John Gallant and Michael Hutchinson<br><a href="/uploads/pdf/pdf2009/gallanta2009geomorphometry.pdf">A differential equation for specific catchment area</a>
+</td>
     </tr>
     <tr>
       <td> </td>
-      <td>Scott Peckham<br /><a href="isg_test2/uploads/pdf/pdf2009/peckham2009geomorphometry.pdf">A New Algorithm for Creating DEMs with Smooth Elevation Profiles</a></td>
+      <td>Scott Peckham<br><a href="/uploads/pdf/pdf2009/peckham2009geomorphometry.pdf">A New Algorithm for Creating DEMs with Smooth Elevation Profiles</a>
+</td>
     </tr>
     <tr>
       <td> </td>
-      <td>Thomas Grabs, Jan Seibert, Kelsey Jencso and Brian McGlynn<br /><a href="isg_test2/uploads/pdf/pdf2009/grabs2009geomorphometry.pdf">Calculation of side-separated contributions to stream networks – a new tool to characterize riparian zones</a></td>
+      <td>Thomas Grabs, Jan Seibert, Kelsey Jencso and Brian McGlynn<br><a href="/uploads/pdf/pdf2009/grabs2009geomorphometry.pdf">Calculation of side-separated contributions to stream networks – a new tool to characterize riparian zones</a>
+</td>
     </tr>
     <tr>
       <td> </td>
-      <td>Justin Washtell, Stephen Carver and Katherine Arrell<br /><a href="isg_test2/uploads/pdf/pdf2009/washtell2009geomorphometry.pdf">A viewshed based classification of landscapes using geomorphometrics</a></td>
+      <td>Justin Washtell, Stephen Carver and Katherine Arrell<br><a href="/uploads/pdf/pdf2009/washtell2009geomorphometry.pdf">A viewshed based classification of landscapes using geomorphometrics</a>
+</td>
     </tr>
     <tr>
       <td>12:30-13:30</td>
@@ -284,7 +337,8 @@ Editor(s): R. Purves, P. Molnar, and S. Gruber</p>
     </tr>
     <tr>
       <td>13:30-14:30</td>
-      <td>Keynote: Jo Wood<br /><a href="isg_test2/uploads/pdf/pdf2009/wood2009geomorphometry.pdf">Visualizing Geomorphometry: Lessons from Information Visualization</a></td>
+      <td>Keynote: Jo Wood<br><a href="/uploads/pdf/pdf2009/wood2009geomorphometry.pdf">Visualizing Geomorphometry: Lessons from Information Visualization</a>
+</td>
     </tr>
     <tr>
       <td>14:30-15:45</td>
@@ -292,15 +346,18 @@ Editor(s): R. Purves, P. Molnar, and S. Gruber</p>
     </tr>
     <tr>
       <td> </td>
-      <td>Svein Olav Krøgli, Henning Dypvik and Bernd Etzelmüller<br /><a href="isg_test2/uploads/pdf/pdf2009/krogli2009geomorphometry.pdf">Correlation of radial profiles extracted from automatic detected circular features, in the search for impact structure candidates</a></td>
+      <td>Svein Olav Krøgli, Henning Dypvik and Bernd Etzelmüller<br><a href="/uploads/pdf/pdf2009/krogli2009geomorphometry.pdf">Correlation of radial profiles extracted from automatic detected circular features, in the search for impact structure candidates</a>
+</td>
     </tr>
     <tr>
       <td> </td>
-      <td>Bård Romstad and Bernd Etzelmüller<br /><a href="isg_test2/uploads/pdf/pdf2009/romstad2009geomorphometry.pdf">Structuring the Digital Elevation Model into Landform Elements through Watershed Segmentation of Curvature</a></td>
+      <td>Bård Romstad and Bernd Etzelmüller<br><a href="/uploads/pdf/pdf2009/romstad2009geomorphometry.pdf">Structuring the Digital Elevation Model into Landform Elements through Watershed Segmentation of Curvature</a>
+</td>
     </tr>
     <tr>
       <td> </td>
-      <td>Niels Anders, Harry Seijmonsbergen and Willem Bouten<br /><a href="isg_test2/uploads/pdf/pdf2009/anders2009geomorphometry.pdf">Multi-scale and object-oriented image analysis of high-res LiDAR data for geomorphological mapping in alpine mountains</a></td>
+      <td>Niels Anders, Harry Seijmonsbergen and Willem Bouten<br><a href="/uploads/pdf/pdf2009/anders2009geomorphometry.pdf">Multi-scale and object-oriented image analysis of high-res LiDAR data for geomorphological mapping in alpine mountains</a>
+</td>
     </tr>
     <tr>
       <td>15:45-16:15</td>
@@ -312,19 +369,23 @@ Editor(s): R. Purves, P. Molnar, and S. Gruber</p>
     </tr>
     <tr>
       <td> </td>
-      <td>Rania Bou Kheir, Mogens Greve and Peder Bocher<br /><a href="isg_test2/uploads/pdf/pdf2009/kheir2009geomorphometry.pdf">Use of digital terrain analysis and classification trees for predictive mapping of soil organic carbon in southern Denmark</a></td>
+      <td>Rania Bou Kheir, Mogens Greve and Peder Bocher<br><a href="/uploads/pdf/pdf2009/kheir2009geomorphometry.pdf">Use of digital terrain analysis and classification trees for predictive mapping of soil organic carbon in southern Denmark</a>
+</td>
     </tr>
     <tr>
       <td> </td>
-      <td>Korbinian Kringer, Markus Tusch, Clemens Geitner, Martin Rutzinger, Christoph Wiegand and Gertraud Meißl<br /><a href="isg_test2/uploads/pdf/pdf2009/kringer2009geomorphometry.pdf">Geomorphometric Analyses of LiDAR Digital Terrain Models for Digital Soil Mapping</a></td>
+      <td>Korbinian Kringer, Markus Tusch, Clemens Geitner, Martin Rutzinger, Christoph Wiegand and Gertraud Meißl<br><a href="/uploads/pdf/pdf2009/kringer2009geomorphometry.pdf">Geomorphometric Analyses of LiDAR Digital Terrain Models for Digital Soil Mapping</a>
+</td>
     </tr>
     <tr>
       <td> </td>
-      <td>Markus Möller, Thomas Koschitzki and Klaus-Jörg Hartmann<br /><a href="isg_test2/uploads/pdf/pdf2009/moller2009geomorphometry.pdf">Terrain-related revision of existing soil maps</a></td>
+      <td>Markus Möller, Thomas Koschitzki and Klaus-Jörg Hartmann<br><a href="/uploads/pdf/pdf2009/moller2009geomorphometry.pdf">Terrain-related revision of existing soil maps</a>
+</td>
     </tr>
     <tr>
       <td> </td>
-      <td>Brendan Malone<br /><a href="isg_test2/uploads/pdf/pdf2009/malone2009geomorphometry.pdf">Mapping continuous soil depth functions in the Edgeroi district, NSW, Australia, using terrain attributes and other environmental factors</a></td>
+      <td>Brendan Malone<br><a href="/uploads/pdf/pdf2009/malone2009geomorphometry.pdf">Mapping continuous soil depth functions in the Edgeroi district, NSW, Australia, using terrain attributes and other environmental factors</a>
+</td>
     </tr>
     <tr>
       <td>18:30-19:15</td>
@@ -340,7 +401,7 @@ Editor(s): R. Purves, P. Molnar, and S. Gruber</p>
 <p>  
 <strong>Tuesday 1.09.2009</strong></p>
 
-<table class="table-condensed table-bordered table-striped table-responsive">
+<table>
   <tbody>
     <tr>
       <td>09:00-10:15</td>
@@ -348,15 +409,18 @@ Editor(s): R. Purves, P. Molnar, and S. Gruber</p>
     </tr>
     <tr>
       <td> </td>
-      <td>Marcello A. V. Gorini <br /> <a href="isg_test2/uploads/pdf/pdf2009/gorini2009geomorphometry.pdf">Physiographic classification of the ocean floor: a multi-scale geomorphometric approach</a></td>
+      <td>Marcello A. V. Gorini <br> <a href="/uploads/pdf/pdf2009/gorini2009geomorphometry.pdf">Physiographic classification of the ocean floor: a multi-scale geomorphometric approach</a>
+</td>
     </tr>
     <tr>
       <td> </td>
-      <td>Peter Guth <br /> <a href="isg_test2/uploads/pdf/pdf2009/guth2009geomorphometry.pdf">Global Survey of Organized Landforms: Recognizing Linear Sand Dunes</a></td>
+      <td>Peter Guth <br> <a href="/uploads/pdf/pdf2009/guth2009geomorphometry.pdf">Global Survey of Organized Landforms: Recognizing Linear Sand Dunes</a>
+</td>
     </tr>
     <tr>
       <td> </td>
-      <td>Hannes Isaak Reuter and Andrew Nelson <br /> <a href="isg_test2/uploads/pdf/pdf2009/reuter2009geomorphometry.pdf">WorldTerrain- A Contribution to the Global Geomorphometric Atlas</a></td>
+      <td>Hannes Isaak Reuter and Andrew Nelson <br> <a href="/uploads/pdf/pdf2009/reuter2009geomorphometry.pdf">WorldTerrain- A Contribution to the Global Geomorphometric Atlas</a>
+</td>
     </tr>
     <tr>
       <td>10:15-10:45</td>
@@ -368,19 +432,23 @@ Editor(s): R. Purves, P. Molnar, and S. Gruber</p>
     </tr>
     <tr>
       <td> </td>
-      <td>Katherine Arrell and Stephen Carver <br /> <a href="isg_test2/uploads/pdf/pdf2009/arrell2009geomorphometry.pdf">Surface roughness scaling trends</a></td>
+      <td>Katherine Arrell and Stephen Carver <br> <a href="/uploads/pdf/pdf2009/arrell2009geomorphometry.pdf">Surface roughness scaling trends</a>
+</td>
     </tr>
     <tr>
       <td> </td>
-      <td>Michael Kalbermatten, Dimitri Van De Ville, Stéphane Joost, Michael Unser and François Golay <br /> <a href="isg_test2/uploads/pdf/pdf2009/kalbermatten2009geomorphometry.pdf">Laplace-gradient wavelet pyramid and multiscale tensor structures applied on high resolution DEMs</a></td>
+      <td>Michael Kalbermatten, Dimitri Van De Ville, Stéphane Joost, Michael Unser and François Golay <br> <a href="/uploads/pdf/pdf2009/kalbermatten2009geomorphometry.pdf">Laplace-gradient wavelet pyramid and multiscale tensor structures applied on high resolution DEMs</a>
+</td>
     </tr>
     <tr>
       <td> </td>
-      <td>Lucian Dragut, Clemens Eisank, Thomas Strasser and Thomas Blaschke <br /> <a href="isg_test2/uploads/pdf/pdf2009/dragut2009geomorphometry.pdf">A comparison of methods to incorporate scale in geomorphometry</a></td>
+      <td>Lucian Dragut, Clemens Eisank, Thomas Strasser and Thomas Blaschke <br> <a href="/uploads/pdf/pdf2009/dragut2009geomorphometry.pdf">A comparison of methods to incorporate scale in geomorphometry</a>
+</td>
     </tr>
     <tr>
       <td> </td>
-      <td>Carlos Grohmann, Mike Smith and Claudio Riccomini <br /> <a href="isg_test2/uploads/pdf/pdf2009/grohmann2009geomorphometry.pdf">Surface roughness of topography: a multi-scale analysis of landform elements in Midland Valley, Scotland</a></td>
+      <td>Carlos Grohmann, Mike Smith and Claudio Riccomini <br> <a href="/uploads/pdf/pdf2009/grohmann2009geomorphometry.pdf">Surface roughness of topography: a multi-scale analysis of landform elements in Midland Valley, Scotland</a>
+</td>
     </tr>
     <tr>
       <td>12:30-13:30</td>
@@ -396,15 +464,18 @@ Editor(s): R. Purves, P. Molnar, and S. Gruber</p>
     </tr>
     <tr>
       <td> </td>
-      <td>John Gallant and Arthur Read <br /> <a href="isg_test2/uploads/pdf/pdf2009/gallantb2009geomorphometry.pdf">Enhancing the SRTM data for Australia</a></td>
+      <td>John Gallant and Arthur Read <br> <a href="/uploads/pdf/pdf2009/gallantb2009geomorphometry.pdf">Enhancing the SRTM data for Australia</a>
+</td>
     </tr>
     <tr>
       <td> </td>
-      <td>Rüdiger Köthe and Michael Bock <br /> <a href="isg_test2/uploads/pdf/pdf2009/koethe2009geomorphometry.pdf">Preprocessing of Digital Elevation Models - derived from Laser Scanning and Radar Interferometry - for Terrain Analysis in Geosciences</a></td>
+      <td>Rüdiger Köthe and Michael Bock <br> <a href="/uploads/pdf/pdf2009/koethe2009geomorphometry.pdf">Preprocessing of Digital Elevation Models - derived from Laser Scanning and Radar Interferometry - for Terrain Analysis in Geosciences</a>
+</td>
     </tr>
     <tr>
       <td> </td>
-      <td>Haris Papasaika and Emmanuel Baltsavias <br /> <a href="isg_test2/uploads/pdf/pdf2009/papasaika2009geomorphometry.pdf">Investigation on the Relation of Geomorphological Parameters to DEM Accuracy</a></td>
+      <td>Haris Papasaika and Emmanuel Baltsavias <br> <a href="/uploads/pdf/pdf2009/papasaika2009geomorphometry.pdf">Investigation on the Relation of Geomorphological Parameters to DEM Accuracy</a>
+</td>
     </tr>
     <tr>
       <td>15:45-16:15</td>
@@ -416,15 +487,18 @@ Editor(s): R. Purves, P. Molnar, and S. Gruber</p>
     </tr>
     <tr>
       <td> </td>
-      <td>Nicolas Sougnez and Veerle Vanacker <br /> <a href="isg_test2/uploads/pdf/pdf2009/sougnez2009geomorphometry.pdf">Spatial variability in channel and slope morphology within the Ardennes Massif, and its link with tectonics</a></td>
+      <td>Nicolas Sougnez and Veerle Vanacker <br> <a href="/uploads/pdf/pdf2009/sougnez2009geomorphometry.pdf">Spatial variability in channel and slope morphology within the Ardennes Massif, and its link with tectonics</a>
+</td>
     </tr>
     <tr>
       <td> </td>
-      <td>Balázs Székely, Eszter Király, Dávid Karátson and Tamás Bata <br /> <a href="isg_test2/uploads/pdf/pdf2009/szekelya2009geomorphometry.pdf">A parameterisation attempt of scoria cones of the San Francisco Volcanic Field (Arizona, USA) by conical fitting</a></td>
+      <td>Balázs Székely, Eszter Király, Dávid Karátson and Tamás Bata <br> <a href="/uploads/pdf/pdf2009/szekelya2009geomorphometry.pdf">A parameterisation attempt of scoria cones of the San Francisco Volcanic Field (Arizona, USA) by conical fitting</a>
+</td>
     </tr>
     <tr>
       <td> </td>
-      <td>Mathias Ulmer, Peter Molnar and Ross Purves <br /> <a href="isg_test2/uploads/pdf/pdf2009/ulmer2009geomorphometry.pdf">Influence of DEM and soil property uncertainty on an infinite slope stability model</a></td>
+      <td>Mathias Ulmer, Peter Molnar and Ross Purves <br> <a href="/uploads/pdf/pdf2009/ulmer2009geomorphometry.pdf">Influence of DEM and soil property uncertainty on an infinite slope stability model</a>
+</td>
     </tr>
     <tr>
       <td>18:00-late</td>
@@ -436,7 +510,7 @@ Editor(s): R. Purves, P. Molnar, and S. Gruber</p>
 <p>  
 <strong>Wednesday 2.09.2009</strong></p>
 
-<table class="table-condensed table-bordered table-striped table-responsive">
+<table>
   <tbody>
     <tr>
       <td>09:00-10:15</td>
@@ -444,15 +518,18 @@ Editor(s): R. Purves, P. Molnar, and S. Gruber</p>
     </tr>
     <tr>
       <td> </td>
-      <td>Tomasz Stepinski and Chaitanya Bagaria <br /> <a href="isg_test2/uploads/pdf/pdf2009/stepinski2009geomorphometry.pdf">A Two-Stage Classification Approach for Effective Geomorphic Mapping of Planetary Surfaces</a></td>
+      <td>Tomasz Stepinski and Chaitanya Bagaria <br> <a href="/uploads/pdf/pdf2009/stepinski2009geomorphometry.pdf">A Two-Stage Classification Approach for Effective Geomorphic Mapping of Planetary Surfaces</a>
+</td>
     </tr>
     <tr>
       <td> </td>
-      <td>Roderik Koenders, Roderik Lindenbergh and Tanja Zegers <br /> <a href="isg_test2/uploads/pdf/pdf2009/koenders2009geomorphometry.pdf">Automated classification of Martian morphology using a Terrain Fingerprinting Method</a></td>
+      <td>Roderik Koenders, Roderik Lindenbergh and Tanja Zegers <br> <a href="/uploads/pdf/pdf2009/koenders2009geomorphometry.pdf">Automated classification of Martian morphology using a Terrain Fingerprinting Method</a>
+</td>
     </tr>
     <tr>
       <td> </td>
-      <td>Balázs Székely and Tomaž Podobnikar <br /> <a href="isg_test2/uploads/pdf/pdf2009/szekelyb2009geomorphometry.pdf">A method for automated extraction of Martian talus slopes – case studies of Nanedi Valles and West Candor Chasma, Mars</a></td>
+      <td>Balázs Székely and Tomaž Podobnikar <br> <a href="/uploads/pdf/pdf2009/szekelyb2009geomorphometry.pdf">A method for automated extraction of Martian talus slopes – case studies of Nanedi Valles and West Candor Chasma, Mars</a>
+</td>
     </tr>
     <tr>
       <td>10:15-10:45</td>
@@ -464,19 +541,23 @@ Editor(s): R. Purves, P. Molnar, and S. Gruber</p>
     </tr>
     <tr>
       <td> </td>
-      <td>Paolo Tarolli, Giancarlo Dalla Fontana, Giovanni Moretti and Stefano Orlandini <br /> <a href="isg_test2/uploads/pdf/pdf2009/tarolli2009geomorphometry.pdf">Cell Size Dependence of Threshold Conditions for the Delineation of Drainage Networks from Gridded Elevation Data</a></td>
+      <td>Paolo Tarolli, Giancarlo Dalla Fontana, Giovanni Moretti and Stefano Orlandini <br> <a href="/uploads/pdf/pdf2009/tarolli2009geomorphometry.pdf">Cell Size Dependence of Threshold Conditions for the Delineation of Drainage Networks from Gridded Elevation Data</a>
+</td>
     </tr>
     <tr>
       <td> </td>
-      <td>Nathalie Thommeret, Jean-Stéphane Bailly and Christian Puech <br /> <a href="isg_test2/uploads/pdf/pdf2009/thommeret2009geomorphometry.pdf">Robust extraction of thalwegs networks from DTMs for topological characterisation: a case study on badlands</a></td>
+      <td>Nathalie Thommeret, Jean-Stéphane Bailly and Christian Puech <br> <a href="/uploads/pdf/pdf2009/thommeret2009geomorphometry.pdf">Robust extraction of thalwegs networks from DTMs for topological characterisation: a case study on badlands</a>
+</td>
     </tr>
     <tr>
       <td> </td>
-      <td>Ashraf Afana and Gabriel Del Barrio <br /><a href="isg_test2/uploads/pdf/pdf2009/afana2009geomorphometry.pdf"> An Adaptive Approach for Channel Network Delineation from Digital Elevation Models</a></td>
+      <td>Ashraf Afana and Gabriel Del Barrio <br><a href="/uploads/pdf/pdf2009/afana2009geomorphometry.pdf"> An Adaptive Approach for Channel Network Delineation from Digital Elevation Models</a>
+</td>
     </tr>
     <tr>
       <td> </td>
-      <td>Laura Poggio and Pierre Soille <br /> <a href="isg_test2/uploads/pdf/pdf2009/poggio2009geomorphometry.pdf">Influence of spurious pit removal methods on the position of river networks extracted from SRTM</a></td>
+      <td>Laura Poggio and Pierre Soille <br> <a href="/uploads/pdf/pdf2009/poggio2009geomorphometry.pdf">Influence of spurious pit removal methods on the position of river networks extracted from SRTM</a>
+</td>
     </tr>
     <tr>
       <td>12:30-13:30</td>
@@ -484,7 +565,8 @@ Editor(s): R. Purves, P. Molnar, and S. Gruber</p>
     </tr>
     <tr>
       <td>13:30-14:30</td>
-      <td>Keynote: David Mark <br /> <a href="isg_test2/uploads/pdf/pdf2009/mark2009geomorphometry.pdf">From Land Form to Landforms: Bridging the Quantitative-Qualitative Gap in a Multilingual Context</a></td>
+      <td>Keynote: David Mark <br> <a href="/uploads/pdf/pdf2009/mark2009geomorphometry.pdf">From Land Form to Landforms: Bridging the Quantitative-Qualitative Gap in a Multilingual Context</a>
+</td>
     </tr>
     <tr>
       <td> </td>
@@ -492,7 +574,8 @@ Editor(s): R. Purves, P. Molnar, and S. Gruber</p>
     </tr>
     <tr>
       <td>14:30-15:00</td>
-      <td>Markus Metz, Helena Mitasova and Russel Harmon <br /> <a href="isg_test2/uploads/pdf/pdf2009/metz2009geomorphometry.pdf">Fast stream extraction from large, radar-based elevation models with variable level of detail</a></td>
+      <td>Markus Metz, Helena Mitasova and Russel Harmon <br> <a href="/uploads/pdf/pdf2009/metz2009geomorphometry.pdf">Fast stream extraction from large, radar-based elevation models with variable level of detail</a>
+</td>
     </tr>
     <tr>
       <td>15:00-15:30</td>
@@ -504,15 +587,18 @@ Editor(s): R. Purves, P. Molnar, and S. Gruber</p>
     </tr>
     <tr>
       <td> </td>
-      <td>Andreas Linsbauer, Frank Paul, Martin Hoelzle, Holger Frey and Wilfried Haeberli <br /> <a href="isg_test2/uploads/pdf/pdf2009/linsbauer2009geomorphometry.pdf">The Swiss Alps Without Glaciers – a GIS-based Modelling Approach for Reconstruction of Glacier Beds</a></td>
+      <td>Andreas Linsbauer, Frank Paul, Martin Hoelzle, Holger Frey and Wilfried Haeberli <br> <a href="/uploads/pdf/pdf2009/linsbauer2009geomorphometry.pdf">The Swiss Alps Without Glaciers – a GIS-based Modelling Approach for Reconstruction of Glacier Beds</a>
+</td>
     </tr>
     <tr>
       <td> </td>
-      <td>Ian Evans <br /> <a href="isg_test2/uploads/pdf/pdf2009/evans2009geomorphometry.pdf">Allometric development of glacial cirques: an application of specific geomorphometry</a></td>
+      <td>Ian Evans <br> <a href="/uploads/pdf/pdf2009/evans2009geomorphometry.pdf">Allometric development of glacial cirques: an application of specific geomorphometry</a>
+</td>
     </tr>
     <tr>
       <td> </td>
-      <td>Regula Frauenfelder, Bernhard Schneider and Bernd Etzelmüller <br /> <a href="isg_test2/uploads/pdf/pdf2009/frauenfelder2009geomorphometry.pdf">Morphometric modelling of rockglaciers – A case study from the Alps</a></td>
+      <td>Regula Frauenfelder, Bernhard Schneider and Bernd Etzelmüller <br> <a href="/uploads/pdf/pdf2009/frauenfelder2009geomorphometry.pdf">Morphometric modelling of rockglaciers – A case study from the Alps</a>
+</td>
     </tr>
     <tr>
       <td>16:45</td>
@@ -525,7 +611,7 @@ Editor(s): R. Purves, P. Molnar, and S. Gruber</p>
 ## e-Democracy
 
 
-Here are the [results](isg_test2/uploads/docs/e_democracy_2009.xls) of the e-democracy and society meeting discussion. We received 29 votes from 64 registered members (44%). Considering future organization of the society 45% of members confirmed that they prefer to keep the society of small size, while 45% of members believe that we should try to get anybody working with DEMs involved with this society.
+Here are the [results](/uploads/docs/e_democracy_2009.xls) of the e-democracy and society meeting discussion. We received 29 votes from 64 registered members (44%). Considering future organization of the society 45% of members confirmed that they prefer to keep the society of small size, while 45% of members believe that we should try to get anybody working with DEMs involved with this society.
 
 Considering the name of the society, 89% of members find the current name “geomorphometry” more appropriate than “terrain analysis” (11%). One member proposed that the official name should be “Geomorphometry: the science of digital terrain analysis”, which seem to be the best compromise between the two alternatives. A large majority of members (90%) believes that the focus of geomorphometry should be on both technology and methods.
 
@@ -535,46 +621,67 @@ Considering the location of the next conference, 41% of members would like that 
 
 In the final block of the society meeting, we have carefully discussed advantages and disadvantages of having a more formally organized society and possible alternatives: e.g. optional merging with some other (bigger) research group such as International Association of Geomorphologists, GIS societies, ISPRS and similar. We concluded that (1) geomorphometry is a distinct field that certainly has an audience and future (especially considering the recent development of LiDAR technology, new geo-visualization tools and new fields of application); (2) place of the next meeting and similar organizational issues should be decided upon during the running conference to ensure sustainability; (3) geomorphometry should try to connect all people involved with production and processing of DEMs and surface models.
 
-[e\_democracy\_2009.xls](isg_test2/uploads/docs/e_democracy_2009.xls)
+[e\_democracy\_2009.xls](/uploads/docs/e_democracy_2009.xls)
  -->
 
-    </article>
-
 </div>
-
+                </div>
+                
+            </div>
         </div>
-    </div>
+    </section>
+    
+        <footer class="footer">
+    <div class="container">
+        
+        
+        <div class="columns is-multiline">
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="/" class="link">Home</a>
+                </div>
+            </div>
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="/blog/" class="link">Blog</a>
+                </div>
+            </div>
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="https://mobile.twitter.com/geomorphomorg" class="link" target="_blank" rel="noopener noreferrer">Twitter @GeomorphomOrg</a>
+                </div>
+            </div>
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="https://mobile.twitter.com/GalsOfGeomorph" class="link" target="_blank" rel="noopener noreferrer">Twitter @GalsOfGeomorph</a>
+                </div>
+            </div>
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="https://www.instagram.com/geomorphometry/" class="link" target="_blank" rel="noopener noreferrer">Instagram</a>
+                </div>
+            </div>
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="https://www.facebook.com/groups/geomorphometry/" class="link" target="_blank" rel="noopener noreferrer">Facebook</a>
+                </div>
+            </div>
+            
+        </div>
+        
 
-    <footer class="footer">
-    <div class="container mx-auto">
-                <ul class="nav navbar-nav">
-                    <li><a href="https://www.facebook.com/groups/geomorphometry/" target="_blank"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a></li>
-                    <li><a href="https://twitter.com/geomorphomorg" target="_blank"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a></li>
-                    <li><a href="https://twitter.com/GalsOfGeomorph" target="_blank"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a></li>
-                    <li><a href="https://www.instagram.com/geomorphometry" target="_blank"><i class="fa fa-instagram  fa-2x" aria-hidden="true"></i></a></li>
-                    <li><a href="https://github.com/aksakalli/jekyll-doc-theme" target="_blank"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a></li>
-                    <li><a href="https://scholar.google.com.br/scholar?hl=en&as_sdt=0%2C5&q=geomorphometry&btnG=" target="_blank"><i class="ai ai-google-scholar-square ai-2x" aria-hidden="true"></i></a></li>
-                </ul>
-    </div>
-    <div class="container mx-auto">
-        <p class="text">
-            Geomorphometry.org 2023 |
-            Powered by <a href="https://github.com/aksakalli/jekyll-doc-theme">Jekyll Doc Theme</a>
-        </p>
+        <div class="content is-small has-text-centered">
+            <p class="">Theme built by <a href="https://www.csrhymes.com">C.S. Rhymes</a></p>
+        </div>
     </div>
 </footer>
 
-
-
-    <script>
-  var baseurl = 'isg_test2'
-</script>
-<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
-<script src="/isg_test2/assets/js/bootstrap.min.js "></script>
-<script src="/isg_test2/assets/js/typeahead.bundle.min.js "></script>
-
-<script src="/isg_test2/assets/js/main.js "></script>
-
-</body>
-
+    
+    <script src="/assets/js/app.js" type="text/javascript"></script><!-- footer scripts --></body>
 </html>
