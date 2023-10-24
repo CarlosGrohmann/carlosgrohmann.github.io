@@ -11,7 +11,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content=#ffffff>
-    <link rel="stylesheet" href="/isg_test2/assets/css/app.css">
+
     <link rel="shortcut icon" type="image/png"
            href="/isg_test2/favicon.png" 
     />
@@ -22,6 +22,10 @@
     <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/brands.css" rel="stylesheet">
 
     <link href=" https://cdn.jsdelivr.net/npm/@mdi/font@7.3.67/css/materialdesignicons.min.css " rel="stylesheet">
+
+    <link rel="stylesheet" href="https://unpkg.com/bulma-modal-fx/dist/css/modal-fx.min.css" />
+
+    <link rel="stylesheet" href="/isg_test2/assets/css/app.css">
 
     
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-social@1/bin/bulma-social.min.css">
@@ -200,8 +204,22 @@
                     
                     
 <div class="content">
-    <p><img src="/isg_test2/uploads/img/meet2021/summary_pic1.png" alt=""><br>
-Happy faces from all around the world</p>
+    <div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image is-3by1">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/groups_modal/geomorphometry_2021_group_photo_zoom_3by1.jpg" alt="Happy faces">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/groups_modal/geomorphometry_2021_group_photo_zoom_3by1.jpg" alt="Happy faces">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
 
 <h3 id="original-conference-website-httpgeomorphometry2021org">Original Conference Website: <a href="http://geomorphometry2021.org" target="_blank" rel="noopener noreferrer">http://geomorphometry2021.org</a>
 </h3>
@@ -227,6 +245,17 @@ The beautiful city of Perugia</p>
 
 <p><img src="/isg_test2/uploads/img/meet2021/geomorphometry_2021_group_photo.jpg" alt=""><br>
 In-person attendance to the conference</p>
+
+<h3 id="book-of-proceedings">Book of Proceedings</h3>
+<p>Massimiliano Alvioli, Ivan Marchesini, Laura Melelli, and Peter Guth (2020)<br>
+Proceedings of the Geomorphometry 2020 Conference, Perugia, Italy<br>
+CNR Edizioni, 270 p.<br>
+Book DOI: <a href="https://doi.org/10.30437/geomorphometry2020" target="_blank" rel="noopener noreferrer">10.30437/geomorphometry2020</a><br>
+ISBN: 978 88 8080 282 2<br>
+ISBN 978 88 8080 410 9 (updated version)</p>
+
+<h3 id="transactions-in-gis-special-issue">Transactions in GIS special issue:</h3>
+<p><a href="https://onlinelibrary.wiley.com/toc/14679671/2021/25/5" target="_blank" rel="noopener noreferrer">https://onlinelibrary.wiley.com/toc/14679671/2021/25/5</a></p>
 
 <h2 id="scientific-commitee">Scientific Commitee</h2>
 

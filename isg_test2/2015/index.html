@@ -11,7 +11,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content=#ffffff>
-    <link rel="stylesheet" href="/isg_test2/assets/css/app.css">
+
     <link rel="shortcut icon" type="image/png"
            href="/isg_test2/favicon.png" 
     />
@@ -22,6 +22,10 @@
     <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/brands.css" rel="stylesheet">
 
     <link href=" https://cdn.jsdelivr.net/npm/@mdi/font@7.3.67/css/materialdesignicons.min.css " rel="stylesheet">
+
+    <link rel="stylesheet" href="https://unpkg.com/bulma-modal-fx/dist/css/modal-fx.min.css" />
+
+    <link rel="stylesheet" href="/isg_test2/assets/css/app.css">
 
     
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-social@1/bin/bulma-social.min.css">
@@ -200,7 +204,24 @@
                     
                     
 <div class="content">
-    <p><img src="/isg_test2/uploads/img/logos/geomorphometry_2015_logo.png" width="50%"></p>
+    <p><img src="/isg_test2/uploads/img/logos/geomorphometry_2015_logo.png" width="20%"></p>
+
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image is-2by1">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/groups_modal/geomorphometry_2015_group_photo_2x1.png" alt="Group photo">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/groups_modal/geomorphometry_2015_group_photo_2x1.png" alt="Group photo">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
 
 <h2 id="geomorphometry-2015--conference-and-workshops"><strong>Geomorphometry 2015:  Conference and Workshops</strong></h2>
 
@@ -213,8 +234,6 @@ Rector of Adam Mickiewicz University in Poznań</p>
 
 <p><strong>Dr Inż. Kazimierz Bujakowski,</strong><br>
 Surveyor General of Poland</p>
-
-<p><img src="/isg_test2/uploads/img/meet2015/geomorphometry_2015_group_photo.jpg" alt=""></p>
 
 <p>Geomorphometry 2015 became a history. On behalf of organizing committee I would like to thank to all Geomorphometry 2015 Participants. It was a great pleasure to host all of you in Poznań. Regardless of the committee’s work, participants are the key to the success of the conference. Many interesting talks, posters and discussions is that what is worth the effort during the preparation. We wish all many valuable publications resulting from the conference meeting and we wish success to the organisers of the next meeting.<strong>THANK YOU!</strong></p>
 
@@ -233,7 +252,7 @@ Surveyor General of Poland</p>
 <strong>Tomislav Hengl</strong>, ISRIC / Wageningen University and Research, the Netherlands</li>
 </ol>
 
-<p><strong>Conference secretariat (closed)</strong>:</p>
+<p><strong>Conference secretariat</strong>:</p>
 
 <p>Director: <strong>Zbigniew Zwoliński</strong><br>
 Head of GIS Lab, Chair of the International Association of Geomorphologists<br>
@@ -252,9 +271,14 @@ phone: +48618296196</p>
 
 <p>Field trip organizers: <strong>Małgorzata Mazurek</strong>,  <strong>Miroslaw Makohonienko</strong></p>
 
-<hr>
+<p><br></p>
 
-<h4 id="keynote-speakers"><strong>KEYNOTE SPEAKERS</strong></h4>
+<h2 id="book-of-proceedings">Book of Proceedings</h2>
+<p><a href="/isg_test2/uploads/pdf/pdf2013/Geomorphometry_for_Geosciences_book.pdf">Download the PDF here</a></p>
+
+<p><br></p>
+
+<h3 id="keynote-speakers"><strong>KEYNOTE SPEAKERS</strong></h3>
 
 <table>
   <tbody>
@@ -304,7 +328,7 @@ phone: +48618296196</p>
   </tbody>
 </table>
 
-<h4 id="scientific-committee"><strong>SCIENTIFIC COMMITTEE</strong></h4>
+<h3 id="scientific-committee"><strong>SCIENTIFIC COMMITTEE</strong></h3>
 
 <ol>
   <li>Alexander Brenning, University of Waterloo, Canada</li>

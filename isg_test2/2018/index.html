@@ -11,7 +11,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content=#ffffff>
-    <link rel="stylesheet" href="/isg_test2/assets/css/app.css">
+
     <link rel="shortcut icon" type="image/png"
            href="/isg_test2/favicon.png" 
     />
@@ -22,6 +22,10 @@
     <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/brands.css" rel="stylesheet">
 
     <link href=" https://cdn.jsdelivr.net/npm/@mdi/font@7.3.67/css/materialdesignicons.min.css " rel="stylesheet">
+
+    <link rel="stylesheet" href="https://unpkg.com/bulma-modal-fx/dist/css/modal-fx.min.css" />
+
+    <link rel="stylesheet" href="/isg_test2/assets/css/app.css">
 
     
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-social@1/bin/bulma-social.min.css">
@@ -200,7 +204,22 @@
                     
                     
 <div class="content">
-    <p><img src="/isg_test2/uploads/img/meet2018/geomorphometry_2018_group_photo.jpg" alt=""></p>
+    <div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image is-3by1">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/groups_modal/geomorphometry_2018_group_photo_3x1_1800.jpg" alt="Group photo">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/groups_modal/geomorphometry_2018_group_photo_3x1_1800.jpg" alt="Group photo">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
 
 <h2 id="geomorphometry-2018-conference-and-workshops">Geomorphometry 2018: Conference and Workshops</h2>
 

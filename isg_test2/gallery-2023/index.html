@@ -11,7 +11,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content=#ffffff>
-    <link rel="stylesheet" href="/isg_test2/assets/css/app.css">
+
     <link rel="shortcut icon" type="image/png"
            href="/isg_test2/favicon.png" 
     />
@@ -22,6 +22,10 @@
     <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/brands.css" rel="stylesheet">
 
     <link href=" https://cdn.jsdelivr.net/npm/@mdi/font@7.3.67/css/materialdesignicons.min.css " rel="stylesheet">
+
+    <link rel="stylesheet" href="https://unpkg.com/bulma-modal-fx/dist/css/modal-fx.min.css" />
+
+    <link rel="stylesheet" href="/isg_test2/assets/css/app.css">
 
     
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-social@1/bin/bulma-social.min.css">
@@ -208,2366 +212,3214 @@ html { overflow-y: scroll; }
 /* article {padding:2%;} */
 </style>
 
-<div id="masonry" class="grid">
-<div class="grid-sizer"></div>
-<div class="gutter-sizer"></div>
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-    
-        <a href="/isg_test2/uploads/img/meet2023/Geomorphometry2023_Group_Photo.png">
-        <img src="/isg_test2/uploads/img/meet2023/Geomorphometry2023_Group_Photo.png" alt="" class="grid-item" style="padding: 0;">
-        </a>
-    
-  
-
-  
-    
-        <a href="/isg_test2/uploads/img/meet2023/Geomorphometry2023_Group_Photo1800.png">
-        <img src="/isg_test2/uploads/img/meet2023/Geomorphometry2023_Group_Photo1800.png" alt="" class="grid-item" style="padding: 0;">
-        </a>
-    
-  
-
-  
-    
-        <a href="/isg_test2/uploads/img/meet2023/Geomorphometry2023_Group_Photo1800_crop.jpg">
-        <img src="/isg_test2/uploads/img/meet2023/Geomorphometry2023_Group_Photo1800_crop.jpg" alt="" class="grid-item" style="padding: 0;">
-        </a>
-    
-  
-
-  
-    
-        <a href="/isg_test2/uploads/img/meet2023/aula.png">
-        <img src="/isg_test2/uploads/img/meet2023/aula.png" alt="" class="grid-item" style="padding: 0;">
-        </a>
-    
-  
-
-  
-    
-        <a href="/isg_test2/uploads/img/meet2023/aulaa.jpg">
-        <img src="/isg_test2/uploads/img/meet2023/aulaa.jpg" alt="" class="grid-item" style="padding: 0;">
-        </a>
-    
-  
-
-  
-    
-        <a href="/isg_test2/uploads/img/meet2023/posters.png">
-        <img src="/isg_test2/uploads/img/meet2023/posters.png" alt="" class="grid-item" style="padding: 0;">
-        </a>
-    
-  
-
-  
-    
-        <a href="/isg_test2/uploads/img/meet2023/rooms.png">
-        <img src="/isg_test2/uploads/img/meet2023/rooms.png" alt="" class="grid-item" style="padding: 0;">
-        </a>
-    
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
+<!-- https://codepen.io/jwjcmw/pen/GMQMPW -->
+
+<div class="columns is-multiline">
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230709_135342.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230709_135342.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
 </div>
-
-<!-- <script src="/isg_test2/assets/js/vendor/imagesloaded.pkgd.min.js" type="text/javascript"></script> 
-<script src="/isg_test2/assets/js/vendor/masonry.pkgd.min.js" type="text/javascript"></script>-->
-<script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
-
-<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
-
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230709_180401.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230709_180401.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230709_183139.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230709_183139.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230709_183144.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230709_183144.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230709_183213.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230709_183213.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230709_183231.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230709_183231.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230709_183236.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230709_183236.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230709_183238.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230709_183238.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230709_183249.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230709_183249.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230709_183256.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230709_183256.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230710_085312.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230710_085312.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230710_085458.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230710_085458.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230710_085552.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230710_085552.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230710_085601.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230710_085601.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230710_085741.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230710_085741.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230710_085755.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230710_085755.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230710_090150.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230710_090150.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230710_090250.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230710_090250.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230710_090301.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230710_090301.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230710_090308.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230710_090308.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230710_090521.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230710_090521.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230710_090531.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230710_090531.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230710_090701.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230710_090701.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230710_090713.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230710_090713.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230710_092115.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230710_092115.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230710_095735.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230710_095735.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230710_150431.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230710_150431.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230710_150440.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230710_150440.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230710_150456.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230710_150456.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230710_150500.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230710_150500.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230710_150506.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230710_150506.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230710_150510.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230710_150510.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230710_150518.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230710_150518.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230710_150525.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230710_150525.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230710_150542.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230710_150542.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230710_151430.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230710_151430.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230710_151436.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230710_151436.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230710_170547.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230710_170547.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230710_171922.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230710_171922.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230710_172309.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230710_172309.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230710_172400.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230710_172400.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230710_173429.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230710_173429.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230710_173440.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230710_173440.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230710_180349.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230710_180349.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230710_180512.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230710_180512.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230710_180854.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230710_180854.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230710_180938.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230710_180938.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230710_185235.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230710_185235.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230710_185253.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230710_185253.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230710_185722.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230710_185722.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230710_185801.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230710_185801.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230710_194854.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230710_194854.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230710_231738.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230710_231738.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230710_233502.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230710_233502.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_081630.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_081630.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_095227.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_095227.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_095230.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_095230.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_095244.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_095244.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_100529.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_100529.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_100804.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_100804.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_100946.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_100946.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_101542.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_101542.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_102151.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_102151.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_102213.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_102213.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_111502.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_111502.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_111520.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_111520.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_111908.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_111908.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_112020.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_112020.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_112036.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_112036.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_112505.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_112505.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_113146.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_113146.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_113151.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_113151.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_113201.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_113201.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_113516.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_113516.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_113540.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_113540.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_113842.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_113842.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_114503.mp4" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_114503.mp4" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_115109.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_115109.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_115122.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_115122.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_115134.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_115134.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_115145.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_115145.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_115201.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_115201.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_115259.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_115259.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_115327.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_115327.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_115330.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_115330.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_120250.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_120250.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_121002.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_121002.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_121013.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_121013.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_121033.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_121033.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_121040.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_121040.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_121058.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_121058.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_121114.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_121114.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_122636.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_122636.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_122816.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_122816.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_122818.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_122818.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_122822.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_122822.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_122824.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_122824.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_123302.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_123302.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_123306.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_123306.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_123309.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_123309.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_123314.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_123314.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_123323.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_123323.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_123326.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_123326.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_123334.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_123334.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_161743.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_161743.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_162010.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_162010.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_162139.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_162139.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_162222.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_162222.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_162839.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_162839.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_162845.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_162845.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_162941.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_162941.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_162945.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_162945.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_205357.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_205357.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_205408.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230711_205408.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230712_094055.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230712_094055.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230712_094116.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230712_094116.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230712_094306.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230712_094306.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230712_192553.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230712_192553.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230712_192641.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230712_192641.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230712_192655.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230712_192655.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230712_192659.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230712_192659.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230712_192700.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230712_192700.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230712_204401.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230712_204401.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230712_212610.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230712_212610.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230712_215503.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230712_215503.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230712_215505.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230712_215505.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230713_102017.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230713_102017.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230713_102028.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230713_102028.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230713_102204.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230713_102204.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230713_102212.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230713_102212.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230713_132400.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230713_132400.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230713_134637.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230713_134637.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230713_151958.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230713_151958.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230713_152006.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230713_152006.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230713_152022.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230713_152022.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230713_152032.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230713_152032.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230713_152043.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230713_152043.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230713_152100.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230713_152100.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230713_152111.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230713_152111.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230713_153922.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230713_153922.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230713_153925.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230713_153925.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230713_181704.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230713_181704.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230713_181709.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230713_181709.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230713_190507.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230713_190507.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230713_191710.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230713_191710.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230713_191820.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230713_191820.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230713_191827.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230713_191827.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230713_203510.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230713_203510.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230713_203515.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230713_203515.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230713_203523.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230713_203523.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230713_203525.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230713_203525.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230713_203532.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230713_203532.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230713_203540.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230713_203540.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230713_203552.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230713_203552.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230713_203612.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230713_203612.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230713_203620.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230713_203620.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230713_210456.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230713_210456.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230713_221622.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230713_221622.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230713_221625.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230713_221625.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230713_233223.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230713_233223.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230713_233229.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230713_233229.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230713_233242.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230713_233242.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230713_233246.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230713_233246.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230713_234020.mp4" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230713_234020.mp4" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230714_135628.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230714_135628.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230714_135655.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230714_135655.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230714_190007.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230714_190007.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230714_190011.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230714_190011.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230714_190113.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230714_190113.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230714_190952.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230714_190952.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230714_191759.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/20230714_191759.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/Geomorphometry2023_Group_Photo.png" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/Geomorphometry2023_Group_Photo.png" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/Geomorphometry2023_Group_Photo1800.png" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/Geomorphometry2023_Group_Photo1800.png" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/Geomorphometry2023_Group_Photo1800_crop.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/Geomorphometry2023_Group_Photo1800_crop.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/aula.png" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/aula.png" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/aulaa.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/aulaa.jpg" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/posters.png" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/posters.png" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/rooms.png" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            
+                <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2023/rooms.png" alt="">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+</div>
+</div>
 
 </div>
                 </div>
