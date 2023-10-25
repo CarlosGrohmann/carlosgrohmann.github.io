@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+
+
+
+
+<html
+ dir="ltr"
+ lang="en"
+ class="has-navbar-fixed-top">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content=#ffffff>
+
+    <link rel="shortcut icon" type="image/png"
+           href="/isg_test2/favicon.png" 
+    />
+    <script defer src="https://unpkg.com/alpinejs@3.9.0/dist/cdn.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.css">
+    <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/solid.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/brands.css" rel="stylesheet">
+
+    <link href=" https://cdn.jsdelivr.net/npm/@mdi/font@7.3.67/css/materialdesignicons.min.css " rel="stylesheet">
+
+    <link rel="stylesheet" href="https://unpkg.com/bulma-modal-fx/dist/css/modal-fx.min.css" />
+
+    <link rel="stylesheet" href="/isg_test2/assets/css/app.css">
+
+    
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-social@1/bin/bulma-social.min.css">
+    
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Guidelines | Geomorphometry.org</title>
+<meta name="generator" content="Jekyll v4.3.2" />
+<meta property="og:title" content="Guidelines" />
+<meta property="og:locale" content="en" />
+<meta name="description" content="Geomorphometry.org website" />
+<meta property="og:description" content="Geomorphometry.org website" />
+<link rel="canonical" href="http://carlosgrohmann.com/isg_test2/guidelines/" />
+<meta property="og:url" content="http://carlosgrohmann.com/isg_test2/guidelines/" />
+<meta property="og:site_name" content="Geomorphometry.org" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Guidelines" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"Geomorphometry.org website","headline":"Guidelines","url":"http://carlosgrohmann.com/isg_test2/guidelines/"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <!-- head scripts --></head>
+
+  <body>
+    <nav class="navbar is-primary  is-fixed-top " x-data="{ openNav: false }">
+    <div class="container">
+        <div class="navbar-brand">
+            <a href="/isg_test2/" class="navbar-item">
+                Geomorphometry.org
+            </a>
+            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navMenu" :class="{ 'is-active': openNav }" x-on:click="openNav = !openNav">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+        <div class="navbar-menu" id="navMenu" :class="{ 'is-active': openNav }">
+            <div class="navbar-start">
+                <!-- <a href="/isg_test2/" class="navbar-item ">Home</a> -->
+                
+                
+                    
+                    <div class="navbar-item has-dropdown is-hoverable ">
+                        <a href="/isg_test2/" class="navbar-link ">About the ISG</a>
+                        <div class="navbar-dropdown">
+                            
+                            <a href="/isg_test2/about/" class="navbar-item ">About the ISG</a>
+                            
+                            <a href="/isg_test2/membership/" class="navbar-item ">Membership</a>
+                            
+                            <a href="/isg_test2/constitution-bylaws/" class="navbar-item ">Constitution and Bylaws</a>
+                            
+                            <a href="/isg_test2/diversity-and-inclusion/" class="navbar-item ">Diversity and Inclusion</a>
+                            
+                            <a href="/isg_test2/social-media/" class="navbar-item ">Social Media</a>
+                            
+                            <a href="/isg_test2/isg-council/" class="navbar-item ">ISG Council</a>
+                            
+                            <a href="/isg_test2/scientific-committee/" class="navbar-item ">ISG Scientific Committee</a>
+                            
+                        </div>
+                    </div>
+                    
+                
+                    
+                    <div class="navbar-item has-dropdown is-hoverable ">
+                        <a href="/isg_test2/" class="navbar-link ">ISG Events</a>
+                        <div class="navbar-dropdown">
+                            
+                            <a href="/isg_test2/coffee_talks/" class="navbar-item ">ISG Coffee Talks</a>
+                            
+                            <a href="/isg_test2/2025/" class="navbar-item ">Geomorphometry 2025</a>
+                            
+                            <a href="/isg_test2/2023/" class="navbar-item ">Geomorphometry 2023</a>
+                            
+                            <a href="/isg_test2/2021/" class="navbar-item ">Geomorphometry 2021</a>
+                            
+                            <a href="/isg_test2/2018/" class="navbar-item ">Geomorphometry 2018</a>
+                            
+                            <a href="/isg_test2/2015/" class="navbar-item ">Geomorphometry 2015</a>
+                            
+                            <a href="/isg_test2/2013/" class="navbar-item ">Geomorphometry 2013</a>
+                            
+                            <a href="/isg_test2/2011/" class="navbar-item ">Geomorphometry 2011</a>
+                            
+                            <a href="/isg_test2/2009/" class="navbar-item ">Geomorphometry 2009</a>
+                            
+                            <a href="/isg_test2/sessions/" class="navbar-item ">Geomorphometry Sessions</a>
+                            
+                        </div>
+                    </div>
+                    
+                
+                    
+                    <div class="navbar-item has-dropdown is-hoverable ">
+                        <a href="/isg_test2/" class="navbar-link ">Galleries</a>
+                        <div class="navbar-dropdown">
+                            
+                            <a href="/isg_test2/gallery-2023/" class="navbar-item ">Geomorphometry 2023</a>
+                            
+                            <a href="/isg_test2/gallery-2021/" class="navbar-item ">Geomorphometry 2021</a>
+                            
+                            <a href="/isg_test2/gallery-2018/" class="navbar-item ">Geomorphometry 2018</a>
+                            
+                            <a href="/isg_test2/gallery-2015/" class="navbar-item ">Geomorphometry 2015</a>
+                            
+                            <a href="/isg_test2/gallery-2013/" class="navbar-item ">Geomorphometry 2013</a>
+                            
+                            <a href="/isg_test2/gallery-2011/" class="navbar-item ">Geomorphometry 2011</a>
+                            
+                            <a href="/isg_test2/gallery-2009/" class="navbar-item ">Geomorphometry 2009</a>
+                            
+                            <a href="/isg_test2/gallery-plasencia/" class="navbar-item ">Plasencia 2008</a>
+                            
+                            <a href="/isg_test2/gallery-2006/" class="navbar-item ">TADTM 2006</a>
+                            
+                        </div>
+                    </div>
+                    
+                
+                    
+                    <a href="/isg_test2/awards/" class="navbar-item ">Awards</a>
+                    
+                
+                    
+                    <a href="/isg_test2/code_data/" class="navbar-item ">Code/Data</a>
+                    
+                
+                    
+                    <div class="navbar-item has-dropdown is-hoverable ">
+                        <a href="/isg_test2/" class="navbar-link ">Blog</a>
+                        <div class="navbar-dropdown">
+                            
+                            <a href="/isg_test2/blog/" class="navbar-item ">Posts</a>
+                            
+                            <a href="/isg_test2/archive/" class="navbar-item ">Archive</a>
+                            
+                            <a href="/isg_test2/tags/" class="navbar-item ">Tags</a>
+                            
+                        </div>
+                    </div>
+                    
+                
+                
+            </div>
+
+            <div class="navbar-end">
+                
+            </div>
+
+        </div>
+    </div>
+</nav>
+<a name="top"></a>
+    
+        <section class="hero  is-medium  is-bold is-primary" style="background: url('../uploads/img/headers/header_mountains_1-600.jpg') no-repeat center center; background-size: cover;">
+    <div class="hero-body  hero-darken ">
+        <div class="container">
+            <h1 class="title is-2">Guidelines</h1>
+            <p class="subtitle is-3"></p>
+            
+        </div>
+    </div>
+</section>
+    
+    
+
+
+    <section class="section">
+        <div class="container">
+            <div class="columns is-multiline">
+                
+                <div class="column is-12">
+                    
+                    
+
+                    
+                    
+                    
+<div class="content">
+    <h2 id="guidelines-for-comments">Guidelines for comments</h2>
+
+<p>We try our best to make sure that the discussions on our articles aren’t troll, spam and abuse-free but we’re not omnipresent. The comment section can be a great place for interaction with readers, writers and even for spawning stimulating conversation – it can be a great place for all of us! To ensure that, please make sure to stick to the following guidelines:</p>
+
+<ul>
+  <li>
+    <p>We do not tolerate racism, sexism, and hate speech of any kind;</p>
+  </li>
+  <li>
+    <p>We seek to encourage a wide diversity of opinions;</p>
+  </li>
+  <li>
+    <p>Debate and discussion is expected;</p>
+  </li>
+  <li>
+    <p>We respect each other and are careful to use polite and civil language (don’t troll);</p>
+  </li>
+  <li>
+    <p>We avoid aggressive “in your face” language and trolling;</p>
+  </li>
+  <li>
+    <p>We do not ban, mute, or delete comments unless they are spam, porn, or hate speech;</p>
+  </li>
+  <li>
+    <p>No promotions and scams will be allowed.</p>
+  </li>
+</ul>
+
+<p>If you find any comments which violate our guidelines, please make sure to ‘flag’ or ‘mark as spam’ – our moderators highly appreciate your support!</p>
+
+<p>Happy commenting!</p>
+
+<p><br>
+<br></p>
+<div style="text-align: right"> This content was based on guidelines from <a href="https://mspoweruser.com/guidelines/" target="_blank" rel="noopener noreferrer">mspoweruser</a> and <a href="https://avc.com/2017/01/avc-community-code-of-conduct/" target="_blank" rel="noopener noreferrer">avc</a>. </div>
+
+
+</div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    
+        <footer class="footer">
+    <div class="container">
+        
+        
+        <div class="columns is-multiline">
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="/isg_test2/" class="link">Home</a>
+                </div>
+            </div>
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="/isg_test2/blog/" class="link">Blog</a>
+                </div>
+            </div>
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="/isg_test2/guidelines/" class="link">Guidelines</a>
+                </div>
+            </div>
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="/isg_test2/membership/" class="link">Membership</a>
+                </div>
+            </div>
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="/isg_test2/contact/" class="link">Contact</a>
+                </div>
+            </div>
+            
+        </div>
+        
+
+        <div class="content is-small has-text-centered">
+            <p class="">Theme built by <a href="https://www.csrhymes.com" target="_blank" rel="noopener noreferrer">C.S. Rhymes</a></p>
+        </div>
+    </div>
+</footer>
+
+    
+    <script src="/isg_test2/assets/js/app.js" type="text/javascript"></script><!-- footer scripts --></body>
+</html>
