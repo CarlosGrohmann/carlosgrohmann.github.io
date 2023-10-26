@@ -26,6 +26,8 @@
     <link rel="stylesheet" href="https://unpkg.com/bulma-modal-fx/dist/css/modal-fx.min.css" />
 
     <link rel="stylesheet" href="/isg_test2/assets/css/app.css">
+    <link rel="stylesheet" href="/isg_test2/assets/css/glightbox.css" />
+    
 
     
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-social@1/bin/bulma-social.min.css">
@@ -206,7 +208,7 @@
                     
                     
 <div class="content">
-    <style>
+    <!-- <style>
 /* force scrollbar */
 html { overflow-y: scroll; }
 
@@ -214,15 +216,13 @@ html { overflow-y: scroll; }
 /* article {padding:2%;} */
 </style>
 
-<div class="columns is-multiline">
-<div class="column is-one-quarter-desktop is-half-tablet">
-<div x-data="{ open: false }">
+<div class="columns is-multiline"><div class="column is-one-quarter-desktop is-half-tablet"><div x-data="{ open: false }" markdown="0">
     <a x-on:click="open = true" title="View large image">
         <figure class="image ">
         <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/DSC00861_thumb.jpg" alt="">
         </figure>
     </a>
-    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak>
         <div class="modal-background" x-on:click="open = false"></div>
         <div class="modal-content  is-huge is-image">
             <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/DSC00861.JPG" alt="">
@@ -232,15 +232,13 @@ html { overflow-y: scroll; }
 </div>
 
 
-</div>
-<div class="column is-one-quarter-desktop is-half-tablet">
-<div x-data="{ open: false }">
+</div><div class="column is-one-quarter-desktop is-half-tablet"><div x-data="{ open: false }" markdown="0">
     <a x-on:click="open = true" title="View large image">
         <figure class="image ">
         <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/dinner_thumb.jpg" alt="">
         </figure>
     </a>
-    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak>
         <div class="modal-background" x-on:click="open = false"></div>
         <div class="modal-content  is-huge is-image">
             <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/dinner.jpg" alt="">
@@ -250,15 +248,13 @@ html { overflow-y: scroll; }
 </div>
 
 
-</div>
-<div class="column is-one-quarter-desktop is-half-tablet">
-<div x-data="{ open: false }">
+</div><div class="column is-one-quarter-desktop is-half-tablet"><div x-data="{ open: false }" markdown="0">
     <a x-on:click="open = true" title="View large image">
         <figure class="image ">
         <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/dinner2_thumb.jpg" alt="">
         </figure>
     </a>
-    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak>
         <div class="modal-background" x-on:click="open = false"></div>
         <div class="modal-content  is-huge is-image">
             <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/dinner2.jpg" alt="">
@@ -268,15 +264,13 @@ html { overflow-y: scroll; }
 </div>
 
 
-</div>
-<div class="column is-one-quarter-desktop is-half-tablet">
-<div x-data="{ open: false }">
+</div><div class="column is-one-quarter-desktop is-half-tablet"><div x-data="{ open: false }" markdown="0">
     <a x-on:click="open = true" title="View large image">
         <figure class="image ">
         <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/drinks1_thumb.jpg" alt="">
         </figure>
     </a>
-    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak>
         <div class="modal-background" x-on:click="open = false"></div>
         <div class="modal-content  is-huge is-image">
             <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/drinks1.jpg" alt="">
@@ -286,15 +280,13 @@ html { overflow-y: scroll; }
 </div>
 
 
-</div>
-<div class="column is-one-quarter-desktop is-half-tablet">
-<div x-data="{ open: false }">
+</div><div class="column is-one-quarter-desktop is-half-tablet"><div x-data="{ open: false }" markdown="0">
     <a x-on:click="open = true" title="View large image">
         <figure class="image ">
         <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/esri_campus_conference_centre_thumb.jpg" alt="">
         </figure>
     </a>
-    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak>
         <div class="modal-background" x-on:click="open = false"></div>
         <div class="modal-content  is-huge is-image">
             <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/esri_campus_conference_centre.jpg" alt="">
@@ -304,15 +296,13 @@ html { overflow-y: scroll; }
 </div>
 
 
-</div>
-<div class="column is-one-quarter-desktop is-half-tablet">
-<div x-data="{ open: false }">
+</div><div class="column is-one-quarter-desktop is-half-tablet"><div x-data="{ open: false }" markdown="0">
     <a x-on:click="open = true" title="View large image">
         <figure class="image ">
         <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/geomorphometry_2011_group_photo_thumb.jpg" alt="">
         </figure>
     </a>
-    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak>
         <div class="modal-background" x-on:click="open = false"></div>
         <div class="modal-content  is-huge is-image">
             <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/geomorphometry_2011_group_photo.jpg" alt="">
@@ -322,15 +312,13 @@ html { overflow-y: scroll; }
 </div>
 
 
-</div>
-<div class="column is-one-quarter-desktop is-half-tablet">
-<div x-data="{ open: false }">
+</div><div class="column is-one-quarter-desktop is-half-tablet"><div x-data="{ open: false }" markdown="0">
     <a x-on:click="open = true" title="View large image">
         <figure class="image ">
         <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/pub1_thumb.jpg" alt="">
         </figure>
     </a>
-    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak>
         <div class="modal-background" x-on:click="open = false"></div>
         <div class="modal-content  is-huge is-image">
             <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/pub1.jpg" alt="">
@@ -340,15 +328,13 @@ html { overflow-y: scroll; }
 </div>
 
 
-</div>
-<div class="column is-one-quarter-desktop is-half-tablet">
-<div x-data="{ open: false }">
+</div><div class="column is-one-quarter-desktop is-half-tablet"><div x-data="{ open: false }" markdown="0">
     <a x-on:click="open = true" title="View large image">
         <figure class="image ">
         <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/pub2_thumb.jpg" alt="">
         </figure>
     </a>
-    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak>
         <div class="modal-background" x-on:click="open = false"></div>
         <div class="modal-content  is-huge is-image">
             <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/pub2.jpg" alt="">
@@ -358,15 +344,13 @@ html { overflow-y: scroll; }
 </div>
 
 
-</div>
-<div class="column is-one-quarter-desktop is-half-tablet">
-<div x-data="{ open: false }">
+</div><div class="column is-one-quarter-desktop is-half-tablet"><div x-data="{ open: false }" markdown="0">
     <a x-on:click="open = true" title="View large image">
         <figure class="image ">
         <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/pub3_thumb.jpg" alt="">
         </figure>
     </a>
-    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak>
         <div class="modal-background" x-on:click="open = false"></div>
         <div class="modal-content  is-huge is-image">
             <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/pub3.jpg" alt="">
@@ -376,15 +360,13 @@ html { overflow-y: scroll; }
 </div>
 
 
-</div>
-<div class="column is-one-quarter-desktop is-half-tablet">
-<div x-data="{ open: false }">
+</div><div class="column is-one-quarter-desktop is-half-tablet"><div x-data="{ open: false }" markdown="0">
     <a x-on:click="open = true" title="View large image">
         <figure class="image ">
         <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/pub4_thumb.jpg" alt="">
         </figure>
     </a>
-    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak>
         <div class="modal-background" x-on:click="open = false"></div>
         <div class="modal-content  is-huge is-image">
             <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/pub4.jpg" alt="">
@@ -394,15 +376,13 @@ html { overflow-y: scroll; }
 </div>
 
 
-</div>
-<div class="column is-one-quarter-desktop is-half-tablet">
-<div x-data="{ open: false }">
+</div><div class="column is-one-quarter-desktop is-half-tablet"><div x-data="{ open: false }" markdown="0">
     <a x-on:click="open = true" title="View large image">
         <figure class="image ">
         <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/shots_thumb.jpg" alt="">
         </figure>
     </a>
-    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak>
         <div class="modal-background" x-on:click="open = false"></div>
         <div class="modal-content  is-huge is-image">
             <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/shots.jpg" alt="">
@@ -412,15 +392,13 @@ html { overflow-y: scroll; }
 </div>
 
 
-</div>
-<div class="column is-one-quarter-desktop is-half-tablet">
-<div x-data="{ open: false }">
+</div><div class="column is-one-quarter-desktop is-half-tablet"><div x-data="{ open: false }" markdown="0">
     <a x-on:click="open = true" title="View large image">
         <figure class="image ">
         <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/small_10_thumb.jpg" alt="">
         </figure>
     </a>
-    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak>
         <div class="modal-background" x-on:click="open = false"></div>
         <div class="modal-content  is-huge is-image">
             <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/small_10.jpg" alt="">
@@ -430,15 +408,13 @@ html { overflow-y: scroll; }
 </div>
 
 
-</div>
-<div class="column is-one-quarter-desktop is-half-tablet">
-<div x-data="{ open: false }">
+</div><div class="column is-one-quarter-desktop is-half-tablet"><div x-data="{ open: false }" markdown="0">
     <a x-on:click="open = true" title="View large image">
         <figure class="image ">
         <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/small_11_thumb.jpg" alt="">
         </figure>
     </a>
-    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak>
         <div class="modal-background" x-on:click="open = false"></div>
         <div class="modal-content  is-huge is-image">
             <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/small_11.jpg" alt="">
@@ -448,15 +424,13 @@ html { overflow-y: scroll; }
 </div>
 
 
-</div>
-<div class="column is-one-quarter-desktop is-half-tablet">
-<div x-data="{ open: false }">
+</div><div class="column is-one-quarter-desktop is-half-tablet"><div x-data="{ open: false }" markdown="0">
     <a x-on:click="open = true" title="View large image">
         <figure class="image ">
         <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/small_12b_thumb.jpg" alt="">
         </figure>
     </a>
-    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak>
         <div class="modal-background" x-on:click="open = false"></div>
         <div class="modal-content  is-huge is-image">
             <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/small_12b.jpg" alt="">
@@ -466,15 +440,13 @@ html { overflow-y: scroll; }
 </div>
 
 
-</div>
-<div class="column is-one-quarter-desktop is-half-tablet">
-<div x-data="{ open: false }">
+</div><div class="column is-one-quarter-desktop is-half-tablet"><div x-data="{ open: false }" markdown="0">
     <a x-on:click="open = true" title="View large image">
         <figure class="image ">
         <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/small_13_thumb.jpg" alt="">
         </figure>
     </a>
-    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak>
         <div class="modal-background" x-on:click="open = false"></div>
         <div class="modal-content  is-huge is-image">
             <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/small_13.jpg" alt="">
@@ -484,15 +456,13 @@ html { overflow-y: scroll; }
 </div>
 
 
-</div>
-<div class="column is-one-quarter-desktop is-half-tablet">
-<div x-data="{ open: false }">
+</div><div class="column is-one-quarter-desktop is-half-tablet"><div x-data="{ open: false }" markdown="0">
     <a x-on:click="open = true" title="View large image">
         <figure class="image ">
         <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/small_2_thumb.jpg" alt="">
         </figure>
     </a>
-    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak>
         <div class="modal-background" x-on:click="open = false"></div>
         <div class="modal-content  is-huge is-image">
             <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/small_2.jpg" alt="">
@@ -502,15 +472,13 @@ html { overflow-y: scroll; }
 </div>
 
 
-</div>
-<div class="column is-one-quarter-desktop is-half-tablet">
-<div x-data="{ open: false }">
+</div><div class="column is-one-quarter-desktop is-half-tablet"><div x-data="{ open: false }" markdown="0">
     <a x-on:click="open = true" title="View large image">
         <figure class="image ">
         <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/small_4_thumb.jpg" alt="">
         </figure>
     </a>
-    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak>
         <div class="modal-background" x-on:click="open = false"></div>
         <div class="modal-content  is-huge is-image">
             <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/small_4.jpg" alt="">
@@ -520,15 +488,13 @@ html { overflow-y: scroll; }
 </div>
 
 
-</div>
-<div class="column is-one-quarter-desktop is-half-tablet">
-<div x-data="{ open: false }">
+</div><div class="column is-one-quarter-desktop is-half-tablet"><div x-data="{ open: false }" markdown="0">
     <a x-on:click="open = true" title="View large image">
         <figure class="image ">
         <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/small_5_thumb.jpg" alt="">
         </figure>
     </a>
-    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak>
         <div class="modal-background" x-on:click="open = false"></div>
         <div class="modal-content  is-huge is-image">
             <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/small_5.jpg" alt="">
@@ -538,15 +504,13 @@ html { overflow-y: scroll; }
 </div>
 
 
-</div>
-<div class="column is-one-quarter-desktop is-half-tablet">
-<div x-data="{ open: false }">
+</div><div class="column is-one-quarter-desktop is-half-tablet"><div x-data="{ open: false }" markdown="0">
     <a x-on:click="open = true" title="View large image">
         <figure class="image ">
         <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/small_6_thumb.jpg" alt="">
         </figure>
     </a>
-    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak>
         <div class="modal-background" x-on:click="open = false"></div>
         <div class="modal-content  is-huge is-image">
             <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/small_6.jpg" alt="">
@@ -556,15 +520,13 @@ html { overflow-y: scroll; }
 </div>
 
 
-</div>
-<div class="column is-one-quarter-desktop is-half-tablet">
-<div x-data="{ open: false }">
+</div><div class="column is-one-quarter-desktop is-half-tablet"><div x-data="{ open: false }" markdown="0">
     <a x-on:click="open = true" title="View large image">
         <figure class="image ">
         <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/small_7_thumb.jpg" alt="">
         </figure>
     </a>
-    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak>
         <div class="modal-background" x-on:click="open = false"></div>
         <div class="modal-content  is-huge is-image">
             <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/small_7.jpg" alt="">
@@ -574,15 +536,13 @@ html { overflow-y: scroll; }
 </div>
 
 
-</div>
-<div class="column is-one-quarter-desktop is-half-tablet">
-<div x-data="{ open: false }">
+</div><div class="column is-one-quarter-desktop is-half-tablet"><div x-data="{ open: false }" markdown="0">
     <a x-on:click="open = true" title="View large image">
         <figure class="image ">
         <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/small_8_thumb.jpg" alt="">
         </figure>
     </a>
-    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak>
         <div class="modal-background" x-on:click="open = false"></div>
         <div class="modal-content  is-huge is-image">
             <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/small_8.jpg" alt="">
@@ -592,15 +552,13 @@ html { overflow-y: scroll; }
 </div>
 
 
-</div>
-<div class="column is-one-quarter-desktop is-half-tablet">
-<div x-data="{ open: false }">
+</div><div class="column is-one-quarter-desktop is-half-tablet"><div x-data="{ open: false }" markdown="0">
     <a x-on:click="open = true" title="View large image">
         <figure class="image ">
         <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/small_9_thumb.jpg" alt="">
         </figure>
     </a>
-    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak>
         <div class="modal-background" x-on:click="open = false"></div>
         <div class="modal-content  is-huge is-image">
             <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/small_9.jpg" alt="">
@@ -610,8 +568,472 @@ html { overflow-y: scroll; }
 </div>
 
 
+</div></div>
+ -->
+<style>
+/* force scrollbar */
+html { overflow-y: scroll; }
+
+/* To overwrite page's padding, to get bigger images */
+/* article {padding:2%;} */
+</style>
+
+<div class="columns is-multiline">
+<div class="column is-one-quarter-desktop is-half-tablet">
+<!--<div x-data="{ open: false }" markdown="0">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/DSC00861_thumb.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak>
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/DSC00861.JPG" alt="">
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+
+
+-->
+    <a href="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/DSC00861.JPG" class="glightbox"> <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/DSC00861_thumb.jpg" alt="image"> </a>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<!--<div x-data="{ open: false }" markdown="0">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/dinner_thumb.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak>
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/dinner.jpg" alt="">
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+
+
+-->
+    <a href="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/dinner.jpg" class="glightbox"> <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/dinner_thumb.jpg" alt="image"> </a>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<!--<div x-data="{ open: false }" markdown="0">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/dinner2_thumb.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak>
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/dinner2.jpg" alt="">
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+
+
+-->
+    <a href="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/dinner2.jpg" class="glightbox"> <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/dinner2_thumb.jpg" alt="image"> </a>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<!--<div x-data="{ open: false }" markdown="0">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/drinks1_thumb.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak>
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/drinks1.jpg" alt="">
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+
+
+-->
+    <a href="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/drinks1.jpg" class="glightbox"> <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/drinks1_thumb.jpg" alt="image"> </a>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<!--<div x-data="{ open: false }" markdown="0">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/esri_campus_conference_centre_thumb.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak>
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/esri_campus_conference_centre.jpg" alt="">
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+
+
+-->
+    <a href="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/esri_campus_conference_centre.jpg" class="glightbox"> <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/esri_campus_conference_centre_thumb.jpg" alt="image"> </a>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<!--<div x-data="{ open: false }" markdown="0">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/geomorphometry_2011_group_photo_thumb.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak>
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/geomorphometry_2011_group_photo.jpg" alt="">
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+
+
+-->
+    <a href="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/geomorphometry_2011_group_photo.jpg" class="glightbox"> <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/geomorphometry_2011_group_photo_thumb.jpg" alt="image"> </a>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<!--<div x-data="{ open: false }" markdown="0">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/pub1_thumb.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak>
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/pub1.jpg" alt="">
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+
+
+-->
+    <a href="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/pub1.jpg" class="glightbox"> <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/pub1_thumb.jpg" alt="image"> </a>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<!--<div x-data="{ open: false }" markdown="0">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/pub2_thumb.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak>
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/pub2.jpg" alt="">
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+
+
+-->
+    <a href="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/pub2.jpg" class="glightbox"> <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/pub2_thumb.jpg" alt="image"> </a>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<!--<div x-data="{ open: false }" markdown="0">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/pub3_thumb.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak>
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/pub3.jpg" alt="">
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+
+
+-->
+    <a href="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/pub3.jpg" class="glightbox"> <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/pub3_thumb.jpg" alt="image"> </a>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<!--<div x-data="{ open: false }" markdown="0">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/pub4_thumb.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak>
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/pub4.jpg" alt="">
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+
+
+-->
+    <a href="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/pub4.jpg" class="glightbox"> <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/pub4_thumb.jpg" alt="image"> </a>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<!--<div x-data="{ open: false }" markdown="0">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/shots_thumb.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak>
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/shots.jpg" alt="">
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+
+
+-->
+    <a href="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/shots.jpg" class="glightbox"> <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/shots_thumb.jpg" alt="image"> </a>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<!--<div x-data="{ open: false }" markdown="0">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/small_10_thumb.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak>
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/small_10.jpg" alt="">
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+
+
+-->
+    <a href="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/small_10.jpg" class="glightbox"> <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/small_10_thumb.jpg" alt="image"> </a>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<!--<div x-data="{ open: false }" markdown="0">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/small_11_thumb.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak>
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/small_11.jpg" alt="">
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+
+
+-->
+    <a href="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/small_11.jpg" class="glightbox"> <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/small_11_thumb.jpg" alt="image"> </a>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<!--<div x-data="{ open: false }" markdown="0">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/small_12b_thumb.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak>
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/small_12b.jpg" alt="">
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+
+
+-->
+    <a href="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/small_12b.jpg" class="glightbox"> <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/small_12b_thumb.jpg" alt="image"> </a>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<!--<div x-data="{ open: false }" markdown="0">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/small_13_thumb.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak>
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/small_13.jpg" alt="">
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+
+
+-->
+    <a href="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/small_13.jpg" class="glightbox"> <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/small_13_thumb.jpg" alt="image"> </a>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<!--<div x-data="{ open: false }" markdown="0">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/small_2_thumb.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak>
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/small_2.jpg" alt="">
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+
+
+-->
+    <a href="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/small_2.jpg" class="glightbox"> <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/small_2_thumb.jpg" alt="image"> </a>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<!--<div x-data="{ open: false }" markdown="0">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/small_4_thumb.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak>
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/small_4.jpg" alt="">
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+
+
+-->
+    <a href="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/small_4.jpg" class="glightbox"> <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/small_4_thumb.jpg" alt="image"> </a>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<!--<div x-data="{ open: false }" markdown="0">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/small_5_thumb.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak>
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/small_5.jpg" alt="">
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+
+
+-->
+    <a href="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/small_5.jpg" class="glightbox"> <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/small_5_thumb.jpg" alt="image"> </a>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<!--<div x-data="{ open: false }" markdown="0">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/small_6_thumb.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak>
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/small_6.jpg" alt="">
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+
+
+-->
+    <a href="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/small_6.jpg" class="glightbox"> <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/small_6_thumb.jpg" alt="image"> </a>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<!--<div x-data="{ open: false }" markdown="0">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/small_7_thumb.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak>
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/small_7.jpg" alt="">
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+
+
+-->
+    <a href="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/small_7.jpg" class="glightbox"> <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/small_7_thumb.jpg" alt="image"> </a>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<!--<div x-data="{ open: false }" markdown="0">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/small_8_thumb.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak>
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/small_8.jpg" alt="">
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+
+
+-->
+    <a href="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/small_8.jpg" class="glightbox"> <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/small_8_thumb.jpg" alt="image"> </a>
+</div>
+<div class="column is-one-quarter-desktop is-half-tablet">
+<!--<div x-data="{ open: false }" markdown="0">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image ">
+        <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/small_9_thumb.jpg" alt="">
+        </figure>
+    </a>
+    <div class="modal modal-fx-fadeInScale" x-bind:class="open ? 'is-active' : ''" x-cloak>
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content  is-huge is-image">
+            <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/small_9.jpg" alt="">
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+
+
+-->
+    <a href="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/small_9.jpg" class="glightbox"> <img src="http://carlosgrohmann.com/isg_test2/uploads/img/meet2011/small_9_thumb.jpg" alt="image"> </a>
 </div>
 </div>
+
+<script src="/isg_test2/assets/js/glightbox.min.js"></script>
+
+<script>
+    const lightbox = GLightbox({
+        touchNavigation: true,
+        touchFollowAxis: true,
+        keyboardNavigation: true,
+        loop: true,
+	});
+    lightbox.on('open', (target) => {
+        console.log('lightbox opened');
+    });
+</script>
 
 
 </div>
