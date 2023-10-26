@@ -217,7 +217,7 @@
 
 <form target="_blank" action="https://formsubmit.co/geomorphometry.org@gmail.com" method="POST">
 <!-- <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html"> -->
-<input type="hidden" name="_subject" value="[Geomorphometry.org Membership] New form submitted!">
+<input type="hidden" name="_subject" value="[Geomorphometry.org] CONTACT - new form submitted!">
 <input type="hidden" name="_template" value="table">
 <!-- <input type="hidden" name="_cc" value="another@email.com"> -->
 
@@ -285,7 +285,7 @@
   <div class="field-body">
     <div class="field is-narrow">
       <div class="control">
-        <div class="select is-fullwidth">
+        <div class="select is-fullwidth" name="subject">
           <select>
             <option>Coffee Talks</option>
             <option>Blog post (announcement)</option>
@@ -299,8 +299,6 @@
 </div>
 
 
-
-
 <div class="field is-horizontal">
   <div class="field-label is-normal">
     <label class="label">Comments</label>
@@ -308,11 +306,12 @@
   <div class="field-body">
     <div class="field">
       <div class="control">
-        <textarea class="textarea" placeholder="Explain how we can help you"></textarea>
+        <textarea class="textarea" placeholder="Explain how we can help you" name="comments"></textarea>
       </div>
     </div>
   </div>
 </div>
+
 
 <div class="field is-horizontal">
   <div class="field-label">
@@ -321,7 +320,7 @@
   <div class="field-body">
   <div id="file-js-example" class="file has-name is-fullwidth">
     <label class="file-label">
-      <input class="file-input" type="file" name="comments">
+      <input class="file-input" type="file" name="upload">
       <span class="file-cta">
         <span class="file-icon">
           <i class="fas fa-upload"></i>
