@@ -215,11 +215,12 @@
 
 <div class="block">
 
-<form target="_blank" action="https://formsubmit.co/geomorphometry.org@gmail.com" method="POST">
+<form target="_blank" action="https://formsubmit.co/geomorphometry.org@gmail.com" method="POST" enctype="multipart/form-data">
 <!-- <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html"> -->
 <input type="hidden" name="_subject" value="[Geomorphometry.org] CONTACT - new form submitted!">
 <input type="hidden" name="_template" value="table">
 <!-- <input type="hidden" name="_cc" value="another@email.com"> -->
+<input type="hidden" name="_autoresponse" value="Thank you for contacting the International Society for Geomorphometry.">
 
 
 
@@ -318,19 +319,19 @@
     <label class="label">Upload</label>
   </div>
   <div class="field-body">
-  <div id="file-js-example" class="file has-name is-fullwidth">
+  <div id="fileUploader" class="file has-name is-fullwidth">
     <label class="file-label">
-      <input class="file-input" type="file" name="upload">
+      <input id="attachment" class="file-input" type="file" name="attachment" accept="application/zip">
       <span class="file-cta">
         <span class="file-icon">
           <i class="fas fa-upload"></i>
         </span>
         <span class="file-label">
-          Choose a file…
+          Choose a file
         </span>
       </span>
       <span class="file-name">
-        No file uploaded
+        Please select a ZIP file
       </span>
     </label>
   </div>
@@ -360,7 +361,7 @@
   <div class="field-body">
     <div class="field">
         <input class="button" type="submit" id="submit" value="Submit" disabled>
-        <input class="button" type="reset" value="Reset">
+        <input class="button" type="reset" id="reset" value="Reset">
     </div>
   </div>
 </div>
@@ -374,6 +375,10 @@
 <script>
 const ckbox = document.getElementById('check');
 const submt = document.getElementById('submit');
+const fupr = document.getElementById('fileUploader');
+const rst = document.getElementById('reset');
+const fileInput = document.querySelector('#fileUploader input[type=file]');
+
 
 function toggle_submit() {
   if (ckbox.checked == true) {
@@ -384,16 +389,30 @@ function toggle_submit() {
     submt.disabled = true;
   }
 }
-</script>
 
-<script>
-  const fileInput = document.querySelector('#file-js-example input[type=file]');
-  fileInput.onchange = () => {
-    if (fileInput.files.length > 0) {
-      const fileName = document.querySelector('#file-js-example .file-name');
+
+rst.onclick = () => {
+  const fileName = document.querySelector('#fileUploader .file-name');
+  fupr.setAttribute("class", "file has-name is-fullwidth")
+  fileName.textContent = "Please select a ZIP file";
+}
+
+fileInput.onchange = () => {
+  if (fileInput.files.length > 0) {
+    const fileName = document.querySelector('#fileUploader .file-name');
+    if ( /\.(zip)$/i.test(fileInput.files[0].name) === false ) { 
+      alert("not a ZIP file!")
+      fupr.setAttribute("class", "file has-name is-fullwidth is-warning")
+      fileName.textContent = "Please select a ZIP file";
+    } else {
+      // alert("ok!")
       fileName.textContent = fileInput.files[0].name;
     }
   }
+}
+
+
+
 </script>
 
 <!-- [https://docs.google.com/forms/d/e/1FAIpQLSdIAXFnc\_ELwuMN0c-AGZn-Nf874XesjqF1B79gBi5JjSqzTA/viewform?usp=sf\_link](https://docs.google.com/forms/d/e/1FAIpQLSdIAXFnc_ELwuMN0c-AGZn-Nf874XesjqF1B79gBi5JjSqzTA/viewform?usp=sf_link) -->
