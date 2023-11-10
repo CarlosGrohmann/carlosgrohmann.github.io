@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+
+
+
+
+<html
+ dir="ltr"
+ lang="en"
+ >
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content=#eeeeee>
+    <link rel="stylesheet" href="/assets/css/app.css">
+    <link rel="shortcut icon" type="image/png"
+           href="/favicon.png" 
+    />
+    <script defer src="https://unpkg.com/alpinejs@3.9.0/dist/cdn.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+    
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-social@1/bin/bulma-social.min.css">
+    
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Tutorial - São Paulo City LiDAR | Prof. Carlos H. Grohmann</title>
+<meta name="generator" content="Jekyll v4.3.2" />
+<meta property="og:title" content="Tutorial - São Paulo City LiDAR" />
+<meta name="author" content="C.H. Grohmann" />
+<meta property="og:locale" content="en" />
+<meta name="description" content="The São Paulo City Hall has just released free LiDAR data covering the city on their digital mapping platform, GeoSampa." />
+<meta property="og:description" content="The São Paulo City Hall has just released free LiDAR data covering the city on their digital mapping platform, GeoSampa." />
+<link rel="canonical" href="http://carlosgrohmann.com/2019/11/25/pmsp_laz/" />
+<meta property="og:url" content="http://carlosgrohmann.com/2019/11/25/pmsp_laz/" />
+<meta property="og:site_name" content="Prof. Carlos H. Grohmann" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2019-11-25T00:00:00-03:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Tutorial - São Paulo City LiDAR" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"C.H. Grohmann"},"dateModified":"2019-11-25T00:00:00-03:00","datePublished":"2019-11-25T00:00:00-03:00","description":"The São Paulo City Hall has just released free LiDAR data covering the city on their digital mapping platform, GeoSampa.","headline":"Tutorial - São Paulo City LiDAR","mainEntityOfPage":{"@type":"WebPage","@id":"http://carlosgrohmann.com/2019/11/25/pmsp_laz/"},"url":"http://carlosgrohmann.com/2019/11/25/pmsp_laz/"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-7P4EVX4K99"></script>
+<script>
+  window['ga-disable-G-7P4EVX4K99'] = window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNotTrack === "yes" || navigator.msDoNotTrack === "1";
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-7P4EVX4K99');
+</script><!-- head scripts --></head>
+
+  <body>
+    <nav class="navbar is-primary " x-data="{ openNav: false }">
+    <div class="container">
+        <div class="navbar-brand">
+            <a href="/" class="navbar-item">
+                Prof. Carlos H. Grohmann
+            </a>
+            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navMenu" :class="{ 'is-active': openNav }" x-on:click="openNav = !openNav">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+        <div class="navbar-menu" id="navMenu" :class="{ 'is-active': openNav }">
+            <div class="navbar-start">
+                
+                
+                    
+                    <div class="navbar-item has-dropdown is-hoverable ">
+                        <a href="" class="navbar-link ">About Me</a>
+                        <div class="navbar-dropdown">
+                            
+                            <a href="/aboutme/" class="navbar-item ">CV/Bio</a>
+                            
+                            <a href="/gmaps/" class="navbar-item ">Map</a>
+                            
+                        </div>
+                    </div>
+                    
+                
+                    
+                    <div class="navbar-item has-dropdown is-hoverable ">
+                        <a href="" class="navbar-link ">Research</a>
+                        <div class="navbar-dropdown">
+                            
+                            <a href="/publications/" class="navbar-item ">Publications</a>
+                            
+                            <a href="/grants/" class="navbar-item ">Projects</a>
+                            
+                            <a href="/students/" class="navbar-item ">Students</a>
+                            
+                            <a href="https://spamlab.github.io/" class="navbar-item " target="_blank" rel="noopener noreferrer">SPAMLab</a>
+                            
+                            <a href="/openstereo/" class="navbar-item ">OpenStereo</a>
+                            
+                        </div>
+                    </div>
+                    
+                
+                    
+                    <div class="navbar-item has-dropdown is-hoverable ">
+                        <a href="" class="navbar-link ">Outreach</a>
+                        <div class="navbar-dropdown">
+                            
+                            <a href="/videos/" class="navbar-item ">Videos</a>
+                            
+                            <a href="/sigcomsl/" class="navbar-item ">GIS+FOSS</a>
+                            
+                        </div>
+                    </div>
+                    
+                
+                    
+                    <a href="/bjgeo/" class="navbar-item ">BJGEO</a>
+                    
+                
+                    
+                    <div class="navbar-item has-dropdown is-hoverable ">
+                        <a href="" class="navbar-link ">Blog</a>
+                        <div class="navbar-dropdown">
+                            
+                            <a href="/blog/" class="navbar-item ">Posts</a>
+                            
+                            <a href="/archive/" class="navbar-item ">Archive</a>
+                            
+                        </div>
+                    </div>
+                    
+                
+                
+            </div>
+
+            <div class="navbar-end">
+                
+            </div>
+
+        </div>
+    </div>
+</nav>
+
+    
+        <section class="hero  is-medium  is-bold is-primary">
+    <div class="hero-body ">
+        <div class="container">
+            <h1 class="title is-2">Tutorial - São Paulo City LiDAR</h1>
+            <p class="subtitle is-3"></p>
+            
+        </div>
+    </div>
+</section>
+    
+    
+
+
+    <section class="section">
+        <div class="container">
+            <div class="columns is-multiline">
+                
+                <div class="column is-8">
+                    
+                    
+
+                    
+                    
+                    <div class="content">
+
+    <p>Published: Nov 25, 2019 by C.H. Grohmann</p>
+
+    
+
+    <p>The São Paulo City Hall has just released free LiDAR data covering the city on their digital mapping platform, <a href="http://geosampa.prefeitura.sp.gov.br/PaginasPublicas/_SBC.aspx" target="_blank" rel="noopener noreferrer">GeoSampa</a>.</p>
+
+<p>Since the GeoSampa site is in Portuguese, I posted a short tutorial on how to access the data in the SPAMLab blog: <a href="https://spamlab.github.io/2019-11-25-pmsp_laz" target="_blank" rel="noopener noreferrer">https://spamlab.github.io/2019-11-25-pmsp_laz/</a>.</p>
+
+<p>Also, just a few hours after the post went live, it received a comment from Fernando Gomes, who works at GEOINFO (the group maintaining GeoSampa) and shared a GitHub repository with a preliminary approach to analyze LiDAR data with Python and <a href="https://pdal.io/" target="_blank" rel="noopener noreferrer">PDAL</a>: <a href="https://github.com/geoinfo-smdu/usando-MDT" target="_blank" rel="noopener noreferrer">https://github.com/geoinfo-smdu/usando-MDT</a>. Nice!</p>
+
+<p>Hope it helps. Spread the word!</p>
+
+<p> 
+ </p>
+
+</div>
+
+<div class="tags">
+    
+</div>
+
+
+<p><strong>Share</strong></p>
+<div class="buttons ">
+    <a class="button is-medium is-facebook" onclick="window.open('https://www.facebook.com/share.php?u=http://carlosgrohmann.com/2019/11/25/pmsp_laz/');">
+        <span class="icon"><i class="fab fa-facebook fa-lg"></i></span>
+    </a>
+    <a class="button is-medium is-twitter" onclick="window.open('https://twitter.com/intent/tweet?text=http://carlosgrohmann.com/2019/11/25/pmsp_laz/');">
+        <span class="icon"><i class="fab fa-twitter fa-lg"></i></span>
+    </a>
+    <a class="button is-medium is-linkedin" onclick="window.open('https://www.linkedin.com/shareArticle?mini=true&amp;url=http://carlosgrohmann.com/2019/11/25/pmsp_laz/&amp;title=Tutorial+-+S%C3%A3o+Paulo+City+LiDAR&amp;summary=&amp;source=');">
+        <span class="icon"><i class="fab fa-linkedin fa-lg"></i></span>
+    </a>
+    <a class="button is-medium is-reddit" onclick="window.open('https://reddit.com/submit?url=http://carlosgrohmann.com/2019/11/25/pmsp_laz/');">
+        <span class="icon"><i class="fab fa-reddit fa-lg"></i></span>
+    </a>
+</div>
+
+
+
+
+                </div>
+                
+                <div class="column is-4-desktop is-4-tablet">
+                    <p class="title is-4">Latest Posts</p>
+
+<div class="columns is-multiline">
+    
+    <div class="column is-12">
+        <div class="card">
+    
+    <header class="card-header">
+        <a class="card-header-title" href="/2020/08/23/bjgeo-review-papers/">O que é um Invited Review?</a>
+    </header>
+    
+    <div class="card-content">
+        <div class="content">
+            
+            
+                <p></p>
+<p>Ultimamente recebemos no <em>Brazilian Journal of Geology</em> (BJGEO) alguns pedidos de autores interessados em enviar artigos de revisão, os <em>“Invited Reviews”</em>. Mas o que é esse tipo de artigo? Uma revisão bibliográfica de tese pode ser publicada dessa maneira? Vamos ver:</p>
+
+            
+        </div>
+        <div class="has-text-centered">
+            <a href="/2020/08/23/bjgeo-review-papers/" class="button is-primary">Read more</a>
+        </div>
+    </div>
+    <footer class="card-footer">
+        <p class="card-footer-item">Published: Aug 23, 2020</p>
+    </footer>
+</div>
+    </div>
+    
+    <div class="column is-12">
+        <div class="card">
+    
+    <header class="card-header">
+        <a class="card-header-title" href="/2020/01/28/utm_south/">UTM 23S??</a>
+    </header>
+    
+    <div class="card-content">
+        <div class="content">
+            
+            
+                <p></p>
+<p>If there’s one thing that I see all the time as a reviewer, is a map of some study area in Brazil with a caption like “UTM coordinates zone 23S”.</p>
+
+            
+        </div>
+        <div class="has-text-centered">
+            <a href="/2020/01/28/utm_south/" class="button is-primary">Read more</a>
+        </div>
+    </div>
+    <footer class="card-footer">
+        <p class="card-footer-item">Published: Jan 28, 2020</p>
+    </footer>
+</div>
+    </div>
+    
+    <div class="column is-12">
+        <div class="card">
+    
+    <header class="card-header">
+        <a class="card-header-title" href="/2020/01/27/faq_bjgeo/">FAQ about BJGEO</a>
+    </header>
+    
+    <div class="card-content">
+        <div class="content">
+            
+            
+                <p></p>
+<p>The <a href="http://www.scielo.br/bjgeo/" target="_blank" rel="noopener noreferrer">Brazilian Journal of Geology</a> is the official publication of the <a href="http://www.sbgeo.org.br/" target="_blank" rel="noopener noreferrer">Brazilian Geological Society</a>. As the Deputy Editor, I receive emails with common questions about the journal. So I decided to crate a page with some useful information for potential authors.</p>
+
+            
+        </div>
+        <div class="has-text-centered">
+            <a href="/2020/01/27/faq_bjgeo/" class="button is-primary">Read more</a>
+        </div>
+    </div>
+    <footer class="card-footer">
+        <p class="card-footer-item">Published: Jan 27, 2020</p>
+    </footer>
+</div>
+    </div>
+    
+</div>
+
+
+
+
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    
+        <footer class="footer">
+    <div class="container">
+        
+        
+        <div class="columns is-multiline">
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="/" class="link">Home</a>
+                </div>
+            </div>
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="https://orcid.org/0000-0001-5073-5572" class="link" target="_blank" rel="noopener noreferrer">ORCiD</a>
+                </div>
+            </div>
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="https://scholar.google.com/V3s8mq4AAAAJ" class="link" target="_blank" rel="noopener noreferrer">Scholar</a>
+                </div>
+            </div>
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="http://lattes.cnpq.br/5846052449613692" class="link" target="_blank" rel="noopener noreferrer">CV Lattes</a>
+                </div>
+            </div>
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="https://github.com/CarlosGrohmann" class="link" target="_blank" rel="noopener noreferrer">GitHub</a>
+                </div>
+            </div>
+            
+        </div>
+        
+
+        <div class="content is-small has-text-centered">
+            <p class="">Prof. Carlos H. Grohmann 2023 | Theme built by <a href="https://www.csrhymes.com" target="_blank" rel="noopener noreferrer">C.S. Rhymes</a></p>
+        </div>
+    </div>
+</footer>
+
+    
+    <script src="/assets/js/app.js" type="text/javascript"></script><!-- footer scripts --></body>
+</html>

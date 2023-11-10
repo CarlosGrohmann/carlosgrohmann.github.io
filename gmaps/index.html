@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+
+
+
+
+<html
+ dir="ltr"
+ lang="en"
+ >
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content=#eeeeee>
+    <link rel="stylesheet" href="/assets/css/app.css">
+    <link rel="shortcut icon" type="image/png"
+           href="/favicon.png" 
+    />
+    <script defer src="https://unpkg.com/alpinejs@3.9.0/dist/cdn.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+    
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-social@1/bin/bulma-social.min.css">
+    
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Map | Prof. Carlos H. Grohmann</title>
+<meta name="generator" content="Jekyll v4.3.2" />
+<meta property="og:title" content="Map" />
+<meta property="og:locale" content="en" />
+<meta name="description" content="Personal website of Prof. Carlos H. Grohmann (IEE-USP, Brazil)" />
+<meta property="og:description" content="Personal website of Prof. Carlos H. Grohmann (IEE-USP, Brazil)" />
+<link rel="canonical" href="http://carlosgrohmann.com/gmaps/" />
+<meta property="og:url" content="http://carlosgrohmann.com/gmaps/" />
+<meta property="og:site_name" content="Prof. Carlos H. Grohmann" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Map" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"Personal website of Prof. Carlos H. Grohmann (IEE-USP, Brazil)","headline":"Map","url":"http://carlosgrohmann.com/gmaps/"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-7P4EVX4K99"></script>
+<script>
+  window['ga-disable-G-7P4EVX4K99'] = window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNotTrack === "yes" || navigator.msDoNotTrack === "1";
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-7P4EVX4K99');
+</script><!-- head scripts --></head>
+
+  <body>
+    <nav class="navbar is-primary " x-data="{ openNav: false }">
+    <div class="container">
+        <div class="navbar-brand">
+            <a href="/" class="navbar-item">
+                Prof. Carlos H. Grohmann
+            </a>
+            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navMenu" :class="{ 'is-active': openNav }" x-on:click="openNav = !openNav">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+        <div class="navbar-menu" id="navMenu" :class="{ 'is-active': openNav }">
+            <div class="navbar-start">
+                
+                
+                    
+                    <div class="navbar-item has-dropdown is-hoverable ">
+                        <a href="" class="navbar-link ">About Me</a>
+                        <div class="navbar-dropdown">
+                            
+                            <a href="/aboutme/" class="navbar-item ">CV/Bio</a>
+                            
+                            <a href="/gmaps/" class="navbar-item is-active">Map</a>
+                            
+                        </div>
+                    </div>
+                    
+                
+                    
+                    <div class="navbar-item has-dropdown is-hoverable ">
+                        <a href="" class="navbar-link ">Research</a>
+                        <div class="navbar-dropdown">
+                            
+                            <a href="/publications/" class="navbar-item ">Publications</a>
+                            
+                            <a href="/grants/" class="navbar-item ">Projects</a>
+                            
+                            <a href="/students/" class="navbar-item ">Students</a>
+                            
+                            <a href="https://spamlab.github.io/" class="navbar-item " target="_blank" rel="noopener noreferrer">SPAMLab</a>
+                            
+                            <a href="/openstereo/" class="navbar-item ">OpenStereo</a>
+                            
+                        </div>
+                    </div>
+                    
+                
+                    
+                    <div class="navbar-item has-dropdown is-hoverable ">
+                        <a href="" class="navbar-link ">Outreach</a>
+                        <div class="navbar-dropdown">
+                            
+                            <a href="/videos/" class="navbar-item ">Videos</a>
+                            
+                            <a href="/sigcomsl/" class="navbar-item ">GIS+FOSS</a>
+                            
+                        </div>
+                    </div>
+                    
+                
+                    
+                    <a href="/bjgeo/" class="navbar-item ">BJGEO</a>
+                    
+                
+                    
+                    <div class="navbar-item has-dropdown is-hoverable ">
+                        <a href="" class="navbar-link ">Blog</a>
+                        <div class="navbar-dropdown">
+                            
+                            <a href="/blog/" class="navbar-item ">Posts</a>
+                            
+                            <a href="/archive/" class="navbar-item ">Archive</a>
+                            
+                        </div>
+                    </div>
+                    
+                
+                
+            </div>
+
+            <div class="navbar-end">
+                
+            </div>
+
+        </div>
+    </div>
+</nav>
+
+    
+        <section class="hero  is-medium  is-bold is-primary" style="background: url('/img/bigimg/header_araca2.jpg') no-repeat center center; background-size: cover;">
+    <div class="hero-body ">
+        <div class="container">
+            <h1 class="title is-2">Map</h1>
+            <p class="subtitle is-3"></p>
+            
+        </div>
+    </div>
+</section>
+    
+    
+
+
+    <section class="section">
+        <div class="container">
+            <div class="columns is-multiline">
+                
+                <div class="column is-12">
+                    
+                    
+
+                    
+                    
+                    
+<div class="content">
+    <div>
+Map created with <a href="http://leafletjs.com" target="_blank" rel="noopener noreferrer">Leaflet</a>, using base layer data from <a href="https://www.mapbox.com" target="_blank" rel="noopener noreferrer">MapBox</a>.
+<br>
+There's a <a href="https://carlosgrohmann.com/blog/making-a-where-ive-been-map-with-leaflet/" target="_blank">post on my blog</a> explaining how to make this map.
+<br>
+For a more immersive experience, there's a full-screen version <a href="/pages/gmaps_full.html" target="_blank">here</a> (opens in a new tab/window).
+</div>
+
+<div>
+<h4>Some interesting places I've been</h4>
+
+<!-- JQuery -->
+<script src="/assets/js/jquery-3.4.1.min.js"></script>
+
+<!-- Leaflet stuff -->
+<link rel="stylesheet" href="/assets/js/leaflet.css">
+<script src="/assets/js/leaflet.js"></script>
+<script src="/assets/js/leaflet-providers.js"></script>
+
+<!-- Leaflet Label plugin -->
+<script src="/assets/js/leaflet.label.js"></script>
+<link href="/assets/js/leaflet.label.css" rel="stylesheet">
+
+<!-- /* LeafLet map props*/ -->
+<style type="text/css">
+#map { height: 450px; width: 650px;}
+</style>
+
+<!-- LeafLet map  - relative link -->
+<div id="map"></div>
+
+</div>
+<!-- places.geojson -->
+<link rel="points" type="application/json" href="/pages/places.geojson">
+
+<!-- <script src='places.geojson' type="text/javascript"></script> http://{s}.tiles.mapbox.com/v4/mapbox.natural-earth-2/{z}/{x}/{y}.png-->
+
+<!--  -->
+<!-- https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png -->
+<!-- https://{s}.tiles.mapbox.com/v4/mapbox.satellite/${z}/${x}/${y}.png -->
+
+<script>
+    // create map
+    // var map = L.map('map').setView([15, 0], 1);
+    // Basic MBox map - zooms 0-4
+    // mapbox_simple = L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
+    //         maxZoom: 4,
+    //         minZoom: 0,
+    //         id: 'mapbox.streets',
+    //         accessToken: 'pk.eyJ1IjoiY2FybG9zZ3JvaG1hbm4iLCJhIjoiOGNmS3ptYyJ9.WzKUdXGmEgbl4C5EdQMhMw',
+    //         attribution: '&copy; Tiles Courtesy of <a href="https://www.mapbox.com" title="MapBox" target="_blank">MapBox</a>',
+    //         }).addTo(map);
+    // // MapBox Terrain - zooms 5-18
+    // MBTerrain = L.tileLayer('http://{s}.tiles.mapbox.com/v3/carlosgrohmann.ibb4756i/{z}/{x}/{y}.png', {
+    //         maxZoom: 18,
+    //         minZoom: 5,
+    //         attribution: '&copy; Tiles Courtesy of <a href="https://www.mapbox.com" title="MapBox" target="_blank">MapBox</a>',
+    //         }).addTo(map);
+
+    // L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
+    // attribution: '© <a href="https://www.mapbox.com/about/maps/">Mapbox</a> © <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> <strong><a href="https://www.mapbox.com/map-feedback/" target="_blank">Improve this map</a></strong>',
+    // tileSize: 512,
+    // maxZoom: 18,
+    // minZoom: 0,
+    // zoomOffset: -1,
+    // id: 'mapbox/satellite-streets-v11',
+    // accessToken: 'pk.eyJ1IjoiY2FybG9zZ3JvaG1hbm4iLCJhIjoiOGNmS3ptYyJ9.WzKUdXGmEgbl4C5EdQMhMw'
+    // }).addTo(map);
+
+
+    var OpenTopoMap = L.tileLayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png', {
+        maxZoom: 17,
+        attribution: 'Map data: &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, <a href="http://viewfinderpanoramas.org">SRTM</a> | Map style: &copy; <a href="https://opentopomap.org">OpenTopoMap</a> (<a href="https://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>)'
+    });
+
+    var OpenStreetMap_Mapnik = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        maxZoom: 19,
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    });
+
+    var Esri_WorldStreetMap = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}', {
+        attribution: 'Tiles &copy; Esri &mdash; Source: Esri, DeLorme, NAVTEQ, USGS, Intermap, iPC, NRCAN, Esri Japan, METI, Esri China (Hong Kong), Esri (Thailand), TomTom, 2012'
+    });
+
+    var Esri_WorldTopoMap = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}', {
+        attribution: 'Tiles &copy; Esri &mdash; Esri, DeLorme, NAVTEQ, TomTom, Intermap, iPC, USGS, FAO, NPS, NRCAN, GeoBase, Kadaster NL, Ordnance Survey, Esri Japan, METI, Esri China (Hong Kong), and the GIS User Community'
+    });
+
+    var Esri_WorldImagery = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+        attribution: 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community'
+    });
+
+    var Esri_WorldShadedRelief = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Shaded_Relief/MapServer/tile/{z}/{y}/{x}', {
+        attribution: 'Tiles &copy; Esri &mdash; Source: Esri',
+        maxZoom: 13
+    });
+
+    // color itens coording to properties
+    function getColor(category) {
+        return category == "airport"  ?   '#002E63' : 
+               category == "place"    ?   '#FF7E00' :
+               category == "dive"     ?   '#FF0000' :
+                                          '#000';
+    }
+
+    // Attaching a GeoJSON file with relative link: (from: http://lyzidiamond.com/posts/osgeo-august-meeting/)
+    // var places = L.layerGroup();
+      $.getJSON($('link[rel="points"]').attr("href"), function(data) {
+        var geoJsonLayer = L.geoJson(data, {
+            onEachFeature: function (feature, layer) {
+                var desc = feature.properties.Title
+                layer.bindTooltip(desc)
+            },
+            pointToLayer: function (feature, latlng) {
+                return L.circleMarker(latlng, {
+                radius: 3,
+                Label: getColor(feature.properties.Title), 
+                fillColor: getColor(feature.properties.category), 
+                color: "#000",
+                weight: 0.5,
+                opacity: 0.8,
+                fillOpacity: 0.8,})
+            },
+        });
+        geoJsonLayer.addTo(map);
+      });
+
+    //vars for the layer control
+        var otm = OpenTopoMap,
+            osm  =  OpenStreetMap_Mapnik,
+            ewsm = Esri_WorldStreetMap,
+            ewtm = Esri_WorldTopoMap,
+            ewim = Esri_WorldImagery,
+            ewsr = Esri_WorldShadedRelief;
+
+
+        var map = L.map('map', {
+            center: [15,0],
+            zoom: 1,
+            layers: [ewsm]
+        });
+
+        var baseLayers = {
+            "Esri WorldStreetMap": ewsm,
+            "Esri WorldTopoMap": ewtm,
+            "Esri WorldImagery": ewim,
+            "Esri WorldShadedRelief": ewsr,
+            "OpenTopo Map": otm, 
+            "OpenStreetMap Mapnik": osm
+        };
+
+        // var overlays = {
+        //     "Places": places
+        // };
+
+        // L.control.layers(baseLayers, overlays).addTo(map);
+        L.control.layers(baseLayers).addTo(map);
+
+</script>
+
+<p> 
+ 
+ </p>
+
+</div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    
+        <footer class="footer">
+    <div class="container">
+        
+        
+        <div class="columns is-multiline">
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="/" class="link">Home</a>
+                </div>
+            </div>
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="https://orcid.org/0000-0001-5073-5572" class="link" target="_blank" rel="noopener noreferrer">ORCiD</a>
+                </div>
+            </div>
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="https://scholar.google.com/V3s8mq4AAAAJ" class="link" target="_blank" rel="noopener noreferrer">Scholar</a>
+                </div>
+            </div>
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="http://lattes.cnpq.br/5846052449613692" class="link" target="_blank" rel="noopener noreferrer">CV Lattes</a>
+                </div>
+            </div>
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="https://github.com/CarlosGrohmann" class="link" target="_blank" rel="noopener noreferrer">GitHub</a>
+                </div>
+            </div>
+            
+        </div>
+        
+
+        <div class="content is-small has-text-centered">
+            <p class="">Prof. Carlos H. Grohmann 2023 | Theme built by <a href="https://www.csrhymes.com" target="_blank" rel="noopener noreferrer">C.S. Rhymes</a></p>
+        </div>
+    </div>
+</footer>
+
+    
+    <script src="/assets/js/app.js" type="text/javascript"></script><!-- footer scripts --></body>
+</html>

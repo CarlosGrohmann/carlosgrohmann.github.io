@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+
+
+
+
+<html
+ dir="ltr"
+ lang="en"
+ >
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content=#eeeeee>
+    <link rel="stylesheet" href="/assets/css/app.css">
+    <link rel="shortcut icon" type="image/png"
+           href="/favicon.png" 
+    />
+    <script defer src="https://unpkg.com/alpinejs@3.9.0/dist/cdn.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+    
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-social@1/bin/bulma-social.min.css">
+    
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Installing GRASS Add-Ons on Mac OSX | Prof. Carlos H. Grohmann</title>
+<meta name="generator" content="Jekyll v4.3.2" />
+<meta property="og:title" content="Installing GRASS Add-Ons on Mac OSX" />
+<meta name="author" content="CarlosGrohmann" />
+<meta property="og:locale" content="en" />
+<meta name="description" content="After some searching and asking on the GRASS mailing list, I found a good way to install the GRASS add-ons on my OSX Lion. On William Kyngesburye’s page, we find this note:" />
+<meta property="og:description" content="After some searching and asking on the GRASS mailing list, I found a good way to install the GRASS add-ons on my OSX Lion. On William Kyngesburye’s page, we find this note:" />
+<link rel="canonical" href="http://carlosgrohmann.com/2012/06/07/installing-grass-add-ons-on-mac-osx/" />
+<meta property="og:url" content="http://carlosgrohmann.com/2012/06/07/installing-grass-add-ons-on-mac-osx/" />
+<meta property="og:site_name" content="Prof. Carlos H. Grohmann" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2012-06-07T00:00:00-03:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Installing GRASS Add-Ons on Mac OSX" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"CarlosGrohmann"},"dateModified":"2012-06-07T00:00:00-03:00","datePublished":"2012-06-07T00:00:00-03:00","description":"After some searching and asking on the GRASS mailing list, I found a good way to install the GRASS add-ons on my OSX Lion. On William Kyngesburye’s page, we find this note:","headline":"Installing GRASS Add-Ons on Mac OSX","mainEntityOfPage":{"@type":"WebPage","@id":"http://carlosgrohmann.com/2012/06/07/installing-grass-add-ons-on-mac-osx/"},"url":"http://carlosgrohmann.com/2012/06/07/installing-grass-add-ons-on-mac-osx/"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-7P4EVX4K99"></script>
+<script>
+  window['ga-disable-G-7P4EVX4K99'] = window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNotTrack === "yes" || navigator.msDoNotTrack === "1";
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-7P4EVX4K99');
+</script><!-- head scripts --></head>
+
+  <body>
+    <nav class="navbar is-primary " x-data="{ openNav: false }">
+    <div class="container">
+        <div class="navbar-brand">
+            <a href="/" class="navbar-item">
+                Prof. Carlos H. Grohmann
+            </a>
+            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navMenu" :class="{ 'is-active': openNav }" x-on:click="openNav = !openNav">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+        <div class="navbar-menu" id="navMenu" :class="{ 'is-active': openNav }">
+            <div class="navbar-start">
+                
+                
+                    
+                    <div class="navbar-item has-dropdown is-hoverable ">
+                        <a href="" class="navbar-link ">About Me</a>
+                        <div class="navbar-dropdown">
+                            
+                            <a href="/aboutme/" class="navbar-item ">CV/Bio</a>
+                            
+                            <a href="/gmaps/" class="navbar-item ">Map</a>
+                            
+                        </div>
+                    </div>
+                    
+                
+                    
+                    <div class="navbar-item has-dropdown is-hoverable ">
+                        <a href="" class="navbar-link ">Research</a>
+                        <div class="navbar-dropdown">
+                            
+                            <a href="/publications/" class="navbar-item ">Publications</a>
+                            
+                            <a href="/grants/" class="navbar-item ">Projects</a>
+                            
+                            <a href="/students/" class="navbar-item ">Students</a>
+                            
+                            <a href="https://spamlab.github.io/" class="navbar-item " target="_blank" rel="noopener noreferrer">SPAMLab</a>
+                            
+                            <a href="/openstereo/" class="navbar-item ">OpenStereo</a>
+                            
+                        </div>
+                    </div>
+                    
+                
+                    
+                    <div class="navbar-item has-dropdown is-hoverable ">
+                        <a href="" class="navbar-link ">Outreach</a>
+                        <div class="navbar-dropdown">
+                            
+                            <a href="/videos/" class="navbar-item ">Videos</a>
+                            
+                            <a href="/sigcomsl/" class="navbar-item ">GIS+FOSS</a>
+                            
+                        </div>
+                    </div>
+                    
+                
+                    
+                    <a href="/bjgeo/" class="navbar-item ">BJGEO</a>
+                    
+                
+                    
+                    <div class="navbar-item has-dropdown is-hoverable ">
+                        <a href="" class="navbar-link ">Blog</a>
+                        <div class="navbar-dropdown">
+                            
+                            <a href="/blog/" class="navbar-item ">Posts</a>
+                            
+                            <a href="/archive/" class="navbar-item ">Archive</a>
+                            
+                        </div>
+                    </div>
+                    
+                
+                
+            </div>
+
+            <div class="navbar-end">
+                
+            </div>
+
+        </div>
+    </div>
+</nav>
+
+    
+        <section class="hero  is-medium  is-bold is-primary">
+    <div class="hero-body ">
+        <div class="container">
+            <h1 class="title is-2">Installing GRASS Add-Ons on Mac OSX</h1>
+            <p class="subtitle is-3"></p>
+            
+        </div>
+    </div>
+</section>
+    
+    
+
+
+    <section class="section">
+        <div class="container">
+            <div class="columns is-multiline">
+                
+                <div class="column is-8">
+                    
+                    
+
+                    
+                    
+                    <div class="content">
+
+    <p>Published: Jun 7, 2012 by CarlosGrohmann</p>
+
+    
+
+    <p>After some searching and asking on the GRASS mailing list, I found a good way to install the GRASS add-ons on my OSX Lion. On William Kyngesburye’s <a href="http://www.kyngchaos.com/software/grass" target="_blank" rel="noopener noreferrer">page</a>, we find this note:</p>
+
+<blockquote>
+  <p><strong>Addon Modules</strong> Included is a build template similar to the GEM system for modules. But it doesn’t require the module source to be configured for GEM (I haven’t seen any that are yet). It’s a bit rough. See the included readme for details.</p>
+</blockquote>
+
+<p>But there’s not much more. There is a nice <a href="http://www.forumsig.org/showthread.php?t=33173" target="_blank" rel="noopener noreferrer">topic</a> in the french forumSIG, but you need to be registered in order to see the pictures. So I decided to post the instructions here.</p>
+
+<p>First you need to install XCode from the AppleStore and the CLI (command line interface) tools. (the CLI tools can be installed from XCode preferences). Next, fix the SDKs path: findo the Xcode.app, right-click over it and choose <strong>Show package contents</strong>. Now go to <strong>Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs</strong> and copy <strong>MacOSX10.7.sdk</strong> to <strong>/Developer/SDKs</strong> (you might need to create this folder).</p>
+
+<p>Then, download and install KyngChaos’ <a href="http://www.kyngchaos.com/files/software/grass/GRASS-6.4.2-3-Snow.dmg" target="_blank" rel="noopener noreferrer">package</a>. It will create a directory for your GRASS version under <strong>/Library</strong>. Since the directory is read-only, we need to copy the <strong>modbuild</strong> sub-directory to another place. In my case, I copied it to <strong>/Users/guano/Documents/installs/grass/modbuild</strong></p>
+
+<p><img src="/img/addons1.png" alt="" width="70%"></p>
+
+<p>Now we put the directory of the module we want to compile under the <strong>module</strong> subdir of our new modbuild directory (I’m using <strong>r.stream.order</strong> here).</p>
+
+<p><img src="/img/addons2.png" alt="" width="70%"></p>
+
+<p>Open the Terminal and go to the module’s directory, in my case <strong>/Users/guano/Documents/installs/grass/modbuild/module/r.stream.order</strong>, and run this (it’s a single line command):</p>
+
+<p><code class="language-plaintext highlighter-rouge">&gt; make GRASS_HOME='/Users/guano/Documents/installs/grass/modbuild/module/r.stream.order' GRASS_APP='/Applications/GRASS-6.4.app'</code></p>
+
+<p><img src="/img/addons3.png" alt="" width="70%"></p>
+
+<p>just make sure that GRASS_HOME points to your module’s directory (you can drag the folder from Finder in the Terminal and it will give you the full path to it). After the compilation ends, you should have a directory named <strong>dist.i386-apple-darwin10.7.0</strong> under your module’s directory (if you are on Lion. If you run an older version of OSX, the “10.X” part will reflect your system’s version). Now you just copy the relevant files to <strong>/Library/GRASS/6.4/Modules/</strong>: copy the executable under <strong>bin</strong> to <strong>/Library/GRASS/6.4/Modules/bin</strong> and the files under <strong>html</strong> to <strong>/Library/GRASS/6.4/Modules/doc/html</strong>.</p>
+
+<p><img src="/img/addons4.png" alt="" width="70%"></p>
+
+<p>Now you should be able to run the add-on via the GRASS terminal:</p>
+
+<p><img src="/img/addons5.png" alt="" width="70%"></p>
+
+<p>Nice, huh?</p>
+
+<h4 id="comments">Comments</h4>
+
+<p><strong><a href="#24" title="2012-06-23 12:53:25">Manuel</a>:</strong> Nice indeed. However I am getting trouble compiling because it complains on some dependencies while compiling your very same module. The error is the following: ld: warning: directory not found for option ‘-L/Users/Shared/unix/pgsql-pq-snow/usr/local/pgsql-9.1/lib’ ld: duplicate symbol _main in OBJ.i386-apple-darwin11.3.0/prueba.o and OBJ.i386-apple-darwin11.3.0/main.o for architecture i386 collect2: ld returned 1 exit status ld: warning: directory not found for option ‘-L/Users/Shared/unix/pgsql-pq-snow/usr/local/pgsql-9.1/lib’ ld: duplicate symbol _main in OBJ.i386-apple-darwin11.3.0/prueba.o and OBJ.i386-apple-darwin11.3.0/main.o for architecture x86_64 collect2: ld returned 1 exit status Have you had this problem also? Any idea on how to overcome it? Thank you a lot for your post</p>
+
+<p><strong><a href="#25" title="2012-06-24 15:29:30">carlosgrohmann</a>:</strong> Hi there. It seems your errors are related to PostgreSQL (the ‘pgsql’ part). Try installing it and see if it works. I can’t really tell from experience, since I installed all GRASS dependencies via macports (I also run GRASS’ development version). According to PostgreSQL’s page, the OSX package contains the C libraries, so it should be what you need. here: http://www.postgresql.org/download/macosx/ hope that helps!</p>
+
+<p><strong><a href="#26" title="2012-09-13 20:46:16">Marcello</a>:</strong> Caro professor Carlos, faz apenas alguns dias que eu comprei meu MacBook. Gostaria de saber como é o procedimento para baixar as dependências através do MacPorts (é similar ao home brew?), você teria algum passo a passo referente ao GRASS para isso? outra dúvida, caso haja algum problema na instalação, como eu verifico? estou habituado a compilar o GRASS no Ubuntu, mas no Mountain Lion eu estou completamente perdido! (e quase jogando ele no chão, rs). Um abraço e parabéns pelo seu excelente Post!</p>
+
+<p><strong><a href="#27" title="2012-09-14 21:01:49">carlosgrohmann</a>:</strong> Caro Marcello, O Mac Ports é bem legal e cuida de todas as dependências pra você. Um simples <code class="language-plaintext highlighter-rouge">sudo port install grass</code> dever ser suficiente. Quando eu compilei o GRASS 7 no meu Mac, o processo de instalar as dependências foi um pouco manual. Eu rodava meu ./configure e a cada erro, instalava a dependência até não ter mais erros. Ultimamente tenho preferido usar o pacote pronto do William Kyngesburye. Ele tem pacotes do GRASS 6.4, QGIS 1.8 e das dependências (GDAL, FreeType etc). Funciona perfeitamente. http://www.kyngchaos.com/software/grass abraços Carlos</p>
+
+<p><strong><a href="#28" title="2013-02-01 16:26:23">Brian Miles</a>:</strong> Thanks so much for putting this together. I can’t tell you how much time I wasted before finding this. Thank you!!! I made the following makefile to make it easy to copy the executable and HTML into the correct place (see the “deploy” target): MODULE_TOPDIR = ../.. GRASS_VERSION_STR = 6.4 PGM = r.findtheriver LIBES = $(GISLIB) DEPENDENCIES = $(GISDEP) include $(MODULE_TOPDIR)/include/Make/Module.make default: cmd deploy: cp dist.<em>/bin/$(PGM) /Library/GRASS/$(GRASS_VERSION_STR)/Modules/bin cp dist.</em>/docs/html/* /Library/GRASS/$(GRASS_VERSION_STR)/Modules/docs/html</p>
+
+
+</div>
+
+<div class="tags">
+    
+      <span class="tag  is-primary ">
+    GRASS
+</span>
+    
+      <span class="tag  is-primary ">
+    install
+</span>
+    
+      <span class="tag  is-primary ">
+    mac
+</span>
+    
+</div>
+
+
+<p><strong>Share</strong></p>
+<div class="buttons ">
+    <a class="button is-medium is-facebook" onclick="window.open('https://www.facebook.com/share.php?u=http://carlosgrohmann.com/2012/06/07/installing-grass-add-ons-on-mac-osx/');">
+        <span class="icon"><i class="fab fa-facebook fa-lg"></i></span>
+    </a>
+    <a class="button is-medium is-twitter" onclick="window.open('https://twitter.com/intent/tweet?text=http://carlosgrohmann.com/2012/06/07/installing-grass-add-ons-on-mac-osx/');">
+        <span class="icon"><i class="fab fa-twitter fa-lg"></i></span>
+    </a>
+    <a class="button is-medium is-linkedin" onclick="window.open('https://www.linkedin.com/shareArticle?mini=true&amp;url=http://carlosgrohmann.com/2012/06/07/installing-grass-add-ons-on-mac-osx/&amp;title=Installing+GRASS+Add-Ons+on+Mac+OSX&amp;summary=&amp;source=');">
+        <span class="icon"><i class="fab fa-linkedin fa-lg"></i></span>
+    </a>
+    <a class="button is-medium is-reddit" onclick="window.open('https://reddit.com/submit?url=http://carlosgrohmann.com/2012/06/07/installing-grass-add-ons-on-mac-osx/');">
+        <span class="icon"><i class="fab fa-reddit fa-lg"></i></span>
+    </a>
+</div>
+
+
+
+
+                </div>
+                
+                <div class="column is-4-desktop is-4-tablet">
+                    <p class="title is-4">Latest Posts</p>
+
+<div class="columns is-multiline">
+    
+    <div class="column is-12">
+        <div class="card">
+    
+    <header class="card-header">
+        <a class="card-header-title" href="/2020/08/23/bjgeo-review-papers/">O que é um Invited Review?</a>
+    </header>
+    
+    <div class="card-content">
+        <div class="content">
+            
+            
+                <p></p>
+<p>Ultimamente recebemos no <em>Brazilian Journal of Geology</em> (BJGEO) alguns pedidos de autores interessados em enviar artigos de revisão, os <em>“Invited Reviews”</em>. Mas o que é esse tipo de artigo? Uma revisão bibliográfica de tese pode ser publicada dessa maneira? Vamos ver:</p>
+
+            
+        </div>
+        <div class="has-text-centered">
+            <a href="/2020/08/23/bjgeo-review-papers/" class="button is-primary">Read more</a>
+        </div>
+    </div>
+    <footer class="card-footer">
+        <p class="card-footer-item">Published: Aug 23, 2020</p>
+    </footer>
+</div>
+    </div>
+    
+    <div class="column is-12">
+        <div class="card">
+    
+    <header class="card-header">
+        <a class="card-header-title" href="/2020/01/28/utm_south/">UTM 23S??</a>
+    </header>
+    
+    <div class="card-content">
+        <div class="content">
+            
+            
+                <p></p>
+<p>If there’s one thing that I see all the time as a reviewer, is a map of some study area in Brazil with a caption like “UTM coordinates zone 23S”.</p>
+
+            
+        </div>
+        <div class="has-text-centered">
+            <a href="/2020/01/28/utm_south/" class="button is-primary">Read more</a>
+        </div>
+    </div>
+    <footer class="card-footer">
+        <p class="card-footer-item">Published: Jan 28, 2020</p>
+    </footer>
+</div>
+    </div>
+    
+    <div class="column is-12">
+        <div class="card">
+    
+    <header class="card-header">
+        <a class="card-header-title" href="/2020/01/27/faq_bjgeo/">FAQ about BJGEO</a>
+    </header>
+    
+    <div class="card-content">
+        <div class="content">
+            
+            
+                <p></p>
+<p>The <a href="http://www.scielo.br/bjgeo/" target="_blank" rel="noopener noreferrer">Brazilian Journal of Geology</a> is the official publication of the <a href="http://www.sbgeo.org.br/" target="_blank" rel="noopener noreferrer">Brazilian Geological Society</a>. As the Deputy Editor, I receive emails with common questions about the journal. So I decided to crate a page with some useful information for potential authors.</p>
+
+            
+        </div>
+        <div class="has-text-centered">
+            <a href="/2020/01/27/faq_bjgeo/" class="button is-primary">Read more</a>
+        </div>
+    </div>
+    <footer class="card-footer">
+        <p class="card-footer-item">Published: Jan 27, 2020</p>
+    </footer>
+</div>
+    </div>
+    
+</div>
+
+
+
+
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    
+        <footer class="footer">
+    <div class="container">
+        
+        
+        <div class="columns is-multiline">
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="/" class="link">Home</a>
+                </div>
+            </div>
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="https://orcid.org/0000-0001-5073-5572" class="link" target="_blank" rel="noopener noreferrer">ORCiD</a>
+                </div>
+            </div>
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="https://scholar.google.com/V3s8mq4AAAAJ" class="link" target="_blank" rel="noopener noreferrer">Scholar</a>
+                </div>
+            </div>
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="http://lattes.cnpq.br/5846052449613692" class="link" target="_blank" rel="noopener noreferrer">CV Lattes</a>
+                </div>
+            </div>
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="https://github.com/CarlosGrohmann" class="link" target="_blank" rel="noopener noreferrer">GitHub</a>
+                </div>
+            </div>
+            
+        </div>
+        
+
+        <div class="content is-small has-text-centered">
+            <p class="">Prof. Carlos H. Grohmann 2023 | Theme built by <a href="https://www.csrhymes.com" target="_blank" rel="noopener noreferrer">C.S. Rhymes</a></p>
+        </div>
+    </div>
+</footer>
+
+    
+    <script src="/assets/js/app.js" type="text/javascript"></script><!-- footer scripts --></body>
+</html>

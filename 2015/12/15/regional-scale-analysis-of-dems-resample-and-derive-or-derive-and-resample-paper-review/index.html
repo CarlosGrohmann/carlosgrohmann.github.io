@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+
+
+
+
+<html
+ dir="ltr"
+ lang="en"
+ >
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content=#eeeeee>
+    <link rel="stylesheet" href="/assets/css/app.css">
+    <link rel="shortcut icon" type="image/png"
+           href="/favicon.png" 
+    />
+    <script defer src="https://unpkg.com/alpinejs@3.9.0/dist/cdn.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+    
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-social@1/bin/bulma-social.min.css">
+    
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>resample and derive or derive and resample? [paper review] | Prof. Carlos H. Grohmann</title>
+<meta name="generator" content="Jekyll v4.3.2" />
+<meta property="og:title" content="resample and derive or derive and resample? [paper review]" />
+<meta name="author" content="CarlosGrohmann" />
+<meta property="og:locale" content="en" />
+<meta name="description" content="Working with Digital Elevation Models (DEMs) have became a standard practice in scientific disciplines related to the physical environment, from geomorphology, geology, to biogeography and climate modeling. The Shuttle Radar Topography Mission (SRTM - Farr et al., 2007) and ASTER GDEM (Tachikawa et al., 2011) provide a near-global to global coverage at medium spatial resolution (30 to 90m) free of charge, while WorldDEM (Krieger et al., 2009) is a global dataset with 12m resolution and ALOS World3D (Tadono et al., 2014) delivers a global DEM with only 5m resolution." />
+<meta property="og:description" content="Working with Digital Elevation Models (DEMs) have became a standard practice in scientific disciplines related to the physical environment, from geomorphology, geology, to biogeography and climate modeling. The Shuttle Radar Topography Mission (SRTM - Farr et al., 2007) and ASTER GDEM (Tachikawa et al., 2011) provide a near-global to global coverage at medium spatial resolution (30 to 90m) free of charge, while WorldDEM (Krieger et al., 2009) is a global dataset with 12m resolution and ALOS World3D (Tadono et al., 2014) delivers a global DEM with only 5m resolution." />
+<link rel="canonical" href="http://carlosgrohmann.com/2015/12/15/regional-scale-analysis-of-dems-resample-and-derive-or-derive-and-resample-paper-review/" />
+<meta property="og:url" content="http://carlosgrohmann.com/2015/12/15/regional-scale-analysis-of-dems-resample-and-derive-or-derive-and-resample-paper-review/" />
+<meta property="og:site_name" content="Prof. Carlos H. Grohmann" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2015-12-15T00:00:00-02:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="resample and derive or derive and resample? [paper review]" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"CarlosGrohmann"},"dateModified":"2015-12-15T00:00:00-02:00","datePublished":"2015-12-15T00:00:00-02:00","description":"Working with Digital Elevation Models (DEMs) have became a standard practice in scientific disciplines related to the physical environment, from geomorphology, geology, to biogeography and climate modeling. The Shuttle Radar Topography Mission (SRTM - Farr et al., 2007) and ASTER GDEM (Tachikawa et al., 2011) provide a near-global to global coverage at medium spatial resolution (30 to 90m) free of charge, while WorldDEM (Krieger et al., 2009) is a global dataset with 12m resolution and ALOS World3D (Tadono et al., 2014) delivers a global DEM with only 5m resolution.","headline":"resample and derive or derive and resample? [paper review]","mainEntityOfPage":{"@type":"WebPage","@id":"http://carlosgrohmann.com/2015/12/15/regional-scale-analysis-of-dems-resample-and-derive-or-derive-and-resample-paper-review/"},"url":"http://carlosgrohmann.com/2015/12/15/regional-scale-analysis-of-dems-resample-and-derive-or-derive-and-resample-paper-review/"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-7P4EVX4K99"></script>
+<script>
+  window['ga-disable-G-7P4EVX4K99'] = window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNotTrack === "yes" || navigator.msDoNotTrack === "1";
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-7P4EVX4K99');
+</script><!-- head scripts --></head>
+
+  <body>
+    <nav class="navbar is-primary " x-data="{ openNav: false }">
+    <div class="container">
+        <div class="navbar-brand">
+            <a href="/" class="navbar-item">
+                Prof. Carlos H. Grohmann
+            </a>
+            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navMenu" :class="{ 'is-active': openNav }" x-on:click="openNav = !openNav">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+        <div class="navbar-menu" id="navMenu" :class="{ 'is-active': openNav }">
+            <div class="navbar-start">
+                
+                
+                    
+                    <div class="navbar-item has-dropdown is-hoverable ">
+                        <a href="" class="navbar-link ">About Me</a>
+                        <div class="navbar-dropdown">
+                            
+                            <a href="/aboutme/" class="navbar-item ">CV/Bio</a>
+                            
+                            <a href="/gmaps/" class="navbar-item ">Map</a>
+                            
+                        </div>
+                    </div>
+                    
+                
+                    
+                    <div class="navbar-item has-dropdown is-hoverable ">
+                        <a href="" class="navbar-link ">Research</a>
+                        <div class="navbar-dropdown">
+                            
+                            <a href="/publications/" class="navbar-item ">Publications</a>
+                            
+                            <a href="/grants/" class="navbar-item ">Projects</a>
+                            
+                            <a href="/students/" class="navbar-item ">Students</a>
+                            
+                            <a href="https://spamlab.github.io/" class="navbar-item " target="_blank" rel="noopener noreferrer">SPAMLab</a>
+                            
+                            <a href="/openstereo/" class="navbar-item ">OpenStereo</a>
+                            
+                        </div>
+                    </div>
+                    
+                
+                    
+                    <div class="navbar-item has-dropdown is-hoverable ">
+                        <a href="" class="navbar-link ">Outreach</a>
+                        <div class="navbar-dropdown">
+                            
+                            <a href="/videos/" class="navbar-item ">Videos</a>
+                            
+                            <a href="/sigcomsl/" class="navbar-item ">GIS+FOSS</a>
+                            
+                        </div>
+                    </div>
+                    
+                
+                    
+                    <a href="/bjgeo/" class="navbar-item ">BJGEO</a>
+                    
+                
+                    
+                    <div class="navbar-item has-dropdown is-hoverable ">
+                        <a href="" class="navbar-link ">Blog</a>
+                        <div class="navbar-dropdown">
+                            
+                            <a href="/blog/" class="navbar-item ">Posts</a>
+                            
+                            <a href="/archive/" class="navbar-item ">Archive</a>
+                            
+                        </div>
+                    </div>
+                    
+                
+                
+            </div>
+
+            <div class="navbar-end">
+                
+            </div>
+
+        </div>
+    </div>
+</nav>
+
+    
+        <section class="hero  is-medium  is-bold is-primary">
+    <div class="hero-body ">
+        <div class="container">
+            <h1 class="title is-2">resample and derive or derive and resample? [paper review]</h1>
+            <p class="subtitle is-3"></p>
+            
+        </div>
+    </div>
+</section>
+    
+    
+
+
+    <section class="section">
+        <div class="container">
+            <div class="columns is-multiline">
+                
+                <div class="column is-8">
+                    
+                    
+
+                    
+                    
+                    <div class="content">
+
+    <p>Published: Dec 15, 2015 by CarlosGrohmann</p>
+
+    
+
+    <p>Working with Digital Elevation Models (DEMs) have became a standard practice in scientific disciplines related to the physical environment, from geomorphology, geology, to biogeography and climate modeling. The Shuttle Radar Topography Mission (SRTM - Farr et al., 2007) and ASTER GDEM (Tachikawa et al., 2011) provide a near-global to global coverage at medium spatial resolution (30 to 90m) free of charge, while <a href="http://worlddem-database.infoterra.de" target="_blank" rel="noopener noreferrer">WorldDEM</a> (Krieger et al., 2009) is a global dataset with 12m resolution and <a href="http://alos-world3d.jp/en/" target="_blank" rel="noopener noreferrer">ALOS World3D</a> (Tadono et al., 2014) delivers a global DEM with only 5m resolution.</p>
+
+<p>The only problem with these data is when we need to make some analysis in a regional scale. By ‘regional’ I mean very very large. Like the entire Amazon Basin, or even the whole world. One common option is to use DEMs with coarser resolution like SRTM30_PLUS (Becker et al., 2009) with a resolution of 30’’ (about 1 km) or ETOPO1 (Amante and Eakins, 2009) with 1’ resolution.  But if you are working with any geomorphometric parameter like slope (or gradient), aspect, roughness, etc, you might ask yourself if using a coarser DEM is your best option. These 1km DEMs are generated by averaging the higher resolution data with moving-window filters, and that is a process known to cause smoothing of the topographical surface (see Carter, 1992; Zhang and Montgomery, 1994; Grohmann and Riccomini, 2009).</p>
+
+<p>At this point you are facing two choices:</p>
+
+<ul>
+  <li>Derive your geomorphometric data from a higher resolution DEM and then resample it to a coarser resolution for the regional analysis;<br>
+or</li>
+  <li>Resample the higher resolution DEM into a coarser one and derive the geomorphometric data from this coarse DEM (which would be the same as deriving the parameters from SRTM30_PLUS, for example)</li>
+</ul>
+
+<p>So I decided to test these two scenarios, and the results are published in this article:</p>
+
+<p><strong>Grohmann, C. H., 2015. Effects of spatial resolution on slope and aspect derivation for regional-scale analysis. Computers &amp; Geosciences 77, pp. 111–117. <a href="http://dx.doi.org/10.1016/j.cageo.2015.02.003" target="_blank" rel="noopener noreferrer">http://dx.doi.org/10.1016/j.cageo.2015.02.003</a></strong></p>
+
+<p>(if you want to read it and find yourself behind Elsevier’s paywall, you can grab the PDF of the uncorrected proof at the <a href="/publications/">Publications</a> section of this website)</p>
+
+<p>All the analysis were run within <a href="https://grass.osgeo.org" target="_blank" rel="noopener noreferrer">GRASS-GIS</a> using <a href="https://www.python.org" target="_blank" rel="noopener noreferrer">Python</a> scripts and the <a href="https://grasswiki.osgeo.org/wiki/Python/pygrass" target="_blank" rel="noopener noreferrer">pyGRASS</a> library to access GRASS’ datasets. Numerical analysis were done with <a href="http://www.scipy.org" target="_blank" rel="noopener noreferrer">Scipy</a>, <a href="http://www.numpy.org" target="_blank" rel="noopener noreferrer">Numpy</a> and the <a href="https://www.r-project.org" target="_blank" rel="noopener noreferrer">R</a> package <a href="https://cran.r-project.org/web/packages/circular/index.html" target="_blank" rel="noopener noreferrer">circular</a>. Plots were created with <a href="http://matplotlib.org" target="_blank" rel="noopener noreferrer">Matplotlib</a> and final figures were created on <a href="https://inkscape.org" target="_blank" rel="noopener noreferrer">Inkscape</a>. Following those questions we asked earlier, the analysis was done in two parts:</p>
+
+<ol>
+  <li>
+    <p>Parameters derived from a resampled DEM: in this case, an original DEM with 03’’ resolution (about 90m) was resampled by averaging the pixel values in cell of 0.3km, 0.45km, 0.6km, 0.75km, 0.9km, 1.05km, 1.2km, 1.4km, 1.55km and 1.85km. For each resampled DEM, slope and aspect were calculated using GRASS tools.</p>
+  </li>
+  <li>
+    <p>Resampled parameters from a base DEM: here, I calculated slope and aspect for the original 03’’ DEM and then resampled them to the same spatial resolutions as in the previous case. Resampled slope was considered as the average of values in the new pixel, while resampled aspect was calculated as the vectorial mean of the values.</p>
+  </li>
+</ol>
+
+<p>The figures below show some of the results for the Amazon basin (flat landscape): Averaging the DEM prior to calculating the derivatives (fig.A) will smooth the topographical surface, so the calculated slopes will be much smaller than those calculated from the original DEM. See how the density curve becomes way more asymmetrical with resampling. Calculating the derivatives from the higher resolution data and then resampling will result in less change to the slope values.</p>
+
+<p><img src="/img/fig_slope_cageo2015.png" alt="">  </p>
+
+<p>Aspect is less sensitive to the resampling approaches used in this study, but the peaks and valleys of the density plot become more pronounced as resolution decreases. The original curves are flatter, so the aspect values are more evenly distributed, without any significant tendency for a preferred orientation.</p>
+
+<p><img src="/img/fig_aspect_cageo2015.png" alt="">  </p>
+
+<p>The take-away message here is that you should always try to calculate surface parameters (such as aspect and slope) from a higher resolution DEM, and in case needed, resample them to a coarser resolution. Sometimes this may seem counter-productive, because it might take a long time to process the higher resolution DEMs, but the end results are worthwhile. The results for two other test areas (one in a hilly region in southeastern Brazil and another in the Andes Mountains) are in the paper. Give it a try and leave any comments below.    </p>
+
+<p><strong>Note</strong>:  The images from the article were reused with permission from Elsevier.</p>
+
+<p><strong>References</strong> [<a href="https://www.ngdc.noaa.gov/mgg/global/relief/ETOPO1/docs/ETOPO1.pdf" target="_blank" rel="noopener noreferrer">Amante and Eakins, 2009</a>] Amante, C. and Eakins, B. W., 2009. ETOPO1 1 Arc-Minute Global Relief Model: Procedures, Data Sources and Analysis. Technical report, NOAA Technical Memorandum NES- DIS NGDC-24. 19 pp.</p>
+
+<p>[<a href="http://www.tandfonline.com/doi/abs/10.1080/01490410903297766" target="_blank" rel="noopener noreferrer">Becker et al., 2009</a>] Becker, J.J., Sandwell, D.T., Smith, W.H.F., Braud, J., Binder, B., Depner, J., Fabre, D., Factor, J., Ingalls, S., Kim, S.H., Ladner, R., Marks, K., Nelson, S., Pharaoh, A., Trimmer, R., von Rosenberg, J., Wallace, G., Weatherall, P., 2009. Global bathymetry and elevation data at 30 arcseconds resolution: SRTM30_PLUS. Marine Geodesy 32, 355–371.</p>
+
+<p>[<a href="http://dx.doi.org/10.3138/AJ35-34H3-524K-0685" target="_blank" rel="noopener noreferrer">Carter, 1992</a>] Carter, J. R., 1992. The Effect Of Data Precision On The Calculation Of Slope And Aspect Using Gridded Dems. Cartographica: The International Journal for Geographic Information and Geovisualization 29, pp. 22–34.</p>
+
+<p>[<a href="http://onlinelibrary.wiley.com/doi/10.1029/2005RG000183/abstract" target="_blank" rel="noopener noreferrer">Farr et al., 2007</a>] Farr, T.G., Rosen, P.A., Caro, E., Crippen, R., Duren, R., Hensley, S., Kobrick, M., Paller, M., Rodriguez, E., Roth, L., Seal, D., Shaffer, S., Shimada, J., Umland, J., Werner, M., Oskin, M., Burbank, D., Alsdorf, D., 2007. The shuttle Radar topography mission. Rev. Geophys. 45, RG2004.</p>
+
+<p>[<a href="http://dx.doi.org/10.1016/j.cageo.2008.12.014" target="_blank" rel="noopener noreferrer">Grohmann and Riccomini, 2009</a>] Grohmann, C.H., Riccomini, C., 2009. Comparison of roving-window and search-window techniques for characterising landscape morphometry. Computers &amp; Geosciences 35, 2164–2169.</p>
+
+<p>[<a href="http://dx.doi.org/10.1109/RADAR.2009.4977075" target="_blank" rel="noopener noreferrer">Krieger et al., 2009</a>] Krieger, G., Zink, M., Fiedler, H., Hajnsek, I., Younis, M., Huber, S., Bachmann, M., Gonzalez, J., Schulze, D., Boer, J., Werner, M., Moreira, A., 2009. The TanDEM-X Mission: overview and status. In: Radar Conference, 2009, IEEE, California, USA, pp. 1–5.</p>
+
+<p>[<a href="http://dx.doi.org/10.1109/IGARSS.2011.6050017" target="_blank" rel="noopener noreferrer">Tachikawa et al., 2011</a>] Tachikawa, T., Hato, M., Kaku, M. and Iwasaki, A., 2011. Characteristics of ASTER GDEM version 2. In: Geoscience and Remote Sensing Symposium (IGARSS), 2011 IEEE Interna- tional, pp. 3657–3660.</p>
+
+<p>[<a href="http://dx.doi.org/10.5194/isprsannals-II-4-71-2014" target="_blank" rel="noopener noreferrer">Tadono et al., 2014</a>] Tadono, T., Ishida, H., Oda, F., Naito, S., Minakawa, K. and Iwamoto, H., 2014. Precise Global DEM Generation by ALOS PRISM. ISPRS Annals of Photogrammetry, Remote Sensing and Spatial Information Sciences II-4, pp. 71–76.</p>
+
+<p>[<a href="http://onlinelibrary.wiley.com/doi/10.1029/93WR03553/full" target="_blank" rel="noopener noreferrer">Tadono et al., 2014</a>] Zhang, W. and Montgomery, D., 1994. Digital elevation model grid size, landscape representation, and hydrologic simulations. Water Resources Research 30(4), pp. 1019–1028.</p>
+
+
+</div>
+
+<div class="tags">
+    
+      <span class="tag  is-primary ">
+    science
+</span>
+    
+      <span class="tag  is-primary ">
+    paper
+</span>
+    
+      <span class="tag  is-primary ">
+    cageo
+</span>
+    
+      <span class="tag  is-primary ">
+    geomorphometry
+</span>
+    
+</div>
+
+
+<p><strong>Share</strong></p>
+<div class="buttons ">
+    <a class="button is-medium is-facebook" onclick="window.open('https://www.facebook.com/share.php?u=http://carlosgrohmann.com/2015/12/15/regional-scale-analysis-of-dems-resample-and-derive-or-derive-and-resample-paper-review/');">
+        <span class="icon"><i class="fab fa-facebook fa-lg"></i></span>
+    </a>
+    <a class="button is-medium is-twitter" onclick="window.open('https://twitter.com/intent/tweet?text=http://carlosgrohmann.com/2015/12/15/regional-scale-analysis-of-dems-resample-and-derive-or-derive-and-resample-paper-review/');">
+        <span class="icon"><i class="fab fa-twitter fa-lg"></i></span>
+    </a>
+    <a class="button is-medium is-linkedin" onclick="window.open('https://www.linkedin.com/shareArticle?mini=true&amp;url=http://carlosgrohmann.com/2015/12/15/regional-scale-analysis-of-dems-resample-and-derive-or-derive-and-resample-paper-review/&amp;title=resample+and+derive+or+derive+and+resample%3F+%5Bpaper+review%5D&amp;summary=&amp;source=');">
+        <span class="icon"><i class="fab fa-linkedin fa-lg"></i></span>
+    </a>
+    <a class="button is-medium is-reddit" onclick="window.open('https://reddit.com/submit?url=http://carlosgrohmann.com/2015/12/15/regional-scale-analysis-of-dems-resample-and-derive-or-derive-and-resample-paper-review/');">
+        <span class="icon"><i class="fab fa-reddit fa-lg"></i></span>
+    </a>
+</div>
+
+
+
+
+                </div>
+                
+                <div class="column is-4-desktop is-4-tablet">
+                    <p class="title is-4">Latest Posts</p>
+
+<div class="columns is-multiline">
+    
+    <div class="column is-12">
+        <div class="card">
+    
+    <header class="card-header">
+        <a class="card-header-title" href="/2020/08/23/bjgeo-review-papers/">O que é um Invited Review?</a>
+    </header>
+    
+    <div class="card-content">
+        <div class="content">
+            
+            
+                <p></p>
+<p>Ultimamente recebemos no <em>Brazilian Journal of Geology</em> (BJGEO) alguns pedidos de autores interessados em enviar artigos de revisão, os <em>“Invited Reviews”</em>. Mas o que é esse tipo de artigo? Uma revisão bibliográfica de tese pode ser publicada dessa maneira? Vamos ver:</p>
+
+            
+        </div>
+        <div class="has-text-centered">
+            <a href="/2020/08/23/bjgeo-review-papers/" class="button is-primary">Read more</a>
+        </div>
+    </div>
+    <footer class="card-footer">
+        <p class="card-footer-item">Published: Aug 23, 2020</p>
+    </footer>
+</div>
+    </div>
+    
+    <div class="column is-12">
+        <div class="card">
+    
+    <header class="card-header">
+        <a class="card-header-title" href="/2020/01/28/utm_south/">UTM 23S??</a>
+    </header>
+    
+    <div class="card-content">
+        <div class="content">
+            
+            
+                <p></p>
+<p>If there’s one thing that I see all the time as a reviewer, is a map of some study area in Brazil with a caption like “UTM coordinates zone 23S”.</p>
+
+            
+        </div>
+        <div class="has-text-centered">
+            <a href="/2020/01/28/utm_south/" class="button is-primary">Read more</a>
+        </div>
+    </div>
+    <footer class="card-footer">
+        <p class="card-footer-item">Published: Jan 28, 2020</p>
+    </footer>
+</div>
+    </div>
+    
+    <div class="column is-12">
+        <div class="card">
+    
+    <header class="card-header">
+        <a class="card-header-title" href="/2020/01/27/faq_bjgeo/">FAQ about BJGEO</a>
+    </header>
+    
+    <div class="card-content">
+        <div class="content">
+            
+            
+                <p></p>
+<p>The <a href="http://www.scielo.br/bjgeo/" target="_blank" rel="noopener noreferrer">Brazilian Journal of Geology</a> is the official publication of the <a href="http://www.sbgeo.org.br/" target="_blank" rel="noopener noreferrer">Brazilian Geological Society</a>. As the Deputy Editor, I receive emails with common questions about the journal. So I decided to crate a page with some useful information for potential authors.</p>
+
+            
+        </div>
+        <div class="has-text-centered">
+            <a href="/2020/01/27/faq_bjgeo/" class="button is-primary">Read more</a>
+        </div>
+    </div>
+    <footer class="card-footer">
+        <p class="card-footer-item">Published: Jan 27, 2020</p>
+    </footer>
+</div>
+    </div>
+    
+</div>
+
+
+
+
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    
+        <footer class="footer">
+    <div class="container">
+        
+        
+        <div class="columns is-multiline">
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="/" class="link">Home</a>
+                </div>
+            </div>
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="https://orcid.org/0000-0001-5073-5572" class="link" target="_blank" rel="noopener noreferrer">ORCiD</a>
+                </div>
+            </div>
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="https://scholar.google.com/V3s8mq4AAAAJ" class="link" target="_blank" rel="noopener noreferrer">Scholar</a>
+                </div>
+            </div>
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="http://lattes.cnpq.br/5846052449613692" class="link" target="_blank" rel="noopener noreferrer">CV Lattes</a>
+                </div>
+            </div>
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="https://github.com/CarlosGrohmann" class="link" target="_blank" rel="noopener noreferrer">GitHub</a>
+                </div>
+            </div>
+            
+        </div>
+        
+
+        <div class="content is-small has-text-centered">
+            <p class="">Prof. Carlos H. Grohmann 2023 | Theme built by <a href="https://www.csrhymes.com" target="_blank" rel="noopener noreferrer">C.S. Rhymes</a></p>
+        </div>
+    </div>
+</footer>
+
+    
+    <script src="/assets/js/app.js" type="text/javascript"></script><!-- footer scripts --></body>
+</html>

@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+
+
+
+
+<html
+ dir="ltr"
+ lang="en"
+ >
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content=#eeeeee>
+    <link rel="stylesheet" href="/assets/css/app.css">
+    <link rel="shortcut icon" type="image/png"
+           href="/favicon.png" 
+    />
+    <script defer src="https://unpkg.com/alpinejs@3.9.0/dist/cdn.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+    
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-social@1/bin/bulma-social.min.css">
+    
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>ASTER GDEM download tutorial | Prof. Carlos H. Grohmann</title>
+<meta name="generator" content="Jekyll v4.3.2" />
+<meta property="og:title" content="ASTER GDEM download tutorial" />
+<meta name="author" content="CarlosGrohmann" />
+<meta property="og:locale" content="en" />
+<meta name="description" content="Agustin Castillo has a nice short tutorial on how to download ASTER GDEM tiles. Since it is in Spanish, I’m reproducing it in English." />
+<meta property="og:description" content="Agustin Castillo has a nice short tutorial on how to download ASTER GDEM tiles. Since it is in Spanish, I’m reproducing it in English." />
+<link rel="canonical" href="http://carlosgrohmann.com/2009/07/02/aster-gdem-download-tutorial/" />
+<meta property="og:url" content="http://carlosgrohmann.com/2009/07/02/aster-gdem-download-tutorial/" />
+<meta property="og:site_name" content="Prof. Carlos H. Grohmann" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2009-07-02T00:00:00-03:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="ASTER GDEM download tutorial" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"CarlosGrohmann"},"dateModified":"2009-07-02T00:00:00-03:00","datePublished":"2009-07-02T00:00:00-03:00","description":"Agustin Castillo has a nice short tutorial on how to download ASTER GDEM tiles. Since it is in Spanish, I’m reproducing it in English.","headline":"ASTER GDEM download tutorial","mainEntityOfPage":{"@type":"WebPage","@id":"http://carlosgrohmann.com/2009/07/02/aster-gdem-download-tutorial/"},"url":"http://carlosgrohmann.com/2009/07/02/aster-gdem-download-tutorial/"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-7P4EVX4K99"></script>
+<script>
+  window['ga-disable-G-7P4EVX4K99'] = window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNotTrack === "yes" || navigator.msDoNotTrack === "1";
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-7P4EVX4K99');
+</script><!-- head scripts --></head>
+
+  <body>
+    <nav class="navbar is-primary " x-data="{ openNav: false }">
+    <div class="container">
+        <div class="navbar-brand">
+            <a href="/" class="navbar-item">
+                Prof. Carlos H. Grohmann
+            </a>
+            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navMenu" :class="{ 'is-active': openNav }" x-on:click="openNav = !openNav">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+        <div class="navbar-menu" id="navMenu" :class="{ 'is-active': openNav }">
+            <div class="navbar-start">
+                
+                
+                    
+                    <div class="navbar-item has-dropdown is-hoverable ">
+                        <a href="" class="navbar-link ">About Me</a>
+                        <div class="navbar-dropdown">
+                            
+                            <a href="/aboutme/" class="navbar-item ">CV/Bio</a>
+                            
+                            <a href="/gmaps/" class="navbar-item ">Map</a>
+                            
+                        </div>
+                    </div>
+                    
+                
+                    
+                    <div class="navbar-item has-dropdown is-hoverable ">
+                        <a href="" class="navbar-link ">Research</a>
+                        <div class="navbar-dropdown">
+                            
+                            <a href="/publications/" class="navbar-item ">Publications</a>
+                            
+                            <a href="/grants/" class="navbar-item ">Projects</a>
+                            
+                            <a href="/students/" class="navbar-item ">Students</a>
+                            
+                            <a href="https://spamlab.github.io/" class="navbar-item " target="_blank" rel="noopener noreferrer">SPAMLab</a>
+                            
+                            <a href="/openstereo/" class="navbar-item ">OpenStereo</a>
+                            
+                        </div>
+                    </div>
+                    
+                
+                    
+                    <div class="navbar-item has-dropdown is-hoverable ">
+                        <a href="" class="navbar-link ">Outreach</a>
+                        <div class="navbar-dropdown">
+                            
+                            <a href="/videos/" class="navbar-item ">Videos</a>
+                            
+                            <a href="/sigcomsl/" class="navbar-item ">GIS+FOSS</a>
+                            
+                        </div>
+                    </div>
+                    
+                
+                    
+                    <a href="/bjgeo/" class="navbar-item ">BJGEO</a>
+                    
+                
+                    
+                    <div class="navbar-item has-dropdown is-hoverable ">
+                        <a href="" class="navbar-link ">Blog</a>
+                        <div class="navbar-dropdown">
+                            
+                            <a href="/blog/" class="navbar-item ">Posts</a>
+                            
+                            <a href="/archive/" class="navbar-item ">Archive</a>
+                            
+                        </div>
+                    </div>
+                    
+                
+                
+            </div>
+
+            <div class="navbar-end">
+                
+            </div>
+
+        </div>
+    </div>
+</nav>
+
+    
+        <section class="hero  is-medium  is-bold is-primary">
+    <div class="hero-body ">
+        <div class="container">
+            <h1 class="title is-2">ASTER GDEM download tutorial</h1>
+            <p class="subtitle is-3"></p>
+            
+        </div>
+    </div>
+</section>
+    
+    
+
+
+    <section class="section">
+        <div class="container">
+            <div class="columns is-multiline">
+                
+                <div class="column is-8">
+                    
+                    
+
+                    
+                    
+                    <div class="content">
+
+    <p>Published: Jul 2, 2009 by CarlosGrohmann</p>
+
+    
+
+    <p>Agustin Castillo has a nice short tutorial on how to download ASTER GDEM tiles. Since it is in Spanish, I’m reproducing it in English.</p>
+
+<p>original post: <a href="http://gvsigmac.blogspot.com/2009/07/el-mundo-tu-alcance-aster-gdem-30m-en.html" target="_blank" rel="noopener noreferrer">El mundo a tu alcance ASTER GDEM 30m en Mac</a></p>
+
+<p>This works with Firefox, in Safari (Mac users), I couldn’t see the selection map.</p>
+
+<p>Since last Monday, METI and NASA made available a Digital Terrain Model with 30x30 resolution (ASTER GDEM). This means that since this day, thanks to them, to gvSIG and Sextante, we can perform analysis of the physical environment of the whole world with first-class data. I will show a step-by-step with an example of an area in Ethiopia.</p>
+
+<p><img src="/img/picture801.png" alt="" width="70%"></p>
+
+<p>Map of southwest Musilandia (south Ethiopia)</p>
+
+<p>First we go to the <a href="http://gcmd.nasa.gov/KeywordSearch/Metadata.do?Portal=GCMD&amp;KeywordPath=%5BSource_Name%3A+Short_Name%3D%27TERRA%27%5D&amp;OrigMetadataNode=GCMD&amp;EntryId=ASTGTM1&amp;MetadataView=Full&amp;MetadataType=0&amp;lbnode=mdlb2" target="_blank" rel="noopener noreferrer">metada</a> page:</p>
+
+<p><img src="/img/picture631.png" alt="" width="70%"></p>
+
+<p>Then we click on the get data link, which will take us to the <a href="https://wist.echo.nasa.gov/%7Ewist/api/imswelcome/" target="_blank" rel="noopener noreferrer">Welcome to WIST</a> page:</p>
+
+<p><img src="/img/picture641.png" alt="" width="70%"></p>
+
+<p>In the top of the page click on <a href="https://wist.echo.nasa.gov/wist-bin/api/ims.cgi?mode=MAINSRCH&amp;JS=1" target="_blank" rel="noopener noreferrer">ENTER WIST</a>, and go to the data selection page.</p>
+
+<p><img src="/img/picture651.png" alt="" width="70%"></p>
+
+<p>In order to download the data, we need to be logged in the system. We choose ASTER and digital elevation model. The system has a tutorial. Here you see an example of the area 5E-6E and 35N-36N.</p>
+
+<p><img src="/img/picture661.png" alt="" width="70%"></p>
+
+<p>Now just hit Start Search:</p>
+
+<p><img src="/img/picture671.png" alt="" width="70%"></p>
+
+<p>We get some info:</p>
+
+<p><img src="/img/picture681.png" alt="" width="70%"></p>
+
+<p>And the search results:</p>
+
+<p><img src="/img/picture691.png" alt="" width="70%"></p>
+
+<p>Now find the one you want and select it (in this case, 35N 5E):</p>
+
+<p><img src="/img/picture701.png" alt="" width="70%"></p>
+
+<p>Now we can “buy” the image (you must “buy” it, although the cost will be zero), so add it to the cart:</p>
+
+<p><img src="/img/picture711.png" alt="" width="70%"></p>
+
+<p>Mark the required options :</p>
+
+<p><img src="/img/picture721.png" alt="" width="70%"></p>
+
+<p>In the next step, just confirm your personal data. Since it costs nothing, the billing address is not so important, but carefully check the email address.</p>
+
+<p><img src="/img/picture731.png" alt="" width="70%"></p>
+
+<p>Revise your order and submit it:</p>
+
+<p><img src="/img/picture7411.png" alt="" width="70%"></p>
+
+<p>You get a summary of the order</p>
+
+<p><img src="/img/picture751.png" alt="" width="70%"></p>
+
+<p>We got two confirmation emails:</p>
+
+<p><img src="/img/picture761.png" alt="" width="70%"></p>
+
+<p>This is the second email:</p>
+
+<p><img src="/img/picture771.png" alt="" width="70%"></p>
+
+<p>After half hour we got an email with the ftp link to download the data:</p>
+
+<p><img src="/img/picture781.png" alt="" width="70%"></p>
+
+<p><img src="/img/picture791.png" alt="" width="70%"></p>
+
+<p>That’s it!</p>
+
+<h4 id="comments">Comments</h4>
+
+<p><strong><a href="#2" title="2009-07-03 17:21:17">Agustin</a>:</strong> Obrigado, Agustin</p>
+
+<p><strong><a href="#3" title="2009-07-14 19:28:33">Cezar</a>:</strong> Thank you for this tutorial.</p>
+
+<p><strong><a href="#4" title="2009-07-16 10:19:08">maelle.decherf</a>:</strong> Thank you very much … well done !</p>
+
+<p><strong><a href="#5" title="2010-03-16 13:05:10">philip nik</a>:</strong> nice and well explained.I wonder if I can use that data (DEM) in curious software “vizrt”?</p>
+
+
+</div>
+
+<div class="tags">
+    
+      <span class="tag  is-primary ">
+    science
+</span>
+    
+      <span class="tag  is-primary ">
+    dem
+</span>
+    
+      <span class="tag  is-primary ">
+    aster
+</span>
+    
+      <span class="tag  is-primary ">
+    gdem
+</span>
+    
+      <span class="tag  is-primary ">
+    tutorial
+</span>
+    
+</div>
+
+
+<p><strong>Share</strong></p>
+<div class="buttons ">
+    <a class="button is-medium is-facebook" onclick="window.open('https://www.facebook.com/share.php?u=http://carlosgrohmann.com/2009/07/02/aster-gdem-download-tutorial/');">
+        <span class="icon"><i class="fab fa-facebook fa-lg"></i></span>
+    </a>
+    <a class="button is-medium is-twitter" onclick="window.open('https://twitter.com/intent/tweet?text=http://carlosgrohmann.com/2009/07/02/aster-gdem-download-tutorial/');">
+        <span class="icon"><i class="fab fa-twitter fa-lg"></i></span>
+    </a>
+    <a class="button is-medium is-linkedin" onclick="window.open('https://www.linkedin.com/shareArticle?mini=true&amp;url=http://carlosgrohmann.com/2009/07/02/aster-gdem-download-tutorial/&amp;title=ASTER+GDEM+download+tutorial&amp;summary=&amp;source=');">
+        <span class="icon"><i class="fab fa-linkedin fa-lg"></i></span>
+    </a>
+    <a class="button is-medium is-reddit" onclick="window.open('https://reddit.com/submit?url=http://carlosgrohmann.com/2009/07/02/aster-gdem-download-tutorial/');">
+        <span class="icon"><i class="fab fa-reddit fa-lg"></i></span>
+    </a>
+</div>
+
+
+
+
+                </div>
+                
+                <div class="column is-4-desktop is-4-tablet">
+                    <p class="title is-4">Latest Posts</p>
+
+<div class="columns is-multiline">
+    
+    <div class="column is-12">
+        <div class="card">
+    
+    <header class="card-header">
+        <a class="card-header-title" href="/2020/08/23/bjgeo-review-papers/">O que é um Invited Review?</a>
+    </header>
+    
+    <div class="card-content">
+        <div class="content">
+            
+            
+                <p></p>
+<p>Ultimamente recebemos no <em>Brazilian Journal of Geology</em> (BJGEO) alguns pedidos de autores interessados em enviar artigos de revisão, os <em>“Invited Reviews”</em>. Mas o que é esse tipo de artigo? Uma revisão bibliográfica de tese pode ser publicada dessa maneira? Vamos ver:</p>
+
+            
+        </div>
+        <div class="has-text-centered">
+            <a href="/2020/08/23/bjgeo-review-papers/" class="button is-primary">Read more</a>
+        </div>
+    </div>
+    <footer class="card-footer">
+        <p class="card-footer-item">Published: Aug 23, 2020</p>
+    </footer>
+</div>
+    </div>
+    
+    <div class="column is-12">
+        <div class="card">
+    
+    <header class="card-header">
+        <a class="card-header-title" href="/2020/01/28/utm_south/">UTM 23S??</a>
+    </header>
+    
+    <div class="card-content">
+        <div class="content">
+            
+            
+                <p></p>
+<p>If there’s one thing that I see all the time as a reviewer, is a map of some study area in Brazil with a caption like “UTM coordinates zone 23S”.</p>
+
+            
+        </div>
+        <div class="has-text-centered">
+            <a href="/2020/01/28/utm_south/" class="button is-primary">Read more</a>
+        </div>
+    </div>
+    <footer class="card-footer">
+        <p class="card-footer-item">Published: Jan 28, 2020</p>
+    </footer>
+</div>
+    </div>
+    
+    <div class="column is-12">
+        <div class="card">
+    
+    <header class="card-header">
+        <a class="card-header-title" href="/2020/01/27/faq_bjgeo/">FAQ about BJGEO</a>
+    </header>
+    
+    <div class="card-content">
+        <div class="content">
+            
+            
+                <p></p>
+<p>The <a href="http://www.scielo.br/bjgeo/" target="_blank" rel="noopener noreferrer">Brazilian Journal of Geology</a> is the official publication of the <a href="http://www.sbgeo.org.br/" target="_blank" rel="noopener noreferrer">Brazilian Geological Society</a>. As the Deputy Editor, I receive emails with common questions about the journal. So I decided to crate a page with some useful information for potential authors.</p>
+
+            
+        </div>
+        <div class="has-text-centered">
+            <a href="/2020/01/27/faq_bjgeo/" class="button is-primary">Read more</a>
+        </div>
+    </div>
+    <footer class="card-footer">
+        <p class="card-footer-item">Published: Jan 27, 2020</p>
+    </footer>
+</div>
+    </div>
+    
+</div>
+
+
+
+
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    
+        <footer class="footer">
+    <div class="container">
+        
+        
+        <div class="columns is-multiline">
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="/" class="link">Home</a>
+                </div>
+            </div>
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="https://orcid.org/0000-0001-5073-5572" class="link" target="_blank" rel="noopener noreferrer">ORCiD</a>
+                </div>
+            </div>
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="https://scholar.google.com/V3s8mq4AAAAJ" class="link" target="_blank" rel="noopener noreferrer">Scholar</a>
+                </div>
+            </div>
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="http://lattes.cnpq.br/5846052449613692" class="link" target="_blank" rel="noopener noreferrer">CV Lattes</a>
+                </div>
+            </div>
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="https://github.com/CarlosGrohmann" class="link" target="_blank" rel="noopener noreferrer">GitHub</a>
+                </div>
+            </div>
+            
+        </div>
+        
+
+        <div class="content is-small has-text-centered">
+            <p class="">Prof. Carlos H. Grohmann 2023 | Theme built by <a href="https://www.csrhymes.com" target="_blank" rel="noopener noreferrer">C.S. Rhymes</a></p>
+        </div>
+    </div>
+</footer>
+
+    
+    <script src="/assets/js/app.js" type="text/javascript"></script><!-- footer scripts --></body>
+</html>

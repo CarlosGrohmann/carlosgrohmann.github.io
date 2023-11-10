@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+
+
+
+
+<html
+ dir="ltr"
+ lang="en"
+ >
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content=#eeeeee>
+    <link rel="stylesheet" href="/assets/css/app.css">
+    <link rel="shortcut icon" type="image/png"
+           href="/favicon.png" 
+    />
+    <script defer src="https://unpkg.com/alpinejs@3.9.0/dist/cdn.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+    
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-social@1/bin/bulma-social.min.css">
+    
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>SIG com Software Livre | Prof. Carlos H. Grohmann</title>
+<meta name="generator" content="Jekyll v4.3.2" />
+<meta property="og:title" content="SIG com Software Livre" />
+<meta property="og:locale" content="en" />
+<meta name="description" content="Personal website of Prof. Carlos H. Grohmann (IEE-USP, Brazil)" />
+<meta property="og:description" content="Personal website of Prof. Carlos H. Grohmann (IEE-USP, Brazil)" />
+<link rel="canonical" href="http://carlosgrohmann.com/sigcomsl/" />
+<meta property="og:url" content="http://carlosgrohmann.com/sigcomsl/" />
+<meta property="og:site_name" content="Prof. Carlos H. Grohmann" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="SIG com Software Livre" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"Personal website of Prof. Carlos H. Grohmann (IEE-USP, Brazil)","headline":"SIG com Software Livre","url":"http://carlosgrohmann.com/sigcomsl/"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-7P4EVX4K99"></script>
+<script>
+  window['ga-disable-G-7P4EVX4K99'] = window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNotTrack === "yes" || navigator.msDoNotTrack === "1";
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-7P4EVX4K99');
+</script><!-- head scripts --></head>
+
+  <body>
+    <nav class="navbar is-primary " x-data="{ openNav: false }">
+    <div class="container">
+        <div class="navbar-brand">
+            <a href="/" class="navbar-item">
+                Prof. Carlos H. Grohmann
+            </a>
+            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navMenu" :class="{ 'is-active': openNav }" x-on:click="openNav = !openNav">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+        <div class="navbar-menu" id="navMenu" :class="{ 'is-active': openNav }">
+            <div class="navbar-start">
+                
+                
+                    
+                    <div class="navbar-item has-dropdown is-hoverable ">
+                        <a href="" class="navbar-link ">About Me</a>
+                        <div class="navbar-dropdown">
+                            
+                            <a href="/aboutme/" class="navbar-item ">CV/Bio</a>
+                            
+                            <a href="/gmaps/" class="navbar-item ">Map</a>
+                            
+                        </div>
+                    </div>
+                    
+                
+                    
+                    <div class="navbar-item has-dropdown is-hoverable ">
+                        <a href="" class="navbar-link ">Research</a>
+                        <div class="navbar-dropdown">
+                            
+                            <a href="/publications/" class="navbar-item ">Publications</a>
+                            
+                            <a href="/grants/" class="navbar-item ">Projects</a>
+                            
+                            <a href="/students/" class="navbar-item ">Students</a>
+                            
+                            <a href="https://spamlab.github.io/" class="navbar-item " target="_blank" rel="noopener noreferrer">SPAMLab</a>
+                            
+                            <a href="/openstereo/" class="navbar-item ">OpenStereo</a>
+                            
+                        </div>
+                    </div>
+                    
+                
+                    
+                    <div class="navbar-item has-dropdown is-hoverable ">
+                        <a href="" class="navbar-link ">Outreach</a>
+                        <div class="navbar-dropdown">
+                            
+                            <a href="/videos/" class="navbar-item ">Videos</a>
+                            
+                            <a href="/sigcomsl/" class="navbar-item is-active">GIS+FOSS</a>
+                            
+                        </div>
+                    </div>
+                    
+                
+                    
+                    <a href="/bjgeo/" class="navbar-item ">BJGEO</a>
+                    
+                
+                    
+                    <div class="navbar-item has-dropdown is-hoverable ">
+                        <a href="" class="navbar-link ">Blog</a>
+                        <div class="navbar-dropdown">
+                            
+                            <a href="/blog/" class="navbar-item ">Posts</a>
+                            
+                            <a href="/archive/" class="navbar-item ">Archive</a>
+                            
+                        </div>
+                    </div>
+                    
+                
+                
+            </div>
+
+            <div class="navbar-end">
+                
+            </div>
+
+        </div>
+    </div>
+</nav>
+
+    
+        <section class="hero  is-medium  is-bold is-primary" style="background: url('/img/bigimg/header_falks2.jpg') no-repeat center center; background-size: cover;">
+    <div class="hero-body ">
+        <div class="container">
+            <h1 class="title is-2">SIG com Software Livre</h1>
+            <p class="subtitle is-3">disciplina de pós</p>
+            
+        </div>
+    </div>
+</section>
+    
+    
+
+
+    <section class="section">
+        <div class="container">
+            <div class="columns is-multiline">
+                
+                <div class="column is-12">
+                    
+                    
+
+                    
+                    
+                    
+<div class="content">
+    <p>Aqui você encontra o material de apoio às aulas de uma disciplina de Pós-Graduação sobre “Introdução ao SIG com Software Livre”, ministrada no Programa de Pós-Graduação em Ciência Ambiental (PROCAM) do Instituto de Energia e Ambiente da USP e no Programa de Pós-Graduação em Recursos Minerais e Hidrogeologia (RMH) do Instituto de Geociências da USP.</p>
+
+<p>Todo o material disponível nesta página também pode ser acessado pelo sistema de <a href="https://edisciplinas.usp.br/course/view.php?id=85711" target="_blank" rel="noopener noreferrer">e-disciplinas da USP</a>. O acesso é aberto a todos, não é necessário fazer login.</p>
+
+<p>Os vídeos estão todos nestas duas playlists do YouTube: <a href="https://www.youtube.com/playlist?list=PL9GztlLGb7RpQbw2_W9MxVdBfDtPKSy-G" target="_blank" rel="noopener noreferrer">aulas de QGIS</a> e <a href="https://www.youtube.com/playlist?list=PL9GztlLGb7RovKMMO2ohYdfxfILXjxwEy" target="_blank" rel="noopener noreferrer">aulas de GRASS-GIS</a>.</p>
+
+<!-- Os vídeos estão todos nesta playlist do YouTube: [aulas de QGIS](https://www.youtube.com/playlist?list=PL9GztlLGb7RpQbw2_W9MxVdBfDtPKSy-G). -->
+<p>Links rápidos: <a href="#qgis">Aulas QGIS</a> · <a href="#grass">Aulas GRASS-GIS</a> · <a href="#material">Material para exercícios</a></p>
+
+<p>  
+<a name="qgis"></a></p>
+<h2 id="aulas---qgis">Aulas - QGIS</h2>
+
+<ul>
+  <li>
+    <p>Aula 1<br>
+Slides - <a href="../../downloads/sigcomsl_dados/aula_01_intro_sig_2021.pdf">Introdução ao SIG e a Software Livre</a><br>
+Vídeo - <a href="https://youtu.be/V61_LQZpz60" target="_blank" rel="noopener noreferrer">Introdução ao SIG e a Software Livre</a></p>
+  </li>
+  <li>
+    <p>Aula 2<br>
+Slides - <a href="../../downloads/sigcomsl_dados/aula_02_cartografia_2021.pdf">Princípios de Cartografia</a><br>
+Vídeo - <a href="https://youtu.be/TNTPO1vTEoE" target="_blank" rel="noopener noreferrer">Princípios de Cartografia</a></p>
+  </li>
+  <li>
+    <p>Aula 3<br>
+Slides - <a href="../../downloads/sigcomsl_dados/aula_03_tipos_dados_2021.pdf">Tipo de dados, entrada de dados</a><br>
+Vídeo - <a href="https://youtu.be/J0YBk-oD6jo" target="_blank" rel="noopener noreferrer">Dados e Metadados</a><br>
+Vídeo - <a href="https://youtu.be/siL_RJg3pPY" target="_blank" rel="noopener noreferrer">Exercício - Georreferenciamento</a></p>
+  </li>
+  <li>
+    <p>Aula 4<br>
+Slides - <a href="../../downloads/sigcomsl_dados/aula_04_vetor_2021.pdf">Dados Vetoriais</a><br>
+Vídeo - <a href="https://youtu.be/G4gepdqPOWo" target="_blank" rel="noopener noreferrer">Dados Vetoriais</a><br>
+Vídeo - <a href="https://youtu.be/gkXE5AQzwrM" target="_blank" rel="noopener noreferrer">Edição de Dados Vetoriais</a><br>
+Vídeo - <a href="https://youtu.be/lnx5W7ULUwk" target="_blank" rel="noopener noreferrer">Vetores - Arquivos CSV e GPX, mais dois plugins muito úteis</a><br>
+Vídeo - <a href="https://youtu.be/DHXn_qG8qm4" target="_blank" rel="noopener noreferrer">Exercício - municípios do Brasil</a><br>
+Vídeo - <a href="https://youtu.be/l8iuvJchGpI" target="_blank" rel="noopener noreferrer">Exercício - Seleção por localização, atributos e buffers vetoriais com MMQGIS</a><br>
+Vídeo - <a href="https://youtu.be/JMER9LTJpU4" target="_blank" rel="noopener noreferrer">Exercício - Densidade de população com união de tabelas</a></p>
+  </li>
+  <li>
+    <p>Aula 5<br>
+Slides - <a href="../../downloads/sigcomsl_dados/aula_05_raster_2021.pdf">Dados Raster</a><br>
+Vídeo - <a href="https://youtu.be/Xyv1XIuZkdQ" target="_blank" rel="noopener noreferrer">Dados tipo Raster</a></p>
+  </li>
+  <li>
+    <p>Aula 6<br>
+Slides - <a href="../../downloads/sigcomsl_dados/aula_06_interpolacao_2021.pdf">Interpolação</a><br>
+Vídeo - <a href="https://youtu.be/tB-VrcrLM8Y" target="_blank" rel="noopener noreferrer">Interpolação</a><br>
+Vídeo - <a href="https://youtu.be/ASzSV_ND01A" target="_blank" rel="noopener noreferrer">Exercício - interpolação</a></p>
+  </li>
+  <li>
+    <p>Aula 7<br>
+Slides - <a href="../../downloads/sigcomsl_dados/aula_07_mdt_2021.pdf">Modelos Digitais de Elevação</a><br>
+Vídeo - <a href="https://youtu.be/KDlsy7_9CBo" target="_blank" rel="noopener noreferrer">Modelos Digitais de Elevação</a><br>
+Vídeo - <a href="https://youtu.be/tBVrcrLM8Y" target="_blank" rel="noopener noreferrer">Exercício - Análise Digital de Terreno (Geomorfometria)</a></p>
+  </li>
+  <li>
+    <p>Aula 8<br>
+Slides - <a href="../../downloads/sigcomsl_dados/aula_08_sensoriamento_2021.pdf">Sensoriamento Remoto</a><br>
+Vídeo - <a href="https://youtu.be/eq4aLMffP9g" target="_blank" rel="noopener noreferrer">Sensoriamento Remoto</a><br>
+Vídeo - <a href="https://youtu.be/Z8345GjEC4k" target="_blank" rel="noopener noreferrer">Imagens multibandas (layer stack) no QGIS</a><br>
+Vídeo - <a href="https://youtu.be/zg-CbRA3qTA" target="_blank" rel="noopener noreferrer">Exercício - Sensoriamento Remoto</a></p>
+  </li>
+  <li>
+    <p>Aula 9<br>
+Vídeo - <a href="https://youtu.be/CmPWnjkdSMo" target="_blank" rel="noopener noreferrer">Como fazer mapas no QGIS</a></p>
+  </li>
+</ul>
+
+<p>  
+<a name="grass"></a></p>
+<h2 id="aulas---grass-gis">Aulas - GRASS-GIS</h2>
+
+<ul>
+  <li>Slides - <a href="../../downloads/sigcomsl_dados/aulagrass_2021.pdf">GRASS-GIS</a>
+</li>
+  <li>Apostila - <a href="http://dx.doi.org/10.6084/m9.figshare.3502184" target="_blank" rel="noopener noreferrer">GRASS-GIS (2016)</a>
+</li>
+  <li>Texto - <a href="https://grass.osgeo.org/gdp/raster/mapcalc-algebra.pdf" target="_blank" rel="noopener noreferrer">Shapiro &amp; Westervelt, 1992 - r.mapcalc: An Algebra for GIS and Image Processing</a>
+</li>
+  <li>Notebooks Jupyter - <a href="https://github.com/CarlosGrohmann/grass_gis/tree/master/notebooks" target="_blank" rel="noopener noreferrer">repositório no github</a><br>
+<br>
+</li>
+  <li>Vídeo - <a href="https://youtu.be/qvkjqPPFjIM" target="_blank" rel="noopener noreferrer">01 - Conhecendo o GRASS-GIS (histórico e conceitos básicos)</a>
+</li>
+  <li>Vídeo - <a href="https://youtu.be/R6uqkN9j4bc" target="_blank" rel="noopener noreferrer">02 - Location, maspset e visão geral do sistema</a>
+</li>
+  <li>Vídeo - <a href="https://youtu.be/4l6BCCXMwLA" target="_blank" rel="noopener noreferrer">03 - Dados raster / Trabalhando com a Region</a>
+</li>
+  <li>Vídeo - <a href="https://youtu.be/JSMYjjsBEGo" target="_blank" rel="noopener noreferrer">04 - Visualização 3D</a>
+</li>
+  <li>Vídeo - <a href="https://youtu.be/rgutNeD3nkE" target="_blank" rel="noopener noreferrer">05 - Álgebra de mapas raster (r.mapcalc)</a>
+</li>
+  <li>Vídeo - <a href="https://youtu.be/Sk02h1P_PPA" target="_blank" rel="noopener noreferrer">06 - Dados vetoriais</a>
+</li>
+  <li>Vídeo - <a href="https://youtu.be/ECRFyrSEmtI" target="_blank" rel="noopener noreferrer">07 - Máscaras</a>
+</li>
+  <li>Vídeo - <a href="https://youtu.be/gUIagGIEEhA" target="_blank" rel="noopener noreferrer">08 - Instalando Extensões (add-ons)</a>
+</li>
+  <li>Vídeo - <a href="https://www.youtube.com/playlist?list=PL9GztlLGb7RovKMMO2ohYdfxfILXjxwEy" target="_blank" rel="noopener noreferrer">09 - Sensoriamento Remoto 1 - pré-processamento e correção atmosférica</a>
+</li>
+  <li>Vídeo - <a href="https://www.youtube.com/playlist?list=PL9GztlLGb7RovKMMO2ohYdfxfILXjxwEy" target="_blank" rel="noopener noreferrer">10 - Sensoriamento Remoto 2 - detecção de mudanças e classificação</a>
+</li>
+  <li>Vídeo - <a href="https://youtu.be/21ksUZSgbY8" target="_blank" rel="noopener noreferrer">11 - Análise Digital de Terreno </a>
+</li>
+  <li>Vídeo - <a href="https://youtu.be/-uRrN-ZH-wQ" target="_blank" rel="noopener noreferrer">12 - Preview da versão 8.0 </a>
+</li>
+  <li>Vídeo - <a href="https://youtu.be/wBCgtVSVXAc" target="_blank" rel="noopener noreferrer">13 - Compilação no Linux </a>
+</li>
+</ul>
+
+<p><br>
+<br></p>
+<ul>
+  <li>Live - <a href="https://youtu.be/_pohWjE4eiA" target="_blank" rel="noopener noreferrer">O fascinante mundo do GRASS-GIS (Geocast BR)</a>
+</li>
+  <li>Live - <a href="https://youtu.be/vp6frd89y9E" target="_blank" rel="noopener noreferrer">O Fascinante Mundo do GRASS (Prof. Gustavo Baptista - Ao Vivo no YouTube #6)</a>
+</li>
+  <li>Podcast - <a href="https://anchor.fm/profgustavobaptista/episodes/Episdio-89---O-Fascinante-Mundo-do-GRASS-e17e6da" target="_blank" rel="noopener noreferrer">O Fascinante Mundo do Sensoriamento Remoto (Prof. Gustavo Baptista)</a>
+</li>
+</ul>
+
+<p>  
+  
+<a name="material"></a></p>
+<h2 id="material-de-apoio-para-exercícios">Material de apoio para exercícios</h2>
+
+<p>Para baixar, clique com o botão direito e escolha “Salvar arquivo como…”
+(muitas vezes os navegadores tentam abrir os arquivos TXT e CSV)</p>
+
+<ul>
+  <li>(TXT) <a href="../../downloads/sigcomsl_dados/xyz_tiles_qgis3.txt">xyz_tiles_qgis3.txt</a>
+</li>
+  <li>(CSV) <a href="../../downloads/sigcomsl_dados/CSV_pontos_petar.csv">CSV_pontos_petar.csv</a>
+</li>
+  <li>(CSV) <a href="../../downloads/sigcomsl_dados/CSV_interpola_davis.txt">CSV_interpola_davis.txt</a>
+</li>
+  <li>(GPX) <a href="../../downloads/sigcomsl_dados/GPS_petar_2016_08_21.gpx">GPS_petar_2016_08_21.gpx</a>
+</li>
+  <li>(GPKG) <a href="../../downloads/sigcomsl_dados/mbiomas_petar.gpkg">mbiomas_petar.gpkg</a>
+</li>
+  <li>(ZIP) <a href="../../downloads/sigcomsl_dados/mapas_topograficos.zip">mapas_topograficos.zip</a>
+</li>
+  <li>(ZIP) <a href="../../downloads/sigcomsl_dados/SHP_analise_vetor.zip">SHP_analise_vetor.zip</a>
+</li>
+  <li>(ZIP) <a href="../../downloads/sigcomsl_dados/SHP_brasil_cartografia.zip">SHP_brasil_cartografia.zip</a>
+</li>
+  <li>(ZIP) <a href="../../downloads/sigcomsl_dados/SHP_drena_ribeira.zip">SHP_drena_ribeira.zip</a>
+</li>
+  <li>(ZIP) <a href="../../downloads/sigcomsl_dados/DEM_SRTM_S25W048.hgt.zip">DEM_SRTM_S25W048.hgt.zip</a>
+</li>
+  <li>(ZIP) <a href="../../downloads/sigcomsl_dados/DEM_SRTM_S25W049.hgt.zip">DEM_SRTM_S25W049.hgt.zip</a>
+</li>
+  <li>(ZIP) <a href="../../downloads/sigcomsl_dados/DEM_Copernicus_DEM.zip">DEM_Copernicus_DEM.zip</a>
+</li>
+  <li>(ZIP) <a href="../../downloads/sigcomsl_dados/srtm_para_atcorr.zip">srtm_para_atcorr.zip</a>
+</li>
+  <li>(ZIP) GRASS - <a href="../../downloads/sigcomsl_dados/filtros_mfilter.zip">filtros_mfilter.zip</a>
+</li>
+  <li>(ZIP) GRASS - <a href="../../downloads/sigcomsl_dados/atcorr_param_files.zip">atcorr_param_files.zip</a>
+</li>
+  <li>(ZIP) Imagem Landsat - <a href="../../downloads/sigcomsl_dados/1976_11_09_MSS.zip">1976_11_09_MSS.zip</a>
+</li>
+  <li>(ZIP) Imagem Landsat - <a href="../../downloads/sigcomsl_dados/1999_09_26_ETM.zip">1999_09_26_ETM.zip</a>
+</li>
+  <li>(ZIP) Imagem Landsat - <a href="../../downloads/sigcomsl_dados/2020_07_09_OLI.zip">2020_07_09_OLI.zip</a>
+</li>
+  <li>(ZIP) Imagem ETM+ 1999 collec.1 - <a href="../../downloads/sigcomsl_dados/LE07_L1TP_220077_19990926_20170217_01_T1.zip">LE07_L1TP_220077_19990926_20170217_01_T1.zip</a>
+</li>
+  <li>(ZIP) Imagem ETM+ 1999 collec.2 - <a href="../../downloads/sigcomsl_dados/LE07_L2SP_220077_19990926_20200918_02_T1.zip">LE07_L2SP_220077_19990926_20200918_02_T1.zip</a>
+</li>
+  <li>(ZIP) Imagem OLI 2019 collec.2 - <a href="../../downloads/sigcomsl_dados/LC08_L2SP_220077_20191027_20200825_02_T1.zip">LC08_L2SP_220077_20191027_20200825_02_T1.zip</a>
+</li>
+</ul>
+
+<!-- 
+Aula 1 - Introdução ao SIG e a Software Livre
+<iframe width="700" height="395" src="https://www.youtube.com/embed/V61_LQZpz60" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br>
+
+Aula 2 - Princípios de Cartografia 
+<iframe width="700" height="395" src="https://www.youtube.com/embed/TNTPO1vTEoE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br>
+
+Aula 3 - Dados e Metadados 
+<iframe width="700" height="395" src="https://www.youtube.com/embed/J0YBk-oD6jo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br>
+
+Aula 3.1 - Prática de Georreferenciamento
+<iframe width="700" height="395" src="https://www.youtube.com/embed/siL_RJg3pPY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br>
+
+Aula 4 - Dados Vetoriais
+<iframe width="700" height="395" src="https://www.youtube.com/embed/G4gepdqPOWo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br>
+
+Aula 4.1 - Edição de Dados Vetoriais 
+<iframe width="700" height="395" src="https://www.youtube.com/embed/gkXE5AQzwrM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br>
+
+Aula 4.2 - Vetores - Arquivos CSV e GPX, mais dois plugins muito úteis
+<iframe width="700" height="395" src="https://www.youtube.com/embed/lnx5W7ULUwk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br>
+
+Aula 4.3 - Exercício com vetores - municípios do Brasil
+<iframe width="700" height="395" src="https://www.youtube.com/embed/DHXn_qG8qm4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br>
+
+Aula 4.4 - Vetores - Seleção por localização, atributos e buffers vetoriais com MMQGIS
+<iframe width="700" height="395" src="https://www.youtube.com/embed/l8iuvJchGpI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br>
+
+Aula 4.5 - Vetores - Densidade de população com união de tabelas
+<iframe width="700" height="395" src="https://www.youtube.com/embed/JMER9LTJpU4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br>
+
+Aula 5 - Dados tipo Raster
+<iframe width="700" height="395" src="https://www.youtube.com/embed/Xyv1XIuZkdQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br>
+
+Aula 6 - Interpolação
+<iframe width="700" height="395" src="https://www.youtube.com/embed/tB-VrcrLM8Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br>
+
+Aula 6.1 - Exercício de interpolação
+<iframe width="700" height="395" src="https://www.youtube.com/embed/ASzSV_ND01A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br>
+
+Aula 7 - Modelos Digitais de Elevação
+<iframe width="700" height="395" src="https://www.youtube.com/embed/KDlsy7_9CBo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br> -->
+
+<!-- Aula 7.1 - Exercício de Análise Digital de Terreno (Geomorfometria)
+<iframe width="700" height="395" src="https://www.youtube.com/embed/tBVrcrLM8Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br> -->
+
+</div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    
+        <footer class="footer">
+    <div class="container">
+        
+        
+        <div class="columns is-multiline">
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="/" class="link">Home</a>
+                </div>
+            </div>
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="https://orcid.org/0000-0001-5073-5572" class="link" target="_blank" rel="noopener noreferrer">ORCiD</a>
+                </div>
+            </div>
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="https://scholar.google.com/V3s8mq4AAAAJ" class="link" target="_blank" rel="noopener noreferrer">Scholar</a>
+                </div>
+            </div>
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="http://lattes.cnpq.br/5846052449613692" class="link" target="_blank" rel="noopener noreferrer">CV Lattes</a>
+                </div>
+            </div>
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="https://github.com/CarlosGrohmann" class="link" target="_blank" rel="noopener noreferrer">GitHub</a>
+                </div>
+            </div>
+            
+        </div>
+        
+
+        <div class="content is-small has-text-centered">
+            <p class="">Prof. Carlos H. Grohmann 2023 | Theme built by <a href="https://www.csrhymes.com" target="_blank" rel="noopener noreferrer">C.S. Rhymes</a></p>
+        </div>
+    </div>
+</footer>
+
+    
+    <script src="/assets/js/app.js" type="text/javascript"></script><!-- footer scripts --></body>
+</html>

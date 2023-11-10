@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+
+
+
+
+<html
+ dir="ltr"
+ lang="en"
+ >
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content=#eeeeee>
+    <link rel="stylesheet" href="/assets/css/app.css">
+    <link rel="shortcut icon" type="image/png"
+           href="/favicon.png" 
+    />
+    <script defer src="https://unpkg.com/alpinejs@3.9.0/dist/cdn.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+    
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-social@1/bin/bulma-social.min.css">
+    
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Installing Orfeo Toolbox and Monteverdi on OSX | Prof. Carlos H. Grohmann</title>
+<meta name="generator" content="Jekyll v4.3.2" />
+<meta property="og:title" content="Installing Orfeo Toolbox and Monteverdi on OSX" />
+<meta name="author" content="CarlosGrohmann" />
+<meta property="og:locale" content="en" />
+<meta name="description" content="The Orfeo ToolBox (OTB) is an open-source C++ library for processing of remote sensing image, and it is shipped with Monteverdi, an end-users oriented software for for classical remote sensing tasks. With the recent release of OTB version 5.4, I decided to make this brief post on how to get it running on OSX. I’m running El Capitan (10.11), but it should be the same for other versions." />
+<meta property="og:description" content="The Orfeo ToolBox (OTB) is an open-source C++ library for processing of remote sensing image, and it is shipped with Monteverdi, an end-users oriented software for for classical remote sensing tasks. With the recent release of OTB version 5.4, I decided to make this brief post on how to get it running on OSX. I’m running El Capitan (10.11), but it should be the same for other versions." />
+<link rel="canonical" href="http://carlosgrohmann.com/2016/05/13/installing-orfeo-toolbox-and-monteverdi-on-osx/" />
+<meta property="og:url" content="http://carlosgrohmann.com/2016/05/13/installing-orfeo-toolbox-and-monteverdi-on-osx/" />
+<meta property="og:site_name" content="Prof. Carlos H. Grohmann" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2016-05-13T00:00:00-03:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Installing Orfeo Toolbox and Monteverdi on OSX" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"CarlosGrohmann"},"dateModified":"2016-05-13T00:00:00-03:00","datePublished":"2016-05-13T00:00:00-03:00","description":"The Orfeo ToolBox (OTB) is an open-source C++ library for processing of remote sensing image, and it is shipped with Monteverdi, an end-users oriented software for for classical remote sensing tasks. With the recent release of OTB version 5.4, I decided to make this brief post on how to get it running on OSX. I’m running El Capitan (10.11), but it should be the same for other versions.","headline":"Installing Orfeo Toolbox and Monteverdi on OSX","mainEntityOfPage":{"@type":"WebPage","@id":"http://carlosgrohmann.com/2016/05/13/installing-orfeo-toolbox-and-monteverdi-on-osx/"},"url":"http://carlosgrohmann.com/2016/05/13/installing-orfeo-toolbox-and-monteverdi-on-osx/"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-7P4EVX4K99"></script>
+<script>
+  window['ga-disable-G-7P4EVX4K99'] = window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNotTrack === "yes" || navigator.msDoNotTrack === "1";
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-7P4EVX4K99');
+</script><!-- head scripts --></head>
+
+  <body>
+    <nav class="navbar is-primary " x-data="{ openNav: false }">
+    <div class="container">
+        <div class="navbar-brand">
+            <a href="/" class="navbar-item">
+                Prof. Carlos H. Grohmann
+            </a>
+            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navMenu" :class="{ 'is-active': openNav }" x-on:click="openNav = !openNav">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+        <div class="navbar-menu" id="navMenu" :class="{ 'is-active': openNav }">
+            <div class="navbar-start">
+                
+                
+                    
+                    <div class="navbar-item has-dropdown is-hoverable ">
+                        <a href="" class="navbar-link ">About Me</a>
+                        <div class="navbar-dropdown">
+                            
+                            <a href="/aboutme/" class="navbar-item ">CV/Bio</a>
+                            
+                            <a href="/gmaps/" class="navbar-item ">Map</a>
+                            
+                        </div>
+                    </div>
+                    
+                
+                    
+                    <div class="navbar-item has-dropdown is-hoverable ">
+                        <a href="" class="navbar-link ">Research</a>
+                        <div class="navbar-dropdown">
+                            
+                            <a href="/publications/" class="navbar-item ">Publications</a>
+                            
+                            <a href="/grants/" class="navbar-item ">Projects</a>
+                            
+                            <a href="/students/" class="navbar-item ">Students</a>
+                            
+                            <a href="https://spamlab.github.io/" class="navbar-item " target="_blank" rel="noopener noreferrer">SPAMLab</a>
+                            
+                            <a href="/openstereo/" class="navbar-item ">OpenStereo</a>
+                            
+                        </div>
+                    </div>
+                    
+                
+                    
+                    <div class="navbar-item has-dropdown is-hoverable ">
+                        <a href="" class="navbar-link ">Outreach</a>
+                        <div class="navbar-dropdown">
+                            
+                            <a href="/videos/" class="navbar-item ">Videos</a>
+                            
+                            <a href="/sigcomsl/" class="navbar-item ">GIS+FOSS</a>
+                            
+                        </div>
+                    </div>
+                    
+                
+                    
+                    <a href="/bjgeo/" class="navbar-item ">BJGEO</a>
+                    
+                
+                    
+                    <div class="navbar-item has-dropdown is-hoverable ">
+                        <a href="" class="navbar-link ">Blog</a>
+                        <div class="navbar-dropdown">
+                            
+                            <a href="/blog/" class="navbar-item ">Posts</a>
+                            
+                            <a href="/archive/" class="navbar-item ">Archive</a>
+                            
+                        </div>
+                    </div>
+                    
+                
+                
+            </div>
+
+            <div class="navbar-end">
+                
+            </div>
+
+        </div>
+    </div>
+</nav>
+
+    
+        <section class="hero  is-medium  is-bold is-primary">
+    <div class="hero-body ">
+        <div class="container">
+            <h1 class="title is-2">Installing Orfeo Toolbox and Monteverdi on OSX</h1>
+            <p class="subtitle is-3"></p>
+            
+        </div>
+    </div>
+</section>
+    
+    
+
+
+    <section class="section">
+        <div class="container">
+            <div class="columns is-multiline">
+                
+                <div class="column is-8">
+                    
+                    
+
+                    
+                    
+                    <div class="content">
+
+    <p>Published: May 13, 2016 by CarlosGrohmann</p>
+
+    
+
+    <p>The Orfeo ToolBox (OTB) is an open-source C++ library for processing of remote sensing image, and it is shipped with Monteverdi, an end-users oriented software for for classical remote sensing tasks. With the recent release of OTB version 5.4, I decided to make this brief post on how to get it running on OSX. I’m running El Capitan (10.11), but it should be the same for other versions.</p>
+
+<p>First, go to <a href="https://www.orfeo-toolbox.org/download/" target="_blank" rel="noopener noreferrer">https://www.orfeo-toolbox.org/download/</a> and select “Mac OS X”. Right-click and select “Save link as”. I ended with a file named <code class="language-plaintext highlighter-rouge">OTB-5.4.0-Darwin64.run.txt</code>. Rename that file and remove the “.txt” extension (if you will get a warning from the system, just select “keep .run”).</p>
+
+<p>Now you must give this file <a href="https://en.wikipedia.org/wiki/File_system_permissions" target="_blank" rel="noopener noreferrer">execution permission</a>. You can’t do that with the Graphical Interface (GUI), so you must use the <a href="https://en.wikipedia.org/wiki/Command-line_interface" target="_blank" rel="noopener noreferrer">Command Line Interface</a>. Open the Terminal (it’s probably in Applications/Utilities) and navigate to the directory where you saved the file, or, in GUI terms, go to the Folder where the file is. So if your file is in Downloads:</p>
+
+<p><code class="language-plaintext highlighter-rouge">Serenity:~ guano$ cd Downloads/</code></p>
+
+<p>In this case, “Serenity” is the name of my computer, and “guano” is my username (yours will be different). the command <a href="http://ss64.com/osx/cd.html" target="_blank" rel="noopener noreferrer">cd</a> means <code class="language-plaintext highlighter-rouge">c</code>hange <code class="language-plaintext highlighter-rouge">d</code>irectory and there is a space between it and the name of the Directory (Folder) you want to go. Another way of doing this is to write cd (and a space) and drag the folder from a Finder window over the Terminal window. Hit return and you are inside the Downloads directory.</p>
+
+<p>Check to see if the file is there with the <a href="http://ss64.com/osx/ls.html" target="_blank" rel="noopener noreferrer">ls</a> command:</p>
+
+<p><code class="language-plaintext highlighter-rouge">Serenity:Downloads guano$ ls
+OTB-5.4.0-Darwin64.run</code></p>
+
+<p>Now give it execution permission with the <a href="http://ss64.com/osx/chmod.html" target="_blank" rel="noopener noreferrer">chmod</a> command:</p>
+
+<p><code class="language-plaintext highlighter-rouge">Serenity:Downloads guano$ chmod +x OTB-5.4.0-Darwin64.run </code></p>
+
+<p>Ok, now move (or copy) the file to a place where it will be installed. You can install it in the system-wide Applications folder (/Applications) or in your user’s Applications (/Users/your_user/Applications). You can drag the file to the folder or continue doing thing on the command line:</p>
+
+<p><code class="language-plaintext highlighter-rouge">Serenity:Downloads guano$ mv OTB-5.4.0-Darwin64.run /Applications</code></p>
+
+<p>This will move the file to the Applications folder that’s under the <a href="http://www.linfo.org/root.html" target="_blank" rel="noopener noreferrer">root</a> of the FileSystem (/Applications).</p>
+
+<p>Now navigate to that folder and run the installer (note the single dot before the slash when running the installer):</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Serenity:Downloads guano$ cd ../Applications
+Serenity:Applications guano$ ./OTB-5.4.0-Darwin64.run
+Creating directory OTB-5.4.0-Darwin64
+Verifying archive integrity... All good.
+Uncompressing OrfeoToolBox 5.4.0 100%
+Configuring...
+Serenity:Applications guano$
+</code></pre></div></div>
+
+<p>The installer will deflate and create a directory called <code class="language-plaintext highlighter-rouge">OTB-5.4.0-Darwin64</code>, and inside it you will find two apps: <code class="language-plaintext highlighter-rouge">Mapla.app</code> and <code class="language-plaintext highlighter-rouge">Monteverdi.app</code>. If you like to use LaunchPad (like me), just hit F4 and they will be there.</p>
+
+<p> </p>
+
+<p><img src="/img/Screen-Shot-2016-05-13-at-11.44.15.png" alt="" width="20%"><br>
+Mapla window (Monteverdi Application Laucher)</p>
+
+<p> </p>
+
+<p><img src="/img/Screen-Shot-2016-05-13-at-11.44.00.png" alt="" width="60%"><br>
+Main Monteverdi window</p>
+
+<p> </p>
+
+<p>That’s it. Happy Processing!</p>
+
+<h4 id="comments">Comments</h4>
+
+<p><strong><a href="#18926" title="2018-10-01 16:06:16">Juan Manuel Lopez</a>:</strong> Last login: Mon Oct 1 20:42:23 on ttys000 MacBook-Air-de-Juan:~ Juancho08$ cd Applications/OTB-6.6.0-Darwin64.run -bash: cd: Applications/OTB-6.6.0-Darwin64.run: No such file or directory MacBook-Air-de-Juan:~ Juancho08$ cd Applications/ MacBook-Air-de-Juan:Applications Juancho08$ ./OTB-6.6.0-Darwin64 -bash: ./OTB-6.6.0-Darwin64: No such file or directory MacBook-Air-de-Juan:Applications Juancho08$ ./OTB-6.6.0-Darwin64.run -bash: ./OTB-6.6.0-Darwin64.run: No such file or directory MacBook-Air-de-Juan:Applications Juancho08$ I appear this error knows what can it be? Thank you very much and greetings</p>
+
+<p><strong><a href="#18927" title="2018-10-01 16:15:06">Carlos Grohmann</a>:</strong> Hello Juan It can be a number of things. The error you are seeing means that your system couldn’t find the file, so you probably are trying to run it from the wring place. First, be sure of where you copied the OTB-6.6.0-Darwin64.run file, if it was to <code class="language-plaintext highlighter-rouge">/Applications</code> or if it was to <code class="language-plaintext highlighter-rouge">/Users/your_user/Applications</code>. Then navigate to that directory in the command line using cd (<code class="language-plaintext highlighter-rouge">cd /Applications</code> or cd <code class="language-plaintext highlighter-rouge">/Users/your_user/Applications</code>). From there try to execute the OTB-6.6.0-Darwin64.run file. Also remember to give it permission to be executed (the <code class="language-plaintext highlighter-rouge">chmod</code> part of the post). best Carlos</p>
+
+
+</div>
+
+<div class="tags">
+    
+      <span class="tag  is-primary ">
+    osx
+</span>
+    
+      <span class="tag  is-primary ">
+    mac
+</span>
+    
+      <span class="tag  is-primary ">
+    install
+</span>
+    
+      <span class="tag  is-primary ">
+    remote-sensing
+</span>
+    
+</div>
+
+
+<p><strong>Share</strong></p>
+<div class="buttons ">
+    <a class="button is-medium is-facebook" onclick="window.open('https://www.facebook.com/share.php?u=http://carlosgrohmann.com/2016/05/13/installing-orfeo-toolbox-and-monteverdi-on-osx/');">
+        <span class="icon"><i class="fab fa-facebook fa-lg"></i></span>
+    </a>
+    <a class="button is-medium is-twitter" onclick="window.open('https://twitter.com/intent/tweet?text=http://carlosgrohmann.com/2016/05/13/installing-orfeo-toolbox-and-monteverdi-on-osx/');">
+        <span class="icon"><i class="fab fa-twitter fa-lg"></i></span>
+    </a>
+    <a class="button is-medium is-linkedin" onclick="window.open('https://www.linkedin.com/shareArticle?mini=true&amp;url=http://carlosgrohmann.com/2016/05/13/installing-orfeo-toolbox-and-monteverdi-on-osx/&amp;title=Installing+Orfeo+Toolbox+and+Monteverdi+on+OSX&amp;summary=&amp;source=');">
+        <span class="icon"><i class="fab fa-linkedin fa-lg"></i></span>
+    </a>
+    <a class="button is-medium is-reddit" onclick="window.open('https://reddit.com/submit?url=http://carlosgrohmann.com/2016/05/13/installing-orfeo-toolbox-and-monteverdi-on-osx/');">
+        <span class="icon"><i class="fab fa-reddit fa-lg"></i></span>
+    </a>
+</div>
+
+
+
+
+                </div>
+                
+                <div class="column is-4-desktop is-4-tablet">
+                    <p class="title is-4">Latest Posts</p>
+
+<div class="columns is-multiline">
+    
+    <div class="column is-12">
+        <div class="card">
+    
+    <header class="card-header">
+        <a class="card-header-title" href="/2020/08/23/bjgeo-review-papers/">O que é um Invited Review?</a>
+    </header>
+    
+    <div class="card-content">
+        <div class="content">
+            
+            
+                <p></p>
+<p>Ultimamente recebemos no <em>Brazilian Journal of Geology</em> (BJGEO) alguns pedidos de autores interessados em enviar artigos de revisão, os <em>“Invited Reviews”</em>. Mas o que é esse tipo de artigo? Uma revisão bibliográfica de tese pode ser publicada dessa maneira? Vamos ver:</p>
+
+            
+        </div>
+        <div class="has-text-centered">
+            <a href="/2020/08/23/bjgeo-review-papers/" class="button is-primary">Read more</a>
+        </div>
+    </div>
+    <footer class="card-footer">
+        <p class="card-footer-item">Published: Aug 23, 2020</p>
+    </footer>
+</div>
+    </div>
+    
+    <div class="column is-12">
+        <div class="card">
+    
+    <header class="card-header">
+        <a class="card-header-title" href="/2020/01/28/utm_south/">UTM 23S??</a>
+    </header>
+    
+    <div class="card-content">
+        <div class="content">
+            
+            
+                <p></p>
+<p>If there’s one thing that I see all the time as a reviewer, is a map of some study area in Brazil with a caption like “UTM coordinates zone 23S”.</p>
+
+            
+        </div>
+        <div class="has-text-centered">
+            <a href="/2020/01/28/utm_south/" class="button is-primary">Read more</a>
+        </div>
+    </div>
+    <footer class="card-footer">
+        <p class="card-footer-item">Published: Jan 28, 2020</p>
+    </footer>
+</div>
+    </div>
+    
+    <div class="column is-12">
+        <div class="card">
+    
+    <header class="card-header">
+        <a class="card-header-title" href="/2020/01/27/faq_bjgeo/">FAQ about BJGEO</a>
+    </header>
+    
+    <div class="card-content">
+        <div class="content">
+            
+            
+                <p></p>
+<p>The <a href="http://www.scielo.br/bjgeo/" target="_blank" rel="noopener noreferrer">Brazilian Journal of Geology</a> is the official publication of the <a href="http://www.sbgeo.org.br/" target="_blank" rel="noopener noreferrer">Brazilian Geological Society</a>. As the Deputy Editor, I receive emails with common questions about the journal. So I decided to crate a page with some useful information for potential authors.</p>
+
+            
+        </div>
+        <div class="has-text-centered">
+            <a href="/2020/01/27/faq_bjgeo/" class="button is-primary">Read more</a>
+        </div>
+    </div>
+    <footer class="card-footer">
+        <p class="card-footer-item">Published: Jan 27, 2020</p>
+    </footer>
+</div>
+    </div>
+    
+</div>
+
+
+
+
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    
+        <footer class="footer">
+    <div class="container">
+        
+        
+        <div class="columns is-multiline">
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="/" class="link">Home</a>
+                </div>
+            </div>
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="https://orcid.org/0000-0001-5073-5572" class="link" target="_blank" rel="noopener noreferrer">ORCiD</a>
+                </div>
+            </div>
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="https://scholar.google.com/V3s8mq4AAAAJ" class="link" target="_blank" rel="noopener noreferrer">Scholar</a>
+                </div>
+            </div>
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="http://lattes.cnpq.br/5846052449613692" class="link" target="_blank" rel="noopener noreferrer">CV Lattes</a>
+                </div>
+            </div>
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="https://github.com/CarlosGrohmann" class="link" target="_blank" rel="noopener noreferrer">GitHub</a>
+                </div>
+            </div>
+            
+        </div>
+        
+
+        <div class="content is-small has-text-centered">
+            <p class="">Prof. Carlos H. Grohmann 2023 | Theme built by <a href="https://www.csrhymes.com" target="_blank" rel="noopener noreferrer">C.S. Rhymes</a></p>
+        </div>
+    </div>
+</footer>
+
+    
+    <script src="/assets/js/app.js" type="text/javascript"></script><!-- footer scripts --></body>
+</html>
