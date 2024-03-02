@@ -21,9 +21,9 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-social@1/bin/bulma-social.min.css">
     
     <!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Map | Prof. Carlos H. Grohmann</title>
-<meta name="generator" content="Jekyll v4.3.2" />
-<meta property="og:title" content="Map" />
+<title>Some interesting places I’ve been | Prof. Carlos H. Grohmann</title>
+<meta name="generator" content="Jekyll v4.3.3" />
+<meta property="og:title" content="Some interesting places I’ve been" />
 <meta property="og:locale" content="en" />
 <meta name="description" content="Personal website of Prof. Carlos H. Grohmann (IEE-USP, Brazil)" />
 <meta property="og:description" content="Personal website of Prof. Carlos H. Grohmann (IEE-USP, Brazil)" />
@@ -32,9 +32,9 @@
 <meta property="og:site_name" content="Prof. Carlos H. Grohmann" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Map" />
+<meta property="twitter:title" content="Some interesting places I’ve been" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","description":"Personal website of Prof. Carlos H. Grohmann (IEE-USP, Brazil)","headline":"Map","url":"http://carlosgrohmann.com/gmaps/"}</script>
+{"@context":"https://schema.org","@type":"WebPage","description":"Personal website of Prof. Carlos H. Grohmann (IEE-USP, Brazil)","headline":"Some interesting places I’ve been","url":"http://carlosgrohmann.com/gmaps/"}</script>
 <!-- End Jekyll SEO tag -->
 
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-7P4EVX4K99"></script>
@@ -140,7 +140,7 @@
         <section class="hero  is-medium  is-bold is-primary" style="background: url('/img/bigimg/header_araca2.jpg') no-repeat center center; background-size: cover;">
     <div class="hero-body ">
         <div class="container">
-            <h1 class="title is-2">Map</h1>
+            <h1 class="title is-2">Some interesting places I've been</h1>
             <p class="subtitle is-3"></p>
             
         </div>
@@ -163,21 +163,19 @@
                     
 <div class="content">
     <div>
-Map created with <a href="http://leafletjs.com" target="_blank" rel="noopener noreferrer">Leaflet</a>, using base layer data from <a href="https://www.mapbox.com" target="_blank" rel="noopener noreferrer">MapBox</a>.
-<br>
-There's a <a href="https://carlosgrohmann.com/blog/making-a-where-ive-been-map-with-leaflet/" target="_blank">post on my blog</a> explaining how to make this map.
+Map created with <a href="http://leafletjs.com" target="_blank" rel="noopener noreferrer">Leaflet</a>.
 <br>
 For a more immersive experience, there's a full-screen version <a href="/pages/gmaps_full.html" target="_blank">here</a> (opens in a new tab/window).
+<br>
+<br>
 </div>
 
 <div>
-<h4>Some interesting places I've been</h4>
-
 <!-- JQuery -->
 <script src="/assets/js/jquery-3.4.1.min.js"></script>
 
 <!-- Leaflet stuff -->
-<link rel="stylesheet" href="/assets/js/leaflet.css">
+<link href="/assets/js/leaflet.css" rel="stylesheet">
 <script src="/assets/js/leaflet.js"></script>
 <script src="/assets/js/leaflet-providers.js"></script>
 
@@ -192,49 +190,15 @@ For a more immersive experience, there's a full-screen version <a href="/pages/g
 
 <!-- LeafLet map  - relative link -->
 <div id="map"></div>
-
 </div>
 <!-- places.geojson -->
 <link rel="points" type="application/json" href="/assets/js/places.geojson">
 
-<!-- <script src='places.geojson' type="text/javascript"></script> http://{s}.tiles.mapbox.com/v4/mapbox.natural-earth-2/{z}/{x}/{y}.png-->
-
-<!--  -->
-<!-- https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png -->
-<!-- https://{s}.tiles.mapbox.com/v4/mapbox.satellite/${z}/${x}/${y}.png -->
-
 <script>
-    // create map
-    // var map = L.map('map').setView([15, 0], 1);
-    // Basic MBox map - zooms 0-4
-    // mapbox_simple = L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
-    //         maxZoom: 4,
-    //         minZoom: 0,
-    //         id: 'mapbox.streets',
-    //         accessToken: 'pk.eyJ1IjoiY2FybG9zZ3JvaG1hbm4iLCJhIjoiOGNmS3ptYyJ9.WzKUdXGmEgbl4C5EdQMhMw',
-    //         attribution: '&copy; Tiles Courtesy of <a href="https://www.mapbox.com" title="MapBox" target="_blank">MapBox</a>',
-    //         }).addTo(map);
-    // // MapBox Terrain - zooms 5-18
-    // MBTerrain = L.tileLayer('http://{s}.tiles.mapbox.com/v3/carlosgrohmann.ibb4756i/{z}/{x}/{y}.png', {
-    //         maxZoom: 18,
-    //         minZoom: 5,
-    //         attribution: '&copy; Tiles Courtesy of <a href="https://www.mapbox.com" title="MapBox" target="_blank">MapBox</a>',
-    //         }).addTo(map);
-
-    // L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
-    // attribution: '© <a href="https://www.mapbox.com/about/maps/">Mapbox</a> © <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> <strong><a href="https://www.mapbox.com/map-feedback/" target="_blank">Improve this map</a></strong>',
-    // tileSize: 512,
-    // maxZoom: 18,
-    // minZoom: 0,
-    // zoomOffset: -1,
-    // id: 'mapbox/satellite-streets-v11',
-    // accessToken: 'pk.eyJ1IjoiY2FybG9zZ3JvaG1hbm4iLCJhIjoiOGNmS3ptYyJ9.WzKUdXGmEgbl4C5EdQMhMw'
-    // }).addTo(map);
-
 
     var OpenTopoMap = L.tileLayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png', {
         maxZoom: 17,
-        attribution: 'Map data: &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, <a href="http://viewfinderpanoramas.org">SRTM</a> | Map style: &copy; <a href="https://opentopomap.org">OpenTopoMap</a> (<a href="https://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>)'
+        attribution: 'Map data: &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, <a href="http://viewfinderpanoramas.org">SRTM</a> | Map style: &copy; <a href="https://opentopomap.org">/oOpenTopoMap</a> (<a href="https://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>)'
     });
 
     var OpenStreetMap_Mapnik = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -259,13 +223,15 @@ For a more immersive experience, there's a full-screen version <a href="/pages/g
         maxZoom: 13
     });
 
-    // color itens coording to properties
+    // color itens acording to properties
     function getColor(category) {
-        return category == "airport"  ?   '#002E63' : 
+        return category == "airport"  ?   '#002E63' :
+               category == "port"     ?   '#002E63' : 
                category == "place"    ?   '#FF7E00' :
                category == "dive"     ?   '#FF0000' :
                                           '#000';
     }
+
 
     // Attaching a GeoJSON file with relative link: (from: http://lyzidiamond.com/posts/osgeo-august-meeting/)
     // var places = L.layerGroup();
@@ -277,7 +243,7 @@ For a more immersive experience, there's a full-screen version <a href="/pages/g
             },
             pointToLayer: function (feature, latlng) {
                 return L.circleMarker(latlng, {
-                radius: 3,
+                radius: 6,
                 Label: getColor(feature.properties.Title), 
                 fillColor: getColor(feature.properties.category), 
                 color: "#000",
@@ -291,12 +257,11 @@ For a more immersive experience, there's a full-screen version <a href="/pages/g
 
     //vars for the layer control
         var otm = OpenTopoMap,
-            osm  =  OpenStreetMap_Mapnik,
+            osm = OpenStreetMap_Mapnik,
             ewsm = Esri_WorldStreetMap,
             ewtm = Esri_WorldTopoMap,
             ewim = Esri_WorldImagery,
             ewsr = Esri_WorldShadedRelief;
-
 
         var map = L.map('map', {
             center: [15,0],
@@ -313,11 +278,6 @@ For a more immersive experience, there's a full-screen version <a href="/pages/g
             "OpenStreetMap Mapnik": osm
         };
 
-        // var overlays = {
-        //     "Places": places
-        // };
-
-        // L.control.layers(baseLayers, overlays).addTo(map);
         L.control.layers(baseLayers).addTo(map);
 
 </script>
@@ -373,7 +333,7 @@ For a more immersive experience, there's a full-screen version <a href="/pages/g
         
 
         <div class="content is-small has-text-centered">
-            <p class="">Prof. Carlos H. Grohmann 2023 | Theme built by <a href="https://www.csrhymes.com" target="_blank" rel="noopener noreferrer">C.S. Rhymes</a></p>
+            <p class="">Prof. Carlos H. Grohmann 2024 | Theme built by <a href="https://www.csrhymes.com" target="_blank" rel="noopener noreferrer">C.S. Rhymes</a></p>
         </div>
     </div>
 </footer>
