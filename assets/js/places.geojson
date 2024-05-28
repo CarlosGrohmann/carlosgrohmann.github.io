@@ -62,13 +62,18 @@
 { "type": "Feature", "properties": { "latitude": 9.066857, "longitude": -79.387171, "category": "airport", "Title": "Tocumen International Airport (PTY)", "field_5": null }, "geometry": { "type": "Point", "coordinates": [ -79.387171, 9.066857 ] } },
 { "type": "Feature", "properties": { "latitude": 47.4574173, "longitude": 8.5563075, "category": "airport", "Title": "Z&uuml;rich International Airport (ZRH)", "field_5": null }, "geometry": { "type": "Point", "coordinates": [ 8.5563075, 47.4574173 ] } },
 { "type": "Feature", "properties": { "latitude": 44.569987, "longitude": 26.0948660, "category": "airport", "Title": "Bucharest International Airport (OTP)", "field_5": null }, "geometry": { "type": "Point", "coordinates": [ 26.0948660, 44.569987 ] } },
-{ "type": "Feature", "properties": { "latitude": 47.176814, "longitude": 27.6176537, "category": "airport", "Title": "Ia&scedil;i International Airport (IAS)", "field_5": null }, "geometry": { "type": "Point", "coordinates": [ 27.6176537, 47.176814 ] } },
+{ "type": "Feature", "properties": { "latitude": 47.176814, "longitude": 27.6176537, "category": "airport", "Title": "Ia&scedil;i International Airport (IAS)", "field_5": null }, 
+"geometry": { "type": "Point", "coordinates": [ 27.6176537, 47.176814 ] } },
+{ "type": "Feature", "properties": { "latitude": 41.805390, "longitude": 12.253801, "category": "airport", "Title": "Rome Fiumicino International Airport (FCO)", "field_5": null }, "geometry": { "type": "Point", "coordinates": [ 12.253801, 41.805390 ] } },
+
 
 { "type": "Feature", "properties": { "latitude": 49.290498, "longitude": -123.11867, "category": "port", "Title": "Vancouver SeaAir terminal", "field_5": null }, "geometry": { "type": "Point", "coordinates": [ -123.11867, 49.290498 ] } },
 { "type": "Feature", "properties": { "latitude": 49.191011, "longitude": -123.948136, "category": "port", "Title": "Nanaimo SeaAir terminal", "field_5": null }, "geometry": { "type": "Point", "coordinates": [ -123.948136, 49.191011 ] } },
 { "type": "Feature", "properties": { "latitude": 49.191983, "longitude": -123.953661, "category": "port", "Title": "Nanaimo Ferry Terminal", "field_5": null }, "geometry": { "type": "Point", "coordinates": [ -123.953661, 49.191983 ] } },
 { "type": "Feature", "properties": { "latitude": 51.126556, "longitude": 1.335354, "category": "port", "Title": "Port of Dover - Waiting for the ferry to France", "field_5": null }, "geometry": { "type": "Point", "coordinates": [ 1.335354, 51.126556 ] } },
 { "type": "Feature", "properties": { "latitude": 51.019586, "longitude": 2.17392, "category": "port", "Title": "Port of Calais - Waiting for the ferry back to England", "field_5": null }, "geometry": { "type": "Point", "coordinates": [ 2.17392, 51.019586 ] } },
+{ "type": "Feature", "properties": { "latitude": 43.210518, "longitude": 12.008202, "category": "place", "Title": "Terontola-Cortona - Italia - stuck because of a strike", "field_5": null }, "geometry": { "type": "Point", "coordinates": [ 12.008202, 43.210518 ] } },
+
 
 { "type": "Feature", "properties": { "latitude": -23.499046, "longitude": -47.462837, "category": "place", "Title": "Sorocaba SP - Brazil - Home sweet home", "field_5": null }, "geometry": { "type": "Point", "coordinates": [ -47.462837, -23.499046 ] } },
 { "type": "Feature", "properties": { "latitude": -15.794896, "longitude": -47.882538, "category": "place", "Title": "Bras&iacute;lia - THIS is the Capital of Brazil!! (not Rio)", "field_5": null }, "geometry": { "type": "Point", "coordinates": [ -47.882538, -15.794896 ] } },
@@ -303,6 +308,7 @@
 { "type": "Feature", "properties": { "latitude": 52.537063, "longitude": 13.393199, "category": "place", "Title": "Berlin - Germany", "field_5": null }, "geometry": { "type": "Point", "coordinates": [ 13.393199, 52.537063 ] } },
 { "type": "Feature", "properties": { "latitude": 45.771861, "longitude": 8.573611, "category": "place", "Title": "Angera - Italy", "field_5": null }, "geometry": { "type": "Point", "coordinates": [ 8.573611, 45.771861 ] } },
 { "type": "Feature", "properties": { "latitude": 44.444956, "longitude": 26.0760501, "category": "place", "Title": "Bucharest - Romania", "field_5": null }, "geometry": { "type": "Point", "coordinates": [ 26.0760501, 44.444956 ] } },
+{ "type": "Feature", "properties": { "latitude": 43.108920, "longitude": 12.388367, "category": "place", "Title": "Perugia - Italia", "field_5": null }, "geometry": { "type": "Point", "coordinates": [ 12.388367, 43.108920 ] } },
 { "type": "Feature", "properties": { "latitude": -22.951577, "longitude": -43.210741, "category": "place", "Title": "Rio de Janeiro - Brazil - 31st International Geological Congress (2000) - This is not the Capital of Brazil!!", "field_5": null }, "geometry": { "type": "Point", "coordinates": [ -43.210741, -22.951577 ] } },
 { "type": "Feature", "properties": { "latitude": 38.9476010, "longitude": -77.366466, "category": "place", "Title": "Reston - VA - USGS Workshop: SRTM Data Validation and Applications (2005)", "field_5": null }, "geometry": { "type": "Point", "coordinates": [ -77.366466, 38.947601 ] } },
 { "type": "Feature", "properties": { "latitude": 31.8542310, "longitude": 118.774567, "category": "place", "Title": "Nanjing - China - International Symposium on Terrain Analysis and Digital Terrain Modeling (2006)", "field_5": null }, "geometry": { "type": "Point", "coordinates": [ 118.774567, 31.854231 ] } },
@@ -329,6 +335,7 @@
 { "type": "Feature", "properties": { "latitude": -1.4617100, "longitude": -48.503094, "category": "place", "Title": "Bel&eacute;m - PA - 45th Brazilian Geological Congress (2010)", "field_5": null }, "geometry": { "type": "Point", "coordinates": [ -48.503094, -1.46171 ] } },
 { "type": "Feature", "properties": { "latitude": -23.959187, "longitude": -46.335037, "category": "place", "Title": "Santos - SP - 46th Brazilian Geological Congress (2012)", "field_5": null }, "geometry": { "type": "Point", "coordinates": [ -46.335037, -23.959187 ] } },
 { "type": "Feature", "properties": { "latitude": -12.983970, "longitude": -38.440526, "category": "place", "Title": "Salvador - BA - 47th Brazilian Geological Congress (2014)", "field_5": null }, "geometry": { "type": "Point", "coordinates": [ -38.440526, -12.98397 ] } },
+
 
 { "type": "Feature", "properties": { "latitude": -23.063307, "longitude": -44.608355, "category": "dive", "Title": "Paraty - Ilha dos Ratos", "field_5": null }, "geometry": { "type": "Point", "coordinates": [ -44.608355, -23.063307 ] } },
 { "type": "Feature", "properties": { "latitude": -23.191779, "longitude": -44.623299, "category": "dive", "Title": "Paraty - Ilha Comprida", "field_5": null }, "geometry": { "type": "Point", "coordinates": [ -44.623299, -23.191779 ] } },
