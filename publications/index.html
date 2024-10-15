@@ -181,7 +181,110 @@
 <ul class="bibliography">
 <li>
 <div class="block has-text-justified">
-<span id="Bielski2024">Bielski, C., López-Vázquez, C., Grohmann, C. H., Guth, P. L., Hawker, L., Gesch, D., Trevisani, S., Herrera-Cruz, V., Riazanoff, S., Corseaux, A., Reuter, H. I., &amp; Strobl, P. 2024. Novel approach for ranking DEMs: Copernicus DEM improves one arc second open global topography. <i>IEEE Transactions on Geoscience &amp; Remote Sensing</i>, -(-).</span>
+<span id="Alvioli2024benchmark">Alvioli, M., Loche, M., Jacobs, L., Grohmann, C. H., Abraham, M. T., Gupta, K., Satyam, N., Scaringi, G., Bornaetxea, T., Rossi, M., Marchesini, I., Lombardo, L., Moreno, M., Steger, S., Camera, C., Bajni, G., Samodra, G., Wahyudi, E. E., Susyanto, N., Sinčić, M., et al. 2024. A benchmark dataset and workflow for landslide susceptibility zonation. <i>Earth-Science Reviews</i>, 104927.</span>
+
+<div class="buttons">
+
+
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View abstract" button="" class="button is-small is-info is-light modal-button" data-target="Alvioli2024benchmark" aria-haspopup="true">Abstract</a>
+      <div class="modal" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+          <div class="modal-card">
+            <header class="modal-card-head">
+              <p class="modal-card-title">Abstract</p>
+            </header>
+              <section class="modal-card-body">
+                  <div class="content">
+                    Landslide susceptibility shows the spatial likelihood of landslide occurrence in a specific geographical area and is a relevant tool for mitigating the impact of landslides worldwide. As such, it is the subject of countless scientific studies. Many methods exist for generating a susceptibility map, mostly falling under the definition of statistical or machine learning. These models try to solve a classification problem: given a collection of spatial variables, and their combination associated with landslide presence or absence, a model should be trained, tested to reproduce the target outcome, and eventually applied to unseen data. Contrary to many fields of science that use machine learning for specific tasks, no reference data exist to assess the performance of a given method for landslide susceptibility. Here, we propose a benchmark dataset consisting of 7360 slope units encompassing an area of about 4,100km2 in Central Italy. Using the dataset, we tried to answer two open questions in landslide research: (1) what effect does the human variability have in creating susceptibility models; (2) how can we develop a reproducible workflow for allowing meaningful model comparisons within the landslide susceptibility research community. With these questions in mind, we released a preliminary version of the dataset, along with a “call for collaboration,” aimed at collecting different calculations using the proposed data, and leaving the freedom of implementation to the respondents. Contributions were different in many respects, including classification methods, use of predictors, implementation of training/validation, and performance assessment. That feedback suggested refining the initial dataset, and constraining the implementation workflow. This resulted in a final benchmark dataset and landslide susceptibility maps obtained with many classification methods. Values of area under the receiver operating characteristic curve obtained with the final benchmark dataset were rather similar, as an effect of constraints on training, cross–validation, and use of data. Brier score results show larger variability, instead, ascribed to different model predictive abilities. Correlation plots show similarities between results of different methods applied by the same group, ascribed to a residual implementation dependence. We stress that the experiment did not intend to select the “best” method but only to establish a first benchmark dataset and workflow, that may be useful as a standard reference for calculations by other scholars. The experiment, to our knowledge, is the first of its kind for landslide susceptibility modeling. The data and workflow presented here comparatively assess the performance of independent methods for landslide susceptibility and we suggest the benchmark approach as a best practice for quantitative research in geosciences.
+                  </div>
+              </section>
+          </div>
+        </div>
+</div>
+
+
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View BibTeX" button="" class="button is-small is-info is-light modal-button" aria-haspopup="true">BibTeX</a>
+      <div class="modal" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+          <div class="modal-card">
+            <header class="modal-card-head">
+              <p class="modal-card-title">BibTeX</p>
+            </header>
+              <section class="modal-card-body">
+                  <div class="content">
+                    <pre>
+                    @article{Alvioli2024benchmark,
+  title = {{A benchmark dataset and workflow for landslide susceptibility zonation}},
+  issn = {0012-8252},
+  url = {https://www.sciencedirect.com/science/article/pii/S0012825224002551},
+  doi = {10.1016/j.earscirev.2024.104927},
+  journal = {Earth-Science Reviews},
+  publisher = {Elsevier BV},
+  author = {Alvioli, Massimiliano and Loche, Marco and Jacobs, Liesbet and Grohmann, C. H. and Abraham, Minu Treesa and Gupta, Kunal and Satyam, Neelima and Scaringi, Gianvito and Bornaetxea, Txomin and Rossi, Mauro and Marchesini, Ivan and Lombardo, Luigi and Moreno, Mateo and Steger, Stefan and Camera, Corrado and Bajni, Greta and Samodra, Guruh and Wahyudi, Erwin Eko and Susyanto, Nanang and Sinčić, Marko and Gazibara, Sanja Bernat and Sirbu, Flavius and Torizin, Jewgenij and Sch\"{u}ßler, Nick and Mirus, Benjamin and Woodard, Jacob and Aguilera, Héctor and Rivera-Rivera, Jhonatan Steven},
+  year = {2024},
+  month = sep,
+  pages = {104927},
+  access = {Paywalled},
+  kind = {journal},
+  owner = {guano}
+}
+
+                    </pre>
+                  </div>
+              </section>
+          </div>
+        </div>
+</div>
+
+
+<a title="Open article (new tab)" class="button is-small is-warning is-light" rel="noopener noreferrer noopener noreferrer" target="_blank" href="http://dx.doi.org/10.1016/j.earscirev.2024.104927">Paywalled</a>
+
+
+
+
+
+
+</div>
+
+</div>
+
+<p></p>
+
+<!--  <a class="button is-small is-info" data-toggle="collapse" href="#Alvioli2024benchmark-abstract">Abstract</a>
+<pre style="white-space:pre-wrap;" id="Alvioli2024benchmark-abstract" class="pre pre-scrollable collapse">Landslide susceptibility shows the spatial likelihood of landslide occurrence in a specific geographical area and is a relevant tool for mitigating the impact of landslides worldwide. As such, it is the subject of countless scientific studies. Many methods exist for generating a susceptibility map, mostly falling under the definition of statistical or machine learning. These models try to solve a classification problem: given a collection of spatial variables, and their combination associated with landslide presence or absence, a model should be trained, tested to reproduce the target outcome, and eventually applied to unseen data. Contrary to many fields of science that use machine learning for specific tasks, no reference data exist to assess the performance of a given method for landslide susceptibility. Here, we propose a benchmark dataset consisting of 7360 slope units encompassing an area of about 4,100km2 in Central Italy. Using the dataset, we tried to answer two open questions in landslide research: (1) what effect does the human variability have in creating susceptibility models; (2) how can we develop a reproducible workflow for allowing meaningful model comparisons within the landslide susceptibility research community. With these questions in mind, we released a preliminary version of the dataset, along with a “call for collaboration,” aimed at collecting different calculations using the proposed data, and leaving the freedom of implementation to the respondents. Contributions were different in many respects, including classification methods, use of predictors, implementation of training/validation, and performance assessment. That feedback suggested refining the initial dataset, and constraining the implementation workflow. This resulted in a final benchmark dataset and landslide susceptibility maps obtained with many classification methods. Values of area under the receiver operating characteristic curve obtained with the final benchmark dataset were rather similar, as an effect of constraints on training, cross–validation, and use of data. Brier score results show larger variability, instead, ascribed to different model predictive abilities. Correlation plots show similarities between results of different methods applied by the same group, ascribed to a residual implementation dependence. We stress that the experiment did not intend to select the “best” method but only to establish a first benchmark dataset and workflow, that may be useful as a standard reference for calculations by other scholars. The experiment, to our knowledge, is the first of its kind for landslide susceptibility modeling. The data and workflow presented here comparatively assess the performance of independent methods for landslide susceptibility and we suggest the benchmark approach as a best practice for quantitative research in geosciences.</pre>
+
+<a class="button is-small is-info" data-toggle="collapse" href="#Alvioli2024benchmark-bibtex">BibTeX</a>
+<pre id="Alvioli2024benchmark-bibtex" class="pre pre-scrollable collapse">@article{Alvioli2024benchmark,
+  title = {{A benchmark dataset and workflow for landslide susceptibility zonation}},
+  issn = {0012-8252},
+  url = {https://www.sciencedirect.com/science/article/pii/S0012825224002551},
+  doi = {10.1016/j.earscirev.2024.104927},
+  journal = {Earth-Science Reviews},
+  publisher = {Elsevier BV},
+  author = {Alvioli, Massimiliano and Loche, Marco and Jacobs, Liesbet and Grohmann, C. H. and Abraham, Minu Treesa and Gupta, Kunal and Satyam, Neelima and Scaringi, Gianvito and Bornaetxea, Txomin and Rossi, Mauro and Marchesini, Ivan and Lombardo, Luigi and Moreno, Mateo and Steger, Stefan and Camera, Corrado and Bajni, Greta and Samodra, Guruh and Wahyudi, Erwin Eko and Susyanto, Nanang and Sinčić, Marko and Gazibara, Sanja Bernat and Sirbu, Flavius and Torizin, Jewgenij and Sch\"{u}ßler, Nick and Mirus, Benjamin and Woodard, Jacob and Aguilera, Héctor and Rivera-Rivera, Jhonatan Steven},
+  year = {2024},
+  month = sep,
+  pages = {104927},
+  access = {Paywalled},
+  kind = {journal},
+  owner = {guano}
+}
+</pre> -->
+
+
+
+
+
+
+
+
+
+</li>
+<li>
+<div class="block has-text-justified">
+<span id="Bielski2024">Bielski, C., López-Vázquez, C., Grohmann, C. H., Guth, P. L., Hawker, L., Gesch, D., Trevisani, S., Herrera-Cruz, V., Riazanoff, S., Corseaux, A., Reuter, H. I., &amp; Strobl, P. 2024. Novel approach for ranking DEMs: Copernicus DEM improves one arc second open global topography. <i>IEEE Transactions on Geoscience &amp; Remote Sensing</i>, 62(1): 1–22.</span>
 
 <div class="buttons">
 
@@ -220,13 +323,14 @@
   journal = {IEEE Transactions on Geoscience &amp; Remote Sensing},
   title = {{Novel approach for ranking DEMs: Copernicus DEM improves one arc second open global topography}},
   year = {2024},
-  number = {-},
-  volume = {-},
+  number = {1},
+  pages = {1-22},
+  volume = {62},
   access = {Open Access},
   doi = {10.1109/TGRS.2024.3368015},
+  kind = {journal},
   oalink = {https://doi.org/10.1109/TGRS.2024.3368015},
-  url = {https://doi.org/10.1109/TGRS.2024.3368015},
-  kind = {journal}
+  url = {https://doi.org/10.1109/TGRS.2024.3368015}
 }
 
                     </pre>
@@ -259,13 +363,14 @@
   journal = {IEEE Transactions on Geoscience & Remote Sensing},
   title = {{Novel approach for ranking DEMs: Copernicus DEM improves one arc second open global topography}},
   year = {2024},
-  number = {-},
-  volume = {-},
+  number = {1},
+  pages = {1-22},
+  volume = {62},
   access = {Open Access},
   doi = {10.1109/TGRS.2024.3368015},
+  kind = {journal},
   oalink = {https://doi.org/10.1109/TGRS.2024.3368015},
-  url = {https://doi.org/10.1109/TGRS.2024.3368015},
-  kind = {journal}
+  url = {https://doi.org/10.1109/TGRS.2024.3368015}
 }
 </pre> -->
 
@@ -280,7 +385,108 @@
 </li>
 <li>
 <div class="block has-text-justified">
-<span id="Dias2024_jsaes">Dias, H. C., &amp; Grohmann, C. H. 2024. Standards for shallow landslide identification in Brazil: Spatial trends and inventory mapping. <i>Journal of South American Earth Sciences</i>, 135: 104805.</span>
+<span id="Coelho2024bjgeo">Coelho*, R. D., Viana, C. D., Dias**, V. C., &amp; Grohmann, C. H. 2024. Landslides of the 2023 summer event of São Sebastião, southeastern Brazil: spatial dataset. <i>Brazilian Journal of Geology</i>, 54: e20240006.</span>
+
+<div class="buttons">
+
+
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View abstract" button="" class="button is-small is-info is-light modal-button" data-target="Coelho2024bjgeo" aria-haspopup="true">Abstract</a>
+      <div class="modal" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+          <div class="modal-card">
+            <header class="modal-card-head">
+              <p class="modal-card-title">Abstract</p>
+            </header>
+              <section class="modal-card-body">
+                  <div class="content">
+                    In February 2023, anomalously heavy rainfall caused widespread landslides in the coastal city of São Sebastião (Southeastern Brazil). This report describes the first version of a landslide inventory dataset for this event. The inventory is based primarily on the analysis of aerial images with 10 cm spatial resolution acquired immediately after the event, as well as archive images from Google Earth and PlanetScope. Delimitation of the landslides relied on a comparison of the images along with the area’s Digital Surface Model (DSM) and hydrography. The spatial vector dataset (shapefile and geopackage) contains points representing the landslide’s crowns, polygons indicating the affected area, and is openly available in Zenodo.
+                  </div>
+              </section>
+          </div>
+        </div>
+</div>
+
+
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View BibTeX" button="" class="button is-small is-info is-light modal-button" aria-haspopup="true">BibTeX</a>
+      <div class="modal" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+          <div class="modal-card">
+            <header class="modal-card-head">
+              <p class="modal-card-title">BibTeX</p>
+            </header>
+              <section class="modal-card-body">
+                  <div class="content">
+                    <pre>
+                    @article{Coelho2024bjgeo,
+  author = {Coelho*, R. D. and Viana, C. D. and Dias**, V. C. and Grohmann, C. H.},
+  journal = {{Brazilian Journal of Geology}},
+  title = {{Landslides of the 2023 summer event of São Sebastião, southeastern Brazil: spatial dataset}},
+  year = {2024},
+  volume = {54},
+  access = {Open Access},
+  doi = {10.1590/2317-4889202420240006},
+  kind = {journal},
+  pages = {e20240006},
+  language = {en},
+  oalink = {https://doi.org/10.1590/2317-4889202420240006},
+  url = {https://doi.org/10.1590/2317-4889202420240006}
+}
+
+                    </pre>
+                  </div>
+              </section>
+          </div>
+        </div>
+</div>
+
+
+<a title="Open article (new tab)" class="button is-small is-success is-light" rel="noopener noreferrer noopener noreferrer" target="_blank" href="https://doi.org/10.1590/2317-4889202420240006">Open Access</a>
+
+
+
+
+
+
+</div>
+
+</div>
+
+<p></p>
+
+<!--  <a class="button is-small is-info" data-toggle="collapse" href="#Coelho2024bjgeo-abstract">Abstract</a>
+<pre style="white-space:pre-wrap;" id="Coelho2024bjgeo-abstract" class="pre pre-scrollable collapse">In February 2023, anomalously heavy rainfall caused widespread landslides in the coastal city of São Sebastião (Southeastern Brazil). This report describes the first version of a landslide inventory dataset for this event. The inventory is based primarily on the analysis of aerial images with 10 cm spatial resolution acquired immediately after the event, as well as archive images from Google Earth and PlanetScope. Delimitation of the landslides relied on a comparison of the images along with the area’s Digital Surface Model (DSM) and hydrography. The spatial vector dataset (shapefile and geopackage) contains points representing the landslide’s crowns, polygons indicating the affected area, and is openly available in Zenodo.</pre>
+
+<a class="button is-small is-info" data-toggle="collapse" href="#Coelho2024bjgeo-bibtex">BibTeX</a>
+<pre id="Coelho2024bjgeo-bibtex" class="pre pre-scrollable collapse">@article{Coelho2024bjgeo,
+  author = {Coelho*, R. D. and Viana, C. D. and Dias**, V. C. and Grohmann, C. H.},
+  journal = {{Brazilian Journal of Geology}},
+  title = {{Landslides of the 2023 summer event of São Sebastião, southeastern Brazil: spatial dataset}},
+  year = {2024},
+  volume = {54},
+  access = {Open Access},
+  doi = {10.1590/2317-4889202420240006},
+  kind = {journal},
+  pages = {e20240006},
+  language = {en},
+  oalink = {https://doi.org/10.1590/2317-4889202420240006},
+  url = {https://doi.org/10.1590/2317-4889202420240006}
+}
+</pre> -->
+
+
+
+
+
+
+
+
+
+</li>
+<li>
+<div class="block has-text-justified">
+<span id="Dias2024_jsaes">Dias*, H. C., &amp; Grohmann, C. H. 2024. Standards for shallow landslide identification in Brazil: Spatial trends and inventory mapping. <i>Journal of South American Earth Sciences</i>, 135: 104805.</span>
 
 <div class="buttons">
 
@@ -315,7 +521,7 @@
                   <div class="content">
                     <pre>
                     @article{Dias2024_jsaes,
-  author = {Dias, H. C. and Grohmann, C. H.},
+  author = {Dias*, H. C. and Grohmann, C. H.},
   journal = {Journal of South American Earth Sciences},
   title = {{Standards for shallow landslide identification in Brazil: Spatial trends and inventory mapping}},
   year = {2024},
@@ -355,7 +561,7 @@
 
 <a class="button is-small is-info" data-toggle="collapse" href="#Dias2024_jsaes-bibtex">BibTeX</a>
 <pre id="Dias2024_jsaes-bibtex" class="pre pre-scrollable collapse">@article{Dias2024_jsaes,
-  author = {Dias, H. C. and Grohmann, C. H.},
+  author = {Dias*, H. C. and Grohmann, C. H.},
   journal = {Journal of South American Earth Sciences},
   title = {{Standards for shallow landslide identification in Brazil: Spatial trends and inventory mapping}},
   year = {2024},
@@ -474,6 +680,208 @@
   oalink = {https://doi.org/10.1016/j.mex.2024.102694},
   owner = {guano},
   kind = {journal}
+}
+</pre> -->
+
+
+
+
+
+
+
+
+
+</li>
+<li>
+<div class="block has-text-justified">
+<span id="Ferreira2024marpolbul">Ferreira, A. T. S., Wetter, N. U., Ribeiro, M. C. H., Esteves, L. S., Dias, A. J. G., Grohmann, C. H., Kuznetsova, M., de Freitas, A. Z., de Oliveira, R. C., &amp; Siegle, E. 2024. Recognizing microplastic deposits on sandy beaches by altimetric positioning, μ-Raman spectroscopy and multivariate statistical models. <i>Marine Pollution Bulletin</i>, 209: 117025.</span>
+
+<div class="buttons">
+
+
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View abstract" button="" class="button is-small is-info is-light modal-button" data-target="Ferreira2024marpolbul" aria-haspopup="true">Abstract</a>
+      <div class="modal" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+          <div class="modal-card">
+            <header class="modal-card-head">
+              <p class="modal-card-title">Abstract</p>
+            </header>
+              <section class="modal-card-body">
+                  <div class="content">
+                    Understanding the extent and implications of microplastic (MP) pollution along the São Paulo State coastline in southeastern Brazil is crucial, considering the significant environmental burden imposed by industrial and port activities in this region. This research aims to understand the complex dynamics of MP deposition on sandy beaches, which poses severe environmental risks to coastal ecosystems, marine organisms, and humans. Using a comprehensive five-step methodology—geodetic surveys, sediment collection, μ-RAMAN spectrometry for polymer identification, and multivariate statistical models—we analyzed the distribution of MPs across six coastal compartments (C1 to C6). The results (128 samples from 34 profiles) revealed relatively high MP concentrations in C3 and C2, which were likely influenced by local human activities. Various shape types of MPs, such as pellets, fragments, and fibers, present distinct distribution patterns based on their physical properties and emission sources. Fragments and foam were the most prevalent, accounting for 42% and 35%, respectively, of the 1026 MP items identified in total. Statistical analyses revealed significant correlations between MP types and beach morphometric features, with higher elevations correlating with increased MP concentrations, particularly for pellets and foam. Beaches with intermediate slopes (0.05&lt;tanβ &lt;0.12) and openings to the southern quadrant tended to accumulate more MPs. This research underscores the importance of tailored management strategies that consider the unique characteristics of each coastal region to mitigate the impacts of MP pollution. The findings contribute to the development of targeted monitoring and environmental remediation strategies, which are crucial for protecting marine life and maintaining the integrity of coastal environments.
+                  </div>
+              </section>
+          </div>
+        </div>
+</div>
+
+
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View BibTeX" button="" class="button is-small is-info is-light modal-button" aria-haspopup="true">BibTeX</a>
+      <div class="modal" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+          <div class="modal-card">
+            <header class="modal-card-head">
+              <p class="modal-card-title">BibTeX</p>
+            </header>
+              <section class="modal-card-body">
+                  <div class="content">
+                    <pre>
+                    @article{Ferreira2024marpolbul,
+  title = {{Recognizing microplastic deposits on sandy beaches by altimetric positioning, μ-Raman spectroscopy and multivariate statistical models}},
+  journal = {Marine Pollution Bulletin},
+  volume = {209},
+  pages = {117025},
+  year = {2024},
+  issn = {0025-326X},
+  doi = {https://doi.org/10.1016/j.marpolbul.2024.117025},
+  url = {https://www.sciencedirect.com/science/article/pii/S0025326X24010026},
+  access = {Paywalled},
+  kind = {journal},
+  author = {Ferreira, A. T. S. and Wetter, Niklaus Ursus and Ribeiro, Maria Carolina Hernandez and Esteves, Luciana Slomp and Dias, António José Guerner and Grohmann, C. H. and Kuznetsova, Maria and de Freitas, Anderson Zanardi and de Oliveira, Regina Célia and Siegle, Eduardo},
+  keywords = {Marine litter, Plastic particles, Coastal deposition, Extreme events, GNSS}
+}
+
+                    </pre>
+                  </div>
+              </section>
+          </div>
+        </div>
+</div>
+
+
+<a title="Open article (new tab)" class="button is-small is-warning is-light" rel="noopener noreferrer noopener noreferrer" target="_blank" href="http://dx.doi.org/https://doi.org/10.1016/j.marpolbul.2024.117025">Paywalled</a>
+
+
+
+
+
+
+</div>
+
+</div>
+
+<p></p>
+
+<!--  <a class="button is-small is-info" data-toggle="collapse" href="#Ferreira2024marpolbul-abstract">Abstract</a>
+<pre style="white-space:pre-wrap;" id="Ferreira2024marpolbul-abstract" class="pre pre-scrollable collapse">Understanding the extent and implications of microplastic (MP) pollution along the São Paulo State coastline in southeastern Brazil is crucial, considering the significant environmental burden imposed by industrial and port activities in this region. This research aims to understand the complex dynamics of MP deposition on sandy beaches, which poses severe environmental risks to coastal ecosystems, marine organisms, and humans. Using a comprehensive five-step methodology—geodetic surveys, sediment collection, μ-RAMAN spectrometry for polymer identification, and multivariate statistical models—we analyzed the distribution of MPs across six coastal compartments (C1 to C6). The results (128 samples from 34 profiles) revealed relatively high MP concentrations in C3 and C2, which were likely influenced by local human activities. Various shape types of MPs, such as pellets, fragments, and fibers, present distinct distribution patterns based on their physical properties and emission sources. Fragments and foam were the most prevalent, accounting for 42% and 35%, respectively, of the 1026 MP items identified in total. Statistical analyses revealed significant correlations between MP types and beach morphometric features, with higher elevations correlating with increased MP concentrations, particularly for pellets and foam. Beaches with intermediate slopes (0.05<tanβ <0.12) and openings to the southern quadrant tended to accumulate more MPs. This research underscores the importance of tailored management strategies that consider the unique characteristics of each coastal region to mitigate the impacts of MP pollution. The findings contribute to the development of targeted monitoring and environmental remediation strategies, which are crucial for protecting marine life and maintaining the integrity of coastal environments.</pre>
+
+<a class="button is-small is-info" data-toggle="collapse" href="#Ferreira2024marpolbul-bibtex">BibTeX</a>
+<pre id="Ferreira2024marpolbul-bibtex" class="pre pre-scrollable collapse">@article{Ferreira2024marpolbul,
+  title = {{Recognizing microplastic deposits on sandy beaches by altimetric positioning, μ-Raman spectroscopy and multivariate statistical models}},
+  journal = {Marine Pollution Bulletin},
+  volume = {209},
+  pages = {117025},
+  year = {2024},
+  issn = {0025-326X},
+  doi = {https://doi.org/10.1016/j.marpolbul.2024.117025},
+  url = {https://www.sciencedirect.com/science/article/pii/S0025326X24010026},
+  access = {Paywalled},
+  kind = {journal},
+  author = {Ferreira, A. T. S. and Wetter, Niklaus Ursus and Ribeiro, Maria Carolina Hernandez and Esteves, Luciana Slomp and Dias, António José Guerner and Grohmann, C. H. and Kuznetsova, Maria and de Freitas, Anderson Zanardi and de Oliveira, Regina Célia and Siegle, Eduardo},
+  keywords = {Marine litter, Plastic particles, Coastal deposition, Extreme events, GNSS}
+}
+</pre> -->
+
+
+
+
+
+
+
+
+
+</li>
+<li>
+<div class="block has-text-justified">
+<span id="Guth2024ranking10dems">Guth, P. L., Trevisani, S., Grohmann, C. H., Lindsay, J., Gesch, D., Hawker, L., &amp; Bielski, C. 2024. Ranking of 10 Global One-Arc-Second DEMs Reveals Limitations in Terrain Morphology Representation. <i>Remote Sensing</i>, 16(17).</span>
+
+<div class="buttons">
+
+
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View abstract" button="" class="button is-small is-info is-light modal-button" data-target="Guth2024ranking10dems" aria-haspopup="true">Abstract</a>
+      <div class="modal" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+          <div class="modal-card">
+            <header class="modal-card-head">
+              <p class="modal-card-title">Abstract</p>
+            </header>
+              <section class="modal-card-body">
+                  <div class="content">
+                    At least 10 global digital elevation models (DEMs) at one-arc-second resolution now cover Earth. Comparing derived grids, like slope or curvature, preserves surface spatial relationships, and can be more important than just elevation values. Such comparisons provide more nuanced DEM rankings than just elevation root mean square error (RMSE) for a small number of points. We present three new comparison categories: fraction of unexplained variance (FUV) for grids with continuous floating point values; accuracy metrics for integer code raster classifications; and comparison of stream channel vector networks. We compare six global DEMs that are digital surface models (DSMs), and four edited versions that use machine learning/artificial intelligence techniques to create a bare-earth digital terrain model (DTM) for different elevation ranges: full Earth elevations, under 120 m, under 80 m, and under 10 m. We find edited DTMs improve on elevation values, but because they do not incorporate other metrics in their training they do not improve overall on the source Copernicus DSM. We also rank 17 common geomorphic-derived grids for sensitivity to DEM quality, and document how landscape characteristics, especially slope, affect the results. None of the DEMs perform well in areas with low average slope compared to reference DTMs aggregated from 1 m airborne lidar data. This indicates that accurate work in low-relief areas grappling with global climate change should use airborne lidar or very high resolution image-derived DTMs.
+                  </div>
+              </section>
+          </div>
+        </div>
+</div>
+
+
+<div x-data="{ open: false }">
+    <a x-on:click="open = true" title="View BibTeX" button="" class="button is-small is-info is-light modal-button" aria-haspopup="true">BibTeX</a>
+      <div class="modal" x-bind:class="open ? 'is-active' : ''" x-cloak="">
+        <div class="modal-background" x-on:click="open = false"></div>
+          <div class="modal-card">
+            <header class="modal-card-head">
+              <p class="modal-card-title">BibTeX</p>
+            </header>
+              <section class="modal-card-body">
+                  <div class="content">
+                    <pre>
+                    @article{Guth2024ranking10dems,
+  author = {Guth, Peter L. and Trevisani, Sebastiano and Grohmann, C. H. and Lindsay, John and Gesch, Dean and Hawker, Laurence and Bielski, Conrad},
+  title = {{Ranking of 10 Global One-Arc-Second DEMs Reveals Limitations in Terrain Morphology Representation}},
+  journal = {Remote Sensing},
+  volume = {16},
+  year = {2024},
+  number = {17},
+  issn = {2072-4292},
+  access = {Open Access},
+  doi = {10.3390/rs16173273},
+  kind = {journal},
+  oalink = {https://doi.org/10.3390/rs16173273},
+  url = {https://www.mdpi.com/2072-4292/16/17/3273}
+}
+
+                    </pre>
+                  </div>
+              </section>
+          </div>
+        </div>
+</div>
+
+
+<a title="Open article (new tab)" class="button is-small is-success is-light" rel="noopener noreferrer noopener noreferrer" target="_blank" href="https://doi.org/10.3390/rs16173273">Open Access</a>
+
+
+
+
+
+
+</div>
+
+</div>
+
+<p></p>
+
+<!--  <a class="button is-small is-info" data-toggle="collapse" href="#Guth2024ranking10dems-abstract">Abstract</a>
+<pre style="white-space:pre-wrap;" id="Guth2024ranking10dems-abstract" class="pre pre-scrollable collapse">At least 10 global digital elevation models (DEMs) at one-arc-second resolution now cover Earth. Comparing derived grids, like slope or curvature, preserves surface spatial relationships, and can be more important than just elevation values. Such comparisons provide more nuanced DEM rankings than just elevation root mean square error (RMSE) for a small number of points. We present three new comparison categories: fraction of unexplained variance (FUV) for grids with continuous floating point values; accuracy metrics for integer code raster classifications; and comparison of stream channel vector networks. We compare six global DEMs that are digital surface models (DSMs), and four edited versions that use machine learning/artificial intelligence techniques to create a bare-earth digital terrain model (DTM) for different elevation ranges: full Earth elevations, under 120 m, under 80 m, and under 10 m. We find edited DTMs improve on elevation values, but because they do not incorporate other metrics in their training they do not improve overall on the source Copernicus DSM. We also rank 17 common geomorphic-derived grids for sensitivity to DEM quality, and document how landscape characteristics, especially slope, affect the results. None of the DEMs perform well in areas with low average slope compared to reference DTMs aggregated from 1 m airborne lidar data. This indicates that accurate work in low-relief areas grappling with global climate change should use airborne lidar or very high resolution image-derived DTMs.</pre>
+
+<a class="button is-small is-info" data-toggle="collapse" href="#Guth2024ranking10dems-bibtex">BibTeX</a>
+<pre id="Guth2024ranking10dems-bibtex" class="pre pre-scrollable collapse">@article{Guth2024ranking10dems,
+  author = {Guth, Peter L. and Trevisani, Sebastiano and Grohmann, C. H. and Lindsay, John and Gesch, Dean and Hawker, Laurence and Bielski, Conrad},
+  title = {{Ranking of 10 Global One-Arc-Second DEMs Reveals Limitations in Terrain Morphology Representation}},
+  journal = {Remote Sensing},
+  volume = {16},
+  year = {2024},
+  number = {17},
+  issn = {2072-4292},
+  access = {Open Access},
+  doi = {10.3390/rs16173273},
+  kind = {journal},
+  oalink = {https://doi.org/10.3390/rs16173273},
+  url = {https://www.mdpi.com/2072-4292/16/17/3273}
 }
 </pre> -->
 
@@ -1045,7 +1453,7 @@
                   <div class="content">
                     <pre>
                     @article{Dias2023_dfhm8,
-  author = {Dias**, V.C. and Dias*, H.C. and Grohmann, C. H.},
+  author = {Dias**, V. C. and Dias*, H. C. and Grohmann, C. H.},
   journal = {E3S Web of Conferences},
   title = {{Rainfall-induced debris flows and shallow landslides in Ribeira Valley, Brazil: Main characteristics and inventory mapping}},
   year = {2023},
@@ -1088,7 +1496,7 @@
 
 <a class="button is-small is-info" data-toggle="collapse" href="#Dias2023_dfhm8-bibtex">BibTeX</a>
 <pre id="Dias2023_dfhm8-bibtex" class="pre pre-scrollable collapse">@article{Dias2023_dfhm8,
-  author = {Dias**, V.C. and Dias*, H.C. and Grohmann, C. H.},
+  author = {Dias**, V. C. and Dias*, H. C. and Grohmann, C. H.},
   journal = {E3S Web of Conferences},
   title = {{Rainfall-induced debris flows and shallow landslides in Ribeira Valley, Brazil: Main characteristics and inventory mapping}},
   year = {2023},
@@ -1152,7 +1560,7 @@
                   <div class="content">
                     <pre>
                     @article{Dias2023_giforum,
-  author = {Dias*, H. C. and H{\"o}lbling, D. and Dias**, V.C. and Grohmann, C. H.},
+  author = {Dias*, H. C. and H{\"o}lbling, D. and Dias**, V. C. and Grohmann, C. H.},
   journal = {GI\_Forum},
   title = {{Application of Object-Based Image Analysis for Detecting and Differentiating between Shallow Landslides and Debris Flows}},
   year = {2023},
@@ -1191,7 +1599,7 @@
 
 <a class="button is-small is-info" data-toggle="collapse" href="#Dias2023_giforum-bibtex">BibTeX</a>
 <pre id="Dias2023_giforum-bibtex" class="pre pre-scrollable collapse">@article{Dias2023_giforum,
-  author = {Dias*, H. C. and H{\"o}lbling, D. and Dias**, V.C. and Grohmann, C. H.},
+  author = {Dias*, H. C. and H{\"o}lbling, D. and Dias**, V. C. and Grohmann, C. H.},
   journal = {GI\_Forum},
   title = {{Application of Object-Based Image Analysis for Detecting and Differentiating between Shallow Landslides and Debris Flows}},
   year = {2023},
